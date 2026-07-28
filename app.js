@@ -38,7 +38,7 @@ let latestData=fallback, historyData=[], activeRange=7;
 const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
 const itemState=item=>statusMeta[item?.[2]]||statusMeta.normal;
-const sourceRank=source=>/합참|국방부|IAEA|state|defense/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC/i.test(source)?3:/38 North/i.test(source)?4:/CSIS/i.test(source)?5:9;
+const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|FCDO|ICAO|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|RUSI|IISS|NK News/i.test(source)?4:9;
 const matchNews=(data,pattern)=>(data.news||[]).filter(item=>pattern.test(`${item.title} ${item.titleKo||""}`)).slice(0,2);
 
 function sourceLinks(news){
@@ -79,6 +79,8 @@ function compactItems(definitions,data,type){
 function render(data){
   latestData=data;
   $("updatedAt").textContent=`UPDATED ${data.updatedAt||"—"}`;
+  const health=data.sourceHealth;
+  $("sourceHealth").textContent=health?`정보처 ${health.successful}/${health.total} · 기사 ${health.articleCount}`:"출처 신뢰도";
   $("riskLabel").textContent=data.risk?.level||"평상시";
   $("riskScore").textContent=data.risk?.score??0;
   $("riskReason").textContent=data.risk?.reason||"";

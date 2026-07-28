@@ -25,7 +25,7 @@
 
 ## 자동 갱신
 
-GitHub Actions가 매일 한국 시간 오전 6시와 오후 6시에 실행됩니다. GDELT를 우선 사용하고 Google News RSS를 예비 경로로 사용합니다. 수집에 실패하면 마지막 정상 데이터를 유지합니다.
+GitHub Actions가 매일 한국 시간 오전 6시와 오후 6시에 실행됩니다. GDELT와 지표별 Google News RSS 검색에 더해 38 North, CSIS Beyond Parallel, KCNA Watch의 공개 피드를 확인합니다. 합참·국방부·IAEA·MSMT·외교부·NOTAM 등 공식 발표처와 전문 분석기관을 출처 등급별로 구분하며, 수집에 실패하면 마지막 정상 데이터를 유지합니다.
 
 ## 로컬 확인
 

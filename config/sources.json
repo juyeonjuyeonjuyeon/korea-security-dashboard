@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "freshness_days": 7,
+  "queries": [
+    {
+      "id": "military_movement",
+      "label": "병력·탄약·야전병원",
+      "query": "(North Korea OR DPRK) (troop OR artillery OR ammunition OR fuel OR field hospital OR military train OR deployment)"
+    },
+    {
+      "id": "leadership",
+      "label": "김정은 공개활동",
+      "query": "(North Korea OR DPRK) (Kim Jong Un OR leadership) (inspection OR meeting OR appearance OR disappeared OR bunker)"
+    },
+    {
+      "id": "border",
+      "label": "북중 국경·주민통제",
+      "query": "(North Korea OR DPRK) (China border OR border closure OR lockdown OR movement restriction OR customs)"
+    },
+    {
+      "id": "russia",
+      "label": "북러 군사협력",
+      "query": "(North Korea OR DPRK) (Russia OR Ukraine) (troops OR weapons OR ammunition OR sanctions OR military cooperation)"
+    },
+    {
+      "id": "embassy_aviation",
+      "label": "대사관·항공·여행경보",
+      "query": "(South Korea OR Korean Peninsula) (embassy evacuation OR diplomat withdrawal OR travel advisory OR flight cancellation OR NOTAM)"
+    },
+    {
+      "id": "nuclear_missile",
+      "label": "핵·미사일",
+      "query": "(North Korea OR DPRK) (nuclear facility OR IAEA OR missile launch OR ballistic missile OR test site)"
+    },
+    {
+      "id": "war_risk",
+      "label": "전쟁위험 보험·해운",
+      "query": "(Korea OR Korean Peninsula) (war risk insurance OR Joint War Committee OR shipping risk OR listed area)"
+    },
+    {
+      "id": "official",
+      "label": "공식 발표",
+      "query": "(North Korea OR DPRK OR Korean Peninsula) (site:mnd.go.kr OR site:jcs.mil.kr OR site:state.gov OR site:defense.gov OR site:iaea.org OR site:gov.uk)"
+    }
+  ],
+  "rss": [
+    {
+      "name": "38 North",
+      "url": "https://www.38north.org/feed/",
+      "grade": "C"
+    },
+    {
+      "name": "CSIS Beyond Parallel",
+      "url": "https://beyondparallel.csis.org/feed/",
+      "grade": "C"
+    },
+    {
+      "name": "KCNA Watch",
+      "url": "https://kcnawatch.org/feed/",
+      "grade": "D"
+    }
+  ],
+  "source_groups": {
+    "A": [
+      "합동참모본부",
+      "국방부",
+      "IAEA",
+      "MSMT",
+      "미 국무부·국방부",
+      "영국 FCDO",
+      "ICAO·NOTAM"
+    ],
+    "B": [
+      "Reuters",
+      "AP",
+      "BBC",
+      "AFP",
+      "WSJ",
+      "연합뉴스"
+    ],
+    "C": [
+      "38 North",
+      "CSIS Beyond Parallel",
+      "RUSI",
+      "IISS",
+      "NK News"
+    ],
+    "D": [
+      "KCNA Watch·관영매체",
+      "Daily NK",
+      "Asia Press",
+      "SNS·단독보도"
+    ]
+  }
+}
