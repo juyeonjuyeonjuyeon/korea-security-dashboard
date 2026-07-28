@@ -8,15 +8,28 @@ const historyIndexFile = new URL("../data/history/index.json", import.meta.url);
 const previous = JSON.parse(await fs.readFile(dashboardFile, "utf8"));
 const config = JSON.parse(await fs.readFile(weightsFile, "utf8"));
 const sourceConfig = JSON.parse(await fs.readFile(sourcesFile, "utf8"));
-const userAgent = "korea-security-dashboard/2.1 (+https://github.com/juyeonjuyeonjuyeon/korea-security-dashboard)";
+const userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36 korea-security-dashboard/2.2";
 
 const sourcePatterns = {
-  A: /jcs\.mil\.kr|mnd\.go\.kr|국방부|합동참모본부|joint chiefs|state\.gov|defense\.gov|pentagon|iaea\.org|international atomic energy agency|gov\.uk|foreign commonwealth|icao\.int|notam|multilateral sanctions monitoring team|\bmsmt\b/i,
+  A: /jcs\.mil\.kr|mnd\.go\.kr|국방부|합동참모본부|joint chiefs|state\.gov|defense\.gov|pacom\.mil|pentagon|iaea\.org|ctbto\.org|usgs\.gov|mod\.go\.jp|imo\.org|international atomic energy agency|gov\.uk|foreign commonwealth|icao\.int|notam|multilateral sanctions monitoring team|\bmsmt\b/i,
   B: /reuters|associated press|\bap news\b|\bbbc\b|\bafp\b|wall street journal|\bwsj\b|yonhap|연합뉴스/i,
   C: /38 north|beyond parallel|csis|rusi|iiss|nk news/i
 };
 const allowed = new RegExp(`${sourcePatterns.A.source}|${sourcePatterns.B.source}|${sourcePatterns.C.source}|kcna watch|daily nk|dailynk|asia press|rimjin-gang`, "i");
 const relevant = /north korea|\bdprk\b|kim jong un|pyongyang|korean peninsula|inter-korean|북한|평양|김정은|한반도|남북/i;
+const officialPages = [
+  { name: "합동참모본부", url: "https://www.jcs.mil.kr/", includeArticles: false },
+  { name: "대한민국 국방부", url: "https://www.mnd.go.kr/", includeArticles: false },
+  { name: "IAEA DPRK", url: "https://www.iaea.org/newscenter/focus/dprk", includeArticles: true },
+  { name: "미 국방부", url: "https://www.defense.gov/News/News-Stories/Tag/155460/north-korea/", includeArticles: true },
+  { name: "미 국무부", url: "https://www.state.gov/countries-areas/north-korea/", includeArticles: true },
+  { name: "미 인도태평양사령부", url: "https://www.pacom.mil/Media/News/", includeArticles: true },
+  { name: "일본 방위성", url: "https://www.mod.go.jp/en/d_act/sec_env/nk/index.html", includeArticles: true },
+  { name: "영국 FCDO", url: "https://www.gov.uk/foreign-travel-advice/south-korea", includeArticles: false },
+  { name: "ICAO", url: "https://www.icao.int/", includeArticles: false },
+  { name: "IMO", url: "https://www.imo.org/en/MediaCentre/Pages/Default.aspx", includeArticles: true },
+  { name: "CTBTO", url: "https://www.ctbto.org/news-and-events/news", includeArticles: true }
+];
 const rules = {
   missile_test: /missile (test|launch|firing)|ballistic missile|미사일 (시험|발사)/i,
   artillery_movement: /artillery (movement|deployment|position|drill)|포병 (이동|배치)|방사포 이동/i,
@@ -83,17 +96,68 @@ async function collectDirectRss(feed) {
     .map(article => ({ ...article, source: feed.name }));
 }
 
+async function collectOfficialPage(page) {
+  const html = await fetchText(page.url, 18000);
+  if (!page.includeArticles) return [];
+  const articles = [];
+  for (const match of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    const title = decodeXml(match[2]);
+    if (title.length < 12 || !relevant.test(title) || /^(north korea|dprk|북한)$/i.test(title)) continue;
+    try {
+      articles.push({ title, url: new URL(decodeXml(match[1]), page.url).href, source: page.name, date: "", forcedGrade: "A" });
+    } catch {}
+    if (articles.length >= 5) break;
+  }
+  return articles;
+}
+
+async function collectSeismic() {
+  const start = new Date(Date.now() - 7 * 86400000).toISOString();
+  const url = `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=${encodeURIComponent(start)}&minlatitude=33&maxlatitude=44&minlongitude=124&maxlongitude=132&minmagnitude=2.5`;
+  const result = JSON.parse(await fetchText(url, 18000));
+  return (result.features || []).map(event => ({
+    title: `Korean Peninsula seismic event: ${event.properties?.title || "USGS detection"}`,
+    url: event.properties?.url || "https://earthquake.usgs.gov/",
+    source: "USGS 지진 관측",
+    date: dateFrom(event.properties?.time),
+    forcedGrade: "A"
+  }));
+}
+
 async function collectNews() {
-  const jobs = [
+  const discoveryJobs = [
     collectGdelt(),
     ...sourceConfig.queries.map(item => collectGoogle(item.query)),
     ...sourceConfig.rss.map(collectDirectRss)
   ];
-  const settled = await Promise.allSettled(jobs);
-  const articles = settled.flatMap(result => result.status === "fulfilled" ? result.value : []);
+  const officialJobs = [
+    ...officialPages.map(page => collectOfficialPage(page)),
+    collectSeismic()
+  ];
+  const [settled, officialSettled] = await Promise.all([
+    Promise.allSettled(discoveryJobs),
+    Promise.allSettled(officialJobs)
+  ]);
+  const articles = [
+    ...settled.flatMap(result => result.status === "fulfilled" ? result.value : []),
+    ...officialSettled.flatMap(result => result.status === "fulfilled" ? result.value : [])
+  ];
   const successful = settled.filter(result => result.status === "fulfilled").length;
+  const officialNames = [...officialPages.map(page => page.name), "USGS 지진 관측"];
+  const directSources = officialSettled.map((result, index) => ({
+    name: officialNames[index],
+    ok: result.status === "fulfilled"
+  }));
+  const directSuccessful = directSources.filter(item => item.ok).length;
   if (!successful) throw new Error("모든 공개 정보처 연결 실패");
-  return { articles, successful, total: jobs.length };
+  return {
+    articles,
+    successful,
+    total: discoveryJobs.length,
+    directSuccessful,
+    directTotal: officialJobs.length,
+    directSources
+  };
 }
 
 function deduplicate(articles) {
@@ -181,6 +245,11 @@ try {
     .sort((a, b) => String(b.date).localeCompare(String(a.date)));
   const news = await translateNews(raw);
   if (!news.length) throw new Error("유효한 공개 출처 뉴스 0건");
+  const sourceCounts = Object.entries(news.reduce((counts, item) => {
+    counts[item.source] = (counts[item.source] || 0) + 1;
+    return counts;
+  }, {})).sort((a, b) => b[1] - a[1]);
+  const topSourceShare = sourceCounts.length ? Math.round(sourceCounts[0][1] / news.length * 100) : 0;
 
   const events = verifiedEvents(news);
   const scoreBreakdown = events.filter(event => event.verified);
@@ -198,6 +267,13 @@ try {
     sourceHealth: {
       successful: collected.successful,
       total: collected.total,
+      directSuccessful: collected.directSuccessful,
+      directTotal: collected.directTotal,
+      directSources: collected.directSources,
+      uniqueSources: sourceCounts.length,
+      topSource: sourceCounts[0]?.[0] || "—",
+      topSourceShare,
+      concentrationWarning: topSourceShare >= 50,
       articleCount: news.length,
       checkedAt: kstNow()
     },

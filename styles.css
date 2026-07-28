@@ -278,6 +278,7 @@ main { padding: 18px 0 78px; }
 .source-classes { display: grid; grid-template-columns: repeat(4,1fr); padding: 12px; }
 .source-classes span { padding: 7px; color: var(--faded); font-size: 10px; line-height: 1.45; }
 .source-classes b { display: block; margin-bottom: 4px; color: var(--ink); font-size: 19px; }
+.source-coverage { margin: 0; padding: 9px 12px; border-top: 1px dotted var(--soft-rule); color: var(--faded); font-size: 10px; }
 .methodology { margin-top: 18px; padding: 11px 12px; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule); background: rgba(255,255,255,.1); }
 .methodology summary { font-weight: 700; font-size: 12px; cursor: pointer; }
 .weight-grid { display: grid; grid-template-columns: repeat(5,1fr); gap: 5px; margin-top: 10px; }

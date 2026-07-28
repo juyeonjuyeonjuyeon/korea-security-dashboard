@@ -38,7 +38,7 @@ let latestData=fallback, historyData=[], activeRange=7;
 const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
 const itemState=item=>statusMeta[item?.[2]]||statusMeta.normal;
-const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|FCDO|ICAO|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|RUSI|IISS|NK News/i.test(source)?4:9;
+const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|인도태평양|FCDO|ICAO|IMO|CTBTO|USGS|일본 방위성|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|RUSI|IISS|NK News/i.test(source)?4:9;
 const matchNews=(data,pattern)=>(data.news||[]).filter(item=>pattern.test(`${item.title} ${item.titleKo||""}`)).slice(0,2);
 
 function sourceLinks(news){
@@ -80,7 +80,10 @@ function render(data){
   latestData=data;
   $("updatedAt").textContent=`UPDATED ${data.updatedAt||"—"}`;
   const health=data.sourceHealth;
-  $("sourceHealth").textContent=health?`정보처 ${health.successful}/${health.total} · 기사 ${health.articleCount}`:"출처 신뢰도";
+  $("sourceHealth").textContent=health?`뉴스 ${health.successful}/${health.total} · 공식 직접 ${health.directSuccessful??0}/${health.directTotal??0} · 기사 ${health.articleCount}`:"출처 신뢰도";
+  if($("sourceCoverage")) $("sourceCoverage").textContent=health?.concentrationWarning
+    ? `주의: ${health.topSource} 비중 ${health.topSourceShare}% · 출처 편중`
+    : `서로 다른 출처 ${health?.uniqueSources??0}곳 · 최대 출처 비중 ${health?.topSourceShare??0}%`;
   $("riskLabel").textContent=data.risk?.level||"평상시";
   $("riskScore").textContent=data.risk?.score??0;
   $("riskReason").textContent=data.risk?.reason||"";
@@ -154,7 +157,7 @@ async function notifyOnChange(data){
   if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=16")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=17")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});
