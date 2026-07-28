@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#e8e8e4">
+  <meta name="description" content="공개 출처 기반 최신 기술 트렌드 인텔리전스">
+  <title>주연뉴스 · 기술 트렌드</title>
+  <link rel="manifest" href="./manifest.webmanifest?v=13">
+  <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
+  <link rel="stylesheet" href="./styles.css?v=15">
+</head>
+<body class="tech-page">
+  <header class="terminal-header">
+    <a href="./" class="wordmark">주연뉴스</a>
+    <div class="market-clock"><span id="techUpdatedAt">데이터 확인 중</span></div>
+    <div class="header-actions">
+      <a href="./" class="terminal-button">1면 안보</a>
+      <button id="techRefreshButton" class="terminal-button">갱신</button>
+    </div>
+  </header>
+
+  <main>
+    <nav class="edition-nav" aria-label="신문 면 선택">
+      <a href="./">제1면 · 한반도 안보</a>
+      <a href="./tech.html" aria-current="page">제2면 · 최신 기술 트렌드</a>
+    </nav>
+
+    <section class="tech-overview">
+      <article class="module tech-pulse">
+        <header><span>TECH PULSE</span><small>기술 동향</small></header>
+        <strong id="techHeadline">최신 흐름 확인 중</strong>
+        <div class="tech-metrics">
+          <span>수집 기사 <b id="techArticleCount">—</b></span>
+          <span>최근 24시간 <b id="techRecentCount">—</b></span>
+          <span>확인 출처 <b id="techSourceCount">—</b></span>
+        </div>
+      </article>
+      <article class="module tech-summary">
+        <header><span>TODAY'S SIGNALS</span><small>오늘 주목할 변화</small></header>
+        <ol id="techSummary"><li>자료 확인 중</li></ol>
+      </article>
+    </section>
+
+    <section class="intelligence-board tech-board">
+      <div class="section-title">
+        <div><span>TREND MATRIX</span><h2>분야별 기술 흐름</h2></div>
+        <small>기사량이 아니라 최근 변화와 출처를 함께 봅니다</small>
+      </div>
+      <div id="techCategories" class="tech-category-grid"></div>
+    </section>
+
+    <section class="module news-module">
+      <header><span>TECHNOLOGY FEED</span><small>최신 기술 뉴스</small></header>
+      <div class="tech-feed-head" aria-hidden="true"><span>시각</span><span>분야</span><span>출처</span><span>제목</span><span>등급</span></div>
+      <div id="techNews" class="timeline tech-timeline"></div>
+    </section>
+
+    <section class="module tech-source-note">
+      <header><span>SOURCE POLICY</span><small id="techSourceHealth">연결 확인 중</small></header>
+      <p><b>A</b> 기업·기관 공식 발표　 <b>B</b> Reuters·AP·BBC　 <b>C</b> MIT Technology Review·IEEE Spectrum·Ars Technica·The Verge·TechCrunch</p>
+    </section>
+
+    <aside class="disclaimer">공개자료를 자동 분류한 참고용 기술 동향입니다. 제품 구매나 투자 판단에는 원문과 공식 발표를 다시 확인하세요.</aside>
+  </main>
+
+  <nav class="mobile-nav">
+    <a href="./">1면</a><a href="#techHeadline">요약</a><a href="#techCategories">분야</a><a href="#techNews">뉴스</a><a href="./tech.html" aria-current="page">2면</a>
+  </nav>
+  <script src="./tech.js?v=15" defer></script>
+</body>
+</html>
