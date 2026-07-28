@@ -289,7 +289,15 @@ async function notifyOnChange(data) {
   });
 }
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js?v=7");
+if ("serviceWorker" in navigator) {
+  let reloadingForUpdate = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (reloadingForUpdate) return;
+    reloadingForUpdate = true;
+    window.location.reload();
+  });
+  navigator.serviceWorker.register("./sw.js?v=8");
+}
 let installPrompt;
 window.addEventListener("beforeinstallprompt", event => {
   event.preventDefault();
