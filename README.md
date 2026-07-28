@@ -1,4 +1,4 @@
-# 주연상사뉴우스 — Korea Security Dashboard v2
+# 주연뉴스 — Korea Security Dashboard v2
 
 공개 자료를 한 화면에 정리하는 정적 PWA입니다. GitHub Pages와 GitHub Actions만 사용하며 별도 서버비나 API 키가 필요하지 않습니다.
 
