@@ -1,6 +1,6 @@
 const fallback = {
   updatedAt: "자동 갱신 전",
-  risk: { level: "평상시", reason: "공개 자료에서 전면전 임박을 뒷받침하는 복합 신호가 확인되지 않았습니다." },
+  risk: { level: "평상시", score: 10, reason: "공개 자료에서 전면전 임박을 뒷받침하는 복합 신호가 확인되지 않았습니다." },
   dailyChange: "기준 데이터",
   urgentChange: "확인된 긴급 변화 없음",
   signals: [
@@ -40,6 +40,9 @@ function draw(data) {
   $("urgentChange").textContent = data.urgentChange || "—";
   $("riskLabel").textContent = data.risk?.level || "판정 보류";
   $("riskReason").textContent = data.risk?.reason || "충분한 공개 자료가 없습니다.";
+  const calculatedScore = (data.signals || []).reduce((score, item) => score + (item[2] === "alert" ? 20 : item[2] === "watch" ? 5 : 0), 0);
+  $("riskScore").textContent = Math.min(100, Number.isFinite(data.risk?.score) ? data.risk.score : calculatedScore);
+  $("riskCard").dataset.level = data.risk?.level || "판정 보류";
 
   $("signals").innerHTML = data.signals.map((item, i) => `
     <div class="signal">

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#07111f">
+  <meta name="theme-color" content="#eee9dc">
   <meta name="description" content="공개 출처를 바탕으로 한 한반도 안보 변화 모니터링 대시보드">
   <title>주연상사뉴우스</title>
   <link rel="manifest" href="./manifest.webmanifest">
@@ -11,65 +11,72 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="./" aria-label="주연상사뉴우스 홈">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>주연상사뉴우스</span>
-    </a>
-    <button id="installButton" class="ghost" hidden>앱 설치</button>
+  <header class="masthead">
+    <div class="edition">
+      <span>한반도 안보 공개정보판</span>
+      <span id="updatedAt">—</span>
+    </div>
+    <div class="title-row">
+      <button id="installButton" class="paper-button" hidden>앱 설치</button>
+      <a class="brand" href="./" aria-label="주연상사뉴우스 홈">주연상사뉴우스</a>
+      <button id="refreshButton" class="paper-button">새로고침</button>
+    </div>
+    <div class="edition bottom">
+      <span>매일 오전 8시 갱신</span>
+      <span>공식 확인 · 해외 보도 · 전문 분석</span>
+    </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div>
-        <p class="eyebrow">PUBLIC-SOURCE SITUATION BOARD</p>
-        <h1>소음보다 <em>변화</em>를 봅니다.</h1>
-        <p class="lead">외교·군사·민간 지표를 함께 비교해, 어제와 달라진 신호만 빠르게 확인하세요.</p>
-      </div>
-      <div id="riskCard" class="risk-card">
-        <div class="risk-orbit" aria-hidden="true"></div>
-        <p>종합 위험도</p>
+    <section class="alert-board" aria-label="오늘의 위기 경보">
+      <div id="riskCard" class="alert-level">
+        <span class="label">오늘의 위기 경보</span>
         <strong id="riskLabel">자료 확인 중</strong>
-        <span id="riskReason">최신 공개 자료를 불러오고 있습니다.</span>
       </div>
-    </section>
-
-    <section class="status-strip" aria-label="오늘 상태">
-      <div><span>업데이트</span><strong id="updatedAt">—</strong></div>
-      <div><span>어제 대비</span><strong id="dailyChange">—</strong></div>
-      <div><span>긴급 변화</span><strong id="urgentChange">—</strong></div>
+      <div class="score-box">
+        <span class="label">위기 점수</span>
+        <div><strong id="riskScore">—</strong><small>/ 100</small></div>
+      </div>
+      <div class="change-box">
+        <span class="label">어제 대비</span>
+        <strong id="dailyChange">—</strong>
+      </div>
+      <div class="change-box">
+        <span class="label">긴급 변화</span>
+        <strong id="urgentChange">—</strong>
+      </div>
+      <p id="riskReason" class="risk-reason">최신 공개 자료를 불러오고 있습니다.</p>
     </section>
 
     <section class="grid">
       <article class="panel wide">
         <div class="panel-head">
-          <div><p class="kicker">EARLY SIGNALS</p><h2>조기경보 지표 10</h2></div>
-          <span class="legend">확인됨 · 관찰 · 미확인</span>
+          <h2>조기경보 지표 10</h2>
+          <span class="legend">■ 정상　▲ 관찰　● 경고　? 미확인</span>
         </div>
         <div id="signals" class="signal-grid"></div>
       </article>
 
       <article class="panel">
-        <div class="panel-head"><div><p class="kicker">COMBINATIONS</p><h2>복합 신호</h2></div></div>
-        <p class="muted">개별 사건보다 동시에 나타나는 조합을 더 중요하게 봅니다.</p>
+        <div class="panel-head"><h2>복합 위험 신호</h2></div>
         <div id="combinations" class="stack"></div>
       </article>
 
       <article class="panel">
-        <div class="panel-head"><div><p class="kicker">CORE FIVE</p><h2>핵심 지표 5</h2></div></div>
+        <div class="panel-head"><h2>핵심 지표 5</h2></div>
         <div id="coreSignals" class="stack"></div>
       </article>
 
       <article class="panel wide">
         <div class="panel-head">
-          <div><p class="kicker">LATEST COVERAGE</p><h2>최근 해외 보도</h2></div>
-          <button id="refreshButton" class="ghost">새로고침</button>
+          <h2>오늘의 해외 보도</h2>
+          <span class="legend">기사 원문으로 이동</span>
         </div>
         <div id="news" class="news-list"></div>
       </article>
 
       <article class="panel wide">
-        <div class="panel-head"><div><p class="kicker">SOURCE DESK</p><h2>출처와 판정 원칙</h2></div></div>
+        <div class="panel-head"><h2>출처 신뢰도</h2></div>
         <div class="source-grid">
           <div><strong>A · 공식</strong><p>한국 합참·정부, 미 국무부·국방부, 각국 외교부, IAEA</p></div>
           <div><strong>B · 주요 보도</strong><p>Reuters, AP, BBC 등 편집·검증 체계를 갖춘 국제 언론</p></div>
@@ -86,7 +93,7 @@
   </main>
 
   <footer>
-    <span>개인·지인용 무료 정적 PWA</span>
+    <span>주연상사뉴우스 · 공개정보 참고판</span>
     <a href="https://www.safetykorea.go.kr/" target="_blank" rel="noreferrer">국민재난안전포털</a>
   </footer>
   <script src="./app.js" defer></script>
