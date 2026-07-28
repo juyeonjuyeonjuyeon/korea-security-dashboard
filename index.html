@@ -17,8 +17,14 @@
       <span id="updatedAt">—</span>
     </div>
     <div class="title-row">
-      <button id="installButton" class="paper-button" hidden>앱 설치</button>
-      <a class="brand" href="./" aria-label="주연상사뉴우스 홈">주연상사뉴우스</a>
+      <div class="title-actions">
+        <button id="installButton" class="paper-button" hidden>앱 설치</button>
+        <button id="desktopSettingsButton" class="paper-button">알림</button>
+      </div>
+      <a class="brand" href="./" aria-label="주연상사뉴우스 홈">
+        <span class="home-icon" aria-hidden="true">주</span>
+        <span>주연상사뉴우스</span>
+      </a>
       <button id="refreshButton" class="paper-button">새로고침</button>
     </div>
     <div class="edition bottom">
@@ -28,7 +34,7 @@
   </header>
 
   <main>
-    <section class="alert-board" aria-label="오늘의 위기 경보">
+    <section id="today" class="alert-board" aria-label="오늘의 위기 경보">
       <div id="riskCard" class="alert-level">
         <span class="label">오늘의 위기 경보</span>
         <strong id="riskLabel">자료 확인 중</strong>
@@ -49,7 +55,7 @@
     </section>
 
     <section class="grid">
-      <article class="panel wide">
+      <article id="signalsSection" class="panel wide">
         <div class="panel-head">
           <h2>조기경보 지표 10</h2>
           <span class="legend">■ 정상　▲ 관찰　● 경고　? 미확인</span>
@@ -67,7 +73,17 @@
         <div id="coreSignals" class="stack"></div>
       </article>
 
-      <article class="panel wide">
+      <article id="historySection" class="panel wide history-panel">
+        <div class="panel-head">
+          <h2>날짜별 대시보드</h2>
+          <button id="latestButton" class="text-button">오늘로 돌아가기</button>
+        </div>
+        <div id="historyList" class="history-list">
+          <span class="empty-inline">기록을 불러오는 중입니다.</span>
+        </div>
+      </article>
+
+      <article id="newsSection" class="panel wide">
         <div class="panel-head">
           <h2>오늘의 해외 보도</h2>
           <span class="legend">기사 원문으로 이동</span>
@@ -96,6 +112,30 @@
     <span>주연상사뉴우스 · 공개정보 참고판</span>
     <a href="https://www.safetykorea.go.kr/" target="_blank" rel="noreferrer">국민재난안전포털</a>
   </footer>
+
+  <dialog id="settingsDialog" class="settings-dialog">
+    <form method="dialog">
+      <div class="dialog-head">
+        <h2>알림 설정</h2>
+        <button class="close-button" value="cancel" aria-label="닫기">×</button>
+      </div>
+      <p>새 데이터가 확인될 때 브라우저 알림을 표시합니다.</p>
+      <label class="notify-row">
+        <span><strong>업데이트 알림</strong><small>오전 6시 · 오후 6시 자료 갱신 후 확인</small></span>
+        <input id="notificationToggle" type="checkbox" role="switch">
+      </label>
+      <p id="notificationStatus" class="notification-status">알림 상태를 확인 중입니다.</p>
+      <p class="dialog-note">무료 웹앱 특성상 앱이 완전히 종료된 동안의 실시간 푸시는 보장되지 않습니다. 앱을 열 때 놓친 갱신을 확인합니다.</p>
+    </form>
+  </dialog>
+
+  <nav class="mobile-nav" aria-label="주요 메뉴">
+    <a href="#today"><span aria-hidden="true">▣</span>오늘</a>
+    <a href="#signalsSection"><span aria-hidden="true">◎</span>지표</a>
+    <a href="#historySection"><span aria-hidden="true">▤</span>날짜</a>
+    <a href="#newsSection"><span aria-hidden="true">▥</span>뉴스</a>
+    <button id="settingsButton"><span aria-hidden="true">♧</span>알림</button>
+  </nav>
   <script src="./app.js" defer></script>
 </body>
 </html>

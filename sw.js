@@ -1,5 +1,5 @@
-const CACHE = "security-board-v2";
-const ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest", "./icon.svg", "./data/dashboard.json"];
+const CACHE = "security-board-v3";
+const ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest", "./icon.svg", "./data/dashboard.json", "./data/history/index.json"];
 self.addEventListener("install", event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS))));
 self.addEventListener("activate", event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))));
 self.addEventListener("fetch", event => {
@@ -9,4 +9,8 @@ self.addEventListener("fetch", event => {
     caches.open(CACHE).then(cache => cache.put(event.request, copy));
     return response;
   }).catch(() => caches.match(event.request)));
+});
+self.addEventListener("notificationclick", event => {
+  event.notification.close();
+  event.waitUntil(clients.openWindow("./"));
 });

@@ -33,6 +33,7 @@ const fallback = {
 
 const $ = (id) => document.getElementById(id);
 const labels = { normal: "확인됨", watch: "관찰", alert: "경고", unknown: "미확인" };
+let latestData = fallback;
 
 function draw(data) {
   $("updatedAt").textContent = data.updatedAt || "알 수 없음";
@@ -62,7 +63,7 @@ function draw(data) {
   $("news").innerHTML = data.news?.length ? data.news.map(item => `
     <a class="news-item" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">
       <span class="source">${escapeHtml(item.source || "해외 보도")}</span>
-      <strong>${escapeHtml(item.title)}</strong>
+      <strong>${escapeHtml(item.titleKo || item.title)}</strong>
       <time>${escapeHtml(item.date || "")}</time>
     </a>`).join("") : `<p class="empty">자동 수집된 새 해외 보도가 없습니다. 공식 발표와 원문을 직접 확인해 주세요.</p>`;
 }
@@ -73,15 +74,86 @@ function escapeHtml(value = "") {
 function safeUrl(value = "") {
   try { const u = new URL(value); return /^https?:$/.test(u.protocol) ? u.href : "#"; } catch { return "#"; }
 }
-async function load() {
+async function load(path = "./data/dashboard.json", isLatest = true) {
   try {
-    const response = await fetch(`./data/dashboard.json?t=${Date.now()}`, { cache: "no-store" });
+    const response = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error("data");
-    draw(await response.json());
+    const data = await response.json();
+    if (isLatest) {
+      latestData = data;
+      await notifyOnChange(data);
+    }
+    draw(data);
   } catch { draw(fallback); }
 }
-$("refreshButton").addEventListener("click", load);
+$("refreshButton").addEventListener("click", () => load());
+$("latestButton").addEventListener("click", () => load());
 load();
+
+async function loadHistory() {
+  try {
+    const response = await fetch(`./data/history/index.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error("history");
+    const dates = await response.json();
+    $("historyList").innerHTML = dates.length ? dates.map((date, i) =>
+      `<button class="date-button${i === 0 ? " current" : ""}" data-date="${escapeHtml(date)}">${escapeHtml(date)}</button>`
+    ).join("") : `<span class="empty-inline">저장된 과거 기록이 없습니다.</span>`;
+    $("historyList").addEventListener("click", event => {
+      const button = event.target.closest("[data-date]");
+      if (!button) return;
+      document.querySelectorAll(".date-button").forEach(item => item.classList.toggle("current", item === button));
+      load(`./data/history/${button.dataset.date}.json`, false);
+      window.scrollTo({ top: $("today").offsetTop - 10, behavior: "smooth" });
+    });
+  } catch {
+    $("historyList").innerHTML = `<span class="empty-inline">날짜별 기록은 다음 자동 갱신부터 쌓입니다.</span>`;
+  }
+}
+loadHistory();
+
+const settingsDialog = $("settingsDialog");
+[$("settingsButton"), $("desktopSettingsButton")].forEach(button =>
+  button.addEventListener("click", () => settingsDialog.showModal())
+);
+const notificationToggle = $("notificationToggle");
+const notificationStatus = $("notificationStatus");
+
+function renderNotificationState() {
+  const supported = "Notification" in window;
+  const enabled = localStorage.getItem("dashboardNotifications") === "on";
+  notificationToggle.checked = supported && enabled && Notification.permission === "granted";
+  notificationToggle.disabled = !supported || Notification.permission === "denied";
+  notificationStatus.textContent = !supported
+    ? "이 브라우저는 알림을 지원하지 않습니다."
+    : Notification.permission === "denied"
+      ? "브라우저 설정에서 알림 차단을 해제해 주세요."
+      : notificationToggle.checked ? "알림이 켜져 있습니다." : "알림이 꺼져 있습니다.";
+}
+notificationToggle.addEventListener("change", async () => {
+  if (!notificationToggle.checked) {
+    localStorage.setItem("dashboardNotifications", "off");
+    renderNotificationState();
+    return;
+  }
+  const permission = await Notification.requestPermission();
+  localStorage.setItem("dashboardNotifications", permission === "granted" ? "on" : "off");
+  renderNotificationState();
+});
+renderNotificationState();
+
+async function notifyOnChange(data) {
+  const key = "dashboardLastSeenUpdate";
+  const previous = localStorage.getItem(key);
+  localStorage.setItem(key, data.updatedAt || "");
+  if (!previous || previous === data.updatedAt) return;
+  if (localStorage.getItem("dashboardNotifications") !== "on" || Notification.permission !== "granted") return;
+  const registration = await navigator.serviceWorker?.ready;
+  registration?.showNotification("주연상사뉴우스 갱신", {
+    body: `${data.risk?.level || "상태 확인"} · ${data.dailyChange || "새 자료가 있습니다."}`,
+    icon: "./icon.svg",
+    tag: "dashboard-update"
+  });
+}
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js");
 let installPrompt;
