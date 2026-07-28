@@ -41,7 +41,10 @@ a { color: inherit; }
   gap: 16px;
   padding: 18px 0 14px;
 }
+.title-row > #installButton { grid-column: 1; }
 .brand {
+  grid-column: 2;
+  min-width: 0;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -54,6 +57,7 @@ a { color: inherit; }
   letter-spacing: -.09em;
   text-decoration: none;
   text-shadow: 1px 1px 0 rgba(0,0,0,.1);
+  white-space: nowrap;
 }
 .paper-button {
   appearance: none;
@@ -70,7 +74,7 @@ a { color: inherit; }
   cursor: pointer;
 }
 .paper-button:hover { color: var(--paper); background: var(--ink); }
-.title-actions { display: grid; gap: 5px; }
+.title-actions { grid-column: 3; display: grid; gap: 5px; }
 main { padding-top: 20px; }
 .official-alert {
   display: flex;
@@ -141,6 +145,8 @@ main { padding-top: 20px; }
   background: #d8d1c2;
   box-shadow: 5px 5px 0 rgba(22,21,18,.16);
 }
+.signal-subboards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; margin-top: 24px; }
+.signal-subpanel .panel-head { margin-bottom: 4px; }
 .panel-head {
   display: flex;
   align-items: end;
@@ -282,6 +288,7 @@ footer { display: flex; justify-content: space-between; padding-block: 18px 32px
   .alert-board > div { min-height: 112px; border-bottom: 1px solid var(--rule); }
   .alert-board > div:nth-child(2) { border-right: 0; }
   .signal-grid { grid-template-columns: repeat(2, 1fr); }
+  .signal-subboards { grid-template-columns: 1fr; gap: 10px; }
   .news-list { columns: 1; }
   .source-grid { grid-template-columns: repeat(2, 1fr); }
   .official-alert { align-items: flex-start; }
@@ -290,7 +297,9 @@ footer { display: flex; justify-content: space-between; padding-block: 18px 32px
 @media (max-width: 560px) {
   body { padding-bottom: 74px; }
   .edition { font-size: .6rem; }
-  .brand { font-size: 2.55rem; }
+  .title-row { grid-template-columns: 54px minmax(0, 1fr) 58px; gap: 5px; }
+  .brand { font-size: clamp(1.45rem, 7vw, 2.1rem); letter-spacing: -.08em; }
+  .paper-button { padding-inline: 2px; font-size: .56rem; }
   .alert-board { grid-template-columns: 1.2fr .8fr; }
   .alert-board > div { padding: 14px; }
   .alert-board > div:nth-child(3), .alert-board > div:nth-child(4) { min-height: 90px; }

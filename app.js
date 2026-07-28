@@ -262,7 +262,7 @@ async function notifyOnChange(data) {
   const registration = await navigator.serviceWorker?.ready;
   registration?.showNotification("주연상사뉴우스 갱신", {
     body: `${reasons.join(" · ")} · ${data.risk?.level || "상태 확인"}`,
-    icon: "./icon.svg",
+    icon: "./icon-192.png?v=3",
     tag: "dashboard-update"
   });
 }
