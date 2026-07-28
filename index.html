@@ -6,11 +6,11 @@
   <meta name="theme-color" content="#eee9dc">
   <meta name="description" content="공개 출처를 바탕으로 한 한반도 안보 변화 모니터링 대시보드">
   <title>주연상사뉴우스</title>
-  <link rel="manifest" href="./manifest.webmanifest?v=3">
-  <link rel="icon" href="./icon-32.png?v=3" type="image/png" sizes="32x32">
-  <link rel="icon" href="./icon.svg?v=3" type="image/svg+xml" sizes="any">
-  <link rel="apple-touch-icon" href="./icon-180.png?v=3" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="manifest" href="./manifest.webmanifest?v=7">
+  <link rel="icon" href="./icon-32.png?v=7" type="image/png" sizes="32x32">
+  <link rel="icon" href="./icon.svg?v=7" type="image/svg+xml" sizes="any">
+  <link rel="apple-touch-icon" href="./icon-180.png?v=7" sizes="180x180">
+  <link rel="stylesheet" href="./styles.css?v=7">
 </head>
 <body>
   <header class="masthead">
@@ -19,11 +19,13 @@
       <span id="updatedAt">—</span>
     </div>
     <div class="title-row">
-      <button id="installButton" class="paper-button" hidden>앱 설치</button>
+      <div class="title-slot title-slot-left">
+        <button id="installButton" class="paper-button" hidden>앱 설치</button>
+      </div>
       <a class="brand" href="./" aria-label="주연상사뉴우스 홈">
         <span>주연상사뉴우스</span>
       </a>
-      <div class="title-actions">
+      <div class="title-slot title-actions">
         <button id="desktopSettingsButton" class="paper-button">알림</button>
         <button id="refreshButton" class="paper-button">새로고침</button>
       </div>
@@ -171,6 +173,6 @@
     <a href="#newsSection"><span aria-hidden="true">▥</span>뉴스</a>
     <button id="settingsButton"><span aria-hidden="true">♧</span>알림</button>
   </nav>
-  <script src="./app.js" defer></script>
+  <script src="./app.js?v=7" defer></script>
 </body>
 </html>

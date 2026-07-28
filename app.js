@@ -47,6 +47,18 @@ const signalDescriptions = {
   "전쟁위험 보험 변화": "한국 관련 선박·항공 전쟁위험 보험료가 비정상적으로 급등하는지 확인합니다.",
   "주한 외국공관 철수": "주한 외교공관의 비필수 인력·가족 철수나 공관 폐쇄는 강한 후기 경보 신호입니다."
 };
+const additionalDescriptions = {
+  "병력 이동 + 탄약·연료 + 야전병원": "병력 이동과 전투 물자, 의료지원 준비가 동시에 확인되는지 봅니다. 세 신호의 결합은 단일 훈련보다 실제 작전 준비 가능성을 더 강하게 시사합니다.",
+  "대사관 철수 + 항공편 중단": "여러 나라 공관의 인력 철수와 민간 항공편 중단이 겹치는 후기 위기 신호입니다.",
+  "주민 소개 + 지도부 은신": "접경 주민의 조직적 대피와 북한 지도부의 공개활동 중단·지하시설 이동이 동시에 나타나는지 확인합니다.",
+  "북중 국경 통제 + 병력 증강": "중국이 북중 국경을 비상 통제하면서 접경 병력까지 늘리는지 보는 주변국 반응 지표입니다.",
+  "북한 병력·장비 이동": "전방 부대와 미사일·포병 장비의 평시 범위를 벗어난 이동 여부를 종합합니다.",
+  "중국 접경 움직임": "북중 국경 통제, 중국군 이동, 중국인 귀국 권고 등 중국 측의 비상 대응 여부입니다.",
+  "외국 공관·여행경보": "주한 외교공관의 운영 축소와 주요국 여행경보 상향이 동시에 나타나는지 확인합니다.",
+  "북한 군사활동": "미사일, 포병, 해군, 공군 활동의 빈도와 배치 변화가 평시 추세를 벗어나는지 봅니다.",
+  "주한미군 비전투원 조치": "주한미군 가족과 비필수 인력에 대한 실제 출국·대피 명령 여부입니다. 정례 훈련과 구분해야 합니다."
+};
+Object.assign(signalDescriptions, additionalDescriptions);
 const signalKeywords = {
   "야전병원·혈액 보급": /hospital|medical|blood/i,
   "대규모 탄약·연료 이동": /ammunition|munition|fuel|artillery/i,
@@ -57,7 +69,16 @@ const signalKeywords = {
   "북러 군사협력": /russia|russian|ukraine/i,
   "한국행 항공편 변화": /airline|flight|aviation/i,
   "전쟁위험 보험 변화": /insurance|shipping|war risk/i,
-  "주한 외국공관 철수": /embassy|diplomat|evacuation|withdrawal/i
+  "주한 외국공관 철수": /embassy|diplomat|evacuation|withdrawal/i,
+  "병력 이동 + 탄약·연료 + 야전병원": /troop|deployment|ammunition|fuel|hospital|medical/i,
+  "대사관 철수 + 항공편 중단": /embassy|evacuation|airline|flight/i,
+  "주민 소개 + 지도부 은신": /resident|evacuation|kim jong un|leadership/i,
+  "북중 국경 통제 + 병력 증강": /china|chinese|border|troop/i,
+  "북한 병력·장비 이동": /troop|equipment|launcher|deployment|artillery/i,
+  "중국 접경 움직임": /china|chinese|border/i,
+  "외국 공관·여행경보": /embassy|travel warning|advisory|evacuation/i,
+  "북한 군사활동": /military|missile|artillery|naval|air force/i,
+  "주한미군 비전투원 조치": /USFK|noncombatant|military families|evacuation/i
 };
 
 function draw(data) {
@@ -75,7 +96,7 @@ function draw(data) {
   $("officialAlert").dataset.level = official.level || "unknown";
 
   $("signals").innerHTML = data.signals.map((item, i) => `
-    <div class="signal" tabindex="0" role="button" aria-expanded="false">
+    <div class="signal interactive-item" tabindex="0" role="button" aria-expanded="false">
       <span class="num">${String(i + 1).padStart(2, "0")}</span>
       <strong>${escapeHtml(item[0])}</strong>
       <span class="badge ${item[2]}">${escapeHtml(item[1] || labels[item[2]])}</span>
@@ -83,9 +104,10 @@ function draw(data) {
     </div>`).join("");
 
   const stack = (items) => items.map(item => `
-    <div class="stack-item">
+    <div class="stack-item interactive-item" tabindex="0" role="button" aria-expanded="false">
       <span>${escapeHtml(item[0])}</span>
       <span class="badge ${item[2]}">${escapeHtml(item[1])}</span>
+      ${signalDetail(item, data)}
     </div>`).join("");
   $("combinations").innerHTML = stack(data.combinations || []);
   $("coreSignals").innerHTML = stack(data.coreSignals || []);
@@ -117,28 +139,28 @@ function signalDetail(item, data) {
 
 function toggleSignal(signal) {
   const willOpen = !signal.classList.contains("open");
-  document.querySelectorAll(".signal.open").forEach(item => {
+  document.querySelectorAll(".interactive-item.open").forEach(item => {
     item.classList.remove("open");
     item.setAttribute("aria-expanded", "false");
   });
   signal.classList.toggle("open", willOpen);
   signal.setAttribute("aria-expanded", String(willOpen));
 }
-$("signals").addEventListener("click", event => {
+$("signalsSection").addEventListener("click", event => {
   if (event.target.closest("a")) return;
-  const signal = event.target.closest(".signal");
+  const signal = event.target.closest(".interactive-item");
   if (signal) toggleSignal(signal);
 });
-$("signals").addEventListener("keydown", event => {
+$("signalsSection").addEventListener("keydown", event => {
   if (!["Enter", " "].includes(event.key) || event.target.closest("a")) return;
-  const signal = event.target.closest(".signal");
+  const signal = event.target.closest(".interactive-item");
   if (!signal) return;
   event.preventDefault();
   toggleSignal(signal);
 });
 document.addEventListener("keydown", event => {
   if (event.key !== "Escape") return;
-  document.querySelectorAll(".signal.open").forEach(item => {
+  document.querySelectorAll(".interactive-item.open").forEach(item => {
     item.classList.remove("open");
     item.setAttribute("aria-expanded", "false");
   });
@@ -262,12 +284,12 @@ async function notifyOnChange(data) {
   const registration = await navigator.serviceWorker?.ready;
   registration?.showNotification("주연상사뉴우스 갱신", {
     body: `${reasons.join(" · ")} · ${data.risk?.level || "상태 확인"}`,
-    icon: "./icon-192.png?v=3",
+    icon: "./icon-192.png?v=7",
     tag: "dashboard-update"
   });
 }
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js");
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js?v=7");
 let installPrompt;
 window.addEventListener("beforeinstallprompt", event => {
   event.preventDefault();
