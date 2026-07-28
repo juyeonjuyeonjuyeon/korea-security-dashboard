@@ -41,6 +41,36 @@
       "id": "official",
       "label": "공식 발표",
       "query": "(North Korea OR DPRK OR Korean Peninsula) (site:mnd.go.kr OR site:jcs.mil.kr OR site:state.gov OR site:defense.gov OR site:iaea.org OR site:gov.uk)"
+    },
+    {
+      "id": "domestic_major",
+      "label": "국내 주요 방송",
+      "query": "북한 (site:ytn.co.kr OR site:kbs.co.kr OR site:imnews.imbc.com OR site:news.sbs.co.kr)"
+    },
+    {
+      "id": "domestic_wire",
+      "label": "국내 통신·주요지",
+      "query": "북한 (site:yna.co.kr OR site:newsis.com OR site:seoul.co.kr OR site:hankookilbo.com)"
+    },
+    {
+      "id": "international_major",
+      "label": "해외 주요 보도",
+      "query": "(North Korea OR DPRK) (site:reuters.com OR site:apnews.com OR site:bbc.com OR site:theguardian.com OR site:ft.com)"
+    },
+    {
+      "id": "specialist_reporting",
+      "label": "북한 전문 보도",
+      "query": "(North Korea OR DPRK OR 북한) (site:nknews.org OR site:dailynk.com OR site:rfa.org OR site:voakorea.com OR site:asiapress.org)"
+    },
+    {
+      "id": "border_public_safety",
+      "label": "접경·생활안전",
+      "query": "북한 (유실지뢰 OR 나뭇잎지뢰 OR 댐 방류 OR GPS 교란 OR 오물풍선 OR 무인기 OR 접경지역)"
+    },
+    {
+      "id": "north_state_media",
+      "label": "북한 관영매체 원문",
+      "query": "(North Korea OR DPRK) (site:kcnawatch.org OR site:rodong.rep.kp)"
     }
   ],
   "rss": [
@@ -58,6 +88,16 @@
       "name": "KCNA Watch",
       "url": "https://kcnawatch.org/feed/",
       "grade": "D"
+    },
+    {
+      "name": "SBS 뉴스",
+      "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01&plink=RSSREADER",
+      "grade": "B"
+    },
+    {
+      "name": "연합뉴스TV",
+      "url": "https://www.yonhapnewstv.co.kr/category/news/politics/feed/",
+      "grade": "B"
     }
   ],
   "source_groups": {
@@ -76,19 +116,21 @@
       "BBC",
       "AFP",
       "WSJ",
-      "연합뉴스"
+      "연합뉴스",
+      "YTN·KBS·MBC·SBS",
+      "뉴시스"
     ],
     "C": [
       "38 North",
       "CSIS Beyond Parallel",
       "RUSI",
       "IISS",
-      "NK News"
+      "NK News",
+      "RFA·VOA",
+      "Daily NK·Asia Press"
     ],
     "D": [
       "KCNA Watch·관영매체",
-      "Daily NK",
-      "Asia Press",
       "SNS·단독보도"
     ]
   }

@@ -12,10 +12,10 @@ const userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 
 
 const sourcePatterns = {
   A: /jcs\.mil\.kr|mnd\.go\.kr|국방부|합동참모본부|joint chiefs|state\.gov|defense\.gov|pacom\.mil|pentagon|iaea\.org|ctbto\.org|usgs\.gov|mod\.go\.jp|imo\.org|international atomic energy agency|gov\.uk|foreign commonwealth|icao\.int|notam|multilateral sanctions monitoring team|\bmsmt\b/i,
-  B: /reuters|associated press|\bap news\b|\bbbc\b|\bafp\b|wall street journal|\bwsj\b|yonhap|연합뉴스/i,
-  C: /38 north|beyond parallel|csis|rusi|iiss|nk news/i
+  B: /reuters|associated press|\bap news\b|\bbbc\b|\bafp\b|wall street journal|\bwsj\b|yonhap|연합뉴스|\bytn\b|kbs|mbc|sbs|newsis|뉴시스/i,
+  C: /38 north|beyond parallel|csis|rusi|iiss|nk news|radio free asia|\brfa\b|voice of america|\bvoa\b|daily nk|dailynk|asia press|rimjin-gang|서울신문|한국일보|the guardian|financial times/i
 };
-const allowed = new RegExp(`${sourcePatterns.A.source}|${sourcePatterns.B.source}|${sourcePatterns.C.source}|kcna watch|daily nk|dailynk|asia press|rimjin-gang`, "i");
+const allowed = new RegExp(`${sourcePatterns.A.source}|${sourcePatterns.B.source}|${sourcePatterns.C.source}|kcna watch|rodong|조선중앙통신|노동신문`, "i");
 const relevant = /north korea|\bdprk\b|kim jong un|pyongyang|korean peninsula|inter-korean|북한|평양|김정은|한반도|남북/i;
 const officialPages = [
   { name: "합동참모본부", url: "https://www.jcs.mil.kr/", includeArticles: false },
@@ -39,6 +39,16 @@ const rules = {
   embassy_withdrawal: /embassy.{0,30}(withdraw|evacuat|close)|diplomat.{0,30}(withdraw|evacuat)|대사관.{0,30}(철수|대피|폐쇄)/i,
   usfk_family_evacuation: /USFK.{0,30}famil.{0,30}evacuat|noncombatant evacuation.{0,30}korea|주한미군.{0,30}(가족|비전투원).{0,30}(철수|대피)/i,
   leadership_hiding: /leadership.{0,30}(bunker|underground|disappear)|kim jong un.{0,30}(disappear|absence)|지도부.{0,30}(대피|은신|지하)/i
+};
+const riskNewsPattern = /missile|ballistic|nuclear|weapon|artillery|troop|ammunition|military deployment|embassy|evacuat|border clos|field hospital|bunker|미사일|핵|무기|포병|병력|탄약|군사 배치|대사관|철수|국경 봉쇄|야전병원|지도부 은신/i;
+const relatedTopic = item => {
+  const text = `${item.title} ${item.titleKo || ""}`;
+  if (/지뢰|mine|댐 방류|flood|GPS|GNSS|오물풍선|balloon|무인기|drone|접경|border area/i.test(text)) return "접경·생활안전";
+  if (/경제|시장|식량|농업|무역|econom|market|food|trade|society|human rights|인권|주민/i.test(text)) return "북한 사회·경제";
+  if (/중국|러시아|외교|제재|china|russia|diplom|sanction/i.test(text)) return "대외관계";
+  if (/김정은|당대회|정치|leadership|party congress|politic/i.test(text)) return "북한 정치";
+  if (/kcna|rodong|조선중앙통신|노동신문/i.test(`${item.source} ${text}`)) return "북한 관영 발표";
+  return "북한 관련";
 };
 
 const decodeXml = (value = "") => value
@@ -173,6 +183,17 @@ function deduplicate(articles) {
   });
 }
 
+function limitPerSource(articles, maximum = 5) {
+  const counts = new Map();
+  return articles.filter(article => {
+    const source = sourceName(article).toLowerCase();
+    const count = counts.get(source) || 0;
+    if (count >= maximum) return false;
+    counts.set(source, count + 1);
+    return true;
+  });
+}
+
 async function translateNews(news) {
   const cached = new Map((previous.news || []).map(item => [item.title, item.titleKo]));
   const output = [];
@@ -194,7 +215,8 @@ async function translateNews(news) {
       date: article.date,
       titleKo: titleKo && !/MYMEMORY WARNING/i.test(titleKo) ? titleKo : article.title,
       confidence: grade,
-      verification: grade === "A" ? "공식확인" : grade === "B" ? "주요보도" : grade === "C" ? "전문분석" : "교차검증 필요"
+      verification: grade === "A" ? "공식확인" : grade === "B" ? "주요보도" : grade === "C" ? "전문·단일 확인" : "관영·교차검증 필요",
+      riskRelevant: riskNewsPattern.test(`${article.title} ${titleKo || ""}`)
     });
   }
   return output;
@@ -238,11 +260,11 @@ async function saveSnapshot(data) {
 
 try {
   const collected = await collectNews();
-  const raw = deduplicate(collected.articles)
+  const raw = limitPerSource(deduplicate(collected.articles)
     .filter(article => article.title && article.url)
     .filter(article => relevant.test(`${article.title} ${article.source}`))
-    .filter(article => allowed.test(`${sourceName(article)} ${article.url}`))
-    .sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    .filter(article => allowed.test(sourceName(article)))
+    .sort((a, b) => String(b.date).localeCompare(String(a.date))));
   const news = await translateNews(raw);
   if (!news.length) throw new Error("유효한 공개 출처 뉴스 0건");
   const sourceCounts = Object.entries(news.reduce((counts, item) => {
@@ -252,6 +274,11 @@ try {
   const topSourceShare = sourceCounts.length ? Math.round(sourceCounts[0][1] / news.length * 100) : 0;
 
   const events = verifiedEvents(news);
+  const relatedInfo = news.filter(item => !item.riskRelevant).slice(0, 20).map(item => ({
+    ...item,
+    topic: relatedTopic(item),
+    scoreImpact: "위험도 미반영"
+  }));
   const scoreBreakdown = events.filter(event => event.verified);
   const score = Math.min(100, scoreBreakdown.reduce((sum, event) => sum + event.weight, 0));
   const oldScore = Number(previous.risk?.score || 0);
@@ -300,6 +327,7 @@ try {
     urgentChange: score >= 40 ? `${levelFor(score)} 단계 · 공식 채널 확인 필요` : "현재 긴급 경보 없음",
     scoreBreakdown,
     news,
+    relatedInfo,
     rumors: [
       {
         claim: "외국 대사관 철수",

@@ -9,7 +9,7 @@
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=17">
+  <link rel="stylesheet" href="./styles.css?v=18">
 </head>
 <body>
   <header class="terminal-header">
@@ -105,6 +105,12 @@
       <div id="news" class="timeline"></div>
     </section>
 
+    <section id="relatedSection" class="module news-module related-module">
+      <header><span>NORTH KOREA &amp; SECURITY</span><small>북한·안보 관련 정보 · 위험도 점수와 분리</small></header>
+      <div class="related-head" aria-hidden="true"><span>시각</span><span>분류</span><span>출처</span><span>제목</span><span>판정</span></div>
+      <div id="relatedInfo" class="timeline related-list"></div>
+    </section>
+
     <section class="bottom-grid">
       <article id="historySection" class="module">
         <header><span>ARCHIVE</span><small>날짜별 대시보드</small></header>
@@ -114,9 +120,9 @@
         <header><span>SOURCE CLASS</span><small id="sourceHealth">정보처 연결 확인 중</small></header>
         <div class="source-classes">
           <span><b>A</b> 합참·국방부·IAEA·미 국방부·미 국무부·일본 방위성·FCDO·ICAO·IMO·CTBTO·USGS</span>
-          <span><b>B</b> Reuters·AP·BBC·AFP·WSJ·연합뉴스</span>
-          <span><b>C</b> 38 North·Beyond Parallel·RUSI·IISS·NK News</span>
-          <span><b>D</b> KCNA Watch·Daily NK·Asia Press·SNS</span>
+          <span><b>B</b> Reuters·AP·BBC·AFP·연합뉴스·YTN·KBS·MBC·SBS·뉴시스</span>
+          <span><b>C</b> 38 North·Beyond Parallel·NK News·RFA·VOA·Daily NK·Asia Press</span>
+          <span><b>D</b> KCNA Watch·노동신문 등 관영매체·SNS·미확인 단독보도</span>
         </div>
         <p id="sourceCoverage" class="source-coverage">출처 편중 확인 중</p>
       </article>
@@ -150,6 +156,6 @@
   <nav class="mobile-nav">
     <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#trendSection">추세</a><a href="#newsSection">뉴스</a><button id="settingsButton">알림</button>
   </nav>
-  <script src="./app.js?v=17" defer></script>
+  <script src="./app.js?v=18" defer></script>
 </body>
 </html>

@@ -266,6 +266,15 @@ main { padding: 18px 0 78px; }
 .source-badge { padding: 3px 5px; border: 1px solid var(--rule); color: var(--normal); font-family: Arial, sans-serif; font-size: 9px; font-weight: 700; }
 .source-badge.C { color: #173f66; }
 .source-badge.D { color: var(--attention); }
+.related-module { margin-top: 18px; }
+.related-head, .related-item { display: grid; grid-template-columns: 105px 105px 110px 1fr 95px; align-items: center; gap: 10px; min-width: 720px; padding: 9px 12px; }
+.related-head { border-bottom: 1px solid var(--rule); color: var(--faded); font: 700 9px Arial,sans-serif; letter-spacing: .06em; }
+.related-list { overflow-x: auto; }
+.related-item { border-top: 1px dotted var(--soft-rule); text-decoration: none; }
+.related-item:hover { background: rgba(255,255,255,.33); }
+.related-item time { color: var(--faded); font-size: 10px; }
+.related-topic { font-size: 10px; font-weight: 700; }
+.no-score { padding: 3px 5px; border: 1px solid var(--soft-rule); color: var(--faded); font: 700 9px Arial,sans-serif; text-align: center; }
 
 .bottom-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 15px; margin-top: 18px; }
 .history-list { display: grid; overflow: auto; }

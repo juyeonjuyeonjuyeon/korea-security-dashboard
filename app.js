@@ -32,13 +32,13 @@ const statusMeta = {
 const fallback = {
   updatedAt:"자동 갱신 전",risk:{score:0,level:"평상시",trend7:[0],reason:"확인된 복합 위험신호가 없습니다."},
   summary:{added:0,cleared:0,statusChange:"동일",items:["새 위험신호 없음","대사관 변화 없음","주한미군 변화 없음"]},
-  officialAlert:{status:"현재 긴급 경보 없음",level:"normal",checkedAt:"—"},signals:[],combinations:[],coreSignals:[],news:[],rumors:[]
+  officialAlert:{status:"현재 긴급 경보 없음",level:"normal",checkedAt:"—"},signals:[],combinations:[],coreSignals:[],news:[],relatedInfo:[],rumors:[]
 };
 let latestData=fallback, historyData=[], activeRange=7;
 const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
 const itemState=item=>statusMeta[item?.[2]]||statusMeta.normal;
-const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|인도태평양|FCDO|ICAO|IMO|CTBTO|USGS|일본 방위성|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|RUSI|IISS|NK News/i.test(source)?4:9;
+const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|인도태평양|FCDO|ICAO|IMO|CTBTO|USGS|일본 방위성|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스|YTN|KBS|MBC|SBS|Newsis|뉴시스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|RUSI|IISS|NK News|RFA|Radio Free Asia|VOA|Voice of America|Daily NK|Asia Press/i.test(source)?4:9;
 const matchNews=(data,pattern)=>(data.news||[]).filter(item=>pattern.test(`${item.title} ${item.titleKo||""}`)).slice(0,2);
 
 function sourceLinks(news){
@@ -103,7 +103,8 @@ function render(data){
   $("signals").innerHTML=signalCards(data);
   $("combinations").innerHTML=compactItems(combinationDefinitions,data,"combination");
   $("coreSignals").innerHTML=compactItems(coreDefinitions,data,"core");
-  renderNews(data.news||[]);
+  renderNews((data.news||[]).filter(item=>item.riskRelevant!==false));
+  renderRelated(data.relatedInfo||[]);
   renderRumors(data.rumors||[]);
   renderChart();
 }
@@ -131,6 +132,13 @@ async function loadHistory(){
     historyData=[...valid].reverse();renderChart();
   }catch{$("historyList").textContent="기록 없음"}
 }
+function renderRelated(items){
+  $("relatedInfo").innerHTML=items.length?items.map(item=>`<a class="related-item" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">
+    <time>${escapeHtml(item.date||"—")}</time><span class="related-topic">${escapeHtml(item.topic||"북한 관련")}</span>
+    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><span class="news-title">${escapeHtml(item.titleKo||item.title)}</span>
+    <span class="no-score">${escapeHtml(item.scoreImpact||"위험도 미반영")}</span>
+  </a>`).join(""):`<div class="news-item">새로운 일반 북한·안보 정보 없음</div>`;
+}
 async function loadWeights(){
   try{const config=await (await fetch("./config/risk-weights.json")).json();$("scoreWeights").innerHTML=Object.values(config.events).map(item=>`<span>${escapeHtml(item.label)} <b>+${item.weight}</b></span>`).join("")}catch{}
 }
@@ -157,7 +165,7 @@ async function notifyOnChange(data){
   if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=17")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=18")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});
