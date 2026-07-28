@@ -1,313 +1,157 @@
+const $ = id => document.getElementById(id);
+const signalDefinitions = [
+  ["field_hospital","야전병원","전방 야전병원 설치와 혈액·의약품 이동은 지속 작전 준비를 판단하는 보조 신호입니다.",/hospital|medical|blood/i],
+  ["ammunition_movement","탄약 이동","탄약·연료가 평시 범위를 넘어 전방으로 집중되는지 확인합니다.",/ammunition|munition|fuel/i],
+  ["military_train","군용열차","전차·포병·발사대 등을 실은 군용열차가 비정상적으로 증가하는지 봅니다.",/train|equipment|launcher/i],
+  ["kim_activity","김정은 공개활동","공개활동 중단과 전시 지휘시설 관련 동향을 봅니다. 단독 신호로 판단하지 않습니다.",/kim jong un|kim calls|kim supervises/i],
+  ["resident_control","주민 이동통제","접경지역 소개, 도시 봉쇄, 철도·도로 통제 여부입니다.",/resident|lockdown|movement restriction/i],
+  ["china_border_closure","중국 국경","북중 국경 폐쇄, 중국군 이동, 중국인 귀국 권고 여부입니다.",/china|chinese|border/i],
+  ["russia_cooperation","북러 군사협력","북한 병력·무기 지원과 러시아의 기술·물자 제공 확대 여부입니다.",/russia|russian|ukraine/i],
+  ["airline_change","항공사 운항","외국 항공사의 한국 노선 취소·축소가 동시에 나타나는지 봅니다.",/airline|flight|aviation/i],
+  ["war_insurance","전쟁보험","한국 관련 선박·항공 전쟁위험 보험료의 비정상적 변화를 확인합니다.",/insurance|shipping|war risk/i],
+  ["embassy_withdrawal","외국 대사관","비필수 인력·가족 철수나 공관 폐쇄는 강한 후기 경보 신호입니다.",/embassy|diplomat|evacuation|withdrawal/i]
+];
+const combinationDefinitions = [
+  ["포병 + 탄약","포병 배치와 전투 탄약 이동이 동시에 확인되는지 봅니다.",/artillery|ammunition|munition/i],
+  ["야전병원 + 병력","야전 의료체계와 대규모 병력 이동이 겹치는지 봅니다.",/hospital|medical|troop|deployment/i],
+  ["대사관 + 항공편","공관 철수와 민간 항공편 중단이 함께 나타나는지 봅니다.",/embassy|evacuation|airline|flight/i],
+  ["지도부 은신 + 미사일","지도부 활동 중단과 전략 미사일 분산이 동시에 확인되는지 봅니다.",/leadership|kim jong un|missile/i],
+  ["중국 국경 + 병력","중국의 국경 통제와 접경 병력 증강이 겹치는지 봅니다.",/china|border|troop/i]
+];
+const coreDefinitions = [
+  ["북한 병력이동","전방 병력·장비의 평시 범위를 벗어난 이동 여부입니다.",/troop|equipment|deployment/i],
+  ["중국 움직임","북중 국경과 중국 측 비상 대응 변화를 종합합니다.",/china|chinese|border/i],
+  ["외국 대사관","공관 운영 축소, 여행경보, 철수 조치를 함께 봅니다.",/embassy|diplomat|travel warning|evacuation/i],
+  ["북한 군사활동","미사일·포병·해군·공군 활동의 추세 변화입니다.",/military|missile|artillery|naval/i],
+  ["주한미군","비전투원·가족의 실제 출국 또는 대피 명령 여부입니다.",/USFK|noncombatant|military families/i]
+];
+const statusMeta = {
+  normal:["정상","normal"],attention:["주의","attention"],warning:["경계","warning"],danger:["위험","danger"],
+  watch:["주의","attention"],alert:["위험","danger"],unknown:["검토중","normal"]
+};
 const fallback = {
-  updatedAt: "자동 갱신 전",
-  risk: { level: "평상시", score: 10, reason: "공개 자료에서 전면전 임박을 뒷받침하는 복합 신호가 확인되지 않았습니다." },
-  dailyChange: "기준 데이터",
-  urgentChange: "확인된 긴급 변화 없음",
-  officialAlert: { status: "자동 연동 전 · 공식 채널 직접 확인", level: "unknown", checkedAt: "—" },
-  signals: [
-    ["야전병원·혈액 보급", "미확인", "unknown"],
-    ["대규모 탄약·연료 이동", "미확인", "unknown"],
-    ["군용열차·장비 이동", "미확인", "unknown"],
-    ["김정은 공개활동 변화", "관찰", "watch"],
-    ["북한 주민 이동 통제", "미확인", "unknown"],
-    ["중국 접경 비상조치", "변화 없음", "normal"],
-    ["북러 군사협력", "지속 관찰", "watch"],
-    ["한국행 항공편 변화", "변화 없음", "normal"],
-    ["전쟁위험 보험 변화", "미확인", "unknown"],
-    ["주한 외국공관 철수", "변화 없음", "normal"]
-  ],
-  combinations: [
-    ["병력 이동 + 탄약·연료 + 야전병원", "해당 없음", "normal"],
-    ["대사관 철수 + 항공편 중단", "해당 없음", "normal"],
-    ["주민 소개 + 지도부 은신", "해당 없음", "normal"],
-    ["북중 국경 통제 + 병력 증강", "해당 없음", "normal"]
-  ],
-  coreSignals: [
-    ["북한 병력·장비 이동", "미확인", "unknown"],
-    ["중국 접경 움직임", "변화 없음", "normal"],
-    ["외국 공관·여행경보", "변화 없음", "normal"],
-    ["북한 군사활동", "지속 관찰", "watch"],
-    ["주한미군 비전투원 조치", "변화 없음", "normal"]
-  ],
-  news: []
+  updatedAt:"자동 갱신 전",risk:{score:0,level:"평상시",trend7:[0],reason:"확인된 복합 위험신호가 없습니다."},
+  summary:{added:0,cleared:0,statusChange:"동일",items:["새 위험신호 없음","대사관 변화 없음","주한미군 변화 없음"]},
+  officialAlert:{status:"현재 긴급 경보 없음",level:"normal",checkedAt:"—"},signals:[],combinations:[],coreSignals:[],news:[],rumors:[]
 };
+let latestData=fallback, historyData=[], activeRange=7;
+const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
+const itemState=item=>statusMeta[item?.[2]]||statusMeta.normal;
+const sourceRank=source=>/합참|국방부|IAEA|state|defense/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC/i.test(source)?3:/38 North/i.test(source)?4:/CSIS/i.test(source)?5:9;
+const matchNews=(data,pattern)=>(data.news||[]).filter(item=>pattern.test(`${item.title} ${item.titleKo||""}`)).slice(0,2);
 
-const $ = (id) => document.getElementById(id);
-const labels = { normal: "확인됨", watch: "관찰", alert: "경고", unknown: "미확인" };
-let latestData = fallback;
-const signalDescriptions = {
-  "야전병원·혈액 보급": "전방 야전병원 설치와 혈액·의약품 대량 이동은 장기 군사작전 준비 여부를 판단하는 보조 신호입니다.",
-  "대규모 탄약·연료 이동": "탄약과 연료가 평시 수준을 넘어 전방 부대로 집중되는지 살핍니다. 훈련과 실전 준비를 구분해야 합니다.",
-  "군용열차·장비 이동": "전차·포병·발사대 등을 실은 군용열차와 대규모 장비 이동의 비정상적 증가 여부입니다.",
-  "김정은 공개활동 변화": "공개활동의 장기 중단이나 전시 지휘시설 관련 동향을 봅니다. 건강·일정 문제일 수도 있어 단독 판단은 금물입니다.",
-  "북한 주민 이동 통제": "접경지역 소개, 평양 봉쇄, 철도·도로 통제 등 평시와 다른 주민 이동 제한 여부입니다.",
-  "중국 접경 비상조치": "중국의 북중 국경 폐쇄, 병력 증강, 중국인 귀국 권고 같은 비상조치 여부입니다.",
-  "북러 군사협력": "북한 병력·무기 지원과 러시아의 군사기술·물자 제공이 확대되는지 확인합니다.",
-  "한국행 항공편 변화": "전쟁위험 평가에 민감한 외국 항공사의 한국 노선 취소·축소가 동시에 나타나는지 봅니다.",
-  "전쟁위험 보험 변화": "한국 관련 선박·항공 전쟁위험 보험료가 비정상적으로 급등하는지 확인합니다.",
-  "주한 외국공관 철수": "주한 외교공관의 비필수 인력·가족 철수나 공관 폐쇄는 강한 후기 경보 신호입니다."
-};
-const additionalDescriptions = {
-  "병력 이동 + 탄약·연료 + 야전병원": "병력 이동과 전투 물자, 의료지원 준비가 동시에 확인되는지 봅니다. 세 신호의 결합은 단일 훈련보다 실제 작전 준비 가능성을 더 강하게 시사합니다.",
-  "대사관 철수 + 항공편 중단": "여러 나라 공관의 인력 철수와 민간 항공편 중단이 겹치는 후기 위기 신호입니다.",
-  "주민 소개 + 지도부 은신": "접경 주민의 조직적 대피와 북한 지도부의 공개활동 중단·지하시설 이동이 동시에 나타나는지 확인합니다.",
-  "북중 국경 통제 + 병력 증강": "중국이 북중 국경을 비상 통제하면서 접경 병력까지 늘리는지 보는 주변국 반응 지표입니다.",
-  "북한 병력·장비 이동": "전방 부대와 미사일·포병 장비의 평시 범위를 벗어난 이동 여부를 종합합니다.",
-  "중국 접경 움직임": "북중 국경 통제, 중국군 이동, 중국인 귀국 권고 등 중국 측의 비상 대응 여부입니다.",
-  "외국 공관·여행경보": "주한 외교공관의 운영 축소와 주요국 여행경보 상향이 동시에 나타나는지 확인합니다.",
-  "북한 군사활동": "미사일, 포병, 해군, 공군 활동의 빈도와 배치 변화가 평시 추세를 벗어나는지 봅니다.",
-  "주한미군 비전투원 조치": "주한미군 가족과 비필수 인력에 대한 실제 출국·대피 명령 여부입니다. 정례 훈련과 구분해야 합니다."
-};
-Object.assign(signalDescriptions, additionalDescriptions);
-const signalKeywords = {
-  "야전병원·혈액 보급": /hospital|medical|blood/i,
-  "대규모 탄약·연료 이동": /ammunition|munition|fuel|artillery/i,
-  "군용열차·장비 이동": /train|troop|equipment|launcher|deployment/i,
-  "김정은 공개활동 변화": /kim jong un|kim calls|kim supervises/i,
-  "북한 주민 이동 통제": /resident|lockdown|movement restriction/i,
-  "중국 접경 비상조치": /china|chinese|border/i,
-  "북러 군사협력": /russia|russian|ukraine/i,
-  "한국행 항공편 변화": /airline|flight|aviation/i,
-  "전쟁위험 보험 변화": /insurance|shipping|war risk/i,
-  "주한 외국공관 철수": /embassy|diplomat|evacuation|withdrawal/i,
-  "병력 이동 + 탄약·연료 + 야전병원": /troop|deployment|ammunition|fuel|hospital|medical/i,
-  "대사관 철수 + 항공편 중단": /embassy|evacuation|airline|flight/i,
-  "주민 소개 + 지도부 은신": /resident|evacuation|kim jong un|leadership/i,
-  "북중 국경 통제 + 병력 증강": /china|chinese|border|troop/i,
-  "북한 병력·장비 이동": /troop|equipment|launcher|deployment|artillery/i,
-  "중국 접경 움직임": /china|chinese|border/i,
-  "외국 공관·여행경보": /embassy|travel warning|advisory|evacuation/i,
-  "북한 군사활동": /military|missile|artillery|naval|air force/i,
-  "주한미군 비전투원 조치": /USFK|noncombatant|military families|evacuation/i
-};
-
-function draw(data) {
-  $("updatedAt").textContent = data.updatedAt || "알 수 없음";
-  $("dailyChange").textContent = data.dailyChange || "—";
-  $("urgentChange").textContent = data.urgentChange || "—";
-  $("riskLabel").textContent = data.risk?.level || "판정 보류";
-  $("riskReason").textContent = data.risk?.reason || "충분한 공개 자료가 없습니다.";
-  const calculatedScore = (data.signals || []).reduce((score, item) => score + (item[2] === "alert" ? 20 : item[2] === "watch" ? 5 : 0), 0);
-  $("riskScore").textContent = Math.min(100, Number.isFinite(data.risk?.score) ? data.risk.score : calculatedScore);
-  $("riskCard").dataset.level = data.risk?.level || "판정 보류";
-  const official = data.officialAlert || fallback.officialAlert;
-  $("officialAlertStatus").textContent = official.status;
-  $("officialAlertTime").textContent = official.checkedAt ? `확인 ${official.checkedAt}` : "확인 시각 없음";
-  $("officialAlert").dataset.level = official.level || "unknown";
-
-  $("signals").innerHTML = data.signals.map((item, i) => `
-    <div class="signal interactive-item" tabindex="0" role="button" aria-expanded="false">
-      <span class="num">${String(i + 1).padStart(2, "0")}</span>
-      <strong>${escapeHtml(item[0])}</strong>
-      <span class="badge ${item[2]}">${escapeHtml(item[1] || labels[item[2]])}</span>
-      ${signalDetail(item, data)}
-    </div>`).join("");
-
-  const stack = (items) => items.map(item => `
-    <div class="stack-item interactive-item" tabindex="0" role="button" aria-expanded="false">
-      <span>${escapeHtml(item[0])}</span>
-      <span class="badge ${item[2]}">${escapeHtml(item[1])}</span>
-      ${signalDetail(item, data)}
-    </div>`).join("");
-  $("combinations").innerHTML = stack(data.combinations || []);
-  $("coreSignals").innerHTML = stack(data.coreSignals || []);
-
-  $("news").innerHTML = data.news?.length ? data.news.map(item => `
-    <a class="news-item" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">
-      <span class="source">${escapeHtml(item.source || "해외 보도")}</span>
-      <strong>${escapeHtml(item.titleKo || item.title)}</strong>
-      <time>${escapeHtml(item.date || "")}</time>
-    </a>`).join("") : `<p class="empty">자동 수집된 새 해외 보도가 없습니다. 공식 발표와 원문을 직접 확인해 주세요.</p>`;
+function sourceLinks(news){
+  return news.length?news.map(item=>`<a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">[${escapeHtml(item.confidence||"D")}] ${escapeHtml(item.titleKo||item.title)}</a>`).join(""):`<span>연결된 근거 없음 · 상태 변경 미반영</span>`;
 }
-
-function signalDetail(item, data) {
-  const extra = item[3] || {};
-  const confidence = extra.confidence || (item[2] === "unknown" ? "D · 미확인" : item[2] === "normal" ? "C · 공개자료 기준" : "C · 추가 확인 필요");
-  const checkedAt = extra.checkedAt || data.indicatorsCheckedAt || data.updatedAt || "시각 없음";
-  const attached = extra.sources || [];
-  const matched = (data.news || []).filter(article => signalKeywords[item[0]]?.test(`${article.title} ${article.titleKo || ""}`)).slice(0, 2);
-  const sources = attached.length ? attached : matched.map(article => ({ label: article.titleKo || article.title, url: article.url }));
-  const links = sources.length
-    ? sources.map(source => `<a href="${safeUrl(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.label)}</a>`).join("")
-    : `<span class="no-source">연결된 근거 기사 없음 · 미확인으로 해석</span>`;
-  return `<aside class="signal-detail" aria-label="${escapeHtml(item[0])} 설명">
-    <p>${escapeHtml(extra.description || signalDescriptions[item[0]] || "공개 자료의 변화를 확인하는 보조 지표입니다.")}</p>
-    <div class="detail-meta"><span>신뢰도 ${escapeHtml(confidence)}</span><span>확인 ${escapeHtml(checkedAt)}</span></div>
-    <div class="detail-sources">${links}</div>
-  </aside>`;
+function detailPopover(description,news,data){
+  const confidence=news.some(n=>n.confidence==="A")?"A · 공식":new Set(news.filter(n=>["A","B"].includes(n.confidence)).map(n=>n.source)).size>=2?"B · 복수 확인":news.length?"C · 단일/전문 분석":"D · 미확인";
+  return `<aside class="detail-popover"><p>${escapeHtml(description)}</p><p>신뢰도 ${confidence} · 확인 ${escapeHtml(data.updatedAt||"—")}</p>${sourceLinks(news)}</aside>`;
 }
-
-function toggleSignal(signal) {
-  const willOpen = !signal.classList.contains("open");
-  document.querySelectorAll(".interactive-item.open").forEach(item => {
-    item.classList.remove("open");
-    item.setAttribute("aria-expanded", "false");
-  });
-  signal.classList.toggle("open", willOpen);
-  signal.setAttribute("aria-expanded", String(willOpen));
+function signalCards(data){
+  return signalDefinitions.map((def,index)=>{
+    const [id,title,description,pattern]=def;
+    const old=(data.signals||[])[index];
+    const forced=data.signalStatus?.[id];
+    const [label,state]=forced?statusMeta[forced]||statusMeta.normal:itemState(old);
+    const news=matchNews(data,pattern);
+    const today=state==="normal"?"변화 없음":label;
+    const recent=news[0]?.date||"최근 확인 없음";
+    const source=news[0]?.source||"미확인";
+    return `<article class="signal-card interactive ${state}" tabindex="0" aria-expanded="false">
+      <header><h3>${title}</h3><span class="status-chip">${label}</span></header>
+      <dl><dt>오늘</dt><dd>${today}</dd><dt>최근</dt><dd>${escapeHtml(recent)}</dd><dt>출처</dt><dd>${escapeHtml(source)}</dd></dl>
+      ${detailPopover(description,news,data)}
+    </article>`;
+  }).join("");
 }
-$("signalsSection").addEventListener("click", event => {
-  if (event.target.closest("a")) return;
-  const signal = event.target.closest(".interactive-item");
-  if (signal) toggleSignal(signal);
+function compactItems(definitions,data,type){
+  const stored=type==="combination"?data.combinations:data.coreSignals;
+  return definitions.map((def,index)=>{
+    const [title,description,pattern]=def;
+    const old=(stored||[])[index];
+    const [label,state]=itemState(old);
+    const news=matchNews(data,pattern);
+    const display=type==="combination"?(state==="normal"?"미발생":state==="attention"?"검토중":"발생"):(old?.[1]||label);
+    return `<div class="compact-item interactive ${state}" tabindex="0" role="button" aria-expanded="false"><strong>${title}</strong><small>${news[0]?.source?`근거 ${escapeHtml(news[0].source)}`:"확인된 근거 없음"}</small><span class="compact-status">${escapeHtml(display)}</span>${detailPopover(description,news,data)}</div>`;
+  }).join("");
+}
+function render(data){
+  latestData=data;
+  $("updatedAt").textContent=`UPDATED ${data.updatedAt||"—"}`;
+  $("riskLabel").textContent=data.risk?.level||"평상시";
+  $("riskScore").textContent=data.risk?.score??0;
+  $("riskReason").textContent=data.risk?.reason||"";
+  const trend=data.risk?.trend7||[data.risk?.score||0];
+  const previous=trend.at(-2)??trend.at(-1)??0,delta=(data.risk?.score||0)-previous;
+  $("scoreDelta").textContent=`${delta>0?"+":""}${delta} D/D`;
+  $("miniTrend").innerHTML=trend.map(value=>`<i style="height:${Math.max(3,value)}%"></i>`).join("");
+  const summary=data.summary||fallback.summary;
+  $("summaryList").innerHTML=(summary.items||[]).map(item=>`<li>${escapeHtml(item)}</li>`).join("");
+  ["addedCount","stripAdded"].forEach(id=>$(id).textContent=summary.added||0);
+  ["clearedCount","stripCleared"].forEach(id=>$(id).textContent=summary.cleared||0);
+  ["statusChange","stripStatus"].forEach(id=>$(id).textContent=summary.statusChange||"동일");
+  const official=data.officialAlert||fallback.officialAlert;
+  $("officialAlertStatus").textContent=data.urgentChange||official.status;
+  $("officialAlertTime").textContent=official.checkedAt||data.updatedAt||"—";
+  $("officialAlert").dataset.level=official.level||((data.risk?.score||0)>=40?"alert":"normal");
+  $("signals").innerHTML=signalCards(data);
+  $("combinations").innerHTML=compactItems(combinationDefinitions,data,"combination");
+  $("coreSignals").innerHTML=compactItems(coreDefinitions,data,"core");
+  renderNews(data.news||[]);
+  renderRumors(data.rumors||[]);
+  renderChart();
+}
+function renderNews(news){
+  const sorted=[...news].sort((a,b)=>sourceRank(a.source)-sourceRank(b.source)||String(b.date).localeCompare(String(a.date)));
+  $("news").innerHTML=sorted.length?sorted.map(item=>`<a class="news-item" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><span class="news-title">${escapeHtml(item.titleKo||item.title)}</span><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.confidence||"D")} · ${escapeHtml(item.verification||"분석")}</span></a>`).join(""):`<div class="news-item">새 뉴스 없음</div>`;
+}
+function renderRumors(rumors){
+  const defaults=[{claim:"외국 대사관 철수",verdict:"공식 근거 없음",tone:"normal"},{claim:"주한미군 가족 철수",verdict:"확인 불가",tone:"unknown"},{claim:"북한 전면전 임박",verdict:"공식 근거 없음",tone:"normal"}];
+  $("rumors").innerHTML=(rumors.length?rumors:defaults).map(item=>`<div class="rumor-item"><strong>${escapeHtml(item.claim)}</strong><span class="verdict ${escapeHtml(item.tone||"normal")}">${escapeHtml(item.verdict)}</span></div>`).join("");
+}
+function renderChart(){
+  const values=(historyData.length?historyData:[{date:"오늘",score:latestData.risk?.score||0}]).slice(-activeRange);
+  $("riskChart").innerHTML=values.map(item=>`<div style="height:${Math.max(2,item.score)}%" data-label="${escapeHtml(item.date)} · ${item.score}"></div>`).join("");
+}
+async function load(path="./data/dashboard.json",latest=true){
+  try{const response=await fetch(`${path}?t=${Date.now()}`,{cache:"no-store"});if(!response.ok)throw Error("data");const data=await response.json();if(latest)await notifyOnChange(data);render(data)}catch{render(fallback)}
+}
+async function loadHistory(){
+  try{
+    const dates=await (await fetch(`./data/history/index.json?t=${Date.now()}`,{cache:"no-store"})).json();
+    $("historyList").innerHTML=dates.map((date,index)=>`<button data-date="${date}" class="${index===0?"active":""}">${date}</button>`).join("");
+    const snapshots=await Promise.all(dates.slice(0,90).reverse().map(async date=>{try{const d=await (await fetch(`./data/history/${date}.json`)).json();return{date,score:d.risk?.score||0}}catch{return null}}));
+    historyData=snapshots.filter(Boolean);renderChart();
+  }catch{$("historyList").textContent="기록 없음"}
+}
+async function loadWeights(){
+  try{const config=await (await fetch("./config/risk-weights.json")).json();$("scoreWeights").innerHTML=Object.values(config.events).map(item=>`<span>${escapeHtml(item.label)} <b>+${item.weight}</b></span>`).join("")}catch{}
+}
+document.addEventListener("click",event=>{
+  const item=event.target.closest(".interactive");if(item&&!event.target.closest("a")){const open=!item.classList.contains("open");document.querySelectorAll(".interactive.open").forEach(node=>{node.classList.remove("open");node.setAttribute("aria-expanded","false")});item.classList.toggle("open",open);item.setAttribute("aria-expanded",String(open))}
 });
-$("signalsSection").addEventListener("keydown", event => {
-  if (!["Enter", " "].includes(event.key) || event.target.closest("a")) return;
-  const signal = event.target.closest(".interactive-item");
-  if (!signal) return;
-  event.preventDefault();
-  toggleSignal(signal);
-});
-document.addEventListener("keydown", event => {
-  if (event.key !== "Escape") return;
-  document.querySelectorAll(".interactive-item.open").forEach(item => {
-    item.classList.remove("open");
-    item.setAttribute("aria-expanded", "false");
-  });
-});
+document.addEventListener("keydown",event=>{if(["Enter"," "].includes(event.key)&&event.target.matches(".interactive")){event.preventDefault();event.target.click()}if(event.key==="Escape")document.querySelectorAll(".interactive.open").forEach(node=>node.classList.remove("open"))});
+$("refreshButton").addEventListener("click",()=>load());
+$("latestButton").addEventListener("click",()=>load());
+$("historyList").addEventListener("click",event=>{const button=event.target.closest("[data-date]");if(button)load(`./data/history/${button.dataset.date}.json`,false)});
+document.querySelectorAll(".range-tabs button").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll(".range-tabs button").forEach(item=>{item.classList.remove("active");item.setAttribute("aria-pressed","false")});button.classList.add("active");button.setAttribute("aria-pressed","true");activeRange=Number(button.dataset.range);renderChart()}));
 
-function escapeHtml(value = "") {
-  return String(value).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;" })[c]);
+const settingsDialog=$("settingsDialog"),notificationToggle=$("notificationToggle"),ruleInputs=[...document.querySelectorAll("#notificationRules input")];
+[$("settingsButton"),$("desktopSettingsButton")].forEach(button=>button.addEventListener("click",()=>settingsDialog.showModal()));
+const rules=()=>{try{return JSON.parse(localStorage.getItem("notificationRules"))||["score","level","official"]}catch{return["score","level","official"]}};
+ruleInputs.forEach(input=>{input.checked=rules().includes(input.value);input.addEventListener("change",()=>localStorage.setItem("notificationRules",JSON.stringify(ruleInputs.filter(i=>i.checked).map(i=>i.value))))});
+function notificationState(){const supported="Notification"in window,permission=supported?Notification.permission:"unsupported",enabled=localStorage.getItem("notifications")==="on";notificationToggle.checked=supported&&enabled&&permission==="granted";notificationToggle.disabled=!supported||permission==="denied";$("notificationStatus").textContent=!supported?"이 브라우저는 알림을 지원하지 않습니다":permission==="denied"?"주소창의 사이트 설정에서 알림을 허용하세요":notificationToggle.checked?"알림 사용 중":"알림 꺼짐"}
+notificationToggle.addEventListener("change",async()=>{if(!("Notification"in window))return;const permission=notificationToggle.checked?await Notification.requestPermission():"denied";localStorage.setItem("notifications",permission==="granted"?"on":"off");notificationState()});notificationState();
+async function notifyOnChange(data){
+  const prev={update:localStorage.getItem("lastUpdate"),score:Number(localStorage.getItem("lastScore")||0),level:localStorage.getItem("lastLevel")||"평상시"};
+  const current={update:data.updatedAt||"",score:Number(data.risk?.score||0),level:data.risk?.level||"평상시"};
+  localStorage.setItem("lastUpdate",current.update);localStorage.setItem("lastScore",current.score);localStorage.setItem("lastLevel",current.level);
+  if(!prev.update||prev.update===current.update||!("Notification"in window)||Notification.permission!=="granted"||localStorage.getItem("notifications")!=="on")return;
+  const selected=rules(),rank={평상시:0,주의:1,경계:2,심각:3},why=[];
+  if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
+  if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연상사뉴우스",{body:why.join(" · "),icon:"./icon-192.png?v=9",tag:"dashboard"});
 }
-function safeUrl(value = "") {
-  try { const u = new URL(value); return /^https?:$/.test(u.protocol) ? u.href : "#"; } catch { return "#"; }
-}
-async function load(path = "./data/dashboard.json", isLatest = true) {
-  try {
-    const response = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error("data");
-    const data = await response.json();
-    if (isLatest) {
-      latestData = data;
-      await notifyOnChange(data);
-    }
-    draw(data);
-  } catch { draw(fallback); }
-}
-$("refreshButton").addEventListener("click", () => load());
-$("latestButton").addEventListener("click", () => load());
-load();
-
-async function loadHistory() {
-  try {
-    const response = await fetch(`./data/history/index.json?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error("history");
-    const dates = await response.json();
-    $("historyList").innerHTML = dates.length ? dates.map((date, i) =>
-      `<button class="date-button${i === 0 ? " current" : ""}" data-date="${escapeHtml(date)}">${escapeHtml(date)}</button>`
-    ).join("") : `<span class="empty-inline">저장된 과거 기록이 없습니다.</span>`;
-    $("historyList").addEventListener("click", event => {
-      const button = event.target.closest("[data-date]");
-      if (!button) return;
-      document.querySelectorAll(".date-button").forEach(item => item.classList.toggle("current", item === button));
-      load(`./data/history/${button.dataset.date}.json`, false);
-      window.scrollTo({ top: $("today").offsetTop - 10, behavior: "smooth" });
-    });
-  } catch {
-    $("historyList").innerHTML = `<span class="empty-inline">날짜별 기록은 다음 자동 갱신부터 쌓입니다.</span>`;
-  }
-}
-loadHistory();
-
-const settingsDialog = $("settingsDialog");
-[$("settingsButton"), $("desktopSettingsButton")].forEach(button =>
-  button.addEventListener("click", () => settingsDialog.showModal())
-);
-const notificationToggle = $("notificationToggle");
-const notificationStatus = $("notificationStatus");
-const ruleInputs = [...document.querySelectorAll("#notificationRules input")];
-const defaultRules = ["score", "level", "official"];
-
-function getNotificationRules() {
-  try { return JSON.parse(localStorage.getItem("dashboardNotificationRules")) || defaultRules; }
-  catch { return defaultRules; }
-}
-function renderNotificationRules() {
-  const selected = getNotificationRules();
-  ruleInputs.forEach(input => { input.checked = selected.includes(input.value); });
-}
-ruleInputs.forEach(input => input.addEventListener("change", () => {
-  localStorage.setItem("dashboardNotificationRules", JSON.stringify(ruleInputs.filter(item => item.checked).map(item => item.value)));
-}));
-renderNotificationRules();
-
-function renderNotificationState() {
-  const supported = "Notification" in window;
-  const enabled = localStorage.getItem("dashboardNotifications") === "on";
-  notificationToggle.checked = supported && enabled && Notification.permission === "granted";
-  notificationToggle.disabled = !supported || Notification.permission === "denied";
-  notificationStatus.textContent = !supported
-    ? "이 브라우저는 알림을 지원하지 않습니다."
-    : Notification.permission === "denied"
-      ? "브라우저 설정에서 알림 차단을 해제해 주세요."
-      : notificationToggle.checked ? "알림이 켜져 있습니다." : "알림이 꺼져 있습니다.";
-}
-notificationToggle.addEventListener("change", async () => {
-  if (!notificationToggle.checked) {
-    localStorage.setItem("dashboardNotifications", "off");
-    renderNotificationState();
-    return;
-  }
-  const permission = await Notification.requestPermission();
-  localStorage.setItem("dashboardNotifications", permission === "granted" ? "on" : "off");
-  renderNotificationState();
-});
-renderNotificationState();
-
-async function notifyOnChange(data) {
-  const previous = {
-    update: localStorage.getItem("dashboardLastSeenUpdate"),
-    score: Number(localStorage.getItem("dashboardLastScore") || 0),
-    level: localStorage.getItem("dashboardLastLevel") || "평상시",
-    official: localStorage.getItem("dashboardLastOfficial") || "normal"
-  };
-  const current = {
-    update: data.updatedAt || "",
-    score: Number(data.risk?.score || 0),
-    level: data.risk?.level || "평상시",
-    official: data.officialAlert?.level || "normal"
-  };
-  localStorage.setItem("dashboardLastSeenUpdate", current.update);
-  localStorage.setItem("dashboardLastScore", String(current.score));
-  localStorage.setItem("dashboardLastLevel", current.level);
-  localStorage.setItem("dashboardLastOfficial", current.official);
-  if (!previous.update || previous.update === current.update) return;
-  if (!("Notification" in window) || localStorage.getItem("dashboardNotifications") !== "on" || Notification.permission !== "granted") return;
-  const rules = getNotificationRules();
-  const levelRank = { "평상시": 0, "주의": 1, "경계": 2, "심각": 3 };
-  const reasons = [];
-  if (rules.includes("all")) reasons.push("새 자료");
-  if (rules.includes("score") && current.score > previous.score) reasons.push(`점수 ${previous.score}→${current.score}`);
-  if (rules.includes("level") && (levelRank[current.level] || 0) > (levelRank[previous.level] || 0)) reasons.push(`경보 ${previous.level}→${current.level}`);
-  if (rules.includes("official") && current.official === "alert" && previous.official !== "alert") reasons.push("공식 긴급경보");
-  if (!reasons.length) return;
-  const registration = await navigator.serviceWorker?.ready;
-  registration?.showNotification("주연상사뉴우스 갱신", {
-    body: `${reasons.join(" · ")} · ${data.risk?.level || "상태 확인"}`,
-    icon: "./icon-192.png?v=7",
-    tag: "dashboard-update"
-  });
-}
-
-if ("serviceWorker" in navigator) {
-  let reloadingForUpdate = false;
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    if (reloadingForUpdate) return;
-    reloadingForUpdate = true;
-    window.location.reload();
-  });
-  navigator.serviceWorker.register("./sw.js?v=8");
-}
-let installPrompt;
-window.addEventListener("beforeinstallprompt", event => {
-  event.preventDefault();
-  installPrompt = event;
-  $("installButton").hidden = false;
-});
-$("installButton").addEventListener("click", async () => {
-  if (!installPrompt) return;
-  installPrompt.prompt();
-  await installPrompt.userChoice;
-  installPrompt = null;
-  $("installButton").hidden = true;
-});
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=9")}
+let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
+load();loadHistory();loadWeights();

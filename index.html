@@ -3,176 +3,145 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#eee9dc">
-  <meta name="description" content="공개 출처를 바탕으로 한 한반도 안보 변화 모니터링 대시보드">
-  <title>주연상사뉴우스</title>
-  <link rel="manifest" href="./manifest.webmanifest?v=7">
-  <link rel="icon" href="./icon-32.png?v=7" type="image/png" sizes="32x32">
-  <link rel="icon" href="./icon.svg?v=7" type="image/svg+xml" sizes="any">
-  <link rel="apple-touch-icon" href="./icon-180.png?v=7" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=7">
+  <meta name="theme-color" content="#0b0e12">
+  <meta name="description" content="공개 출처 기반 한반도 안보 변화 인텔리전스 대시보드">
+  <title>주연상사뉴우스 · Intelligence Dashboard</title>
+  <link rel="manifest" href="./manifest.webmanifest?v=10">
+  <link rel="icon" href="./icon-32.png?v=10" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="./icon-180.png?v=10" sizes="180x180">
+  <link rel="stylesheet" href="./styles.css?v=10">
 </head>
 <body>
-  <header class="masthead">
-    <div class="edition">
-      <span>한반도 안보 공개정보판</span>
-      <span id="updatedAt">—</span>
-    </div>
-    <div class="title-row">
-      <div class="title-slot title-slot-left">
-        <button id="installButton" class="paper-button" hidden>앱 설치</button>
-      </div>
-      <a class="brand" href="./" aria-label="주연상사뉴우스 홈">
-        <span>주연상사뉴우스</span>
-      </a>
-      <div class="title-slot title-actions">
-        <button id="desktopSettingsButton" class="paper-button">알림</button>
-        <button id="refreshButton" class="paper-button">새로고침</button>
-      </div>
-    </div>
-    <div class="edition bottom">
-      <span>매일 오전 6시 · 오후 6시 갱신</span>
-      <span>공식 확인 · 해외 보도 · 전문 분석</span>
+  <header class="terminal-header">
+    <a href="./" class="wordmark">주연상사뉴우스 <span>INTELLIGENCE</span></a>
+    <div class="market-clock"><span class="live-dot"></span><span id="updatedAt">데이터 확인 중</span></div>
+    <div class="header-actions">
+      <button id="installButton" class="terminal-button" hidden>설치</button>
+      <button id="desktopSettingsButton" class="terminal-button">알림</button>
+      <button id="refreshButton" class="terminal-button">갱신</button>
     </div>
   </header>
 
   <main>
-    <section id="officialAlert" class="official-alert" aria-label="공식 긴급경보">
-      <div>
-        <span class="official-stamp">정부 공식경보</span>
-        <strong id="officialAlertStatus">확인 중</strong>
+    <section id="today" class="overview-grid">
+      <article id="riskCard" class="module risk-module">
+        <header><span>RISK INDEX</span><small>종합 위험도</small></header>
+        <div class="risk-line"><i id="riskDot"></i><strong id="riskLabel">확인 중</strong></div>
+        <div class="score-line"><b id="riskScore">—</b><span>/100</span><em id="scoreDelta">—</em></div>
+        <div class="trend-mini"><span>최근 7일</span><div id="miniTrend" class="mini-bars"></div></div>
+        <p id="riskReason">데이터를 불러오고 있습니다.</p>
+      </article>
+
+      <article class="module summary-module">
+        <header><span>TODAY'S CHANGE</span><small>오늘 가장 중요한 변화</small></header>
+        <ul id="summaryList" class="summary-list"><li>자료 확인 중</li></ul>
+        <div class="change-metrics">
+          <span>신규 <b id="addedCount">—</b></span>
+          <span>해제 <b id="clearedCount">—</b></span>
+          <span>위험도 <b id="statusChange">—</b></span>
+        </div>
+      </article>
+
+      <article id="officialAlert" class="module emergency-module">
+        <header><span>OFFICIAL ALERT</span><small>긴급 경보</small></header>
+        <strong id="officialAlertStatus">현재 긴급 경보 없음</strong>
         <time id="officialAlertTime">—</time>
-      </div>
-      <nav aria-label="공식 경보 확인처">
-        <a href="https://www.safetykorea.go.kr/" target="_blank" rel="noreferrer">국민재난안전포털</a>
-        <a href="https://www.mnd.go.kr/" target="_blank" rel="noreferrer">국방부</a>
-      </nav>
-    </section>
-
-    <section id="today" class="alert-board" aria-label="오늘의 위기 경보">
-      <div id="riskCard" class="alert-level">
-        <span class="label">오늘의 위기 경보</span>
-        <strong id="riskLabel">자료 확인 중</strong>
-      </div>
-      <div class="score-box">
-        <span class="label">위기 점수</span>
-        <div><strong id="riskScore">—</strong><small>/ 100</small></div>
-      </div>
-      <div class="change-box">
-        <span class="label">어제 대비</span>
-        <strong id="dailyChange">—</strong>
-      </div>
-      <div class="change-box">
-        <span class="label">긴급 변화</span>
-        <strong id="urgentChange">—</strong>
-      </div>
-      <p id="riskReason" class="risk-reason">최신 공개 자료를 불러오고 있습니다.</p>
-      <details class="score-method">
-        <summary>점수 산정 기준 보기</summary>
-        <div>
-          <span><b>0점</b> 변화 없음</span>
-          <span><b>+5점</b> 관찰 지표 1개</span>
-          <span><b>+20점</b> 경고 지표 1개</span>
-          <span><b>미확인</b> 점수 미반영</span>
-        </div>
-        <p>0–19 평상시 · 20–39 주의 · 40–59 경계 · 60 이상 심각. 점수는 공개자료 참고치이며 정부 경보가 아닙니다.</p>
-      </details>
-    </section>
-
-    <section class="grid">
-      <section id="signalsSection" class="panel wide primary-board">
-        <div class="panel-head">
-          <h2>조기경보 지표 10</h2>
-          <span class="legend">✓ 변화 없음　◉ 관찰　⚠ 경고　? 미확인</span>
-        </div>
-        <div id="signals" class="signal-grid"></div>
-        <div class="signal-subboards">
-          <article class="signal-subpanel">
-            <div class="panel-head"><h2>복합 위험 신호</h2></div>
-            <div id="combinations" class="stack"></div>
-          </article>
-          <article class="signal-subpanel">
-            <div class="panel-head"><h2>핵심 지표 5</h2></div>
-            <div id="coreSignals" class="stack"></div>
-          </article>
-        </div>
-      </section>
-
-      <article id="historySection" class="panel wide history-panel">
-        <div class="panel-head">
-          <h2>날짜별 대시보드</h2>
-          <button id="latestButton" class="text-button">오늘로 돌아가기</button>
-        </div>
-        <div id="historyList" class="history-list">
-          <span class="empty-inline">기록을 불러오는 중입니다.</span>
-        </div>
-      </article>
-
-      <article id="newsSection" class="panel wide">
-        <div class="panel-head">
-          <h2>오늘의 해외 보도</h2>
-          <span class="legend">기사 원문으로 이동</span>
-        </div>
-        <div id="news" class="news-list"></div>
-      </article>
-
-      <article class="panel wide">
-        <div class="panel-head"><h2>출처 신뢰도</h2></div>
-        <div class="source-grid">
-          <div><strong>A · 공식</strong><p>한국 합참·정부, 미 국무부·국방부, 각국 외교부, IAEA</p></div>
-          <div><strong>B · 주요 보도</strong><p>Reuters, AP, BBC 등 편집·검증 체계를 갖춘 국제 언론</p></div>
-          <div><strong>C · 전문 분석</strong><p>38 North, CSIS 등 위성·지역 전문기관의 분석</p></div>
-          <div><strong>D · 교차검증 필요</strong><p>관영매체, 단독 보도, 익명 SNS·OSINT 주장</p></div>
+        <div class="official-links">
+          <a href="https://www.safetykorea.go.kr/" target="_blank" rel="noreferrer">재난안전포털</a>
+          <a href="https://www.mnd.go.kr/" target="_blank" rel="noreferrer">국방부</a>
         </div>
       </article>
     </section>
 
-    <aside class="notice">
-      <strong>판단 범위</strong>
-      <p>이 서비스는 공개 자료를 정리한 참고 도구이며 정보기관의 평가, 정부 경보 또는 안전 지침을 대체하지 않습니다. ‘미확인’은 ‘없음’이 아닙니다. 실제 경보 시 재난문자와 정부·지자체 안내를 우선하세요.</p>
-    </aside>
+    <section class="change-strip" aria-label="변화 요약">
+      <span>NEW SIGNAL <b id="stripAdded">0</b></span>
+      <span>CLEARED <b id="stripCleared">0</b></span>
+      <span>STATUS <b id="stripStatus">동일</b></span>
+      <span>METHOD <b>공식 또는 신뢰 출처 2+</b></span>
+    </section>
+
+    <section id="signalsSection" class="intelligence-board">
+      <div class="section-title">
+        <div><span>EARLY WARNING MATRIX</span><h2>조기경보 지표</h2></div>
+        <div class="state-legend"><i class="normal"></i>정상 <i class="attention"></i>주의 <i class="warning"></i>경계 <i class="danger"></i>위험</div>
+      </div>
+      <div id="signals" class="signal-cards"></div>
+      <div class="board-lower">
+        <article>
+          <div class="subhead"><span>COMBINATION WATCH</span><h3>정보기관 조합</h3></div>
+          <div id="combinations" class="compact-list"></div>
+        </article>
+        <article>
+          <div class="subhead"><span>CORE FIVE</span><h3>핵심 지표 5</h3></div>
+          <div id="coreSignals" class="compact-list"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="analysis-grid">
+      <article id="trendSection" class="module chart-module">
+        <header><span>RISK TREND</span><small>위험도 추세</small></header>
+        <div class="range-tabs" aria-label="그래프 기간">
+          <button class="active" data-range="7" aria-pressed="true">7일</button><button data-range="30" aria-pressed="false">30일</button><button data-range="90" aria-pressed="false">90일</button>
+        </div>
+        <div id="riskChart" class="bar-chart" role="img" aria-label="위험도 그래프"></div>
+      </article>
+      <article class="module rumor-module">
+        <header><span>CLAIM CHECK</span><small>루머 검증</small></header>
+        <div id="rumors" class="rumor-list"></div>
+      </article>
+    </section>
+
+    <section id="newsSection" class="module news-module">
+      <header><span>INTELLIGENCE FEED</span><small>뉴스 타임라인</small></header>
+      <div id="news" class="timeline"></div>
+    </section>
+
+    <section class="bottom-grid">
+      <article id="historySection" class="module">
+        <header><span>ARCHIVE</span><small>날짜별 대시보드</small></header>
+        <div id="historyList" class="history-list">기록 확인 중</div>
+        <button id="latestButton" class="terminal-button">오늘 데이터</button>
+      </article>
+      <article class="module source-module">
+        <header><span>SOURCE CLASS</span><small>출처 신뢰도</small></header>
+        <div class="source-classes">
+          <span><b>A</b> 정부·국방부·IAEA·합참</span>
+          <span><b>B</b> Reuters·AP·BBC·AFP·WSJ</span>
+          <span><b>C</b> 38 North·CSIS·RUSI·IISS·NK News</span>
+          <span><b>D</b> SNS·관영매체·단독보도</span>
+        </div>
+      </article>
+    </section>
+
+    <details class="methodology">
+      <summary>위험도 점수 산정 기준</summary>
+      <div id="scoreWeights" class="weight-grid"></div>
+      <p>뉴스 수는 점수에 반영하지 않습니다. 공식 발표 또는 서로 다른 신뢰 출처 2곳 이상으로 확인된 사건만 반영합니다.</p>
+    </details>
+
+    <aside class="disclaimer">공개자료 참고용이며 정부 경보나 정보기관 평가를 대체하지 않습니다. ‘미확인’은 ‘없음’이 아닙니다.</aside>
   </main>
-
-  <footer>
-    <span>주연상사뉴우스 · 공개정보 참고판</span>
-    <a href="https://www.safetykorea.go.kr/" target="_blank" rel="noreferrer">국민재난안전포털</a>
-  </footer>
 
   <dialog id="settingsDialog" class="settings-dialog">
     <form method="dialog">
-      <div class="dialog-head">
-        <h2>알림 설정</h2>
-        <button class="close-button" value="cancel" aria-label="닫기">×</button>
-      </div>
-      <p>새 데이터가 확인될 때 브라우저 알림을 표시합니다.</p>
-      <ol class="notification-guide">
-        <li><strong>PC·안드로이드</strong> — 아래 스위치를 켜고 브라우저의 ‘허용’을 누르세요.</li>
-        <li><strong>아이폰·아이패드</strong> — Safari 공유 메뉴에서 ‘홈 화면에 추가’한 뒤, 설치된 앱에서 스위치를 켜세요.</li>
-        <li><strong>차단한 경우</strong> — 주소창 옆 사이트 설정에서 알림을 ‘허용’으로 바꾸고 다시 여세요.</li>
-      </ol>
-      <label class="notify-row">
-        <span><strong>업데이트 알림</strong><small>오전 6시 · 오후 6시 자료 갱신 후 확인</small></span>
-        <input id="notificationToggle" type="checkbox" role="switch">
-      </label>
-      <p id="notificationStatus" class="notification-status">알림 상태를 확인 중입니다.</p>
-      <fieldset id="notificationRules" class="notification-rules">
-        <legend>알림을 받을 조건</legend>
-        <label><input type="checkbox" value="all"> 모든 자료 갱신</label>
-        <label><input type="checkbox" value="score" checked> 위기 점수 상승</label>
-        <label><input type="checkbox" value="level" checked> 관찰·경고 단계 상승</label>
+      <div class="dialog-head"><h2>알림 설정</h2><button value="cancel" aria-label="닫기">×</button></div>
+      <label class="notify-master"><span>브라우저 알림 사용</span><input id="notificationToggle" type="checkbox" role="switch"></label>
+      <fieldset id="notificationRules">
+        <legend>알림 조건</legend>
+        <label><input type="checkbox" value="all"> 모든 갱신</label>
+        <label><input type="checkbox" value="score" checked> 점수 상승</label>
+        <label><input type="checkbox" value="level" checked> 단계 상승</label>
         <label><input type="checkbox" value="official" checked> 공식 긴급경보</label>
       </fieldset>
-      <p class="dialog-note">무료 웹앱 특성상 앱이 완전히 종료된 동안의 실시간 푸시는 보장되지 않습니다. 앱을 열 때 놓친 갱신을 확인합니다.</p>
+      <p id="notificationStatus">알림 상태 확인 중</p>
+      <small>무료 정적 PWA이므로 앱이 완전히 종료된 동안의 실시간 푸시는 보장되지 않습니다.</small>
     </form>
   </dialog>
 
-  <nav class="mobile-nav" aria-label="주요 메뉴">
-    <a href="#today"><span aria-hidden="true">▣</span>오늘</a>
-    <a href="#signalsSection"><span aria-hidden="true">◎</span>지표</a>
-    <a href="#historySection"><span aria-hidden="true">▤</span>날짜</a>
-    <a href="#newsSection"><span aria-hidden="true">▥</span>뉴스</a>
-    <button id="settingsButton"><span aria-hidden="true">♧</span>알림</button>
+  <nav class="mobile-nav">
+    <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#trendSection">추세</a><a href="#newsSection">뉴스</a><button id="settingsButton">알림</button>
   </nav>
-  <script src="./app.js?v=8" defer></script>
+  <script src="./app.js?v=10" defer></script>
 </body>
 </html>

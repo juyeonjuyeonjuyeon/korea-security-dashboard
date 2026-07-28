@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "thresholds": {
+    "normal": [0, 19],
+    "attention": [20, 39],
+    "warning": [40, 59],
+    "critical": [60, 999]
+  },
+  "events": {
+    "missile_test": { "label": "미사일 시험", "weight": 5 },
+    "artillery_movement": { "label": "포병 이동", "weight": 8 },
+    "ammunition_movement": { "label": "탄약 이동", "weight": 12 },
+    "field_hospital": { "label": "야전병원", "weight": 20 },
+    "china_border_closure": { "label": "중국 국경봉쇄", "weight": 30 },
+    "embassy_withdrawal": { "label": "대사관 철수", "weight": 40 },
+    "usfk_family_evacuation": { "label": "주한미군 가족 철수", "weight": 50 },
+    "leadership_hiding": { "label": "지도부 은신", "weight": 30 },
+    "compound_signal": { "label": "복합조합", "weight": 25 }
+  },
+  "verification": {
+    "minimum_independent_reliable_sources": 2,
+    "official_source_overrides_minimum": true
+  }
+}
