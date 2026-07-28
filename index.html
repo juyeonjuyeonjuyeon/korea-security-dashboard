@@ -9,19 +9,23 @@
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=15">
+  <link rel="stylesheet" href="./styles.css?v=16">
 </head>
 <body>
   <header class="terminal-header">
     <a href="./" class="wordmark">주연뉴스 <span>INTELLIGENCE</span></a>
     <div class="market-clock"><span class="live-dot"></span><span id="updatedAt">데이터 확인 중</span></div>
     <div class="header-actions">
-      <a href="./tech.html" class="terminal-button">2면 기술</a>
       <button id="installButton" class="terminal-button" hidden>설치</button>
       <button id="desktopSettingsButton" class="terminal-button">알림</button>
       <button id="refreshButton" class="terminal-button">갱신</button>
     </div>
   </header>
+
+  <nav class="edition-nav site-nav" aria-label="신문 면 선택">
+    <a href="./" aria-current="page"><b>제1면</b><span>한반도 안보</span></a>
+    <a href="./tech.html"><b>제2면</b><span>최신 기술 트렌드</span></a>
+  </nav>
 
   <main>
     <section id="today" class="overview-grid">
@@ -143,8 +147,8 @@
   </dialog>
 
   <nav class="mobile-nav">
-    <a href="./">1면</a><a href="#signalsSection">지표</a><a href="#trendSection">추세</a><a href="#newsSection">뉴스</a><a href="./tech.html">2면</a>
+    <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#trendSection">추세</a><a href="#newsSection">뉴스</a><button id="settingsButton">알림</button>
   </nav>
-  <script src="./app.js?v=15" defer></script>
+  <script src="./app.js?v=16" defer></script>
 </body>
 </html>

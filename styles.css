@@ -29,7 +29,7 @@ body {
 }
 button, a { color: inherit; font: inherit; }
 
-.terminal-header, main { width: min(1180px, calc(100% - 32px)); margin-inline: auto; }
+.terminal-header, .site-nav, main { width: min(1180px, calc(100% - 32px)); margin-inline: auto; }
 .terminal-header {
   position: relative;
   z-index: 20;
@@ -299,8 +299,11 @@ main { padding: 18px 0 78px; }
 .mobile-nav { display: none; }
 
 .tech-page .terminal-header::before { content: "최신 기술 트렌드 · 제2면"; }
-.edition-nav { display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 16px; border: 1px solid var(--rule); }
-.edition-nav a { padding: 9px 12px; color: var(--faded); font-size: 11px; text-align: center; text-decoration: none; }
+.edition-nav { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--rule); }
+.site-nav { position: sticky; z-index: 24; top: 0; margin-top: 10px; background: rgba(232,232,228,.97); box-shadow: 0 5px 10px rgba(36,34,34,.06); }
+.edition-nav a { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 42px; padding: 8px 12px; color: var(--faded); font-size: 11px; text-align: center; text-decoration: none; }
+.edition-nav a b { font-family: Arial,sans-serif; font-size: 10px; letter-spacing: .08em; }
+.edition-nav a span { font-weight: 700; }
 .edition-nav a + a { border-left: 1px solid var(--rule); }
 .edition-nav a[aria-current=page] { color: var(--paper); background: var(--ink); }
 .tech-overview { display: grid; grid-template-columns: 1fr 1.4fr; border-top: 4px solid var(--rule); border-bottom: 1px solid var(--rule); }
@@ -339,7 +342,7 @@ main { padding: 18px 0 78px; }
 
 @media (max-width: 650px) {
   body { padding-bottom: 58px; }
-  .terminal-header, main { width: min(100% - 20px,1180px); }
+  .terminal-header, .site-nav, main { width: min(100% - 20px,1180px); }
   .terminal-header {
     grid-template-columns: 1fr;
     min-height: 132px;
@@ -371,8 +374,8 @@ main { padding: 18px 0 78px; }
   .news-source { display: none; }
   .news-title { font-size: 12px; }
   .bottom-grid { grid-template-columns: 1fr; }
-  .edition-nav { grid-template-columns: 1fr; }
-  .edition-nav a + a { border-top: 1px solid var(--rule); border-left: 0; }
+  .site-nav { margin-top: 7px; }
+  .edition-nav a { min-height: 39px; padding: 6px; }
   .tech-overview { grid-template-columns: 1fr; }
   .tech-overview > article + article { border-top: 1px solid var(--soft-rule); border-left: 0; }
   .tech-category-grid { grid-template-columns: 1fr 1fr; }

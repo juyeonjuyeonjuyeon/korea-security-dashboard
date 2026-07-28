@@ -140,7 +140,7 @@ $("historyList").addEventListener("click",event=>{const button=event.target.clos
 document.querySelectorAll(".range-tabs button").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll(".range-tabs button").forEach(item=>{item.classList.remove("active");item.setAttribute("aria-pressed","false")});button.classList.add("active");button.setAttribute("aria-pressed","true");activeRange=Number(button.dataset.range);renderChart()}));
 
 const settingsDialog=$("settingsDialog"),notificationToggle=$("notificationToggle"),ruleInputs=[...document.querySelectorAll("#notificationRules input")];
-[$("settingsButton"),$("desktopSettingsButton")].forEach(button=>button.addEventListener("click",()=>settingsDialog.showModal()));
+[$("settingsButton"),$("desktopSettingsButton")].filter(Boolean).forEach(button=>button.addEventListener("click",()=>settingsDialog.showModal()));
 const rules=()=>{try{return JSON.parse(localStorage.getItem("notificationRules"))||["score","level","official"]}catch{return["score","level","official"]}};
 ruleInputs.forEach(input=>{input.checked=rules().includes(input.value);input.addEventListener("change",()=>localStorage.setItem("notificationRules",JSON.stringify(ruleInputs.filter(i=>i.checked).map(i=>i.value))))});
 function notificationState(){const supported="Notification"in window,permission=supported?Notification.permission:"unsupported",enabled=localStorage.getItem("notifications")==="on";notificationToggle.checked=supported&&enabled&&permission==="granted";notificationToggle.disabled=!supported||permission==="denied";$("notificationStatus").textContent=!supported?"이 브라우저는 알림을 지원하지 않습니다":permission==="denied"?"주소창의 사이트 설정에서 알림을 허용하세요":notificationToggle.checked?"알림 사용 중":"알림 꺼짐"}
@@ -154,6 +154,7 @@ async function notifyOnChange(data){
   if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=15")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=16")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();
+window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});
