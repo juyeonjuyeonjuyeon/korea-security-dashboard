@@ -1,58 +1,80 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026. 7. 29. 오전 7:34",
-  "headline": "인공지능 분야의 새 보도가 가장 활발합니다.",
+  "updatedAt": "2026. 7. 29. 오전 8:58",
+  "headline": "로봇·모빌리티 분야의 새 보도가 가장 활발합니다.",
   "metrics": {
-    "articleCount": 18,
+    "articleCount": 9,
     "recentCount": 1,
-    "sourceCount": 9
+    "sourceCount": 6
   },
   "summary": [
-    "인공지능: 중국은 미국을 'AI 패권주의' 라고 비난하고, 잠재적 탐사선에 대한 대응책을 위협한다. - 로이터",
-    "우주·통신: 영국 우주국: 2026년 6월 영국과 우주를 보호한 방법 - Wired-Gov",
-    "로봇·모빌리티: 머스크가 자동차를 넘어 선회함에 따라 테슬라의 자동차 엔진은 긴장을 겪고 있습니다. - 로이터",
-    "반도체·컴퓨팅: IBM, 투 트랙 양자 컴퓨팅 전략으로 전환하여 HRL 연구소 인수 - Reuters"
+    "로봇·모빌리티: Travis Kalanick의 로봇 회사, a16z가 이끄는 $ 1.7B 모금 - TechCrunch",
+    "사이버보안: OpenAI AI 모델은 테스트 중에 악성으로 인해 시작 시 '전례 없는' 침해가 발생했습니다. - Reuters",
+    "우주·통신: 달에서의 새로운 소형 우주선 기술 시범 임무 - NASA (.gov)",
+    "인공지능: 독점: OpenAI의 불량 에이전트가 두 번째 기술 회사에서 고객을 손상시켰다고 임원이 말합니다. - Reuters"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 8,
-      "summary": "중국은 미국을 'AI 패권주의' 라고 비난하고, 잠재적 탐사선에 대한 대응책을 위협한다. - 로이터",
-      "latest": "2026-07-27 15:44"
+      "count": 1,
+      "summary": "독점: OpenAI의 불량 에이전트가 두 번째 기술 회사에서 고객을 손상시켰다고 임원이 말합니다. - Reuters",
+      "latest": "2026-07-28 22:35",
+      "cadence": "매일",
+      "lastRefreshed": "2026-07-28T23:58:19.902Z",
+      "themes": [
+        "빅테크"
+      ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
       "count": 1,
-      "summary": "IBM, 투 트랙 양자 컴퓨팅 전략으로 전환하여 HRL 연구소 인수 - Reuters",
-      "latest": "2026-07-23 11:03"
+      "summary": "AI 칩 스타트업 에칭 (Etched) 은 회의론자들을 무시하고 유명 투자자들로부터 $ 10.3B 밸류에이션을 받음 - TechCrunch",
+      "latest": "2026-07-23 15:00",
+      "cadence": "매일",
+      "lastRefreshed": "2026-07-28T23:58:19.902Z",
+      "themes": [
+        "스타트업·투자"
+      ]
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 4,
-      "summary": "머스크가 자동차를 넘어 선회함에 따라 테슬라의 자동차 엔진은 긴장을 겪고 있습니다. - 로이터",
-      "latest": "2026-07-23 22:00"
+      "count": 2,
+      "summary": "Travis Kalanick의 로봇 회사, a16z가 이끄는 $ 1.7B 모금 - TechCrunch",
+      "latest": "2026-07-22 18:50",
+      "cadence": "매일",
+      "lastRefreshed": "2026-07-28T23:58:19.902Z",
+      "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 0,
-      "summary": "새로운 주요 변화 확인 없음",
-      "latest": "—"
+      "count": 2,
+      "summary": "OpenAI AI 모델은 테스트 중에 악성으로 인해 시작 시 '전례 없는' 침해가 발생했습니다. - Reuters",
+      "latest": "2026-07-22 19:55",
+      "cadence": "매일",
+      "lastRefreshed": "2026-07-28T23:58:19.902Z",
+      "themes": [
+        "빅테크",
+        "스타트업·투자"
+      ]
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 5,
-      "summary": "영국 우주국: 2026년 6월 영국과 우주를 보호한 방법 - Wired-Gov",
-      "latest": "2026-07-28 15:44"
+      "count": 2,
+      "summary": "달에서의 새로운 소형 우주선 기술 시범 임무 - NASA (.gov)",
+      "latest": "2026-07-24 16:35",
+      "cadence": "매일",
+      "lastRefreshed": "2026-07-28T23:58:19.902Z",
+      "themes": []
     },
     {
       "id": "energy",
@@ -60,79 +82,36 @@
       "label": "에너지·기후기술",
       "count": 0,
       "summary": "새로운 주요 변화 확인 없음",
-      "latest": "—"
+      "latest": "—",
+      "cadence": "격주",
+      "lastRefreshed": "2026-07-28T23:56:57.012Z",
+      "themes": []
+    },
+    {
+      "id": "software",
+      "code": "DEV",
+      "label": "소프트웨어·개발",
+      "count": 1,
+      "summary": "현대 소프트웨어 개발자의 7가지 죄악 - InfoWorld",
+      "latest": "2026-07-22 09:06",
+      "cadence": "매일",
+      "lastRefreshed": "2026-07-28T23:58:19.902Z",
+      "themes": []
     }
   ],
   "news": [
     {
-      "title": "UK Space Agency: How we protected the UK and space in June 2026 - Wired-Gov",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMGk2R1hOV0FueElsdkYtZWRjWFJwMjV5VHh6UVVWWVZCcDN2YndnYWtCOGJaMF9xajNndWFzdXMzcHVwVnJ5SXIyVXFfbFhhUzlpUGh0TF83UWhBamlEaXRTQkdJdkZNY19QdURyWXFUd0ZZeVB2V2twUHlRd2R5Y1VseUhDR0c3VjJMaDl0YXg4V25iOGNKUmNlaVBaYlZUVGtqU1FKUktvVEdvTHdSVWE5SE1sUENoTUotT2ltTEJOQ2F1ODYxaQ?oc=5",
-      "source": "Wired-Gov",
-      "date": "2026-07-28 15:44",
-      "category": "우주·통신",
-      "categoryId": "space",
-      "confidence": "C",
-      "titleKo": "영국 우주국: 2026년 6월 영국과 우주를 보호한 방법 - Wired-Gov"
-    },
-    {
-      "title": "Amazon’s new satellite network for mobile phones could turn up the heat on SpaceX - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVYtMDBTNlR4ME9qTWR1U2EwRGgtaFlRSW5iYk5pVEoyV3dzdDI1YmZTWjJuY3NCWVhVSnRna2tSNGZ6Y19xOUhZelZKZ3kxRmpTYVhOcXEzZFhnb01KbWVWZGxSYjd3QmRKei1xN1dpNlZZaE1mWWJ2bVAwTHB0c21sWTNFQ0tnT0tyLW4xOWpMSzlNNy1UTXp1MTN3dUNlb01LTXpyUzJ1RVBvejUtVTFfQUE1UQ?oc=5",
-      "source": "TechCrunch",
-      "date": "2026-07-27 18:08",
-      "category": "우주·통신",
-      "categoryId": "space",
-      "confidence": "C",
-      "titleKo": "아마존의 새로운 휴대 전화용 위성 네트워크는 SpaceX의 열을 높일 수 있습니다 - TechCrunch"
-    },
-    {
-      "title": "China accuses US of 'AI hegemonism', threatens countermeasures over potential probes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN2l6SXZVb29hZ244bE5rbTdWWkNINUw0VTN5TlhHemFDWG5VSmd3d0M2OTBnWUNDMUFRekpWOWwtME9MTTIwTTVvVFpuNVRmYnJ1eDFLVUR1bnVZVWNSdHJZOXhEZXBWdWpaT05JbHlhRXBVdUZlSE14M29ReDhHYTVvQmplZXhJYVNfeHNDZ0JxUmhIelFmbmROeWZudGwxXzJwRHgwV2RMVjVBdjJHSDQ0NmlmZXZoOU9YYjZCZkl5X1FB?oc=5",
+      "title": "EXCLUSIVE: OpenAI's rogue agent compromised a customer at a second tech firm, executive says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaHBXRTBZX1RmZjlnU2owVWlZMW5TMGtzR3JyWVRrcWpUblNaTjg3ZXUyUmQ0Z1JTNVVHRERkN284N0o4SFZ0SGdvTnR0ZG5hTEo0b1pkOU0zTHFRZ01OV0tIRFNnQ1YwMThhYlBBTjgzOFN6bE90aTdIV0htb0xJNldUTUxTUm91TzlyWVFRaE5tSkFHWGhXWXdzQVpWTDRWc2dIOTU1X25lLXViRVRWcm5qMTc2TnM?oc=5",
       "source": "Reuters",
-      "date": "2026-07-27 15:44",
+      "date": "2026-07-28 22:35",
       "category": "인공지능",
       "categoryId": "ai",
       "confidence": "B",
-      "titleKo": "중국은 미국을 'AI 패권주의' 라고 비난하고, 잠재적 탐사선에 대한 대응책을 위협한다. - 로이터"
-    },
-    {
-      "title": "Building the enterprise environment for agentic AI - MIT Technology Review",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSFF4azRxdWQtdnFoeC1ZQkxkU3VqOHQ3UW1Ibk1aV3c2UjJoMlgxaDJIaFpydXlRUlduSXRTSVM1QlNqbnJYS3F5U1VmVEJUWjBMYkRYQWNkMmxTd3hJUnpWVHV1NThqT2g4bEJWUTh0cXptZVVhc2lVazZmR19nd1hYc3JIS2c2Q3NRUENXbEJ0UkQ4YTN5dlpuWjM0NjVxN2xFbG9R0gGrAUFVX3lxTE43dFVuWWo2MjNVZ0tteTdNVGt6amMtQzZ5ejRIdEJEM1kwR0lKSG9GQWdHTnFueVNITHVSY0FCemhNYlVFaXRJdmZBdVVDaWRLUGp3MmVtY1d4TFNGWGdWVk9ESFJHRHh0Z1ktdV84ZUJCRk9VMldoaU9LQm9WWFdMTzZVdVlXaDZoWFA0VmdldmgxTHY4U002ZVFQYUhJdkhZdVcyNmhwMVhSbw?oc=5",
-      "source": "MIT Technology Review",
-      "date": "2026-07-27 11:32",
-      "category": "인공지능",
-      "categoryId": "ai",
-      "confidence": "C",
-      "titleKo": "에이전트 AI를 위한 엔터프라이즈 환경 구축 - MIT 기술 검토"
-    },
-    {
-      "title": "India’s First Private Orbital Launch Puts Skyroot in Elite Company - IEEE Spectrum",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsclNFdGlVYS1oZkp6RUd4SllmckNRTDVnTDFTUURjM25MVGZmYkJwWHVWeUxLM3pMWEpvZ2tjRkJlLWU0d1NfYWN1cmdqdkpOdzFKTmh2WHoxUWRtMGFoMzQzS3lROGpWYXNV?oc=5",
-      "source": "IEEE Spectrum",
-      "date": "2026-07-27 10:01",
-      "category": "우주·통신",
-      "categoryId": "space",
-      "confidence": "C",
-      "titleKo": "인도 최초의 개인 궤도 발사, 엘리트 회사에 스카이루트 투입 - IEEE 스펙트럼"
-    },
-    {
-      "title": "EXCLUSIVE: Its AI agent spent days hacking a company, but sources say OpenAI did not notice for a week - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3Vadng3eFVJX2E0cGhld0pQbGMxMWlmQU1WWFFLaFA3VkdtV1FtYnpPeGs4OHZ0TzZHX2VLaE55cDlsR2poS1JxVDA3emxoVnhiSkNrUWpDOVFKWFJsb0QydHo5VWdyQTFUemh1aFdDa1RRYVJybGFhUXhrLTFVQjN5bTRoY1lFbEhuSXR1ZVFCQW1VT3pGMlBLSkFSc3E2N1dpcjVBVVdkWklwTGF3cTZraklYNkFobDFUbENwZXY?oc=5",
-      "source": "Reuters",
-      "date": "2026-07-24 22:20",
-      "category": "인공지능",
-      "categoryId": "ai",
-      "confidence": "B",
-      "titleKo": "독점: 인공지능 에이전트가 회사를 해킹하는 데 며칠을 보냈지만, 소식통에 따르면 OpenAI는 일주일 동안 눈치채지 못했다고 합니다. - 로이터"
-    },
-    {
-      "title": "Nvidia, Microsoft and other tech giants back open-source AI models - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0tzQWRTUldfRzViemRTbXpHNFlLU1l2QzNkRmE0OFZxTkh4WkRtZThGSGRQaWNHMGhzZ01oVE5jeGUyYkNkMDJTTDV3Q1Ayb3l4cjFDOU1QcmVPeFNFLXItcFVESVJtZ1U5ZE1NUkc4Mkw1RTBDR3JDZGJkNXdraEFTZ213RHhIOG5vOTNLTk9fenJPNnFDM2RFY01uUHBGVklDckhsOXJ6UG1wNC1BWDhPYjk0LVU?oc=5",
-      "source": "Reuters",
-      "date": "2026-07-24 18:07",
-      "category": "인공지능",
-      "categoryId": "ai",
-      "confidence": "B",
-      "titleKo": "엔비디아, 마이크로소프트 및 기타 거대 기술 기업, 오픈소스 AI 모델 지원 - Reuters"
+      "titleKo": "독점: OpenAI의 불량 에이전트가 두 번째 기술 회사에서 고객을 손상시켰다고 임원이 말합니다. - Reuters",
+      "themes": [
+        "빅테크"
+      ]
     },
     {
       "title": "New Small Spacecraft Technology Demonstration Mission at the Moon - NASA (.gov)",
@@ -142,47 +121,46 @@
       "category": "우주·통신",
       "categoryId": "space",
       "confidence": "C",
-      "titleKo": "달에서의 새로운 소형 우주선 기술 시범 임무 - NASA (.gov)"
+      "titleKo": "달에서의 새로운 소형 우주선 기술 시범 임무 - NASA (.gov)",
+      "themes": []
     },
     {
-      "title": "Open Weights and American AI Leadership - Microsoft",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQczZlRzdBN2sxLXp1U2Z6NnZ2elpFak1wSTUxOW5wbkNWdE5hWGp5WHJaSWJxR29rYnBXZ2hSWUNfMExHMi1Xc00zRXZJM0k3OTdhOGdDREhjYmdRR25SUUNTcGN3bXJBOVdadWtyXzRpdE9zWHlES3VNakFpbWpGb2x3?oc=5",
-      "source": "Microsoft",
-      "date": "2026-07-24 11:18",
-      "category": "인공지능",
-      "categoryId": "ai",
+      "title": "This is the world’s most advanced robotic servicing satellite—that we know about - Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZktuVEtFMzdyTk1pYkxPX0JkUTdRMENoVHJaeTNVWkJBcFhJTmFlOGRmVFVwQllkNnk5M3Nadk5mMHFBOFZnRU9DeFY2eUdUbTJRcXhNZFpMeF9SVVlDRHl2dExRb05CZ043Wk5zWi05aU92MVZTcktmSjhDMFNOZkJpUnFVRGNOUWtSeEJsQkhTUm9vYVlISVJWSzJ1cmpYNTJfZFFEekFTV2pHRTJidWtIM3lhWTlHQmc?oc=5",
+      "source": "Ars Technica",
+      "date": "2026-07-24 15:23",
+      "category": "우주·통신",
+      "categoryId": "space",
       "confidence": "C",
-      "titleKo": "개방형 가중치와 미국 AI 리더십 - Microsoft"
+      "titleKo": "이것은 우리가 알고 있는 세계에서 가장 진보된 로봇 서비스 위성입니다 - Ars Technica",
+      "themes": []
     },
     {
-      "title": "As Musk pivots beyond cars, Tesla’s autos engine is under strain - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUEtwQkhZU00zSGZYcmdzNmhEY0VUUUtyc1ZVbHV1OW80Mnd3OHlTaEh5OFFEbkZPUGt6Um5jQWRRb0tBRVZhb3MzQ21Vb2FNT0VaWlNkcThLX2V3d04zSGY4S29xUC1odU9rMGNWWWQyVVNBSUlEWUt6WkNkODJnUnFvNFhpTEZiQWNUemVrcksxZk0wb0ZpQi1ZeWtDdThJOTJkNHI4MDBaYnBCa241LXVnVE9sdzZzZ0E5SFVn?oc=5",
-      "source": "Reuters",
-      "date": "2026-07-23 22:00",
-      "category": "로봇·모빌리티",
-      "categoryId": "robotics",
-      "confidence": "B",
-      "titleKo": "머스크가 자동차를 넘어 선회함에 따라 테슬라의 자동차 엔진은 긴장을 겪고 있습니다. - 로이터"
-    },
-    {
-      "title": "IBM buys HRL Laboratories in shift to two-track quantum computing strategy - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTEZOTUgtTjhhUDR0UGdnb28wZW5LX1dpLXZzTGg0dlVqam1zcUg4ZEhqeUtkNjFteXUyOGx3NGNua1lHSXhxcnI0ZXB5N1NOZlJIbWVkRGlHVW4tVVRuYy02aE12cS1IU09oN1RGYWdjT0tNaHJjMTdIbDI3TFoxUjB0LU9sVWV0WmRLaWM4cFZoeENSbmhsTnh0d0cxNElxdG5rMVVmbFRlT2NyQjN0QlFXQ1FzalFFV19SazZRZmdQT1JSNkczVkxNbzJBbEk?oc=5",
-      "source": "Reuters",
-      "date": "2026-07-23 11:03",
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeGZpcW1LVnVzRmZ6em94NWhlOXQwY2ltS1Uta3pacllhVDhLcUtVbDVmQUhhdFdnR0dXSGhVaVdFSWRzWFc5Q3I5ZmEwNmhTQ25JZVlBay01TFJVMUNMajZ3VDhFQjZZQ09oSWJDd3l6NXdadklpWTlpNkxNVFR5ZG9kSmFsdEp0UXI3TEdncm9uWEt6QTBOMlFraTZWUktDQ2dWUGNKX1R4ZzgxQ3JnQzRhS0V4SEVucFE?oc=5",
+      "source": "TechCrunch",
+      "date": "2026-07-23 15:00",
       "category": "반도체·컴퓨팅",
       "categoryId": "chips",
-      "confidence": "B",
-      "titleKo": "IBM, 투 트랙 양자 컴퓨팅 전략으로 전환하여 HRL 연구소 인수 - Reuters"
+      "confidence": "C",
+      "titleKo": "AI 칩 스타트업 에칭 (Etched) 은 회의론자들을 무시하고 유명 투자자들로부터 $ 10.3B 밸류에이션을 받음 - TechCrunch",
+      "themes": [
+        "스타트업·투자"
+      ]
     },
     {
       "title": "OpenAI AI models went rogue during testing, triggering 'unprecedented' breach at startup - Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT3oyVDNzekNWY3BJUUZLVGNsb3Z3VUhXc3pfSmtEZG96bzk2RFQ4MTZBWDdQVHlyZTlDOWhEN1o3dzVuekVuWUh2cWFPMy1SU0sxWnl3WkVSbFpKTzBqOU54WjlwM0Jfd185OWsxT1BLbGpHcmlaNHdCalhub0x2cVVBai11dVhPdEVsZERZWHo3anRQMi0yUGZEN0VVOEZHcEJuZ1pxMHp2U2dkSWNhYmhOOXR0aGJjVXVTdHE3MGw1aEgw?oc=5",
       "source": "Reuters",
       "date": "2026-07-22 19:55",
-      "category": "인공지능",
-      "categoryId": "ai",
+      "category": "사이버보안",
+      "categoryId": "cyber",
       "confidence": "B",
-      "titleKo": "OpenAI AI 모델은 테스트 중에 악성으로 인해 시작 시 '전례 없는' 침해가 발생했습니다. - Reuters"
+      "titleKo": "OpenAI AI 모델은 테스트 중에 악성으로 인해 시작 시 '전례 없는' 침해가 발생했습니다. - Reuters",
+      "themes": [
+        "빅테크",
+        "스타트업·투자"
+      ]
     },
     {
       "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z - TechCrunch",
@@ -192,62 +170,52 @@
       "category": "로봇·모빌리티",
       "categoryId": "robotics",
       "confidence": "C",
-      "titleKo": "Travis Kalanick의 로봇 회사, a16z가 이끄는 $ 1.7B 모금 - TechCrunch"
+      "titleKo": "Travis Kalanick의 로봇 회사, a16z가 이끄는 $ 1.7B 모금 - TechCrunch",
+      "themes": []
     },
     {
-      "title": "Robotic Servicing Mission Launches with NASA Support - NASA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSTRpTHlodlVjMHZyNkdXM3RiZ2IyWkZMSE1oa2tENXpiRkNjWGUyZG5pY21TY2JwaXpDWVZURHFjRDE4ZXlScVhUTXpqa1JjZWdOUDVsRjAwQ1MxYS1sWEh2NWttcFNQRlNPdGNkTWFtdlpxcVJSckdab005MGJYSjY2MV90a3U0Q05MU2lB?oc=5",
-      "source": "NASA (.gov)",
-      "date": "2026-07-22 18:04",
+      "title": "Hyundai claims humanoid robot plan is not part of talks with striking workers - Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY00yMzZzYmt4QTQ4dU9vRXI0c0VCVWgxQlQ0WENNb0FWM19ya0VOb2NvUXdFS2l2UWUtRi13N2hTcXppMWVXanRYcmI3VTYwaU9reGlBLTl5RHd6eVpkMmI4LXVWZEhtem5rRWI0WVZ0WmVrOFZ0UWJiTl9RbEVjZm9fZ2hMdkx4UF84a2hndlUyeVdEUFRHU0lzZFhEbUo2Z0o0SFo4ODd2TUVsS2ZUbVpfUQ?oc=5",
+      "source": "Ars Technica",
+      "date": "2026-07-22 18:18",
       "category": "로봇·모빌리티",
       "categoryId": "robotics",
       "confidence": "C",
-      "titleKo": "NASA 지원 로봇 서비스 미션 발사 - NASA (.gov)"
+      "titleKo": "현대자동차는 휴머노이드 로봇 계획이 파업 노동자들과의 대화의 일부가 아니라고 주장합니다 - Ars Technica",
+      "themes": []
     },
     {
       "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VTDZ2ZnhnTVpkWWNOcmdoRkFlb3haUnY1c2w1U2JHXzFDaUJJLVc2bUN0MjFrcU1fbFZUR3ZOakhpMkVkR2tRU3NnaU5GNXFhcVItUjhPUFFkdw?oc=5",
       "source": "BBC",
       "date": "2026-07-22 11:40",
-      "category": "인공지능",
-      "categoryId": "ai",
+      "category": "사이버보안",
+      "categoryId": "cyber",
       "confidence": "B",
-      "titleKo": "OpenAI는 자사의 AI가 악용되어 '전례 없는' 사이버 공격을 시작했다고 말합니다 - BBC"
+      "titleKo": "OpenAI는 자사의 AI가 악용되어 '전례 없는' 사이버 공격을 시작했다고 말합니다 - BBC",
+      "themes": [
+        "빅테크"
+      ]
     },
     {
-      "title": "Ukrainian drones deliver robots directly into battle by sea and air - Ars Technica",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSnE3VW84d3pqd2xReU00d3JOVmdfcC0zSm5VdkNVN3hKRTFSSmhJbF9vYlVjZ1VfWDJ4Z0RaazdVQ0hHQzhqZnBWOTdteDZhSnpjbzdTYzF2YXRWWElIM08tUWhzZ3NBaTdfNk9mNTVSb09KQklyeEpPYTN1Tk9YQldWb25nZUdhRWE3MERpQVNFS3VOWWo2SmwteVRxN2M3bmN1c29hQTJZVXB4?oc=5",
-      "source": "Ars Technica",
-      "date": "2026-07-22 11:15",
-      "category": "로봇·모빌리티",
-      "categoryId": "robotics",
+      "title": "Seven sins of the modern software developer - InfoWorld",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV3VFcmVYTDY5RDY3Z2ZKZzlINU1hdzlleUlfNkYtSmd5cTktNmRiZzRlc3JxV1NRMTI3ZDJiNjRVN003bnlTNzVWd2Z5OEhmM2dFY3FhWUg5X3pfdEh6T0YxakxlYzBmU0lmdVdreGNobkswU3hBNVQzNXhkNWRyTENKbmtwX1JudDJIS1pFYklKd2Yz?oc=5",
+      "source": "InfoWorld",
+      "date": "2026-07-22 09:06",
+      "category": "소프트웨어·개발",
+      "categoryId": "software",
       "confidence": "C",
-      "titleKo": "우크라이나 드론, 바다와 공기로 로봇을 직접 전투에 투입하다 - Ars Technica"
-    },
-    {
-      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own - MIT Technology Review",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTUVtazM5bUV2b0t3amg2WDZ2dkpRLTFSVlI3TmlkYkxJWUEza0lPQzFObkRTMHhJZThsZmhJSkNaRDFTT0JMOGNhNk5XU3pIanlvVGVEYk1FNzZBQXNhQnZJT2RickM5QjI5dUhFTTRiSlJ0N29STW1jYVh6dUpteDFCaUI5SGpESFBEVFM0Sk9QR0NtSTJXTWs3T01pQdIBowFBVV95cUxOR3lhUG9yUk05T1hfYWVUY1pTWGREY192aWE5emd4azl3Si02QjQtOXl4eGgyRC01cE9TX1Y1MExhT1pMZFQ1MWhPdElOSm5sY2cxQThxNUVUekQ3NnJxa2hSaG1SdDFHM2tJdlNwU0FqVzBTY2pxbUM5Qm9QQVZmVDVlTHlMLWo0b1d5T0RjRHJVeFppem1zeU5VUDNkbXVrblRB?oc=5",
-      "source": "MIT Technology Review",
-      "date": "2026-07-22 09:00",
-      "category": "우주·통신",
-      "categoryId": "space",
-      "confidence": "C",
-      "titleKo": "미항공우주국 (NASA) 의 새로운 우주 망원경에 달린 모양을 바꾸는 거울을 통해 목성을 볼 수 있다 - MIT 테크놀로지 리뷰"
-    },
-    {
-      "title": "Robot AI company Noetra is 'last chance' for Japan, CEO says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjdzVkUtNzk5bDlKS0pvQ0Z1Skd3c19iVHhra0ZxbE0ydG9rc3AxdGJ4YUJSSEVfZ1BpbVlVNmVKUkZ4QkRpd0Zsa1g2RDdsdlpsMDJBeWdfNjl3WkRkdFlKX0NKamRkbVRuakduY3NDNm9PMlBieHg5ZHZsRHVNODgtTnpGMGRpTVpLblZVVVpGZ1loNnAxMVc3VWxyYW03QjQzRXpMRjlsWklqeVVhUHVn?oc=5",
-      "source": "Reuters",
-      "date": "2026-07-22 05:09",
-      "category": "인공지능",
-      "categoryId": "ai",
-      "confidence": "B",
-      "titleKo": "CEO는 로봇 AI 기업 노에트라가 일본에 '마지막 기회' 라고 말합니다. - 로이터"
+      "titleKo": "현대 소프트웨어 개발자의 7가지 죄악 - InfoWorld",
+      "themes": []
     }
   ],
   "sourceHealth": {
     "successful": 6,
     "total": 6,
-    "checkedAt": "2026. 7. 29. 오전 7:34"
+    "configuredTotal": 7,
+    "deferred": [
+      "에너지·기후기술"
+    ],
+    "checkedAt": "2026. 7. 29. 오전 8:58"
   }
 }
