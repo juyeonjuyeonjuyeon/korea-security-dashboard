@@ -1,4 +1,4 @@
-const CACHE = "security-board-v13";
+const CACHE = "security-board-v14";
 const ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest", "./config/risk-weights.json", "./config/sources.json", "./icon-32.png", "./icon-180.png", "./icon-192.png", "./icon-512.png", "./data/dashboard.json", "./data/history/index.json"];
 self.addEventListener("install", event => {
   self.skipWaiting();

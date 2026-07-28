@@ -9,7 +9,7 @@
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=13">
+  <link rel="stylesheet" href="./styles.css?v=14">
 </head>
 <body>
   <header class="terminal-header">
@@ -81,8 +81,11 @@
     <section class="analysis-grid">
       <article id="trendSection" class="module chart-module">
         <header><span>RISK TREND</span><small>위험도 추세</small></header>
-        <div class="range-tabs" aria-label="그래프 기간">
-          <button class="active" data-range="7" aria-pressed="true">7일</button><button data-range="30" aria-pressed="false">30일</button><button data-range="90" aria-pressed="false">90일</button>
+        <div class="chart-toolbar">
+          <span>기간 선택</span>
+          <div class="range-tabs" aria-label="그래프 기간">
+            <button class="active" data-range="7" aria-pressed="true">7일</button><button data-range="30" aria-pressed="false">30일</button><button data-range="90" aria-pressed="false">90일</button>
+          </div>
         </div>
         <div id="riskChart" class="bar-chart" role="img" aria-label="위험도 그래프"></div>
       </article>
@@ -101,7 +104,6 @@
       <article id="historySection" class="module">
         <header><span>ARCHIVE</span><small>날짜별 대시보드</small></header>
         <div id="historyList" class="history-list">기록 확인 중</div>
-        <button id="latestButton" class="terminal-button">오늘 데이터</button>
       </article>
       <article class="module source-module">
         <header><span>SOURCE CLASS</span><small id="sourceHealth">정보처 연결 확인 중</small></header>
@@ -142,6 +144,6 @@
   <nav class="mobile-nav">
     <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#trendSection">추세</a><a href="#newsSection">뉴스</a><button id="settingsButton">알림</button>
   </nav>
-  <script src="./app.js?v=13" defer></script>
+  <script src="./app.js?v=14" defer></script>
 </body>
 </html>

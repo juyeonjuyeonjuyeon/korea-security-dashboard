@@ -122,9 +122,10 @@ async function load(path="./data/dashboard.json",latest=true){
 async function loadHistory(){
   try{
     const dates=await (await fetch(`./data/history/index.json?t=${Date.now()}`,{cache:"no-store"})).json();
-    $("historyList").innerHTML=dates.map((date,index)=>`<button data-date="${date}" class="${index===0?"active":""}">${date}</button>`).join("");
-    const snapshots=await Promise.all(dates.slice(0,90).reverse().map(async date=>{try{const d=await (await fetch(`./data/history/${date}.json`)).json();return{date,score:d.risk?.score||0}}catch{return null}}));
-    historyData=snapshots.filter(Boolean);renderChart();
+    const snapshots=await Promise.all(dates.slice(0,90).map(async date=>{try{const d=await (await fetch(`./data/history/${date}.json?t=${Date.now()}`,{cache:"no-store"})).json();return{date,score:d.risk?.score||0,level:d.risk?.level||"평상시",updatedAt:d.updatedAt||"—",newsCount:Array.isArray(d.news)?d.news.length:0}}catch{return null}}));
+    const valid=snapshots.filter(Boolean);
+    $("historyList").innerHTML=`<div class="history-head" aria-hidden="true"><span>날짜</span><span>최종 갱신</span><span>위험도</span><span>점수</span><span>뉴스</span></div>${valid.map((item,index)=>`<button type="button" data-date="${escapeHtml(item.date)}" class="history-row ${index===0?"active":""}" aria-label="${escapeHtml(item.date)} 대시보드 보기, 뉴스 ${item.newsCount}건"><time>${escapeHtml(item.date)}</time><span>${escapeHtml(item.updatedAt)}</span><strong>${escapeHtml(item.level)}</strong><span>${item.score}</span><span>${item.newsCount}건</span></button>`).join("")}`;
+    historyData=[...valid].reverse();renderChart();
   }catch{$("historyList").textContent="기록 없음"}
 }
 async function loadWeights(){
@@ -135,8 +136,7 @@ document.addEventListener("click",event=>{
 });
 document.addEventListener("keydown",event=>{if(["Enter"," "].includes(event.key)&&event.target.matches(".interactive")){event.preventDefault();event.target.click()}if(event.key==="Escape")document.querySelectorAll(".interactive.open").forEach(node=>node.classList.remove("open"))});
 $("refreshButton").addEventListener("click",()=>load());
-$("latestButton").addEventListener("click",()=>load());
-$("historyList").addEventListener("click",event=>{const button=event.target.closest("[data-date]");if(button)load(`./data/history/${button.dataset.date}.json`,false)});
+$("historyList").addEventListener("click",event=>{const button=event.target.closest("[data-date]");if(button){document.querySelectorAll(".history-row").forEach(row=>row.classList.toggle("active",row===button));load(`./data/history/${button.dataset.date}.json`,false)}});
 document.querySelectorAll(".range-tabs button").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll(".range-tabs button").forEach(item=>{item.classList.remove("active");item.setAttribute("aria-pressed","false")});button.classList.add("active");button.setAttribute("aria-pressed","true");activeRange=Number(button.dataset.range);renderChart()}));
 
 const settingsDialog=$("settingsDialog"),notificationToggle=$("notificationToggle"),ruleInputs=[...document.querySelectorAll("#notificationRules input")];
@@ -154,6 +154,6 @@ async function notifyOnChange(data){
   if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=9")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=14")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();
