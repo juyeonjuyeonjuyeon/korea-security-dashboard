@@ -1,36 +1,183 @@
 {
-  "updatedAt": "2026. 7. 28. AM 9:32",
+  "updatedAt": "2026. 7. 28. AM 9:58",
   "risk": {
     "level": "평상시",
     "score": 10,
-    "reason": "현재 기본 데이터입니다. 중대한 신호는 공식 발표와 복수 출처로 확인해야 합니다."
+    "reason": "현재 기본 데이터입니다. 자동 갱신 이후에도 중대한 신호는 공식 발표와 복수 출처로 확인해야 합니다."
   },
-  "dailyChange": "기준 기록",
-  "urgentChange": "확인된 긴급 변화 없음",
+  "dailyChange": "새 해외 보도 10건",
+  "urgentChange": "자동 판정 안 함 · 공식 출처 확인 필요",
   "signals": [
-    ["야전병원·혈액 보급", "미확인", "unknown"],
-    ["대규모 탄약·연료 이동", "미확인", "unknown"],
-    ["군용열차·장비 이동", "미확인", "unknown"],
-    ["김정은 공개활동 변화", "관찰", "watch"],
-    ["북한 주민 이동 통제", "미확인", "unknown"],
-    ["중국 접경 비상조치", "변화 없음", "normal"],
-    ["북러 군사협력", "지속 관찰", "watch"],
-    ["한국행 항공편 변화", "변화 없음", "normal"],
-    ["전쟁위험 보험 변화", "미확인", "unknown"],
-    ["주한 외국공관 철수", "변화 없음", "normal"]
+    [
+      "야전병원·혈액 보급",
+      "미확인",
+      "unknown"
+    ],
+    [
+      "대규모 탄약·연료 이동",
+      "미확인",
+      "unknown"
+    ],
+    [
+      "군용열차·장비 이동",
+      "미확인",
+      "unknown"
+    ],
+    [
+      "김정은 공개활동 변화",
+      "관찰",
+      "watch"
+    ],
+    [
+      "북한 주민 이동 통제",
+      "미확인",
+      "unknown"
+    ],
+    [
+      "중국 접경 비상조치",
+      "변화 없음",
+      "normal"
+    ],
+    [
+      "북러 군사협력",
+      "지속 관찰",
+      "watch"
+    ],
+    [
+      "한국행 항공편 변화",
+      "변화 없음",
+      "normal"
+    ],
+    [
+      "전쟁위험 보험 변화",
+      "미확인",
+      "unknown"
+    ],
+    [
+      "주한 외국공관 철수",
+      "변화 없음",
+      "normal"
+    ]
   ],
   "combinations": [
-    ["병력 이동 + 탄약·연료 + 야전병원", "해당 없음", "normal"],
-    ["대사관 철수 + 항공편 중단", "해당 없음", "normal"],
-    ["주민 소개 + 지도부 은신", "해당 없음", "normal"],
-    ["북중 국경 통제 + 병력 증강", "해당 없음", "normal"]
+    [
+      "병력 이동 + 탄약·연료 + 야전병원",
+      "해당 없음",
+      "normal"
+    ],
+    [
+      "대사관 철수 + 항공편 중단",
+      "해당 없음",
+      "normal"
+    ],
+    [
+      "주민 소개 + 지도부 은신",
+      "해당 없음",
+      "normal"
+    ],
+    [
+      "북중 국경 통제 + 병력 증강",
+      "해당 없음",
+      "normal"
+    ]
   ],
   "coreSignals": [
-    ["북한 병력·장비 이동", "미확인", "unknown"],
-    ["중국 접경 움직임", "변화 없음", "normal"],
-    ["외국 공관·여행경보", "변화 없음", "normal"],
-    ["북한 군사활동", "지속 관찰", "watch"],
-    ["주한미군 비전투원 조치", "변화 없음", "normal"]
+    [
+      "북한 병력·장비 이동",
+      "미확인",
+      "unknown"
+    ],
+    [
+      "중국 접경 움직임",
+      "변화 없음",
+      "normal"
+    ],
+    [
+      "외국 공관·여행경보",
+      "변화 없음",
+      "normal"
+    ],
+    [
+      "북한 군사활동",
+      "지속 관찰",
+      "watch"
+    ],
+    [
+      "주한미군 비전투원 조치",
+      "변화 없음",
+      "normal"
+    ]
   ],
-  "news": []
+  "news": [
+    {
+      "title": "N. Korea covers inter-Korean border building in screens for apparent renovation work - Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DdHhTbjdXNG5sbmtMM3d4d19iSkdkS0VlMnNYdy1PSmN4TVJzdFBTNk1xLWg3LVNMdUk5eUI0YXlVWVAtNEFuRjFseHJfZGx1REhxWXlRa1lOQQ?oc=5",
+      "source": "Yonhap News Agency",
+      "date": "2026-07-27",
+      "titleKo": "북한, 명백한 개보수 작업 위해 스크린에 남북 국경 건물 포함 - 연합뉴스"
+    },
+    {
+      "title": "South Korea to shift civilian restricted line at border with North Korea - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVzJWZmJzUmpZSUhUVkJ4R0JpUUQyZm5OdDV0Z3hCS3lIQzFCd0Q1ZXotU29mY1FpVDBaaXk4S1FZdmcxN2szd2NTMGpjOVFQS1QySnRHaHNNQnU3dzM3YWx5NGVXd2FIcGFZMFNUQ1E4dWFSdzRsVEE0RjhpUWpJQWZ0eFJfYk9TaDZ4Yk40N0kwSEVqalJpd3N0cWhhNWRwSUZ3cXdPV3BVYnRDbW9EZHNwZHZCMlBSR2d4eGln?oc=5",
+      "source": "Reuters",
+      "date": "2026-06-17",
+      "titleKo": "한국, 북한 국경에서 민간인 제한선 전환 예정 - 로이터"
+    },
+    {
+      "title": "Unification ministry honors UNC officer for border area peace efforts - Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wX2xKSVdkTVJkNTBpZTVSM19sZFlEREw5blVKN0xXRDZCOXNPbEc5dl9GZnhmc1ZSQ0FJalE4d1JwTHF3OThBeXk0V3M2WWlJdVJmRW12cGZ6UQ?oc=5",
+      "source": "Yonhap News Agency",
+      "date": "2026-07-27",
+      "titleKo": "통일부, UNC 국경지역 평화 노력 담당관 표창 - 연합뉴스"
+    },
+    {
+      "title": "North Korea's Kim calls to make border with South Korea an 'impregnable fortress' - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSWp0d2hyZkRZRW5KM0JZRkR6TEdNNTlPbllNakFDVUU4YzdMbzM1WlpGTFdTVnhqNElOM3hpRnJrSzYxcmVIZUdLUTJKZHFpVVpXc3M1QmNfbmlvRmVEU0RsVTEtcko1V3dBY2I2cktHTjZCRlFHMnRPNGFjcnNCam5vTmtzazN3ZHktQjRacGp4b0JiSE83QkdLTXVUY3dIUmtlSDRLWTNaLVRGRTZDeXpCZ19neGxsSXZxRjlXaw?oc=5",
+      "source": "Reuters",
+      "date": "2026-05-17",
+      "titleKo": "북한의 김 위원장은 한국과의 국경을 '난공불락의 요새' 로 만들 것을 촉구했다. - 로이터"
+    },
+    {
+      "title": "North Korea conducts engine test for missile capable of targeting US mainland - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZDQ5M3dkb2lOTFFPNE1KdkROTnk2UEJkQUdVWW1wRTJCUjhCYU5zZ1pQYnVGQS04VXBjWUpEaUxIR1pUT0ZHQjRKOGVDY2hpTEdYVmdFZ1lpRm9pS0IzRkdKS2s1LTk1NnY4V0JUOHdUNnVRSUJES0NNQ0daQ3FFQTdfTGZ5NGM1ZXBsTmdrdS1ibGo2M1V3clQ2QXRHd2c?oc=5",
+      "source": "AP News",
+      "date": "2026-03-29",
+      "titleKo": "북한이 미국 본토를 겨냥할 수 있는 미사일에 대한 엔진 테스트를 실시하고 있다. - AP 뉴스"
+    },
+    {
+      "title": "South Korea, US held talks on revising management of fortified North Korea border - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUmlBbVRmb2ctVE5WUmhJSDRGNk1Vb2dnSlo3bEQ4V2Z6dnNzYVd0ZzNBeWc5VlFPZW1ZYnJUM0xJVFUxZTZpVzFmRXNaNTc1NHNlS1lNd19tRHo1T1N2bU9ia24yZzZ6cXgzeExUMG5yMWd0MDMxSjkyY0dwZGZUN2ZNamFlWTJudUtPbmdvYVd2ekpRT2lfYjMybzVkUWZIdDF0REtsZlBMeGxiV0E4dWxEZWZJYXQyQ2FHXzk1UXh5Z0dyZUF1RQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-05-20",
+      "titleKo": "한국, 미국, 요새화된 북한 국경 관리 개정 회담 개최 - 로이터"
+    },
+    {
+      "title": "North Korean leader supervises missile tests from his naval destroyer - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUUY3MG9wQktKUjc3ckdENzR6SVdKMGlUbjJwSzJsRVpObFpWQ05HT1kzLVlHUG9rWmFyaEJrQmxLMDlnZlFsWHZPLXppd1NheTRrQXRCc0Y0NmtGcUhFcDFUcHJTNUhwU0JCY0xCM3NoUF9tTGNWTkFPcHZQbjVKZE9qVUdJdHl0dlVJdnRrMms1N1FCVnV5WHl6ekEwSVpUU0E?oc=5",
+      "source": "AP News",
+      "date": "2026-04-13",
+      "titleKo": "북한 지도자가 해군 구축함의 미사일 시험을 감독하고 있다. - AP 뉴스"
+    },
+    {
+      "title": "Peeking into North Korea: Rare glimpses of daily life from across the border - June 10, 2026 - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVN2WF9rVEF3TnNDRm8yVHVrWG15dTJEVDFoSkFwbUFldWh3eU1kV1FHY1RGcHhqNjRLRDVpMWZ3Z3ctNHBOVGprMnFMSnRtZDNrbEZrZDFZQlpmNkpCUGF2NFVrSHNOdjB4c3o4OFNsWl9SRy1lWXNqNFhvTWsxRXV1U1FRc1V2S3YzNlhiYzlVblRqdUtsM3FCaWg2a1BEV0sxZV9TX19LZS1D?oc=5",
+      "source": "Reuters",
+      "date": "2026-06-10",
+      "titleKo": "북한 들여다보기: 국경 너머에서 본 희귀한 일상 - 2026년 6월 10일 - 로이터"
+    },
+    {
+      "title": "Lee inspects C-390 military transport aircraft - Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CQnk5QWE3RU1zV3MwSzFmMHh5MVg1VERuYmVoSm51dm5mOEJCVkE4SEIyYldTZnNMb2c1cEFLNEpPR1Zhd29PMFJTYlZrNS12UWtyWW10WnBLV3p1WWMtVzYyQU84QWc4d29DX3N2VEotdFVERDFz?oc=5",
+      "source": "Yonhap News Agency",
+      "date": "2026-07-26",
+      "titleKo": "리, C-390 군용 수송기 점검 - 연합뉴스"
+    },
+    {
+      "title": "Eight Lessons for North Korea’s Nuclear and Missile Forces From the Ongoing Iran Conflict - 38 North",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNmtKZlg1R3RhVmVFMEVPSTFYbmFUM1hLZnRZeERaVUFWYjRNM0l3YzZONG1VT3BPVmpUcE1vUWhuandGTVZEbGhBNnJnVk5oNTRzZnBxa1NpdmpLbm1yd2pMMmhhejloOU8wT3RIVERZQkZUUHdaanpsN0pCTlA1V2Z3Tzd5Z3N5RUkzYU1Ec1JBRS01UnB0N0JFaENuNDd4aFd6RGRVMzZZRUVZZEpzcDdMR2V4c2ZQUG9HcUtB?oc=5",
+      "source": "38 North",
+      "date": "2026-03-16",
+      "titleKo": "진행 중인 이란 분쟁에서 북한의 핵과 미사일 부대를 위한 여덟 가지 교훈 - 38노스"
+    }
+  ]
 }
