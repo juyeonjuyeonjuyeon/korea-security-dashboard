@@ -61,6 +61,6 @@ async function load(){
 $("techRefreshButton").addEventListener("click",load);
 document.addEventListener("click",event=>{const button=event.target.closest("[data-bookmark-url]");if(button){const item=bookmarkRegistry.get(button.dataset.bookmarkUrl);if(item)JuyeonBookmarks.toggle(item)}});
 window.addEventListener("juyeonbookmarkschange",syncBookmarkUi);
-if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=22");
+if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=23");
 load();
 window.addEventListener("pageshow",event=>{if(event.persisted)load()});
