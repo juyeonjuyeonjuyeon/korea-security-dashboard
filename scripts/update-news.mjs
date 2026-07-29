@@ -13,7 +13,7 @@ const userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 
 const sourcePatterns = {
   A: /jcs\.mil\.kr|mnd\.go\.kr|국방부|합동참모본부|joint chiefs|state\.gov|defense\.gov|pacom\.mil|pentagon|iaea\.org|ctbto\.org|usgs\.gov|mod\.go\.jp|imo\.org|international atomic energy agency|gov\.uk|foreign commonwealth|icao\.int|notam|multilateral sanctions monitoring team|\bmsmt\b/i,
   B: /reuters|associated press|\bap news\b|\bbbc\b|\bafp\b|wall street journal|\bwsj\b|yonhap|연합뉴스|\bytn\b|kbs|mbc|sbs|newsis|뉴시스/i,
-  C: /38 north|beyond parallel|csis|rusi|iiss|nk news|radio free asia|\brfa\b|voice of america|\bvoa\b|daily nk|dailynk|asia press|rimjin-gang|서울신문|한국일보|the guardian|financial times/i
+  C: /38 north|beyond parallel|csis|rusi|iiss|nk news|radio free asia|\brfa\b|voice of america|\bvoa\b|daily nk|dailynk|asia press|rimjin-gang|arms control wonk|institute for the study of war|\bisw\b|understanding war|bellingcat|stimson|rand|covert shores|h i sutton|세종연구소|국가안보전략연구원|아산정책연구원|logpresso|로그프레소|서울신문|한국일보|the guardian|financial times/i
 };
 const allowed = new RegExp(`${sourcePatterns.A.source}|${sourcePatterns.B.source}|${sourcePatterns.C.source}|kcna watch|rodong|조선중앙통신|노동신문`, "i");
 const relevant = /north korea|\bdprk\b|kim jong un|pyongyang|korean peninsula|inter-korean|북한|평양|김정은|한반도|남북/i;
@@ -367,6 +367,27 @@ try {
     topic: relatedTopic(item),
     scoreImpact: "위험도 미반영"
   }));
+  const osintPattern = /arms control wonk|institute for the study of war|\bisw\b|understanding war|bellingcat|stimson|rand|covert shores|h i sutton|38 north|beyond parallel|csis/i;
+  const osintWatch = news.filter(item => osintPattern.test(`${item.source} ${item.title}`)).slice(0, 12).map(item => ({
+    ...item,
+    topic: "전문 분석·OSINT",
+    scoreImpact: "종합 위험점수 미반영"
+  }));
+  const anomalyGroups = [
+    ["military","군사 이동",["artillery_movement","ammunition_movement","field_hospital","military_train"]],
+    ["diplomatic","외교·대피",["embassy_withdrawal","usfk_family_evacuation"]],
+    ["mobility","국경·교통",["china_border_closure","airline_change"]],
+    ["leadership","지휘·주민",["leadership_hiding","resident_control"]],
+    ["strategic","전략 활동",["missile_test","war_insurance"]]
+  ].map(([id,label,ids])=>{
+    const matched=ids.map(eventId=>eventMap.get(eventId)).filter(Boolean);
+    const verified=matched.filter(event=>event.verified).length;
+    const observed=matched.filter(event=>!event.verified&&event.sources?.length).length;
+    const score=verified?2:observed?1:0;
+    return {id,label,score,status:score===2?"확인":score===1?"관찰":"변화 없음",evidence:matched.flatMap(event=>event.sources||[]).slice(0,2)};
+  });
+  const anomalyScore=anomalyGroups.reduce((sum,item)=>sum+item.score,0);
+  const anomalyLevel=anomalyScore>=7?"높음":anomalyScore>=4?"주의":anomalyScore>=2?"관찰":"안정";
   const scoreBreakdown = events.filter(event => event.verified && event.weight > 0);
   const score = Math.min(100, scoreBreakdown.reduce((sum, event) => sum + event.weight, 0));
   const oldScore = Number(previous.risk?.score || 0);
@@ -426,6 +447,14 @@ try {
     coreSignals,
     news,
     relatedInfo,
+    anomalyIndex: {
+      score: anomalyScore,
+      maximum: 10,
+      level: anomalyLevel,
+      categories: anomalyGroups,
+      note: "공개자료의 이상 패턴을 보여주는 보조 지수이며 종합 위험점수에는 반영하지 않습니다."
+    },
+    osintWatch,
     rumors: [
       {
         claim: "외국 대사관 철수",

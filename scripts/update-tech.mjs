@@ -14,11 +14,10 @@ const categories = [
   {id:"cyber",code:"CYBER",label:"사이버보안",query:"(cybersecurity OR ransomware OR zero-day OR data breach OR AI security) (update OR advisory OR release)",pattern:/cyber|ransomware|malware|zero-day|breach|security flaw|vulnerability/i,cadence:"daily"},
   {id:"space",code:"SPACE",label:"우주·통신",query:"(space technology OR satellite OR rocket OR 6G) (launch OR update OR research)",pattern:/space|satellite|rocket|SpaceX|NASA|\b6G\b|telecom/i,cadence:"daily"},
   {id:"energy",code:"ENERGY",label:"에너지·기후기술",query:"(battery technology OR nuclear fusion OR clean energy technology OR climate tech) (breakthrough OR launch OR research)",pattern:/battery|fusion|clean energy|solar|climate tech|nuclear|energy storage/i,cadence:"biweekly",intervalDays:14},
-  {id:"software",code:"DEV",label:"소프트웨어·개발",query:"(software development OR open source OR developer tools OR cloud computing OR programming OR GitHub) (release OR update OR launch)",pattern:/software|developer|open source|GitHub|programming|framework|cloud|API|DevOps|coding assistant/i,cadence:"daily"},
-  {id:"creative",code:"CREATE",label:"창작 AI·미디어",query:"(generative AI OR AI tool) (video OR music OR audio OR image OR design OR 3D OR animation) (launch OR update OR feature OR beta)",pattern:/video|music|audio|voice|image|design|3D|animation|creative|Runway|Firefly|ElevenLabs|Suno|Udio|Midjourney|Stability|Blender/i,cadence:"daily"}
+  {id:"software",code:"DEV",label:"소프트웨어·개발",query:"(software development OR open source OR developer tools OR cloud computing OR programming OR GitHub) (release OR update OR launch)",pattern:/software|developer|open source|GitHub|programming|framework|cloud|API|DevOps|coding assistant/i,cadence:"daily"}
 ];
 
-const allowedSource = /Reuters|Associated Press|\bAP\b|BBC|MIT Technology Review|IEEE Spectrum|Ars Technica|The Verge|TechCrunch|Wired|Financial Times|Bloomberg|Axios|CNBC|Forbes|Nikkei|Guardian|OpenAI|Anthropic|Google|DeepMind|NVIDIA|Microsoft|Apple|NASA|GitHub|Hugging Face|InfoQ|InfoWorld|The Register|Stack Overflow|ZDNET|TechRepublic|Adobe|Runway|Stability AI|ElevenLabs|Blender/i;
+const allowedSource = /Reuters|Associated Press|\bAP\b|BBC|MIT Technology Review|IEEE Spectrum|Ars Technica|The Verge|TechCrunch|Wired|Financial Times|Bloomberg|Axios|CNBC|Forbes|Nikkei|Guardian|OpenAI|Anthropic|Google|DeepMind|NVIDIA|Microsoft|Apple|NASA|GitHub|Hugging Face|InfoQ|InfoWorld|The Register|Stack Overflow|ZDNET|TechRepublic|Adobe|Runway|Stability AI|ElevenLabs|Blender|Vercel|Cloudflare|arXiv|Simon Willison|Krebs|Hacker News|Robot Report|SpaceNews|CleanTechnica/i;
 const relevantTech = /artificial intelligence|\bAI\b|model|agent|software|developer|open source|GitHub|chip|GPU|semiconductor|robot|autonomous|cyber|security|space|satellite|battery|energy|video|music|audio|voice|image|design|3D|animation|creative|OpenAI|Anthropic|Gemini|Claude|ChatGPT|NVIDIA|Adobe|Runway|ElevenLabs|Suno|Udio|Midjourney|Stability|Blender/i;
 const eventSignal = /webinar|event|workshop|hackathon|conference|keynote|livestream|registration|register now|free trial|free tier|free credits?|open beta|public beta|무료|웨비나|행사|등록|베타/i;
 const peopleSignal = /said|says|told|announc|predict|warn|interview|keynote|remarks?|발언|말했다|전망|인터뷰|기조연설/i;
@@ -75,7 +74,7 @@ async function collectPage(page){
 const categoryFor = item => {
   if(item.categoryId && item.categoryId!=="events") return item.categoryId;
   const text=`${item.title} ${item.source}`;
-  return categories.find(category=>category.pattern.test(text))?.id || (/event|webinar|workshop|hackathon/i.test(text)?"creative":"ai");
+  return categories.find(category=>category.pattern.test(text))?.id || "ai";
 };
 const classify = item => {
   const text=`${item.title} ${item.stream}`;
@@ -96,6 +95,13 @@ const themeTags = item => {
   if(/free|beta|webinar|event|workshop|hackathon|credit/i.test(value)) tags.push("기회");
   return tags.slice(0,3);
 };
+const sourceLayer = item => item.confidence==="A"
+  ? ["official","공식 발표·제품 원문"]
+  : item.confidence==="B"
+    ? ["verified","주요 언론 확인"]
+    : item.stream==="community"
+      ? ["community","커뮤니티 신호"]
+      : ["analysis","전문가·기술 분석"];
 const deduplicate = articles => {
   const seen=new Set();
   return articles.filter(article=>{
@@ -128,7 +134,8 @@ async function translate(articles){
     }
     const categoryId=categoryFor(article);
     const category=categories.find(item=>item.id===categoryId)?.label||"인공지능";
-    output.push({...article,categoryId,category,titleKo:titleKo&&!/MYMEMORY WARNING/i.test(titleKo)?titleKo:article.title,type:classify(article),themes:themeTags(article),official:article.confidence==="A"});
+    const [layer,layerLabel]=sourceLayer(article);
+    output.push({...article,categoryId,category,titleKo:titleKo&&!/MYMEMORY WARNING/i.test(titleKo)?titleKo:article.title,type:classify(article),themes:themeTags(article),official:article.confidence==="A",sourceLayer:layer,layerLabel});
   }
   return output;
 }
@@ -167,9 +174,11 @@ try{
   });
   const radar={
     releases:news.filter(item=>["출시·업데이트","오픈소스"].includes(item.type)).slice(0,12),
-    creative:news.filter(item=>item.categoryId==="creative").slice(0,12),
+    creative:news.filter(item=>(item.themes||[]).some(tag=>["영상","음악·음성","미술·디자인"].includes(tag))).slice(0,12),
     opportunities:news.filter(item=>["행사","무료·베타"].includes(item.type)).slice(0,12),
-    voices:news.filter(item=>item.type==="인물 발언").slice(0,12)
+    voices:news.filter(item=>item.type==="인물 발언").slice(0,12),
+    analysis:news.filter(item=>item.sourceLayer==="analysis").slice(0,12),
+    community:news.filter(item=>item.sourceLayer==="community").slice(0,12)
   };
   const ranked=[...categoryData].sort((a,b)=>b.count-a.count);
   const data={

@@ -35,11 +35,11 @@ function render(data){
     <time>${escapeHtml(item.date||"—")}</time><span class="tech-topic">${escapeHtml(item.category||"기술")}</span>
     <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>
     <span class="tech-row-tags">${(item.themes||[]).map(tag=>`<i>${escapeHtml(tag)}</i>`).join("")}</span>
-    <span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")}</span>
+    <span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")} · ${escapeHtml(item.layerLabel||"분석")}</span>
     ${bookmarkButton(item)}
   </article>`).join("")||`<div class="news-item">새 기술 뉴스 없음</div>`;
   const radarItem=item=>`<article class="radar-item bookmarkable">
-    <div><span class="radar-type">${escapeHtml(item.type||"업데이트")}</span><span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")}</span></div>
+    <div><span class="radar-type">${escapeHtml(item.type||"업데이트")}</span><span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")}</span><span class="layer-badge ${escapeHtml(item.sourceLayer||"analysis")}">${escapeHtml(item.layerLabel||"분석")}</span></div>
     <a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>
     <small>${escapeHtml(item.source||"출처 미상")} · ${escapeHtml(item.date||"시각 미상")}</small>
     ${bookmarkButton(item)}
@@ -49,6 +49,8 @@ function render(data){
   fillRadar("techCreative",data.radar?.creative,"새 창작 AI 변화 없음");
   fillRadar("techOpportunities",data.radar?.opportunities,"확인된 무료 행사 없음");
   fillRadar("techVoices",data.radar?.voices,"확인된 주요 발언 없음");
+  fillRadar("techAnalysis",data.radar?.analysis,"새 전문 분석 없음");
+  fillRadar("techCommunity",data.radar?.community,"새 커뮤니티 관심 신호 없음");
   syncBookmarkUi();
 }
 async function load(){
@@ -61,6 +63,6 @@ async function load(){
 $("techRefreshButton").addEventListener("click",load);
 document.addEventListener("click",event=>{const button=event.target.closest("[data-bookmark-url]");if(button){const item=bookmarkRegistry.get(button.dataset.bookmarkUrl);if(item)JuyeonBookmarks.toggle(item)}});
 window.addEventListener("juyeonbookmarkschange",syncBookmarkUi);
-if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=23");
+if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=24");
 load();
 window.addEventListener("pageshow",event=>{if(event.persisted)load()});

@@ -91,6 +91,11 @@
       "id": "north_state_media",
       "label": "북한 관영매체 원문",
       "query": "(North Korea OR DPRK) (site:kcnawatch.org OR site:rodong.rep.kp)"
+    },
+    {
+      "id": "osint_analysis",
+      "label": "OSINT·전문 분석",
+      "query": "(North Korea OR DPRK OR Korean Peninsula) (site:armscontrolwonk.com OR site:understandingwar.org OR site:bellingcat.com OR site:stimson.org OR site:rand.org OR site:covertshores.blogspot.com)"
     }
   ],
   "rss": [
@@ -102,6 +107,21 @@
     {
       "name": "CSIS Beyond Parallel",
       "url": "https://beyondparallel.csis.org/feed/",
+      "grade": "C"
+    },
+    {
+      "name": "Arms Control Wonk",
+      "url": "https://www.armscontrolwonk.com/archive/feed/",
+      "grade": "C"
+    },
+    {
+      "name": "Bellingcat",
+      "url": "https://www.bellingcat.com/feed/",
+      "grade": "C"
+    },
+    {
+      "name": "Stimson Center",
+      "url": "https://www.stimson.org/feed/",
       "grade": "C"
     },
     {
@@ -147,7 +167,9 @@
       "IISS",
       "NK News",
       "RFA·VOA",
-      "Daily NK·Asia Press"
+      "Daily NK·Asia Press",
+      "Arms Control Wonk·ISW·Bellingcat",
+      "Stimson·RAND·Covert Shores"
     ],
     "D": [
       "KCNA Watch·관영매체",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 7. 29. 오전 11:14",
+  "updatedAt": "2026. 7. 29. 오전 11:35",
   "risk": {
     "score": 5,
     "level": "평상시",
@@ -9,7 +9,7 @@
       0,
       0,
       0,
-      0,
+      5,
       5,
       5
     ],
@@ -77,7 +77,7 @@
   "officialAlert": {
     "status": "현재 공식 긴급 경보 없음",
     "level": "normal",
-    "checkedAt": "2026. 7. 29. 오전 11:14"
+    "checkedAt": "2026. 7. 29. 오전 11:35"
   },
   "signals": [
     [
@@ -192,6 +192,16 @@
       "source": "NK News",
       "date": "2026-07-28 22:41",
       "titleKo": "러시아, 오랜 특사 사망 후 몇 달 만에 북한 주재 신임 대사 발탁 - NK News",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "Korean Peninsula Update, July 28, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNGhtVmJGbnlOckRtNFlqMVM1c3ZON2RGdGtkSTladkNCWFlFT3F5ZHdxNWhSWFJzV0ROX2xiYy0yVnZHQ3F4U2daLXBpdjBPTG84MUVkOFphT2ZRelVDU2dzMi1aOUt0eHVkdFZZM1Awdkhwd2lfNWtDV0dkY19rbDlhTUZOYW8tOWFMTlo5dktjUQ?oc=5",
+      "source": "Institute for the Study of War",
+      "date": "2026-07-28 19:47",
+      "titleKo": "한반도 업데이트, 2026년 7월 28일 - 전쟁 연구소",
       "confidence": "C",
       "verification": "전문·단일 확인",
       "riskRelevant": false
@@ -478,8 +488,8 @@
     }
   ],
   "sourceHealth": {
-    "successful": 22,
-    "total": 24,
+    "successful": 25,
+    "total": 28,
     "directSuccessful": 11,
     "directTotal": 14,
     "directSources": [
@@ -548,7 +558,7 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 7. 29. 오전 11:14"
+        "checkedAt": "2026. 7. 29. 오전 11:35"
       },
       {
         "name": "영국 FCDO 한국 여행안내",
@@ -557,7 +567,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:14"
+        "checkedAt": "2026. 7. 29. 오전 11:35"
       },
       {
         "name": "일본 외무성 한국 안전정보",
@@ -566,7 +576,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:14"
+        "checkedAt": "2026. 7. 29. 오전 11:35"
       },
       {
         "name": "프랑스 외교부 한국 안전정보",
@@ -575,7 +585,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:14"
+        "checkedAt": "2026. 7. 29. 오전 11:35"
       },
       {
         "name": "독일 외무부 한국 안전정보",
@@ -584,7 +594,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:14"
+        "checkedAt": "2026. 7. 29. 오전 11:35"
       },
       {
         "name": "호주 Smartraveller 한국 여행안내",
@@ -593,7 +603,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:14"
+        "checkedAt": "2026. 7. 29. 오전 11:35"
       },
       {
         "name": "캐나다 한국 여행안내",
@@ -602,7 +612,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:14"
+        "checkedAt": "2026. 7. 29. 오전 11:35"
       },
       {
         "name": "주한미군 공식 발표",
@@ -611,15 +621,15 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:14"
+        "checkedAt": "2026. 7. 29. 오전 11:35"
       }
     ],
-    "uniqueSources": 11,
+    "uniqueSources": 12,
     "topSource": "NK News",
     "topSourceShare": 17,
     "concentrationWarning": false,
-    "articleCount": 29,
-    "checkedAt": "2026. 7. 29. 오전 11:14"
+    "articleCount": 30,
+    "checkedAt": "2026. 7. 29. 오전 11:35"
   },
   "relatedInfo": [
     {
@@ -632,6 +642,18 @@
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "대외관계",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Korean Peninsula Update, July 28, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNGhtVmJGbnlOckRtNFlqMVM1c3ZON2RGdGtkSTladkNCWFlFT3F5ZHdxNWhSWFJzV0ROX2xiYy0yVnZHQ3F4U2daLXBpdjBPTG84MUVkOFphT2ZRelVDU2dzMi1aOUt0eHVkdFZZM1Awdkhwd2lfNWtDV0dkY19rbDlhTUZOYW8tOWFMTlo5dktjUQ?oc=5",
+      "source": "Institute for the Study of War",
+      "date": "2026-07-28 19:47",
+      "titleKo": "한반도 업데이트, 2026년 7월 28일 - 전쟁 연구소",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
     },
     {
@@ -849,18 +871,6 @@
       "riskRelevant": false,
       "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Advancing Trilateral Cooperation to Disrupt Democratic People’s Republic of Korea (DPRK) Cyber-Enabled Revenue Generation",
-      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/advancing-trilateral-cooperation-to-disrupt-democratic-peoples-republic-of-korea-dprk-cyber-enabled-revenue-generation/",
-      "source": "미 국무부",
-      "date": "",
-      "titleKo": "조선민주주의인민공화국 (DPRK) 사이버 사용 수익 창출을 방해하기 위한 3국 협력 증진",
-      "confidence": "A",
-      "verification": "공식확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
     }
   ],
   "indicatorEvidence": {
@@ -870,7 +880,7 @@
         "titleKo": "미국: 연결 실패",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
         "source": "미국 국무부 한국 여행경보",
-        "date": "2026. 7. 29. 오전 11:14",
+        "date": "2026. 7. 29. 오전 11:35",
         "confidence": "D"
       },
       {
@@ -878,7 +888,7 @@
         "titleKo": "영국: 공식 대피 문구 없음",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
         "source": "영국 FCDO 한국 여행안내",
-        "date": "2026. 7. 29. 오전 11:14",
+        "date": "2026. 7. 29. 오전 11:35",
         "confidence": "A"
       },
       {
@@ -886,7 +896,7 @@
         "titleKo": "일본: 공식 대피 문구 없음",
         "url": "https://www.anzen.mofa.go.jp/m/mbtravelspecificinfo_003.html",
         "source": "일본 외무성 한국 안전정보",
-        "date": "2026. 7. 29. 오전 11:14",
+        "date": "2026. 7. 29. 오전 11:35",
         "confidence": "A"
       },
       {
@@ -894,7 +904,7 @@
         "titleKo": "프랑스: 공식 대피 문구 없음",
         "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-sud/conseils-aux-voyageurs-securite",
         "source": "프랑스 외교부 한국 안전정보",
-        "date": "2026. 7. 29. 오전 11:14",
+        "date": "2026. 7. 29. 오전 11:35",
         "confidence": "A"
       },
       {
@@ -902,7 +912,7 @@
         "titleKo": "독일: 공식 대피 문구 없음",
         "url": "https://www.auswaertiges-amt.de/de/service/laender/korearepublik-node/korearepubliksicherheit-216132",
         "source": "독일 외무부 한국 안전정보",
-        "date": "2026. 7. 29. 오전 11:14",
+        "date": "2026. 7. 29. 오전 11:35",
         "confidence": "A"
       },
       {
@@ -910,7 +920,7 @@
         "titleKo": "호주: 공식 대피 문구 없음",
         "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
         "source": "호주 Smartraveller 한국 여행안내",
-        "date": "2026. 7. 29. 오전 11:14",
+        "date": "2026. 7. 29. 오전 11:35",
         "confidence": "A"
       },
       {
@@ -918,7 +928,7 @@
         "titleKo": "캐나다: 공식 대피 문구 없음",
         "url": "https://travel.gc.ca/destinations/south-korea",
         "source": "캐나다 한국 여행안내",
-        "date": "2026. 7. 29. 오전 11:14",
+        "date": "2026. 7. 29. 오전 11:35",
         "confidence": "A"
       },
       {
@@ -926,9 +936,168 @@
         "titleKo": "주한미군: 공식 대피 문구 없음",
         "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/",
         "source": "주한미군 공식 발표",
-        "date": "2026. 7. 29. 오전 11:14",
+        "date": "2026. 7. 29. 오전 11:35",
         "confidence": "A"
       }
     ]
-  }
+  },
+  "anomalyIndex": {
+    "score": 2,
+    "maximum": 10,
+    "level": "관찰",
+    "categories": [
+      {
+        "id": "military",
+        "label": "군사 이동",
+        "score": 0,
+        "status": "변화 없음",
+        "evidence": []
+      },
+      {
+        "id": "diplomatic",
+        "label": "외교·대피",
+        "score": 0,
+        "status": "변화 없음",
+        "evidence": []
+      },
+      {
+        "id": "mobility",
+        "label": "국경·교통",
+        "score": 0,
+        "status": "변화 없음",
+        "evidence": []
+      },
+      {
+        "id": "leadership",
+        "label": "지휘·주민",
+        "score": 0,
+        "status": "변화 없음",
+        "evidence": []
+      },
+      {
+        "id": "strategic",
+        "label": "전략 활동",
+        "score": 2,
+        "status": "확인",
+        "evidence": [
+          {
+            "label": "북한 미사일 발사에 대한 USFK 성명",
+            "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/Article/4453965/usfk-statement-on-dprk-missile-launches/",
+            "grade": "A"
+          }
+        ]
+      }
+    ],
+    "note": "공개자료의 이상 패턴을 보여주는 보조 지수이며 종합 위험점수에는 반영하지 않습니다."
+  },
+  "osintWatch": [
+    {
+      "title": "Korean Peninsula Update, July 28, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNGhtVmJGbnlOckRtNFlqMVM1c3ZON2RGdGtkSTladkNCWFlFT3F5ZHdxNWhSWFJzV0ROX2xiYy0yVnZHQ3F4U2daLXBpdjBPTG84MUVkOFphT2ZRelVDU2dzMi1aOUt0eHVkdFZZM1Awdkhwd2lfNWtDV0dkY19rbDlhTUZOYW8tOWFMTlo5dktjUQ?oc=5",
+      "source": "Institute for the Study of War",
+      "date": "2026-07-28 19:47",
+      "titleKo": "한반도 업데이트, 2026년 7월 28일 - 전쟁 연구소",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    },
+    {
+      "title": "Not All Overseas Income Is Alike: DPRK Medical Workers and the Limits of Sanctions Equivalence",
+      "url": "https://www.38north.org/2026/07/not-all-overseas-income-is-alike-dprk-medical-workers-and-the-limits-of-sanctions-equivalence/",
+      "source": "38 North",
+      "date": "2026-07-28 17:46",
+      "titleKo": "모든 해외 소득이 동일한 것은 아닙니다: 조선민주주의인민공화국 의료 노동자와 제재 동등성의 한계",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    },
+    {
+      "title": "North Korea’s Nuclear Doctrine: Implications and Strategic Countermeasures for the US-ROK Alliance - 38 North",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1oxTDJ5Sjlyd1RjbVRYUUxCNEpVWjUwM3BDSV9PLWhrWXh0dU9NZ2dQQVNSb3BaOS1iYVVTb0ZuNEdraG56elBoaEVLYUpPMnZCc1VIWnhVVGVaSnFHSGR2U1lMVm1sTTA5eG5sdlZHUE1aY2hyd2NFa3d0N0UwN2N2M0VTTEhES1J4aV9obHB5YXFYZk9pU1ZZTmhkXzItQ0psTk5sMDMtZy1OQy1rejdGcFJPaHdBZFJHckc3NkVXQVVzNkZWUw?oc=5",
+      "source": "38 North",
+      "date": "2026-07-23 14:35",
+      "titleKo": "북한의 핵 독트린: 한미동맹에 대한 시사점 및 전략적 대응방안 - 38노스",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": true,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    },
+    {
+      "title": "North Korea’s Subdued Signaling Toward China During Treaty Anniversary",
+      "url": "https://www.38north.org/2026/07/north-koreas-subdued-signaling-toward-china-during-treaty-anniversary/",
+      "source": "38 North",
+      "date": "2026-07-20 19:46",
+      "titleKo": "조약 기념일 동안 북한이 중국을 향해 보내는 굴복된 신호",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    },
+    {
+      "title": "North Korea Taps India for Smartphones",
+      "url": "https://www.38north.org/2026/07/north-korea-taps-india-for-smartphones/",
+      "source": "38 North",
+      "date": "2026-07-17 12:26",
+      "titleKo": "북한이 인도를 스마트폰으로 누르고 있다",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    },
+    {
+      "title": "Is North Korea Pursuing a “Juche-Oriented” Nuclear Triad?",
+      "url": "https://www.38north.org/2026/07/is-north-korea-pursuing-a-juche-oriented-nuclear-triad/",
+      "source": "38 North",
+      "date": "2026-07-16 13:22",
+      "titleKo": "북한은 '주체 지향적' 핵 3자 동맹을 추구하는가?",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": true,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    },
+    {
+      "title": "North Korea As It Is: The Case for a Cold Peace",
+      "url": "https://beyondparallel.csis.org/north-korea-as-it-is-the-case-for-a-cold-peace/",
+      "source": "CSIS Beyond Parallel",
+      "date": "2026-04-21 05:23",
+      "titleKo": "있는 그대로의 북한: 냉전적 평화의 사례",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    },
+    {
+      "title": "North Korean UAVs at Panghyon",
+      "url": "https://beyondparallel.csis.org/north-korean-uavs-at-panghyon/",
+      "source": "CSIS Beyond Parallel",
+      "date": "2026-03-03 15:19",
+      "titleKo": "판교의 북한 무인 항공기",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    },
+    {
+      "title": "North Korea in 2026: Intentions, Realities, and Response",
+      "url": "https://beyondparallel.csis.org/north-korea-in-2026-intentions-realities-and-response/",
+      "source": "CSIS Beyond Parallel",
+      "date": "2026-02-02 06:37",
+      "titleKo": "2026년 북한: 의도, 현실, 대응",
+      "confidence": "C",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "전문 분석·OSINT",
+      "scoreImpact": "종합 위험점수 미반영"
+    }
+  ]
 }

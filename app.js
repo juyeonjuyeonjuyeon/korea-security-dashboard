@@ -32,14 +32,14 @@ const statusMeta = {
 const fallback = {
   updatedAt:"자동 갱신 전",risk:{score:0,level:"평상시",trend7:[0],reason:"확인된 복합 위험신호가 없습니다."},
   summary:{added:0,cleared:0,statusChange:"동일",items:["새 위험신호 없음","대사관 변화 없음","주한미군 변화 없음"]},
-  officialAlert:{status:"현재 긴급 경보 없음",level:"normal",checkedAt:"—"},signals:[],combinations:[],coreSignals:[],news:[],relatedInfo:[],rumors:[]
+  officialAlert:{status:"현재 긴급 경보 없음",level:"normal",checkedAt:"—"},signals:[],combinations:[],coreSignals:[],news:[],relatedInfo:[],rumors:[],anomalyIndex:{score:0,maximum:10,level:"안정",categories:[]},osintWatch:[]
 };
 let latestData=fallback, historyData=[], activeRange=7;
 const bookmarkRegistry=new Map();
 const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
 const itemState=item=>statusMeta[item?.[2]]||statusMeta.normal;
-const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|인도태평양|FCDO|ICAO|IMO|CTBTO|USGS|일본 방위성|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스|YTN|KBS|MBC|SBS|Newsis|뉴시스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|RUSI|IISS|NK News|RFA|Radio Free Asia|VOA|Voice of America|Daily NK|Asia Press/i.test(source)?4:9;
+const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|인도태평양|FCDO|ICAO|IMO|CTBTO|USGS|일본 방위성|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스|YTN|KBS|MBC|SBS|Newsis|뉴시스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|Arms Control Wonk|ISW|Understanding War|Bellingcat|Stimson|RAND|Covert Shores|RUSI|IISS|NK News|RFA|Radio Free Asia|VOA|Voice of America|Daily NK|Asia Press/i.test(source)?4:9;
 const matchNews=(data,pattern,id)=>{
   const matched=(data.news||[]).filter(item=>pattern.test(`${item.title} ${item.titleKo||""}`));
   const direct=id?(data.indicatorEvidence?.[id]||[]):[];
@@ -110,10 +110,18 @@ function render(data){
   $("signals").innerHTML=signalCards(data);
   $("combinations").innerHTML=compactItems(combinationDefinitions,data,"combination");
   $("coreSignals").innerHTML=compactItems(coreDefinitions,data,"core");
+  renderAnomaly(data.anomalyIndex||fallback.anomalyIndex,data.osintWatch||[]);
   renderNews((data.news||[]).filter(item=>item.riskRelevant!==false));
   renderRelated(data.relatedInfo||[]);
   renderRumors(data.rumors||[]);
   renderChart();
+}
+function renderAnomaly(index,items){
+  $("anomalyScore").innerHTML=`${Number(index.score||0)}<small>/${Number(index.maximum||10)}</small>`;
+  $("anomalyLevel").textContent=index.level||"안정";
+  $("anomalyNote").textContent=index.note||"종합 위험점수와 분리된 보조 지수입니다.";
+  $("anomalyCategories").innerHTML=(index.categories||[]).map(item=>`<div class="anomaly-row state-${item.score||0}"><span>${escapeHtml(item.label)}</span><b>${escapeHtml(item.status||"변화 없음")}</b><em>${Number(item.score||0)}/2</em></div>`).join("")||`<p>확인된 이상 패턴 없음</p>`;
+  $("osintWatch").innerHTML=items.length?items.slice(0,5).map(item=>`<a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer"><span>${escapeHtml(item.source)}</span><strong>${escapeHtml(item.titleKo||item.title)}</strong><small>${escapeHtml(item.scoreImpact||"위험점수 미반영")}</small></a>`).join(""):`<p>새 전문 분석 없음</p>`;
 }
 function renderNews(news){
   const sorted=[...news].sort((a,b)=>sourceRank(a.source)-sourceRank(b.source)||String(b.date).localeCompare(String(a.date)));
@@ -198,7 +206,7 @@ async function notifyOnChange(data){
   if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=23")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=24")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});
