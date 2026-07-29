@@ -40,9 +40,14 @@ $("scrapList").addEventListener("click", event => {
   if (button) JuyeonBookmarks.remove(button.dataset.removeUrl);
 });
 $("exportScraps").addEventListener("click", () => JuyeonBookmarks.export());
+$("importScraps").addEventListener("change",async event=>{
+  const file=event.target.files?.[0];if(!file)return;
+  try{JuyeonBookmarks.import(JSON.parse(await file.text()));alert("스크랩을 복원했습니다.")}catch(error){alert(error.message||"스크랩 복원에 실패했습니다.")}
+  event.target.value="";
+});
 $("clearScraps").addEventListener("click", () => {
   if (JuyeonBookmarks.count() && confirm("이 브라우저에 저장한 스크랩을 모두 삭제할까요?")) JuyeonBookmarks.clear();
 });
 window.addEventListener("juyeonbookmarkschange", render);
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js?v=23");
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js?v=25");
 render();

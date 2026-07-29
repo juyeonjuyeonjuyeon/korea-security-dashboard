@@ -43,6 +43,13 @@
       link.download = `juyeon-news-scraps-${new Date().toISOString().slice(0, 10)}.json`;
       link.click();
       setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+    },
+    import(value) {
+      const incoming=Array.isArray(value)?value:value?.items;
+      if(!Array.isArray(incoming)) throw new Error("올바른 스크랩 백업 파일이 아닙니다.");
+      const merged=new Map(read().map(item=>[item.url,item]));
+      incoming.map(normalize).filter(item=>item.url&&item.title).forEach(item=>merged.set(item.url,item));
+      return write([...merged.values()]);
     }
   };
   window.JuyeonBookmarks = api;

@@ -9,7 +9,7 @@
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=24">
+  <link rel="stylesheet" href="./styles.css?v=25">
 </head>
 <body class="tech-page">
   <header class="terminal-header">
@@ -69,6 +69,12 @@
 
     <section class="module news-module">
       <header><span>TECHNOLOGY FEED</span><small>최신 기술 뉴스</small></header>
+      <div class="feed-controls">
+        <input id="techSearch" type="search" placeholder="제목·출처·태그 검색" aria-label="기술 뉴스 검색">
+        <select id="techCategoryFilter" aria-label="기술 분야 필터"><option value="all">7개 분야 전체</option></select>
+        <select id="techLayerFilter" aria-label="정보 계층 필터"><option value="all">모든 정보 계층</option><option value="official">공식 원문</option><option value="verified">주요 언론</option><option value="analysis">전문 분석</option><option value="community">커뮤니티</option></select>
+        <span id="techResult">전체</span>
+      </div>
       <div class="tech-feed-head" aria-hidden="true"><span>시각</span><span>분야</span><span>출처</span><span>제목</span><span>주제</span><span>등급</span><span>저장</span></div>
       <div id="techNews" class="timeline tech-timeline"></div>
     </section>
@@ -84,7 +90,7 @@
   <nav class="mobile-nav">
     <a href="./">안보</a><a href="#techHeadline">요약</a><a href="#techCategories">분야</a><a href="#techNews">뉴스</a><a href="./scrap.html">스크랩</a>
   </nav>
-  <script src="./bookmarks.js?v=24" defer></script>
-  <script src="./tech.js?v=24" defer></script>
+  <script src="./bookmarks.js?v=25" defer></script>
+  <script src="./tech.js?v=25" defer></script>
 </body>
 </html>

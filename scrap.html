@@ -9,7 +9,7 @@
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=23">
+  <link rel="stylesheet" href="./styles.css?v=25">
 </head>
 <body class="scrap-page">
   <header class="terminal-header">
@@ -35,6 +35,7 @@
           <button data-scrap-filter="tech" aria-pressed="false">기술</button>
         </div>
         <button id="exportScraps" class="terminal-button" type="button">백업</button>
+        <label class="import-button terminal-button">복원<input id="importScraps" type="file" accept="application/json" hidden></label>
         <button id="clearScraps" class="terminal-button" type="button">전체 삭제</button>
       </div>
       <p class="local-note">로그인 없이 이 브라우저에 저장됩니다. 다른 기기나 브라우저에는 자동으로 옮겨지지 않습니다.</p>
@@ -49,7 +50,7 @@
   <nav class="mobile-nav mobile-nav-three">
     <a href="./">안보</a><a href="./tech.html">기술</a><a href="./scrap.html" aria-current="page">스크랩</a>
   </nav>
-  <script src="./bookmarks.js?v=23" defer></script>
-  <script src="./scrap.js?v=23" defer></script>
+  <script src="./bookmarks.js?v=25" defer></script>
+  <script src="./scrap.js?v=25" defer></script>
 </body>
 </html>

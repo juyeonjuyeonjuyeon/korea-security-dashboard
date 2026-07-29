@@ -34,7 +34,7 @@ const fallback = {
   summary:{added:0,cleared:0,statusChange:"동일",items:["새 위험신호 없음","대사관 변화 없음","주한미군 변화 없음"]},
   officialAlert:{status:"현재 긴급 경보 없음",level:"normal",checkedAt:"—"},signals:[],combinations:[],coreSignals:[],news:[],relatedInfo:[],rumors:[],anomalyIndex:{score:0,maximum:10,level:"안정",categories:[]},osintWatch:[]
 };
-let latestData=fallback, historyData=[], activeRange=7;
+let latestData=fallback, historyData=[], activeRange=7, securityNews=[];
 const bookmarkRegistry=new Map();
 const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
@@ -90,7 +90,8 @@ function render(data){
   $("sourceHealth").textContent=health?`뉴스 ${health.successful}/${health.total} · 공식 직접 ${health.directSuccessful??0}/${health.directTotal??0} · 공관 ${embassyOk}/${health.embassyMonitors?.length||0} · 기사 ${health.articleCount}`:"출처 신뢰도";
   if($("sourceCoverage")) $("sourceCoverage").textContent=health?.concentrationWarning
     ? `주의: ${health.topSource} 비중 ${health.topSourceShare}% · 출처 편중`
-    : `서로 다른 출처 ${health?.uniqueSources??0}곳 · 최대 출처 비중 ${health?.topSourceShare??0}%`;
+    : `서로 다른 출처 ${health?.uniqueSources??0}곳 · 최대 출처 비중 ${health?.topSourceShare??0}%${health?.failedSources?.length?` · 연결 실패 ${health.failedSources.length}곳`:""}`;
+  $("publicDataMonitors").innerHTML=(health?.directSources||[]).map(item=>`<a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer"><b>${escapeHtml(item.name)}</b><span>${escapeHtml(item.kind||"공식 원문")}</span><em>${item.ok?"정상":"연결 실패"} · ${escapeHtml(item.checkedAt||health.checkedAt||"—")}</em></a>`).join("")||"<p>공식 데이터 상태 확인 중</p>";
   $("riskLabel").textContent=data.risk?.level||"평상시";
   $("riskScore").textContent=data.risk?.score??0;
   $("riskReason").textContent=data.risk?.reason||"";
@@ -111,7 +112,8 @@ function render(data){
   $("combinations").innerHTML=compactItems(combinationDefinitions,data,"combination");
   $("coreSignals").innerHTML=compactItems(coreDefinitions,data,"core");
   renderAnomaly(data.anomalyIndex||fallback.anomalyIndex,data.osintWatch||[]);
-  renderNews((data.news||[]).filter(item=>item.riskRelevant!==false));
+  securityNews=(data.news||[]).filter(item=>item.riskRelevant!==false);
+  renderSecurityFeed();
   renderRelated(data.relatedInfo||[]);
   renderRumors(data.rumors||[]);
   renderChart();
@@ -120,8 +122,20 @@ function renderAnomaly(index,items){
   $("anomalyScore").innerHTML=`${Number(index.score||0)}<small>/${Number(index.maximum||10)}</small>`;
   $("anomalyLevel").textContent=index.level||"안정";
   $("anomalyNote").textContent=index.note||"종합 위험점수와 분리된 보조 지수입니다.";
-  $("anomalyCategories").innerHTML=(index.categories||[]).map(item=>`<div class="anomaly-row state-${item.score||0}"><span>${escapeHtml(item.label)}</span><b>${escapeHtml(item.status||"변화 없음")}</b><em>${Number(item.score||0)}/2</em></div>`).join("")||`<p>확인된 이상 패턴 없음</p>`;
-  $("osintWatch").innerHTML=items.length?items.slice(0,5).map(item=>`<a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer"><span>${escapeHtml(item.source)}</span><strong>${escapeHtml(item.titleKo||item.title)}</strong><small>${escapeHtml(item.scoreImpact||"위험점수 미반영")}</small></a>`).join(""):`<p>새 전문 분석 없음</p>`;
+  const change=index.change||{};
+  $("anomalyChange").textContent=`전일 대비 ${Number(change.delta||0)>0?"+":""}${Number(change.delta||0)} · 신규 ${(change.added||[]).length} · 해제 ${(change.cleared||[]).length}`;
+  $("anomalyCategories").innerHTML=(index.categories||[]).map(item=>{
+    const evidence=(item.evidence||[]).map(link=>`<a href="${safeUrl(link.url)}" target="_blank" rel="noreferrer">[${escapeHtml(link.grade||"C")}] ${escapeHtml(link.label)}</a>`).join("")||"<span>연결된 근거 없음</span>";
+    return `<details class="anomaly-row state-${item.score||0}"><summary><span>${escapeHtml(item.label)}</span><b>${escapeHtml(item.status||"변화 없음")}</b><em>${Number(item.score||0)}/2</em></summary><div class="anomaly-evidence"><small>확인 ${escapeHtml(item.checkedAt||index.checkedAt||"—")}</small>${evidence}</div></details>`;
+  }).join("")||`<p>확인된 이상 패턴 없음</p>`;
+  $("anomalyTrend").innerHTML=(index.trend||[]).slice(-30).map(item=>`<i style="height:${Math.max(5,Number(item.score||0)*10)}%" title="${escapeHtml(item.date)} · ${Number(item.score||0)}/10"></i>`).join("")||"<span>추세 기록이 쌓이는 중입니다.</span>";
+  $("osintWatch").innerHTML=items.length?items.slice(0,5).map(item=>`<a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer"><span>${escapeHtml(item.source)}</span><strong>${escapeHtml(item.titleKo||item.title)}</strong><small>${escapeHtml(item.date||index.checkedAt||"—")} · ${escapeHtml(item.scoreImpact||"위험점수 미반영")}</small></a>`).join(""):`<p>새 전문 분석 없음</p>`;
+}
+function renderSecurityFeed(){
+  const query=$("securitySearch").value.trim().toLowerCase(),grade=$("securityGrade").value;
+  const filtered=securityNews.filter(item=>(grade==="all"||item.confidence===grade)&&(!query||`${item.title} ${item.titleKo} ${item.source} ${item.verification}`.toLowerCase().includes(query)));
+  $("securityResult").textContent=`${filtered.length}/${securityNews.length}건`;
+  renderNews(filtered);
 }
 function renderNews(news){
   const sorted=[...news].sort((a,b)=>sourceRank(a.source)-sourceRank(b.source)||String(b.date).localeCompare(String(a.date)));
@@ -145,7 +159,7 @@ async function load(path="./data/dashboard.json",latest=true){
 async function loadHistory(){
   try{
     const dates=await (await fetch(`./data/history/index.json?t=${Date.now()}`,{cache:"no-store"})).json();
-    const snapshots=await Promise.all(dates.slice(0,90).map(async date=>{try{const d=await (await fetch(`./data/history/${date}.json?t=${Date.now()}`,{cache:"no-store"})).json();return{date,score:d.risk?.score||0,level:d.risk?.level||"평상시",updatedAt:d.updatedAt||"—",newsCount:Array.isArray(d.news)?d.news.length:0}}catch{return null}}));
+    const snapshots=await Promise.all(dates.slice(0,90).map(async date=>{try{const d=await (await fetch(`./data/history/${date}.json?t=${Date.now()}`,{cache:"no-store"})).json();return{date,score:d.risk?.score||0,anomaly:d.anomalyIndex?.score||0,level:d.risk?.level||"평상시",updatedAt:d.updatedAt||"—",newsCount:Array.isArray(d.news)?d.news.length:0}}catch{return null}}));
     const valid=snapshots.filter(Boolean);
     $("historyList").innerHTML=`<div class="history-head" aria-hidden="true"><span>날짜</span><span>최종 갱신</span><span>위험도</span><span>점수</span><span>뉴스</span></div>${valid.map((item,index)=>`<button type="button" data-date="${escapeHtml(item.date)}" class="history-row ${index===0?"active":""}" aria-label="${escapeHtml(item.date)} 대시보드 보기, 뉴스 ${item.newsCount}건"><time>${escapeHtml(item.date)}</time><span>${escapeHtml(item.updatedAt)}</span><strong>${escapeHtml(item.level)}</strong><span>${item.score}</span><span>${item.newsCount}건</span></button>`).join("")}`;
     historyData=[...valid].reverse();renderChart();
@@ -190,23 +204,26 @@ document.addEventListener("keydown",event=>{if(["Enter"," "].includes(event.key)
 $("refreshButton").addEventListener("click",()=>load());
 $("historyList").addEventListener("click",event=>{const button=event.target.closest("[data-date]");if(button){document.querySelectorAll(".history-row").forEach(row=>row.classList.toggle("active",row===button));load(`./data/history/${button.dataset.date}.json`,false)}});
 document.querySelectorAll(".range-tabs button").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll(".range-tabs button").forEach(item=>{item.classList.remove("active");item.setAttribute("aria-pressed","false")});button.classList.add("active");button.setAttribute("aria-pressed","true");activeRange=Number(button.dataset.range);renderChart()}));
+$("securitySearch").addEventListener("input",renderSecurityFeed);$("securityGrade").addEventListener("change",renderSecurityFeed);
 
-const settingsDialog=$("settingsDialog"),notificationToggle=$("notificationToggle"),ruleInputs=[...document.querySelectorAll("#notificationRules input")];
+const settingsDialog=$("settingsDialog"),notificationToggle=$("notificationToggle"),ruleInputs=[...document.querySelectorAll("#notificationRules input")],notificationKeywords=$("notificationKeywords");
 [$("settingsButton"),$("desktopSettingsButton")].filter(Boolean).forEach(button=>button.addEventListener("click",()=>settingsDialog.showModal()));
 const rules=()=>{try{return JSON.parse(localStorage.getItem("notificationRules"))||["score","level","official"]}catch{return["score","level","official"]}};
 ruleInputs.forEach(input=>{input.checked=rules().includes(input.value);input.addEventListener("change",()=>localStorage.setItem("notificationRules",JSON.stringify(ruleInputs.filter(i=>i.checked).map(i=>i.value))))});
+notificationKeywords.value=localStorage.getItem("notificationKeywords")||"";notificationKeywords.addEventListener("input",()=>localStorage.setItem("notificationKeywords",notificationKeywords.value));
 function notificationState(){const supported="Notification"in window,permission=supported?Notification.permission:"unsupported",enabled=localStorage.getItem("notifications")==="on";notificationToggle.checked=supported&&enabled&&permission==="granted";notificationToggle.disabled=!supported||permission==="denied";$("notificationStatus").textContent=!supported?"이 브라우저는 알림을 지원하지 않습니다":permission==="denied"?"주소창의 사이트 설정에서 알림을 허용하세요":notificationToggle.checked?"알림 사용 중":"알림 꺼짐"}
 notificationToggle.addEventListener("change",async()=>{if(!("Notification"in window))return;const permission=notificationToggle.checked?await Notification.requestPermission():"denied";localStorage.setItem("notifications",permission==="granted"?"on":"off");notificationState()});notificationState();
 async function notifyOnChange(data){
-  const prev={update:localStorage.getItem("lastUpdate"),score:Number(localStorage.getItem("lastScore")||0),level:localStorage.getItem("lastLevel")||"평상시"};
-  const current={update:data.updatedAt||"",score:Number(data.risk?.score||0),level:data.risk?.level||"평상시"};
-  localStorage.setItem("lastUpdate",current.update);localStorage.setItem("lastScore",current.score);localStorage.setItem("lastLevel",current.level);
+  const prev={update:localStorage.getItem("lastUpdate"),score:Number(localStorage.getItem("lastScore")||0),anomaly:Number(localStorage.getItem("lastAnomaly")||0),level:localStorage.getItem("lastLevel")||"평상시"};
+  const current={update:data.updatedAt||"",score:Number(data.risk?.score||0),anomaly:Number(data.anomalyIndex?.score||0),level:data.risk?.level||"평상시"};
+  localStorage.setItem("lastUpdate",current.update);localStorage.setItem("lastScore",current.score);localStorage.setItem("lastAnomaly",current.anomaly);localStorage.setItem("lastLevel",current.level);
   if(!prev.update||prev.update===current.update||!("Notification"in window)||Notification.permission!=="granted"||localStorage.getItem("notifications")!=="on")return;
   const selected=rules(),rank={평상시:0,주의:1,경계:2,심각:3},why=[];
-  if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
+  if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("anomaly")&&current.anomaly>prev.anomaly)why.push(`이상지수 ${prev.anomaly}→${current.anomaly}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
+  const keywords=(localStorage.getItem("notificationKeywords")||"").split(",").map(item=>item.trim()).filter(Boolean);if(selected.includes("keyword")&&keywords.some(keyword=>(data.news||[]).some(item=>`${item.title} ${item.titleKo}`.toLowerCase().includes(keyword.toLowerCase()))))why.push("관심 키워드 새 소식");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=24")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=25")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});

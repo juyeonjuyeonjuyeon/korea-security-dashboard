@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 7. 29. 오전 11:35",
+  "updatedAt": "2026. 7. 29. 오전 11:51",
   "risk": {
     "score": 5,
     "level": "평상시",
@@ -8,7 +8,7 @@
       0,
       0,
       0,
-      0,
+      5,
       5,
       5,
       5
@@ -77,7 +77,7 @@
   "officialAlert": {
     "status": "현재 공식 긴급 경보 없음",
     "level": "normal",
-    "checkedAt": "2026. 7. 29. 오전 11:35"
+    "checkedAt": "2026. 7. 29. 오전 11:51"
   },
   "signals": [
     [
@@ -495,59 +495,115 @@
     "directSources": [
       {
         "name": "합동참모본부",
-        "ok": true
+        "url": "https://www.jcs.mil.kr/",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "대한민국 국방부",
-        "ok": true
+        "url": "https://www.mnd.go.kr/mnd/167/subview.do",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "IAEA DPRK",
-        "ok": false
+        "url": "https://www.iaea.org/newscenter/focus/dprk",
+        "kind": "공식 발표 원문",
+        "ok": false,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "미 국방부",
-        "ok": true
+        "url": "https://www.defense.gov/News/News-Stories/Tag/155460/north-korea/",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "미 국무부",
-        "ok": true
+        "url": "https://www.state.gov/countries-areas/north-korea/",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 3,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "미 인도태평양사령부",
-        "ok": true
+        "url": "https://www.pacom.mil/Media/News/",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "주한미군",
-        "ok": true
+        "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 2,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "유엔군사령부",
-        "ok": true
+        "url": "https://www.unc.mil/",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "일본 방위성",
-        "ok": false
+        "url": "https://www.mod.go.jp/en/d_act/sec_env/nk/index.html",
+        "kind": "공식 발표 원문",
+        "ok": false,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "영국 FCDO",
-        "ok": true
+        "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "ICAO",
-        "ok": false
+        "url": "https://www.icao.int/",
+        "kind": "공식 발표 원문",
+        "ok": false,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "IMO",
-        "ok": true
+        "url": "https://www.imo.org/en/MediaCentre/Pages/Default.aspx",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "CTBTO",
-        "ok": true
+        "url": "https://www.ctbto.org/news-and-events/news",
+        "kind": "공식 발표 원문",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "USGS 지진 관측",
-        "ok": true
+        "url": "https://earthquake.usgs.gov/",
+        "kind": "지진 관측 데이터",
+        "ok": true,
+        "records": 0,
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       }
     ],
     "embassyMonitors": [
@@ -558,7 +614,7 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 7. 29. 오전 11:35"
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "영국 FCDO 한국 여행안내",
@@ -567,7 +623,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:35"
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "일본 외무성 한국 안전정보",
@@ -576,7 +632,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:35"
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "프랑스 외교부 한국 안전정보",
@@ -585,7 +641,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:35"
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "독일 외무부 한국 안전정보",
@@ -594,7 +650,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:35"
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "호주 Smartraveller 한국 여행안내",
@@ -603,7 +659,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:35"
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "캐나다 한국 여행안내",
@@ -612,7 +668,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:35"
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       },
       {
         "name": "주한미군 공식 발표",
@@ -621,7 +677,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 7. 29. 오전 11:35"
+        "checkedAt": "2026. 7. 29. 오전 11:51"
       }
     ],
     "uniqueSources": 12,
@@ -629,7 +685,12 @@
     "topSourceShare": 17,
     "concentrationWarning": false,
     "articleCount": 30,
-    "checkedAt": "2026. 7. 29. 오전 11:35"
+    "checkedAt": "2026. 7. 29. 오전 11:51",
+    "failedSources": [
+      "IAEA DPRK",
+      "일본 방위성",
+      "ICAO"
+    ]
   },
   "relatedInfo": [
     {
@@ -880,7 +941,7 @@
         "titleKo": "미국: 연결 실패",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
         "source": "미국 국무부 한국 여행경보",
-        "date": "2026. 7. 29. 오전 11:35",
+        "date": "2026. 7. 29. 오전 11:51",
         "confidence": "D"
       },
       {
@@ -888,7 +949,7 @@
         "titleKo": "영국: 공식 대피 문구 없음",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
         "source": "영국 FCDO 한국 여행안내",
-        "date": "2026. 7. 29. 오전 11:35",
+        "date": "2026. 7. 29. 오전 11:51",
         "confidence": "A"
       },
       {
@@ -896,7 +957,7 @@
         "titleKo": "일본: 공식 대피 문구 없음",
         "url": "https://www.anzen.mofa.go.jp/m/mbtravelspecificinfo_003.html",
         "source": "일본 외무성 한국 안전정보",
-        "date": "2026. 7. 29. 오전 11:35",
+        "date": "2026. 7. 29. 오전 11:51",
         "confidence": "A"
       },
       {
@@ -904,7 +965,7 @@
         "titleKo": "프랑스: 공식 대피 문구 없음",
         "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-sud/conseils-aux-voyageurs-securite",
         "source": "프랑스 외교부 한국 안전정보",
-        "date": "2026. 7. 29. 오전 11:35",
+        "date": "2026. 7. 29. 오전 11:51",
         "confidence": "A"
       },
       {
@@ -912,7 +973,7 @@
         "titleKo": "독일: 공식 대피 문구 없음",
         "url": "https://www.auswaertiges-amt.de/de/service/laender/korearepublik-node/korearepubliksicherheit-216132",
         "source": "독일 외무부 한국 안전정보",
-        "date": "2026. 7. 29. 오전 11:35",
+        "date": "2026. 7. 29. 오전 11:51",
         "confidence": "A"
       },
       {
@@ -920,7 +981,7 @@
         "titleKo": "호주: 공식 대피 문구 없음",
         "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
         "source": "호주 Smartraveller 한국 여행안내",
-        "date": "2026. 7. 29. 오전 11:35",
+        "date": "2026. 7. 29. 오전 11:51",
         "confidence": "A"
       },
       {
@@ -928,7 +989,7 @@
         "titleKo": "캐나다: 공식 대피 문구 없음",
         "url": "https://travel.gc.ca/destinations/south-korea",
         "source": "캐나다 한국 여행안내",
-        "date": "2026. 7. 29. 오전 11:35",
+        "date": "2026. 7. 29. 오전 11:51",
         "confidence": "A"
       },
       {
@@ -936,7 +997,7 @@
         "titleKo": "주한미군: 공식 대피 문구 없음",
         "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/",
         "source": "주한미군 공식 발표",
-        "date": "2026. 7. 29. 오전 11:35",
+        "date": "2026. 7. 29. 오전 11:51",
         "confidence": "A"
       }
     ]
@@ -951,6 +1012,7 @@
         "label": "군사 이동",
         "score": 0,
         "status": "변화 없음",
+        "checkedAt": "2026. 7. 29. 오전 11:51",
         "evidence": []
       },
       {
@@ -958,6 +1020,7 @@
         "label": "외교·대피",
         "score": 0,
         "status": "변화 없음",
+        "checkedAt": "2026. 7. 29. 오전 11:51",
         "evidence": []
       },
       {
@@ -965,6 +1028,7 @@
         "label": "국경·교통",
         "score": 0,
         "status": "변화 없음",
+        "checkedAt": "2026. 7. 29. 오전 11:51",
         "evidence": []
       },
       {
@@ -972,6 +1036,7 @@
         "label": "지휘·주민",
         "score": 0,
         "status": "변화 없음",
+        "checkedAt": "2026. 7. 29. 오전 11:51",
         "evidence": []
       },
       {
@@ -979,6 +1044,7 @@
         "label": "전략 활동",
         "score": 2,
         "status": "확인",
+        "checkedAt": "2026. 7. 29. 오전 11:51",
         "evidence": [
           {
             "label": "북한 미사일 발사에 대한 USFK 성명",
@@ -988,6 +1054,18 @@
         ]
       }
     ],
+    "change": {
+      "added": [],
+      "cleared": [],
+      "delta": 0
+    },
+    "trend": [
+      {
+        "date": "2026-07-29",
+        "score": 2
+      }
+    ],
+    "checkedAt": "2026. 7. 29. 오전 11:51",
     "note": "공개자료의 이상 패턴을 보여주는 보조 지수이며 종합 위험점수에는 반영하지 않습니다."
   },
   "osintWatch": [

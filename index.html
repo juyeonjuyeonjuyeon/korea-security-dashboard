@@ -9,7 +9,7 @@
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=24">
+  <link rel="stylesheet" href="./styles.css?v=25">
 </head>
 <body>
   <header class="terminal-header">
@@ -70,7 +70,7 @@
       <header><span>ANOMALY WATCH</span><small>이상 징후·OSINT · 종합 위험점수와 분리</small></header>
       <div class="anomaly-layout">
         <div class="anomaly-index"><span>보조 이상지수</span><strong id="anomalyScore">0<small>/10</small></strong><b id="anomalyLevel">안정</b><p id="anomalyNote">공개자료의 이상 패턴을 확인 중입니다.</p></div>
-        <div id="anomalyCategories" class="anomaly-categories"></div>
+        <div class="anomaly-categories"><div id="anomalyChange" class="anomaly-change">전일 변화 확인 중</div><div id="anomalyCategories"></div><div id="anomalyTrend" class="anomaly-trend" aria-label="최근 이상지수 추세"></div></div>
         <div class="osint-column"><h3>전문 분석·OSINT</h3><div id="osintWatch" class="osint-list"></div></div>
       </div>
     </section>
@@ -112,6 +112,11 @@
 
     <section id="newsSection" class="module news-module">
       <header><span>INTELLIGENCE FEED</span><small>뉴스 타임라인</small></header>
+      <div class="feed-controls">
+        <input id="securitySearch" type="search" placeholder="제목·출처·분류 검색" aria-label="안보 뉴스 검색">
+        <select id="securityGrade" aria-label="신뢰도 필터"><option value="all">모든 신뢰도</option><option value="A">A 공식</option><option value="B">B 주요 보도</option><option value="C">C 전문 분석</option><option value="D">D 참고</option></select>
+        <span id="securityResult">전체</span>
+      </div>
       <div id="news" class="timeline"></div>
     </section>
 
@@ -135,6 +140,7 @@
           <span><b>D</b> KCNA Watch·노동신문 등 관영매체·SNS·미확인 단독보도</span>
         </div>
         <p id="sourceCoverage" class="source-coverage">출처 편중 확인 중</p>
+        <details class="public-monitor"><summary>뉴스 외 공식 데이터 모니터</summary><div id="publicDataMonitors"></div></details>
       </article>
     </section>
 
@@ -157,7 +163,10 @@
         <label><input type="checkbox" value="score" checked> 점수 상승</label>
         <label><input type="checkbox" value="level" checked> 단계 상승</label>
         <label><input type="checkbox" value="official" checked> 공식 긴급경보</label>
+        <label><input type="checkbox" value="anomaly" checked> 이상지수 상승</label>
+        <label><input type="checkbox" value="keyword"> 관심 키워드 포함</label>
       </fieldset>
+      <label class="keyword-setting"><span>관심 키워드</span><input id="notificationKeywords" type="text" placeholder="예: 대사관, 미사일, OpenAI"></label>
       <p id="notificationStatus">알림 상태 확인 중</p>
       <small>무료 정적 PWA이므로 앱이 완전히 종료된 동안의 실시간 푸시는 보장되지 않습니다.</small>
     </form>
@@ -166,7 +175,7 @@
   <nav class="mobile-nav">
     <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#newsSection">뉴스</a><a href="./scrap.html">스크랩</a><button id="settingsButton">알림</button>
   </nav>
-  <script src="./bookmarks.js?v=24" defer></script>
-  <script src="./app.js?v=24" defer></script>
+  <script src="./bookmarks.js?v=25" defer></script>
+  <script src="./app.js?v=25" defer></script>
 </body>
 </html>

@@ -204,7 +204,11 @@ async function collectNews() {
   const officialNames = [...officialPages.map(page => page.name), "USGS 지진 관측"];
   const directSources = officialSettled.map((result, index) => ({
     name: officialNames[index],
-    ok: result.status === "fulfilled"
+    url: index<officialPages.length?officialPages[index].url:"https://earthquake.usgs.gov/",
+    kind: index<officialPages.length?"공식 발표 원문":"지진 관측 데이터",
+    ok: result.status === "fulfilled",
+    records: result.status === "fulfilled" ? result.value.length : 0,
+    checkedAt: kstNow()
   }));
   const directSuccessful = directSources.filter(item => item.ok).length;
   const embassyMonitors = embassySettled.map((result, index) => result.status === "fulfilled"
@@ -315,6 +319,13 @@ async function saveSnapshot(data) {
 }
 
 try {
+  const todayKst = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
+  let comparisonSnapshot = previous;
+  try {
+    const historyDates = JSON.parse(await fs.readFile(historyIndexFile, "utf8"));
+    const priorDate = historyDates.find(date => date !== todayKst);
+    if (priorDate) comparisonSnapshot = JSON.parse(await fs.readFile(new URL(`${priorDate}.json`, historyDir), "utf8"));
+  } catch {}
   const collected = await collectNews();
   const raw = limitPerSource(deduplicate(collected.articles)
     .filter(article => article.title && article.url)
@@ -384,10 +395,19 @@ try {
     const verified=matched.filter(event=>event.verified).length;
     const observed=matched.filter(event=>!event.verified&&event.sources?.length).length;
     const score=verified?2:observed?1:0;
-    return {id,label,score,status:score===2?"확인":score===1?"관찰":"변화 없음",evidence:matched.flatMap(event=>event.sources||[]).slice(0,2)};
+    const evidence=matched.flatMap(event=>event.sources||[]).slice(0,3);
+    return {id,label,score,status:score===2?"확인":score===1?"관찰":"변화 없음",checkedAt:kstNow(),evidence};
   });
   const anomalyScore=anomalyGroups.reduce((sum,item)=>sum+item.score,0);
   const anomalyLevel=anomalyScore>=7?"높음":anomalyScore>=4?"주의":anomalyScore>=2?"관찰":"안정";
+  const oldAnomalyGroups=new Map((comparisonSnapshot.anomalyIndex?.categories||[]).map(item=>[item.id,item]));
+  const anomalyAdded=anomalyGroups.filter(item=>item.score>(oldAnomalyGroups.get(item.id)?.score||0));
+  const anomalyCleared=anomalyGroups.filter(item=>item.score<(oldAnomalyGroups.get(item.id)?.score||0));
+  const sampleDate=new Date(Date.now()+9*3600000).toISOString().slice(0,10);
+  const anomalyTrend=[
+    ...(previous.anomalyIndex?.trend||[]).filter(item=>item.date!==sampleDate),
+    {date:sampleDate,score:anomalyScore}
+  ].slice(-90);
   const scoreBreakdown = events.filter(event => event.verified && event.weight > 0);
   const score = Math.min(100, scoreBreakdown.reduce((sum, event) => sum + event.weight, 0));
   const oldScore = Number(previous.risk?.score || 0);
@@ -412,7 +432,8 @@ try {
       topSourceShare,
       concentrationWarning: topSourceShare >= 50,
       articleCount: news.length,
-      checkedAt: kstNow()
+      checkedAt: kstNow(),
+      failedSources: collected.directSources.filter(item=>!item.ok).map(item=>item.name)
     },
     risk: {
       score,
@@ -452,6 +473,13 @@ try {
       maximum: 10,
       level: anomalyLevel,
       categories: anomalyGroups,
+      change: {
+        added: anomalyAdded.map(item=>item.label),
+        cleared: anomalyCleared.map(item=>item.label),
+        delta: anomalyScore-Number(comparisonSnapshot.anomalyIndex?.score||0)
+      },
+      trend: anomalyTrend,
+      checkedAt: kstNow(),
       note: "공개자료의 이상 패턴을 보여주는 보조 지수이며 종합 위험점수에는 반영하지 않습니다."
     },
     osintWatch,
