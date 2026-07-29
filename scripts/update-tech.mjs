@@ -185,7 +185,12 @@ try{
     categories:categoryData,radar,news,
     sourceHealth:{successful,total:jobs.length,configuredTotal:sourceConfig.directFeeds.length+sourceConfig.officialPages.length,officialSources:new Set(news.filter(item=>item.official).map(item=>item.source)).size,checkedAt:kstNow(),mode:flashMode?"매시간 공식 레이더":"하루 2회 전체 수집"}
   };
-  await fs.writeFile(outputFile,`${JSON.stringify(data,null,2)}\n`);
+  const contentSignature=value=>JSON.stringify((value.news||[]).map(item=>[item.title,item.url,item.source,item.type,item.categoryId]));
+  if(flashMode&&contentSignature(data)===contentSignature(previous)){
+    console.log("공식 기술 레이더에 새 변화가 없어 이전 데이터를 유지합니다.");
+  }else{
+    await fs.writeFile(outputFile,`${JSON.stringify(data,null,2)}\n`);
+  }
 }catch(error){
   console.warn(`기술 뉴스 자동 갱신 실패: ${error.message}. 이전 정상 데이터를 유지합니다.`);
 }

@@ -23,7 +23,7 @@ function render(data){
   if($("techRadarMode")) $("techRadarMode").textContent=`${data.sourceHealth?.mode||data.updateMode||"공식 채널 매시간 점검"} · 공식 출처 ${data.sourceHealth?.officialSources??data.metrics?.officialCount??0}곳`;
   $("techSummary").innerHTML=(data.summary||fallback.summary).map(item=>`<li>${escapeHtml(item)}</li>`).join("");
   const deferred=data.sourceHealth?.deferred||[];
-  $("techSourceHealth").textContent=`수집 ${data.sourceHealth?.successful||0}/${data.sourceHealth?.total||0} · 전체 분야 ${data.sourceHealth?.configuredTotal||data.sourceHealth?.total||0} · 기사 ${data.metrics?.articleCount||0}${deferred.length?` · 격주 자료 유지: ${deferred.join(", ")}`:""}`;
+  $("techSourceHealth").textContent=`수집 ${data.sourceHealth?.successful||0}/${data.sourceHealth?.total||0} · 공식·직접 경로 ${data.sourceHealth?.configuredTotal||data.sourceHealth?.total||0} · 기사 ${data.metrics?.articleCount||0}${deferred.length?` · 격주 자료 유지: ${deferred.join(", ")}`:""}`;
   $("techCategories").innerHTML=(data.categories||[]).map(item=>`<article class="tech-category-card">
     <header><span>${escapeHtml(item.code)}</span><b>${item.count}건</b></header>
     <h3>${escapeHtml(item.label)}</h3>
