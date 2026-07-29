@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 7. 29. PM 2:33",
+  "updatedAt": "2026. 7. 29. PM 6:13",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "Sargassum 벨트 크기 조정",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 66,
-    "sourceCount": 28,
+    "recentCount": 67,
+    "sourceCount": 27,
     "officialCount": 25,
     "opportunityCount": 1
   },
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "모델이 명확한 결과 없이 가짜 정렬을 수행합니까?",
-      "latest": "2026-07-29 04:00",
+      "count": 34,
+      "summary": "AI Hype Index: Unsexy AI",
+      "latest": "2026-07-29 08:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-29T05:33:35.795Z",
+      "lastRefreshed": "2026-07-29T09:13:32.657Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -40,7 +40,7 @@
       "summary": "Show HN: XY – 빠르고 컴포저블한 GPU 가속 대화형 플로팅 라이브러리",
       "latest": "2026-07-28 15:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-29T05:33:35.795Z",
+      "lastRefreshed": "2026-07-29T09:13:32.657Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,18 +53,18 @@
       "summary": "미국은 외국 로봇을 금지하고 있습니다",
       "latest": "2026-07-28 22:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-29T05:33:35.795Z",
+      "lastRefreshed": "2026-07-29T09:13:32.657Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
-      "summary": "이베이의 기괴한 사이버 스토킹 사가는 5,600만 달러 ($) 의 합의금으로 끝납니다.",
-      "latest": "2026-07-28 22:48",
+      "count": 6,
+      "summary": "OpenAI 에이전트는 얼굴 유출을 포옹하는 동안 네 가지 서비스에서 노출된 자격 증명을 사용했습니다.",
+      "latest": "2026-07-29 07:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-29T05:33:35.795Z",
+      "lastRefreshed": "2026-07-29T09:13:32.657Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,11 +73,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 7,
+      "count": 4,
       "summary": "Sargassum 벨트 크기 조정",
       "latest": "2026-07-29 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-29T05:33:35.795Z",
+      "lastRefreshed": "2026-07-29T09:13:32.657Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +90,7 @@
       "summary": "가족은 더 낮은 비용과 더 적은 오염을 원합니다: 공익 단체는 워싱턴에서 가장 큰 유틸리티를 통해 요금 인상을 낮추고 청정 에너지 법규를 준수합니다.",
       "latest": "2026-07-29 01:34",
       "cadence": "격주",
-      "lastRefreshed": "2026-07-29T05:33:35.795Z",
+      "lastRefreshed": "2026-07-29T09:13:32.657Z",
       "themes": []
     },
     {
@@ -101,7 +101,7 @@
       "summary": "v16.3.0-canary.102",
       "latest": "2026-07-28 23:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-29T05:33:35.795Z",
+      "lastRefreshed": "2026-07-29T09:13:32.657Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -141,6 +141,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Hubble: Open-source notetaking app for you and your agents",
+        "url": "https://www.hubble.md/",
+        "source": "Hacker News",
+        "date": "2026-07-29 00:11",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "허블: 여러분과 상담원을 위한 오픈 소스 노트 작성 앱",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "v16.3.0-canary.102",
@@ -286,24 +302,6 @@
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "v0.120.2",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v0.120.1",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.1",
-        "source": "GitHub · Anthropic SDK",
-        "date": "2026-07-28 16:37",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v0.120.1",
         "type": "출시·업데이트",
         "themes": [
           "주요 기업"
@@ -499,6 +497,40 @@
     ],
     "analysis": [
       {
+        "title": "The AI Hype Index: Unsexy AI",
+        "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+        "source": "MIT Technology Review",
+        "date": "2026-07-29 08:42",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI Hype Index: Unsexy AI",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+        "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+        "source": "The Hacker News",
+        "date": "2026-07-29 07:51",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "OpenAI 에이전트는 얼굴 유출을 포옹하는 동안 네 가지 서비스에서 노출된 자격 증명을 사용했습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Do Models Fake Alignment Without Clear Consequences?",
         "url": "https://arxiv.org/abs/2607.24758",
         "source": "arXiv cs.AI",
@@ -661,38 +693,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-        "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
-        "source": "TechCrunch",
-        "date": "2026-07-29 00:09",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Cyera는 급증하는 AI 요원을 보호하기 위해 $ 10억에 Oasis Security를 인수하는 데 동의합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI’s finally expensive enough to make Wall Street nervous",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
-        "source": "The Verge",
-        "date": "2026-07-28 23:37",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인공지능은 마침내 월스트리트가 긴장할 만큼 비싸졌다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -707,6 +707,22 @@
         "category": "인공지능",
         "titleKo": "LearnVector – 일대일 학습 경험을 구축하는 Andrew Ng의 AI 회사",
         "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Hubble: Open-source notetaking app for you and your agents",
+        "url": "https://www.hubble.md/",
+        "source": "Hacker News",
+        "date": "2026-07-29 00:11",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "허블: 여러분과 상담원을 위한 오픈 소스 노트 작성 앱",
+        "type": "오픈소스",
         "themes": [],
         "official": false,
         "sourceLayer": "community",
@@ -765,6 +781,40 @@
     ]
   },
   "news": [
+    {
+      "title": "The AI Hype Index: Unsexy AI",
+      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "source": "MIT Technology Review",
+      "date": "2026-07-29 08:42",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI Hype Index: Unsexy AI",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "source": "The Hacker News",
+      "date": "2026-07-29 07:51",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "OpenAI 에이전트는 얼굴 유출을 포옹하는 동안 네 가지 서비스에서 노출된 자격 증명을 사용했습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Do Models Fake Alignment Without Clear Consequences?",
       "url": "https://arxiv.org/abs/2607.24758",
@@ -976,6 +1026,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Hubble: Open-source notetaking app for you and your agents",
+      "url": "https://www.hubble.md/",
+      "source": "Hacker News",
+      "date": "2026-07-29 00:11",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "허블: 여러분과 상담원을 위한 오픈 소스 노트 작성 앱",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
@@ -2046,56 +2112,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Trump admin exempts SpaceX's Starlink from FCC ban on foreign-made routers",
-      "url": "https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/",
-      "source": "Ars Technica",
-      "date": "2026-07-27 21:40",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "트럼프 관리자는 외국산 라우터에 대한 FCC 금지에서 SpaceX의 Starlink를 면제합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NASA Fuels Roman Space Telescope for Late August Launch - NASA Science (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbGRJbkh1aUpPclk4UVNMZENDUHhPZTJYemJnVHhnUDFCSmM4U21VQU5HX0Z3WEN2Z0JSVHdGV3ZSaTFsNnlzSWd3ZW9LTXdiQ295dks4b2Q1NzBaRnlLaWNnNkxleEFldi1OVUpUelpSYlFSeHI1akl2bmhjS2E0eDFocEtjM050elNKVDU3Q1ladG4zeVc5eDhWWTZmN2dBYzlFbWMxUQ?oc=5",
-      "source": "NASA Science (.gov)",
-      "date": "2026-07-27 21:02",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "8월 말 발사를 위한 NASA 연료 로마 우주 망원경 - NASA Science (.gov)",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Sphinx Defense wins $287 million contract for strategic satellite communications software",
-      "url": "https://spacenews.com/sphinx-defense-wins-287-million-contract-for-strategic-satellite-communications-software/",
-      "source": "SpaceNews",
-      "date": "2026-07-27 19:02",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Sphinx Defense wins $287 million contract for strategic satellite communications software",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2103,7 +2119,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 7. 29. PM 2:33",
+    "checkedAt": "2026. 7. 29. PM 6:13",
     "mode": "매시간 공식 레이더"
   }
 }
