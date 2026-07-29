@@ -30,14 +30,34 @@ const officialPages = [
   { name: "IMO", url: "https://www.imo.org/en/MediaCentre/Pages/Default.aspx", includeArticles: true },
   { name: "CTBTO", url: "https://www.ctbto.org/news-and-events/news", includeArticles: true }
 ];
+const embassyMonitorPages = [
+  { name: "미국 국무부 한국 여행경보", country: "미국", url: "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html" },
+  { name: "영국 FCDO 한국 여행안내", country: "영국", url: "https://www.gov.uk/foreign-travel-advice/south-korea" },
+  { name: "일본 외무성 한국 안전정보", country: "일본", url: "https://www.anzen.mofa.go.jp/m/mbtravelspecificinfo_003.html" },
+  { name: "프랑스 외교부 한국 안전정보", country: "프랑스", url: "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-sud/conseils-aux-voyageurs-securite" },
+  { name: "독일 외무부 한국 안전정보", country: "독일", url: "https://www.auswaertiges-amt.de/de/service/laender/korearepublik-node/korearepubliksicherheit-216132" },
+  { name: "호주 Smartraveller 한국 여행안내", country: "호주", url: "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea" },
+  { name: "캐나다 한국 여행안내", country: "캐나다", url: "https://travel.gc.ca/destinations/south-korea" },
+  { name: "주한미군 공식 발표", country: "주한미군", url: "https://www.usfk.mil/Media/Press-Products/Press-Releases/" }
+];
+const orderedDeparturePattern = /ordered departure|mandatory departure|ordered (?:the )?departure|dependents? (?:have been |are )?ordered to (?:depart|leave)|eligible family members.{0,80}(?:ordered|must leave)|비필수.{0,30}(?:직원|인력).{0,30}(?:철수|출국)|가족.{0,30}(?:철수 명령|대피 명령|출국 명령)|退避命令|家族.{0,30}(?:退避|出国命令)|départ ordonné|personnel non essentiel.{0,50}(?:quitter|évacu)|angeordnete ausreise|familienangehörige.{0,50}(?:ausreise|evakuierung)/i;
+const authorizedDeparturePattern = /authorized departure|voluntary departure|eligible family members.{0,80}(?:authorized|may leave)|non-essential personnel.{0,80}(?:leave|depart)|가족.{0,30}(?:자진 출국|출국 허가)|自主退避|退避を許可|départ autorisé|départ volontaire|freiwillige ausreise|ausreise gestattet/i;
+const suspendedOperationsPattern = /embassy operations (?:are )?suspended|suspended operations|embassy (?:is )?closed until further notice|consular services (?:are )?suspended|공관.{0,30}(?:폐쇄|운영 중단)|영사.{0,30}(?:업무 중단|서비스 중단)|大使館.{0,30}(?:閉鎖|業務停止)|activités de l'ambassade.{0,40}suspendues|services consulaires.{0,40}suspendus|botschaft.{0,40}(?:geschlossen|betrieb eingestellt)/i;
+const exercisePattern = /exercise|drill|focused passage|courageous channel|annual|routine|훈련|연례|연습/i;
 const rules = {
   missile_test: /missile (test|launch|firing)|ballistic missile|미사일 (시험|발사)/i,
   artillery_movement: /artillery (movement|deployment|position|drill)|포병 (이동|배치)|방사포 이동/i,
   ammunition_movement: /ammunition movement|munitions transfer|ammunition shipment|fuel convoy|탄약 (이동|수송)|연료 수송/i,
   field_hospital: /field hospital|mobile hospital|blood suppl|야전병원|이동식 병원|혈액 보급/i,
+  military_train: /military train|rail shipment|equipment train|transporter erector launcher|군용열차|군용 열차|장비 수송 열차/i,
+  kim_activity: /kim jong un.{0,40}(?:disappear|absence|missing|no public appearance)|leadership.{0,30}(?:bunker|underground)|김정은.{0,30}(?:잠행|공개활동 중단|장기 부재)|지도부.{0,30}(?:은신|지하 이동)/i,
+  resident_control: /resident evacuation|movement restriction|city lockdown|road closure|rail closure|주민.{0,30}(?:소개|대피|이동 통제)|도시.{0,20}봉쇄|철도.{0,20}통제/i,
   china_border_closure: /(china|chinese|북중|중국).{0,30}(border|국경|접경).{0,30}(clos|seal|restrict|봉쇄|폐쇄|통제)/i,
-  embassy_withdrawal: /embassy.{0,30}(withdraw|evacuat|close)|diplomat.{0,30}(withdraw|evacuat)|대사관.{0,30}(철수|대피|폐쇄)/i,
-  usfk_family_evacuation: /USFK.{0,30}famil.{0,30}evacuat|noncombatant evacuation.{0,30}korea|주한미군.{0,30}(가족|비전투원).{0,30}(철수|대피)/i,
+  russia_cooperation: /(north korea|dprk|북한).{0,50}(russia|russian|러시아).{0,60}(troop|weapon|ammunition|missile|military cooperation|병력|무기|탄약|군사협력)/i,
+  airline_change: /(south korea|seoul|incheon|한국|서울|인천).{0,60}(suspend flights|flight suspension|mass cancellation|airspace closure|운항 중단|대규모 결항|영공 폐쇄)/i,
+  war_insurance: /(korea|korean peninsula|한국|한반도).{0,50}(war risk insurance|joint war committee|listed area|전쟁위험 보험|전쟁보험)/i,
+  embassy_withdrawal: new RegExp(`${orderedDeparturePattern.source}|${authorizedDeparturePattern.source}|${suspendedOperationsPattern.source}`, "i"),
+  usfk_family_evacuation: /USFK.{0,50}(?:family|families|dependents|noncombatant).{0,50}(?:ordered to leave|evacuation order|mandatory departure)|주한미군.{0,40}(?:가족|비전투원).{0,40}(?:철수 명령|대피 명령|출국 명령)/i,
   leadership_hiding: /leadership.{0,30}(bunker|underground|disappear)|kim jong un.{0,30}(disappear|absence)|지도부.{0,30}(대피|은신|지하)/i
 };
 const riskNewsPattern = /missile|ballistic|nuclear|weapon|artillery|troop|ammunition|military deployment|embassy|evacuat|border clos|field hospital|bunker|미사일|핵|무기|포병|병력|탄약|군사 배치|대사관|철수|국경 봉쇄|야전병원|지도부 은신/i;
@@ -121,6 +141,29 @@ async function collectOfficialPage(page) {
   return articles;
 }
 
+async function collectEmbassyMonitor(page) {
+  const html = await fetchText(page.url, 20000);
+  const text = decodeXml(html);
+  const ordered = orderedDeparturePattern.test(text);
+  const authorized = authorizedDeparturePattern.test(text);
+  const suspended = suspendedOperationsPattern.test(text);
+  const state = ordered || suspended ? "danger" : authorized ? "attention" : "normal";
+  const status = ordered ? "가족·비필수 인력 출국 명령 감지"
+    : suspended ? "공관 운영 중단 문구 감지"
+    : authorized ? "자발적 출국 허가 문구 감지"
+    : "공식 대피 문구 없음";
+  const monitor = { name: page.name, country: page.country, url: page.url, ok: true, state, status, checkedAt: kstNow() };
+  const articles = state === "normal" ? [] : [{
+    title: `${page.country}: ${status}`,
+    url: page.url,
+    source: page.name,
+    date: dateFrom(Date.now()),
+    forcedGrade: "A",
+    officialDeparture: true
+  }];
+  return { monitor, articles };
+}
+
 async function collectSeismic() {
   const start = new Date(Date.now() - 7 * 86400000).toISOString();
   const url = `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=${encodeURIComponent(start)}&minlatitude=33&maxlatitude=44&minlongitude=124&maxlongitude=132&minmagnitude=2.5`;
@@ -144,13 +187,16 @@ async function collectNews() {
     ...officialPages.map(page => collectOfficialPage(page)),
     collectSeismic()
   ];
-  const [settled, officialSettled] = await Promise.all([
+  const embassyJobs = embassyMonitorPages.map(collectEmbassyMonitor);
+  const [settled, officialSettled, embassySettled] = await Promise.all([
     Promise.allSettled(discoveryJobs),
-    Promise.allSettled(officialJobs)
+    Promise.allSettled(officialJobs),
+    Promise.allSettled(embassyJobs)
   ]);
   const articles = [
     ...settled.flatMap(result => result.status === "fulfilled" ? result.value : []),
-    ...officialSettled.flatMap(result => result.status === "fulfilled" ? result.value : [])
+    ...officialSettled.flatMap(result => result.status === "fulfilled" ? result.value : []),
+    ...embassySettled.flatMap(result => result.status === "fulfilled" ? result.value.articles : [])
   ];
   const successful = settled.filter(result => result.status === "fulfilled").length;
   const officialNames = [...officialPages.map(page => page.name), "USGS 지진 관측"];
@@ -159,6 +205,9 @@ async function collectNews() {
     ok: result.status === "fulfilled"
   }));
   const directSuccessful = directSources.filter(item => item.ok).length;
+  const embassyMonitors = embassySettled.map((result, index) => result.status === "fulfilled"
+    ? result.value.monitor
+    : { name: embassyMonitorPages[index].name, country: embassyMonitorPages[index].country, url: embassyMonitorPages[index].url, ok: false, state: "unknown", status: "연결 실패", checkedAt: kstNow() });
   if (!successful) throw new Error("모든 공개 정보처 연결 실패");
   return {
     articles,
@@ -166,7 +215,8 @@ async function collectNews() {
     total: discoveryJobs.length,
     directSuccessful,
     directTotal: officialJobs.length,
-    directSources
+    directSources,
+    embassyMonitors
   };
 }
 
@@ -224,10 +274,14 @@ async function translateNews(news) {
 
 function verifiedEvents(news) {
   return Object.entries(rules).map(([id, pattern]) => {
-    const matches = news.filter(article => pattern.test(`${article.title} ${article.titleKo || ""}`));
+    const matches = news.filter(article => pattern.test(`${article.title} ${article.titleKo || ""}`))
+      .filter(article => !["embassy_withdrawal", "usfk_family_evacuation"].includes(id) || !exercisePattern.test(`${article.title} ${article.titleKo || ""}`));
     const reliableSources = new Set(matches.filter(article => ["A", "B"].includes(article.confidence)).map(sourceName));
     const hasOfficial = matches.some(article => article.confidence === "A");
-    const verified = hasOfficial || reliableSources.size >= config.verification.minimum_independent_reliable_sources;
+    const requiresOfficial = ["embassy_withdrawal", "usfk_family_evacuation"].includes(id);
+    const verified = requiresOfficial
+      ? hasOfficial
+      : hasOfficial || reliableSources.size >= config.verification.minimum_independent_reliable_sources;
     return {
       id,
       label: config.events[id].label,
@@ -262,8 +316,8 @@ try {
   const collected = await collectNews();
   const raw = limitPerSource(deduplicate(collected.articles)
     .filter(article => article.title && article.url)
-    .filter(article => relevant.test(`${article.title} ${article.source}`))
-    .filter(article => allowed.test(sourceName(article)))
+    .filter(article => article.officialDeparture || relevant.test(`${article.title} ${article.source}`))
+    .filter(article => article.forcedGrade === "A" || allowed.test(sourceName(article)))
     .sort((a, b) => String(b.date).localeCompare(String(a.date))));
   const news = await translateNews(raw);
   if (!news.length) throw new Error("유효한 공개 출처 뉴스 0건");
@@ -274,12 +328,44 @@ try {
   const topSourceShare = sourceCounts.length ? Math.round(sourceCounts[0][1] / news.length * 100) : 0;
 
   const events = verifiedEvents(news);
+  const embassyEvent = events.find(item => item.id === "embassy_withdrawal");
+  const usfkEvent = events.find(item => item.id === "usfk_family_evacuation");
+  const eventMap = new Map(events.map(item => [item.id, item]));
+  const eventVerified = id => Boolean(eventMap.get(id)?.verified);
+  const eventObserved = id => Boolean(eventMap.get(id)?.sources?.length);
+  const combinedState = ids => ids.every(eventVerified) ? ["발생", "danger"]
+    : ids.some(eventVerified) || ids.some(eventObserved) ? ["검토중", "unknown"]
+    : ["미발생", "normal"];
+  const coreState = ids => ids.some(eventVerified) ? ["주의", "watch"]
+    : ids.some(eventObserved) ? ["검토중", "unknown"]
+    : ["미확인", "unknown"];
+  const embassyChecksOk = collected.embassyMonitors.some(item => item.ok);
+  const signalStatus = Object.fromEntries(events.map(event => [
+    event.id,
+    event.verified ? statusFor(event)
+      : event.id === "embassy_withdrawal" && embassyChecksOk ? "normal"
+      : "unknown"
+  ]));
+  const combinations = [
+    ["포병 + 탄약", ...combinedState(["artillery_movement", "ammunition_movement"])],
+    ["야전병원 + 병력", ...combinedState(["field_hospital", "military_train"])],
+    ["대사관 + 항공편", ...combinedState(["embassy_withdrawal", "airline_change"])],
+    ["지도부 은신 + 미사일", ...combinedState(["leadership_hiding", "missile_test"])],
+    ["중국 국경 + 병력", ...combinedState(["china_border_closure", "military_train"])]
+  ];
+  const coreSignals = [
+    ["북한 병력이동", ...coreState(["artillery_movement", "ammunition_movement", "military_train"])],
+    ["중국 움직임", ...coreState(["china_border_closure"])],
+    ["외국 대사관", embassyEvent?.verified ? "경고" : embassyChecksOk ? "변화 없음" : "확인 실패", embassyEvent?.verified ? "danger" : embassyChecksOk ? "normal" : "unknown"],
+    ["북한 군사활동", ...coreState(["missile_test", "artillery_movement", "ammunition_movement"])],
+    ["주한미군", usfkEvent?.verified ? "경고" : eventObserved("usfk_family_evacuation") ? "검토중" : "미확인", usfkEvent?.verified ? "danger" : "unknown"]
+  ];
   const relatedInfo = news.filter(item => !item.riskRelevant).slice(0, 20).map(item => ({
     ...item,
     topic: relatedTopic(item),
     scoreImpact: "위험도 미반영"
   }));
-  const scoreBreakdown = events.filter(event => event.verified);
+  const scoreBreakdown = events.filter(event => event.verified && event.weight > 0);
   const score = Math.min(100, scoreBreakdown.reduce((sum, event) => sum + event.weight, 0));
   const oldScore = Number(previous.risk?.score || 0);
   const oldVerified = new Set((previous.scoreBreakdown || []).map(item => item.id));
@@ -297,6 +383,7 @@ try {
       directSuccessful: collected.directSuccessful,
       directTotal: collected.directTotal,
       directSources: collected.directSources,
+      embassyMonitors: collected.embassyMonitors,
       uniqueSources: sourceCounts.length,
       topSource: sourceCounts[0]?.[0] || "—",
       topSourceShare,
@@ -325,7 +412,16 @@ try {
     },
     dailyChange: `새 위험신호 ${added.length} · 해제 ${cleared.length}`,
     urgentChange: score >= 40 ? `${levelFor(score)} 단계 · 공식 채널 확인 필요` : "현재 긴급 경보 없음",
+    officialAlert: {
+      status: embassyEvent?.verified ? "외국 공관 가족·비필수 인력 대피 조치 공식 감지"
+        : usfkEvent?.verified ? "주한미군 가족·비전투원 대피 명령 공식 감지"
+        : "현재 공식 긴급 경보 없음",
+      level: embassyEvent?.verified || usfkEvent?.verified ? "alert" : "normal",
+      checkedAt: kstNow()
+    },
     scoreBreakdown,
+    combinations,
+    coreSignals,
     news,
     relatedInfo,
     rumors: [
@@ -345,7 +441,17 @@ try {
         tone: score >= 60 ? "danger" : "normal"
       }
     ],
-    signalStatus: Object.fromEntries(events.map(event => [event.id, statusFor(event)]))
+    signalStatus,
+    indicatorEvidence: {
+      embassy_withdrawal: collected.embassyMonitors.map(item => ({
+        title: `${item.country}: ${item.status}`,
+        titleKo: `${item.country}: ${item.status}`,
+        url: item.url,
+        source: item.name,
+        date: item.checkedAt,
+        confidence: item.ok ? "A" : "D"
+      }))
+    }
   };
   await fs.writeFile(dashboardFile, `${JSON.stringify(data, null, 2)}\n`);
   await saveSnapshot(data);

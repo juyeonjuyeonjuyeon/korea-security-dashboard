@@ -25,7 +25,27 @@
     {
       "id": "embassy_aviation",
       "label": "대사관·항공·여행경보",
-      "query": "(South Korea OR Korean Peninsula) (embassy evacuation OR diplomat withdrawal OR travel advisory OR flight cancellation OR NOTAM)"
+      "query": "(South Korea OR Korean Peninsula) (\"ordered departure\" OR \"authorized departure\" OR \"eligible family members\" OR embassy evacuation OR non-essential personnel OR consular services suspended OR flight cancellation OR NOTAM)"
+    },
+    {
+      "id": "usfk_family",
+      "label": "주한미군 가족·비전투원",
+      "query": "(South Korea OR USFK) (\"ordered to leave\" OR \"family evacuation\" OR \"noncombatant evacuation order\" OR dependents departure) -exercise -drill"
+    },
+    {
+      "id": "military_transport",
+      "label": "군용열차·장비 이동",
+      "query": "(North Korea OR DPRK) (military train OR rail shipment OR transporter erector launcher OR equipment movement OR satellite imagery)"
+    },
+    {
+      "id": "resident_controls",
+      "label": "북한 주민·교통 통제",
+      "query": "(North Korea OR DPRK) (resident evacuation OR movement restriction OR lockdown OR road closure OR rail closure OR blackout)"
+    },
+    {
+      "id": "airline_korea",
+      "label": "한국 노선 운항 변화",
+      "query": "(South Korea OR Seoul OR Incheon) (airlines suspend flights OR mass cancellation OR airspace closure OR NOTAM)"
     },
     {
       "id": "nuclear_missile",

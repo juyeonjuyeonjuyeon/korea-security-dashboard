@@ -34,6 +34,6 @@ async function load(){
   }catch{render(fallback)}
 }
 $("techRefreshButton").addEventListener("click",load);
-if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=19");
+if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=20");
 load();
 window.addEventListener("pageshow",event=>{if(event.persisted)load()});

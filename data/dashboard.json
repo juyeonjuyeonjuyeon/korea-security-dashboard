@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 7. 29. 오전 8:42",
+  "updatedAt": "2026. 7. 29. 오전 9:36",
   "risk": {
     "score": 0,
     "level": "평상시",
@@ -45,19 +45,25 @@
     }
   ],
   "signalStatus": {
-    "missile_test": "normal",
-    "artillery_movement": "normal",
-    "ammunition_movement": "normal",
-    "field_hospital": "normal",
-    "china_border_closure": "normal",
+    "missile_test": "unknown",
+    "artillery_movement": "unknown",
+    "ammunition_movement": "unknown",
+    "field_hospital": "unknown",
+    "military_train": "unknown",
+    "kim_activity": "unknown",
+    "resident_control": "unknown",
+    "china_border_closure": "unknown",
+    "russia_cooperation": "unknown",
+    "airline_change": "unknown",
+    "war_insurance": "unknown",
     "embassy_withdrawal": "normal",
-    "usfk_family_evacuation": "normal",
-    "leadership_hiding": "normal"
+    "usfk_family_evacuation": "unknown",
+    "leadership_hiding": "unknown"
   },
   "officialAlert": {
-    "status": "자동 연동 전 · 공식 채널 직접 확인",
-    "level": "unknown",
-    "checkedAt": "2026. 7. 28."
+    "status": "현재 공식 긴급 경보 없음",
+    "level": "normal",
+    "checkedAt": "2026. 7. 29. 오전 9:36"
   },
   "signals": [
     [
@@ -113,51 +119,56 @@
   ],
   "combinations": [
     [
-      "병력 이동 + 탄약·연료 + 야전병원",
-      "해당 없음",
+      "포병 + 탄약",
+      "미발생",
       "normal"
     ],
     [
-      "대사관 철수 + 항공편 중단",
-      "해당 없음",
+      "야전병원 + 병력",
+      "미발생",
       "normal"
     ],
     [
-      "주민 소개 + 지도부 은신",
-      "해당 없음",
+      "대사관 + 항공편",
+      "미발생",
       "normal"
     ],
     [
-      "북중 국경 통제 + 병력 증강",
-      "해당 없음",
+      "지도부 은신 + 미사일",
+      "미발생",
+      "normal"
+    ],
+    [
+      "중국 국경 + 병력",
+      "미발생",
       "normal"
     ]
   ],
   "coreSignals": [
     [
-      "북한 병력·장비 이동",
+      "북한 병력이동",
       "미확인",
       "unknown"
     ],
     [
-      "중국 접경 움직임",
-      "변화 없음",
-      "normal"
+      "중국 움직임",
+      "미확인",
+      "unknown"
     ],
     [
-      "외국 공관·여행경보",
+      "외국 대사관",
       "변화 없음",
       "normal"
     ],
     [
       "북한 군사활동",
-      "지속 관찰",
-      "watch"
+      "미확인",
+      "unknown"
     ],
     [
-      "주한미군 비전투원 조치",
-      "변화 없음",
-      "normal"
+      "주한미군",
+      "미확인",
+      "unknown"
     ]
   ],
   "news": [
@@ -189,16 +200,6 @@
       "titleKo": "모든 해외 소득이 동일한 것은 아닙니다: 조선민주주의인민공화국 의료 노동자와 제재 동등성의 한계",
       "confidence": "C",
       "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "북한, 대규모 '전승' 기념행사…공연엔 중국 노래도",
-      "url": "https://www.yonhapnewstv.co.kr/news/MYH20260729004232ZNQ",
-      "source": "연합뉴스TV",
-      "date": "2026-07-28 15:42",
-      "titleKo": "북한, 대규모 '전승' 기념행사…공연엔 중국 노래도",
-      "confidence": "B",
-      "verification": "주요보도",
       "riskRelevant": false
     },
     {
@@ -420,11 +421,41 @@
       "confidence": "C",
       "verification": "전문·단일 확인",
       "riskRelevant": false
+    },
+    {
+      "title": "Advancing Trilateral Cooperation to Disrupt Democratic People’s Republic of Korea (DPRK) Cyber-Enabled Revenue Generation",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/advancing-trilateral-cooperation-to-disrupt-democratic-peoples-republic-of-korea-dprk-cyber-enabled-revenue-generation/",
+      "source": "미 국무부",
+      "date": "",
+      "titleKo": "조선민주주의인민공화국 (DPRK) 사이버 사용 수익 창출을 방해하기 위한 3국 협력 증진",
+      "confidence": "A",
+      "verification": "공식확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "Joint Statement on DPRK Sanctions Accountability",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/joint-statement-on-dprk-sanctions-accountability/",
+      "source": "미 국무부",
+      "date": "",
+      "titleKo": "조선민주주의인민공화국 제재책임에 관한 공동성명",
+      "confidence": "A",
+      "verification": "공식확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "Sanctions to Disrupt DPRK IT Worker Schemes Defrauding U.S. Businesses",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/03/sanctions-to-disrupt-dprk-it-worker-schemes-defrauding-u-s-businesses/",
+      "source": "미 국무부",
+      "date": "",
+      "titleKo": "미국 기업을 기만하는 북한 IT 근로자 제도를 방해하는 제재",
+      "confidence": "A",
+      "verification": "공식확인",
+      "riskRelevant": false
     }
   ],
   "sourceHealth": {
-    "successful": 18,
-    "total": 20,
+    "successful": 22,
+    "total": 24,
     "directSuccessful": 9,
     "directTotal": 12,
     "directSources": [
@@ -477,12 +508,86 @@
         "ok": true
       }
     ],
+    "embassyMonitors": [
+      {
+        "name": "미국 국무부 한국 여행경보",
+        "country": "미국",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
+        "ok": false,
+        "state": "unknown",
+        "status": "연결 실패",
+        "checkedAt": "2026. 7. 29. 오전 9:36"
+      },
+      {
+        "name": "영국 FCDO 한국 여행안내",
+        "country": "영국",
+        "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+        "ok": true,
+        "state": "normal",
+        "status": "공식 대피 문구 없음",
+        "checkedAt": "2026. 7. 29. 오전 9:36"
+      },
+      {
+        "name": "일본 외무성 한국 안전정보",
+        "country": "일본",
+        "url": "https://www.anzen.mofa.go.jp/m/mbtravelspecificinfo_003.html",
+        "ok": true,
+        "state": "normal",
+        "status": "공식 대피 문구 없음",
+        "checkedAt": "2026. 7. 29. 오전 9:36"
+      },
+      {
+        "name": "프랑스 외교부 한국 안전정보",
+        "country": "프랑스",
+        "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-sud/conseils-aux-voyageurs-securite",
+        "ok": true,
+        "state": "normal",
+        "status": "공식 대피 문구 없음",
+        "checkedAt": "2026. 7. 29. 오전 9:36"
+      },
+      {
+        "name": "독일 외무부 한국 안전정보",
+        "country": "독일",
+        "url": "https://www.auswaertiges-amt.de/de/service/laender/korearepublik-node/korearepubliksicherheit-216132",
+        "ok": true,
+        "state": "normal",
+        "status": "공식 대피 문구 없음",
+        "checkedAt": "2026. 7. 29. 오전 9:36"
+      },
+      {
+        "name": "호주 Smartraveller 한국 여행안내",
+        "country": "호주",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+        "ok": true,
+        "state": "normal",
+        "status": "공식 대피 문구 없음",
+        "checkedAt": "2026. 7. 29. 오전 9:36"
+      },
+      {
+        "name": "캐나다 한국 여행안내",
+        "country": "캐나다",
+        "url": "https://travel.gc.ca/destinations/south-korea",
+        "ok": true,
+        "state": "normal",
+        "status": "공식 대피 문구 없음",
+        "checkedAt": "2026. 7. 29. 오전 9:36"
+      },
+      {
+        "name": "주한미군 공식 발표",
+        "country": "주한미군",
+        "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/",
+        "ok": true,
+        "state": "normal",
+        "status": "공식 대피 문구 없음",
+        "checkedAt": "2026. 7. 29. 오전 9:36"
+      }
+    ],
     "uniqueSources": 10,
     "topSource": "NK News",
-    "topSourceShare": 19,
+    "topSourceShare": 18,
     "concentrationWarning": false,
-    "articleCount": 26,
-    "checkedAt": "2026. 7. 29. 오전 8:42"
+    "articleCount": 28,
+    "checkedAt": "2026. 7. 29. 오전 9:36"
   },
   "relatedInfo": [
     {
@@ -517,18 +622,6 @@
       "titleKo": "모든 해외 소득이 동일한 것은 아닙니다: 조선민주주의인민공화국 의료 노동자와 제재 동등성의 한계",
       "confidence": "C",
       "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "대외관계",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "북한, 대규모 '전승' 기념행사…공연엔 중국 노래도",
-      "url": "https://www.yonhapnewstv.co.kr/news/MYH20260729004232ZNQ",
-      "source": "연합뉴스TV",
-      "date": "2026-07-28 15:42",
-      "titleKo": "북한, 대규모 '전승' 기념행사…공연엔 중국 노래도",
-      "confidence": "B",
-      "verification": "주요보도",
       "riskRelevant": false,
       "topic": "대외관계",
       "scoreImpact": "위험도 미반영"
@@ -724,6 +817,86 @@
       "riskRelevant": false,
       "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Advancing Trilateral Cooperation to Disrupt Democratic People’s Republic of Korea (DPRK) Cyber-Enabled Revenue Generation",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/advancing-trilateral-cooperation-to-disrupt-democratic-peoples-republic-of-korea-dprk-cyber-enabled-revenue-generation/",
+      "source": "미 국무부",
+      "date": "",
+      "titleKo": "조선민주주의인민공화국 (DPRK) 사이버 사용 수익 창출을 방해하기 위한 3국 협력 증진",
+      "confidence": "A",
+      "verification": "공식확인",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
     }
-  ]
+  ],
+  "indicatorEvidence": {
+    "embassy_withdrawal": [
+      {
+        "title": "미국: 연결 실패",
+        "titleKo": "미국: 연결 실패",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
+        "source": "미국 국무부 한국 여행경보",
+        "date": "2026. 7. 29. 오전 9:36",
+        "confidence": "D"
+      },
+      {
+        "title": "영국: 공식 대피 문구 없음",
+        "titleKo": "영국: 공식 대피 문구 없음",
+        "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+        "source": "영국 FCDO 한국 여행안내",
+        "date": "2026. 7. 29. 오전 9:36",
+        "confidence": "A"
+      },
+      {
+        "title": "일본: 공식 대피 문구 없음",
+        "titleKo": "일본: 공식 대피 문구 없음",
+        "url": "https://www.anzen.mofa.go.jp/m/mbtravelspecificinfo_003.html",
+        "source": "일본 외무성 한국 안전정보",
+        "date": "2026. 7. 29. 오전 9:36",
+        "confidence": "A"
+      },
+      {
+        "title": "프랑스: 공식 대피 문구 없음",
+        "titleKo": "프랑스: 공식 대피 문구 없음",
+        "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-sud/conseils-aux-voyageurs-securite",
+        "source": "프랑스 외교부 한국 안전정보",
+        "date": "2026. 7. 29. 오전 9:36",
+        "confidence": "A"
+      },
+      {
+        "title": "독일: 공식 대피 문구 없음",
+        "titleKo": "독일: 공식 대피 문구 없음",
+        "url": "https://www.auswaertiges-amt.de/de/service/laender/korearepublik-node/korearepubliksicherheit-216132",
+        "source": "독일 외무부 한국 안전정보",
+        "date": "2026. 7. 29. 오전 9:36",
+        "confidence": "A"
+      },
+      {
+        "title": "호주: 공식 대피 문구 없음",
+        "titleKo": "호주: 공식 대피 문구 없음",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+        "source": "호주 Smartraveller 한국 여행안내",
+        "date": "2026. 7. 29. 오전 9:36",
+        "confidence": "A"
+      },
+      {
+        "title": "캐나다: 공식 대피 문구 없음",
+        "titleKo": "캐나다: 공식 대피 문구 없음",
+        "url": "https://travel.gc.ca/destinations/south-korea",
+        "source": "캐나다 한국 여행안내",
+        "date": "2026. 7. 29. 오전 9:36",
+        "confidence": "A"
+      },
+      {
+        "title": "주한미군: 공식 대피 문구 없음",
+        "titleKo": "주한미군: 공식 대피 문구 없음",
+        "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/",
+        "source": "주한미군 공식 발표",
+        "date": "2026. 7. 29. 오전 9:36",
+        "confidence": "A"
+      }
+    ]
+  }
 }
