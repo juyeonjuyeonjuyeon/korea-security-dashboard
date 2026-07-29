@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#e8e8e4">
+  <meta name="description" content="이 브라우저에 저장한 주연뉴스 기사 스크랩">
+  <title>주연뉴스 · 스크랩북</title>
+  <link rel="manifest" href="./manifest.webmanifest?v=13">
+  <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
+  <link rel="stylesheet" href="./styles.css?v=21">
+</head>
+<body class="scrap-page">
+  <header class="terminal-header">
+    <a href="./" class="wordmark">주연뉴스</a>
+    <div class="market-clock"><span>LOCAL SCRAPBOOK</span></div>
+    <div class="header-actions"><span id="scrapCount" class="local-count">0건 저장</span></div>
+  </header>
+
+  <nav class="edition-nav site-nav" aria-label="신문 면 선택">
+    <a href="./"><b>제1면</b><span>한반도 안보</span></a>
+    <a href="./tech.html"><b>제2면</b><span>최신 기술</span></a>
+    <a href="./scrap.html" aria-current="page"><b>제3면</b><span>스크랩북</span></a>
+  </nav>
+
+  <main>
+    <section class="module scrap-toolbar">
+      <header><span>LOCAL SCRAPBOOK</span><small>이 기기에만 저장</small></header>
+      <div class="scrap-controls">
+        <label><span class="sr-only">스크랩 검색</span><input id="scrapSearch" type="search" placeholder="제목·출처 검색" autocomplete="off"></label>
+        <div class="scrap-filters" aria-label="스크랩 분야">
+          <button class="active" data-scrap-filter="all" aria-pressed="true">전체</button>
+          <button data-scrap-filter="security" aria-pressed="false">안보</button>
+          <button data-scrap-filter="tech" aria-pressed="false">기술</button>
+        </div>
+        <button id="exportScraps" class="terminal-button" type="button">백업</button>
+        <button id="clearScraps" class="terminal-button" type="button">전체 삭제</button>
+      </div>
+      <p class="local-note">로그인 없이 이 브라우저에 저장됩니다. 다른 기기나 브라우저에는 자동으로 옮겨지지 않습니다.</p>
+    </section>
+
+    <section class="module scrap-module">
+      <header><span>SAVED ARTICLES</span><small id="scrapResult">최근 저장순</small></header>
+      <div id="scrapList" class="scrap-list"></div>
+    </section>
+  </main>
+
+  <nav class="mobile-nav mobile-nav-three">
+    <a href="./">안보</a><a href="./tech.html">기술</a><a href="./scrap.html" aria-current="page">스크랩</a>
+  </nav>
+  <script src="./bookmarks.js?v=21" defer></script>
+  <script src="./scrap.js?v=21" defer></script>
+</body>
+</html>

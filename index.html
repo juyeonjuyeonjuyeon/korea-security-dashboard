@@ -9,7 +9,7 @@
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=20">
+  <link rel="stylesheet" href="./styles.css?v=21">
 </head>
 <body>
   <header class="terminal-header">
@@ -24,7 +24,8 @@
 
   <nav class="edition-nav site-nav" aria-label="신문 면 선택">
     <a href="./" aria-current="page"><b>제1면</b><span>한반도 안보</span></a>
-    <a href="./tech.html"><b>제2면</b><span>최신 기술 트렌드</span></a>
+    <a href="./tech.html"><b>제2면</b><span>최신 기술</span></a>
+    <a href="./scrap.html"><b>제3면</b><span>스크랩 <em class="bookmark-count">0</em></span></a>
   </nav>
 
   <main>
@@ -107,7 +108,7 @@
 
     <section id="relatedSection" class="module news-module related-module">
       <header><span>NORTH KOREA &amp; SECURITY</span><small>북한·안보 관련 정보 · 위험도 점수와 분리</small></header>
-      <div class="related-head" aria-hidden="true"><span>시각</span><span>분류</span><span>출처</span><span>제목</span><span>판정</span></div>
+      <div class="related-head" aria-hidden="true"><span>시각</span><span>분류</span><span>출처</span><span>제목</span><span>판정</span><span>저장</span></div>
       <div id="relatedInfo" class="timeline related-list"></div>
     </section>
 
@@ -154,8 +155,9 @@
   </dialog>
 
   <nav class="mobile-nav">
-    <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#trendSection">추세</a><a href="#newsSection">뉴스</a><button id="settingsButton">알림</button>
+    <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#newsSection">뉴스</a><a href="./scrap.html">스크랩</a><button id="settingsButton">알림</button>
   </nav>
-  <script src="./app.js?v=20" defer></script>
+  <script src="./bookmarks.js?v=21" defer></script>
+  <script src="./app.js?v=21" defer></script>
 </body>
 </html>

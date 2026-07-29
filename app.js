@@ -27,7 +27,7 @@ const coreDefinitions = [
 ];
 const statusMeta = {
   normal:["정상","normal"],attention:["주의","attention"],warning:["경계","warning"],danger:["위험","danger"],
-  watch:["주의","attention"],alert:["위험","danger"],unknown:["검토중","normal"]
+  watch:["주의","attention"],alert:["위험","danger"],unknown:["미확인","unknown"]
 };
 const fallback = {
   updatedAt:"자동 갱신 전",risk:{score:0,level:"평상시",trend7:[0],reason:"확인된 복합 위험신호가 없습니다."},
@@ -35,6 +35,7 @@ const fallback = {
   officialAlert:{status:"현재 긴급 경보 없음",level:"normal",checkedAt:"—"},signals:[],combinations:[],coreSignals:[],news:[],relatedInfo:[],rumors:[]
 };
 let latestData=fallback, historyData=[], activeRange=7;
+const bookmarkRegistry=new Map();
 const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
 const itemState=item=>statusMeta[item?.[2]]||statusMeta.normal;
@@ -82,6 +83,7 @@ function compactItems(definitions,data,type){
 }
 function render(data){
   latestData=data;
+  bookmarkRegistry.clear();
   $("updatedAt").textContent=`UPDATED ${data.updatedAt||"—"}`;
   const health=data.sourceHealth;
   const embassyOk=(health?.embassyMonitors||[]).filter(item=>item.ok).length;
@@ -115,7 +117,11 @@ function render(data){
 }
 function renderNews(news){
   const sorted=[...news].sort((a,b)=>sourceRank(a.source)-sourceRank(b.source)||String(b.date).localeCompare(String(a.date)));
-  $("news").innerHTML=sorted.length?sorted.map(item=>`<a class="news-item" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><span class="news-title">${escapeHtml(item.titleKo||item.title)}</span><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.confidence||"D")} · ${escapeHtml(item.verification||"분석")}</span></a>`).join(""):`<div class="news-item">새 뉴스 없음</div>`;
+  $("news").innerHTML=sorted.length?sorted.map(item=>{
+    rememberBookmark(item,"security","안보 지표");
+    return `<article class="news-item bookmarkable"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.confidence||"D")} · ${escapeHtml(item.verification||"분석")}</span>${bookmarkButton(item.url)}</article>`;
+  }).join(""):`<div class="news-item">새 뉴스 없음</div>`;
+  syncBookmarkUi();
 }
 function renderRumors(rumors){
   const defaults=[{claim:"외국 대사관 철수",verdict:"공식 근거 없음",tone:"normal"},{claim:"주한미군 가족 철수",verdict:"확인 불가",tone:"unknown"},{claim:"북한 전면전 임박",verdict:"공식 근거 없음",tone:"normal"}];
@@ -138,18 +144,40 @@ async function loadHistory(){
   }catch{$("historyList").textContent="기록 없음"}
 }
 function renderRelated(items){
-  $("relatedInfo").innerHTML=items.length?items.map(item=>`<a class="related-item" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">
+  $("relatedInfo").innerHTML=items.length?items.map(item=>{
+    rememberBookmark(item,"security",item.topic||"북한 관련");
+    return `<article class="related-item bookmarkable">
     <time>${escapeHtml(item.date||"—")}</time><span class="related-topic">${escapeHtml(item.topic||"북한 관련")}</span>
-    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><span class="news-title">${escapeHtml(item.titleKo||item.title)}</span>
-    <span class="no-score">${escapeHtml(item.scoreImpact||"위험도 미반영")}</span>
-  </a>`).join(""):`<div class="news-item">새로운 일반 북한·안보 정보 없음</div>`;
+    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>
+    <span class="no-score">${escapeHtml(item.scoreImpact||"위험도 미반영")}</span>${bookmarkButton(item.url)}
+  </article>`;
+  }).join(""):`<div class="news-item">새로운 일반 북한·안보 정보 없음</div>`;
+  syncBookmarkUi();
+}
+function rememberBookmark(item,section,topic){
+  bookmarkRegistry.set(item.url,{url:item.url,title:item.titleKo||item.title,source:item.source||"Unknown",date:item.date||"",section,topic,confidence:item.confidence||""});
+}
+function bookmarkButton(url){
+  const saved=JuyeonBookmarks.has(url);
+  return `<button class="bookmark-button ${saved?"saved":""}" type="button" data-bookmark-url="${escapeHtml(url)}" aria-label="${saved?"스크랩에서 삭제":"스크랩에 저장"}" aria-pressed="${saved}" title="${saved?"저장됨":"스크랩"}">${saved?"★":"☆"}</button>`;
+}
+function syncBookmarkUi(){
+  document.querySelectorAll(".bookmark-count").forEach(node=>node.textContent=JuyeonBookmarks.count());
+  document.querySelectorAll("[data-bookmark-url]").forEach(button=>{
+    const saved=JuyeonBookmarks.has(button.dataset.bookmarkUrl);
+    button.classList.toggle("saved",saved);button.textContent=saved?"★":"☆";
+    button.setAttribute("aria-pressed",String(saved));button.setAttribute("aria-label",saved?"스크랩에서 삭제":"스크랩에 저장");
+  });
 }
 async function loadWeights(){
   try{const config=await (await fetch("./config/risk-weights.json")).json();$("scoreWeights").innerHTML=Object.values(config.events).map(item=>`<span>${escapeHtml(item.label)} <b>+${item.weight}</b></span>`).join("")}catch{}
 }
 document.addEventListener("click",event=>{
+  const bookmark=event.target.closest("[data-bookmark-url]");
+  if(bookmark){const item=bookmarkRegistry.get(bookmark.dataset.bookmarkUrl);if(item)JuyeonBookmarks.toggle(item);return}
   const item=event.target.closest(".interactive");if(item&&!event.target.closest("a")){const open=!item.classList.contains("open");document.querySelectorAll(".interactive.open").forEach(node=>{node.classList.remove("open");node.setAttribute("aria-expanded","false")});item.classList.toggle("open",open);item.setAttribute("aria-expanded",String(open))}
 });
+window.addEventListener("juyeonbookmarkschange",syncBookmarkUi);
 document.addEventListener("keydown",event=>{if(["Enter"," "].includes(event.key)&&event.target.matches(".interactive")){event.preventDefault();event.target.click()}if(event.key==="Escape")document.querySelectorAll(".interactive.open").forEach(node=>node.classList.remove("open"))});
 $("refreshButton").addEventListener("click",()=>load());
 $("historyList").addEventListener("click",event=>{const button=event.target.closest("[data-date]");if(button){document.querySelectorAll(".history-row").forEach(row=>row.classList.toggle("active",row===button));load(`./data/history/${button.dataset.date}.json`,false)}});
@@ -170,7 +198,7 @@ async function notifyOnChange(data){
   if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=20")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=21")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});

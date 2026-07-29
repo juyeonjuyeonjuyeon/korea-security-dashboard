@@ -2,8 +2,19 @@ const $ = id => document.getElementById(id);
 const escapeHtml = (value="") => String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl = (value="") => { try { const url=new URL(value); return /^https?:$/.test(url.protocol)?url.href:"#"; } catch { return "#"; } };
 const fallback = {updatedAt:"자동 갱신 전",headline:"최신 기술 흐름을 불러오고 있습니다.",metrics:{articleCount:0,recentCount:0,sourceCount:0},summary:["새 자료 확인 중"],categories:[],news:[],sourceHealth:{successful:0,total:0}};
+const bookmarkRegistry=new Map();
+const bookmarkButton=item=>{
+  bookmarkRegistry.set(item.url,{url:item.url,title:item.titleKo||item.title,source:item.source||"Unknown",date:item.date||"",section:"tech",topic:item.category||"기술 트렌드",confidence:item.confidence||""});
+  const saved=JuyeonBookmarks.has(item.url);
+  return `<button class="bookmark-button ${saved?"saved":""}" type="button" data-bookmark-url="${escapeHtml(item.url)}" aria-label="${saved?"스크랩에서 삭제":"스크랩에 저장"}" aria-pressed="${saved}" title="${saved?"저장됨":"스크랩"}">${saved?"★":"☆"}</button>`;
+};
+function syncBookmarkUi(){
+  document.querySelectorAll(".bookmark-count").forEach(node=>node.textContent=JuyeonBookmarks.count());
+  document.querySelectorAll("[data-bookmark-url]").forEach(button=>{const saved=JuyeonBookmarks.has(button.dataset.bookmarkUrl);button.classList.toggle("saved",saved);button.textContent=saved?"★":"☆";button.setAttribute("aria-pressed",String(saved));button.setAttribute("aria-label",saved?"스크랩에서 삭제":"스크랩에 저장")});
+}
 
 function render(data){
+  bookmarkRegistry.clear();
   $("techUpdatedAt").textContent=`UPDATED ${data.updatedAt||"—"}`;
   $("techHeadline").textContent=data.headline||fallback.headline;
   $("techArticleCount").textContent=data.metrics?.articleCount??0;
@@ -19,12 +30,14 @@ function render(data){
     <div class="tech-tags">${(item.themes||[]).map(tag=>`<span>${escapeHtml(tag)}</span>`).join("")}</div>
     <small>${escapeHtml(item.cadence||"매일")} 갱신 · 최근 확인 ${escapeHtml(item.latest||"—")}</small>
   </article>`).join("")||`<p class="empty-state">분야별 자료 확인 중</p>`;
-  $("techNews").innerHTML=(data.news||[]).map(item=>`<a class="news-item tech-news-item" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">
+  $("techNews").innerHTML=(data.news||[]).map(item=>`<article class="news-item tech-news-item bookmarkable">
     <time>${escapeHtml(item.date||"—")}</time><span class="tech-topic">${escapeHtml(item.category||"기술")}</span>
-    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><span class="news-title">${escapeHtml(item.titleKo||item.title)}</span>
+    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>
     <span class="tech-row-tags">${(item.themes||[]).map(tag=>`<i>${escapeHtml(tag)}</i>`).join("")}</span>
     <span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")}</span>
-  </a>`).join("")||`<div class="news-item">새 기술 뉴스 없음</div>`;
+    ${bookmarkButton(item)}
+  </article>`).join("")||`<div class="news-item">새 기술 뉴스 없음</div>`;
+  syncBookmarkUi();
 }
 async function load(){
   try{
@@ -34,6 +47,8 @@ async function load(){
   }catch{render(fallback)}
 }
 $("techRefreshButton").addEventListener("click",load);
-if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=20");
+document.addEventListener("click",event=>{const button=event.target.closest("[data-bookmark-url]");if(button){const item=bookmarkRegistry.get(button.dataset.bookmarkUrl);if(item)JuyeonBookmarks.toggle(item)}});
+window.addEventListener("juyeonbookmarkschange",syncBookmarkUi);
+if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=21");
 load();
 window.addEventListener("pageshow",event=>{if(event.persisted)load()});
