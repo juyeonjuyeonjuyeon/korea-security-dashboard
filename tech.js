@@ -20,6 +20,7 @@ function render(data){
   $("techArticleCount").textContent=data.metrics?.articleCount??0;
   $("techRecentCount").textContent=data.metrics?.recentCount??0;
   $("techSourceCount").textContent=data.metrics?.sourceCount??0;
+  if($("techRadarMode")) $("techRadarMode").textContent=`${data.sourceHealth?.mode||data.updateMode||"공식 채널 매시간 점검"} · 공식 출처 ${data.sourceHealth?.officialSources??data.metrics?.officialCount??0}곳`;
   $("techSummary").innerHTML=(data.summary||fallback.summary).map(item=>`<li>${escapeHtml(item)}</li>`).join("");
   const deferred=data.sourceHealth?.deferred||[];
   $("techSourceHealth").textContent=`수집 ${data.sourceHealth?.successful||0}/${data.sourceHealth?.total||0} · 전체 분야 ${data.sourceHealth?.configuredTotal||data.sourceHealth?.total||0} · 기사 ${data.metrics?.articleCount||0}${deferred.length?` · 격주 자료 유지: ${deferred.join(", ")}`:""}`;
@@ -37,6 +38,17 @@ function render(data){
     <span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")}</span>
     ${bookmarkButton(item)}
   </article>`).join("")||`<div class="news-item">새 기술 뉴스 없음</div>`;
+  const radarItem=item=>`<article class="radar-item bookmarkable">
+    <div><span class="radar-type">${escapeHtml(item.type||"업데이트")}</span><span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")}</span></div>
+    <a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>
+    <small>${escapeHtml(item.source||"출처 미상")} · ${escapeHtml(item.date||"시각 미상")}</small>
+    ${bookmarkButton(item)}
+  </article>`;
+  const fillRadar=(id,items,empty)=>{$(id).innerHTML=(items||[]).slice(0,6).map(radarItem).join("")||`<p class="empty-state">${empty}</p>`};
+  fillRadar("techReleases",data.radar?.releases,"확인된 새 출시 없음");
+  fillRadar("techCreative",data.radar?.creative,"새 창작 AI 변화 없음");
+  fillRadar("techOpportunities",data.radar?.opportunities,"확인된 무료 행사 없음");
+  fillRadar("techVoices",data.radar?.voices,"확인된 주요 발언 없음");
   syncBookmarkUi();
 }
 async function load(){
@@ -49,6 +61,6 @@ async function load(){
 $("techRefreshButton").addEventListener("click",load);
 document.addEventListener("click",event=>{const button=event.target.closest("[data-bookmark-url]");if(button){const item=bookmarkRegistry.get(button.dataset.bookmarkUrl);if(item)JuyeonBookmarks.toggle(item)}});
 window.addEventListener("juyeonbookmarkschange",syncBookmarkUi);
-if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=21");
+if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=22");
 load();
 window.addEventListener("pageshow",event=>{if(event.persisted)load()});

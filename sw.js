@@ -1,5 +1,5 @@
-const CACHE = "security-board-v21";
-const ASSETS = ["./", "./index.html", "./tech.html", "./scrap.html", "./styles.css", "./app.js", "./tech.js", "./bookmarks.js", "./scrap.js", "./manifest.webmanifest", "./config/risk-weights.json", "./config/sources.json", "./icon-32.png", "./icon-180.png", "./icon-192.png", "./icon-512.png", "./data/dashboard.json", "./data/tech.json", "./data/history/index.json"];
+const CACHE = "security-board-v22";
+const ASSETS = ["./", "./index.html", "./tech.html", "./scrap.html", "./styles.css", "./app.js", "./tech.js", "./bookmarks.js", "./scrap.js", "./manifest.webmanifest", "./config/risk-weights.json", "./config/sources.json", "./config/tech-sources.json", "./icon-32.png", "./icon-180.png", "./icon-192.png", "./icon-512.png", "./data/dashboard.json", "./data/tech.json", "./data/history/index.json"];
 self.addEventListener("install", event => {
   self.skipWaiting();
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));

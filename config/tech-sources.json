@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "directFeeds": [
+    {"name":"GitHub Changelog","url":"https://github.blog/changelog/feed/","grade":"A","categoryId":"software","stream":"release"},
+    {"name":"Google Developers Blog","url":"https://developers.googleblog.com/feeds/posts/default","grade":"A","categoryId":"software","stream":"release"},
+    {"name":"Microsoft AI Blog","url":"https://blogs.microsoft.com/ai/feed/","grade":"A","categoryId":"ai","stream":"release"},
+    {"name":"NVIDIA Blog","url":"https://blogs.nvidia.com/feed/","grade":"A","categoryId":"chips","stream":"release"},
+    {"name":"Hugging Face Blog","url":"https://huggingface.co/blog/feed.xml","grade":"A","categoryId":"ai","stream":"release"},
+    {"name":"MIT Technology Review","url":"https://www.technologyreview.com/feed/","grade":"C","stream":"news"},
+    {"name":"Ars Technica","url":"https://feeds.arstechnica.com/arstechnica/index","grade":"C","stream":"news"},
+    {"name":"The Verge","url":"https://www.theverge.com/rss/index.xml","grade":"C","stream":"news"},
+    {"name":"TechCrunch","url":"https://techcrunch.com/feed/","grade":"C","stream":"news"},
+    {"name":"IEEE Spectrum","url":"https://spectrum.ieee.org/feeds/feed.rss","grade":"C","stream":"news"},
+    {"name":"GitHub · OpenAI Python","url":"https://github.com/openai/openai-python/releases.atom","grade":"A","categoryId":"software","stream":"release"},
+    {"name":"GitHub · Anthropic SDK","url":"https://github.com/anthropics/anthropic-sdk-python/releases.atom","grade":"A","categoryId":"software","stream":"release"},
+    {"name":"GitHub · Transformers","url":"https://github.com/huggingface/transformers/releases.atom","grade":"A","categoryId":"ai","stream":"release"},
+    {"name":"GitHub · ComfyUI","url":"https://github.com/comfyanonymous/ComfyUI/releases.atom","grade":"A","categoryId":"creative","stream":"release"},
+    {"name":"GitHub · Blender","url":"https://github.com/blender/blender/releases.atom","grade":"A","categoryId":"creative","stream":"release"}
+  ],
+  "officialPages": [
+    {"name":"OpenAI News","url":"https://openai.com/news/","grade":"A","categoryId":"ai"},
+    {"name":"Anthropic News","url":"https://www.anthropic.com/news","grade":"A","categoryId":"ai"},
+    {"name":"Google DeepMind","url":"https://deepmind.google/discover/blog/","grade":"A","categoryId":"ai"},
+    {"name":"Adobe Blog","url":"https://blog.adobe.com/en/topics/ai","grade":"A","categoryId":"creative"},
+    {"name":"Runway News","url":"https://runwayml.com/news","grade":"A","categoryId":"creative"},
+    {"name":"Stability AI News","url":"https://stability.ai/news","grade":"A","categoryId":"creative"},
+    {"name":"ElevenLabs Blog","url":"https://elevenlabs.io/blog","grade":"A","categoryId":"creative"},
+    {"name":"Apple Machine Learning","url":"https://machinelearning.apple.com/","grade":"A","categoryId":"ai"},
+    {"name":"NVIDIA Events","url":"https://www.nvidia.com/en-us/events/","grade":"A","categoryId":"events"},
+    {"name":"Microsoft Reactor","url":"https://developer.microsoft.com/en-us/reactor/events/","grade":"A","categoryId":"events"}
+  ],
+  "peopleQueries": [
+    {"name":"AI 기업가 발언","query":"(\"Sam Altman\" OR \"Dario Amodei\" OR \"Demis Hassabis\" OR \"Jensen Huang\" OR \"Satya Nadella\") (said OR says OR announced OR predicts OR interview OR keynote)"},
+    {"name":"창작 AI 인물 발언","query":"(Runway OR ElevenLabs OR Stability AI OR Adobe Firefly OR Midjourney) (CEO OR founder OR research lead) (said OR announced OR interview OR keynote)"}
+  ],
+  "eventQueries": [
+    {"name":"무료 행사·웨비나","query":"(AI OR generative AI OR video AI OR music AI OR creative AI) (free webinar OR free event OR workshop OR hackathon OR livestream OR registration)"},
+    {"name":"무료·베타·오픈소스","query":"(AI tool OR AI model OR video AI OR music AI OR image AI) (free tier OR free credits OR open beta OR public beta OR open source OR free trial)"}
+  ]
+}

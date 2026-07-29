@@ -18,12 +18,14 @@ const sourcePatterns = {
 const allowed = new RegExp(`${sourcePatterns.A.source}|${sourcePatterns.B.source}|${sourcePatterns.C.source}|kcna watch|rodong|조선중앙통신|노동신문`, "i");
 const relevant = /north korea|\bdprk\b|kim jong un|pyongyang|korean peninsula|inter-korean|북한|평양|김정은|한반도|남북/i;
 const officialPages = [
-  { name: "합동참모본부", url: "https://www.jcs.mil.kr/", includeArticles: false },
-  { name: "대한민국 국방부", url: "https://www.mnd.go.kr/", includeArticles: false },
+  { name: "합동참모본부", url: "https://www.jcs.mil.kr/", includeArticles: true },
+  { name: "대한민국 국방부", url: "https://www.mnd.go.kr/mnd/167/subview.do", includeArticles: true },
   { name: "IAEA DPRK", url: "https://www.iaea.org/newscenter/focus/dprk", includeArticles: true },
   { name: "미 국방부", url: "https://www.defense.gov/News/News-Stories/Tag/155460/north-korea/", includeArticles: true },
   { name: "미 국무부", url: "https://www.state.gov/countries-areas/north-korea/", includeArticles: true },
   { name: "미 인도태평양사령부", url: "https://www.pacom.mil/Media/News/", includeArticles: true },
+  { name: "주한미군", url: "https://www.usfk.mil/Media/Press-Products/Press-Releases/", includeArticles: true },
+  { name: "유엔군사령부", url: "https://www.unc.mil/", includeArticles: true },
   { name: "일본 방위성", url: "https://www.mod.go.jp/en/d_act/sec_env/nk/index.html", includeArticles: true },
   { name: "영국 FCDO", url: "https://www.gov.uk/foreign-travel-advice/south-korea", includeArticles: false },
   { name: "ICAO", url: "https://www.icao.int/", includeArticles: false },
