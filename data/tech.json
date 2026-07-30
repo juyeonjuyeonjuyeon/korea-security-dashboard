@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 7. 31. AM 5:37",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 7. 31. AM 7:07",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "GitHub 모델이 이제 폐기되었습니다",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 61,
-    "sourceCount": 22,
+    "recentCount": 57,
+    "sourceCount": 23,
     "officialCount": 24,
     "opportunityCount": 1
   },
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
+      "count": 28,
       "summary": "판사는 트럼프 행정부가 여전히 인류의 ‘공급망 위험‘ 라벨에 대한 증거가 부족하다고 말합니다.",
       "latest": "2026-07-30 20:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-30T20:37:32.536Z",
+      "lastRefreshed": "2026-07-30T22:07:50.572Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "동급 최고의 게임: 지금 GeForce로 PC 게임을 스트리밍하고 동일한 노트북에서 공부하세요",
       "latest": "2026-07-30 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-30T20:37:32.536Z",
+      "lastRefreshed": "2026-07-30T22:07:50.572Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
+      "count": 7,
       "summary": "5 2026년 로봇 공학을 형성하는 물리적 AI 인프라 플랫폼",
       "latest": "2026-07-30 20:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-30T20:37:32.536Z",
+      "lastRefreshed": "2026-07-30T22:07:50.572Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -62,13 +62,14 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
+      "count": 7,
       "summary": "ThreatsDay: AI 기반 해킹, 370가지 크롬 결함, SonicWall 공격, DNS 하이재킹 + 22가지 스토리 더 보기",
       "latest": "2026-07-30 15:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-30T20:37:32.536Z",
+      "lastRefreshed": "2026-07-30T22:07:50.572Z",
       "themes": [
-        "미술·디자인"
+        "미술·디자인",
+        "주요 기업"
       ]
     },
     {
@@ -79,7 +80,7 @@
       "summary": "K2 Space, 상업용 국방 위성 확장을 위해 5억 달러 ($) 모금",
       "latest": "2026-07-30 18:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-30T20:37:32.536Z",
+      "lastRefreshed": "2026-07-30T22:07:50.572Z",
       "themes": [
         "주요 기업"
       ]
@@ -92,7 +93,7 @@
       "summary": "왜 모두가 솔리드 스테이트 배터리를 만들려고 할까요?",
       "latest": "2026-07-30 12:38",
       "cadence": "격주",
-      "lastRefreshed": "2026-07-30T20:37:32.536Z",
+      "lastRefreshed": "2026-07-30T22:07:50.572Z",
       "themes": [
         "주요 기업"
       ]
@@ -105,7 +106,7 @@
       "summary": "GitHub 모델이 이제 폐기되었습니다",
       "latest": "2026-07-30 19:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-30T20:37:32.536Z",
+      "lastRefreshed": "2026-07-30T22:07:50.572Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -430,7 +431,7 @@
     "voices": [],
     "analysis": [
       {
-        "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply chain risk’ label",
+        "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
         "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
         "source": "TechCrunch",
         "date": "2026-07-30 20:26",
@@ -733,7 +734,7 @@
   },
   "news": [
     {
-      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply chain risk’ label",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
       "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
       "source": "TechCrunch",
       "date": "2026-07-30 20:26",
@@ -997,6 +998,24 @@
         "주요 기업",
         "미술·디자인",
         "기회"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI cuts prices for two of its GPT-5.6 AI models as companies grow sensitive to costs - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOSUpBdTdrSGxnV01VOWpVSkF3cVZtdVdsMk9rR21Eb0FhVHhFWHRPbk1nbmItUWVRWmljTV9qUDNwblBQdkozVmkxVTJIWjNnUjR1bzV5a3RnZDZ5ZXota2o4N05rZ0FHSEHSAW9BVV95cUxQaTRNRG5HMU15cTEtUlhWNnpfWFJRLTdQbVVhOXlXSzJ4aU5UUm9IUTBHR0dVS01ydG5qN3FjVjRVcVZWRTNBMUtSMkdweEEyNFprbHg3RmtJQ1RSV0k0NWVlcXZPajBBRmFoZUcxRzA?oc=5",
+      "source": "CNBC",
+      "date": "2026-07-30 17:01",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI, 기업들이 비용에 민감해짐에 따라 GPT-5.6 AI 모델 2개 가격 인하 - CNBC",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
       ],
       "official": false,
       "sourceLayer": "analysis",
@@ -1417,6 +1436,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts",
+      "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
+      "source": "Vercel Changelog",
+      "date": "2026-07-30 04:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Shopify와 Vercel은 더 빠른 매장을 위해 수소를 재건하고 있습니다",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Run multiple isolated agents in a single Sandbox",
       "url": "https://vercel.com/changelog/run-multiple-isolated-agents-in-a-single-sandbox",
       "source": "Vercel Changelog",
@@ -1627,22 +1662,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Deployments are now up to 7 seconds faster",
-      "url": "https://vercel.com/changelog/deployments-are-now-up-to-7-seconds-faster",
-      "source": "Vercel Changelog",
-      "date": "2026-07-30 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Deployments are now up to 7 seconds faster",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "The U.S. wants Asia to use its AI — but China dominates cheaper models - CNBC",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb0NuUWo0T3ZqdENYT0g1QXQwaVU1aFRiLWNGWF9vTFlXMElXOHpHVC1MTHJHVDV5N0RzcHpjLVFYeWJDUWQ1dUE2WE1TdzBKRkM3dGs2MjltajZoVHd5OV9FckpteFJLTVhWRkVMU2x2Z1B6VXF3YTZpN0h3dXNWSlBJSmZiUnYzSHVRVGlNdkhIdDhMSWQ3aGx2dk1vTjNO0gGmAUFVX3lxTE5teTZtWnB4c2pVNU05TkY1Qm8zTFRoNU9fdVptVmJmY3FRVHhOdXFJSHhUNk8xb0VlN2JVUnRFcnBjdDV3Z1NnYkxHM1d0ajNiUmN2WHFBVTEtSG5EU3ZCQVlYSi1lTFFlOWtoUEJ0OWNlYWhzREE4M250eHR6SUhjbDM5M0o4UnpkdzE2MmZLRzNQNllpU0tNVDdKX0hOZWNNOWluMnc?oc=5",
       "source": "CNBC",
@@ -1743,6 +1762,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "What Robotics Experts Think of Tesla’s Optimus Robot - IEEE Spectrum",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9aSVZBc2JNOVZ2aHJQYVNnVjZEbGNBTnRwbENMYzVGdEJfVUNLLUVzSmxtWFZUT2RJd3FtazgzUGxGUjV6NzF4Z2FSaGgtVEhPZGpqLUlxZGxlbjBaa3lscWdnUTBMWTYxMUhzOHI4RU0yelUwa0tqNmdramY?oc=5",
+      "source": "IEEE Spectrum",
+      "date": "2026-07-29 20:22",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "What Robotics Experts Think of Tesla’s Optimus Robot - IEEE Spectrum",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Who wins and who loses after US bans foreign robots?",
       "url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
       "source": "Ars Technica",
@@ -1835,6 +1872,24 @@
       "type": "뉴스·분석",
       "themes": [
         "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Scoop: Second account accessed by OpenAI's agent tied to cyber safety testing - Axios",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBodGRmd2V3VXpxOTFaaEtqU0ZiR2xPQkM1a29DZlhDRHZTLWxQOHB4OVBOckVwZnBTai1aSmhiWTZYaGNtRkI4eVpsLUZQa1poTk5waW8tSjBwdFNESWkzelBYWjhET0VsQ3l0Q21vbWdnRm9RdGZYVm8ySnU3eDg?oc=5",
+      "source": "Axios",
+      "date": "2026-07-29 17:56",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "Scoop: Second account accessed by OpenAI's agent tied to cyber safety testing - Axios",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
       ],
       "official": false,
       "sourceLayer": "analysis",
@@ -2003,66 +2058,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI disinformation",
-      "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
-      "source": "Ars Technica",
-      "date": "2026-07-29 11:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google의 SynthID 워터마크는 깨기 어렵지만 AI 허위 정보를 해결하지는 못합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI Is Hyper-Scaling Digital Inequality",
-      "url": "https://spectrum.ieee.org/ai-digital-divide",
-      "source": "IEEE Spectrum",
-      "date": "2026-07-29 11:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI는 하이퍼 스케일링 디지털 불평등입니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation",
-      "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
-      "source": "Ars Technica",
-      "date": "2026-07-29 11:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google의 SynthID 워터마크는 깨기 어렵지만 AI 잘못된 정보를 해결하지는 못합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 42,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 7. 31. AM 5:37",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 7. 31. AM 7:07",
+    "mode": "하루 2회 전체 수집"
   }
 }
