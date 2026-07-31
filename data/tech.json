@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 1. AM 6:31",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 1. AM 7:07",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "NASA 랭글리에 개장하는 NASA의 최신 풍동 터널",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 60,
+    "recentCount": 66,
     "sourceCount": 22,
-    "officialCount": 27,
+    "officialCount": 25,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
+      "count": 37,
       "summary": "불법적으로 Claude는 3 개의 네트워크에 액세스 할 수있었습니다. Anthropic은 회계 처리됩니까?",
       "latest": "2026-07-31 20:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-31T21:31:18.723Z",
+      "lastRefreshed": "2026-07-31T22:07:11.372Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
-      "summary": "Moonshot의 Kimi는 Alibaba의 20k Nvidia 칩 클러스터를 사용합니다",
-      "latest": "2026-07-31 13:24",
+      "count": 4,
+      "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
+      "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-31T21:31:18.723Z",
+      "lastRefreshed": "2026-07-31T22:07:11.372Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,18 +52,18 @@
       "summary": "로봇 진공 청소기를 금지한다고 해서 더 안전해지는 것은 아니며, 더 나빠질 뿐입니다.",
       "latest": "2026-07-31 18:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-31T21:31:18.723Z",
+      "lastRefreshed": "2026-07-31T22:07:11.372Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
+      "count": 3,
       "summary": "중국 해커가 텔레그램을 통해 DeepSeek에 명령하여 자율 공격 시작",
       "latest": "2026-07-31 11:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-31T21:31:18.723Z",
+      "lastRefreshed": "2026-07-31T22:07:11.372Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "미 항공우주국 (NASA) 이 미국 항공우주국 (American Air, Space Leadership) 을 기념하는 플로리다",
       "latest": "2026-07-31 21:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-31T21:31:18.723Z",
+      "lastRefreshed": "2026-07-31T22:07:11.372Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -86,22 +86,22 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 3,
+      "count": 2,
       "summary": "Zoox, 유료 Robotaxis에 대해 미국으로부터 1차 승인 획득 — 인적 통제 없음",
       "latest": "2026-07-31 02:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-07-31T21:31:18.723Z",
+      "lastRefreshed": "2026-07-31T22:07:11.372Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
+      "count": 18,
       "summary": "smevals - 모델, 프롬프트 및 하네스 평가를 위한 작은 평가 모음",
       "latest": "2026-07-31 21:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-07-31T21:31:18.723Z",
+      "lastRefreshed": "2026-07-31T22:07:11.372Z",
       "themes": [
         "주요 기업"
       ]
@@ -327,6 +327,24 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+        "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+        "source": "Hacker News",
+        "date": "2026-07-31 16:15",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "내 Mac Studio에서 25Gbps Thunderbolt 이더넷 받기",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
@@ -575,6 +593,24 @@
     ],
     "community": [
       {
+        "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+        "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+        "source": "Hacker News",
+        "date": "2026-07-31 16:15",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "내 Mac Studio에서 25Gbps Thunderbolt 이더넷 받기",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Situational Awareness down 67% in July in AI stock rout",
         "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
         "source": "Hacker News",
@@ -652,22 +688,6 @@
         "stream": "community",
         "category": "인공지능",
         "titleKo": "AI 거래는 이제 빌린 돈으로 진행되며, 대출 기관은 이를 재평가하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "The AI Aesthetic",
-        "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
-        "source": "Hacker News",
-        "date": "2026-07-30 23:22",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "인공지능의 미학",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -981,6 +1001,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Moonshot has Nvidia chip cluster from Alibaba computing deal, Bloomberg News reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeVViREhmXzZUal83SHNUWjJqSkxJbWt1RXBQc1R6MUVVMm1SWFNwRG5xM0VyR096MVNxN05qNEtRVXdaME5JMXo5TUNwaGJoVUJZTG5WNzBPdTlaQmxxYzlHaWNiMXZsQzdkSHh1ZTA1NVlfdERQZ0t1b0VlcUY0QW45VXVDb0d5SjZleXVINnBDWnNkZTVzd0lEMXZkYUZfVlV3cnRva1p1TXoxcVhOOFRYdnFuRHNUX3FFQ2xzZXpVV2RjeG9SZVdVTXhRR2dxdkdDblR3?oc=5",
+      "source": "Reuters",
+      "date": "2026-07-31 16:51",
+      "categoryId": "chips",
+      "confidence": "B",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
       "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
       "source": "TechCrunch",
@@ -1027,6 +1065,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+      "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+      "source": "Hacker News",
+      "date": "2026-07-31 16:15",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "내 Mac Studio에서 25Gbps Thunderbolt 이더넷 받기",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Siri AI could come with a paywall for power users",
@@ -1247,6 +1303,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
+      "source": "bloomberg.com",
+      "date": "2026-07-31 12:19",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Alibaba의 20,000 엔비디아 칩 클러스터를 기반으로 구축된 Moonshot의 Kimi - bloomberg.com",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "The new space wars: lessons from Ukraine and the Middle East",
       "url": "https://spacenews.com/the-new-space-wars-lessons-from-ukraine-and-the-middle-east/",
       "source": "SpaceNews",
@@ -1293,6 +1367,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anthropic's Claude AI escapes tests to hack three organisations - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2QlZMcUJ4dUVteXdkZVAxOElRaVhib0pnTVZuZzBQY043YzMySTE0NUtkQ1Y3NnY5MTJkOHdaemxhdkFjdmJmY2U0cmdDRGYtdnEzUVZvMXZjZw?oc=5",
+      "source": "BBC",
+      "date": "2026-07-31 10:18",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic의 Claude AI, 세 조직을 해킹하기 위한 테스트 탈출 - BBC",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
@@ -1361,6 +1453,38 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "What is AI model distillation and why is it becoming a US-China flashpoint? - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN3E5WURUSGY0XzgwWkpzN1BZcElmbnQ0anhTSTRETHU5bHJRQ0Q2VTJpLUlBcXljWGlSX0U0QUhaVVJMTXZGN1hfbVFBU3RZckxBQW40bG52b0NKYkM5SEpobExSRDVIaENMYUpJZzUtaDFwNWZndk1jY2h1TE9Pc2VDZzdCaUJGcUJ3M2Jjcml4Nm54MDFnaVg3c2tlQ3lQX1dQSXhTeHFWR1l4Y3o2c3h1UjJONnc?oc=5",
+      "source": "Reuters",
+      "date": "2026-07-31 06:08",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "What is AI model distillation and why is it becoming a US-China flashpoint? - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
+      "title": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-07-31 06:04",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Show HN: What should the GUI for AI agents look like?",
@@ -1653,20 +1777,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "The AI Aesthetic",
-      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
-      "source": "Hacker News",
-      "date": "2026-07-30 23:22",
+      "title": "Anthropic's AI hacked three companies during tests, highlighting growing security risks - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0FyTjVjNWQzY2dYblVWRlNJdGJwYkVuVVlXbkhBNURXR2VYenltaUVUR2I0emloLVB5S0dBTnpwUDJ0Q013dU1DQmZrLVhPeXcxY09pb0hyS3R4Q0ZFa2x4Y3Y5bzNJMGdtOVZZWE5iMFpjNmNLNjNOZlNKRnlBcmdRVW1NTUdrX1VYRk1nYjBKM3JCa3IwUENVbHRQNW44b25HRk91MUxNVVlDNXNxYTJWNjhLMHo0SzVqY203Yw?oc=5",
+      "source": "Reuters",
+      "date": "2026-07-30 23:13",
       "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
+      "confidence": "B",
+      "stream": "news",
       "category": "인공지능",
-      "titleKo": "인공지능의 미학",
+      "titleKo": "Anthropic's AI hacked three companies during tests, highlighting growing security risks - Reuters",
       "type": "뉴스·분석",
-      "themes": [],
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "5 Physical AI infrastructure platforms shaping robotics in 2026",
@@ -1895,114 +2021,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/",
-      "source": "NVIDIA Blog",
-      "date": "2026-07-30 13:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "동급 최고의 게임: 지금 GeForce로 PC 게임을 스트리밍하고 동일한 노트북에서 공부하세요",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
-      "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
-      "source": "Cloudflare Blog",
-      "date": "2026-07-30 13:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "대규모 도그푸딩: Cloudflare의 개발자 플랫폼으로 cdnjs 마이그레이션",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Hyundai Motor Group Appoints Junghyun Kwon as Head of Autonomous Driving Development Center",
-      "url": "https://cleantechnica.com/2026/07/30/hyundai-motor-group-appoints-junghyun-kwon-as-head-of-autonomous-driving-development-center/",
-      "source": "CleanTechnica",
-      "date": "2026-07-30 12:03",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "현대차그룹, 권정현 자율주행개발센터장 선임",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Network Has Become the Control Plane for AI Security",
-      "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
-      "source": "The Hacker News",
-      "date": "2026-07-30 11:32",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "네트워크가 AI 보안을 위한 제어판이 되었습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-      "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-      "source": "The Hacker News",
-      "date": "2026-07-30 07:28",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "FCC, 사이버 위험에 대한 새로운 외국 생산 로봇 및 전력 인버터 차단",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Trump considering AI controls after OpenAI hacking incidents - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56SVFnVVBaNE5iY2hEd2h1RmhmVDhUQUVpbHBLOVY2TGloYUNlel90RF9JcHVLbWZMblM1QW9hRDlfZVBRLTl5SjZISnB2MlV4RmxaMGdzZlM3Zw?oc=5",
-      "source": "BBC",
-      "date": "2026-07-30 07:23",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Trump considering AI controls after OpenAI hacking incidents - BBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 8. 1. AM 6:31",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 8,
+    "checkedAt": "2026. 8. 1. AM 7:07",
+    "mode": "하루 2회 전체 수집"
   }
 }
