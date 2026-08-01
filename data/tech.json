@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 1. PM 10:59",
+  "updatedAt": "2026. 8. 2. AM 12:30",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 50,
+    "recentCount": 45,
     "sourceCount": 22,
     "officialCount": 21,
     "opportunityCount": 1
@@ -24,7 +24,7 @@
       "summary": "Reddit 주가가 하락함에 따라 CEO는 Google의 AI 개요에 대한 가치에 의문을 제기합니다.",
       "latest": "2026-08-01 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T13:59:17.192Z",
+      "lastRefreshed": "2026-08-01T15:30:17.395Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T13:59:17.192Z",
+      "lastRefreshed": "2026-08-01T15:30:17.395Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 4,
-      "summary": "2026년 7월의 10대 로봇 이야기",
-      "latest": "2026-08-01 12:00",
+      "count": 5,
+      "summary": "Uber는 자율주행 차량 제국을 구축하고 있으며, 이를 위해 Uber가 이용하는 모든 회사를 소개합니다.",
+      "latest": "2026-08-01 15:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T13:59:17.192Z",
+      "lastRefreshed": "2026-08-01T15:30:17.395Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "Adobe Campaign Classic CVSS 10.0 결함으로 인해 사용자 개입 없이 코드를 실행할 수 있음",
       "latest": "2026-08-01 07:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T13:59:17.192Z",
+      "lastRefreshed": "2026-08-01T15:30:17.395Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -73,11 +73,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
+      "count": 9,
       "summary": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
       "latest": "2026-08-01 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T13:59:17.192Z",
+      "lastRefreshed": "2026-08-01T15:30:17.395Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
       "latest": "2026-08-01 06:20",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-01T13:59:17.192Z",
+      "lastRefreshed": "2026-08-01T15:30:17.395Z",
       "themes": []
     },
     {
@@ -102,7 +102,7 @@
       "summary": "deepseek-ai/DeepSeek-V4-Flash-0731",
       "latest": "2026-07-31 23:59",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T13:59:17.192Z",
+      "lastRefreshed": "2026-08-01T15:30:17.395Z",
       "themes": [
         "주요 기업"
       ]
@@ -389,6 +389,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it",
+        "url": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
+        "source": "TechCrunch",
+        "date": "2026-08-01 15:05",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Uber는 자율주행 차량 제국을 구축하고 있으며, 이를 위해 Uber가 이용하는 모든 회사를 소개합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
         "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
         "source": "Ars Technica",
@@ -569,22 +585,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "FCC robot ruling shines a spotlight on U.S. policy; how next-gen AI can help warehousing",
-        "url": "https://www.therobotreport.com/fcc-robot-ruling-shines-spotlight-on-u-s-policy-how-next-gen-ai-can-help-warehousing/",
-        "source": "The Robot Report",
-        "date": "2026-07-31 22:41",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "FCC 로봇 판결은 미국 정책, 차세대 AI가 창고업에 어떻게 도움이 될 수 있는지에 대한 스포트라이트를 비춥니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -689,6 +689,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it",
+      "url": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
+      "source": "TechCrunch",
+      "date": "2026-08-01 15:05",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Uber는 자율주행 차량 제국을 구축하고 있으며, 이를 위해 Uber가 이용하는 모든 회사를 소개합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
       "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
@@ -1439,24 +1455,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
-      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
-      "source": "TechCrunch",
-      "date": "2026-07-31 15:16",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "SpaceX는 1년 동안 xAI의 무허가 터빈을 모두 제거하지 않습니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v2.52.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v2.52.0",
       "source": "GitHub · OpenAI Python",
@@ -2020,7 +2018,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 1. PM 10:59",
+    "checkedAt": "2026. 8. 2. AM 12:30",
     "mode": "매시간 공식 레이더"
   }
 }
