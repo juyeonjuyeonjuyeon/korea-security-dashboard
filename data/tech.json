@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 1. PM 12:54",
+  "updatedAt": "2026. 8. 1. PM 3:42",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.3.0-canary.105",
+  "headline": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 62,
+    "recentCount": 55,
     "sourceCount": 21,
     "officialCount": 22,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v16.3.0-canary.105",
+    "새 출시: APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
     "창작 기술: 여기 Google 어스에 AI 이미지 생성기를 넣을 때의 문제가 있습니다.",
     "행사·무료: 미 항공우주국 (NASA) 이 미국 항공우주국 (American Air, Space Leadership) 을 기념하는 플로리다"
   ],
@@ -24,7 +24,7 @@
       "summary": "OpenAI는 더 많은 에이전트가 AMOK을 실행했다는 증거를 발견했다고 보고했습니다.",
       "latest": "2026-07-31 22:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T03:54:23.606Z",
+      "lastRefreshed": "2026-08-01T06:42:44.600Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T03:54:23.606Z",
+      "lastRefreshed": "2026-08-01T06:42:44.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "FCC 로봇 판결은 미국 정책, 차세대 AI가 창고업에 어떻게 도움이 될 수 있는지에 대한 스포트라이트를 비춥니다.",
       "latest": "2026-07-31 22:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T03:54:23.606Z",
+      "lastRefreshed": "2026-08-01T06:42:44.600Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "중국 해커가 텔레그램을 통해 DeepSeek에 명령하여 자율 공격 시작",
       "latest": "2026-07-31 11:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T03:54:23.606Z",
+      "lastRefreshed": "2026-08-01T06:42:44.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -72,11 +72,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 13,
-      "summary": "새 소식: 2026년 8월 NASA의 스카이워칭 팁",
-      "latest": "2026-07-31 22:35",
+      "count": 12,
+      "summary": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
+      "latest": "2026-08-01 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T03:54:23.606Z",
+      "lastRefreshed": "2026-08-01T06:42:44.600Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -86,11 +86,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
-      "summary": "AI 기업의 가장 큰 문제 — 독점권이 없음",
-      "latest": "2026-08-01 03:23",
+      "count": 6,
+      "summary": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
+      "latest": "2026-08-01 06:20",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-01T03:54:23.606Z",
+      "lastRefreshed": "2026-08-01T06:42:44.600Z",
       "themes": []
     },
     {
@@ -101,7 +101,7 @@
       "summary": "deepseek-ai/DeepSeek-V4-Flash-0731",
       "latest": "2026-07-31 23:59",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T03:54:23.606Z",
+      "lastRefreshed": "2026-08-01T06:42:44.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -109,6 +109,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
+        "url": "https://science.nasa.gov/image-article/apod-2026-august-1-buck-moon-and-belt-of-venus/",
+        "source": "NASA",
+        "date": "2026-08-01 04:05",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.3.0-canary.105",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.105",
@@ -242,22 +258,6 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
-        "title": "NASA Opens New Flight Dynamics Research Facility in Virginia",
-        "url": "https://www.nasa.gov/news-release/nasa-opens-new-flight-dynamics-research-facility-in-virginia/",
-        "source": "NASA",
-        "date": "2026-07-31 17:11",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA, 버지니아에 새로운 비행 역학 연구 시설 개설",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
         "title": "AI Gateway now supports team and project spend budgets",
         "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
         "source": "Vercel Changelog",
@@ -369,6 +369,38 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Lower Saxony’s Hydrogen Trains Are Now A Battery Exit Strategy Problem",
+        "url": "https://cleantechnica.com/2026/08/01/lower-saxony-hydrogen-trains-battery-exit/",
+        "source": "CleanTechnica",
+        "date": "2026-08-01 06:20",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "What Happens When The AI Power Industry Collapses?",
+        "url": "https://cleantechnica.com/2026/07/31/what-happens-when-the-ai-power-industry-collapses/",
+        "source": "CleanTechnica",
+        "date": "2026-08-01 03:57",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "AI 전력 산업이 붕괴되면 어떻게 될까요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "The Big Problem For AI Companies — They Don’t Have A Monopoly",
         "url": "https://cleantechnica.com/2026/07/31/the-big-problem-for-ai-companies-they-dont-have-a-monopoly/",
@@ -534,43 +566,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
-        "url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
-        "source": "Ars Technica",
-        "date": "2026-07-31 20:21",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "가짜 위성 사진을 만들기 위해 철회된 AI 도구로 파멸의 위험을 감수한 Google 어스",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Here’s the problem with putting an AI image generator in Google Earth",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-        "source": "The Verge",
-        "date": "2026-07-31 20:12",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "여기 Google 어스에 AI 이미지 생성기를 넣을 때의 문제가 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -677,6 +672,54 @@
     ]
   },
   "news": [
+    {
+      "title": "Lower Saxony’s Hydrogen Trains Are Now A Battery Exit Strategy Problem",
+      "url": "https://cleantechnica.com/2026/08/01/lower-saxony-hydrogen-trains-battery-exit/",
+      "source": "CleanTechnica",
+      "date": "2026-08-01 06:20",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
+      "url": "https://science.nasa.gov/image-article/apod-2026-august-1-buck-moon-and-belt-of-venus/",
+      "source": "NASA",
+      "date": "2026-08-01 04:05",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "What Happens When The AI Power Industry Collapses?",
+      "url": "https://cleantechnica.com/2026/07/31/what-happens-when-the-ai-power-industry-collapses/",
+      "source": "CleanTechnica",
+      "date": "2026-08-01 03:57",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "AI 전력 산업이 붕괴되면 어떻게 될까요?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "The Big Problem For AI Companies — They Don’t Have A Monopoly",
       "url": "https://cleantechnica.com/2026/07/31/the-big-problem-for-ai-companies-they-dont-have-a-monopoly/",
@@ -1127,22 +1170,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NASA Opens New Flight Dynamics Research Facility in Virginia",
-      "url": "https://www.nasa.gov/news-release/nasa-opens-new-flight-dynamics-research-facility-in-virginia/",
-      "source": "NASA",
-      "date": "2026-07-31 17:11",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA, 버지니아에 새로운 비행 역학 연구 시설 개설",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "AI Gateway now supports team and project spend budgets",
@@ -1723,22 +1750,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "“Hot Blocks” Thermal Energy Storage Startup Nails Down $550 Million More To Chase Fossil Fuels Away",
-      "url": "https://cleantechnica.com/2026/07/30/energy-storage-factory-made-carbon-blocks-us-startup-antora/",
-      "source": "CleanTechnica",
-      "date": "2026-07-31 01:34",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "\"핫 블록\" 열 에너지 저장 스타트업이 화석 연료를 쫓아내기 위해 5억 5천만 $ 를 더 벌었습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v0.29.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.1",
       "source": "GitHub · ComfyUI",
@@ -1981,30 +1992,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Jim Bridenstine on his new role at Quantum Space",
-      "url": "https://spacenews.com/jim-bridenstine-on-his-new-role-at-quantum-space/",
-      "source": "SpaceNews",
-      "date": "2026-07-30 17:47",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "짐 브라이든스타인 (Jim Bridenstine) 이 퀀텀 스페이스 (Quantum Space",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
+    "successful": 33,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 1. PM 12:54",
+    "checkedAt": "2026. 8. 1. PM 3:42",
     "mode": "매시간 공식 레이더"
   }
 }
