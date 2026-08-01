@@ -277,7 +277,9 @@ main { padding: 18px 0 78px; }
 .bookmark-button { display: grid; place-items: center; width: 30px; min-width: 30px; height: 30px; padding: 0; border: 1px solid var(--soft-rule); color: var(--faded); background: transparent; font-size: 19px; line-height: 1; cursor: pointer; }
 .bookmark-button:hover, .bookmark-button:focus-visible, .bookmark-button.saved { border-color: var(--rule); color: var(--ink); background: rgba(36,34,29,.08); outline: none; }
 .bookmark-count { display: inline-grid; place-items: center; min-width: 18px; height: 18px; margin-left: 3px; border: 1px solid currentColor; border-radius: 50%; font: 700 9px Arial,sans-serif; font-style: normal; }
-.signal-card.unknown, .compact-item.unknown { border-style: dashed; color: var(--faded); }
+.signal-card.unknown, .compact-item.unknown { color: var(--faded); background: rgba(36,34,29,.025); }
+.signal-card.unknown { border-right-style: solid; border-bottom-style: solid; }
+.compact-item.unknown { border-top-style: solid; }
 .signal-card.unknown .status-chip, .compact-item.unknown .compact-status { color: var(--faded); }
 .source-badge { padding: 3px 5px; border: 1px solid var(--rule); color: var(--normal); font-family: Arial, sans-serif; font-size: 9px; font-weight: 700; }
 .source-badge.C { color: #173f66; }

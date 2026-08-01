@@ -221,7 +221,7 @@ async function notifyOnChange(data){
   const keywords=(localStorage.getItem("notificationKeywords")||"").split(",").map(item=>item.trim()).filter(Boolean);if(selected.includes("keyword")&&keywords.some(keyword=>(data.news||[]).some(item=>`${item.title} ${item.titleKo}`.toLowerCase().includes(keyword.toLowerCase()))))why.push("관심 키워드 새 소식");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=26")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=27")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();loadBacktest();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});
