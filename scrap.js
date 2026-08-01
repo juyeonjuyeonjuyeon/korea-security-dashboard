@@ -49,5 +49,5 @@ $("clearScraps").addEventListener("click", () => {
   if (JuyeonBookmarks.count() && confirm("이 브라우저에 저장한 스크랩을 모두 삭제할까요?")) JuyeonBookmarks.clear();
 });
 window.addEventListener("juyeonbookmarkschange", render);
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js?v=27");
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js?v=28");
 render();

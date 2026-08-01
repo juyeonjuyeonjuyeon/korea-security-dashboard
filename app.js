@@ -29,6 +29,7 @@ let latestData=fallback, historyData=[], activeRange=7, securityNews=[];
 const bookmarkRegistry=new Map();
 const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
+const translatedArticleUrl=(value="")=>{try{const u=new URL(value);if(/(?:^|\.)(?:yna|ytn|kbs|mbc|sbs|newsis|donga|chosun|joongang|hani|hankookilbo|seoul)\.(?:co\.kr|com)$|\.kr$/i.test(u.hostname))return"";return `https://translate.google.com/translate?sl=auto&tl=ko&u=${encodeURIComponent(u.href)}`}catch{return""}};
 const itemState=item=>statusMeta[item?.[2]]||statusMeta.normal;
 const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|인도태평양|FCDO|ICAO|IMO|CTBTO|USGS|일본 방위성|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스|YTN|KBS|MBC|SBS|Newsis|뉴시스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|Arms Control Wonk|ISW|Understanding War|Bellingcat|Stimson|RAND|Covert Shores|RUSI|IISS|NK News|RFA|Radio Free Asia|VOA|Voice of America|Daily NK|Asia Press/i.test(source)?4:9;
 const matchNews=(data,pattern,id)=>{
@@ -91,7 +92,6 @@ function render(data){
   const list=(id,items,empty)=>{$(id).innerHTML=(items?.length?items:[empty]).map(item=>`<li>${escapeHtml(item)}</li>`).join("")};list("supportingEvidence",data.judgment?.support,"확인된 상승 근거 없음");list("upwardContributors",data.judgment?.upwardContributors,"상승 기여 지표 없음");list("downwardContributors",data.judgment?.downwardContributors,"하락 기여 지표 없음");list("opposingEvidence",data.judgment?.opposingEvidence,"명시적 반대 증거 없음");list("alternativeHypotheses",data.judgment?.alternatives,"대안 가설 평가 전");list("nextSignals",data.judgment?.nextSignals,"다음 관찰 신호 평가 전");$("assessmentDisclaimer").textContent=data.judgment?.disclaimer||"공개자료의 한계를 고려해야 합니다.";
   const ing=data.ingestion||{};$("ingestionSummary").textContent=`수집 ${ing.collected||0}건 중 중복·재인용 ${ing.duplicatesAndReprints||0}건, 단순·비위험 보도 ${ing.commentaryExcluded||0}건을 분리했습니다. 위험평가 관련 자료 ${ing.riskRelevant||0}건, 신규 독립 원정보 ${ing.newIndependentInformation||0}개입니다.`;
   const quality=data.dataQuality||{};$("collectionScope").innerHTML=`<p>검색 기간 ${escapeHtml(quality.collectionScope?.period||"—")} · 대상 ${quality.collectionScope?.targets||0}곳 · 마지막 검색 ${escapeHtml(quality.collectionScope?.lastSearch||"—")}</p><p>접근 불가: ${escapeHtml((quality.collectionScope?.inaccessible||[]).join(" · ")||"평가 전")}</p>`;
-  $("actionLevel").textContent=`${data.preparedness?.level||data.risk?.level||"평상시"} 단계 행동`;list("actionList",data.preparedness?.actions,"공식 지침 확인");$("officialGuidance").href=safeUrl(data.preparedness?.officialGuidance?.url||"https://www.safekorea.go.kr/");$("guidanceCheckedAt").textContent=`최종 확인 ${data.preparedness?.officialGuidance?.checkedAt||"—"}`;
   const trend=data.risk?.trend7||[data.risk?.score||0];
   const previous=trend.at(-2)??trend.at(-1)??0,delta=(data.risk?.score||0)-previous;
   $("scoreDelta").textContent=`${delta>0?"+":""}${delta} D/D`;
@@ -138,7 +138,8 @@ function renderNews(news){
   const sorted=[...news].sort((a,b)=>sourceRank(a.source)-sourceRank(b.source)||String(b.date).localeCompare(String(a.date)));
   $("news").innerHTML=sorted.length?sorted.map(item=>{
     rememberBookmark(item,"security","안보 지표");
-    return `<article class="news-item bookmarkable"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.sourceType||"출처 유형 미분류")} · ${escapeHtml(item.claimNature||item.verification||"분석")}</span>${bookmarkButton(item.url)}</article>`;
+    const translated=translatedArticleUrl(item.url);
+    return `<article class="news-item bookmarkable"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><div class="news-title-cell"><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>${translated?`<a class="translate-link" href="${safeUrl(translated)}" target="_blank" rel="noreferrer">한국어로 기사 보기</a>`:""}</div><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.sourceType||"출처 유형 미분류")} · ${escapeHtml(item.claimNature||item.verification||"분석")}</span>${bookmarkButton(item.url)}</article>`;
   }).join(""):`<div class="news-item">새 뉴스 없음</div>`;
   syncBookmarkUi();
 }
@@ -221,7 +222,7 @@ async function notifyOnChange(data){
   const keywords=(localStorage.getItem("notificationKeywords")||"").split(",").map(item=>item.trim()).filter(Boolean);if(selected.includes("keyword")&&keywords.some(keyword=>(data.news||[]).some(item=>`${item.title} ${item.titleKo}`.toLowerCase().includes(keyword.toLowerCase()))))why.push("관심 키워드 새 소식");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=27")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=28")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();loadBacktest();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});

@@ -10,7 +10,7 @@
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=27">
+  <link rel="stylesheet" href="./styles.css?v=28">
 </head>
 <body>
   <div id="offlineBanner" class="offline-banner" hidden>현재 오프라인 상태입니다. 표시된 위험도는 실시간 정보가 아니며 마지막 저장 시각 기준입니다.</div>
@@ -68,6 +68,24 @@
       <span>METHOD <b>공식 또는 신뢰 출처 2+</b></span>
     </section>
 
+    <section id="signalsSection" class="intelligence-board primary-board">
+      <div class="section-title">
+        <div><span>EARLY WARNING MATRIX</span><h2>조기경보 지표</h2></div>
+        <div class="state-legend"><i class="normal"></i>정상 <i class="attention"></i>주의 <i class="warning"></i>경계 <i class="danger"></i>위험</div>
+      </div>
+      <div id="signals" class="signal-cards"></div>
+      <div class="board-lower">
+        <article>
+          <div class="subhead"><span>COMBINATION WATCH</span><h3>정보기관 조합</h3></div>
+          <div id="combinations" class="compact-list"></div>
+        </article>
+        <article>
+          <div class="subhead"><span>CORE FIVE</span><h3>핵심 지표 5</h3></div>
+          <div id="coreSignals" class="compact-list"></div>
+        </article>
+      </div>
+    </section>
+
     <section class="quality-strip" aria-label="판단 품질">
       <article><span>현재 위험도</span><strong id="qualityRisk">확인 중</strong></article>
       <article><span>판단 신뢰도</span><strong id="judgmentConfidence">확인 중</strong></article>
@@ -84,8 +102,8 @@
       <span>최신 직접관측 <b id="latestDirect">—</b></span>
     </section>
 
-    <section class="module decision-module">
-      <header><span>ASSESSMENT TRANSPARENCY</span><small>종합판단·반대 증거·정보 공백</small></header>
+    <details class="module decision-module collapsible-module">
+      <summary><span>상세 판단 근거</span><small>신뢰도·반대 증거·정보 공백 보기</small></summary>
       <div class="decision-grid">
         <article><h3>판단을 지지하는 근거</h3><ul id="supportingEvidence"></ul></article>
         <article><h3>위험도 상승 기여</h3><ul id="upwardContributors"></ul></article>
@@ -96,7 +114,7 @@
       </div>
       <p id="assessmentDisclaimer" class="assessment-disclaimer"></p>
       <p id="ingestionSummary" class="ingestion-summary"></p>
-    </section>
+    </details>
 
     <section id="anomalySection" class="module anomaly-module">
       <header><span>ANOMALY WATCH</span><small>이상 징후·OSINT · 종합 위험점수와 분리</small></header>
@@ -104,24 +122,6 @@
         <div class="anomaly-index"><span>보조 이상지수</span><strong id="anomalyScore">0<small>/10</small></strong><b id="anomalyLevel">안정</b><p id="anomalyNote">공개자료의 이상 패턴을 확인 중입니다.</p></div>
         <div class="anomaly-categories"><div id="anomalyChange" class="anomaly-change">전일 변화 확인 중</div><div id="anomalyCategories"></div><div id="anomalyTrend" class="anomaly-trend" aria-label="최근 이상지수 추세"></div></div>
         <div class="osint-column"><h3>전문 분석·OSINT</h3><div id="osintWatch" class="osint-list"></div></div>
-      </div>
-    </section>
-
-    <section id="signalsSection" class="intelligence-board">
-      <div class="section-title">
-        <div><span>EARLY WARNING MATRIX</span><h2>조기경보 지표</h2></div>
-        <div class="state-legend"><i class="normal"></i>정상 <i class="attention"></i>주의 <i class="warning"></i>경계 <i class="danger"></i>위험</div>
-      </div>
-      <div id="signals" class="signal-cards"></div>
-      <div class="board-lower">
-        <article>
-          <div class="subhead"><span>COMBINATION WATCH</span><h3>정보기관 조합</h3></div>
-          <div id="combinations" class="compact-list"></div>
-        </article>
-        <article>
-          <div class="subhead"><span>CORE FIVE</span><h3>핵심 지표 5</h3></div>
-          <div id="coreSignals" class="compact-list"></div>
-        </article>
       </div>
     </section>
 
@@ -150,19 +150,6 @@
         <span id="securityResult">전체</span>
       </div>
       <div id="news" class="timeline"></div>
-    </section>
-
-    <section id="preparednessSection" class="intelligence-board preparedness-board">
-      <div class="section-title"><div><span>ACTION &amp; READINESS</span><h2>지금 할 일과 나의 대비계획</h2></div><small>위치·가족계획은 이 기기에만 저장</small></div>
-      <div class="preparedness-grid">
-        <article class="action-card"><h3 id="actionLevel">평상시 행동</h3><ul id="actionList"></ul><a id="officialGuidance" href="https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?actsHeaderTitle=%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&amp;category=stateOfEmergency&amp;menuSn=4" target="_blank" rel="noreferrer">국민안전24 공식 행동요령</a><small id="guidanceCheckedAt">최종 확인 —</small></article>
-        <article class="local-plan">
-          <h3>나의 위치·대피 계획</h3>
-          <form id="placeForm"><label>장소 유형<select id="placeType"><option>집</option><option>직장</option><option>학교</option><option>가족 거주지</option><option>자주 방문하는 장소</option></select></label><label>장소 이름<input id="placeName" maxlength="60" required></label><label>주소<input id="placeAddress" maxlength="160" required></label><label>가까운 대피소<input id="primaryShelter" maxlength="160"></label><label>대체 대피소<input id="alternateShelter" maxlength="160"></label><label>도보 거리·시간<input id="walkingInfo" maxlength="80" placeholder="예: 650m · 약 9분"></label><label>가족 집결지<input id="meetingPoint" maxlength="160"></label><label>비상연락처<input id="emergencyContact" maxlength="100"></label><button class="terminal-button" type="submit">기기에 저장</button></form>
-          <p>대피소는 <a href="https://www.safekorea.go.kr/" target="_blank" rel="noreferrer">국민안전24</a>에서 확인한 뒤 저장하세요. 위치정보는 외부 서버로 전송하지 않습니다.</p>
-        </article>
-      </div>
-      <div id="savedPlaces" class="saved-places"></div>
     </section>
 
     <section id="relatedSection" class="module news-module related-module">
@@ -225,8 +212,7 @@
   <nav class="mobile-nav">
     <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#newsSection">뉴스</a><a href="./scrap.html">스크랩</a><button id="settingsButton">알림</button>
   </nav>
-  <script src="./bookmarks.js?v=27" defer></script>
-  <script src="./readiness.js?v=27" defer></script>
-  <script src="./app.js?v=27" defer></script>
+  <script src="./bookmarks.js?v=28" defer></script>
+  <script src="./app.js?v=28" defer></script>
 </body>
 </html>
