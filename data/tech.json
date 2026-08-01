@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 2. AM 6:58",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 2. AM 8:15",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 26,
+    "recentCount": 24,
     "sourceCount": 24,
-    "officialCount": 18,
+    "officialCount": 17,
     "opportunityCount": 1
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "유튜버 행크 그린 (Hank Green) 은 자신의 AI 사용이 '건강에 좋지 않다‘ 고 말합니다.",
       "latest": "2026-08-01 19:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T21:58:01.988Z",
+      "lastRefreshed": "2026-08-01T23:15:03.921Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T21:58:01.988Z",
+      "lastRefreshed": "2026-08-01T23:15:03.921Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Uber는 자율주행 차량 제국을 구축하고 있으며, 이를 위해 Uber가 이용하는 모든 회사를 소개합니다.",
       "latest": "2026-08-01 15:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T21:58:01.988Z",
+      "lastRefreshed": "2026-08-01T23:15:03.921Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "위장한 감시 조약: 캐나다, 유엔 사이버 범죄 협약 서명",
       "latest": "2026-08-01 14:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T21:58:01.988Z",
+      "lastRefreshed": "2026-08-01T23:15:03.921Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -73,11 +73,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 11,
-      "summary": "Space Force, 궤도 레이저 통신 시연으로 K2 Space에 $ 2,290만 상금 수여",
+      "count": 12,
+      "summary": "Space Force, 레이저 통신 시연으로 K2 Space에 $ 2,290만 상금 수여",
       "latest": "2026-08-01 20:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T21:58:01.988Z",
+      "lastRefreshed": "2026-08-01T23:15:03.921Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -91,18 +91,18 @@
       "summary": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
       "latest": "2026-08-01 06:20",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-01T21:58:01.988Z",
+      "lastRefreshed": "2026-08-01T23:15:03.921Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 14,
+      "count": 13,
       "summary": "deepseek-ai/DeepSeek-V4-Flash-0731",
       "latest": "2026-07-31 23:59",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T21:58:01.988Z",
+      "lastRefreshed": "2026-08-01T23:15:03.921Z",
       "themes": [
         "주요 기업"
       ]
@@ -389,6 +389,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
+        "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/",
+        "source": "SpaceNews",
+        "date": "2026-08-01 20:28",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Space Force, 레이저 통신 시연으로 K2 Space에 $ 2,290만 상금 수여",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Space Force awards K2 Space $22.9 million for orbital laser communications demonstration",
         "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/",
         "source": "SpaceNews",
@@ -569,22 +585,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Lower Saxony’s Hydrogen Trains Are Now A Battery Exit Strategy Problem",
-        "url": "https://cleantechnica.com/2026/08/01/lower-saxony-hydrogen-trains-battery-exit/",
-        "source": "CleanTechnica",
-        "date": "2026-08-01 06:20",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -689,6 +689,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
+      "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/",
+      "source": "SpaceNews",
+      "date": "2026-08-01 20:28",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Space Force, 레이저 통신 시연으로 K2 Space에 $ 2,290만 상금 수여",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Space Force awards K2 Space $22.9 million for orbital laser communications demonstration",
       "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/",
@@ -1999,30 +2015,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "AI Gateway logs now have a dedicated page",
-      "url": "https://vercel.com/changelog/ai-gateway-logs",
-      "source": "Vercel Changelog",
-      "date": "2026-07-31 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "AI Gateway logs now have a dedicated page",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 2. AM 6:58",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 2. AM 8:15",
+    "mode": "매시간 공식 레이더"
   }
 }
