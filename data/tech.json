@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 2. AM 2:18",
+  "updatedAt": "2026. 8. 2. AM 4:37",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 37,
+    "recentCount": 32,
     "sourceCount": 22,
     "officialCount": 21,
     "opportunityCount": 1
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
-      "summary": "Sam Altman은 여전히 ChatGPT를 통해 육아에 대한 사례를 만들고 있습니다.",
-      "latest": "2026-08-01 17:07",
+      "count": 34,
+      "summary": "빌보드 핫 100 히트 AI 슬롭 인가요?",
+      "latest": "2026-08-01 18:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T17:18:34.586Z",
+      "lastRefreshed": "2026-08-01T19:37:19.799Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T17:18:34.586Z",
+      "lastRefreshed": "2026-08-01T19:37:19.799Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Uber는 자율주행 차량 제국을 구축하고 있으며, 이를 위해 Uber가 이용하는 모든 회사를 소개합니다.",
       "latest": "2026-08-01 15:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T17:18:34.586Z",
+      "lastRefreshed": "2026-08-01T19:37:19.799Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "위장한 감시 조약: 캐나다, 유엔 사이버 범죄 협약 서명",
       "latest": "2026-08-01 14:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T17:18:34.586Z",
+      "lastRefreshed": "2026-08-01T19:37:19.799Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -73,11 +73,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 9,
-      "summary": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
-      "latest": "2026-08-01 04:05",
+      "count": 10,
+      "summary": "엔지니어들이 NASA의 Swift 임무를 구하기 위해 보낸 위성을 구하기 위한 계획은 다음과 같습니다.",
+      "latest": "2026-08-01 18:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T17:18:34.586Z",
+      "lastRefreshed": "2026-08-01T19:37:19.799Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
       "latest": "2026-08-01 06:20",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-01T17:18:34.586Z",
+      "lastRefreshed": "2026-08-01T19:37:19.799Z",
       "themes": []
     },
     {
@@ -102,7 +102,7 @@
       "summary": "deepseek-ai/DeepSeek-V4-Flash-0731",
       "latest": "2026-07-31 23:59",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-01T17:18:34.586Z",
+      "lastRefreshed": "2026-08-01T19:37:19.799Z",
       "themes": [
         "주요 기업"
       ]
@@ -389,6 +389,38 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
+        "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
+        "source": "Ars Technica",
+        "date": "2026-08-01 18:20",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "엔지니어들이 NASA의 Swift 임무를 구하기 위해 보낸 위성을 구하기 위한 계획은 다음과 같습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Is this Billboard Hot 100 hit AI slop?",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+        "source": "The Verge",
+        "date": "2026-08-01 18:18",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "빌보드 핫 100 히트 AI 슬롭 인가요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Sam Altman is still making the case for parenting via ChatGPT",
         "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
         "source": "TechCrunch",
@@ -551,38 +583,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
-        "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-07-31 23:59",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "deepseek-ai/DeepSeek-V4-Flash-0731",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "VICTORY: Courts Rule in Favor of Sierra Club, Approves FERC Order to Speed Up Clean Energy Projects",
-        "url": "https://cleantechnica.com/2026/07/31/victory-courts-rule-in-favor-of-sierra-club-approves-ferc-order-to-speed-up-clean-energy-projects/",
-        "source": "CleanTechnica",
-        "date": "2026-07-31 23:39",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "승리: 법원은 시에라 클럽에 유리한 판결을 내리고, 청정 에너지 프로젝트의 속도를 높이기 위해 FERC 명령을 승인합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -596,6 +596,22 @@
         "stream": "community",
         "category": "사이버보안",
         "titleKo": "위장한 감시 조약: 캐나다, 유엔 사이버 범죄 협약 서명",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "On the non-use of AI in my writing process",
+        "url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
+        "source": "Hacker News",
+        "date": "2026-08-01 12:56",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "내 글쓰기 과정에서 AI를 사용하지 않는 것에 대해",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -667,26 +683,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Dubious research tied to Red Bull has shaped energy drink policy",
-        "url": "https://www.theexamination.org/articles/red-bull-funded-research-energy-drinks-alcohol",
-        "source": "Hacker News",
-        "date": "2026-07-31 15:58",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Red Bull과 관련된 의심스러운 연구는 에너지 음료 정책을 형성했습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
+      "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
+      "source": "Ars Technica",
+      "date": "2026-08-01 18:20",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "엔지니어들이 NASA의 Swift 임무를 구하기 위해 보낸 위성을 구하기 위한 계획은 다음과 같습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Is this Billboard Hot 100 hit AI slop?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "source": "The Verge",
+      "date": "2026-08-01 18:18",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "빌보드 핫 100 히트 AI 슬롭 인가요?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Sam Altman is still making the case for parenting via ChatGPT",
       "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
@@ -729,6 +761,22 @@
       "stream": "community",
       "category": "사이버보안",
       "titleKo": "위장한 감시 조약: 캐나다, 유엔 사이버 범죄 협약 서명",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "On the non-use of AI in my writing process",
+      "url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
+      "source": "Hacker News",
+      "date": "2026-08-01 12:56",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "내 글쓰기 과정에서 AI를 사용하지 않는 것에 대해",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1100,24 +1148,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
-      "url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
-      "source": "Ars Technica",
-      "date": "2026-07-31 20:21",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "가짜 위성 사진을 만들기 위해 철회된 AI 도구로 파멸의 위험을 감수한 Google 어스",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "NASA’s Newest Wind Tunnel Opens at NASA Langley",
       "url": "https://www.nasa.gov/image-article/nasas-newest-wind-tunnel-opens-at-nasa-langley/",
       "source": "NASA",
@@ -1437,22 +1467,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Dubious research tied to Red Bull has shaped energy drink policy",
-      "url": "https://www.theexamination.org/articles/red-bull-funded-research-energy-drinks-alcohol",
-      "source": "Hacker News",
-      "date": "2026-07-31 15:58",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Red Bull과 관련된 의심스러운 연구는 에너지 음료 정책을 형성했습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v2.52.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v2.52.0",
       "source": "GitHub · OpenAI Python",
@@ -1512,24 +1526,6 @@
       "stream": "news",
       "category": "반도체·컴퓨팅",
       "titleKo": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic says Claude accidentally hacked real companies too",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
-      "source": "The Verge",
-      "date": "2026-07-31 13:41",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic은 Claude가 실수로 실제 회사를 해킹했다고 말합니다.",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -2016,7 +2012,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 2. AM 2:18",
+    "checkedAt": "2026. 8. 2. AM 4:37",
     "mode": "매시간 공식 레이더"
   }
 }
