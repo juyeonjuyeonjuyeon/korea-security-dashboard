@@ -4,14 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#e8e8e4">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="description" content="공개 출처 기반 한반도 안보 변화 인텔리전스 대시보드">
   <title>주연뉴스</title>
   <link rel="manifest" href="./manifest.webmanifest?v=13">
   <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./icon-180.png?v=13" sizes="180x180">
-  <link rel="stylesheet" href="./styles.css?v=25">
+  <link rel="stylesheet" href="./styles.css?v=26">
 </head>
 <body>
+  <div id="offlineBanner" class="offline-banner" hidden>현재 오프라인 상태입니다. 표시된 위험도는 실시간 정보가 아니며 마지막 저장 시각 기준입니다.</div>
   <header class="terminal-header">
     <a href="./" class="wordmark">주연뉴스 <span>INTELLIGENCE</span></a>
     <div class="market-clock"><span class="live-dot"></span><span id="updatedAt">데이터 확인 중</span></div>
@@ -64,6 +66,36 @@
       <span>CLEARED <b id="stripCleared">0</b></span>
       <span>STATUS <b id="stripStatus">동일</b></span>
       <span>METHOD <b>공식 또는 신뢰 출처 2+</b></span>
+    </section>
+
+    <section class="quality-strip" aria-label="판단 품질">
+      <article><span>현재 위험도</span><strong id="qualityRisk">확인 중</strong></article>
+      <article><span>판단 신뢰도</span><strong id="judgmentConfidence">확인 중</strong></article>
+      <article><span>정보 완전성</span><strong id="dataCompleteness">—%</strong></article>
+      <article><span>최대 정보 공백</span><strong id="largestGap">확인 중</strong></article>
+    </section>
+
+    <section class="freshness-strip" aria-label="데이터 최신성과 수집 상태">
+      <span>최종 갱신 <b id="qualityUpdated">—</b></span>
+      <span>재수집 성공 <b id="successfulIndicators">0</b></span>
+      <span>이전 자료 유지 <b id="retainedIndicators">0</b></span>
+      <span>수집 실패 <b id="failedIndicators">0</b></span>
+      <span>24시간+ 노후 <b id="staleIndicators">0</b></span>
+      <span>최신 직접관측 <b id="latestDirect">—</b></span>
+    </section>
+
+    <section class="module decision-module">
+      <header><span>ASSESSMENT TRANSPARENCY</span><small>종합판단·반대 증거·정보 공백</small></header>
+      <div class="decision-grid">
+        <article><h3>판단을 지지하는 근거</h3><ul id="supportingEvidence"></ul></article>
+        <article><h3>위험도 상승 기여</h3><ul id="upwardContributors"></ul></article>
+        <article><h3>위험도 하락 기여</h3><ul id="downwardContributors"></ul></article>
+        <article><h3>충돌·반대 증거</h3><ul id="opposingEvidence"></ul></article>
+        <article><h3>대안 가설</h3><ul id="alternativeHypotheses"></ul></article>
+        <article><h3>판단을 바꿀 다음 신호</h3><ul id="nextSignals"></ul></article>
+      </div>
+      <p id="assessmentDisclaimer" class="assessment-disclaimer"></p>
+      <p id="ingestionSummary" class="ingestion-summary"></p>
     </section>
 
     <section id="anomalySection" class="module anomaly-module">
@@ -120,6 +152,19 @@
       <div id="news" class="timeline"></div>
     </section>
 
+    <section id="preparednessSection" class="intelligence-board preparedness-board">
+      <div class="section-title"><div><span>ACTION &amp; READINESS</span><h2>지금 할 일과 나의 대비계획</h2></div><small>위치·가족계획은 이 기기에만 저장</small></div>
+      <div class="preparedness-grid">
+        <article class="action-card"><h3 id="actionLevel">평상시 행동</h3><ul id="actionList"></ul><a id="officialGuidance" href="https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?actsHeaderTitle=%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&amp;category=stateOfEmergency&amp;menuSn=4" target="_blank" rel="noreferrer">국민안전24 공식 행동요령</a><small id="guidanceCheckedAt">최종 확인 —</small></article>
+        <article class="local-plan">
+          <h3>나의 위치·대피 계획</h3>
+          <form id="placeForm"><label>장소 유형<select id="placeType"><option>집</option><option>직장</option><option>학교</option><option>가족 거주지</option><option>자주 방문하는 장소</option></select></label><label>장소 이름<input id="placeName" maxlength="60" required></label><label>주소<input id="placeAddress" maxlength="160" required></label><label>가까운 대피소<input id="primaryShelter" maxlength="160"></label><label>대체 대피소<input id="alternateShelter" maxlength="160"></label><label>도보 거리·시간<input id="walkingInfo" maxlength="80" placeholder="예: 650m · 약 9분"></label><label>가족 집결지<input id="meetingPoint" maxlength="160"></label><label>비상연락처<input id="emergencyContact" maxlength="100"></label><button class="terminal-button" type="submit">기기에 저장</button></form>
+          <p>대피소는 <a href="https://www.safekorea.go.kr/" target="_blank" rel="noreferrer">국민안전24</a>에서 확인한 뒤 저장하세요. 위치정보는 외부 서버로 전송하지 않습니다.</p>
+        </article>
+      </div>
+      <div id="savedPlaces" class="saved-places"></div>
+    </section>
+
     <section id="relatedSection" class="module news-module related-module">
       <header><span>NORTH KOREA &amp; SECURITY</span><small>북한·안보 관련 정보 · 위험도 점수와 분리</small></header>
       <div class="related-head" aria-hidden="true"><span>시각</span><span>분류</span><span>출처</span><span>제목</span><span>판정</span><span>저장</span></div>
@@ -133,21 +178,26 @@
       </article>
       <article class="module source-module">
         <header><span>SOURCE CLASS</span><small id="sourceHealth">정보처 연결 확인 중</small></header>
-        <div class="source-classes">
-          <span><b>A</b> 합참·국방부·IAEA·미 국방부·미 국무부·일본 방위성·FCDO·ICAO·IMO·CTBTO·USGS</span>
-          <span><b>B</b> Reuters·AP·BBC·AFP·연합뉴스·YTN·KBS·MBC·SBS·뉴시스</span>
-          <span><b>C</b> 38 North·Beyond Parallel·Arms Control Wonk·ISW·Bellingcat·Stimson·RAND·NK News·RFA·VOA</span>
-          <span><b>D</b> KCNA Watch·노동신문 등 관영매체·SNS·미확인 단독보도</span>
-        </div>
+      <div class="source-classes">
+          <span><b>01</b> 직접 공식자료 · 발령 권한과 주장 범위를 따로 판정</span>
+          <span><b>02</b> 직접 관측자료 · 위성·지진·항행 등 원관측</span>
+          <span><b>03</b> 주요 통신사 취재 · 인용한 원출처까지 추적</span>
+          <span><b>04</b> 전문기관 분석 · 분석과 관측 사실을 분리</span>
+          <span><b>05</b> 당사자·관영·익명·SNS · 단독 위험도 변경 금지</span>
+      </div>
+        <p class="travel-warning-note">여행경보 정상은 ‘현재 공식 민간 여행 제한·대피조치가 발표되지 않음’만 뜻합니다. 군사공격 가능성이 낮다고 확정하는 지표가 아니며 상황보다 늦을 수 있습니다.</p>
         <p id="sourceCoverage" class="source-coverage">출처 편중 확인 중</p>
         <details class="public-monitor"><summary>뉴스 외 공식 데이터 모니터</summary><div id="publicDataMonitors"></div></details>
+        <details class="public-monitor"><summary>수집 범위와 접근 불가 영역</summary><div id="collectionScope"></div></details>
       </article>
     </section>
+
+    <section class="module backtest-module"><header><span>MODEL BACKTEST</span><small>과거 사건 성능평가</small></header><div id="backtestStatus">검증자료 확인 중</div></section>
 
     <details class="methodology">
       <summary>위험도 점수 산정 기준</summary>
       <div id="scoreWeights" class="weight-grid"></div>
-      <p>뉴스 수는 점수에 반영하지 않습니다. 공식 발표 또는 서로 다른 신뢰 출처 2곳 이상으로 확인된 사건만 반영합니다.</p>
+      <p>뉴스 수는 점수에 반영하지 않습니다. 0–14 평상시, 15–29 관심, 30–49 주의, 50–69 경계, 70 이상 심각입니다. 공식 발령 또는 서로 독립된 신뢰 가능한 원정보 2개 이상을 원칙으로 하며, 결정적 공식 신호·복합 신호·반대 증거·정보 공백과 단계 하향 보류 조건을 별도로 적용합니다.</p>
     </details>
 
     <aside class="disclaimer">공개자료 참고용이며 정부 경보나 정보기관 평가를 대체하지 않습니다. ‘미확인’은 ‘없음’이 아닙니다.</aside>
@@ -175,7 +225,8 @@
   <nav class="mobile-nav">
     <a href="#today">현황</a><a href="#signalsSection">지표</a><a href="#newsSection">뉴스</a><a href="./scrap.html">스크랩</a><button id="settingsButton">알림</button>
   </nav>
-  <script src="./bookmarks.js?v=25" defer></script>
-  <script src="./app.js?v=25" defer></script>
+  <script src="./bookmarks.js?v=26" defer></script>
+  <script src="./readiness.js?v=26" defer></script>
+  <script src="./app.js?v=26" defer></script>
 </body>
 </html>

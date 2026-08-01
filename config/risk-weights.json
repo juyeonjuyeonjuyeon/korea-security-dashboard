@@ -1,30 +1,41 @@
 {
-  "version": 1,
+  "version": 2,
+  "effective_from": "2026-08-01",
   "thresholds": {
-    "normal": [0, 19],
-    "attention": [20, 39],
-    "warning": [40, 59],
-    "critical": [60, 999]
+    "normal": [0, 14],
+    "interest": [15, 29],
+    "attention": [30, 49],
+    "warning": [50, 69],
+    "critical": [70, 100]
   },
   "events": {
-    "missile_test": { "label": "미사일 시험", "weight": 5 },
-    "artillery_movement": { "label": "포병 이동", "weight": 8 },
-    "ammunition_movement": { "label": "탄약 이동", "weight": 12 },
-    "field_hospital": { "label": "야전병원", "weight": 20 },
-    "military_train": { "label": "군용열차·장비 이동", "weight": 0 },
-    "kim_activity": { "label": "김정은 공개활동 이상", "weight": 0 },
-    "resident_control": { "label": "북한 주민 이동통제", "weight": 0 },
-    "china_border_closure": { "label": "중국 국경봉쇄", "weight": 30 },
-    "russia_cooperation": { "label": "북러 군사협력 확대", "weight": 0 },
-    "airline_change": { "label": "한국행 항공편 대규모 변경", "weight": 0 },
-    "war_insurance": { "label": "한국 관련 전쟁보험 변화", "weight": 0 },
-    "embassy_withdrawal": { "label": "대사관 철수", "weight": 40 },
-    "usfk_family_evacuation": { "label": "주한미군 가족 철수", "weight": 50 },
-    "leadership_hiding": { "label": "지도부 은신", "weight": 30 },
-    "compound_signal": { "label": "복합조합", "weight": 25 }
+    "field_hospital": {"label":"야전병원 설치·확장","weight":18,"detectability":"낮음"},
+    "troop_movement": {"label":"대규모 병력 이동","weight":16,"detectability":"낮음"},
+    "ammunition_movement": {"label":"탄약·연료 전진배치","weight":16,"detectability":"낮음"},
+    "artillery_movement": {"label":"포병·미사일 부대 이동","weight":13,"detectability":"낮음"},
+    "military_train": {"label":"군용열차·대형 군수물류","weight":10,"detectability":"낮음~중간"},
+    "leadership_hiding": {"label":"지도부 장기 은신","weight":15,"detectability":"중간"},
+    "resident_control": {"label":"주민 이동통제·대규모 대피","weight":12,"detectability":"낮음~중간"},
+    "china_border_closure": {"label":"중국의 북중 국경 비상조치","weight":18,"detectability":"중간"},
+    "russia_cooperation": {"label":"북러 군사협력 확대","weight":6,"detectability":"중간"},
+    "airline_change": {"label":"한국행 항공편·민간교통 중단","weight":14,"detectability":"높음"},
+    "war_insurance": {"label":"한반도 전쟁보험 변동","weight":8,"detectability":"낮음~중간"},
+    "embassy_withdrawal": {"label":"외국 대사관·비필수 인력 철수","weight":30,"detectability":"높음","decisive":true},
+    "usfk_family_evacuation": {"label":"주한미군 비전투원 대피","weight":35,"detectability":"높음","decisive":true},
+    "readiness_change": {"label":"정부·군 경계태세 변화","weight":24,"detectability":"중간~높음","decisive":true},
+    "hybrid_disruption": {"label":"GPS·통신·사이버 복합 장애","weight":10,"detectability":"중간~높음"},
+    "navigation_warning": {"label":"해상·공중 항행경보 변화","weight":15,"detectability":"높음","decisive":true},
+    "missile_test": {"label":"미사일 시험","weight":5,"detectability":"높음"}
   },
   "verification": {
     "minimum_independent_reliable_sources": 2,
-    "official_source_overrides_minimum": true
-  }
+    "official_authority_override_only": true,
+    "direct_observation_plus_support": true,
+    "party_claim_never_changes_risk_alone": true
+  },
+  "staleness_hours": {"high":24,"medium":48,"low":72},
+  "deescalation": {"critical_hours":24,"warning_hours":24,"attention_hours":12,"requires_independent_confirmation":true},
+  "combination_bonus": 12,
+  "opposing_evidence_discount": 4,
+  "information_gap_penalty_cap": 20
 }

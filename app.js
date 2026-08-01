@@ -1,15 +1,6 @@
 const $ = id => document.getElementById(id);
 const signalDefinitions = [
-  ["field_hospital","야전병원","전방 야전병원 설치와 혈액·의약품 이동은 지속 작전 준비를 판단하는 보조 신호입니다.",/hospital|medical|blood/i],
-  ["ammunition_movement","탄약 이동","탄약·연료가 평시 범위를 넘어 전방으로 집중되는지 확인합니다.",/ammunition|munition|fuel/i],
-  ["military_train","군용열차","전차·포병·발사대 등을 실은 군용열차가 비정상적으로 증가하는지 봅니다.",/train|equipment|launcher/i],
-  ["kim_activity","김정은 공개활동","공개활동 중단과 전시 지휘시설 관련 동향을 봅니다. 단독 신호로 판단하지 않습니다.",/kim jong un|kim calls|kim supervises/i],
-  ["resident_control","주민 이동통제","접경지역 소개, 도시 봉쇄, 철도·도로 통제 여부입니다.",/resident|lockdown|movement restriction/i],
-  ["china_border_closure","중국 국경","북중 국경 폐쇄, 중국군 이동, 중국인 귀국 권고 여부입니다.",/china|chinese|border/i],
-  ["russia_cooperation","북러 군사협력","북한 병력·무기 지원과 러시아의 기술·물자 제공 확대 여부입니다.",/russia|russian|ukraine/i],
-  ["airline_change","항공사 운항","외국 항공사의 한국 노선 취소·축소가 동시에 나타나는지 봅니다.",/airline|flight|aviation/i],
-  ["war_insurance","전쟁보험","한국 관련 선박·항공 전쟁위험 보험료의 비정상적 변화를 확인합니다.",/insurance|shipping|war risk/i],
-  ["embassy_withdrawal","외국 대사관","비필수 인력·가족 철수나 공관 폐쇄는 강한 후기 경보 신호입니다.",/embassy|diplomat|evacuation|withdrawal/i]
+  ["field_hospital","야전병원 설치·확장","전방 의료체계 변화",/hospital|medical|blood/i],["troop_movement","대규모 병력 이동","평시 범위를 벗어난 병력 집결",/troop|deployment/i],["ammunition_movement","탄약·연료 전진배치","전투 지속용 물자 이동",/ammunition|munition|fuel/i],["artillery_movement","포병·미사일 부대 이동","공격 출발지역 배치 여부",/artillery|launcher/i],["military_train","군용열차·군수물류","대형 장비·물자 철도 이동",/train|equipment/i],["leadership_hiding","지도부 공개활동·은신","장기 공개활동 중단과 지휘부 분산",/leadership|kim jong un/i],["resident_control","주민 이동통제·대피","도시·철도·도로 통제",/resident|lockdown/i],["china_border_closure","중국 국경 비상조치","북중 접경 통제·병력 변화",/china|border/i],["russia_cooperation","북러 군사협력","병력·무기·기술 협력",/russia|ukraine/i],["airline_change","한국행 항공·교통 중단","민간 운송사의 실제 중단",/airline|flight/i],["war_insurance","전쟁보험 변동","한반도 관련 전쟁위험 요율",/insurance|war risk/i],["embassy_withdrawal","외국 대사관 철수","비필수 인력·가족의 실제 철수",/embassy|evacuation/i],["usfk_family_evacuation","주한미군 비전투원 대피","훈련이 아닌 실제 대피명령",/USFK|noncombatant/i],["readiness_change","정부·군 경계태세","발령권한 기관의 공식 격상",/readiness|alert level/i],["hybrid_disruption","GPS·통신·사이버 장애","동시다발 복합 장애",/GPS|GNSS|cyber/i],["navigation_warning","해상·공중 항행경보","NOTAM·NAVTEX·영공 통제",/NOTAM|NAVTEX|airspace/i],["missile_test","미사일 시험","발사 사실과 후속 군사행동 구분",/missile|ballistic/i]
 ];
 const combinationDefinitions = [
   ["포병 + 탄약","포병 배치와 전투 탄약 이동이 동시에 확인되는지 봅니다.",/artillery|ammunition|munition/i],
@@ -26,7 +17,7 @@ const coreDefinitions = [
   ["주한미군","비전투원·가족의 실제 출국 또는 대피 명령 여부입니다.",/USFK|noncombatant|military families/i]
 ];
 const statusMeta = {
-  normal:["정상","normal"],attention:["주의","attention"],warning:["경계","warning"],danger:["위험","danger"],
+  normal:["평상시","normal"],interest:["관심","interest"],attention:["주의","attention"],warning:["경계","warning"],danger:["위험","danger"],
   watch:["주의","attention"],alert:["위험","danger"],unknown:["미확인","unknown"]
 };
 const fallback = {
@@ -56,22 +47,22 @@ function detailPopover(description,news,data){
 function signalCards(data){
   return signalDefinitions.map((def,index)=>{
     const [id,title,description,pattern]=def;
-    const old=(data.signals||[])[index];
+    const assessment=(data.signalAssessments||[]).find(item=>item.id===id);const old=(data.signals||[])[index];
     const forced=data.signalStatus?.[id];
-    const [label,state]=forced?statusMeta[forced]||statusMeta.normal:itemState(old);
+    const state=assessment?.verified?"danger":assessment?.partiallyVerified?"attention":assessment?.status==="공개자료상 미탐지"?"normal":"unknown";const label=assessment?.status||(forced?statusMeta[forced]?.[0]:itemState(old)[0]);
     const news=matchNews(data,pattern,id);
-    const today=state==="normal"?"변화 없음":label;
-    const recent=news[0]?.date||"최근 확인 없음";
-    const source=news[0]?.source||"미확인";
+    const today=assessment?.change||label;const recent=assessment?.lastNewInformation||news[0]?.date||"신규 정보 없음";const source=assessment?.sources?.[0]?.source||news[0]?.source||"원정보 없음";
     return `<article class="signal-card interactive ${state}" tabindex="0" aria-expanded="false">
       <header><h3>${title}</h3><span class="status-chip">${label}</span></header>
       <dl><dt>오늘</dt><dd>${today}</dd><dt>최근</dt><dd>${escapeHtml(recent)}</dd><dt>출처</dt><dd>${escapeHtml(source)}</dd></dl>
-      ${detailPopover(description,news,data)}
+      <div class="signal-quality"><span>${escapeHtml(assessment?.collectionStatus||"평가 전")}</span><span>판단 ${escapeHtml(assessment?.judgmentConfidence||"낮음")}</span><span>탐지 ${escapeHtml(assessment?.detectability||"평가 전")}</span><span>독립 ${assessment?.independentSourceCount||0}</span></div>
+      ${detailPopover(`${description} · ${assessment?.stateReason||""} · 정보 공백: ${assessment?.informationGap||"평가 전"}`,assessment?.sources?.length?assessment.sources.map(source=>({...source,titleKo:source.label,confidence:source.grade})):news,data)}
     </article>`;
   }).join("");
 }
 function compactItems(definitions,data,type){
   const stored=type==="combination"?data.combinations:data.coreSignals;
+  if(type==="combination"&&stored?.[0]&&!Array.isArray(stored[0]))return stored.map(item=>`<div class="compact-item ${escapeHtml(item.tone||"unknown")}"><strong>${escapeHtml(item.label)}</strong><small>${escapeHtml(item.reason||"")}</small><span class="compact-status">${escapeHtml(item.status)}</span></div>`).join("");
   return definitions.map((def,index)=>{
     const [title,description,pattern]=def;
     const old=(stored||[])[index];
@@ -95,6 +86,12 @@ function render(data){
   $("riskLabel").textContent=data.risk?.level||"평상시";
   $("riskScore").textContent=data.risk?.score??0;
   $("riskReason").textContent=data.risk?.reason||"";
+  $("qualityRisk").textContent=data.risk?.level||"평상시";$("judgmentConfidence").textContent=data.judgment?.confidence||"낮음";$("dataCompleteness").textContent=`${data.dataQuality?.completeness??0}%`;$("largestGap").textContent=data.judgment?.largestGaps?.[0]||"평가 전";
+  const dataQuality=data.dataQuality||{};$("qualityUpdated").textContent=dataQuality.checkedAt||data.updatedAt||"—";$("successfulIndicators").textContent=dataQuality.successfulIndicators??0;$("retainedIndicators").textContent=dataQuality.retainedIndicators??0;$("failedIndicators").textContent=dataQuality.failedIndicators??0;$("staleIndicators").textContent=dataQuality.staleIndicators??0;$("latestDirect").textContent=dataQuality.latestDirectObservation||"직접 관측자료 없음";
+  const list=(id,items,empty)=>{$(id).innerHTML=(items?.length?items:[empty]).map(item=>`<li>${escapeHtml(item)}</li>`).join("")};list("supportingEvidence",data.judgment?.support,"확인된 상승 근거 없음");list("upwardContributors",data.judgment?.upwardContributors,"상승 기여 지표 없음");list("downwardContributors",data.judgment?.downwardContributors,"하락 기여 지표 없음");list("opposingEvidence",data.judgment?.opposingEvidence,"명시적 반대 증거 없음");list("alternativeHypotheses",data.judgment?.alternatives,"대안 가설 평가 전");list("nextSignals",data.judgment?.nextSignals,"다음 관찰 신호 평가 전");$("assessmentDisclaimer").textContent=data.judgment?.disclaimer||"공개자료의 한계를 고려해야 합니다.";
+  const ing=data.ingestion||{};$("ingestionSummary").textContent=`수집 ${ing.collected||0}건 중 중복·재인용 ${ing.duplicatesAndReprints||0}건, 단순·비위험 보도 ${ing.commentaryExcluded||0}건을 분리했습니다. 위험평가 관련 자료 ${ing.riskRelevant||0}건, 신규 독립 원정보 ${ing.newIndependentInformation||0}개입니다.`;
+  const quality=data.dataQuality||{};$("collectionScope").innerHTML=`<p>검색 기간 ${escapeHtml(quality.collectionScope?.period||"—")} · 대상 ${quality.collectionScope?.targets||0}곳 · 마지막 검색 ${escapeHtml(quality.collectionScope?.lastSearch||"—")}</p><p>접근 불가: ${escapeHtml((quality.collectionScope?.inaccessible||[]).join(" · ")||"평가 전")}</p>`;
+  $("actionLevel").textContent=`${data.preparedness?.level||data.risk?.level||"평상시"} 단계 행동`;list("actionList",data.preparedness?.actions,"공식 지침 확인");$("officialGuidance").href=safeUrl(data.preparedness?.officialGuidance?.url||"https://www.safekorea.go.kr/");$("guidanceCheckedAt").textContent=`최종 확인 ${data.preparedness?.officialGuidance?.checkedAt||"—"}`;
   const trend=data.risk?.trend7||[data.risk?.score||0];
   const previous=trend.at(-2)??trend.at(-1)??0,delta=(data.risk?.score||0)-previous;
   $("scoreDelta").textContent=`${delta>0?"+":""}${delta} D/D`;
@@ -107,7 +104,7 @@ function render(data){
   const official=data.officialAlert||fallback.officialAlert;
   $("officialAlertStatus").textContent=data.urgentChange||official.status;
   $("officialAlertTime").textContent=official.checkedAt||data.updatedAt||"—";
-  $("officialAlert").dataset.level=official.level||((data.risk?.score||0)>=40?"alert":"normal");
+  $("officialAlert").dataset.level=official.level||((data.risk?.score||0)>=50?"alert":"normal");
   $("signals").innerHTML=signalCards(data);
   $("combinations").innerHTML=compactItems(combinationDefinitions,data,"combination");
   $("coreSignals").innerHTML=compactItems(coreDefinitions,data,"core");
@@ -141,7 +138,7 @@ function renderNews(news){
   const sorted=[...news].sort((a,b)=>sourceRank(a.source)-sourceRank(b.source)||String(b.date).localeCompare(String(a.date)));
   $("news").innerHTML=sorted.length?sorted.map(item=>{
     rememberBookmark(item,"security","안보 지표");
-    return `<article class="news-item bookmarkable"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.confidence||"D")} · ${escapeHtml(item.verification||"분석")}</span>${bookmarkButton(item.url)}</article>`;
+    return `<article class="news-item bookmarkable"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.sourceType||"출처 유형 미분류")} · ${escapeHtml(item.claimNature||item.verification||"분석")}</span>${bookmarkButton(item.url)}</article>`;
   }).join(""):`<div class="news-item">새 뉴스 없음</div>`;
   syncBookmarkUi();
 }
@@ -161,7 +158,7 @@ async function loadHistory(){
     const dates=await (await fetch(`./data/history/index.json?t=${Date.now()}`,{cache:"no-store"})).json();
     const snapshots=await Promise.all(dates.slice(0,90).map(async date=>{try{const d=await (await fetch(`./data/history/${date}.json?t=${Date.now()}`,{cache:"no-store"})).json();return{date,score:d.risk?.score||0,anomaly:d.anomalyIndex?.score||0,level:d.risk?.level||"평상시",updatedAt:d.updatedAt||"—",newsCount:Array.isArray(d.news)?d.news.length:0}}catch{return null}}));
     const valid=snapshots.filter(Boolean);
-    $("historyList").innerHTML=`<div class="history-head" aria-hidden="true"><span>날짜</span><span>최종 갱신</span><span>위험도</span><span>점수</span><span>뉴스</span></div>${valid.map((item,index)=>`<button type="button" data-date="${escapeHtml(item.date)}" class="history-row ${index===0?"active":""}" aria-label="${escapeHtml(item.date)} 대시보드 보기, 뉴스 ${item.newsCount}건"><time>${escapeHtml(item.date)}</time><span>${escapeHtml(item.updatedAt)}</span><strong>${escapeHtml(item.level)}</strong><span>${item.score}</span><span>${item.newsCount}건</span></button>`).join("")}`;
+    $("historyList").innerHTML=`<div class="history-head" aria-hidden="true"><span>날짜</span><span>최종 갱신</span><span>위험도</span><span>점수</span><span>뉴스</span></div>${valid.map((item,index)=>`<button type="button" data-date="${escapeHtml(item.date)}" class="history-row ${index===0?"active":""}"><time>${escapeHtml(item.date)}</time><span>${escapeHtml(item.updatedAt)}</span><strong>${escapeHtml(item.level)}</strong><span>${item.score}</span><span>${item.newsCount}건</span></button>`).join("")}`;
     historyData=[...valid].reverse();renderChart();
   }catch{$("historyList").textContent="기록 없음"}
 }
@@ -192,8 +189,9 @@ function syncBookmarkUi(){
   });
 }
 async function loadWeights(){
-  try{const config=await (await fetch("./config/risk-weights.json")).json();$("scoreWeights").innerHTML=Object.values(config.events).map(item=>`<span>${escapeHtml(item.label)} <b>+${item.weight}</b></span>`).join("")}catch{}
+  try{const config=await (await fetch("./config/risk-weights.json")).json();$("scoreWeights").innerHTML=Object.values(config.events).map(item=>`<span>${escapeHtml(item.label)} <b>+${item.weight}</b><small>탐지 ${escapeHtml(item.detectability)}</small></span>`).join("")}catch{}
 }
+async function loadBacktest(){try{const data=await(await fetch(`./data/backtest.json?t=${Date.now()}`)).json();$("backtestStatus").innerHTML=`<p><b>${escapeHtml(data.status)}</b> · ${escapeHtml(data.note)}</p><div class="backtest-list">${(data.cases||[]).map(item=>`<span><b>${escapeHtml(item.name)}</b>${escapeHtml(item.status)}</span>`).join("")}</div>`}catch{$("backtestStatus").textContent="백테스트 자료를 불러오지 못했습니다."}}
 document.addEventListener("click",event=>{
   const bookmark=event.target.closest("[data-bookmark-url]");
   if(bookmark){const item=bookmarkRegistry.get(bookmark.dataset.bookmarkUrl);if(item)JuyeonBookmarks.toggle(item);return}
@@ -218,12 +216,12 @@ async function notifyOnChange(data){
   const current={update:data.updatedAt||"",score:Number(data.risk?.score||0),anomaly:Number(data.anomalyIndex?.score||0),level:data.risk?.level||"평상시"};
   localStorage.setItem("lastUpdate",current.update);localStorage.setItem("lastScore",current.score);localStorage.setItem("lastAnomaly",current.anomaly);localStorage.setItem("lastLevel",current.level);
   if(!prev.update||prev.update===current.update||!("Notification"in window)||Notification.permission!=="granted"||localStorage.getItem("notifications")!=="on")return;
-  const selected=rules(),rank={평상시:0,주의:1,경계:2,심각:3},why=[];
+  const selected=rules(),rank={평상시:0,관심:1,주의:2,경계:3,심각:4},why=[];
   if(selected.includes("all"))why.push("새 자료");if(selected.includes("score")&&current.score>prev.score)why.push(`점수 ${prev.score}→${current.score}`);if(selected.includes("anomaly")&&current.anomaly>prev.anomaly)why.push(`이상지수 ${prev.anomaly}→${current.anomaly}`);if(selected.includes("level")&&rank[current.level]>rank[prev.level])why.push(`단계 ${prev.level}→${current.level}`);if(selected.includes("official")&&data.officialAlert?.level==="alert")why.push("공식 경보");
   const keywords=(localStorage.getItem("notificationKeywords")||"").split(",").map(item=>item.trim()).filter(Boolean);if(selected.includes("keyword")&&keywords.some(keyword=>(data.news||[]).some(item=>`${item.title} ${item.titleKo}`.toLowerCase().includes(keyword.toLowerCase()))))why.push("관심 키워드 새 소식");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=25")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=26")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
-load();loadHistory();loadWeights();
+load();loadHistory();loadWeights();loadBacktest();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});

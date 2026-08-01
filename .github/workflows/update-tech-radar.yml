@@ -24,6 +24,8 @@ jobs:
         env:
           TECH_MODE: flash
         run: node scripts/update-tech.mjs
+      - name: Validate security data schema
+        run: node scripts/validate-data.mjs
       - name: Commit only when technology data changed
         run: |
           git config user.name "github-actions[bot]"

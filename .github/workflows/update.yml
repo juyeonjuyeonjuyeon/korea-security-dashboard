@@ -25,6 +25,7 @@ jobs:
         run: |
           node scripts/update-news.mjs
           node scripts/update-tech.mjs
+          node scripts/validate-data.mjs
       - name: Commit only when data changed
         run: |
           git config user.name "github-actions[bot]"

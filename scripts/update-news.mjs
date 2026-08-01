@@ -48,11 +48,11 @@ const suspendedOperationsPattern = /embassy operations (?:are )?suspended|suspen
 const exercisePattern = /exercise|drill|focused passage|courageous channel|annual|routine|훈련|연례|연습/i;
 const rules = {
   missile_test: /missile (test|launch|firing)|ballistic missile|미사일 (시험|발사)/i,
+  troop_movement: /large[- ]scale troop|troop (?:movement|concentration|deployment|mass)|대규모 병력|병력 (?:이동|집결|전개)/i,
   artillery_movement: /artillery (movement|deployment|position|drill)|포병 (이동|배치)|방사포 이동/i,
   ammunition_movement: /ammunition movement|munitions transfer|ammunition shipment|fuel convoy|탄약 (이동|수송)|연료 수송/i,
   field_hospital: /field hospital|mobile hospital|blood suppl|야전병원|이동식 병원|혈액 보급/i,
   military_train: /military train|rail shipment|equipment train|transporter erector launcher|군용열차|군용 열차|장비 수송 열차/i,
-  kim_activity: /kim jong un.{0,40}(?:disappear|absence|missing|no public appearance)|leadership.{0,30}(?:bunker|underground)|김정은.{0,30}(?:잠행|공개활동 중단|장기 부재)|지도부.{0,30}(?:은신|지하 이동)/i,
   resident_control: /resident evacuation|movement restriction|city lockdown|road closure|rail closure|주민.{0,30}(?:소개|대피|이동 통제)|도시.{0,20}봉쇄|철도.{0,20}통제/i,
   china_border_closure: /(china|chinese|북중|중국).{0,30}(border|국경|접경).{0,30}(clos|seal|restrict|봉쇄|폐쇄|통제)/i,
   russia_cooperation: /(north korea|dprk|북한).{0,50}(russia|russian|러시아).{0,60}(troop|weapon|ammunition|missile|military cooperation|병력|무기|탄약|군사협력)/i,
@@ -60,7 +60,10 @@ const rules = {
   war_insurance: /(korea|korean peninsula|한국|한반도).{0,50}(war risk insurance|joint war committee|listed area|전쟁위험 보험|전쟁보험)/i,
   embassy_withdrawal: new RegExp(`${orderedDeparturePattern.source}|${authorizedDeparturePattern.source}|${suspendedOperationsPattern.source}`, "i"),
   usfk_family_evacuation: /USFK.{0,50}(?:family|families|dependents|noncombatant).{0,50}(?:ordered to leave|evacuation order|mandatory departure)|주한미군.{0,40}(?:가족|비전투원).{0,40}(?:철수 명령|대피 명령|출국 명령)/i,
-  leadership_hiding: /leadership.{0,30}(bunker|underground|disappear)|kim jong un.{0,30}(disappear|absence)|지도부.{0,30}(대피|은신|지하)/i
+  leadership_hiding: /leadership.{0,30}(bunker|underground|disappear)|kim jong un.{0,30}(disappear|absence)|지도부.{0,30}(대피|은신|지하)/i,
+  readiness_change: /(?:alert level|readiness|defcon|watchcon|jin dog|경계태세|진돗개|데프콘).{0,50}(?:raised|increase|격상|발령)/i,
+  hybrid_disruption: /(?:GPS|GNSS|communications?|telecom|cyber).{0,50}(?:jamming|disruption|outage|attack|교란|장애|공격)/i,
+  navigation_warning: /(?:NOTAM|NAVTEX|navigation warning|airspace closure|항행경보|항공고시|해상경보|영공 폐쇄)/i
 };
 const riskNewsPattern = /missile|ballistic|nuclear|weapon|artillery|troop|ammunition|military deployment|embassy|evacuat|border clos|field hospital|bunker|미사일|핵|무기|포병|병력|탄약|군사 배치|대사관|철수|국경 봉쇄|야전병원|지도부 은신/i;
 const relatedTopic = item => {
@@ -82,6 +85,23 @@ const decodeXml = (value = "") => value
   .replace(/\s+/g, " ").trim();
 const sourceGrade = value => sourcePatterns.A.test(value) ? "A" : sourcePatterns.B.test(value) ? "B" : sourcePatterns.C.test(value) ? "C" : "D";
 const sourceName = article => String(article.source || article.domain || "Unknown");
+const hostOf = value => { try { return new URL(value).hostname.replace(/^www\./, ""); } catch { return ""; } };
+const primaryOrigin = article => {
+  const text=`${article.title} ${sourceName(article)} ${article.url}`;
+  const reprint=text.match(/\b(Reuters|Associated Press|AP News|AFP|Yonhap|연합뉴스|KCNA|조선중앙통신)\b/i)?.[1];
+  return (reprint||sourceName(article)||hostOf(article.url)).toLowerCase().replace(/[^a-z0-9가-힣]+/g,"-");
+};
+const sourceTypeFor = article => {
+  const text=`${sourceName(article)} ${article.url}`;
+  if(/USGS|satellite imagery|위성|seismic|지진 관측/i.test(text)) return "직접 관측자료";
+  if(article.forcedGrade==="A"||sourcePatterns.A.test(text)) return "직접 공식자료";
+  if(/Reuters|Associated Press|AP News|AFP|Yonhap|연합뉴스/i.test(text)) return "주요 통신사 취재";
+  if(/38 North|Beyond Parallel|CSIS|ISW|Stimson|RAND|RUSI|IISS/i.test(text)) return "전문기관 분석";
+  if(/KCNA|Rodong|조선중앙통신|노동신문/i.test(text)) return "북한 관영매체";
+  if(/anonymous|unnamed|익명|관계자/i.test(article.title||"")) return "익명 관계자 주장";
+  return article.forcedGrade==="D"?"SNS·미검증 자료":"언론·전문보도";
+};
+const claimNatureFor = article => /said|claimed|according to|주장|밝혔다|관계자|소식통/i.test(article.title||"")?"주장·인용":"직접 발표·관측";
 const dateFrom = raw => {
   const parsed = new Date(raw);
   return Number.isNaN(parsed.valueOf()) ? "" : parsed.toISOString().slice(0, 16).replace("T", " ");
@@ -264,6 +284,7 @@ async function translateNews(news) {
       } catch {}
     }
     const grade = article.forcedGrade || sourceGrade(`${sourceName(article)} ${article.url}`);
+    const sourceType=sourceTypeFor(article),originKey=primaryOrigin(article),claimNature=claimNatureFor(article);
     output.push({
       title: article.title,
       url: article.url,
@@ -271,7 +292,11 @@ async function translateNews(news) {
       date: article.date,
       titleKo: titleKo && !/MYMEMORY WARNING/i.test(titleKo) ? titleKo : article.title,
       confidence: grade,
-      verification: grade === "A" ? "공식확인" : grade === "B" ? "주요보도" : grade === "C" ? "전문·단일 확인" : "관영·교차검증 필요",
+      sourceType,originKey,claimNature,
+      originalSource: originKey,
+      directReport: claimNature==="직접 발표·관측",
+      checkedAt:kstNow(),
+      verification: sourceType==="직접 공식자료" ? "공식 원문" : sourceType==="직접 관측자료"?"직접 관측":grade === "B" ? "주요보도·원출처 확인 필요" : grade === "C" ? "전문·단일 확인" : "주장·교차검증 필요",
       riskRelevant: riskNewsPattern.test(`${article.title} ${titleKo || ""}`)
     });
   }
@@ -282,27 +307,39 @@ function verifiedEvents(news) {
   return Object.entries(rules).map(([id, pattern]) => {
     const matches = news.filter(article => pattern.test(`${article.title} ${article.titleKo || ""}`))
       .filter(article => !["embassy_withdrawal", "usfk_family_evacuation"].includes(id) || !exercisePattern.test(`${article.title} ${article.titleKo || ""}`));
-    const reliableSources = new Set(matches.filter(article => ["A", "B"].includes(article.confidence)).map(sourceName));
-    const hasOfficial = matches.some(article => article.confidence === "A");
-    const requiresOfficial = ["embassy_withdrawal", "usfk_family_evacuation"].includes(id);
-    const verified = requiresOfficial
-      ? hasOfficial
-      : hasOfficial || reliableSources.size >= config.verification.minimum_independent_reliable_sources;
+    const independentReliable = new Set(matches.filter(article => ["직접 공식자료","직접 관측자료","주요 통신사 취재"].includes(article.sourceType)&&article.claimNature!=="주장·인용").map(article=>article.originKey));
+    const directObservations=new Set(matches.filter(article=>article.sourceType==="직접 관측자료").map(article=>article.originKey));
+    const authorityOfficial=matches.some(article=>article.sourceType==="직접 공식자료"&&["embassy_withdrawal","usfk_family_evacuation","readiness_change","navigation_warning"].includes(id));
+    const partyClaims=matches.filter(article=>["북한 관영매체","교전 당사자 주장"].includes(article.sourceType)).length;
+    const verified = authorityOfficial || independentReliable.size>=config.verification.minimum_independent_reliable_sources || (directObservations.size>=1&&independentReliable.size>=2);
+    const partiallyVerified=!verified&&matches.length>0;
+    const detection=config.events[id]?.detectability||"낮음";
+    const judgmentConfidence=verified?(independentReliable.size>=2||authorityOfficial?"높음":"중간"):partiallyVerified?"낮음":/높음/.test(detection)?"중간":"낮음";
     return {
       id,
       label: config.events[id].label,
       weight: config.events[id].weight,
       verified,
+      partiallyVerified,
+      status:verified?"확인됨":partiallyVerified?"일부 확인":/높음/.test(detection)?"공개자료상 미탐지":"관측자료 부족",
+      independentSourceCount:independentReliable.size,
+      directObservationCount:directObservations.size,
+      partyClaimCount:partyClaims,
+      judgmentConfidence,
+      detectability:detection,
+      informationGap:/낮음/.test(detection)?`${config.events[id].label}은 공개정보로 직접 탐지하기 어렵습니다.`:"공개 공식자료 범위 밖의 정보는 확인할 수 없습니다.",
+      opposingEvidence:matches.length?[]:["공개 검색 범위에서 신규 근거가 발견되지 않음"],
+      checkedAt:kstNow(),
       sources: matches.slice(0, 3).map(article => ({
         label: article.titleKo || article.title,
         url: article.url,
-        grade: article.confidence
+        grade: article.confidence,source:article.source,sourceType:article.sourceType,originKey:article.originKey,publishedAt:article.date,checkedAt:article.checkedAt,claim:`${config.events[id].label} 관련 근거`,directReport:article.directReport
       }))
     };
   });
 }
 
-const levelFor = score => score >= 60 ? "심각" : score >= 40 ? "경계" : score >= 20 ? "주의" : "평상시";
+const levelFor = score => score >= 70 ? "심각" : score >= 50 ? "경계" : score >= 30 ? "주의" : score >= 15 ? "관심" : "평상시";
 const statusFor = event => event.verified ? (event.weight >= 30 ? "danger" : event.weight >= 20 ? "warning" : "attention") : "normal";
 const kstNow = () => new Intl.DateTimeFormat("ko-KR", {
   timeZone: "Asia/Seoul", dateStyle: "medium", timeStyle: "short"
@@ -347,7 +384,8 @@ try {
   const eventVerified = id => Boolean(eventMap.get(id)?.verified);
   const eventObserved = id => Boolean(eventMap.get(id)?.sources?.length);
   const combinedState = ids => ids.every(eventVerified) ? ["발생", "danger"]
-    : ids.some(eventVerified) || ids.some(eventObserved) ? ["검토중", "unknown"]
+    : ids.some(eventVerified) || ids.some(eventObserved) ? ["일부 발생", "attention"]
+    : ids.some(id=>/낮음/.test(eventMap.get(id)?.detectability||"")) ? ["판단 불가", "unknown"]
     : ["미발생", "normal"];
   const coreState = ids => ids.some(eventVerified) ? ["주의", "watch"]
     : ids.some(eventObserved) ? ["검토중", "unknown"]
@@ -359,13 +397,17 @@ try {
       : event.id === "embassy_withdrawal" && embassyChecksOk ? "normal"
       : "unknown"
   ]));
-  const combinations = [
-    ["포병 + 탄약", ...combinedState(["artillery_movement", "ammunition_movement"])],
-    ["야전병원 + 병력", ...combinedState(["field_hospital", "military_train"])],
-    ["대사관 + 항공편", ...combinedState(["embassy_withdrawal", "airline_change"])],
-    ["지도부 은신 + 미사일", ...combinedState(["leadership_hiding", "missile_test"])],
-    ["중국 국경 + 병력", ...combinedState(["china_border_closure", "military_train"])]
+  const combinationDefs=[
+    ["포병 이동 + 탄약 전방 이동",["artillery_movement","ammunition_movement"]],
+    ["야전병원 + 병력 집결",["field_hospital","troop_movement"]],
+    ["지도부 은신 + 미사일 분산배치",["leadership_hiding","artillery_movement"]],
+    ["대사관 철수 + 항공편 중단",["embassy_withdrawal","airline_change"]],
+    ["주한미군 대피 + 군 경계태세",["usfk_family_evacuation","readiness_change"]],
+    ["중국 국경 비상조치 + 주민·병력 이동",["china_border_closure","resident_control","troop_movement"]],
+    ["GPS 교란 + 통신 장애 + 군사행동",["hybrid_disruption","artillery_movement"]],
+    ["연료·탄약 + 지휘부 분산 + 민간 통제",["ammunition_movement","leadership_hiding","resident_control"]]
   ];
+  const combinations=combinationDefs.map(([label,ids])=>{const [status,tone]=combinedState(ids);return{label,ids,status,tone,confirmed:ids.filter(eventVerified).length,observed:ids.filter(eventObserved).length,total:ids.length,reason:status==="판단 불가"?"구성 지표의 직접 관측자료가 부족합니다.":`${ids.filter(eventObserved).length}/${ids.length}개 구성 신호에 공개 근거가 있습니다.`}});
   const coreSignals = [
     ["북한 병력이동", ...coreState(["artillery_movement", "ammunition_movement", "military_train"])],
     ["중국 움직임", ...coreState(["china_border_closure"])],
@@ -373,6 +415,36 @@ try {
     ["북한 군사활동", ...coreState(["missile_test", "artillery_movement", "ammunition_movement"])],
     ["주한미군", usfkEvent?.verified ? "경고" : eventObserved("usfk_family_evacuation") ? "검토중" : "미확인", usfkEvent?.verified ? "danger" : "unknown"]
   ];
+  const priorEventMap=new Map((comparisonSnapshot.signalAssessments||[]).map(item=>[item.id,item]));
+  const failedCount=collected.directSources.filter(item=>!item.ok).length+collected.embassyMonitors.filter(item=>!item.ok).length;
+  const signalAssessments=events.map(event=>({
+    ...event,
+    change:(priorEventMap.get(event.id)?.status||event.status)===event.status?"이전 상태 유지":`${priorEventMap.get(event.id)?.status||"기록 없음"} → ${event.status}`,
+    collectionStatus:event.verified
+      ? ((priorEventMap.get(event.id)?.status||event.status)===event.status?"재검증 완료":"신규 확인")
+      : event.partiallyVerified?"신규 확인"
+      : /낮음/.test(event.detectability||"")?"직접 관측 부족"
+      : failedCount>0?"이전 상태 유지"
+      : "새로운 자료 없음",
+    lastNewInformation:event.sources[0]?.publishedAt||"확인된 신규 정보 없음",
+    lastDirectObservation:event.sources.find(source=>source.sourceType==="직접 관측자료")?.publishedAt||"직접 관측 부족",
+    sourceReliability:event.sources[0]?.sourceType||"확인 가능한 원정보 없음",
+    stateReason:event.verified?`독립 원정보 ${event.independentSourceCount}개 또는 발령권한 기관 자료로 확인`:
+      event.partiallyVerified?"관련 공개자료는 있으나 독립 교차검증 기준 미충족":"확인 가능한 신규 원정보가 없으며 탐지 가능성을 함께 고려함"
+  }));
+  const completenessParts=events.map(event=>event.verified?100:event.partiallyVerified?65:/높음/.test(event.detectability)?60:/중간/.test(event.detectability)?40:20);
+  const completeness=Math.max(0,Math.round(completenessParts.reduce((a,b)=>a+b,0)/Math.max(1,completenessParts.length)-failedCount*2));
+  const staleIndicators=signalAssessments.filter(item=>{const stamp=Date.parse(item.lastNewInformation);return !Number.isFinite(stamp)||Date.now()-stamp>24*3600000}).length;
+  const latestDirectObservation=signalAssessments.map(item=>item.lastDirectObservation).filter(value=>value&&value!=="직접 관측 부족").sort((a,b)=>Date.parse(b)-Date.parse(a))[0]||"최신 직접 관측자료 없음";
+  const confidence=completeness>=80&&events.filter(event=>event.verified).every(event=>event.judgmentConfidence==="높음")?"높음":completeness>=55?"중간":"낮음";
+  const largestGaps=signalAssessments.filter(item=>item.status==="관측자료 부족"||item.status==="평가 불가").sort((a,b)=>a.detectability.localeCompare(b.detectability)).slice(0,4).map(item=>item.informationGap);
+  const actionByLevel={
+    평상시:["집·직장·학교 주변 대피소 2곳 저장","가족 연락계획과 집결지 지정","생존가방과 정부 재난알림 점검"],
+    관심:["휴대전화·보조배터리 충전","식수·상비약·현금 보충","가족 위치·귀가경로와 차량 연료 확인"],
+    주의:["불필요한 장거리 이동 재검토","대피소 실제 이동경로 확인","중요 서류·의약품 즉시 반출 상태 유지"],
+    경계:["즉시 대피 가능한 상태 유지","가족별 이동 담당과 대체 연락방법 가동","정부·지자체 공식 지시를 최우선 확인"],
+    심각:["가까운 민방위 대피소나 지하시설로 즉시 대피","정부 방송·재난문자를 계속 확인","확인되지 않은 SNS 정보에 따라 이동하지 않기"]
+  };
   const relatedInfo = news.filter(item => !item.riskRelevant).slice(0, 20).map(item => ({
     ...item,
     topic: relatedTopic(item),
@@ -409,8 +481,17 @@ try {
     {date:sampleDate,score:anomalyScore}
   ].slice(-90);
   const scoreBreakdown = events.filter(event => event.verified && event.weight > 0);
-  const score = Math.min(100, scoreBreakdown.reduce((sum, event) => sum + event.weight, 0));
+  const baseScore=scoreBreakdown.reduce((sum,event)=>sum+event.weight,0);
+  const activeCombinations=combinations.filter(item=>item.status==="발생");
+  const combinationBonus=activeCombinations.length*Number(config.combination_bonus||0);
+  const decisiveSignal=scoreBreakdown.some(event=>config.events[event.id]?.decisive);
+  const calculatedScore=Math.min(100,Math.max(decisiveSignal?50:0,baseScore+combinationBonus));
   const oldScore = Number(previous.risk?.score || 0);
+  const oldLevel=previous.risk?.level||"평상시";
+  const oldUpdated=Date.parse(previous.generatedAt||"");
+  const deescalationHold=calculatedScore<oldScore&&["경계","심각"].includes(oldLevel)&&Number.isFinite(oldUpdated)&&Date.now()-oldUpdated<24*3600000;
+  const riseLimited=!decisiveSignal&&!activeCombinations.length&&calculatedScore>oldScore+20;
+  const score=deescalationHold?oldScore:riseLimited?oldScore+20:calculatedScore;
   const oldVerified = new Set((previous.scoreBreakdown || []).map(item => item.id));
   const newVerified = new Set(scoreBreakdown.map(item => item.id));
   const added = scoreBreakdown.filter(item => !oldVerified.has(item.id));
@@ -418,7 +499,8 @@ try {
   const trend = [...(previous.risk?.trend7 || []), score].slice(-7);
   const data = {
     ...previous,
-    schemaVersion: 2,
+    schemaVersion: 3,
+    generatedAt:new Date().toISOString(),
     updatedAt: kstNow(),
     sourceHealth: {
       successful: collected.successful,
@@ -441,7 +523,43 @@ try {
       trend7: trend,
       reason: scoreBreakdown.length
         ? `교차검증된 위험신호 ${scoreBreakdown.length}개가 점수에 반영됐습니다.`
-        : "공식 발표 또는 복수 신뢰 출처로 확인된 위험신호가 없습니다."
+        : "공식 발표 또는 독립 원정보 2개로 확인된 위험신호가 없습니다.",
+      calculatedScore,
+      deescalationHold,
+      riseLimited,
+      deescalationReason:deescalationHold?"경계·심각 단계 하향에는 최소 24시간 안정 확인 또는 공식 해제가 필요합니다.":"하향 보류 조건 없음"
+    },
+    judgment:{
+      confidence,
+      completeness,
+      largestGaps,
+      support:scoreBreakdown.map(item=>`${item.label}: ${item.independentSourceCount}개 독립 원정보`).slice(0,4),
+      upwardContributors:scoreBreakdown.map(item=>`${item.label} +${item.weight}`).slice(0,6),
+      downwardContributors:cleared.map(id=>`${config.events[id]?.label||id} 해제`).slice(0,6),
+      opposingEvidence:events.flatMap(item=>item.opposingEvidence||[]).slice(0,4),
+      underestimationRisk:"북한 내부 병력·군수·지하시설 활동의 직접 공개관측이 제한됩니다.",
+      overestimationRisk:"훈련·정치적 위협 발언·동일 원출처 재인용이 실제 작전준비로 과대해석될 수 있습니다.",
+      alternatives:["통상 훈련 또는 억제 메시지","대외 협상용 강압","실제 준비활동이 공개자료에 포착되지 않았을 가능성"],
+      nextSignals:["전방 탄약·연료 이동의 직접 관측","지도부 장기 은신","대사관·주한미군 실제 대피","정부·군 경계태세 공식 격상"],
+      disclaimer:"이 평가는 공개적으로 검증 가능한 자료를 기반으로 한다. 공개자료에서 확인되지 않았다는 것이 실제로 존재하지 않는다는 의미는 아니다. 공식 재난경보나 정부 지시가 발령되면 대시보드 판단보다 해당 지시를 우선한다."
+    },
+    dataQuality:{
+      completeness,
+      successfulIndicators:signalAssessments.filter(item=>item.sources.length||/미탐지/.test(item.status)).length,
+      retainedIndicators:signalAssessments.filter(item=>item.change==="이전 상태 유지").length,
+      failedIndicators:failedCount,
+      staleIndicators,
+      latestDirectObservation,
+      checkedAt:kstNow(),
+      collectionScope:{targets:collected.total+collected.directTotal+collected.embassyMonitors.length,period:`최근 ${sourceConfig.freshness_days}일`,lastSearch:kstNow(),inaccessible:["북한 내부 비공개 군사통신","유료 상업위성 전체 영상","비공개 보험시장 실시간 요율","정보기관 비공개 자료"]}
+    },
+    ingestion:{
+      collected:collected.articles.length,
+      retained:news.length,
+      duplicatesAndReprints:Math.max(0,collected.articles.length-raw.length),
+      commentaryExcluded:news.filter(item=>!item.riskRelevant).length,
+      riskRelevant:news.filter(item=>item.riskRelevant).length,
+      newIndependentInformation:new Set(events.flatMap(event=>event.sources.map(source=>source.originKey))).size
     },
     summary: {
       added: added.length,
@@ -455,17 +573,23 @@ try {
       ].slice(0, 4)
     },
     dailyChange: `새 위험신호 ${added.length} · 해제 ${cleared.length}`,
-    urgentChange: score >= 40 ? `${levelFor(score)} 단계 · 공식 채널 확인 필요` : "현재 긴급 경보 없음",
+    urgentChange: score >= 50 ? `${levelFor(score)} 단계 · 공식 채널 확인 필요` : "현재 공식 긴급경보 없음",
     officialAlert: {
       status: embassyEvent?.verified ? "외국 공관 가족·비필수 인력 대피 조치 공식 감지"
         : usfkEvent?.verified ? "주한미군 가족·비전투원 대피 명령 공식 감지"
+        : eventVerified("readiness_change") ? "정부·군 경계태세 공식 격상 감지"
+        : eventVerified("navigation_warning") ? "공식 항행·운항 통제 감지"
         : "현재 공식 긴급 경보 없음",
-      level: embassyEvent?.verified || usfkEvent?.verified ? "alert" : "normal",
+      level: embassyEvent?.verified || usfkEvent?.verified || eventVerified("readiness_change") || eventVerified("navigation_warning") ? "alert" : "normal",
       checkedAt: kstNow()
     },
     scoreBreakdown,
+    scoreModel:{baseScore,combinationBonus,opposingEvidenceDiscount:0,informationGapPenalty:Math.min(config.information_gap_penalty_cap||20,Math.round((100-completeness)/5)),decisiveSignal,thresholds:config.thresholds,modelVersion:config.version},
     combinations,
     coreSignals,
+    signals:signalAssessments,
+    signalAssessments,
+    preparedness:{level:levelFor(score),actions:actionByLevel[levelFor(score)],officialGuidance:{name:"국민안전24 비상시 국민행동요령",url:"https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?actsHeaderTitle=%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&category=stateOfEmergency&menuSn=4",checkedAt:kstNow()}},
     news,
     relatedInfo,
     anomalyIndex: {

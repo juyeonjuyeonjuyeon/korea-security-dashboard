@@ -74,6 +74,6 @@ $("techRefreshButton").addEventListener("click",load);
 ["techSearch","techCategoryFilter","techLayerFilter"].forEach(id=>$(id).addEventListener(id==="techSearch"?"input":"change",renderTechFeed));
 document.addEventListener("click",event=>{const button=event.target.closest("[data-bookmark-url]");if(button){const item=bookmarkRegistry.get(button.dataset.bookmarkUrl);if(item)JuyeonBookmarks.toggle(item)}});
 window.addEventListener("juyeonbookmarkschange",syncBookmarkUi);
-if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=25");
+if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=26");
 load();
 window.addEventListener("pageshow",event=>{if(event.persisted)load()});
