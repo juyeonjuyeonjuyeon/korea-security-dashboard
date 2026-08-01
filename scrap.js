@@ -3,6 +3,7 @@ const escapeHtml = (value = "") => String(value).replace(/[&<>"']/g, character =
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
 }[character]));
 const safeUrl = (value = "") => { try { const url = new URL(value); return /^https?:$/.test(url.protocol) ? url.href : "#"; } catch { return "#"; } };
+const readerUrl = (value = "") => { const url=safeUrl(value); return url==="#"?"#":`./reader.html?url=${encodeURIComponent(url)}`; };
 let filter = "all";
 
 function render() {
@@ -19,7 +20,7 @@ function render() {
         <time>${escapeHtml(item.date || item.savedAt.slice(0, 10))}</time>
         <b>${escapeHtml(item.source)}</b>
       </div>
-      <a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a>
+      <a href="${readerUrl(item.url)}">${escapeHtml(item.title)}</a>
       <small>${escapeHtml(item.topic || (item.section === "tech" ? "기술 트렌드" : "한반도 안보"))}</small>
       <button class="bookmark-button saved" type="button" data-remove-url="${escapeHtml(item.url)}" aria-label="스크랩에서 삭제" title="스크랩에서 삭제">★</button>
     </article>`).join("") : `<div class="scrap-empty"><strong>저장한 기사가 없습니다.</strong><p>안보면이나 기술면 뉴스 오른쪽의 ☆ 버튼을 누르면 이곳에 저장됩니다.</p></div>`;
@@ -49,5 +50,5 @@ $("clearScraps").addEventListener("click", () => {
   if (JuyeonBookmarks.count() && confirm("이 브라우저에 저장한 스크랩을 모두 삭제할까요?")) JuyeonBookmarks.clear();
 });
 window.addEventListener("juyeonbookmarkschange", render);
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js?v=28");
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js?v=29");
 render();

@@ -1,6 +1,7 @@
 const $ = id => document.getElementById(id);
 const escapeHtml = (value="") => String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl = (value="") => { try { const url=new URL(value); return /^https?:$/.test(url.protocol)?url.href:"#"; } catch { return "#"; } };
+const readerUrl = (value="") => { const url=safeUrl(value); return url==="#"?"#":`./reader.html?url=${encodeURIComponent(url)}`; };
 const fallback = {updatedAt:"자동 갱신 전",headline:"최신 기술 흐름을 불러오고 있습니다.",metrics:{articleCount:0,recentCount:0,sourceCount:0},summary:["새 자료 확인 중"],categories:[],news:[],sourceHealth:{successful:0,total:0}};
 const bookmarkRegistry=new Map();
 let techData=fallback;
@@ -37,7 +38,7 @@ function render(data){
   renderTechFeed();
   const radarItem=item=>`<article class="radar-item bookmarkable">
     <div><span class="radar-type">${escapeHtml(item.type||"업데이트")}</span><span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")}</span><span class="layer-badge ${escapeHtml(item.sourceLayer||"analysis")}">${escapeHtml(item.layerLabel||"분석")}</span></div>
-    <a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>
+    <a href="${readerUrl(item.url)}">${escapeHtml(item.titleKo||item.title)}</a>
     <small>${escapeHtml(item.source||"출처 미상")} · ${escapeHtml(item.date||"시각 미상")}</small>
     ${bookmarkButton(item)}
   </article>`;
@@ -56,7 +57,7 @@ function renderTechFeed(){
   $("techResult").textContent=`${items.length}/${all.length}건`;
   $("techNews").innerHTML=items.map(item=>`<article class="news-item tech-news-item bookmarkable">
     <time>${escapeHtml(item.date||"—")}</time><span class="tech-topic">${escapeHtml(item.category||"기술")}</span>
-    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>
+    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${readerUrl(item.url)}">${escapeHtml(item.titleKo||item.title)}</a>
     <span class="tech-row-tags">${(item.themes||[]).map(tag=>`<i>${escapeHtml(tag)}</i>`).join("")}</span>
     <span class="source-badge ${escapeHtml(item.confidence||"C")}">${escapeHtml(item.confidence||"C")} · ${escapeHtml(item.layerLabel||"분석")}</span>
     ${bookmarkButton(item)}
@@ -74,6 +75,6 @@ $("techRefreshButton").addEventListener("click",load);
 ["techSearch","techCategoryFilter","techLayerFilter"].forEach(id=>$(id).addEventListener(id==="techSearch"?"input":"change",renderTechFeed));
 document.addEventListener("click",event=>{const button=event.target.closest("[data-bookmark-url]");if(button){const item=bookmarkRegistry.get(button.dataset.bookmarkUrl);if(item)JuyeonBookmarks.toggle(item)}});
 window.addEventListener("juyeonbookmarkschange",syncBookmarkUi);
-if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=28");
+if("serviceWorker"in navigator) navigator.serviceWorker.register("./sw.js?v=29");
 load();
 window.addEventListener("pageshow",event=>{if(event.persisted)load()});

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#e8e8e4">
+  <meta name="description" content="개인용 외국어 웹페이지 한국어 읽기모드">
+  <title>읽기모드 · 주연뉴스</title>
+  <link rel="icon" href="./icon-32.png?v=13" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="./styles.css?v=29">
+  <link rel="stylesheet" href="./reader.css?v=1">
+</head>
+<body class="reader-page">
+  <header class="terminal-header reader-header">
+    <a href="./" class="wordmark">주연뉴스 <span>READER</span></a>
+    <div class="reader-header-actions">
+      <button id="backButton" class="terminal-button" type="button">목록으로</button>
+      <a id="originalTop" class="terminal-button" target="_blank" rel="noreferrer">원문 보기</a>
+    </div>
+  </header>
+
+  <main class="reader-shell">
+    <section class="reader-intro module">
+      <span class="reader-kicker">PRIVATE TRANSLATION</span>
+      <h1 id="readerTitle">원문을 준비하고 있습니다</h1>
+      <p id="readerMeta">개인 브라우저에서만 본문을 추출하고 번역합니다.</p>
+      <div class="reader-url-row">
+        <input id="readerUrl" type="url" inputmode="url" placeholder="번역할 외국어 페이지 주소">
+        <button id="loadUrlButton" type="button">읽기</button>
+      </div>
+      <div id="readerNotice" class="reader-notice" role="status" aria-live="polite">브라우저 확장 연결을 확인하는 중입니다.</div>
+      <div class="reader-progress" aria-hidden="true"><i id="readerProgress"></i></div>
+      <div class="reader-actions">
+        <button id="translateButton" class="reader-primary" type="button" disabled>한국어 번역 시작</button>
+        <button id="retryButton" type="button" hidden>다시 가져오기</button>
+        <button id="clearCacheButton" type="button">이 글 번역 삭제</button>
+      </div>
+    </section>
+
+    <nav class="reader-tabs" aria-label="읽기 언어 선택">
+      <button type="button" data-reader-view="ko" class="active" aria-pressed="true">한국어</button>
+      <button type="button" data-reader-view="original" aria-pressed="false">원문</button>
+      <button type="button" data-reader-view="parallel" aria-pressed="false">나란히</button>
+    </nav>
+
+    <article id="readerContent" class="reader-content module" aria-busy="true">
+      <p class="reader-empty">확장이 원문을 가져오면 여기에 표시됩니다.</p>
+    </article>
+
+    <aside class="reader-disclaimer">
+      자동 번역은 오류가 있을 수 있습니다. 원문을 최종 기준으로 확인하세요. 이 읽기모드는 접근 제한이나 유료벽을 우회하지 않습니다.
+    </aside>
+  </main>
+  <script src="./reader.js?v=1" defer></script>
+</body>
+</html>

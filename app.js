@@ -30,6 +30,7 @@ const bookmarkRegistry=new Map();
 const escapeHtml=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const safeUrl=(value="")=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return"#"}};
 const translatedArticleUrl=(value="")=>{try{const u=new URL(value);if(/(?:^|\.)(?:yna|ytn|kbs|mbc|sbs|newsis|donga|chosun|joongang|hani|hankookilbo|seoul)\.(?:co\.kr|com)$|\.kr$/i.test(u.hostname))return"";return `https://translate.google.com/translate?sl=auto&tl=ko&u=${encodeURIComponent(u.href)}`}catch{return""}};
+const readerUrl=(value="")=>{const url=safeUrl(value);return url==="#"?"#":`./reader.html?url=${encodeURIComponent(url)}`};
 const itemState=item=>statusMeta[item?.[2]]||statusMeta.normal;
 const sourceRank=source=>/합참|국방부|IAEA|MSMT|state|defense|인도태평양|FCDO|ICAO|IMO|CTBTO|USGS|일본 방위성|NOTAM/i.test(source)?0:/Reuters/i.test(source)?1:/AP|Associated/i.test(source)?2:/BBC|AFP|WSJ|Yonhap|연합뉴스|YTN|KBS|MBC|SBS|Newsis|뉴시스/i.test(source)?3:/38 North|Beyond Parallel|CSIS|Arms Control Wonk|ISW|Understanding War|Bellingcat|Stimson|RAND|Covert Shores|RUSI|IISS|NK News|RFA|Radio Free Asia|VOA|Voice of America|Daily NK|Asia Press/i.test(source)?4:9;
 const matchNews=(data,pattern,id)=>{
@@ -139,7 +140,7 @@ function renderNews(news){
   $("news").innerHTML=sorted.length?sorted.map(item=>{
     rememberBookmark(item,"security","안보 지표");
     const translated=translatedArticleUrl(item.url);
-    return `<article class="news-item bookmarkable"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><div class="news-title-cell"><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>${translated?`<a class="translate-link" href="${safeUrl(translated)}" target="_blank" rel="noreferrer">한국어로 기사 보기</a>`:""}</div><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.sourceType||"출처 유형 미분류")} · ${escapeHtml(item.claimNature||item.verification||"분석")}</span>${bookmarkButton(item.url)}</article>`;
+    return `<article class="news-item bookmarkable"><time>${escapeHtml(item.date||"—")}</time><span class="news-source">${escapeHtml(item.source||"Unknown")}</span><div class="news-title-cell"><a class="news-title" href="${readerUrl(item.url)}">${escapeHtml(item.titleKo||item.title)}</a>${translated?`<a class="translate-link" href="${safeUrl(translated)}" target="_blank" rel="noreferrer">Google 번역으로 보기</a>`:""}</div><span class="source-badge ${escapeHtml(item.confidence||"D")}">${escapeHtml(item.sourceType||"출처 유형 미분류")} · ${escapeHtml(item.claimNature||item.verification||"분석")}</span>${bookmarkButton(item.url)}</article>`;
   }).join(""):`<div class="news-item">새 뉴스 없음</div>`;
   syncBookmarkUi();
 }
@@ -168,7 +169,7 @@ function renderRelated(items){
     rememberBookmark(item,"security",item.topic||"북한 관련");
     return `<article class="related-item bookmarkable">
     <time>${escapeHtml(item.date||"—")}</time><span class="related-topic">${escapeHtml(item.topic||"북한 관련")}</span>
-    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.titleKo||item.title)}</a>
+    <span class="news-source">${escapeHtml(item.source||"Unknown")}</span><a class="news-title" href="${readerUrl(item.url)}">${escapeHtml(item.titleKo||item.title)}</a>
     <span class="no-score">${escapeHtml(item.scoreImpact||"위험도 미반영")}</span>${bookmarkButton(item.url)}
   </article>`;
   }).join(""):`<div class="news-item">새로운 일반 북한·안보 정보 없음</div>`;
@@ -222,7 +223,7 @@ async function notifyOnChange(data){
   const keywords=(localStorage.getItem("notificationKeywords")||"").split(",").map(item=>item.trim()).filter(Boolean);if(selected.includes("keyword")&&keywords.some(keyword=>(data.news||[]).some(item=>`${item.title} ${item.titleKo}`.toLowerCase().includes(keyword.toLowerCase()))))why.push("관심 키워드 새 소식");
   if(why.length)(await navigator.serviceWorker?.ready)?.showNotification("주연뉴스",{body:why.join(" · "),icon:"./icon-192.png?v=13",tag:"dashboard"});
 }
-if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=28")}
+if("serviceWorker"in navigator){let reloading=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!reloading){reloading=true;location.reload()}});navigator.serviceWorker.register("./sw.js?v=29")}
 let installPrompt;window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();installPrompt=event;$("installButton").hidden=false});$("installButton").addEventListener("click",async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$("installButton").hidden=true}});
 load();loadHistory();loadWeights();loadBacktest();
 window.addEventListener("pageshow",event=>{if(event.persisted){load();loadHistory()}});

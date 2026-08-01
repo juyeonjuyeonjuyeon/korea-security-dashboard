@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "주연뉴스 개인 번역 리더",
+  "version": "1.0.0",
+  "minimum_chrome_version": "138",
+  "description": "사용자가 열람할 수 있는 웹페이지 본문을 주연뉴스 읽기모드로 전달합니다.",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {"service_worker": "service-worker.js"},
+  "content_scripts": [{
+    "matches": [
+      "https://juyeonjuyeonjuyeon.github.io/korea-security-dashboard/reader.html*",
+      "http://localhost/*",
+      "http://127.0.0.1/*"
+    ],
+    "js": ["reader-bridge.js"],
+    "run_at": "document_start"
+  }],
+  "action": {"default_title": "이 페이지를 주연뉴스에서 번역"}
+}
