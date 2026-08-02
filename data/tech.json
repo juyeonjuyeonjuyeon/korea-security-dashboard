@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 3. AM 6:12",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 3. AM 6:57",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "상담원 주간에 오신 것을 환영합니다",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 16,
-    "sourceCount": 24,
-    "officialCount": 17,
+    "recentCount": 17,
+    "sourceCount": 25,
+    "officialCount": 18,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
+      "count": 32,
       "summary": "샘 알트먼과 인공지능의 디셀 논쟁",
       "latest": "2026-08-02 20:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T21:12:45.415Z",
+      "lastRefreshed": "2026-08-02T21:57:59.355Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T21:12:45.415Z",
+      "lastRefreshed": "2026-08-02T21:57:59.355Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "테크크런치 모빌리티 (TechCrunch Mobility): 두 도로가 갈라짐 — 로보택시용",
       "latest": "2026-08-02 16:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T21:12:45.415Z",
+      "lastRefreshed": "2026-08-02T21:57:59.355Z",
       "themes": [
         "주요 기업"
       ]
@@ -65,7 +65,7 @@
       "summary": "위장한 감시 조약: 캐나다, 유엔 사이버 범죄 협약 서명",
       "latest": "2026-08-01 14:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T21:12:45.415Z",
+      "lastRefreshed": "2026-08-02T21:57:59.355Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -75,11 +75,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 12,
-      "summary": "APOD: 2026 August 2 – A Fire Rainbow over West Virginia",
-      "latest": "2026-08-02 04:05",
+      "count": 13,
+      "summary": "Show HN: Kakehashi – Linux ARM에서 macOS 바이너리를 실행할 수 있는 실험적인 사용자 공간",
+      "latest": "2026-08-02 16:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T21:12:45.415Z",
+      "lastRefreshed": "2026-08-02T21:57:59.355Z",
       "themes": [
         "기회"
       ]
@@ -92,7 +92,7 @@
       "summary": "중국은 비즈니스에 대한 더 나은 접근 방식을 가지고 있기 때문에 AI에서 승리하고 있습니까?",
       "latest": "2026-08-02 16:30",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-02T21:12:45.415Z",
+      "lastRefreshed": "2026-08-02T21:57:59.355Z",
       "themes": []
     },
     {
@@ -103,7 +103,7 @@
       "summary": "상담원 주간에 오신 것을 환영합니다",
       "latest": "2026-08-02 16:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T21:12:45.415Z",
+      "lastRefreshed": "2026-08-02T21:57:59.355Z",
       "themes": [
         "주요 기업"
       ]
@@ -562,6 +562,22 @@
     ],
     "community": [
       {
+        "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+        "url": "https://github.com/wie-project/kakehashi",
+        "source": "Hacker News",
+        "date": "2026-08-02 16:26",
+        "categoryId": "space",
+        "confidence": "D",
+        "stream": "community",
+        "category": "우주·통신",
+        "titleKo": "Show HN: Kakehashi – Linux ARM에서 macOS 바이너리를 실행할 수 있는 실험적인 사용자 공간",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
         "url": "https://sprocket-demo.spikonado.com",
         "source": "Hacker News",
@@ -642,22 +658,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "On the non-use of AI in my writing process",
-        "url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
-        "source": "Hacker News",
-        "date": "2026-08-01 12:56",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "내 글쓰기 과정에서 AI를 사용하지 않는 것에 대해",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -709,6 +709,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+      "url": "https://github.com/wie-project/kakehashi",
+      "source": "Hacker News",
+      "date": "2026-08-02 16:26",
+      "categoryId": "space",
+      "confidence": "D",
+      "stream": "community",
+      "category": "우주·통신",
+      "titleKo": "Show HN: Kakehashi – Linux ARM에서 macOS 바이너리를 실행할 수 있는 실험적인 사용자 공간",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
@@ -1051,22 +1067,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "On the non-use of AI in my writing process",
-      "url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
-      "source": "Hacker News",
-      "date": "2026-08-01 12:56",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "내 글쓰기 과정에서 AI를 사용하지 않는 것에 대해",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
       "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
       "source": "Ars Technica",
@@ -1295,6 +1295,22 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
+    },
+    {
+      "title": "Trump's AI executive order nears key deadline as regulation debate intensifies - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWs4NW56UFpjTEs0UVhiSC0wUXFGcWlqaFNFdHd1ZmlYRzJLUE1pVEI3UFE4a2MzM1JQVkFGbDhSNGw2U2pqVTg3aHB4UGRMaDRnMU5SQWJSRXhVamFwYzRpWl9SSlpTa2xLZXpPTTIzUVo1Zk9zRG5ZNlZQclpmZlkwcGJVRHpzOVhPektPZmdEWnVDSWtacTBhMS1zLW1iSjFWeVZlWktwVknSAbABQVVfeXFMTmJITzFGaUNPYzRYOGQ1NHc1bkFQMElYSFVub2piTFZxMUtXMUdHQjB3Yk04aF9jRThtUVUzaE1GdDRhWk1pbFFwbnBiZ2t1MGhzeFQ1eHNIalB6d1lVaDhSUzdBUFIxMW44SU5rRU5qdXMydy11Xy1VdlZ2Rm5yVHB5U1d2VlIzWmxjQ24xTTF6U3djQm1ETlpzS1dJcEt1WktfaWxWR3gtOFNnSGN5SlE?oc=5",
+      "source": "CNBC",
+      "date": "2026-07-31 21:46",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "규제 논의가 심화됨에 따라 트럼프의 AI 행정명령이 주요 시한에 가까워짐 - CNBC",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Google plans to exempt sanctioned nations from Android developer verification",
@@ -1602,38 +1618,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5",
-      "source": "Reuters",
-      "date": "2026-07-31 15:11",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - Reuters",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Building abundant intelligence - OpenAI",
+      "title": "Building abundant intelligence - openai.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBObjk4d1E4cU02NFZHNVhmdUI4ODJFVWJoUlNHSUQ5YXFYOUZNaHh3S3FjbG5Vb2FHbGgyNDVvd2h1Y1M4SzRtb0xDcVh3X05kVFgzWTRyZGJoRXZHeDhaMlR4Tnd1RE0?oc=5",
-      "source": "OpenAI",
+      "source": "openai.com",
       "date": "2026-07-31 15:06",
       "categoryId": "ai",
-      "confidence": "C",
+      "confidence": "A",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "Building abundant intelligence - OpenAI",
+      "titleKo": "Building abundant intelligence - openai.com",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "datasette-agent 0.4a0",
@@ -1652,15 +1652,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
+      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "date": "2026-07-31 14:02",
       "categoryId": "chips",
       "confidence": "C",
       "stream": "news",
       "category": "반도체·컴퓨팅",
-      "titleKo": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
+      "titleKo": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1886,19 +1886,17 @@
       "layerLabel": "주요 언론 확인"
     },
     {
-      "title": "Anthropic's AI hacked three companies during tests, highlighting growing security risks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0FyTjVjNWQzY2dYblVWRlNJdGJwYkVuVVlXbkhBNURXR2VYenltaUVUR2I0emloLVB5S0dBTnpwUDJ0Q013dU1DQmZrLVhPeXcxY09pb0hyS3R4Q0ZFa2x4Y3Y5bzNJMGdtOVZZWE5iMFpjNmNLNjNOZlNKRnlBcmdRVW1NTUdrX1VYRk1nYjBKM3JCa3IwUENVbHRQNW44b25HRk91MUxNVVlDNXNxYTJWNjhLMHo0SzVqY203Yw?oc=5",
+      "title": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5",
       "source": "Reuters",
-      "date": "2026-07-31 05:14",
+      "date": "2026-07-31 06:04",
       "categoryId": "ai",
       "confidence": "B",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "Anthropic's AI hacked three companies during tests, highlighting growing security risks - Reuters",
+      "titleKo": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - Reuters",
       "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
+      "themes": [],
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
@@ -1985,11 +1983,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 35,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 7,
-    "checkedAt": "2026. 8. 3. AM 6:12",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 8,
+    "checkedAt": "2026. 8. 3. AM 6:57",
+    "mode": "하루 2회 전체 수집"
   }
 }
