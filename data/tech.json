@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 2. AM 9:16",
+  "updatedAt": "2026. 8. 2. PM 1:02",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.0-canary.106",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 22,
+    "recentCount": 20,
     "sourceCount": 24,
     "officialCount": 17,
     "opportunityCount": 1
@@ -21,14 +21,14 @@
       "code": "AI",
       "label": "인공지능",
       "count": 37,
-      "summary": "유튜버 행크 그린 (Hank Green) 은 자신의 AI 사용이 '건강에 좋지 않다‘ 고 말합니다.",
-      "latest": "2026-08-01 19:45",
+      "summary": "AI 재무 조언은 특히 올바른 질문을 하는 경우 놀라울 정도로 좋습니다.",
+      "latest": "2026-08-01 22:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T00:16:42.241Z",
+      "lastRefreshed": "2026-08-02T04:02:17.301Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
-        "음악·음성"
+        "기회"
       ]
     },
     {
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T00:16:42.241Z",
+      "lastRefreshed": "2026-08-02T04:02:17.301Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Uber는 자율주행 차량 제국을 구축하고 있으며, 이를 위해 Uber가 이용하는 모든 회사를 소개합니다.",
       "latest": "2026-08-01 15:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T00:16:42.241Z",
+      "lastRefreshed": "2026-08-02T04:02:17.301Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "위장한 감시 조약: 캐나다, 유엔 사이버 범죄 협약 서명",
       "latest": "2026-08-01 14:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T00:16:42.241Z",
+      "lastRefreshed": "2026-08-02T04:02:17.301Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -77,7 +77,7 @@
       "summary": "Space Force, 레이저 통신 시연으로 K2 Space에 $ 2,290만 상금 수여",
       "latest": "2026-08-01 20:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T00:16:42.241Z",
+      "lastRefreshed": "2026-08-02T04:02:17.301Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -88,10 +88,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 6,
-      "summary": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
-      "latest": "2026-08-01 06:20",
+      "summary": "야누스 배터리 스왑 트럭 쇼 더 웨이",
+      "latest": "2026-08-02 01:18",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-02T00:16:42.241Z",
+      "lastRefreshed": "2026-08-02T04:02:17.301Z",
       "themes": []
     },
     {
@@ -102,7 +102,7 @@
       "summary": "v16.3.0-canary.106",
       "latest": "2026-08-01 23:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T00:16:42.241Z",
+      "lastRefreshed": "2026-08-02T04:02:17.301Z",
       "themes": [
         "주요 기업"
       ]
@@ -344,24 +344,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
-        "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
-        "source": "Hacker News",
-        "date": "2026-07-31 16:15",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "내 Mac Studio에서 25Gbps Thunderbolt 이더넷 받기",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ],
     "opportunities": [
@@ -386,6 +368,22 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Janus Battery Swap Trucks Show The Way",
+        "url": "https://cleantechnica.com/2026/08/01/janus-battery-swap-trucks-show-the-way/",
+        "source": "CleanTechnica",
+        "date": "2026-08-02 01:18",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "야누스 배터리 스왑 트럭 쇼 더 웨이",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
         "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/",
@@ -565,27 +563,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-        "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-        "source": "The Hacker News",
-        "date": "2026-08-01 07:12",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "Adobe Campaign Classic CVSS 10.0 결함으로 인해 사용자 개입 없이 코드를 실행할 수 있음",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+        "source": "Hacker News",
+        "date": "2026-08-01 22:25",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI 재무 조언은 특히 올바른 질문을 하는 경우 놀라울 정도로 좋습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
         "url": "https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/",
@@ -665,28 +661,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
-        "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
-        "source": "Hacker News",
-        "date": "2026-07-31 16:15",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "내 Mac Studio에서 25Gbps Thunderbolt 이더넷 받기",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Janus Battery Swap Trucks Show The Way",
+      "url": "https://cleantechnica.com/2026/08/01/janus-battery-swap-trucks-show-the-way/",
+      "source": "CleanTechnica",
+      "date": "2026-08-02 01:18",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "야누스 배터리 스왑 트럭 쇼 더 웨이",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.3.0-canary.106",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.106",
@@ -702,6 +696,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "source": "Hacker News",
+      "date": "2026-08-01 22:25",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI 재무 조언은 특히 올바른 질문을 하는 경우 놀라울 정도로 좋습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
@@ -1515,24 +1525,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
-      "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
-      "source": "Hacker News",
-      "date": "2026-07-31 16:15",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "내 Mac Studio에서 25Gbps Thunderbolt 이더넷 받기",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v2.52.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v2.52.0",
       "source": "GitHub · OpenAI Python",
@@ -1965,22 +1957,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Zoox Gets 1st Approval From USA For Paid Robotaxis — With No Human Controls",
-      "url": "https://cleantechnica.com/2026/07/30/zoox-gets-first-us-paid-robotaxi-with-no-human-controls-approval/",
-      "source": "CleanTechnica",
-      "date": "2026-07-31 02:08",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Zoox, 유료 Robotaxis에 대해 미국으로부터 1차 승인 획득 — 인적 통제 없음",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v0.29.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.1",
       "source": "GitHub · ComfyUI",
@@ -2020,7 +1996,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 2. AM 9:16",
+    "checkedAt": "2026. 8. 2. PM 1:02",
     "mode": "매시간 공식 레이더"
   }
 }
