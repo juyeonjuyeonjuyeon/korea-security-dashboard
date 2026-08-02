@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 3. AM 2:26",
+  "updatedAt": "2026. 8. 3. AM 4:37",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "상담원 주간에 오신 것을 환영합니다",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 16,
+    "recentCount": 18,
     "sourceCount": 24,
     "officialCount": 17,
     "opportunityCount": 1
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 33,
-      "summary": "These App Store hidden gems prove there’s still room for great software in the AI era",
-      "latest": "2026-08-02 15:23",
+      "summary": "Fender의 CEO는 밴드메이트가 아날로그 AI에 불과하다고 생각하는 것 같습니다.",
+      "latest": "2026-08-02 19:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T17:26:04.131Z",
+      "lastRefreshed": "2026-08-02T19:37:56.423Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T17:26:04.131Z",
+      "lastRefreshed": "2026-08-02T19:37:56.423Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "테크크런치 모빌리티 (TechCrunch Mobility): 두 도로가 갈라짐 — 로보택시용",
       "latest": "2026-08-02 16:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T17:26:04.131Z",
+      "lastRefreshed": "2026-08-02T19:37:56.423Z",
       "themes": [
         "주요 기업"
       ]
@@ -65,7 +65,7 @@
       "summary": "위장한 감시 조약: 캐나다, 유엔 사이버 범죄 협약 서명",
       "latest": "2026-08-01 14:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T17:26:04.131Z",
+      "lastRefreshed": "2026-08-02T19:37:56.423Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -79,7 +79,7 @@
       "summary": "APOD: 2026 August 2 – A Fire Rainbow over West Virginia",
       "latest": "2026-08-02 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T17:26:04.131Z",
+      "lastRefreshed": "2026-08-02T19:37:56.423Z",
       "themes": [
         "기회"
       ]
@@ -92,7 +92,7 @@
       "summary": "중국은 비즈니스에 대한 더 나은 접근 방식을 가지고 있기 때문에 AI에서 승리하고 있습니까?",
       "latest": "2026-08-02 16:30",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-02T17:26:04.131Z",
+      "lastRefreshed": "2026-08-02T19:37:56.423Z",
       "themes": []
     },
     {
@@ -103,7 +103,7 @@
       "summary": "상담원 주간에 오신 것을 환영합니다",
       "latest": "2026-08-02 16:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-02T17:26:04.131Z",
+      "lastRefreshed": "2026-08-02T19:37:56.423Z",
       "themes": [
         "주요 기업"
       ]
@@ -161,7 +161,7 @@
       },
       {
         "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
-        "url": "https://science.nasa.gov/image-article/apod-2026-august-1-buck-moon-and-belt-of-venus/",
+        "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-1-buck-moon-and-belt-of-venus/",
         "source": "NASA",
         "date": "2026-08-01 04:05",
         "categoryId": "space",
@@ -366,6 +366,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+        "source": "The Verge",
+        "date": "2026-08-02 19:36",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Fender의 CEO는 밴드메이트가 아날로그 AI에 불과하다고 생각하는 것 같습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Is China Winning On AI Because It Just Has A Better Approach To Business?",
         "url": "https://cleantechnica.com/2026/08/02/is-china-winning-on-ai-because-it-just-has-a-better-approach-to-business/",
         "source": "CleanTechnica",
@@ -542,25 +558,43 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
-        "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
-        "source": "Ars Technica",
-        "date": "2026-08-01 18:20",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "엔지니어들이 NASA의 Swift 임무를 구하기 위해 보낸 위성을 구하기 위한 계획은 다음과 같습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
+        "url": "https://sprocket-demo.spikonado.com",
+        "source": "Hacker News",
+        "date": "2026-08-02 16:26",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Show HN: Sprocket – 하드웨어 및 소프트웨어 개발을 위한 최고의 AI 에이전트",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+        "url": "https://publicdomainreview.org/essay/ars-notoria/",
+        "source": "Hacker News",
+        "date": "2026-08-02 10:18",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "인공 지능: 아르스 노토리아와 즉각적인 지식의 약속",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "AI financial advice is surprisingly good, especially if you ask right questions",
         "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
@@ -624,42 +658,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "AI doesn't generate working products, that's still your job",
-        "url": "https://weeraman.com/the-prototype-isnt-the-product/",
-        "source": "Hacker News",
-        "date": "2026-08-01 07:52",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI는 작동하는 제품을 생성하지 않습니다. 여전히 당신의 직업입니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Flint: A Visualization Language for the AI Era",
-        "url": "https://microsoft.github.io/flint-chart/",
-        "source": "Hacker News",
-        "date": "2026-08-01 02:45",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "플린트: AI 시대를 위한 시각화 언어",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "source": "The Verge",
+      "date": "2026-08-02 19:36",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Fender의 CEO는 밴드메이트가 아날로그 AI에 불과하다고 생각하는 것 같습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Is China Winning On AI Because It Just Has A Better Approach To Business?",
       "url": "https://cleantechnica.com/2026/08/02/is-china-winning-on-ai-because-it-just-has-a-better-approach-to-business/",
@@ -675,6 +693,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
+      "url": "https://sprocket-demo.spikonado.com",
+      "source": "Hacker News",
+      "date": "2026-08-02 16:26",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Show HN: Sprocket – 하드웨어 및 소프트웨어 개발을 위한 최고의 AI 에이전트",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
@@ -773,6 +807,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+      "url": "https://publicdomainreview.org/essay/ars-notoria/",
+      "source": "Hacker News",
+      "date": "2026-08-02 10:18",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "인공 지능: 아르스 노토리아와 즉각적인 지식의 약속",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Open letters about AI development",
@@ -1067,22 +1119,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "AI doesn't generate working products, that's still your job",
-      "url": "https://weeraman.com/the-prototype-isnt-the-product/",
-      "source": "Hacker News",
-      "date": "2026-08-01 07:52",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI는 작동하는 제품을 생성하지 않습니다. 여전히 당신의 직업입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
       "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
       "source": "The Hacker News",
@@ -1118,7 +1154,7 @@
     },
     {
       "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-1-buck-moon-and-belt-of-venus/",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-1-buck-moon-and-belt-of-venus/",
       "source": "NASA",
       "date": "2026-08-01 04:05",
       "categoryId": "space",
@@ -1163,22 +1199,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Flint: A Visualization Language for the AI Era",
-      "url": "https://microsoft.github.io/flint-chart/",
-      "source": "Hacker News",
-      "date": "2026-08-01 02:45",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "플린트: AI 시대를 위한 시각화 언어",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -1564,22 +1584,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The major labels propose rules to keep AI slop off the charts",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
-      "source": "The Verge",
-      "date": "2026-07-31 16:36",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "주요 레이블에서는 AI가 차트를 벗어나지 않도록 하는 규칙을 제안합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v2.52.0",
@@ -1987,7 +1991,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 3. AM 2:26",
+    "checkedAt": "2026. 8. 3. AM 4:37",
     "mode": "매시간 공식 레이더"
   }
 }
