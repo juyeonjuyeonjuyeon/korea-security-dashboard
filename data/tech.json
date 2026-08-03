@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 4. AM 12:56",
+  "updatedAt": "2026. 8. 4. AM 3:11",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "NASA, 상업용 달 릴레이용 내비게이션 시스템 제공",
+  "headline": "v2.52.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 39,
-    "sourceCount": 20,
+    "recentCount": 44,
+    "sourceCount": 21,
     "officialCount": 22,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: NASA, 상업용 달 릴레이용 내비게이션 시스템 제공",
+    "새 출시: v2.52.1",
     "창작 기술: ComfyUI에서 MiniMax H3 Day-0 지원: 오픈 웨이트, 네이티브 오디오 및 2K 비디오"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "ComfyUI에서 MiniMax H3 Day-0 지원: 오픈 웨이트, 네이티브 오디오 및 2K 비디오",
-      "latest": "2026-08-03 13:34",
+      "count": 30,
+      "summary": "이제 유럽의 AI 라벨링 및 투명성 규칙이 적용됩니다.",
+      "latest": "2026-08-03 17:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T15:56:50.897Z",
+      "lastRefreshed": "2026-08-03T18:11:33.054Z",
       "themes": [
         "영상",
         "음악·음성",
@@ -35,23 +35,21 @@
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
       "count": 1,
-      "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
-      "latest": "2026-07-31 16:51",
+      "summary": "단일 4GB GPU를 사용한 AirLLM 70B 추론",
+      "latest": "2026-08-03 11:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T15:56:50.897Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-08-03T18:11:33.054Z",
+      "themes": []
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 5,
-      "summary": "Reimagine Robotics는 '현장에서 배우는‘ 로봇으로 스텔스에서 나옵니다.",
-      "latest": "2026-08-03 07:00",
+      "count": 6,
+      "summary": "HEBI Robotics, 소형 액추에이터를 빠르게 추적하기 위해 NASA SBIR 보조금 획득",
+      "latest": "2026-08-03 17:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T15:56:50.897Z",
+      "lastRefreshed": "2026-08-03T18:11:33.054Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +62,7 @@
       "summary": "⚡ 주간 요약: 악성 AI 모델, $ 8,800만 비트코인 도난, 물 시스템 공격 및 DNS 가로채기",
       "latest": "2026-08-03 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T15:56:50.897Z",
+      "lastRefreshed": "2026-08-03T18:11:33.054Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -75,11 +73,13 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 11,
-      "summary": "Xona, 250개 위성 내비게이션 네트워크에 대한 스펙트럼 승인 확보",
-      "latest": "2026-08-03 15:36",
+      "summary": "기니비사우 해수",
+      "latest": "2026-08-03 17:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T15:56:50.897Z",
-      "themes": []
+      "lastRefreshed": "2026-08-03T18:11:33.054Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "energy",
@@ -89,18 +89,18 @@
       "summary": "중국은 비즈니스에 대한 더 나은 접근 방식을 가지고 있기 때문에 AI에서 승리하고 있습니까?",
       "latest": "2026-08-02 16:30",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-03T15:56:50.897Z",
+      "lastRefreshed": "2026-08-03T18:11:33.054Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
-      "summary": "개발자 도구는 오픈 소스여야 합니다",
-      "latest": "2026-08-03 14:15",
+      "count": 20,
+      "summary": "v2.52.1",
+      "latest": "2026-08-03 17:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T15:56:50.897Z",
+      "lastRefreshed": "2026-08-03T18:11:33.054Z",
       "themes": [
         "주요 기업"
       ]
@@ -108,6 +108,56 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v2.52.1",
+        "url": "https://github.com/openai/openai-python/releases/tag/v2.52.1",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-08-03 17:15",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v2.52.1",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Guinea-Bissau Tidal Waters",
+        "url": "https://www.nasa.gov/image-article/guinea-bissau-tidal-waters/",
+        "source": "NASA",
+        "date": "2026-08-03 17:15",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "기니비사우 해수",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Devtools must be open source (exe.dev)",
+        "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-03 15:30",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "개발자 도구는 오픈 소스여야 합니다 (exe.dev).",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "NASA Delivers Navigation System for Commercial Lunar Relay",
         "url": "https://www.nasa.gov/technology/space-comms/nasa-delivers-navigation-system-for-commercial-lunar-relay/",
@@ -251,54 +301,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Workers RPC now works across Python and JavaScript",
-        "url": "https://blog.cloudflare.com/python-workers-rpc/",
-        "source": "Cloudflare Blog",
-        "date": "2026-08-03 13:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Workers RPC는 이제 Python 및 JavaScript에서 작동합니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v0.30.1",
-        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.1",
-        "source": "GitHub · ComfyUI",
-        "date": "2026-08-03 05:26",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "v0.30.1",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "APOD: 2026 August 3 – Vaporizing Meteor Photobombs the Lacerta Nebula",
-        "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-3-vaporizing-meteor-photobombs-the-lacerta-nebula/",
-        "source": "NASA",
-        "date": "2026-08-03 04:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "APOD: 2026년 8월 3일 – 기화하는 유성 광폭탄 라세르타 성운",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -381,6 +383,54 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Europe’s AI labeling and transparency rules are now in effect",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+        "source": "The Verge",
+        "date": "2026-08-03 17:46",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "이제 유럽의 AI 라벨링 및 투명성 규칙이 적용됩니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
+        "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
+        "source": "The Robot Report",
+        "date": "2026-08-03 17:17",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "HEBI Robotics, 소형 액추에이터를 빠르게 추적하기 위해 NASA SBIR 보조금 획득",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Congress’s favorite AI tool? ChatGPT",
+        "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+        "source": "TechCrunch",
+        "date": "2026-08-03 16:40",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "의회가 선호하는 인공지능 도구는? ChatGPT",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Xona secures spectrum approval for 250-satellite navigation network",
         "url": "https://spacenews.com/xona-secures-spectrum-approval-for-250-satellite-navigation-network/",
         "source": "SpaceNews",
@@ -392,6 +442,40 @@
         "titleKo": "Xona, 250개 위성 내비게이션 네트워크에 대한 스펙트럼 승인 확보",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Devtools must be open source (exe.dev)",
+        "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-03 15:30",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "개발자 도구는 오픈 소스여야 합니다 (exe.dev).",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "SpaceX is set to acquire 130,000 acres of marshland in southern Louisiana",
+        "url": "https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/",
+        "source": "Ars Technica",
+        "date": "2026-08-03 14:41",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "SpaceX는 루이지애나 남부에 있는 130,000에이커의 습지를 인수할 예정입니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -491,86 +575,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-        "source": "The Verge",
-        "date": "2026-08-03 09:23",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Fender의 CEO는 밴드메이트가 아날로그 AI에 불과하다고 생각하는 것 같습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Here’s why AI agents lie and cheat to reach their goals",
-        "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-        "source": "MIT Technology Review",
-        "date": "2026-08-03 08:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 상담원이 목표를 달성하기 위해 거짓말과 속임수를 쓰는 이유는 다음과 같습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
-        "url": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
-        "source": "The Robot Report",
-        "date": "2026-08-03 07:00",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Reimagine Robotics는 '현장에서 배우는‘ 로봇으로 스텔스에서 나옵니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
-        "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-        "source": "The Hacker News",
-        "date": "2026-08-03 06:40",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "얼굴 디퓨저 포옹 결함으로 인해 모델 저장소가 임의 코드를 실행할 수 있음",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-        "url": "https://arxiv.org/abs/2607.28629",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-03 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "에이전트 AI의 OpenClaw 및 Ollama: 완전 자율 및 확장 가능한 AI 에이전트 시스템을 향하여",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -610,6 +614,38 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "AirLLM 70B inference with single 4GB GPU",
+        "url": "https://github.com/lyogavin/airllm",
+        "source": "Hacker News",
+        "date": "2026-08-03 11:15",
+        "categoryId": "chips",
+        "confidence": "D",
+        "stream": "community",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "단일 4GB GPU를 사용한 AirLLM 70B 추론",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Octane – React’s programming model, compiled",
+        "url": "https://octanejs.dev",
+        "source": "Hacker News",
+        "date": "2026-08-03 08:04",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Octane – React의 프로그래밍 모델, 컴파일됨",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
         "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
         "source": "Hacker News",
@@ -642,42 +678,92 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-        "url": "https://frogs.vaguespac.es/",
-        "source": "Hacker News",
-        "date": "2026-08-02 19:42",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "내 개인 AI 벤치마크: \"합스부르크 턱으로 개구리의 SVG 생성\"",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
-        "url": "https://github.com/wie-project/kakehashi",
-        "source": "Hacker News",
-        "date": "2026-08-02 16:26",
-        "categoryId": "space",
-        "confidence": "D",
-        "stream": "community",
-        "category": "우주·통신",
-        "titleKo": "Show HN: Kakehashi – Linux ARM에서 macOS 바이너리를 실행할 수 있는 실험적인 사용자 공간",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Europe’s AI labeling and transparency rules are now in effect",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "source": "The Verge",
+      "date": "2026-08-03 17:46",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "이제 유럽의 AI 라벨링 및 투명성 규칙이 적용됩니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
+      "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
+      "source": "The Robot Report",
+      "date": "2026-08-03 17:17",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "HEBI Robotics, 소형 액추에이터를 빠르게 추적하기 위해 NASA SBIR 보조금 획득",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v2.52.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v2.52.1",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-08-03 17:15",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v2.52.1",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Guinea-Bissau Tidal Waters",
+      "url": "https://www.nasa.gov/image-article/guinea-bissau-tidal-waters/",
+      "source": "NASA",
+      "date": "2026-08-03 17:15",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "기니비사우 해수",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Congress’s favorite AI tool? ChatGPT",
+      "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+      "source": "TechCrunch",
+      "date": "2026-08-03 16:40",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "의회가 선호하는 인공지능 도구는? ChatGPT",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Xona secures spectrum approval for 250-satellite navigation network",
       "url": "https://spacenews.com/xona-secures-spectrum-approval-for-250-satellite-navigation-network/",
@@ -690,6 +776,40 @@
       "titleKo": "Xona, 250개 위성 내비게이션 네트워크에 대한 스펙트럼 승인 확보",
       "type": "뉴스·분석",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Devtools must be open source (exe.dev)",
+      "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+      "source": "Simon Willison",
+      "date": "2026-08-03 15:30",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "개발자 도구는 오픈 소스여야 합니다 (exe.dev).",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "SpaceX is set to acquire 130,000 acres of marshland in southern Louisiana",
+      "url": "https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/",
+      "source": "Ars Technica",
+      "date": "2026-08-03 14:41",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "SpaceX는 루이지애나 남부에 있는 130,000에이커의 습지를 인수할 예정입니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -954,6 +1074,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "AirLLM 70B inference with single 4GB GPU",
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "Hacker News",
+      "date": "2026-08-03 11:15",
+      "categoryId": "chips",
+      "confidence": "D",
+      "stream": "community",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "단일 4GB GPU를 사용한 AirLLM 70B 추론",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
       "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
       "source": "TechCrunch",
@@ -1000,6 +1136,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Octane – React’s programming model, compiled",
+      "url": "https://octanejs.dev",
+      "source": "Hacker News",
+      "date": "2026-08-03 08:04",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Octane – React의 프로그래밍 모델, 컴파일됨",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
@@ -1198,6 +1350,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Share Vercel Container Registry repositories across teams",
+      "url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams",
+      "source": "Vercel Changelog",
+      "date": "2026-08-03 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "팀 간에 Vercel 컨테이너 레지스트리 저장소 공유",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "AI poster wins Ohio State Fair contest",
       "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
       "source": "Hacker News",
@@ -1230,22 +1398,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-      "url": "https://frogs.vaguespac.es/",
-      "source": "Hacker News",
-      "date": "2026-08-02 19:42",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "내 개인 AI 벤치마크: \"합스부르크 턱으로 개구리의 SVG 생성\"",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Is China Winning On AI Because It Just Has A Better Approach To Business?",
       "url": "https://cleantechnica.com/2026/08/02/is-china-winning-on-ai-because-it-just-has-a-better-approach-to-business/",
       "source": "CleanTechnica",
@@ -1260,22 +1412,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
-      "url": "https://github.com/wie-project/kakehashi",
-      "source": "Hacker News",
-      "date": "2026-08-02 16:26",
-      "categoryId": "space",
-      "confidence": "D",
-      "stream": "community",
-      "category": "우주·통신",
-      "titleKo": "Show HN: Kakehashi – Linux ARM에서 macOS 바이너리를 실행할 수 있는 실험적인 사용자 공간",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
@@ -1488,22 +1624,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "source": "TechCrunch",
-      "date": "2026-08-01 19:45",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "유튜버 행크 그린 (Hank Green) 은 자신의 AI 사용이 '건강에 좋지 않다‘ 고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
       "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
       "source": "Ars Technica",
@@ -1636,22 +1756,6 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-1-buck-moon-and-belt-of-venus/",
-      "source": "NASA",
-      "date": "2026-08-01 04:05",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "APOD: 2026년 8월 1일 – 벅문과 금성의 띠",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "What Happens When The AI Power Industry Collapses?",
@@ -1832,24 +1936,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Likely illegally, Claude gained access to 3 networks. Will Anthropic be held to account?",
-      "url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
-      "source": "Ars Technica",
-      "date": "2026-07-31 20:39",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "불법적으로 Claude는 3 개의 네트워크에 액세스 할 수있었습니다. Anthropic은 회계 처리됩니까?",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Here’s the problem with putting an AI image generator in Google Earth",
       "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
       "source": "The Verge",
@@ -1885,24 +1971,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Google Earth’s AI deepfake tool only lasted one day",
-      "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
-      "source": "The Verge",
-      "date": "2026-07-31 19:13",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google 어스의 AI 딥페이크 도구는 하루 동안만 지속되었습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Enterprise teams model policy targeting in public preview",
       "url": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
       "source": "GitHub Changelog",
@@ -1917,82 +1985,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFU0cGsyYkR2Q3o5TnhiOW1td0YxUFhHbzFYaHd4WlNsUkFXYTJvTkR0a3hxR252aGZUelV5eENtdXhFZlpfNlNCSjBxbTRXaHpTSGZHWWdjSllxRTdxb0dsMTVLaFJabWpRbjhYQmRMeTY0Z3JmYm1wYjk4Z3N2WkF0OUpjLTRfbW9qOWpBcnFKdThPZzd4T3B6a1pkdkdZdW5BWnI1TFc5QjZnRTZ4aWFDTzdITE9JVm9iMnpUOA?oc=5",
-      "source": "Reuters",
-      "date": "2026-07-31 17:10",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "EU, OpenAI와 대화 중, 악성 AI 에이전트 해킹 후 인류애 - 로이터",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "AI Gateway now supports team and project spend budgets",
-      "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
-      "source": "Vercel Changelog",
-      "date": "2026-07-31 17:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "AI 게이트웨이가 이제 팀 및 프로젝트 지출 예산을 지원합니다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Moonshot has Nvidia chip cluster from Alibaba computing deal, Bloomberg News reports - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeVViREhmXzZUal83SHNUWjJqSkxJbWt1RXBQc1R6MUVVMm1SWFNwRG5xM0VyR096MVNxN05qNEtRVXdaME5JMXo5TUNwaGJoVUJZTG5WNzBPdTlaQmxxYzlHaWNiMXZsQzdkSHh1ZTA1NVlfdERQZ0t1b0VlcUY0QW45VXVDb0d5SjZleXVINnBDWnNkZTVzd0lEMXZkYUZfVlV3cnRva1p1TXoxcVhOOFRYdnFuRHNUX3FFQ2xzZXpVV2RjeG9SZVdVTXhRR2dxdkdDblR3?oc=5",
-      "source": "Reuters",
-      "date": "2026-07-31 16:51",
-      "categoryId": "chips",
-      "confidence": "B",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Restricting npm bypass-2FA granular access tokens",
-      "url": "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens",
-      "source": "GitHub Changelog",
-      "date": "2026-07-31 16:45",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Npm 바이패스-2FA 세분화된 액세스 토큰 제한",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 6,
-    "checkedAt": "2026. 8. 4. AM 12:56",
+    "officialSources": 7,
+    "checkedAt": "2026. 8. 4. AM 3:11",
     "mode": "매시간 공식 레이더"
   }
 }
