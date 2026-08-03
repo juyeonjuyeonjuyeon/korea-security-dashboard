@@ -1,29 +1,29 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 4. AM 6:32",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.3.0",
+  "updatedAt": "2026. 8. 4. AM 7:10",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.3.1-canary.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 58,
+    "recentCount": 62,
     "sourceCount": 20,
-    "officialCount": 25,
+    "officialCount": 26,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.3.0",
-    "창작 기술: DesignArena 크리에이터, AI 모델의 취향을 살리기 위해 $ 790만 모금"
+    "새 출시: v16.3.1-canary.0",
+    "창작 기술: Design Arena 크리에이터는 인공지능 모델의 취향을 살리기 위해 $ 7.9 million을 모금합니다."
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 29,
+      "count": 31,
       "summary": "Anthropic 및 OpenAI의 자율 AI 해킹에 대한 법적 책임은 누구에게 있습니까? 복잡합니다.",
       "latest": "2026-08-03 19:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T21:32:42.279Z",
+      "lastRefreshed": "2026-08-03T22:10:20.086Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,7 +38,7 @@
       "summary": "단일 4GB GPU를 사용한 AirLLM 70B 추론",
       "latest": "2026-08-03 11:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T21:32:42.279Z",
+      "lastRefreshed": "2026-08-03T22:10:20.086Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "igus, 산업용 로봇용 600도 회전 에너지 체인 출시",
       "latest": "2026-08-03 21:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T21:32:42.279Z",
+      "lastRefreshed": "2026-08-03T22:10:20.086Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,7 +62,7 @@
       "summary": "⚡ 주간 요약: 악성 AI 모델, $ 8,800만 비트코인 도난, 물 시스템 공격 및 DNS 가로채기",
       "latest": "2026-08-03 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T21:32:42.279Z",
+      "lastRefreshed": "2026-08-03T22:10:20.086Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -76,7 +76,7 @@
       "summary": "텍사스에 있는 NASA 풍선 시설의 루이지애나 학생 로프트 화물",
       "latest": "2026-08-03 19:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T21:32:42.279Z",
+      "lastRefreshed": "2026-08-03T22:10:20.086Z",
       "themes": [
         "주요 기업"
       ]
@@ -85,11 +85,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 6,
+      "count": 4,
       "summary": "VinFast, 필리핀에서 전기 스쿠터 라인업 및 배터리 교환 네트워크 데뷔",
       "latest": "2026-08-03 19:54",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-03T21:32:42.279Z",
+      "lastRefreshed": "2026-08-03T22:10:20.086Z",
       "themes": []
     },
     {
@@ -97,10 +97,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 21,
-      "summary": "v16.3.0",
-      "latest": "2026-08-03 21:12",
+      "summary": "v16.3.1-canary.0",
+      "latest": "2026-08-03 22:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T21:32:42.279Z",
+      "lastRefreshed": "2026-08-03T22:10:20.086Z",
       "themes": [
         "주요 기업"
       ]
@@ -108,6 +108,40 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.1-canary.0",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.0",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-03 22:08",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.0",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v2.53.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v2.53.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-08-03 21:41",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v2.53.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.3.0",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0",
@@ -239,6 +273,22 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "White House to host AI companies Tuesday to review new model-testing framework - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMW5rV0FSWFJPMHJTa2s5YWJnRGgxQkY2aHhidkVJM3NxMWxSOTNPTFhaSElOZkpuV3lENHBoMm0wYnh5bW1GOGg3LXJwWDgzMXF1STFLN3lGZGFOVFdzOE9EYW1zbTUwU3p4WnFBSHlzdlRnNFJ1MFBXRmc1Y0VTTDdhdHVwN0pHRWhkX3VpNU5qcmfSAZgBQVVfeXFMUDEzVmFWTS1NWEpvZVdZZzdyQ1RKalk0cGVqYlY2dGZiU1Nhdm51ZmpZd0duUUJOM3A1M0w2Q0UzbUlVZ1VYYkQ0R0Q3RUR0THoyVGs5WTMwQ2ZNeVZYSkZhYklXRTBMaDNNNEFNd085ZTF4ZjY2QXRUWklUMWIycU5nbTNhRTQ1TkJpbER2VFpIczFJNHRjMmY?oc=5",
+        "source": "CNBC",
+        "date": "2026-08-03 16:18",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "백악관, 화요일 AI 기업 주최로 새로운 모델 테스트 프레임워크 검토 - CNBC",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Devtools must be open source (exe.dev)",
         "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
         "source": "Simon Willison",
@@ -253,57 +303,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "NASA Delivers Navigation System for Commercial Lunar Relay",
-        "url": "https://www.nasa.gov/technology/space-comms/nasa-delivers-navigation-system-for-commercial-lunar-relay/",
-        "source": "NASA",
-        "date": "2026-08-03 14:20",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA, 상업용 달 릴레이용 내비게이션 시스템 제공",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Devtools must be open source",
-        "url": "https://blog.exe.dev/devtools-must-be-open-source",
-        "source": "Hacker News",
-        "date": "2026-08-03 14:15",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "개발자 도구는 오픈 소스여야 합니다",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Ike Theriot Helps Prepare Astronauts to Work on the Moon",
-        "url": "https://www.nasa.gov/centers-and-facilities/johnson/ike-theriot-helps-prepare-astronauts-to-work-on-the-moon/",
-        "source": "NASA",
-        "date": "2026-08-03 14:00",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "Ike Theriot, 우주 비행사가 달에서 일할 수 있도록 준비하는 데 도움",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+        "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+        "source": "TechCrunch",
+        "date": "2026-08-03 19:28",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Design Arena 크리에이터는 인공지능 모델의 취향을 살리기 위해 $ 7.9 million을 모금합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "DesignArena creators raise $7.9 million to bring taste to AI models",
         "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
@@ -426,6 +446,24 @@
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+        "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+        "source": "TechCrunch",
+        "date": "2026-08-03 19:28",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Design Arena 크리에이터는 인공지능 모델의 취향을 살리기 위해 $ 7.9 million을 모금합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -562,22 +600,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Congress’s favorite AI tool? ChatGPT",
-        "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
-        "source": "TechCrunch",
-        "date": "2026-08-03 16:40",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "의회가 선호하는 인공지능 도구는? ChatGPT",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -686,6 +708,40 @@
   },
   "news": [
     {
+      "title": "v16.3.1-canary.0",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.0",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-03 22:08",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.0",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "v2.53.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v2.53.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-08-03 21:41",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v2.53.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v16.3.0",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0",
       "source": "GitHub · Next.js",
@@ -746,6 +802,24 @@
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+      "source": "TechCrunch",
+      "date": "2026-08-03 19:28",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Design Arena 크리에이터는 인공지능 모델의 취향을 살리기 위해 $ 7.9 million을 모금합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
       ],
       "official": false,
       "sourceLayer": "analysis",
@@ -996,6 +1070,40 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "White House to host AI companies Tuesday to review new model-testing framework - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMW5rV0FSWFJPMHJTa2s5YWJnRGgxQkY2aHhidkVJM3NxMWxSOTNPTFhaSElOZkpuV3lENHBoMm0wYnh5bW1GOGg3LXJwWDgzMXF1STFLN3lGZGFOVFdzOE9EYW1zbTUwU3p4WnFBSHlzdlRnNFJ1MFBXRmc1Y0VTTDdhdHVwN0pHRWhkX3VpNU5qcmfSAZgBQVVfeXFMUDEzVmFWTS1NWEpvZVdZZzdyQ1RKalk0cGVqYlY2dGZiU1Nhdm51ZmpZd0duUUJOM3A1M0w2Q0UzbUlVZ1VYYkQ0R0Q3RUR0THoyVGs5WTMwQ2ZNeVZYSkZhYklXRTBMaDNNNEFNd085ZTF4ZjY2QXRUWklUMWIycU5nbTNhRTQ1TkJpbER2VFpIczFJNHRjMmY?oc=5",
+      "source": "CNBC",
+      "date": "2026-08-03 16:18",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "백악관, 화요일 AI 기업 주최로 새로운 모델 테스트 프레임워크 검토 - CNBC",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Orchard: An open framework for scalable agentic AI - Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeE41QWVkRWZIRS1JNW1UQ2ItdllValRYMk1Uby11emRxWTdzcWFORmRUWThpRk1ZY25OdFFoNVBRYlgwa3VHcWd2SExZdWlhbTZhYTRMWl90cUNXRndVZXJXd29XemVHWk5Ed3VFcThVc09DbWNoeUo4RnhOb0lFSUp3RHhfQkNZMzhzeGxoemdNamJyVlVyaHFQNDk?oc=5",
+      "source": "Microsoft",
+      "date": "2026-08-03 16:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "과수원: 확장 가능한 에이전트 AI를 위한 개방형 프레임워크 - Microsoft",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Xona secures spectrum approval for satellite navigation network",
@@ -1257,22 +1365,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Horizon3 hits $2 billion valuation with $250M Series E as AI threats escalate",
-      "url": "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/",
-      "source": "TechCrunch",
-      "date": "2026-08-03 12:50",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 위협이 심화됨에 따라 Horizon3는 2억 5천만 달러의 시리즈 E로 20억 달러의 밸류에이션을 달성했습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "The Download: reward hacking explained, and suspected Iranian cyberattacks",
@@ -1713,6 +1805,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EVTd0dkY4M2ZFa0NkaHhDdzFibUc1OUhwc1lTaTQ2bG5BeGZHbUxXRnZOT3RPNTZNVzlEMVBveHA2V1pwTnVLOG5MNXpXdjVtX1BPMXZlbk53TjFRZWgwWFVCRWRqVE8wZ0NtSWdsXzZhcDZf0gF6QVVfeXFMUGdycGp6MllJMGVuZWJLeHBweV82Ym1meERmMkhkbk54S3RZbGNpMkVidzdTVk5tRGYwZnAzY21YUmc1ZG9oR0Jwb1FRSW1qWURYb0k2Z1VjMlF1ZmpDYk1wN1NGM2hCbjJ1SXYwN1NHUFJkaGV6UUpELXc?oc=5",
+      "source": "CNBC",
+      "date": "2026-08-02 12:30",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy - CNBC",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Open letters about AI development",
       "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
       "source": "Simon Willison",
@@ -1909,94 +2017,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Lower Saxony’s Hydrogen Trains Are Now A Battery Exit Strategy Problem",
-      "url": "https://cleantechnica.com/2026/08/01/lower-saxony-hydrogen-trains-battery-exit/",
-      "source": "CleanTechnica",
-      "date": "2026-08-01 06:20",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "하부 작센의 수소 열차는 이제 배터리 출구 전략 문제입니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "What is AI model distillation and why is it becoming a US-China flashpoint? - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN3E5WURUSGY0XzgwWkpzN1BZcElmbnQ0anhTSTRETHU5bHJRQ0Q2VTJpLUlBcXljWGlSX0U0QUhaVVJMTXZGN1hfbVFBU3RZckxBQW40bG52b0NKYkM5SEpobExSRDVIaENMYUpJZzUtaDFwNWZndk1jY2h1TE9Pc2VDZzdCaUJGcUJ3M2Jjcml4Nm54MDFnaVg3c2tlQ3lQX1dQSXhTeHFWR1l4Y3o2c3h1UjJONnc?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-01 05:55",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "What is AI model distillation and why is it becoming a US-China flashpoint? - Reuters",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "What Happens When The AI Power Industry Collapses?",
-      "url": "https://cleantechnica.com/2026/07/31/what-happens-when-the-ai-power-industry-collapses/",
-      "source": "CleanTechnica",
-      "date": "2026-08-01 03:57",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "AI 전력 산업이 붕괴되면 어떻게 될까요?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
-      "source": "Simon Willison",
-      "date": "2026-07-31 23:59",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "소프트웨어·개발",
-      "titleKo": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v16.3.0-canary.105",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.105",
-      "source": "GitHub · Next.js",
-      "date": "2026-07-31 23:57",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.0-canary.105",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 4. AM 6:32",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 4. AM 7:10",
+    "mode": "하루 2회 전체 수집"
   }
 }
