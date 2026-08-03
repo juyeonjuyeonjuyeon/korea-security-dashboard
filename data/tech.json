@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 3. PM 5:44",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 3. PM 9:18",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v0.30.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 28,
-    "sourceCount": 24,
-    "officialCount": 20,
+    "recentCount": 30,
+    "sourceCount": 23,
+    "officialCount": 19,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "AI 상담원이 목표를 달성하기 위해 거짓말과 속임수를 쓰는 이유는 다음과 같습니다.",
-      "latest": "2026-08-03 08:30",
+      "count": 36,
+      "summary": "중국의 알리바바가 미국의 AI 패권에서 또 한 번 밀어붙인다.",
+      "latest": "2026-08-03 11:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T08:44:16.129Z",
+      "lastRefreshed": "2026-08-03T12:18:07.299Z",
       "themes": [
         "영상",
         "주요 기업",
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T08:44:16.129Z",
+      "lastRefreshed": "2026-08-03T12:18:07.299Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 5,
       "summary": "Reimagine Robotics는 '현장에서 배우는‘ 로봇으로 스텔스에서 나옵니다.",
       "latest": "2026-08-03 07:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T08:44:16.129Z",
+      "lastRefreshed": "2026-08-03T12:18:07.299Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,10 +62,10 @@
       "code": "CYBER",
       "label": "사이버보안",
       "count": 4,
-      "summary": "얼굴 디퓨저 포옹 결함으로 인해 모델 저장소가 임의 코드를 실행할 수 있음",
-      "latest": "2026-08-03 06:40",
+      "summary": "SOC의 FOMO: Claude와 같은 AI 플랫폼이 실제로 적합한 곳",
+      "latest": "2026-08-03 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T08:44:16.129Z",
+      "lastRefreshed": "2026-08-03T12:18:07.299Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -75,11 +75,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 13,
+      "count": 11,
       "summary": "APOD: 2026년 8월 3일 – 기화하는 유성 광폭탄 라세르타 성운",
       "latest": "2026-08-03 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T08:44:16.129Z",
+      "lastRefreshed": "2026-08-03T12:18:07.299Z",
       "themes": [
         "기회"
       ]
@@ -92,18 +92,18 @@
       "summary": "중국은 비즈니스에 대한 더 나은 접근 방식을 가지고 있기 때문에 AI에서 승리하고 있습니까?",
       "latest": "2026-08-02 16:30",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-03T08:44:16.129Z",
+      "lastRefreshed": "2026-08-03T12:18:07.299Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
+      "count": 15,
       "summary": "v16.3.0-canary.107",
       "latest": "2026-08-02 23:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T08:44:16.129Z",
+      "lastRefreshed": "2026-08-03T12:18:07.299Z",
       "themes": [
         "주요 기업"
       ]
@@ -384,6 +384,70 @@
     "voices": [],
     "analysis": [
       {
+        "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+        "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+        "source": "The Hacker News",
+        "date": "2026-08-03 11:30",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "SOC의 FOMO: Claude와 같은 AI 플랫폼이 실제로 적합한 곳",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "China’s Alibaba takes another swipe at America’s AI supremacy",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+        "source": "The Verge",
+        "date": "2026-08-03 11:20",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "중국의 알리바바가 미국의 AI 패권에서 또 한 번 밀어붙인다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+        "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+        "source": "TechCrunch",
+        "date": "2026-08-03 10:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Marc Benioff의 지원을 받는 스타트업은 AI가 AI 배포 문제를 해결할 수 있다고 생각합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+        "source": "The Verge",
+        "date": "2026-08-03 09:23",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Fender의 CEO는 밴드메이트가 아날로그 AI에 불과하다고 생각하는 것 같습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Here’s why AI agents lie and cheat to reach their goals",
         "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
         "source": "MIT Technology Review",
@@ -510,72 +574,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
-        "url": "https://arxiv.org/abs/2607.28678",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-03 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "ViSAGE: 긴 형식의 비디오 이해를 위한 자체 수정 추억 구성",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Sam Altman and AI’s decel debate",
-        "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-        "source": "TechCrunch",
-        "date": "2026-08-02 20:54",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "샘 알트먼과 인공지능의 디셀 논쟁",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-        "source": "The Verge",
-        "date": "2026-08-02 19:40",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Fender의 CEO는 밴드메이트가 아날로그 AI에 불과하다고 생각하는 것 같습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Is China Winning On AI Because It Just Has A Better Approach To Business?",
-        "url": "https://cleantechnica.com/2026/08/02/is-china-winning-on-ai-because-it-just-has-a-better-approach-to-business/",
-        "source": "CleanTechnica",
-        "date": "2026-08-02 16:30",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "중국은 비즈니스에 대한 더 나은 접근 방식을 가지고 있기 때문에 AI에서 승리하고 있습니까?",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -682,6 +680,70 @@
     ]
   },
   "news": [
+    {
+      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+      "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+      "source": "The Hacker News",
+      "date": "2026-08-03 11:30",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "SOC의 FOMO: Claude와 같은 AI 플랫폼이 실제로 적합한 곳",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "China’s Alibaba takes another swipe at America’s AI supremacy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "source": "The Verge",
+      "date": "2026-08-03 11:20",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "중국의 알리바바가 미국의 AI 패권에서 또 한 번 밀어붙인다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "source": "TechCrunch",
+      "date": "2026-08-03 10:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Marc Benioff의 지원을 받는 스타트업은 AI가 AI 배포 문제를 해결할 수 있다고 생각합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "source": "The Verge",
+      "date": "2026-08-03 09:23",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Fender의 CEO는 밴드메이트가 아날로그 AI에 불과하다고 생각하는 것 같습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Here’s why AI agents lie and cheat to reach their goals",
       "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
@@ -957,22 +1019,6 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-      "source": "The Verge",
-      "date": "2026-08-02 19:40",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Fender의 CEO는 밴드메이트가 아날로그 AI에 불과하다고 생각하는 것 같습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Is China Winning On AI Because It Just Has A Better Approach To Business?",
@@ -1299,22 +1345,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it",
-      "url": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
-      "source": "TechCrunch",
-      "date": "2026-08-01 15:05",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Uber는 자율주행 차량 제국을 구축하고 있으며, 이를 위해 Uber가 이용하는 모든 회사를 소개합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
       "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
       "source": "Ars Technica",
@@ -1415,6 +1445,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "What is AI model distillation and why is it becoming a US-China flashpoint? - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN3E5WURUSGY0XzgwWkpzN1BZcElmbnQ0anhTSTRETHU5bHJRQ0Q2VTJpLUlBcXljWGlSX0U0QUhaVVJMTXZGN1hfbVFBU3RZckxBQW40bG52b0NKYkM5SEpobExSRDVIaENMYUpJZzUtaDFwNWZndk1jY2h1TE9Pc2VDZzdCaUJGcUJ3M2Jjcml4Nm54MDFnaVg3c2tlQ3lQX1dQSXhTeHFWR1l4Y3o2c3h1UjJONnc?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-01 05:55",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "What is AI model distillation and why is it becoming a US-China flashpoint? - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
@@ -1732,22 +1778,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "The ban on robot vacuums won’t make them safer, only worse",
-      "url": "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices",
-      "source": "The Verge",
-      "date": "2026-07-31 18:40",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "로봇 진공 청소기를 금지한다고 해서 더 안전해지는 것은 아니며, 더 나빠질 뿐입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Enterprise teams model policy targeting in public preview",
       "url": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
       "source": "GitHub Changelog",
@@ -1832,6 +1862,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "What we know about the rogue AI-agent security breaches - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUnRGd0w4WEhBT3ZTQ1lnOVRQYVpGTTAzMFVmMmE2Zi1vaFlCWWZNS0pXcDFOVWdwYjd2RktjMlV5ZjRGdzdVTWxQRHN4UXJJRThqYU9ZUmFua054eEowWHEzNV92SDhNQkdRQ2pwdl9YcWlId3NweWFRN0M3cEdwNGtyZ0JMNzJ5NWpuU0M4ZkVLZXJLYUNwbktZSTVBYnltRDkwMW12cw?oc=5",
+      "source": "Reuters",
+      "date": "2026-07-31 16:10",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "What we know about the rogue AI-agent security breaches - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "v2.52.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v2.52.0",
       "source": "GitHub · OpenAI Python",
@@ -1868,6 +1914,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "U.S. lawmakers request information from DoorDash on use of Chinese AI models - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTmlsRTliVVMyYzluS1l0d2JPUmxUMDY4cjZKYWp6bERkUHhuVkszem1Ga0ZJYTN1dXVfcVNHbGx3U2QzY3lYNkNjN0VlZjhxU1FrRkNTZGJueTVZSFFEWEFodjNCUTZnVHVmaXU4LTJZWnFKRlhqMmVYV05xX3lFT2dn0gGHAUFVX3lxTE5tc09LT0c2aXdwa3c5RmlSVExTbmRsTmdqb2w1QmxsMGNQb1ctVzJCQ2VGZ3djTkpqSHRWZFhhY3A2QVItWUhpUVlXS2hwTVlCbVplOS1jSEZoU1hIVVFBanluczl5dHk2X0d5Mm9RTzFiVEtoQU5rWFI3SF9iVlJaSlR3SDc4QQ?oc=5",
+      "source": "CNBC",
+      "date": "2026-07-31 14:39",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "U.S. lawmakers request information from DoorDash on use of Chinese AI models - CNBC",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "datasette-agent 0.4a0",
       "url": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
       "source": "Simon Willison",
@@ -1879,6 +1941,24 @@
       "titleKo": "datasette-agent 0.4a0",
       "type": "뉴스·분석",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
+      "source": "Bloomberg",
+      "date": "2026-07-31 14:02",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1902,24 +1982,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
-      "source": "Bloomberg.com",
-      "date": "2026-07-31 14:02",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Inside the effort to show Congress what war in space looks like",
       "url": "https://spacenews.com/inside-the-effort-to-show-congress-what-war-in-space-looks-like/",
       "source": "SpaceNews",
@@ -1934,78 +1996,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Space Force picks 15 companies for $981 million training range contract",
-      "url": "https://spacenews.com/space-force-picks-15-companies-for-981-million-training-range-contract/",
-      "source": "SpaceNews",
-      "date": "2026-07-31 13:18",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Space Force, $ 981,000,000의 훈련 범위 계약으로 15개 회사 선정",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "An API for MoQ: provision your own isolated relays",
-      "url": "https://blog.cloudflare.com/moq-relays/",
-      "source": "Cloudflare Blog",
-      "date": "2026-07-31 13:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "MoQ용 API: 자체 분리된 릴레이 프로비저닝",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The new space wars: lessons from Ukraine and the Middle East",
-      "url": "https://spacenews.com/the-new-space-wars-lessons-from-ukraine-and-the-middle-east/",
-      "source": "SpaceNews",
-      "date": "2026-07-31 12:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "새로운 우주 전쟁: 우크라이나와 중동의 교훈",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "source": "The Hacker News",
-      "date": "2026-07-31 11:21",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "중국 해커가 텔레그램을 통해 DeepSeek에 명령하여 자율 공격 시작",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 3. PM 5:44",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 3. PM 9:18",
+    "mode": "하루 2회 전체 수집"
   }
 }
