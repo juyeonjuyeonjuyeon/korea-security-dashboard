@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 3. PM 1:50",
+  "updatedAt": "2026. 8. 3. PM 5:44",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "APOD: 2026년 8월 3일 – 기화하는 유성 광폭탄 라세르타 성운",
+  "headline": "v0.30.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 23,
-    "sourceCount": 25,
+    "recentCount": 28,
+    "sourceCount": 24,
     "officialCount": 20,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: APOD: 2026년 8월 3일 – 기화하는 유성 광폭탄 라세르타 성운",
+    "새 출시: v0.30.1",
     "창작 기술: ViSAGE: 긴 형식의 비디오 이해를 위한 자체 수정 추억 구성",
     "행사·무료: 미 항공우주국 (NASA) 이 미국 항공우주국 (American Air, Space Leadership) 을 기념하는 플로리다"
   ],
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "에이전트 AI의 OpenClaw 및 Ollama: 완전 자율 및 확장 가능한 AI 에이전트 시스템을 향하여",
-      "latest": "2026-08-03 04:00",
+      "count": 31,
+      "summary": "AI 상담원이 목표를 달성하기 위해 거짓말과 속임수를 쓰는 이유는 다음과 같습니다.",
+      "latest": "2026-08-03 08:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T04:50:51.820Z",
+      "lastRefreshed": "2026-08-03T08:44:16.129Z",
       "themes": [
         "영상",
         "주요 기업",
@@ -39,7 +39,7 @@
       "summary": "블룸버그 뉴스는 Moonshot이 Alibaba 컴퓨팅 거래의 Nvidia 칩 클러스터를 보유하고 있다고 보도했습니다. - Reuters",
       "latest": "2026-07-31 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T04:50:51.820Z",
+      "lastRefreshed": "2026-08-03T08:44:16.129Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
-      "summary": "테크크런치 모빌리티 (TechCrunch Mobility): 두 도로가 갈라짐 — 로보택시용",
-      "latest": "2026-08-02 16:05",
+      "count": 7,
+      "summary": "Reimagine Robotics는 '현장에서 배우는‘ 로봇으로 스텔스에서 나옵니다.",
+      "latest": "2026-08-03 07:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T04:50:51.820Z",
+      "lastRefreshed": "2026-08-03T08:44:16.129Z",
       "themes": [
         "주요 기업"
       ]
@@ -61,11 +61,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 3,
-      "summary": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open' - CNBC",
-      "latest": "2026-08-01 12:00",
+      "count": 4,
+      "summary": "얼굴 디퓨저 포옹 결함으로 인해 모델 저장소가 임의 코드를 실행할 수 있음",
+      "latest": "2026-08-03 06:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T04:50:51.820Z",
+      "lastRefreshed": "2026-08-03T08:44:16.129Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -79,7 +79,7 @@
       "summary": "APOD: 2026년 8월 3일 – 기화하는 유성 광폭탄 라세르타 성운",
       "latest": "2026-08-03 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T04:50:51.820Z",
+      "lastRefreshed": "2026-08-03T08:44:16.129Z",
       "themes": [
         "기회"
       ]
@@ -92,18 +92,18 @@
       "summary": "중국은 비즈니스에 대한 더 나은 접근 방식을 가지고 있기 때문에 AI에서 승리하고 있습니까?",
       "latest": "2026-08-02 16:30",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-03T04:50:51.820Z",
+      "lastRefreshed": "2026-08-03T08:44:16.129Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
+      "count": 16,
       "summary": "v16.3.0-canary.107",
       "latest": "2026-08-02 23:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-03T04:50:51.820Z",
+      "lastRefreshed": "2026-08-03T08:44:16.129Z",
       "themes": [
         "주요 기업"
       ]
@@ -111,6 +111,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.30.1",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.1",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-08-03 05:26",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.30.1",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "APOD: 2026 August 3 – Vaporizing Meteor Photobombs the Lacerta Nebula",
         "url": "https://science.nasa.gov/image-article/apod-2026-august-3-vaporizing-meteor-photobombs-the-lacerta-nebula/",
@@ -286,22 +302,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
-        "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
-        "source": "GitHub Changelog",
-        "date": "2026-07-31 20:04",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Gemini 2.5 Pro 및 Gemini 3 Flash 더 이상 사용되지 않음",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -383,6 +383,54 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Here’s why AI agents lie and cheat to reach their goals",
+        "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-03 08:30",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI 상담원이 목표를 달성하기 위해 거짓말과 속임수를 쓰는 이유는 다음과 같습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
+        "url": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
+        "source": "The Robot Report",
+        "date": "2026-08-03 07:00",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Reimagine Robotics는 '현장에서 배우는‘ 로봇으로 스텔스에서 나옵니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+        "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+        "source": "The Hacker News",
+        "date": "2026-08-03 06:40",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "얼굴 디퓨저 포옹 결함으로 인해 모델 저장소가 임의 코드를 실행할 수 있음",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
         "url": "https://arxiv.org/abs/2607.28629",
@@ -528,57 +576,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
-        "url": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
-        "source": "TechCrunch",
-        "date": "2026-08-02 16:05",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "테크크런치 모빌리티 (TechCrunch Mobility): 두 도로가 갈라짐 — 로보택시용",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Believe It Or Not, EV Battery Swapping Is Coming To The US",
-        "url": "https://cleantechnica.com/2026/08/02/ev-battery-swapping-us-fuel-saving-diesel-startup-revoy/",
-        "source": "CleanTechnica",
-        "date": "2026-08-02 15:24",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "믿거나 말거나, 전기차 배터리 교체가 미국에 오고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
-        "url": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
-        "source": "TechCrunch",
-        "date": "2026-08-02 15:23",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "These App Store hidden gems prove there’s still room for great software in the AI era",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+        "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+        "source": "Hacker News",
+        "date": "2026-08-03 02:30",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "OpenAI의 수퍼 PAC는 업계 비평가들을 공격하는 AI 생성 뉴스 사이트에 자금을 지원하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "AI poster wins Ohio State Fair contest",
         "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
@@ -660,26 +678,74 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-        "source": "Hacker News",
-        "date": "2026-08-01 22:25",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI 재무 조언은 특히 올바른 질문을 하는 경우 놀라울 정도로 좋습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-03 08:30",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI 상담원이 목표를 달성하기 위해 거짓말과 속임수를 쓰는 이유는 다음과 같습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
+      "url": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
+      "source": "The Robot Report",
+      "date": "2026-08-03 07:00",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Reimagine Robotics는 '현장에서 배우는‘ 로봇으로 스텔스에서 나옵니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+      "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+      "source": "The Hacker News",
+      "date": "2026-08-03 06:40",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "얼굴 디퓨저 포옹 결함으로 인해 모델 저장소가 임의 코드를 실행할 수 있음",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.30.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.1",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-08-03 05:26",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.30.1",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "APOD: 2026 August 3 – Vaporizing Meteor Photobombs the Lacerta Nebula",
       "url": "https://science.nasa.gov/image-article/apod-2026-august-3-vaporizing-meteor-photobombs-the-lacerta-nebula/",
@@ -809,6 +875,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "source": "Hacker News",
+      "date": "2026-08-03 02:30",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "OpenAI의 수퍼 PAC는 업계 비평가들을 공격하는 AI 생성 뉴스 사이트에 자금을 지원하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v16.3.0-canary.107",
@@ -1133,22 +1217,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-      "source": "Hacker News",
-      "date": "2026-08-01 22:25",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI 재무 조언은 특히 올바른 질문을 하는 경우 놀라울 정도로 좋습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
@@ -1930,74 +1998,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic's Claude AI escapes tests to hack three organisations - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2QlZMcUJ4dUVteXdkZVAxOElRaVhib0pnTVZuZzBQY043YzMySTE0NUtkQ1Y3NnY5MTJkOHdaemxhdkFjdmJmY2U0cmdDRGYtdnEzUVZvMXZjZw?oc=5",
-      "source": "BBC",
-      "date": "2026-07-31 10:18",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic의 Claude AI, 세 조직을 해킹하기 위한 테스트 탈출 - BBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "AI labels to be compulsory on authentic-looking content under EU rules - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV2huSGdaMHRVa1I5MjVGSVQteTRqQlNkMjgtOTYyNXBBeDh0N0RVQ0xnUGw0N0VMbzd4WHhKalRMVEdrU2FicndhblFDM0NEN2pILWllODVINzk3cDRHU0lCM0tvUGQzM2F5WXpIYXl2T3pGT2M0WHhRY3k2SGl2eDFCazB2ak1TX2thWHJrYnBhblBaemljVElrd1ZjdHMzVnhHR09yOTdZTGN4UjdYSWF6U1BURFJEYTdYR21B?oc=5",
-      "source": "The Guardian",
-      "date": "2026-07-31 09:46",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI labels to be compulsory on authentic-looking content under EU rules - The Guardian",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "DeepSeek releases beta version of V4 models as AI price war heats up - Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV3o4YXZVWEZta2NwZUlsbXd0QW13UkJhSzluUUFyT2E5VkU0OThQZ2xjakpzV25KYTdPQVVKQ2RSZW5uSE13VUFaUThlUHJkckJySnBiTWJHdTk1NER2cFJoaWN5bWNBdlRSdDU1UmcwVzBFcG9obUZ0RG11NUJKX19oYXBMem02anZ1aGFmZC1HaFJRMnQ4eXJmRlpOVXlfMl9BUHI3ZmJSaDlIVk1adnZrVEcwR1R3VHhaUS1scE00UjZod1lGNzRXcnE0b2xJUmc?oc=5",
-      "source": "Nikkei Asia",
-      "date": "2026-07-31 09:08",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "DeepSeek releases beta version of V4 models as AI price war heats up - Nikkei Asia",
-      "type": "출시·업데이트",
-      "themes": [
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
-      "url": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-07-31 07:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 DeepSeek V4 Flash가 AI 게이트웨이에서 업데이트된 가중치를 실행합니다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2005,7 +2005,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 3. PM 1:50",
+    "checkedAt": "2026. 8. 3. PM 5:44",
     "mode": "매시간 공식 레이더"
   }
 }
