@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 4. PM 3:43",
+  "updatedAt": "2026. 8. 4. PM 7:01",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "EVE 상담원에게 브라우저를 제공하세요.",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 64,
+    "recentCount": 61,
     "sourceCount": 20,
-    "officialCount": 30,
+    "officialCount": 29,
     "opportunityCount": 1
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "에이전트 AI의 OpenClaw 및 Ollama: 완전 자율 및 확장 가능한 AI 에이전트 시스템을 향하여",
       "latest": "2026-08-04 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T06:43:40.108Z",
+      "lastRefreshed": "2026-08-04T10:01:07.163Z",
       "themes": [
         "영상",
         "주요 기업",
@@ -39,7 +39,7 @@
       "summary": "단일 4GB GPU를 사용한 AirLLM 70B 추론",
       "latest": "2026-08-03 11:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T06:43:40.108Z",
+      "lastRefreshed": "2026-08-04T10:01:07.163Z",
       "themes": []
     },
     {
@@ -50,7 +50,7 @@
       "summary": "igus, 산업용 로봇용 600도 회전 에너지 체인 출시",
       "latest": "2026-08-03 21:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T06:43:40.108Z",
+      "lastRefreshed": "2026-08-04T10:01:07.163Z",
       "themes": [
         "주요 기업"
       ]
@@ -63,18 +63,18 @@
       "summary": "⚡ 주간 요약: 악성 AI 모델, $ 8,800만 비트코인 도난, 물 시스템 공격 및 DNS 가로채기",
       "latest": "2026-08-03 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T06:43:40.108Z",
+      "lastRefreshed": "2026-08-04T10:01:07.163Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 11,
-      "summary": "NanoAvionics 버스에서 VLEO 시연 비행을 위한 Kreios Space",
-      "latest": "2026-08-04 04:01",
+      "count": 12,
+      "summary": "Rocketdyne, 독립형 우주 회사로 재등장",
+      "latest": "2026-08-04 09:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T06:43:40.108Z",
+      "lastRefreshed": "2026-08-04T10:01:07.163Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -88,18 +88,18 @@
       "summary": "VinFast, 필리핀에서 전기 스쿠터 라인업 및 배터리 교환 네트워크 데뷔",
       "latest": "2026-08-03 19:54",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-04T06:43:40.108Z",
+      "lastRefreshed": "2026-08-04T10:01:07.163Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 25,
+      "count": 24,
       "summary": "EVE 상담원에게 브라우저를 제공하세요.",
       "latest": "2026-08-04 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T06:43:40.108Z",
+      "lastRefreshed": "2026-08-04T10:01:07.163Z",
       "themes": [
         "주요 기업"
       ]
@@ -421,6 +421,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Rocketdyne reemerges as standalone space company",
+        "url": "https://spacenews.com/rocketdyne-reemerges-as-standalone-space-company/",
+        "source": "SpaceNews",
+        "date": "2026-08-04 09:20",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Rocketdyne, 독립형 우주 회사로 재등장",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Kreios Space to fly VLEO demonstration in NanoAvionics bus",
         "url": "https://spacenews.com/kreios-space-to-fly-vleo-demonstration-in-nanoavionics-bus/",
         "source": "SpaceNews",
@@ -600,22 +616,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "VinFast Debuts Electric Scooter Lineup and Battery-Swapping Network in the Philippines",
-        "url": "https://cleantechnica.com/2026/08/03/vinfast-debuts-electric-scooter-lineup-and-battery-swapping-network-in-the-philippines/",
-        "source": "CleanTechnica",
-        "date": "2026-08-03 19:54",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "VinFast, 필리핀에서 전기 스쿠터 라인업 및 배터리 교환 네트워크 데뷔",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -721,6 +721,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Rocketdyne reemerges as standalone space company",
+      "url": "https://spacenews.com/rocketdyne-reemerges-as-standalone-space-company/",
+      "source": "SpaceNews",
+      "date": "2026-08-04 09:20",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Rocketdyne, 독립형 우주 회사로 재등장",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Kreios Space to fly VLEO demonstration in NanoAvionics bus",
       "url": "https://spacenews.com/kreios-space-to-fly-vleo-demonstration-in-nanoavionics-bus/",
@@ -2012,22 +2028,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.3.0-canary.106",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.106",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-01 23:56",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.0-canary.106",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2035,7 +2035,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 4. PM 3:43",
+    "checkedAt": "2026. 8. 4. PM 7:01",
     "mode": "매시간 공식 레이더"
   }
 }
