@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 4. PM 7:01",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 4. PM 8:21",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "EVE 상담원에게 브라우저를 제공하세요.",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 61,
-    "sourceCount": 20,
-    "officialCount": 29,
+    "recentCount": 62,
+    "sourceCount": 23,
+    "officialCount": 28,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
+      "count": 32,
       "summary": "에이전트 AI의 OpenClaw 및 Ollama: 완전 자율 및 확장 가능한 AI 에이전트 시스템을 향하여",
       "latest": "2026-08-04 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T10:01:07.163Z",
+      "lastRefreshed": "2026-08-04T11:21:03.162Z",
       "themes": [
         "영상",
         "주요 기업",
@@ -39,7 +39,7 @@
       "summary": "단일 4GB GPU를 사용한 AirLLM 70B 추론",
       "latest": "2026-08-03 11:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T10:01:07.163Z",
+      "lastRefreshed": "2026-08-04T11:21:03.162Z",
       "themes": []
     },
     {
@@ -50,10 +50,8 @@
       "summary": "igus, 산업용 로봇용 600도 회전 에너지 체인 출시",
       "latest": "2026-08-03 21:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T10:01:07.163Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-08-04T11:21:03.162Z",
+      "themes": []
     },
     {
       "id": "cyber",
@@ -63,18 +61,18 @@
       "summary": "⚡ 주간 요약: 악성 AI 모델, $ 8,800만 비트코인 도난, 물 시스템 공격 및 DNS 가로채기",
       "latest": "2026-08-03 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T10:01:07.163Z",
+      "lastRefreshed": "2026-08-04T11:21:03.162Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 12,
-      "summary": "Rocketdyne, 독립형 우주 회사로 재등장",
-      "latest": "2026-08-04 09:20",
+      "count": 14,
+      "summary": "초점: SpaceX의 위성 야망이 로켓에 의존하는 라이벌을 압박합니다 - 로이터",
+      "latest": "2026-08-04 10:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T10:01:07.163Z",
+      "lastRefreshed": "2026-08-04T11:21:03.162Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -84,22 +82,22 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
+      "count": 3,
       "summary": "VinFast, 필리핀에서 전기 스쿠터 라인업 및 배터리 교환 네트워크 데뷔",
       "latest": "2026-08-03 19:54",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-04T10:01:07.163Z",
+      "lastRefreshed": "2026-08-04T11:21:03.162Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 24,
+      "count": 22,
       "summary": "EVE 상담원에게 브라우저를 제공하세요.",
       "latest": "2026-08-04 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-04T10:01:07.163Z",
+      "lastRefreshed": "2026-08-04T11:21:03.162Z",
       "themes": [
         "주요 기업"
       ]
@@ -551,6 +549,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Can Reddit fend off a new wave of AI SEO spam?",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+        "source": "The Verge",
+        "date": "2026-08-04 02:04",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Reddit이 AI SEO 스팸의 새로운 물결을 막을 수 있을까요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "NASA, SpaceX studying how to prevent future upper stage lunar collisions",
         "url": "https://spacenews.com/nasa-spacex-studying-how-to-prevent-future-upper-stage-lunar-collisions/",
         "source": "SpaceNews",
@@ -596,22 +610,6 @@
         "category": "인공지능",
         "titleKo": "미국 회사의 AI를 통해 우크라이나의 저렴한 카미카제 드론이 스스로 목표를 추적할 수 있습니다.",
         "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "igus launches energy chain with 600-degree rotation for industrial robots",
-        "url": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
-        "source": "The Robot Report",
-        "date": "2026-08-03 21:06",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "igus, 산업용 로봇용 600도 회전 에너지 체인 출시",
-        "type": "출시·업데이트",
         "themes": [],
         "official": false,
         "sourceLayer": "analysis",
@@ -722,6 +720,24 @@
   },
   "news": [
     {
+      "title": "Focus: SpaceX's satellite ambitions squeeze out rivals reliant on its rockets - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZk1aaE1KdFZ3UXpNOG1tblJXdWRLRE1RTjI1RjJnM25PeU9ROFRNZ01SX05NVXdPMFJhTDItblZRYXh3NnRkak5UVEtlRzZVWGl3b0Ixd0JPZjFtc3FVdXdMR29KZmx4aF9hMGRwdkRXQWdyNzJfTVRZRG5SdmMyaGVORGpJOTRXUDFFZDJheEtKdWxhOGJTMmNEYVg5Tm9zVUdTdU1DYUNYN2lwbzR5UjdHMlF5Nkt6MEM5OUdHZElvUGROOUxIMg?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-04 10:18",
+      "categoryId": "space",
+      "confidence": "B",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "초점: SpaceX의 위성 야망이 로켓에 의존하는 라이벌을 압박합니다 - 로이터",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "Rocketdyne reemerges as standalone space company",
       "url": "https://spacenews.com/rocketdyne-reemerges-as-standalone-space-company/",
       "source": "SpaceNews",
@@ -736,6 +752,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "What will happen when a SpaceX rocket collides with the Moon? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxakw5Wlp5NjV6eW5wTzlranNHdmMxRGw2NTQzRVhEQnVDYjNWUmM3blNMVnVhQTA3ajFtcDBZamFtUmJ2UzBGcFBrbkZCaUVuVDVzM1E0N2dhdw?oc=5",
+      "source": "BBC",
+      "date": "2026-08-04 09:13",
+      "categoryId": "space",
+      "confidence": "B",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "스페이스X 로켓이 달과 충돌하면 어떻게 될까요? - BBC",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Kreios Space to fly VLEO demonstration in NanoAvionics bus",
@@ -863,6 +897,22 @@
       "themes": [
         "영상"
       ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Can Reddit fend off a new wave of AI SEO spam?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+      "source": "The Verge",
+      "date": "2026-08-04 02:04",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Reddit이 AI SEO 스팸의 새로운 물결을 막을 수 있을까요?",
+      "type": "뉴스·분석",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1481,6 +1531,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "New Firefighting Robot Uses Cryogenic Spray, Could Fight Wildfires - TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTWRERWw1LXZrbkR6LXJ0aG5fS2dPMTRiMy0wdk1ucDRuZm5fTE1LM0I0Sjhsbk5Yc0I5V3hyOFY3elJKbm5JRm5sTTBvUm5nTzAwNHJRX0JKOW1udGphazhpVTM1T3hTWWFTZm1nbnNKSXVEdnkwZ1FOOXlzS2FtYWhtZw?oc=5",
+      "source": "TechRepublic",
+      "date": "2026-08-03 14:05",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "New Firefighting Robot Uses Cryogenic Spray, Could Fight Wildfires - TechRepublic",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
       "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
       "source": "The Hacker News",
@@ -1852,6 +1918,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUlCNHp6dVFoTEtqbkF3aFZqaVNUUVRJd0dicUhkb2tidzdkUWg0OVp1SU94aFJ1dmdkbDZIZGxMQVNWMm5vYXNKR0JicHNwZWRVX25ZY0hHaTNVUVdIWGdBNERsS3hDT29CdzlydEFGbFJzblgyempKcjljLVFELTVPRjdHVnRrOVRmQUs5QWVFQlg3aWVET1lNcDE4R2wwSC1vazRDaTNTZFhURm9qUGFfWGE5Sk1pMHNBUWx3TG85S1lZSWV4TUJxRU11UVhMR2Iw?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-03 03:58",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "v0.30.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.0",
       "source": "GitHub · ComfyUI",
@@ -1946,96 +2028,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
-      "url": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/",
-      "source": "The Robot Report",
-      "date": "2026-08-02 12:31",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Google DeepMind는 Gemini Robotics 2가 전신 제어를 가능하게 한다고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EVTd0dkY4M2ZFa0NkaHhDdzFibUc1OUhwc1lTaTQ2bG5BeGZHbUxXRnZOT3RPNTZNVzlEMVBveHA2V1pwTnVLOG5MNXpXdjVtX1BPMXZlbk53TjFRZWgwWFVCRWRqVE8wZ0NtSWdsXzZhcDZf0gF6QVVfeXFMUGdycGp6MllJMGVuZWJLeHBweV82Ym1meERmMkhkbk54S3RZbGNpMkVidzdTVk5tRGYwZnAzY21YUmc1ZG9oR0Jwb1FRSW1qWURYb0k2Z1VjMlF1ZmpDYk1wN1NGM2hCbjJ1SXYwN1NHUFJkaGV6UUpELXc?oc=5",
-      "source": "CNBC",
-      "date": "2026-08-02 12:30",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy - CNBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Open letters about AI development",
-      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-      "source": "Simon Willison",
-      "date": "2026-08-02 04:16",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "소프트웨어·개발",
-      "titleKo": "AI 개발에 관한 공개 서한",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Janus Battery Swap Trucks Show The Way",
-      "url": "https://cleantechnica.com/2026/08/01/janus-battery-swap-trucks-show-the-way/",
-      "source": "CleanTechnica",
-      "date": "2026-08-02 01:18",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "야누스 배터리 스왑 트럭 쇼 더 웨이",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Qwen 3.8 Max now available on Vercel AI Gateway",
-      "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-08-02 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 베르셀 AI 게이트웨이에서 Qwen 3.8 Max를 사용할 수 있습니다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 4. PM 7:01",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 4. PM 8:21",
+    "mode": "하루 2회 전체 수집"
   }
 }
