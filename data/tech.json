@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 6. AM 6:36",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 6. AM 7:13",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "Meta, 대규모 코드 베이스용 AI 에이전트 Muse Code 출시",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 76,
-    "sourceCount": 21,
-    "officialCount": 23,
+    "recentCount": 78,
+    "sourceCount": 23,
+    "officialCount": 21,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 26,
+      "count": 29,
       "summary": "Meta, 대규모 코드 베이스용 AI 에이전트 Muse Code 출시",
       "latest": "2026-08-05 21:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T21:36:31.485Z",
+      "lastRefreshed": "2026-08-05T22:13:36.525Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,7 +38,7 @@
       "summary": "미국을 위한 NVIDIA와 파트너십 구축",
       "latest": "2026-08-05 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T21:36:31.485Z",
+      "lastRefreshed": "2026-08-05T22:13:36.525Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,11 +47,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 5,
       "summary": "트래비스 칼라닉 (Travis Kalanick) 의 로봇 스타트업 아톰스 (Atoms) 가 전 우버 재무 최고책임자 (CFO) 를 맡",
       "latest": "2026-08-05 21:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T21:36:31.485Z",
+      "lastRefreshed": "2026-08-05T22:13:36.525Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "OpenAI는 여러 사기 체계에서 ChatGPT를 사용하여 Poipet 사기 네트워크를 방해합니다",
       "latest": "2026-08-05 18:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T21:36:31.485Z",
+      "lastRefreshed": "2026-08-05T22:13:36.525Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,11 +71,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 18,
+      "count": 19,
       "summary": "SpaceX는 Starlink Mobile이 AT&T, T-Mobile 및 Verizon보다 더 나을 것이라고 주장합니다.",
       "latest": "2026-08-05 19:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T21:36:31.485Z",
+      "lastRefreshed": "2026-08-05T22:13:36.525Z",
       "themes": [
         "주요 기업"
       ]
@@ -88,18 +88,18 @@
       "summary": "연구에 따르면 사람들은 정부와 소셜 미디어보다 AI를 더 신뢰합니다.",
       "latest": "2026-08-05 16:56",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-05T21:36:31.485Z",
+      "lastRefreshed": "2026-08-05T22:13:36.525Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
+      "count": 16,
       "summary": "Claude Fable 5를 사용하여 너구리 강도 게임 원샷하기",
       "latest": "2026-08-05 19:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T21:36:31.485Z",
+      "lastRefreshed": "2026-08-05T22:13:36.525Z",
       "themes": [
         "주요 기업"
       ]
@@ -176,6 +176,22 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "NASA’s IXPE May Have Proven 90-Year-Old Theory",
+        "url": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/",
+        "source": "NASA",
+        "date": "2026-08-05 18:49",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA의 IXPE는 90 세 이론을 입증했을 수 있습니다.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       },
       {
         "title": "Google just announced a major shakeup of its top AI leadership",
@@ -285,22 +301,6 @@
         "stream": "release",
         "category": "우주·통신",
         "titleKo": "NASA의 인내 로버 시계 지구는 화성인의 달 뒤에서 사라진다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Advanced Mini-laboratories Automate Space Station Research",
-        "url": "https://www.nasa.gov/image-article/advanced-mini-laboratories-automate-space-station-research/",
-        "source": "NASA",
-        "date": "2026-08-05 14:00",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "고급 미니 연구소로 우주 정거장 연구 자동화",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -593,15 +593,15 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-        "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-        "source": "The Hacker News",
-        "date": "2026-08-05 18:33",
-        "categoryId": "cyber",
+        "title": "Meta debuts first AI coding agent to take on Anthropic and OpenAI - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXpCdFJVQk9lTzZ1WFk5cENzSWRNa3hkYVRfMy1vZXMxekkzQXRja2xKX0E5dzRFQXVRUDgwWDFOSWEwRWJnQU55UjVQUms0b2NuOGl1NlpUT2FqUVFPMm9WWkRqZkhWX3lyQnIxck5vZDU0RE5zdXBUalY0THd1dm5qLS1VSG1FVzh4dWNFYWQ5SFlXM2fSAZsBQVVfeXFMUDRqYXFzVEpSNHM5N24zTDBlYmd6bDRlM0FmUnB2dldBNGRIMlo2cHd3Zm5kZXVaS1k4NVFZb1hUOXhuRnh4cFlabUFmQ0NDdmE2U0F0ZHBfdnJSajBWcXowZnE1a1RhMmsydzZ2YmoyMUpyYTdlRVRBSnBxX3haUkRWOVEzOFY5aDhmVUhYNzZJdDJjdWtaRXpJNUk?oc=5",
+        "source": "CNBC",
+        "date": "2026-08-05 19:00",
+        "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "OpenAI는 여러 사기 체계에서 ChatGPT를 사용하여 Poipet 사기 네트워크를 방해합니다",
+        "category": "인공지능",
+        "titleKo": "Meta, Anthropic 및 OpenAI를 맡은 최초의 AI 코딩 에이전트 데뷔 - CNBC",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -924,6 +924,40 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Meta debuts first AI coding agent to take on Anthropic and OpenAI - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXpCdFJVQk9lTzZ1WFk5cENzSWRNa3hkYVRfMy1vZXMxekkzQXRja2xKX0E5dzRFQXVRUDgwWDFOSWEwRWJnQU55UjVQUms0b2NuOGl1NlpUT2FqUVFPMm9WWkRqZkhWX3lyQnIxck5vZDU0RE5zdXBUalY0THd1dm5qLS1VSG1FVzh4dWNFYWQ5SFlXM2fSAZsBQVVfeXFMUDRqYXFzVEpSNHM5N24zTDBlYmd6bDRlM0FmUnB2dldBNGRIMlo2cHd3Zm5kZXVaS1k4NVFZb1hUOXhuRnh4cFlabUFmQ0NDdmE2U0F0ZHBfdnJSajBWcXowZnE1a1RhMmsydzZ2YmoyMUpyYTdlRVRBSnBxX3haUkRWOVEzOFY5aDhmVUhYNzZJdDJjdWtaRXpJNUk?oc=5",
+      "source": "CNBC",
+      "date": "2026-08-05 19:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Meta, Anthropic 및 OpenAI를 맡은 최초의 AI 코딩 에이전트 데뷔 - CNBC",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "NASA’s IXPE May Have Proven 90-Year-Old Theory",
+      "url": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/",
+      "source": "NASA",
+      "date": "2026-08-05 18:49",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA의 IXPE는 90 세 이론을 입증했을 수 있습니다.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
@@ -1488,6 +1522,24 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "What can scientists learn from a stray SpaceX rocket hitting the Moon? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45TjBaSk1GVnR0bzZXTE5TS2thMzFBbFlpdlg4OWZhMlhHZnRPd1U5amNOdjRUWTdrNmhTdWkzWXI2RzNXU1VkUlNDMG1RSmhCeVVmWFJYcGdtQQ?oc=5",
+      "source": "BBC",
+      "date": "2026-08-05 11:19",
+      "categoryId": "space",
+      "confidence": "B",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "What can scientists learn from a stray SpaceX rocket hitting the Moon? - BBC",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
       "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
       "source": "The Hacker News",
@@ -1497,6 +1549,22 @@
       "stream": "news",
       "category": "사이버보안",
       "titleKo": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI models shock UK testers by using fake identities to try to trick developers - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ3dmZ3FReWJ6X0p4TjQ1dEVrZ0JHd3BKdDl3VjJULW1NVGxCV2pDaktaZHVHQko0WVRoQV9lb2FUSC1RdG1YZVhPRUhQZHlKTGtqZUp0YkQzcHp6ODFfbURCR0M2LWJuUGo1cUd2RXA0Y0tOR1hwNnpvWEJldWVTWEVyV0w0TUtuSGNGT1dEVzRjT1RhQlBkak9wdlhWZnFfU1czNzNqcTk1UmFPRVZlSjNXbTVOLUpmNkZTZE5hNHlMc19u?oc=5",
+      "source": "The Guardian",
+      "date": "2026-08-05 08:40",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI models shock UK testers by using fake identities to try to trick developers - The Guardian",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1577,22 +1645,6 @@
       "stream": "release",
       "category": "우주·통신",
       "titleKo": "APOD: 2026년 8월 5일 – 토성의 B 고리에 대한 발언",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The Paradox of Lençóis Maranhenses National Park",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-paradox-of-lencois-maranhenses-national-park/",
-      "source": "NASA",
-      "date": "2026-08-05 04:01",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "렌소이스마라넨세스 국립공원의 역설",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1894,6 +1946,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Trump advisers tell AI firms they will not safety-test open-weight models - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa1dFYnlpdVZxSzIyWnptbDAxbjlwMzNtdEFtVFRkYXQ5OWpxbTBBaU44LUg5Tl9oX2ZnT2R2REQ0S2JWdjVid1NkWmM5aUJyOTZFZE9lQnNRWHhhS1NIVXBsTW9CRGZoRHlQTVZTOXhzVndCYkxZUEFUcElGdG9leU1ISlpLaWJER3dZUC13NmQ2SjNGMVpPcXc4NzdrbWlhekFiV19aYWZKaGJCblhvNnVFbWo0UVJUSWQ4eWVCSHZtRXFqU01zOQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-04 23:03",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Trump advisers tell AI firms they will not safety-test open-weight models - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "SpaceX to begin Starship orbital flights",
       "url": "https://spacenews.com/spacex-to-begin-starship-orbital-flights/",
       "source": "SpaceNews",
@@ -1976,78 +2044,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Zoox unveils production-ready robotaxi for U.S. expansion",
-      "url": "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/",
-      "source": "The Robot Report",
-      "date": "2026-08-04 19:40",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Zoox, 미국 진출을 위한 생산 준비 로봇 택시 공개",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys",
-      "url": "https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/",
-      "source": "The Robot Report",
-      "date": "2026-08-04 19:33",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "미국 해군은 심해 조사를 위해 자율 선박을 사용하기 위해 Blue Water Autonomy를 선택합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Customize code scanning default setup at scale",
-      "url": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
-      "source": "GitHub Changelog",
-      "date": "2026-08-04 19:15",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "대규모로 코드 스캔 기본 설정 사용자 정의",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Retiring the Copilot Billing Preview app",
-      "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
-      "source": "GitHub Changelog",
-      "date": "2026-08-04 19:09",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Copilot 청구 미리보기 앱 중단",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 7,
-    "checkedAt": "2026. 8. 6. AM 6:36",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 6,
+    "checkedAt": "2026. 8. 6. AM 7:13",
+    "mode": "하루 2회 전체 수집"
   }
 }
