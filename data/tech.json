@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 6. PM 3:48",
+  "updatedAt": "2026. 8. 6. PM 7:02",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 6일 – 가장 선명한 태양의 이미지로 불안정성 발견",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 70,
+    "recentCount": 67,
     "sourceCount": 23,
-    "officialCount": 23,
+    "officialCount": 22,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,14 +20,14 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 27,
-      "summary": "중복 조정 인공 연령 점수 (AAS) 하에서 AI 시스템에 대한 장기 지속성 이론",
-      "latest": "2026-08-06 04:00",
+      "count": 28,
+      "summary": "OpenAI는 애플의 영업 비밀 소송이 '핵심에 썩었다‘ 고 말합니다.",
+      "latest": "2026-08-06 09:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-06T06:48:53.040Z",
+      "lastRefreshed": "2026-08-06T10:02:03.131Z",
       "themes": [
-        "기회",
         "주요 기업",
+        "기회",
         "미술·디자인"
       ]
     },
@@ -39,7 +39,7 @@
       "summary": "NVIDIA의 Vera 백서에는 스레드가 느슨합니다",
       "latest": "2026-08-05 21:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-06T06:48:53.040Z",
+      "lastRefreshed": "2026-08-06T10:02:03.131Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,18 +52,18 @@
       "summary": "트래비스 칼라닉 (Travis Kalanick) 의 로봇 스타트업 아톰스 (Atoms) 가 전 우버 재무 최고책임자 (CFO) 를 맡",
       "latest": "2026-08-05 21:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-06T06:48:53.040Z",
+      "lastRefreshed": "2026-08-06T10:02:03.131Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
-      "summary": "OpenAI는 여러 사기 체계에서 ChatGPT를 사용하여 Poipet 사기 네트워크를 방해합니다",
-      "latest": "2026-08-05 18:33",
+      "count": 6,
+      "summary": "AWS, Google 및 Vercel 에이전트 결함으로 공격자가 모델을 실행하지 않고도 도구를 트리거할 수 있음",
+      "latest": "2026-08-06 08:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-06T06:48:53.040Z",
+      "lastRefreshed": "2026-08-06T10:02:03.131Z",
       "themes": [
         "주요 기업"
       ]
@@ -72,11 +72,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 16,
+      "count": 15,
       "summary": "APOD: 2026년 8월 6일 – 가장 선명한 태양의 이미지로 불안정성 발견",
       "latest": "2026-08-06 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-06T06:48:53.040Z",
+      "lastRefreshed": "2026-08-06T10:02:03.131Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -90,7 +90,7 @@
       "summary": "Lucid, Tesla의 Robotaxi 비즈니스에서 또 다른 Salvo를 목표로 함",
       "latest": "2026-08-06 01:55",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-06T06:48:53.040Z",
+      "lastRefreshed": "2026-08-06T10:02:03.131Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,11 +99,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
+      "count": 18,
       "summary": "테스트 도중 Meta의 AI 모델이 다른 회사를 해킹하기도 했습니다.",
       "latest": "2026-08-06 00:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-06T06:48:53.040Z",
+      "lastRefreshed": "2026-08-06T10:02:03.131Z",
       "themes": [
         "주요 기업"
       ]
@@ -387,24 +387,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Qwen Image 3.0 Pro",
-        "url": "https://www.qwencloud.com/models/qwen-image-3.0-pro",
-        "source": "Hacker News",
-        "date": "2026-08-05 14:53",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Qwen Image 3.0 Pro",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ],
     "opportunities": [
@@ -429,6 +411,42 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+        "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+        "source": "The Verge",
+        "date": "2026-08-06 09:33",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI는 애플의 영업 비밀 소송이 '핵심에 썩었다‘ 고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+        "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+        "source": "The Hacker News",
+        "date": "2026-08-06 08:57",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "AWS, Google 및 Vercel 에이전트 결함으로 공격자가 모델을 실행하지 않고도 도구를 트리거할 수 있음",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
         "url": "https://arxiv.org/abs/2608.04012",
@@ -594,40 +612,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Eugene Clean Energy Fund Officially Qualifies for the November 2026 Ballot",
-        "url": "https://cleantechnica.com/2026/08/05/eugene-clean-energy-fund-officially-qualifies-for-the-november-2026-ballot/",
-        "source": "CleanTechnica",
-        "date": "2026-08-06 00:10",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "유진 청정에너지 기금, 2026년 11월 투표권 공식 획득",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Third-party cyber evaluations involving OpenAI models",
-        "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-08-05 23:45",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "OpenAI 모델과 관련된 제3자 사이버 평가",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -701,6 +685,22 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+        "url": "https://arxiv.org/abs/2510.01395",
+        "source": "Hacker News",
+        "date": "2026-08-05 18:17",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Sycophantic AI는 친사회적 의도를 감소시키고 의존성을 촉진합니다 (2025)",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "I’m leaving OpenAI to build telepathy",
         "url": "https://naomibashkansky.com/blog/telepathy/",
         "source": "Hacker News",
@@ -717,28 +717,46 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Qwen Image 3.0 Pro",
-        "url": "https://www.qwencloud.com/models/qwen-image-3.0-pro",
-        "source": "Hacker News",
-        "date": "2026-08-05 14:53",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Qwen Image 3.0 Pro",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+      "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+      "source": "The Verge",
+      "date": "2026-08-06 09:33",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 애플의 영업 비밀 소송이 '핵심에 썩었다‘ 고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "source": "The Hacker News",
+      "date": "2026-08-06 08:57",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "AWS, Google 및 Vercel 에이전트 결함으로 공격자가 모델을 실행하지 않고도 도구를 트리거할 수 있음",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "APOD: 2026 August 6 – New Sharpest Image of the Sun Uncovers Instability",
       "url": "https://science.nasa.gov/image-article/apod-2026-august-6-new-sharpest-image-of-the-sun-uncovers-instability/",
@@ -1331,6 +1349,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+      "url": "https://arxiv.org/abs/2510.01395",
+      "source": "Hacker News",
+      "date": "2026-08-05 18:17",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Sycophantic AI는 친사회적 의도를 감소시키고 의존성을 촉진합니다 (2025)",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
       "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
       "source": "The Verge",
@@ -1563,24 +1597,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "SpaceX is barely Space and mostly X",
-      "url": "https://www.theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space",
-      "source": "The Verge",
-      "date": "2026-08-05 16:44",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "SpaceX는 거의 Space가 아니며 대부분 X입니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
       "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
       "source": "The Hacker News",
@@ -1643,24 +1659,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Qwen Image 3.0 Pro",
-      "url": "https://www.qwencloud.com/models/qwen-image-3.0-pro",
-      "source": "Hacker News",
-      "date": "2026-08-05 14:53",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Qwen Image 3.0 Pro",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Advanced Mini-laboratories Automate Space Station Research",
@@ -2053,22 +2051,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.3.1-canary.2",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.2",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-04 23:58",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.1-canary.2",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2076,7 +2058,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 8. 6. PM 3:48",
+    "checkedAt": "2026. 8. 6. PM 7:02",
     "mode": "매시간 공식 레이더"
   }
 }
