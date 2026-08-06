@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026. 8. 6. AM 7:13",
+  "updatedAt": "2026. 8. 6. PM 8:17",
   "risk": {
     "score": 0,
     "level": "평상시",
@@ -70,7 +70,7 @@
   "officialAlert": {
     "status": "현재 공식 긴급 경보 없음",
     "level": "normal",
-    "checkedAt": "2026. 8. 6. AM 7:13"
+    "checkedAt": "2026. 8. 6. PM 8:17"
   },
   "signals": [
     {
@@ -78,25 +78,48 @@
       "label": "미사일 시험",
       "weight": 5,
       "verified": false,
-      "partiallyVerified": false,
-      "status": "공개자료상 미탐지",
-      "independentSourceCount": 0,
+      "partiallyVerified": true,
+      "status": "일부 확인",
+      "independentSourceCount": 1,
       "directObservationCount": 0,
       "partyClaimCount": 0,
-      "judgmentConfidence": "중간",
+      "judgmentConfidence": "낮음",
       "detectability": "높음",
       "informationGap": "공개 공식자료 범위 밖의 정보는 확인할 수 없습니다.",
-      "opposingEvidence": [
-        "공개 검색 범위에서 신규 근거가 발견되지 않음"
+      "opposingEvidence": [],
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "sources": [
+        {
+          "label": "청와대, 북한 탄도미사일 발사에 긴급점검회의 개최…\"도발 행위 즉각 중단\"",
+          "url": "https://www.yonhapnewstv.co.kr/news/AKR20260806190443zZP",
+          "grade": "B",
+          "source": "연합뉴스TV",
+          "sourceType": "주요 통신사 취재",
+          "originKey": "연합뉴스tv",
+          "publishedAt": "2026-08-06 10:04",
+          "checkedAt": "2026. 8. 6. PM 8:17",
+          "claim": "미사일 시험 관련 근거",
+          "directReport": true
+        },
+        {
+          "label": "청와대, 북한 미사일 발사에 긴급안보상황점검회의 개최",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008693952&plink=RSSLINK&cooper=RSSREADER",
+          "grade": "B",
+          "source": "SBS 뉴스",
+          "sourceType": "언론·전문보도",
+          "originKey": "sbs-뉴스",
+          "publishedAt": "2026-08-06 09:38",
+          "checkedAt": "2026. 8. 6. PM 8:17",
+          "claim": "미사일 시험 관련 근거",
+          "directReport": true
+        }
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "sources": [],
-      "change": "이전 상태 유지",
-      "collectionStatus": "이전 상태 유지",
-      "lastNewInformation": "확인된 신규 정보 없음",
+      "change": "공개자료상 미탐지 → 일부 확인",
+      "collectionStatus": "신규 확인",
+      "lastNewInformation": "2026-08-06 10:04",
       "lastDirectObservation": "직접 관측 부족",
-      "sourceReliability": "확인 가능한 원정보 없음",
-      "stateReason": "확인 가능한 신규 원정보가 없으며 탐지 가능성을 함께 고려함"
+      "sourceReliability": "주요 통신사 취재",
+      "stateReason": "관련 공개자료는 있으나 독립 교차검증 기준 미충족"
     },
     {
       "id": "troop_movement",
@@ -114,7 +137,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -139,7 +162,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -164,7 +187,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -189,7 +212,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -214,7 +237,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -239,7 +262,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -264,7 +287,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -289,7 +312,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -314,7 +337,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -339,7 +362,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -364,7 +387,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -389,7 +412,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -414,7 +437,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -439,7 +462,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -464,7 +487,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -489,7 +512,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -625,7 +648,7 @@
     ],
     [
       "북한 군사활동",
-      "미확인",
+      "검토중",
       "unknown"
     ],
     [
@@ -635,6 +658,246 @@
     ]
   ],
   "news": [
+    {
+      "title": "[속보] 합참 \"북한, 단거리 탄도미사일 1발 발사\"",
+      "url": "https://www.yonhapnewstv.co.kr/news/MYH20260806190820ru4",
+      "source": "연합뉴스TV",
+      "date": "2026-08-06 10:08",
+      "titleKo": "[속보] 합참 \"북한, 단거리 탄도미사일 1발 발사\"",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "연합뉴스tv",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "연합뉴스tv",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": true
+    },
+    {
+      "title": "청와대, 북한 탄도미사일 발사에 긴급점검회의 개최…\"도발 행위 즉각 중단\"",
+      "url": "https://www.yonhapnewstv.co.kr/news/AKR20260806190443zZP",
+      "source": "연합뉴스TV",
+      "date": "2026-08-06 10:04",
+      "titleKo": "청와대, 북한 탄도미사일 발사에 긴급점검회의 개최…\"도발 행위 즉각 중단\"",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "연합뉴스tv",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "연합뉴스tv",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": true
+    },
+    {
+      "title": "Seoul’s restoration of inter-Korean railway could still reap benefits: experts - NK News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdk1BX2s3cVpjSmJZU1hJYUhsbmM0RGdocUtyd2Z6bG5zcWpCVUNWXzQyb0JtaXU4RFVEZXJGWS1KaktpWFdqTnJoNXhobk56QU1iNDM3dHZsZFoyS21VZ1pkZm0wOU5ULWFxRVYyQ21yRGd0Ti01NDBOQVhOc3R2bWhoeWo5aWxtUUpwQkVxcE04S0l1am53RDBPQkxGVmgwVFhtT2d5enlZb2Fi?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 09:51",
+      "titleKo": "서울의 남북 철도 복원은 여전히 혜택을 누릴 수 있습니다: 전문가 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "청와대, 북한 미사일 발사에 긴급안보상황점검회의 개최",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008693952&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-08-06 09:38",
+      "titleKo": "청와대, 북한 미사일 발사에 긴급안보상황점검회의 개최",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": true
+    },
+    {
+      "title": "Flooding wipes out North Korean villages at key military base near border - NK News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTHdTSE16Z0h0cEl0akpORDd5OENJNG11UFBZVzNzSE9uUVhOaXc0Z2o4dkxhYkVaaDA5dVByV3AxZy10Y3pPdXNSMWUtNURPaXU2RTc5OV8zenAwajlTdFpJN081TXR3UVJ4SHNkUUxjczhxTkhkb0lEanZQNnQydFpOSFZTLWRzSUg3LUk4NUh4MmlVaEduTWNjMERXR25tZWlN?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 09:11",
+      "titleKo": "홍수로 인해 국경 근처의 주요 군사 기지에 있는 북한 마을이 전멸 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "북한, 동해상으로 미상 발사체 발사",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008693831&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-08-06 08:41",
+      "titleKo": "북한, 동해상으로 미상 발사체 발사",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "North Korea launches unidentified projectile toward East Sea: JCS - NK News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVmhvYlNoaHBZZXJxRXZZTlp1bDJmcmlYbFFBZGg1VDZLNXpZSE9OZ283SjBHQVF0WmpoSmh0akVJWnVtQkNIQjJFUmVTa0pLb2NNOEtMek5NS2VRZXlwRktxUHBLQ0tsU3hyRFlvdlRLOTZQMkZheks2a3RxelAtYTF0c3NwZHJXQTRkTmYxOU1uSmdBTGs3OXdzRXU?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 08:22",
+      "titleKo": "북한, 동해상으로 미확인 발사체 발사: JCS - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "What we know about North Korean forces joining Russia's war against Ukraine - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPck5RYzRha0ZtTldodHlHZENRNDVadTRPNGoxblhlYmNsOG9iUzhlemNsSFZ2RDZqLUVJWHRTQXluejluUW04Rks5M3l4ZDd1OXBWeVpwODFfRjJHeFlPN2d2S0RSbjFXZkVBWDNmTGZfRFpCWkF4ZTJ4ZlJoRDBVSkhTbHR0UmJEQTduQ3Jra2ZueHhQalhxZXBVRXNBb3NuLWgyRktBM1czU3lrdUNVZndZNlBrXzJjbFlsdS1yTnF0amdiQndQNlVCWWd1WUxQWncw?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-06 07:50",
+      "titleKo": "러시아의 우크라이나 전쟁에 동참하는 북한군에 대해 우리가 알고 있는 것 - 로이터",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "reuters",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "reuters",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "63 North Korean defectors enter South in first half of 2026: Seoul - NK News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNVFMTmd3LTlhMndnSGtMR0NpeWVnRlVPTl9UVklOLXEzM2J1TG1xOEpJem8tR2NnNWlCbE9scDFkMTI4aHFiM0dLQ24tT0hNN204RWlVN0REXzZ2SFMzc3lDd1c0a2JMQ1VMV3ctWkx5c2ZiYlkzQzd6SHNvWTFfM2VBWWlwekNOM0tuNFlDTjBHaU1zSm1BNFhocnphUQ?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 07:45",
+      "titleKo": "2026년 상반기 북한이탈주민 63명 남측 진출: 서울 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "Number of North Korean Defectors to South Plummets in 1st Half - KBS WORLD Radio",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HLXF5NzQ5cHdkQU9OcTY2TUhydTB4SnZjRVdTV3BfTUljLVpZcmFqdHZubThBUDd5ZEhxZ2hITnpvRTZTX2VCTl9lbkRlMzNpRG4yaXVDUldBNGxkaTlNLUNMdjY1M0JZaXZwQkVvS2pVQWI2NGR3?oc=5",
+      "source": "KBS WORLD Radio",
+      "date": "2026-08-06 07:06",
+      "titleKo": "전반기 북한 남침 탈북자 수 - KBS WORLD Radio",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "kbs-world-radio",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "kbs-world-radio",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "Book review: The struggle in carrying out development work in North Korea - NK News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaGVWQ1pucjBRdlFjR1JVXzNOT09YaUFEWXJKbmdkakd5OWNRY1VOLTYwMFlOSTVOcHRtazFLS1ZUV3BZX1lGSkdDVkdQTnkybjdUUjVnMzg5dHJ2MXgzbHJ5N2hEdmhUSWFSOXF1NzgxeFN3MElFUEJSMEJrSXFybkFyeUVMUXZIc0JTQTQ4d3VhWU1yNDh4ZHdrUVpOZW9oRmkwMGNsMA?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 07:04",
+      "titleKo": "서평: 북한 개발 사업 수행 투쟁 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "Clash of Clans knockoff popular in North Korea with more than 40,000 players online - Radio Free Asia",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTzV1WHdkQmlWVDhjd21sZGdDcUxud3lGS1QxSDVuYldRMWtXS2RCSlZEbmhzRVhZamJZclRiak52RHdnZXdfQkRzTDNTbjJYcXJieDd3RnJ3NmNRN043WVdBTzdZR3l6dDdRVXhfQlVnbGM4akljeDBOWUpndkRpVWxpUFRUTjVD?oc=5",
+      "source": "Radio Free Asia",
+      "date": "2026-08-06 03:48",
+      "titleKo": "클래시 오브 클랜 (Clash of Clans) 은 4만 명 이상의 온라인 플레이어가 있는 북한에서 인기를 끌고 있습니다 - Radio Free Asia",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "radio-free-asia",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "radio-free-asia",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "미 해병대, 한국서 첫 자폭드론 실사격 훈련…\"한반도 지형 학습\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008693235&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-08-06 03:36",
+      "titleKo": "미 해병대, 한국서 첫 자폭드론 실사격 훈련…\"한반도 지형 학습\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "North Korea orders top-level border vigilance amid China blood alliance push - DailyNK",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3lBMm41T2dOV1hKcjNxMi11VHllRG5nU1ZyR3RXaUJ2OE9ZVm85WF9xamljTUt6bXdyU3ZXanNBS1NCMEU5eW8waVEtUXN0N2VJR18tc3JLTVRnbGtCYW1Cb3pxU1VBaEpmT2JQSTdoWUg5dEdwUWtxdU9RSFJVSFEyMlpTVHQ2NXc?oc=5",
+      "source": "DailyNK",
+      "date": "2026-08-05 22:05",
+      "titleKo": "북한, 중국 혈맹 밀어붙이는 가운데 최상위 국경 경계 명령 - DailyNK",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "dailynk",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "dailynk",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "New drivers fuel rise in North Korea traffic accidents - DailyNK",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiN090Ul90UndfMEp3eEJMLTcxTEdPdzJXU1dDSXozTnQ4Z3VTcVRodlgxbTZnZGVPQlVJTlBRLTNScktjVXdEQU9LOGpTeUFtRDVyVE8xb0hKS05tT0FORVhvSHN2OHU0STB5OU9LdU5Eam9hcG9BZDQtRHFObmM?oc=5",
+      "source": "DailyNK",
+      "date": "2026-08-05 22:05",
+      "titleKo": "북한 교통사고에 신규 운전자 연료 상승 - DailyNK",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "dailynk",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "dailynk",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
     {
       "title": "Satellite images show Pyongyang glowing, outskirts dark - North Korea News — Daily NK | Latest DPRK Updates 2026 - DailyNK",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObzl5bmsyaHljYWRmM3oyOHBrcFg1MGU0VnZiN1hSb1owd2pCTGg4bVlza2lMTW9fSG1nVGtTWjE5cTViaUo3RjRkUS1xRVRTYnlzZnViMFpKOEhsUTFtbWVSaXN6S1MxM3E4VnZOR1BJejd0MmJhWGhlQ3hnVjVVMlpWUXh4U01ZVXg1M3ZLc0c?oc=5",
@@ -647,7 +910,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -655,7 +918,7 @@
       "title": "North Koreans face heatstroke and robbery in the same breath - DailyNK",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdDZDMlRNU0lhc3FGSXI5Qnh6ckg3UXQ2a3RNSXpXMGZqYnFNal9kVEJwZWxSbHZFOU9QaGlyMWFnZ3RQNXRzQkMxN0hqRnBUVXZveE9HY3NmNFpacmJYbzktWnhSbllOQW9iSHJtWFVsYzY1TWR1NGUwd2VjbG5LU0dWYVZCSWsteFE?oc=5",
       "source": "DailyNK",
-      "date": "2026-08-05 20:37",
+      "date": "2026-08-05 20:39",
       "titleKo": "북한 주민들이 같은 호흡으로 열사병과 강도 사건에 직면하다 - DailyNK",
       "confidence": "C",
       "sourceType": "언론·전문보도",
@@ -663,7 +926,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -671,7 +934,7 @@
       "title": "North Korea expands mandatory HIV testing to service workers - DailyNK",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCeFNxZzdjSC1pSzRTRWZUVkNva29VN2pWNUQtR0FaaHAxbXl3TFdiNlpkSl9VWHRMMDJqRkpsVVl5b0xoeTBDbzV1aW9NM3JqY3pwdTZPb085cGpBQUJYU1g3ZVVuRDN6V0xCZVVjMTFYQ0FKR1hORE1oZTk?oc=5",
       "source": "DailyNK",
-      "date": "2026-08-05 17:29",
+      "date": "2026-08-05 17:30",
       "titleKo": "북한, 서비스업 종사자 대상 HIV 검사 의무화 확대 - DailyNK",
       "confidence": "C",
       "sourceType": "언론·전문보도",
@@ -679,23 +942,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Koreans turn to underground app for banned information - DailyNK",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMHl0RXI1STdZbFpsNzd0N2tMcVVsMEFvaXRtUXBXb29WVVBEMUZ6SkhROXNvZ0JUaGd2MWtuQUlVMW53V09tNng0OUFQVGtJQ3RlNHpoMk1CZXM0YThkUDVnYzNxbjBTdXhXcEZCOVFNaE55MTE4ZXBRVnJ2YUJOc1pnTXZpQnM?oc=5",
-      "source": "DailyNK",
-      "date": "2026-08-05 15:39",
-      "titleKo": "북한 사람들은 금지된 정보를 얻기 위해 지하 앱으로 눈을 돌립니다 - DailyNK",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "dailynk",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "dailynk",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -711,72 +958,8 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "ap-news",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korea threatens response to Japan’s arms buildup ahead of Asian Games - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1fTFR0SFN5Z2hHaVN3NTVNVDJHNzRBbVVHZ0ROVC1yd2JYdFRURFdyZjVoTmFxeUNaVk5xeXJQQ3dJdTRUcV9B?oc=5",
-      "source": "NK News",
-      "date": "2026-08-05 08:28",
-      "titleKo": "북한이 아시안게임을 앞두고 일본의 무력 증강에 대한 대응을 위협하고 있다. - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "Vietnam to honor North Korean pilots killed in war with first-ever memorial - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSHhxcV91V3lrbGlHaDk2eWpMNEZjWlN3UVNtN2F2YnpsaEViWW5QcW1fOWduVmdDYm8xNHNsNzZJVGxCYlZNZmxmMjdTMW1DOG5ZRk9IR293dHlQTGpndHdqSmdPRm92SjE4enhudWZyNU0xLUdzRWd5U1dkRzhzVUdPdlFBXzVvd3JqMl9Jc0VOcm1ET2RXaUVEak81YjFaQlNCVGhZZGVHLUk?oc=5",
-      "source": "NK News",
-      "date": "2026-08-05 07:43",
-      "titleKo": "베트남, 사상 최초의 기념비로 전쟁에서 사망한 북한 조종사 기리기 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korean attack could leave 76,000 unexploded shells in an hour - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CM1ZrR0NwYnVsRjNIbmI2NVhXaGZFdUtjTDJYME5nVEJieElSTjBfZ2t4TUVWeExELTc3ZDNaT0FRbFJndGlB?oc=5",
-      "source": "NK News",
-      "date": "2026-08-05 06:38",
-      "titleKo": "북한 공격으로 한 시간에 76,000발의 폭발하지 않은 포탄이 남을 수 있다 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "Jerome Sauvage on North Korea’s crises, contradictions and quiet moments - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1xNlc3Z0lrNC1SeXFGaWFvZ2VEUFJyV1RaeWlnWnRWaGdzVGdUZm1DVjBOVm0za0RZWWJMNGZDa3ROSUVjNVBZ?oc=5",
-      "source": "NK News",
-      "date": "2026-08-05 06:23",
-      "titleKo": "제롬 소베이지, 북한의 위기, 모순, 조용한 순간에 대해 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
       "riskRelevant": false
     },
     {
@@ -791,41 +974,25 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
     {
-      "title": "EXCLUSIVE North Korean missile unit deploys in Russia for Ukraine war, Kyiv says - Reuters",
+      "title": "EXCLUSIVE: North Korean missile unit deploys in Russia for Ukraine war, Kyiv says - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaFRSNUJ4Q1ZaYlI0cVl1UjMyRHBNdE40MEYtTGJ6YXplZTdyTG9XTkRDSzg3NUNhUGVTTkY3c1I1MThScU1pZF9Ta1hDYzlHeklKZU8xVTdpUE5xemw4eU4wcUxBUXQ4N1VmMTMxM1N1dXo0SXNMWklQc21EeTFUdnpvTlF4QXRlNGpQM1FySkQ5eDhCWDRLVDVRd1VlaUlpUmtuRS1TVkNEOXRhalVyOXF6VUhFM0JxdzVMaUlXWkpNM2s?oc=5",
       "source": "Reuters",
       "date": "2026-08-05 04:02",
-      "titleKo": "키예프는 우크라이나 전쟁을 위해 북한 전용 미사일 부대가 러시아에 배치되었다고 말합니다. - 로이터",
+      "titleKo": "독점: 키예프는 우크라이나 전쟁을 위해 북한 미사일 부대가 러시아에 배치되었다고 말합니다 - 로이터 통신",
       "confidence": "B",
       "sourceType": "주요 통신사 취재",
       "originKey": "reuters",
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
-    },
-    {
-      "title": "North Korea orders top-level border vigilance amid China blood alliance push - DailyNK",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3lBMm41T2dOV1hKcjNxMi11VHllRG5nU1ZyR3RXaUJ2OE9ZVm85WF9xamljTUt6bXdyU3ZXanNBS1NCMEU5eW8waVEtUXN0N2VJR18tc3JLTVRnbGtCYW1Cb3pxU1VBaEpmT2JQSTdoWUg5dEdwUWtxdU9RSFJVSFEyMlpTVHQ2NXc?oc=5",
-      "source": "DailyNK",
-      "date": "2026-08-05 02:49",
-      "titleKo": "북한, 중국 혈맹 밀어붙이는 가운데 최상위 국경 경계 명령 - DailyNK",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "dailynk",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "dailynk",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
     },
     {
       "title": "North Korea's Kim Yo Jong warns of new military options over Japan's strike capabilities - Reuters",
@@ -839,7 +1006,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -855,7 +1022,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "institute-for-the-study-of-war",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -871,7 +1038,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -887,25 +1054,9 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "38-north",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false
-    },
-    {
-      "title": "North Korean defectors near nuclear test site show chromosome abnormalities - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYXhTd0lwMG1oRTBpckdDYXBWeHBkYlY5MWxkT2xGWThrb3h5OEYycFR3eUl2ZW11N1JmelRyLUIyekZmSlBlN3k4VGdHaEFGODdDQ2ZZeHFKQ2FqNlc5cHZsQUJlcmlwWmFud2EteU5QWXdEbHV2d3UxcVFhUmVSbDdGTGdvM2ZRbDk0WF9BZjR3SVZzU2liQldkRGYyOTBZMnV6cGFqbVNhYjQ?oc=5",
-      "source": "NK News",
-      "date": "2026-08-04 08:01",
-      "titleKo": "핵실험장 인근 탈북자, 염색체 이상 보여 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": true
     },
     {
       "title": "Beyond Pyongyang: Regional Development, Modernization, and Inequality in North Korea - Stimson Center",
@@ -919,24 +1070,8 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "stimson-center",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korea says US-led cyber threat warnings are bid to smear its image - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT1p0X2Q1eTEza1hKaDFERjZ5LU9WYlVySlhrcHFwUGJPaHpBdnRhekFnV3lEb0FleGN0cDF5S0t1cFE3bFRiZkhXSlc1U0gwZ2NhWFlhNUdjR2VXTlNiYl9OLW9nRmxJdlk1cWc2Z0lyTFBEclp0TE1lb3lXNms2b0dJVFNaeUhyOEJ4N3VHQTR2dEVGNmdfNnI1RHhxbTZkblREMGpIdTNKSEhmQnduOVRCY2c1MzB2WExfRFZ3V1dydw?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-03 21:55",
-      "titleKo": "북한은 미국 주도의 사이버 위협 경고가 자국 이미지를 훼손하기 위해 입찰되었다고 말합니다. - 로이터",
-      "confidence": "B",
-      "sourceType": "주요 통신사 취재",
-      "originKey": "reuters",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "reuters",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
     {
@@ -951,7 +1086,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "the-guardian",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -967,7 +1102,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
     },
@@ -983,7 +1118,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "38-north",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -999,144 +1134,32 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "rand-corporation",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "Not All Overseas Income Is Alike: DPRK Medical Workers and the Limits of Sanctions Equivalence",
-      "url": "https://www.38north.org/2026/07/not-all-overseas-income-is-alike-dprk-medical-workers-and-the-limits-of-sanctions-equivalence/",
-      "source": "38 North",
-      "date": "2026-07-28 17:46",
-      "titleKo": "모든 해외 소득이 동일한 것은 아닙니다: 조선민주주의인민공화국 의료 노동자와 제재 동등성의 한계",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korea’s Nuclear Doctrine: Implications and Strategic Countermeasures for the US-ROK Alliance",
-      "url": "https://www.38north.org/2026/07/north-koreas-nuclear-doctrine-implications-and-strategic-countermeasures-for-the-us-rok-alliance/",
-      "source": "38 North",
-      "date": "2026-07-23 14:35",
-      "titleKo": "북한의 핵 독트린: 한미동맹에 대한 시사점 및 전략적 대응방안",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": true
-    },
-    {
-      "title": "North Korea’s Subdued Signaling Toward China During Treaty Anniversary",
-      "url": "https://www.38north.org/2026/07/north-koreas-subdued-signaling-toward-china-during-treaty-anniversary/",
-      "source": "38 North",
-      "date": "2026-07-20 19:46",
-      "titleKo": "조약 기념일 동안 북한이 중국을 향해 보내는 굴복된 신호",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "Latest Articles from North Korea - KCNA Watch",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdExoMHRvY1kxSzBfS05wVmYyb3FMSzFxVk1ZMW5yUHRfSU53U1pzNFV3WEJYcjk1UkVxQ3RIWmNBeUloa0hpTDZSblpmczNMaVh3Y0RPN1ptMU5kRTdueFhmb2FKX0o4Z3ZqQ190S1QtOC1RMktWbExwbnFmWnViZUJkUjlzTnhhQjF3aFNFa0lKSlVwYzlHd0IzYUo5SThRRV9QeGJB?oc=5",
-      "source": "KCNA Watch",
-      "date": "2026-06-20 02:10",
-      "titleKo": "북한의 최신 기사 - KCNA Watch",
-      "confidence": "D",
-      "sourceType": "북한 관영매체",
-      "originKey": "kcna",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "kcna",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "주장·교차검증 필요",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korea As It Is: The Case for a Cold Peace",
-      "url": "https://beyondparallel.csis.org/north-korea-as-it-is-the-case-for-a-cold-peace/",
-      "source": "CSIS Beyond Parallel",
-      "date": "2026-04-21 05:23",
-      "titleKo": "있는 그대로의 북한: 냉전적 평화의 사례",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "csis-beyond-parallel",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "csis-beyond-parallel",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korean UAVs at Panghyon",
-      "url": "https://beyondparallel.csis.org/north-korean-uavs-at-panghyon/",
-      "source": "CSIS Beyond Parallel",
-      "date": "2026-03-03 15:19",
-      "titleKo": "판교의 북한 무인 항공기",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "csis-beyond-parallel",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "csis-beyond-parallel",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korea in 2026: Intentions, Realities, and Response",
-      "url": "https://beyondparallel.csis.org/north-korea-in-2026-intentions-realities-and-response/",
-      "source": "CSIS Beyond Parallel",
-      "date": "2026-02-02 06:37",
-      "titleKo": "2026년 북한: 의도, 현실, 대응",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "csis-beyond-parallel",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "csis-beyond-parallel",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     }
   ],
   "sourceHealth": {
-    "successful": 26,
+    "successful": 27,
     "total": 28,
-    "directSuccessful": 4,
+    "directSuccessful": 6,
     "directTotal": 14,
     "directSources": [
       {
         "name": "합동참모본부",
         "url": "https://www.jcs.mil.kr/",
         "kind": "공식 발표 원문",
-        "ok": false,
+        "ok": true,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "대한민국 국방부",
         "url": "https://www.mnd.go.kr/mnd/167/subview.do",
         "kind": "공식 발표 원문",
-        "ok": false,
+        "ok": true,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "IAEA DPRK",
@@ -1144,7 +1167,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "미 국방부",
@@ -1152,7 +1175,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "미 국무부",
@@ -1160,7 +1183,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 3,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "미 인도태평양사령부",
@@ -1168,7 +1191,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "주한미군",
@@ -1176,7 +1199,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "유엔군사령부",
@@ -1184,7 +1207,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "일본 방위성",
@@ -1192,7 +1215,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "영국 FCDO",
@@ -1200,7 +1223,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "ICAO",
@@ -1208,7 +1231,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "IMO",
@@ -1216,7 +1239,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "CTBTO",
@@ -1224,7 +1247,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "USGS 지진 관측",
@@ -1232,7 +1255,7 @@
         "kind": "지진 관측 데이터",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       }
     ],
     "embassyMonitors": [
@@ -1243,7 +1266,7 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "영국 FCDO 한국 여행안내",
@@ -1252,7 +1275,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "일본 외무성 한국 안전정보",
@@ -1261,7 +1284,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "프랑스 외교부 한국 안전정보",
@@ -1270,7 +1293,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "독일 외무부 한국 안전정보",
@@ -1279,7 +1302,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "호주 Smartraveller 한국 여행안내",
@@ -1288,7 +1311,7 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "캐나다 한국 여행안내",
@@ -1297,7 +1320,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       },
       {
         "name": "주한미군 공식 발표",
@@ -1306,18 +1329,16 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 8. 6. AM 7:13"
+        "checkedAt": "2026. 8. 6. PM 8:17"
       }
     ],
-    "uniqueSources": 12,
-    "topSource": "DailyNK",
+    "uniqueSources": 13,
+    "topSource": "NK News",
     "topSourceShare": 17,
     "concentrationWarning": false,
     "articleCount": 30,
-    "checkedAt": "2026. 8. 6. AM 7:13",
+    "checkedAt": "2026. 8. 6. PM 8:17",
     "failedSources": [
-      "합동참모본부",
-      "대한민국 국방부",
       "IAEA DPRK",
       "미 국방부",
       "미 인도태평양사령부",
@@ -1330,6 +1351,222 @@
   },
   "relatedInfo": [
     {
+      "title": "Seoul’s restoration of inter-Korean railway could still reap benefits: experts - NK News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdk1BX2s3cVpjSmJZU1hJYUhsbmM0RGdocUtyd2Z6bG5zcWpCVUNWXzQyb0JtaXU4RFVEZXJGWS1KaktpWFdqTnJoNXhobk56QU1iNDM3dHZsZFoyS21VZ1pkZm0wOU5ULWFxRVYyQ21yRGd0Ti01NDBOQVhOc3R2bWhoeWo5aWxtUUpwQkVxcE04S0l1am53RDBPQkxGVmgwVFhtT2d5enlZb2Fi?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 09:51",
+      "titleKo": "서울의 남북 철도 복원은 여전히 혜택을 누릴 수 있습니다: 전문가 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Flooding wipes out North Korean villages at key military base near border - NK News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTHdTSE16Z0h0cEl0akpORDd5OENJNG11UFBZVzNzSE9uUVhOaXc0Z2o4dkxhYkVaaDA5dVByV3AxZy10Y3pPdXNSMWUtNURPaXU2RTc5OV8zenAwajlTdFpJN081TXR3UVJ4SHNkUUxjczhxTkhkb0lEanZQNnQydFpOSFZTLWRzSUg3LUk4NUh4MmlVaEduTWNjMERXR25tZWlN?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 09:11",
+      "titleKo": "홍수로 인해 국경 근처의 주요 군사 기지에 있는 북한 마을이 전멸 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "접경·생활안전",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "북한, 동해상으로 미상 발사체 발사",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008693831&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-08-06 08:41",
+      "titleKo": "북한, 동해상으로 미상 발사체 발사",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "North Korea launches unidentified projectile toward East Sea: JCS - NK News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVmhvYlNoaHBZZXJxRXZZTlp1bDJmcmlYbFFBZGg1VDZLNXpZSE9OZ283SjBHQVF0WmpoSmh0akVJWnVtQkNIQjJFUmVTa0pLb2NNOEtMek5NS2VRZXlwRktxUHBLQ0tsU3hyRFlvdlRLOTZQMkZheks2a3RxelAtYTF0c3NwZHJXQTRkTmYxOU1uSmdBTGs3OXdzRXU?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 08:22",
+      "titleKo": "북한, 동해상으로 미확인 발사체 발사: JCS - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "What we know about North Korean forces joining Russia's war against Ukraine - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPck5RYzRha0ZtTldodHlHZENRNDVadTRPNGoxblhlYmNsOG9iUzhlemNsSFZ2RDZqLUVJWHRTQXluejluUW04Rks5M3l4ZDd1OXBWeVpwODFfRjJHeFlPN2d2S0RSbjFXZkVBWDNmTGZfRFpCWkF4ZTJ4ZlJoRDBVSkhTbHR0UmJEQTduQ3Jra2ZueHhQalhxZXBVRXNBb3NuLWgyRktBM1czU3lrdUNVZndZNlBrXzJjbFlsdS1yTnF0amdiQndQNlVCWWd1WUxQWncw?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-06 07:50",
+      "titleKo": "러시아의 우크라이나 전쟁에 동참하는 북한군에 대해 우리가 알고 있는 것 - 로이터",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "reuters",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "reuters",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "대외관계",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "63 North Korean defectors enter South in first half of 2026: Seoul - NK News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNVFMTmd3LTlhMndnSGtMR0NpeWVnRlVPTl9UVklOLXEzM2J1TG1xOEpJem8tR2NnNWlCbE9scDFkMTI4aHFiM0dLQ24tT0hNN204RWlVN0REXzZ2SFMzc3lDd1c0a2JMQ1VMV3ctWkx5c2ZiYlkzQzd6SHNvWTFfM2VBWWlwekNOM0tuNFlDTjBHaU1zSm1BNFhocnphUQ?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 07:45",
+      "titleKo": "2026년 상반기 북한이탈주민 63명 남측 진출: 서울 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "북한 사회·경제",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Number of North Korean Defectors to South Plummets in 1st Half - KBS WORLD Radio",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HLXF5NzQ5cHdkQU9OcTY2TUhydTB4SnZjRVdTV3BfTUljLVpZcmFqdHZubThBUDd5ZEhxZ2hITnpvRTZTX2VCTl9lbkRlMzNpRG4yaXVDUldBNGxkaTlNLUNMdjY1M0JZaXZwQkVvS2pVQWI2NGR3?oc=5",
+      "source": "KBS WORLD Radio",
+      "date": "2026-08-06 07:06",
+      "titleKo": "전반기 북한 남침 탈북자 수 - KBS WORLD Radio",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "kbs-world-radio",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "kbs-world-radio",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Book review: The struggle in carrying out development work in North Korea - NK News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaGVWQ1pucjBRdlFjR1JVXzNOT09YaUFEWXJKbmdkakd5OWNRY1VOLTYwMFlOSTVOcHRtazFLS1ZUV3BZX1lGSkdDVkdQTnkybjdUUjVnMzg5dHJ2MXgzbHJ5N2hEdmhUSWFSOXF1NzgxeFN3MElFUEJSMEJrSXFybkFyeUVMUXZIc0JTQTQ4d3VhWU1yNDh4ZHdrUVpOZW9oRmkwMGNsMA?oc=5",
+      "source": "NK News",
+      "date": "2026-08-06 07:04",
+      "titleKo": "서평: 북한 개발 사업 수행 투쟁 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Clash of Clans knockoff popular in North Korea with more than 40,000 players online - Radio Free Asia",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTzV1WHdkQmlWVDhjd21sZGdDcUxud3lGS1QxSDVuYldRMWtXS2RCSlZEbmhzRVhZamJZclRiak52RHdnZXdfQkRzTDNTbjJYcXJieDd3RnJ3NmNRN043WVdBTzdZR3l6dDdRVXhfQlVnbGM4akljeDBOWUpndkRpVWxpUFRUTjVD?oc=5",
+      "source": "Radio Free Asia",
+      "date": "2026-08-06 03:48",
+      "titleKo": "클래시 오브 클랜 (Clash of Clans) 은 4만 명 이상의 온라인 플레이어가 있는 북한에서 인기를 끌고 있습니다 - Radio Free Asia",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "radio-free-asia",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "radio-free-asia",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "미 해병대, 한국서 첫 자폭드론 실사격 훈련…\"한반도 지형 학습\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008693235&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-08-06 03:36",
+      "titleKo": "미 해병대, 한국서 첫 자폭드론 실사격 훈련…\"한반도 지형 학습\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "North Korea orders top-level border vigilance amid China blood alliance push - DailyNK",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3lBMm41T2dOV1hKcjNxMi11VHllRG5nU1ZyR3RXaUJ2OE9ZVm85WF9xamljTUt6bXdyU3ZXanNBS1NCMEU5eW8waVEtUXN0N2VJR18tc3JLTVRnbGtCYW1Cb3pxU1VBaEpmT2JQSTdoWUg5dEdwUWtxdU9RSFJVSFEyMlpTVHQ2NXc?oc=5",
+      "source": "DailyNK",
+      "date": "2026-08-05 22:05",
+      "titleKo": "북한, 중국 혈맹 밀어붙이는 가운데 최상위 국경 경계 명령 - DailyNK",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "dailynk",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "dailynk",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "대외관계",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "New drivers fuel rise in North Korea traffic accidents - DailyNK",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiN090Ul90UndfMEp3eEJMLTcxTEdPdzJXU1dDSXozTnQ4Z3VTcVRodlgxbTZnZGVPQlVJTlBRLTNScktjVXdEQU9LOGpTeUFtRDVyVE8xb0hKS05tT0FORVhvSHN2OHU0STB5OU9LdU5Eam9hcG9BZDQtRHFObmM?oc=5",
+      "source": "DailyNK",
+      "date": "2026-08-05 22:05",
+      "titleKo": "북한 교통사고에 신규 운전자 연료 상승 - DailyNK",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "dailynk",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "dailynk",
+      "directReport": true,
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
       "title": "Satellite images show Pyongyang glowing, outskirts dark - North Korea News — Daily NK | Latest DPRK Updates 2026 - DailyNK",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObzl5bmsyaHljYWRmM3oyOHBrcFg1MGU0VnZiN1hSb1owd2pCTGg4bVlza2lMTW9fSG1nVGtTWjE5cTViaUo3RjRkUS1xRVRTYnlzZnViMFpKOEhsUTFtbWVSaXN6S1MxM3E4VnZOR1BJejd0MmJhWGhlQ3hnVjVVMlpWUXh4U01ZVXg1M3ZLc0c?oc=5",
       "source": "DailyNK",
@@ -1341,7 +1578,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1351,7 +1588,7 @@
       "title": "North Koreans face heatstroke and robbery in the same breath - DailyNK",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdDZDMlRNU0lhc3FGSXI5Qnh6ckg3UXQ2a3RNSXpXMGZqYnFNal9kVEJwZWxSbHZFOU9QaGlyMWFnZ3RQNXRzQkMxN0hqRnBUVXZveE9HY3NmNFpacmJYbzktWnhSbllOQW9iSHJtWFVsYzY1TWR1NGUwd2VjbG5LU0dWYVZCSWsteFE?oc=5",
       "source": "DailyNK",
-      "date": "2026-08-05 20:37",
+      "date": "2026-08-05 20:39",
       "titleKo": "북한 주민들이 같은 호흡으로 열사병과 강도 사건에 직면하다 - DailyNK",
       "confidence": "C",
       "sourceType": "언론·전문보도",
@@ -1359,7 +1596,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 사회·경제",
@@ -1369,7 +1606,7 @@
       "title": "North Korea expands mandatory HIV testing to service workers - DailyNK",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCeFNxZzdjSC1pSzRTRWZUVkNva29VN2pWNUQtR0FaaHAxbXl3TFdiNlpkSl9VWHRMMDJqRkpsVVl5b0xoeTBDbzV1aW9NM3JqY3pwdTZPb085cGpBQUJYU1g3ZVVuRDN6V0xCZVVjMTFYQ0FKR1hORE1oZTk?oc=5",
       "source": "DailyNK",
-      "date": "2026-08-05 17:29",
+      "date": "2026-08-05 17:30",
       "titleKo": "북한, 서비스업 종사자 대상 HIV 검사 의무화 확대 - DailyNK",
       "confidence": "C",
       "sourceType": "언론·전문보도",
@@ -1377,25 +1614,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "North Koreans turn to underground app for banned information - DailyNK",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMHl0RXI1STdZbFpsNzd0N2tMcVVsMEFvaXRtUXBXb29WVVBEMUZ6SkhROXNvZ0JUaGd2MWtuQUlVMW53V09tNng0OUFQVGtJQ3RlNHpoMk1CZXM0YThkUDVnYzNxbjBTdXhXcEZCOVFNaE55MTE4ZXBRVnJ2YUJOc1pnTXZpQnM?oc=5",
-      "source": "DailyNK",
-      "date": "2026-08-05 15:39",
-      "titleKo": "북한 사람들은 금지된 정보를 얻기 위해 지하 앱으로 눈을 돌립니다 - DailyNK",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "dailynk",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "dailynk",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1413,80 +1632,8 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "ap-news",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "North Korea threatens response to Japan’s arms buildup ahead of Asian Games - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1fTFR0SFN5Z2hHaVN3NTVNVDJHNzRBbVVHZ0ROVC1yd2JYdFRURFdyZjVoTmFxeUNaVk5xeXJQQ3dJdTRUcV9B?oc=5",
-      "source": "NK News",
-      "date": "2026-08-05 08:28",
-      "titleKo": "북한이 아시안게임을 앞두고 일본의 무력 증강에 대한 대응을 위협하고 있다. - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Vietnam to honor North Korean pilots killed in war with first-ever memorial - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSHhxcV91V3lrbGlHaDk2eWpMNEZjWlN3UVNtN2F2YnpsaEViWW5QcW1fOWduVmdDYm8xNHNsNzZJVGxCYlZNZmxmMjdTMW1DOG5ZRk9IR293dHlQTGpndHdqSmdPRm92SjE4enhudWZyNU0xLUdzRWd5U1dkRzhzVUdPdlFBXzVvd3JqMl9Jc0VOcm1ET2RXaUVEak81YjFaQlNCVGhZZGVHLUk?oc=5",
-      "source": "NK News",
-      "date": "2026-08-05 07:43",
-      "titleKo": "베트남, 사상 최초의 기념비로 전쟁에서 사망한 북한 조종사 기리기 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "North Korean attack could leave 76,000 unexploded shells in an hour - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CM1ZrR0NwYnVsRjNIbmI2NVhXaGZFdUtjTDJYME5nVEJieElSTjBfZ2t4TUVWeExELTc3ZDNaT0FRbFJndGlB?oc=5",
-      "source": "NK News",
-      "date": "2026-08-05 06:38",
-      "titleKo": "북한 공격으로 한 시간에 76,000발의 폭발하지 않은 포탄이 남을 수 있다 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Jerome Sauvage on North Korea’s crises, contradictions and quiet moments - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1xNlc3Z0lrNC1SeXFGaWFvZ2VEUFJyV1RaeWlnWnRWaGdzVGdUZm1DVjBOVm0za0RZWWJMNGZDa3ROSUVjNVBZ?oc=5",
-      "source": "NK News",
-      "date": "2026-08-05 06:23",
-      "titleKo": "제롬 소베이지, 북한의 위기, 모순, 조용한 순간에 대해 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
@@ -1503,28 +1650,10 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "North Korea orders top-level border vigilance amid China blood alliance push - DailyNK",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3lBMm41T2dOV1hKcjNxMi11VHllRG5nU1ZyR3RXaUJ2OE9ZVm85WF9xamljTUt6bXdyU3ZXanNBS1NCMEU5eW8waVEtUXN0N2VJR18tc3JLTVRnbGtCYW1Cb3pxU1VBaEpmT2JQSTdoWUg5dEdwUWtxdU9RSFJVSFEyMlpTVHQ2NXc?oc=5",
-      "source": "DailyNK",
-      "date": "2026-08-05 02:49",
-      "titleKo": "북한, 중국 혈맹 밀어붙이는 가운데 최상위 국경 경계 명령 - DailyNK",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "dailynk",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "dailynk",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "대외관계",
       "scoreImpact": "위험도 미반영"
     },
     {
@@ -1539,7 +1668,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1557,7 +1686,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "institute-for-the-study-of-war",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1575,118 +1704,10 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "From Recovery to Development: North Korea’s New Five-Year Economic Plan",
-      "url": "https://www.38north.org/2026/08/from-recovery-to-development-north-koreas-new-five-year-economic-plan/",
-      "source": "38 North",
-      "date": "2026-08-04 15:42",
-      "titleKo": "회복에서 발전으로: 북한의 새로운 5개년 경제 계획",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 사회·경제",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Beyond Pyongyang: Regional Development, Modernization, and Inequality in North Korea - Stimson Center",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcWdENVZVZkdRSnlOS2otdkY3U283OUZDUHJPalhTWGhUX3AtVG13eVMtQmc0WUloSEt5b1JlRzJKa0c1ZWN2eXVQQ2lOejFaVTJ6VVhrTjVUYV9NcnZ0WVVmWGZka2pZeWpzbGgzSW9iVm9OZFdQWmlFZlNvbHlWX3M4cDZ6Qlp5cUNrakpqcDVnNHJTS2dvTjhqRG41Tl9TckdmVG1nR3dxM0ZwYWFubS1R?oc=5",
-      "source": "Stimson Center",
-      "date": "2026-08-03 22:53",
-      "titleKo": "평양을 넘어서: 북한의 지역개발, 근대화, 불평등 - 스팀슨 센터",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "stimson-center",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "stimson-center",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "North Korea says US-led cyber threat warnings are bid to smear its image - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT1p0X2Q1eTEza1hKaDFERjZ5LU9WYlVySlhrcHFwUGJPaHpBdnRhekFnV3lEb0FleGN0cDF5S0t1cFE3bFRiZkhXSlc1U0gwZ2NhWFlhNUdjR2VXTlNiYl9OLW9nRmxJdlk1cWc2Z0lyTFBEclp0TE1lb3lXNms2b0dJVFNaeUhyOEJ4N3VHQTR2dEVGNmdfNnI1RHhxbTZkblREMGpIdTNKSEhmQnduOVRCY2c1MzB2WExfRFZ3V1dydw?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-03 21:55",
-      "titleKo": "북한은 미국 주도의 사이버 위협 경고가 자국 이미지를 훼손하기 위해 입찰되었다고 말합니다. - 로이터",
-      "confidence": "B",
-      "sourceType": "주요 통신사 취재",
-      "originKey": "reuters",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "reuters",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Freelance New York Times reporter subpoenaed over reporting on failed US mission in North Korea - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcGwwc2VpLTExYzlvcFV6bTVrbTJwMFdNdkI3Ym42UXZVcXBwRVFvS3FPaEsxUk5mb2pONUdMOERldVlKeklBUnRKRmFaZUtBVzJVbElpQ3drOHJQdHp4bm5Sb2E3Y1Vrbi1PaEliakZ3NV8yd1RtdUotYlB1UXJkbTFoSThwN3NnSnAtd1FQVlVSQQ?oc=5",
-      "source": "The Guardian",
-      "date": "2026-08-01 19:50",
-      "titleKo": "프리랜서 뉴욕 타임스 기자가 북한에서 실패한 미국 선교에 대한 보도에 대해 소환장을 보냈습니다. - 가디언",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "the-guardian",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "the-guardian",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "More Than a Destroyer: What Choe Hyon Reveals About North Korea’s Maritime Strategy",
-      "url": "https://www.38north.org/2026/07/more-than-a-destroyer-what-choe-hyon-reveals-about-north-koreas-maritime-strategy/",
-      "source": "38 North",
-      "date": "2026-07-30 18:59",
-      "titleKo": "More Than a Destroyer: Choe Hyon이 밝힌 북한의 해양 전략",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "China’s Position on the Emerging Russia–North Korea Military Cooperation and Its Implications for the U.S.-ROK Alliance - RAND Corporation",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54WEdyTU1sYmc4N3djOFcyekgyZ2MwRE9XdFpndDlyUFJnXzBrWng1LXo3ZThkUUVVTEhQbkd2eHRzVlR5ckxldnRfRVdNU1hDWnd5bXZuSDBWRW9yeTRFczJQSEpveFNi?oc=5",
-      "source": "RAND Corporation",
-      "date": "2026-07-30 14:08",
-      "titleKo": "신흥러시아-북한 군사협력에 대한 중국의 입장과 한미동맹에 대한 시사점 - RAND Corporation",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "rand-corporation",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "rand-corporation",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "대외관계",
       "scoreImpact": "위험도 미반영"
     }
   ],
@@ -1697,7 +1718,7 @@
         "titleKo": "미국: 연결 실패",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
         "source": "미국 국무부 한국 여행경보",
-        "date": "2026. 8. 6. AM 7:13",
+        "date": "2026. 8. 6. PM 8:17",
         "confidence": "D"
       },
       {
@@ -1705,7 +1726,7 @@
         "titleKo": "영국: 공식 대피 문구 없음",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
         "source": "영국 FCDO 한국 여행안내",
-        "date": "2026. 8. 6. AM 7:13",
+        "date": "2026. 8. 6. PM 8:17",
         "confidence": "A"
       },
       {
@@ -1713,7 +1734,7 @@
         "titleKo": "일본: 공식 대피 문구 없음",
         "url": "https://www.anzen.mofa.go.jp/m/mbtravelspecificinfo_003.html",
         "source": "일본 외무성 한국 안전정보",
-        "date": "2026. 8. 6. AM 7:13",
+        "date": "2026. 8. 6. PM 8:17",
         "confidence": "A"
       },
       {
@@ -1721,7 +1742,7 @@
         "titleKo": "프랑스: 공식 대피 문구 없음",
         "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-sud/conseils-aux-voyageurs-securite",
         "source": "프랑스 외교부 한국 안전정보",
-        "date": "2026. 8. 6. AM 7:13",
+        "date": "2026. 8. 6. PM 8:17",
         "confidence": "A"
       },
       {
@@ -1729,7 +1750,7 @@
         "titleKo": "독일: 공식 대피 문구 없음",
         "url": "https://www.auswaertiges-amt.de/de/service/laender/korearepublik-node/korearepubliksicherheit-216132",
         "source": "독일 외무부 한국 안전정보",
-        "date": "2026. 8. 6. AM 7:13",
+        "date": "2026. 8. 6. PM 8:17",
         "confidence": "A"
       },
       {
@@ -1737,7 +1758,7 @@
         "titleKo": "호주: 연결 실패",
         "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
         "source": "호주 Smartraveller 한국 여행안내",
-        "date": "2026. 8. 6. AM 7:13",
+        "date": "2026. 8. 6. PM 8:17",
         "confidence": "D"
       },
       {
@@ -1745,7 +1766,7 @@
         "titleKo": "캐나다: 공식 대피 문구 없음",
         "url": "https://travel.gc.ca/destinations/south-korea",
         "source": "캐나다 한국 여행안내",
-        "date": "2026. 8. 6. AM 7:13",
+        "date": "2026. 8. 6. PM 8:17",
         "confidence": "A"
       },
       {
@@ -1753,13 +1774,13 @@
         "titleKo": "주한미군: 연결 실패",
         "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/",
         "source": "주한미군 공식 발표",
-        "date": "2026. 8. 6. AM 7:13",
+        "date": "2026. 8. 6. PM 8:17",
         "confidence": "D"
       }
     ]
   },
   "anomalyIndex": {
-    "score": 0,
+    "score": 1,
     "maximum": 10,
     "level": "안정",
     "categories": [
@@ -1768,7 +1789,7 @@
         "label": "군사 이동",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13",
+        "checkedAt": "2026. 8. 6. PM 8:17",
         "evidence": []
       },
       {
@@ -1776,7 +1797,7 @@
         "label": "외교·대피",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13",
+        "checkedAt": "2026. 8. 6. PM 8:17",
         "evidence": []
       },
       {
@@ -1784,7 +1805,7 @@
         "label": "국경·교통",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13",
+        "checkedAt": "2026. 8. 6. PM 8:17",
         "evidence": []
       },
       {
@@ -1792,22 +1813,49 @@
         "label": "지휘·주민",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13",
+        "checkedAt": "2026. 8. 6. PM 8:17",
         "evidence": []
       },
       {
         "id": "strategic",
         "label": "전략 활동",
-        "score": 0,
-        "status": "변화 없음",
-        "checkedAt": "2026. 8. 6. AM 7:13",
-        "evidence": []
+        "score": 1,
+        "status": "관찰",
+        "checkedAt": "2026. 8. 6. PM 8:17",
+        "evidence": [
+          {
+            "label": "청와대, 북한 탄도미사일 발사에 긴급점검회의 개최…\"도발 행위 즉각 중단\"",
+            "url": "https://www.yonhapnewstv.co.kr/news/AKR20260806190443zZP",
+            "grade": "B",
+            "source": "연합뉴스TV",
+            "sourceType": "주요 통신사 취재",
+            "originKey": "연합뉴스tv",
+            "publishedAt": "2026-08-06 10:04",
+            "checkedAt": "2026. 8. 6. PM 8:17",
+            "claim": "미사일 시험 관련 근거",
+            "directReport": true
+          },
+          {
+            "label": "청와대, 북한 미사일 발사에 긴급안보상황점검회의 개최",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008693952&plink=RSSLINK&cooper=RSSREADER",
+            "grade": "B",
+            "source": "SBS 뉴스",
+            "sourceType": "언론·전문보도",
+            "originKey": "sbs-뉴스",
+            "publishedAt": "2026-08-06 09:38",
+            "checkedAt": "2026. 8. 6. PM 8:17",
+            "claim": "미사일 시험 관련 근거",
+            "directReport": true
+          }
+        ]
       }
     ],
     "change": {
-      "added": [],
+      "added": [
+        "전략 활동"
+      ],
       "cleared": [],
-      "delta": 0
+      "delta": 1
     },
     "trend": [
       {
@@ -1836,10 +1884,10 @@
       },
       {
         "date": "2026-08-06",
-        "score": 0
+        "score": 1
       }
     ],
-    "checkedAt": "2026. 8. 6. AM 7:13",
+    "checkedAt": "2026. 8. 6. PM 8:17",
     "note": "공개자료의 이상 패턴을 보여주는 보조 지수이며 종합 위험점수에는 반영하지 않습니다."
   },
   "osintWatch": [
@@ -1855,7 +1903,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "institute-for-the-study-of-war",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "전문 분석·OSINT",
@@ -1873,7 +1921,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "38-north",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "전문 분석·OSINT",
@@ -1891,7 +1939,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "stimson-center",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "전문 분석·OSINT",
@@ -1909,7 +1957,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "38-north",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "전문 분석·OSINT",
@@ -1927,125 +1975,17 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "rand-corporation",
       "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "전문 분석·OSINT",
-      "scoreImpact": "종합 위험점수 미반영"
-    },
-    {
-      "title": "Not All Overseas Income Is Alike: DPRK Medical Workers and the Limits of Sanctions Equivalence",
-      "url": "https://www.38north.org/2026/07/not-all-overseas-income-is-alike-dprk-medical-workers-and-the-limits-of-sanctions-equivalence/",
-      "source": "38 North",
-      "date": "2026-07-28 17:46",
-      "titleKo": "모든 해외 소득이 동일한 것은 아닙니다: 조선민주주의인민공화국 의료 노동자와 제재 동등성의 한계",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "전문 분석·OSINT",
-      "scoreImpact": "종합 위험점수 미반영"
-    },
-    {
-      "title": "North Korea’s Nuclear Doctrine: Implications and Strategic Countermeasures for the US-ROK Alliance",
-      "url": "https://www.38north.org/2026/07/north-koreas-nuclear-doctrine-implications-and-strategic-countermeasures-for-the-us-rok-alliance/",
-      "source": "38 North",
-      "date": "2026-07-23 14:35",
-      "titleKo": "북한의 핵 독트린: 한미동맹에 대한 시사점 및 전략적 대응방안",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": true,
-      "topic": "전문 분석·OSINT",
-      "scoreImpact": "종합 위험점수 미반영"
-    },
-    {
-      "title": "North Korea’s Subdued Signaling Toward China During Treaty Anniversary",
-      "url": "https://www.38north.org/2026/07/north-koreas-subdued-signaling-toward-china-during-treaty-anniversary/",
-      "source": "38 North",
-      "date": "2026-07-20 19:46",
-      "titleKo": "조약 기념일 동안 북한이 중국을 향해 보내는 굴복된 신호",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "전문 분석·OSINT",
-      "scoreImpact": "종합 위험점수 미반영"
-    },
-    {
-      "title": "North Korea As It Is: The Case for a Cold Peace",
-      "url": "https://beyondparallel.csis.org/north-korea-as-it-is-the-case-for-a-cold-peace/",
-      "source": "CSIS Beyond Parallel",
-      "date": "2026-04-21 05:23",
-      "titleKo": "있는 그대로의 북한: 냉전적 평화의 사례",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "csis-beyond-parallel",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "csis-beyond-parallel",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "전문 분석·OSINT",
-      "scoreImpact": "종합 위험점수 미반영"
-    },
-    {
-      "title": "North Korean UAVs at Panghyon",
-      "url": "https://beyondparallel.csis.org/north-korean-uavs-at-panghyon/",
-      "source": "CSIS Beyond Parallel",
-      "date": "2026-03-03 15:19",
-      "titleKo": "판교의 북한 무인 항공기",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "csis-beyond-parallel",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "csis-beyond-parallel",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "전문 분석·OSINT",
-      "scoreImpact": "종합 위험점수 미반영"
-    },
-    {
-      "title": "North Korea in 2026: Intentions, Realities, and Response",
-      "url": "https://beyondparallel.csis.org/north-korea-in-2026-intentions-realities-and-response/",
-      "source": "CSIS Beyond Parallel",
-      "date": "2026-02-02 06:37",
-      "titleKo": "2026년 북한: 의도, 현실, 대응",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "csis-beyond-parallel",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "csis-beyond-parallel",
-      "directReport": true,
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "전문 분석·OSINT",
       "scoreImpact": "종합 위험점수 미반영"
     }
   ],
-  "generatedAt": "2026-08-05T22:13:33.922Z",
+  "generatedAt": "2026-08-06T11:17:42.346Z",
   "judgment": {
     "confidence": "낮음",
-    "completeness": 18,
+    "completeness": 22,
     "largestGaps": [
       "대규모 병력 이동은 공개정보로 직접 탐지하기 어렵습니다.",
       "포병·미사일 부대 이동은 공개정보로 직접 탐지하기 어렵습니다.",
@@ -2077,17 +2017,17 @@
     "disclaimer": "이 평가는 공개적으로 검증 가능한 자료를 기반으로 한다. 공개자료에서 확인되지 않았다는 것이 실제로 존재하지 않는다는 의미는 아니다. 공식 재난경보나 정부 지시가 발령되면 대시보드 판단보다 해당 지시를 우선한다."
   },
   "dataQuality": {
-    "completeness": 18,
+    "completeness": 22,
     "successfulIndicators": 7,
-    "retainedIndicators": 17,
-    "failedIndicators": 13,
-    "staleIndicators": 17,
+    "retainedIndicators": 16,
+    "failedIndicators": 11,
+    "staleIndicators": 16,
     "latestDirectObservation": "최신 직접 관측자료 없음",
-    "checkedAt": "2026. 8. 6. AM 7:13",
+    "checkedAt": "2026. 8. 6. PM 8:17",
     "collectionScope": {
       "targets": 50,
       "period": "최근 7일",
-      "lastSearch": "2026. 8. 6. AM 7:13",
+      "lastSearch": "2026. 8. 6. PM 8:17",
       "inaccessible": [
         "북한 내부 비공개 군사통신",
         "유료 상업위성 전체 영상",
@@ -2097,12 +2037,12 @@
     }
   },
   "ingestion": {
-    "collected": 609,
+    "collected": 607,
     "retained": 30,
-    "duplicatesAndReprints": 577,
-    "commentaryExcluded": 26,
-    "riskRelevant": 4,
-    "newIndependentInformation": 0
+    "duplicatesAndReprints": 567,
+    "commentaryExcluded": 25,
+    "riskRelevant": 5,
+    "newIndependentInformation": 2
   },
   "scoreModel": {
     "baseScore": 0,
@@ -2140,25 +2080,48 @@
       "label": "미사일 시험",
       "weight": 5,
       "verified": false,
-      "partiallyVerified": false,
-      "status": "공개자료상 미탐지",
-      "independentSourceCount": 0,
+      "partiallyVerified": true,
+      "status": "일부 확인",
+      "independentSourceCount": 1,
       "directObservationCount": 0,
       "partyClaimCount": 0,
-      "judgmentConfidence": "중간",
+      "judgmentConfidence": "낮음",
       "detectability": "높음",
       "informationGap": "공개 공식자료 범위 밖의 정보는 확인할 수 없습니다.",
-      "opposingEvidence": [
-        "공개 검색 범위에서 신규 근거가 발견되지 않음"
+      "opposingEvidence": [],
+      "checkedAt": "2026. 8. 6. PM 8:17",
+      "sources": [
+        {
+          "label": "청와대, 북한 탄도미사일 발사에 긴급점검회의 개최…\"도발 행위 즉각 중단\"",
+          "url": "https://www.yonhapnewstv.co.kr/news/AKR20260806190443zZP",
+          "grade": "B",
+          "source": "연합뉴스TV",
+          "sourceType": "주요 통신사 취재",
+          "originKey": "연합뉴스tv",
+          "publishedAt": "2026-08-06 10:04",
+          "checkedAt": "2026. 8. 6. PM 8:17",
+          "claim": "미사일 시험 관련 근거",
+          "directReport": true
+        },
+        {
+          "label": "청와대, 북한 미사일 발사에 긴급안보상황점검회의 개최",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008693952&plink=RSSLINK&cooper=RSSREADER",
+          "grade": "B",
+          "source": "SBS 뉴스",
+          "sourceType": "언론·전문보도",
+          "originKey": "sbs-뉴스",
+          "publishedAt": "2026-08-06 09:38",
+          "checkedAt": "2026. 8. 6. PM 8:17",
+          "claim": "미사일 시험 관련 근거",
+          "directReport": true
+        }
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
-      "sources": [],
-      "change": "이전 상태 유지",
-      "collectionStatus": "이전 상태 유지",
-      "lastNewInformation": "확인된 신규 정보 없음",
+      "change": "공개자료상 미탐지 → 일부 확인",
+      "collectionStatus": "신규 확인",
+      "lastNewInformation": "2026-08-06 10:04",
       "lastDirectObservation": "직접 관측 부족",
-      "sourceReliability": "확인 가능한 원정보 없음",
-      "stateReason": "확인 가능한 신규 원정보가 없으며 탐지 가능성을 함께 고려함"
+      "sourceReliability": "주요 통신사 취재",
+      "stateReason": "관련 공개자료는 있으나 독립 교차검증 기준 미충족"
     },
     {
       "id": "troop_movement",
@@ -2176,7 +2139,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2201,7 +2164,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2226,7 +2189,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2251,7 +2214,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2276,7 +2239,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2301,7 +2264,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2326,7 +2289,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2351,7 +2314,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2376,7 +2339,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2401,7 +2364,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2426,7 +2389,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2451,7 +2414,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2476,7 +2439,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2501,7 +2464,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2526,7 +2489,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2551,7 +2514,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 8. 6. AM 7:13",
+      "checkedAt": "2026. 8. 6. PM 8:17",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2571,7 +2534,7 @@
     "officialGuidance": {
       "name": "국민안전24 비상시 국민행동요령",
       "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?actsHeaderTitle=%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&category=stateOfEmergency&menuSn=4",
-      "checkedAt": "2026. 8. 6. AM 7:13"
+      "checkedAt": "2026. 8. 6. PM 8:17"
     }
   }
 }
