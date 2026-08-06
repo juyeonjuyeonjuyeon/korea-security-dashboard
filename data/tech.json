@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 6. AM 8:26",
+  "updatedAt": "2026. 8. 6. PM 12:43",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "Cloudflare는 2026년 SASE 및 SSE 보고서에서 Visionary로 선정된 유일한 공급업체입니다.",
+  "headline": "v16.3.1-canary.4",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 75,
+    "recentCount": 74,
     "sourceCount": 23,
-    "officialCount": 22,
+    "officialCount": 23,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: Cloudflare는 2026년 SASE 및 SSE 보고서에서 Visionary로 선정된 유일한 공급업체입니다.",
+    "새 출시: v16.3.1-canary.4",
     "창작 기술: AI로 생성된 아동 성적 학대 이미지가 포함된 Meta Ran 광고"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 29,
+      "count": 28,
       "summary": "Meta, 대규모 코드 베이스용 AI 에이전트 Muse Code 출시",
       "latest": "2026-08-05 21:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T23:26:02.044Z",
+      "lastRefreshed": "2026-08-06T03:43:29.983Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,7 +38,7 @@
       "summary": "미국을 위한 NVIDIA와 파트너십 구축",
       "latest": "2026-08-05 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T23:26:02.044Z",
+      "lastRefreshed": "2026-08-06T03:43:29.983Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "트래비스 칼라닉 (Travis Kalanick) 의 로봇 스타트업 아톰스 (Atoms) 가 전 우버 재무 최고책임자 (CFO) 를 맡",
       "latest": "2026-08-05 21:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T23:26:02.044Z",
+      "lastRefreshed": "2026-08-06T03:43:29.983Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "OpenAI는 여러 사기 체계에서 ChatGPT를 사용하여 Poipet 사기 네트워크를 방해합니다",
       "latest": "2026-08-05 18:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T23:26:02.044Z",
+      "lastRefreshed": "2026-08-06T03:43:29.983Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,11 +71,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 19,
+      "count": 16,
       "summary": "SpaceX는 Starlink Mobile이 AT&T, T-Mobile 및 Verizon보다 더 나을 것이라고 주장합니다.",
       "latest": "2026-08-05 19:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T23:26:02.044Z",
+      "lastRefreshed": "2026-08-06T03:43:29.983Z",
       "themes": [
         "주요 기업"
       ]
@@ -84,22 +84,24 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
-      "summary": "연구에 따르면 사람들은 정부 및 소셜 미디어보다 AI를 더 신뢰합니다.",
-      "latest": "2026-08-05 16:56",
+      "count": 6,
+      "summary": "Lucid, Tesla의 Robotaxi 비즈니스에서 또 다른 Salvo를 목표로 함",
+      "latest": "2026-08-06 01:55",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-05T23:26:02.044Z",
-      "themes": []
+      "lastRefreshed": "2026-08-06T03:43:29.983Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
-      "summary": "Cloudflare는 2026년 SASE 및 SSE 보고서에서 Visionary로 선정된 유일한 공급업체입니다.",
-      "latest": "2026-08-05 23:24",
+      "count": 19,
+      "summary": "테스트 도중 Meta의 AI 모델이 다른 회사를 해킹하기도 했습니다.",
+      "latest": "2026-08-06 00:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-05T23:26:02.044Z",
+      "lastRefreshed": "2026-08-06T03:43:29.983Z",
       "themes": [
         "주요 기업"
       ]
@@ -107,6 +109,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.1-canary.4",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.4",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-05 23:59",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.4",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
         "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
@@ -290,22 +308,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "NASA’s Perseverance Captures Phobos and Earth",
-        "url": "https://science.nasa.gov/photojournal/nasas-perseverance-captures-phobos-and-earth/",
-        "source": "NASA",
-        "date": "2026-08-05 15:28",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "포보스와 지구를 포착하는 NASA의 끈기",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -404,6 +406,108 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Lucid Aims Another Salvo At Tesla’s Robotaxi Business",
+        "url": "https://cleantechnica.com/2026/08/05/lucid-evs-robotaxi-driverless-tesla-cybercab-elon-musk/",
+        "source": "CleanTechnica",
+        "date": "2026-08-06 01:55",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Lucid, Tesla의 Robotaxi 비즈니스에서 또 다른 Salvo를 목표로 함",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Wayve & Uber Can Now Deploy Robotaxis in London",
+        "url": "https://cleantechnica.com/2026/08/05/wayve-uber-can-now-deploy-robotaxis-in-london/",
+        "source": "CleanTechnica",
+        "date": "2026-08-06 00:55",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "웨이브님과 Uber는 이제 런던에 로보택시를 배치할 수 있습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "An AI model from Meta also hacked another company during testing",
+        "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-06 00:25",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "테스트 도중 Meta의 AI 모델이 다른 회사를 해킹하기도 했습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Eugene Clean Energy Fund Officially Qualifies for the November 2026 Ballot",
+        "url": "https://cleantechnica.com/2026/08/05/eugene-clean-energy-fund-officially-qualifies-for-the-november-2026-ballot/",
+        "source": "CleanTechnica",
+        "date": "2026-08-06 00:10",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "유진 청정에너지 기금, 2026년 11월 투표권 공식 획득",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Third-party cyber evaluations involving OpenAI models",
+        "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-05 23:45",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "OpenAI 모델과 관련된 제3자 사이버 평가",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+        "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-05 23:32",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "사고 보고서: 사이버 테스트 중 승인되지 않은 상담원 행동",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Travis Kalanick’s robotics startup Atoms taps former Uber finance chief as CFO",
         "url": "https://techcrunch.com/2026/08/05/travis-kalanicks-robotics-startup-atoms-taps-former-uber-finance-chief-as-cfo/",
@@ -505,113 +609,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
-        "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-08-05 19:42",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "Claude Fable 5를 사용하여 너구리 강도 게임 원샷하기",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "SpaceX claims Starlink Mobile will be better than AT&T, T-Mobile, and Verizon",
-        "url": "https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/",
-        "source": "Ars Technica",
-        "date": "2026-08-05 19:38",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "SpaceX는 Starlink Mobile이 AT&T, T-Mobile 및 Verizon보다 더 나을 것이라고 주장합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-        "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-        "source": "TechCrunch",
-        "date": "2026-08-05 19:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "제프 딘 (Jeff Dean) 과 다른 최고 인공지능 연구원들이 구글을 떠나 자체 스타트업을 시작하고 있다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Avnet and Weston Robot partner to launch edge AI inspection platform",
-        "url": "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
-        "source": "The Robot Report",
-        "date": "2026-08-05 19:10",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Avnet과 Weston Robot 파트너, 엣지 AI 검사 플랫폼 출시",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google's AI shake-up: DeepMind's Hassabis steps aside, senior scientists depart",
-        "url": "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/",
-        "source": "Ars Technica",
-        "date": "2026-08-05 19:05",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google의 AI 흔들기: DeepMind의 Hassabis가 한 발짝 물러나고 선임 과학자들이 출발합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta debuts first AI coding agent to take on Anthropic and OpenAI - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXpCdFJVQk9lTzZ1WFk5cENzSWRNa3hkYVRfMy1vZXMxekkzQXRja2xKX0E5dzRFQXVRUDgwWDFOSWEwRWJnQU55UjVQUms0b2NuOGl1NlpUT2FqUVFPMm9WWkRqZkhWX3lyQnIxck5vZDU0RE5zdXBUalY0THd1dm5qLS1VSG1FVzh4dWNFYWQ5SFlXM2fSAZsBQVVfeXFMUDRqYXFzVEpSNHM5N24zTDBlYmd6bDRlM0FmUnB2dldBNGRIMlo2cHd3Zm5kZXVaS1k4NVFZb1hUOXhuRnh4cFlabUFmQ0NDdmE2U0F0ZHBfdnJSajBWcXowZnE1a1RhMmsydzZ2YmoyMUpyYTdlRVRBSnBxX3haUkRWOVEzOFY5aDhmVUhYNzZJdDJjdWtaRXpJNUk?oc=5",
-        "source": "CNBC",
-        "date": "2026-08-05 19:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta, Anthropic 및 OpenAI를 맡은 최초의 AI 코딩 에이전트 데뷔 - CNBC",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Prime Agent: A self-improving RLM agent",
+        "url": "https://www.primeintellect.ai/blog/prime-agent",
+        "source": "Hacker News",
+        "date": "2026-08-05 21:11",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "프라임 에이전트: 자기 계발 RLM 에이전트",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
         "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
@@ -700,26 +716,128 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
-        "url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
-        "source": "Hacker News",
-        "date": "2026-08-05 12:41",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "시간은 AI 봇을 광고가 내장된 다른 웹 사이트로 서비스합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Lucid Aims Another Salvo At Tesla’s Robotaxi Business",
+      "url": "https://cleantechnica.com/2026/08/05/lucid-evs-robotaxi-driverless-tesla-cybercab-elon-musk/",
+      "source": "CleanTechnica",
+      "date": "2026-08-06 01:55",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Lucid, Tesla의 Robotaxi 비즈니스에서 또 다른 Salvo를 목표로 함",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Wayve & Uber Can Now Deploy Robotaxis in London",
+      "url": "https://cleantechnica.com/2026/08/05/wayve-uber-can-now-deploy-robotaxis-in-london/",
+      "source": "CleanTechnica",
+      "date": "2026-08-06 00:55",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "웨이브님과 Uber는 이제 런던에 로보택시를 배치할 수 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "An AI model from Meta also hacked another company during testing",
+      "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+      "source": "Simon Willison",
+      "date": "2026-08-06 00:25",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "테스트 도중 Meta의 AI 모델이 다른 회사를 해킹하기도 했습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Eugene Clean Energy Fund Officially Qualifies for the November 2026 Ballot",
+      "url": "https://cleantechnica.com/2026/08/05/eugene-clean-energy-fund-officially-qualifies-for-the-november-2026-ballot/",
+      "source": "CleanTechnica",
+      "date": "2026-08-06 00:10",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "유진 청정에너지 기금, 2026년 11월 투표권 공식 획득",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.3.1-canary.4",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.4",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-05 23:59",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.4",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+      "source": "Simon Willison",
+      "date": "2026-08-05 23:45",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "OpenAI 모델과 관련된 제3자 사이버 평가",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+      "source": "Simon Willison",
+      "date": "2026-08-05 23:32",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "사고 보고서: 사이버 테스트 중 승인되지 않은 상담원 행동",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
       "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
@@ -769,6 +887,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Prime Agent: A self-improving RLM agent",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "source": "Hacker News",
+      "date": "2026-08-05 21:11",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "프라임 에이전트: 자기 계발 RLM 에이전트",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Trump’s DOJ gains oversight of OpenAI’s green-card employee sponsorships",
@@ -1526,22 +1660,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
-      "url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
-      "source": "Hacker News",
-      "date": "2026-08-05 12:41",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "시간은 AI 봇을 광고가 내장된 다른 웹 사이트로 서비스합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Satellite manufacturing thrives in California despite cost and regulatory pressures",
       "url": "https://spacenews.com/satellite-manufacturing-thrives-in-california-despite-cost-and-regulatory-pressures/",
       "source": "SpaceNews",
@@ -1670,6 +1788,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Export AI Gateway traces with Vercel Drains",
+      "url": "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains",
+      "source": "Vercel Changelog",
+      "date": "2026-08-05 05:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Export AI Gateway traces with Vercel Drains",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "APOD: 2026 August 5 – Spokes on Saturn’s B Ring",
@@ -1818,22 +1952,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Waymo Launches Robotaxi Service in Dallas",
-      "url": "https://cleantechnica.com/2026/08/04/waymo-launches-robotaxi-service-in-dallas/",
-      "source": "CleanTechnica",
-      "date": "2026-08-05 03:17",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Waymo, 댈러스에서 Robotaxi 서비스 출시",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Elon Musk's space data center vision reshapes Asia's launch industry - Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX0h4NHFjX0hFX1FxRlNfRE5nM3RUUXBqTlNpSnMtaHFwd1NGdWtVbEM5VVYzS1FoZW8tdXBiLTJkODFYYUNSejBtSTgzV3FQV01yT1liYlBaZzRTVTZPSklrS2V2bWRKWkdnVXc1SHpzcWZ4S0paTzZxWDNiR3hvUFQ2MHIxenZ0alVpQmRUdi1DU1lxU3ByVnlVb1JFR1pNR1B2c2VpWnI5UkpLWkZUMnNfLWJjb1lEX2p0NWdSZw?oc=5",
       "source": "Nikkei Asia",
@@ -1916,22 +2034,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
-      "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute",
-      "source": "Vercel Changelog",
-      "date": "2026-08-05 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "v16.3.1-canary.2",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.2",
       "source": "GitHub · Next.js",
@@ -1946,106 +2048,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
-      "source": "Simon Willison",
-      "date": "2026-08-04 23:58",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "소프트웨어·개발",
-      "titleKo": "LLM의 새로운 릴리스는 추론 추적, OpenAI 응답, 서버 측 도구 및 더 스마트한 로깅에 대한 지원을 추가합니다.",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Students To Help Identify Retirement Options for Energy Technologies",
-      "url": "https://cleantechnica.com/2026/08/04/students-to-help-identify-retirement-options-for-energy-technologies/",
-      "source": "CleanTechnica",
-      "date": "2026-08-04 23:09",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "에너지 기술에 대한 은퇴 옵션을 파악하는 데 도움을 주는 학생들",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Trump advisers tell AI firms they will not safety-test open-weight models - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa1dFYnlpdVZxSzIyWnptbDAxbjlwMzNtdEFtVFRkYXQ5OWpxbTBBaU44LUg5Tl9oX2ZnT2R2REQ0S2JWdjVid1NkWmM5aUJyOTZFZE9lQnNRWHhhS1NIVXBsTW9CRGZoRHlQTVZTOXhzVndCYkxZUEFUcElGdG9leU1ISlpLaWJER3dZUC13NmQ2SjNGMVpPcXc4NzdrbWlhekFiV19aYWZKaGJCblhvNnVFbWo0UVJUSWQ4eWVCSHZtRXFqU01zOQ?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-04 23:03",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Trump advisers tell AI firms they will not safety-test open-weight models - Reuters",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "SpaceX to begin Starship orbital flights",
-      "url": "https://spacenews.com/spacex-to-begin-starship-orbital-flights/",
-      "source": "SpaceNews",
-      "date": "2026-08-04 22:51",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "우주선 궤도 비행을 시작하는 SpaceX",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Rocket Lab, STR win Space Force contracts for airborne-target tracking",
-      "url": "https://spacenews.com/rocket-lab-str-win-space-force-contracts-for-airborne-target-tracking-technologies/",
-      "source": "SpaceNews",
-      "date": "2026-08-04 22:47",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "로켓 연구소, STR, 공중-표적 추적을 위한 우주군 계약 체결",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Rocket Lab, STR win Space Force contracts for airborne-target tracking technologies",
-      "url": "https://spacenews.com/rocket-lab-str-win-space-force-contracts-for-airborne-target-tracking-technologies/",
-      "source": "SpaceNews",
-      "date": "2026-08-04 22:47",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "로켓랩, STR, 공중-표적 추적 기술로 우주군 계약 체결",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2053,7 +2055,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 8. 6. AM 8:26",
+    "checkedAt": "2026. 8. 6. PM 12:43",
     "mode": "매시간 공식 레이더"
   }
 }
