@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 8. AM 7:57",
+  "updatedAt": "2026. 8. 8. AM 8:50",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.31.0",
+  "headline": "v16.3.1-canary.8",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 66,
+    "recentCount": 67,
     "sourceCount": 22,
-    "officialCount": 28,
+    "officialCount": 29,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.31.0",
+    "새 출시: v16.3.1-canary.8",
     "창작 기술: ICE는 에이전시의 '최선의 이익' 에서 볼 때만 바디 캠 비디오를 공개합니다."
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
+      "count": 32,
       "summary": "OpenAI는 보안 문제에 대한 Astra 모델 개발을 늦추었다고 말합니다.",
       "latest": "2026-08-07 22:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T22:57:17.091Z",
+      "lastRefreshed": "2026-08-07T23:50:33.403Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -38,7 +38,7 @@
       "summary": "Elon Musk, Nvidia에 올인: AI 인프라를 위한 SpaceX의 칩 전략의 의미 - TechRepublic",
       "latest": "2026-08-06 16:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T22:57:17.091Z",
+      "lastRefreshed": "2026-08-07T23:50:33.403Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,11 +47,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 4,
+      "count": 3,
       "summary": "창고에서 살아남는 로봇 만들기",
       "latest": "2026-08-07 22:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T22:57:17.091Z",
+      "lastRefreshed": "2026-08-07T23:50:33.403Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
       "latest": "2026-08-07 17:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T22:57:17.091Z",
+      "lastRefreshed": "2026-08-07T23:50:33.403Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,12 +71,13 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 12,
-      "summary": "상원, 미군 우주 획득을 위한 새로운 수장 설치, 스파이 위성",
-      "latest": "2026-08-07 21:03",
+      "count": 13,
+      "summary": "유럽의 무료 위성 서비스를 통해 산불 추적이 더 쉬워졌습니다.",
+      "latest": "2026-08-07 21:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T22:57:17.091Z",
+      "lastRefreshed": "2026-08-07T23:50:33.403Z",
       "themes": [
+        "기회",
         "주요 기업",
         "미술·디자인"
       ]
@@ -89,18 +90,18 @@
       "summary": "새로운 안티 에너지 효율 법안은 소비자, 폐기물 에너지를 비용 것입니다",
       "latest": "2026-08-07 19:16",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-07T22:57:17.091Z",
+      "lastRefreshed": "2026-08-07T23:50:33.403Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
-      "summary": "Copilot Impact 대시보드에 투자 수익률 섹션이 추가됩니다.",
-      "latest": "2026-08-07 21:05",
+      "count": 22,
+      "summary": "v16.3.1-canary.8",
+      "latest": "2026-08-07 23:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T22:57:17.091Z",
+      "lastRefreshed": "2026-08-07T23:50:33.403Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -109,6 +110,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.1-canary.8",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.8",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-07 23:48",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.8",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.31.0",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.31.0",
@@ -120,6 +137,22 @@
         "category": "인공지능",
         "titleKo": "v0.31.0",
         "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Enterprises can now install third-party GitHub Apps",
+        "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+        "source": "GitHub Changelog",
+        "date": "2026-08-07 21:40",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "이제 기업에서 타사 GitHub 앱을 설치할 수 있습니다.",
+        "type": "오픈소스",
         "themes": [],
         "official": true,
         "sourceLayer": "official",
@@ -274,40 +307,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v0.121.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0",
-        "source": "GitHub · Anthropic SDK",
-        "date": "2026-08-07 17:10",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v0.121.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Vercel Container Registry repositories can now be made public",
-        "url": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
-        "source": "Vercel Changelog",
-        "date": "2026-08-07 17:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Vercel Container Registry repositories can now be made public",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -403,24 +402,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Large genome models used to design new viruses",
-        "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
-        "source": "Ars Technica",
-        "date": "2026-08-06 19:04",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "새로운 바이러스를 설계하는 데 사용되는 대형 게놈 모델",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash - BBC",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90YV9kRTFSdHl2RU51UWZhby1FdU9XM3N3RHU5UnRxa2FCbGRDSXVaQTM0OXhyNUVFRTN1ZjBzQnN5QWVOajJUVnAwSmJkR0xMbXZXUkZvQWdGUQ?oc=5",
         "source": "BBC",
@@ -473,6 +454,24 @@
         "titleKo": "창고에서 살아남는 로봇 만들기",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Europe's free satellite service just made it easier to track wildfires",
+        "url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+        "source": "Ars Technica",
+        "date": "2026-08-07 21:48",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "유럽의 무료 위성 서비스를 통해 산불 추적이 더 쉬워졌습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "기회"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -622,22 +621,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Disney Plus tries a new AI-powered search",
-        "url": "https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search",
-        "source": "The Verge",
-        "date": "2026-08-07 17:53",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Disney Plus tries a new AI-powered search",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -745,6 +728,22 @@
   },
   "news": [
     {
+      "title": "v16.3.1-canary.8",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.8",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-07 23:48",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.8",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "OpenAI says it slowed Astra model development over security concerns",
       "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
       "source": "TechCrunch",
@@ -793,6 +792,40 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Europe's free satellite service just made it easier to track wildfires",
+      "url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+      "source": "Ars Technica",
+      "date": "2026-08-07 21:48",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "유럽의 무료 위성 서비스를 통해 산불 추적이 더 쉬워졌습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "기회"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Enterprises can now install third-party GitHub Apps",
+      "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+      "source": "GitHub Changelog",
+      "date": "2026-08-07 21:40",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "이제 기업에서 타사 GitHub 앱을 설치할 수 있습니다.",
+      "type": "오픈소스",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
@@ -1253,22 +1286,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
-      "url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
-      "source": "GitHub Changelog",
-      "date": "2026-08-07 15:07",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "GitHub Code Quality는 더 이상 Copilot을 검토자로 추가하지 않습니다",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
@@ -1958,24 +1975,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Large genome models used to design new viruses",
-      "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
-      "source": "Ars Technica",
-      "date": "2026-08-06 19:04",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "새로운 바이러스를 설계하는 데 사용되는 대형 게놈 모델",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90YV9kRTFSdHl2RU51UWZhby1FdU9XM3N3RHU5UnRxa2FCbGRDSXVaQTM0OXhyNUVFRTN1ZjBzQnN5QWVOajJUVnAwSmJkR0xMbXZXUkZvQWdGUQ?oc=5",
       "source": "BBC",
@@ -2043,22 +2042,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "How Robin, the robotic companion, keeps patients calm during hospital visits",
-      "url": "https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits/",
-      "source": "The Robot Report",
-      "date": "2026-08-06 14:09",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "로봇 동반자 로빈이 병원 방문 중 환자를 진정시키는 방법",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2066,7 +2049,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 8. AM 7:57",
+    "checkedAt": "2026. 8. 8. AM 8:50",
     "mode": "매시간 공식 레이더"
   }
 }
