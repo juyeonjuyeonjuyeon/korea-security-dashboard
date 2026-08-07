@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 7. PM 6:57",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 7. PM 8:10",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.1-canary.7",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 62,
-    "sourceCount": 24,
+    "recentCount": 61,
+    "sourceCount": 23,
     "officialCount": 27,
     "opportunityCount": 0
   },
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
+      "count": 29,
       "summary": "인공지능이 자연에서 발견할 수 없는 새로운 바이러스를 설계하다 - Axios",
       "latest": "2026-08-07 06:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T09:57:13.949Z",
+      "lastRefreshed": "2026-08-07T11:10:12.813Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -38,7 +38,7 @@
       "summary": "Elon Musk, Nvidia에 올인: AI 인프라를 위한 SpaceX의 칩 전략의 의미 - TechRepublic",
       "latest": "2026-08-06 16:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T09:57:13.949Z",
+      "lastRefreshed": "2026-08-07T11:10:12.813Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,18 +51,18 @@
       "summary": "HII, Path Robotics, GrayMatter Robotics와 최대 $ 900M 계약 체결",
       "latest": "2026-08-06 20:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T09:57:13.949Z",
+      "lastRefreshed": "2026-08-07T11:10:12.813Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 3,
-      "summary": "Claude Code 및 Gemini CLI 결함으로 인해 GitHub 이슈가 CI 워크플로 시크릿에 도달하게 됨",
-      "latest": "2026-08-07 08:18",
+      "count": 4,
+      "summary": "AI-Assisted HTTP Terminator는 새로운 HTTP Desync 기법과 Apache Zero-Day를 찾습니다.",
+      "latest": "2026-08-07 10:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T09:57:13.949Z",
+      "lastRefreshed": "2026-08-07T11:10:12.813Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,7 +75,7 @@
       "summary": "양당 상원 법안은 중국과의 갈등에 대한 우주군 훈련을 날카롭게 할 것입니다",
       "latest": "2026-08-07 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T09:57:13.949Z",
+      "lastRefreshed": "2026-08-07T11:10:12.813Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -89,7 +89,7 @@
       "summary": "수소 열차의 헤드라인을 확인하세요. 배터리 트레인이 사용됩니다.",
       "latest": "2026-08-07 09:37",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-07T09:57:13.949Z",
+      "lastRefreshed": "2026-08-07T11:10:12.813Z",
       "themes": [
         "주요 기업"
       ]
@@ -100,9 +100,9 @@
       "label": "소프트웨어·개발",
       "count": 22,
       "summary": "v16.3.1-canary.7",
-      "latest": "2026-08-07 09:49",
+      "latest": "2026-08-07 10:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T09:57:13.949Z",
+      "lastRefreshed": "2026-08-07T11:10:12.813Z",
       "themes": [
         "주요 기업"
       ]
@@ -114,12 +114,28 @@
         "title": "v16.3.1-canary.7",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.7",
         "source": "GitHub · Next.js",
-        "date": "2026-08-07 09:49",
+        "date": "2026-08-07 10:11",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "v16.3.1-canary.7",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v15.5.23",
+        "url": "https://github.com/vercel/next.js/releases/tag/v15.5.23",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-07 09:57",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v15.5.23",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -285,22 +301,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Taking Flight to Prepare for Space",
-        "url": "https://www.nasa.gov/image-article/taking-flight-to-prepare-for-space/",
-        "source": "NASA",
-        "date": "2026-08-06 15:15",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "우주를 준비하기 위해 비행하기",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -418,6 +418,22 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+        "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+        "source": "The Hacker News",
+        "date": "2026-08-07 10:09",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "AI-Assisted HTTP Terminator는 새로운 HTTP Desync 기법과 Apache Zero-Day를 찾습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Hydrogen Trains Get Headlines. Battery Trains Get Used.",
         "url": "https://cleantechnica.com/2026/08/07/hydrogen-trains-vs-battery-trains-fleet-data/",
@@ -595,24 +611,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
-        "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-        "source": "TechCrunch",
-        "date": "2026-08-06 22:43",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI의 새로운 AI 스마트 스피커는 300 ~ 400달러에 판매될 것으로 알려졌다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -725,12 +723,44 @@
       "title": "v16.3.1-canary.7",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.7",
       "source": "GitHub · Next.js",
-      "date": "2026-08-07 09:49",
+      "date": "2026-08-07 10:11",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
       "category": "소프트웨어·개발",
       "titleKo": "v16.3.1-canary.7",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+      "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+      "source": "The Hacker News",
+      "date": "2026-08-07 10:09",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "AI-Assisted HTTP Terminator는 새로운 HTTP Desync 기법과 Apache Zero-Day를 찾습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v15.5.23",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.23",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-07 09:57",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v15.5.23",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1461,22 +1491,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "v15.5.23",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.23",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-06 14:22",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v15.5.23",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "How Robin, the robotic companion, keeps patients calm during hospital visits",
       "url": "https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits/",
       "source": "The Robot Report",
@@ -2037,32 +2051,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Big shake-up in Google’s AI team as DeepMind chief executive steps down - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdmZiMGs5QTRuZEtKWWZkNUVCUkc1ODY5aXhxUjd0cThoLXNyNnh2dV9NRjBkU0hlM0c5WW1PdGUwYkFZanluU2puUnZyblJQemF6bWxrUC1DZWJ6UDRHZEwxVWthd1JHMlJOQXF3NE1sMVVNa3dFNEltTlM1Tjg1eEFiN0RIb3pVYVhZUmtWa1dSX0JSclNVR2xWUUNKRUtBZG5xR25mUXhDY2JJZWxhLVkzc1FYTFYta1pWRWtB?oc=5",
-      "source": "The Guardian",
-      "date": "2026-08-05 22:38",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Big shake-up in Google’s AI team as DeepMind chief executive steps down - The Guardian",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 7. PM 6:57",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 7. PM 8:10",
+    "mode": "매시간 공식 레이더"
   }
 }
