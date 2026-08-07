@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 7. PM 4:45",
+  "updatedAt": "2026. 8. 7. PM 6:17",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "NASA의 달 개발 및 테스트 시설, 달을 위한 아르테미스 하드웨어 준비",
   "metrics": {
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
+      "count": 31,
       "summary": "에이전트 네스팅: 기존 엔터프라이즈 애플리케이션 통합 및 서비스를 위한 새로운 방법론",
       "latest": "2026-08-07 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T07:45:35.772Z",
+      "lastRefreshed": "2026-08-07T09:17:27.693Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,7 +38,7 @@
       "summary": "Tesla와 SpaceX는 텍사스에 'Terafab‘ 칩 공장 건설을 시작하기 위해 $ 16.8B를 투자할 예정입니다.",
       "latest": "2026-08-06 15:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T07:45:35.772Z",
+      "lastRefreshed": "2026-08-07T09:17:27.693Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "HII, Path Robotics, GrayMatter Robotics와 최대 $ 900M 계약 체결",
       "latest": "2026-08-06 20:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T07:45:35.772Z",
+      "lastRefreshed": "2026-08-07T09:17:27.693Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "AI 권장 사항 중독: LLM 메모리를 자동으로 변경하는 \"Ask AI\" 버튼 방법",
       "latest": "2026-08-06 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T07:45:35.772Z",
+      "lastRefreshed": "2026-08-07T09:17:27.693Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,11 +71,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
-      "summary": "NASA의 달 개발 및 테스트 시설, 달을 위한 아르테미스 하드웨어 준비",
-      "latest": "2026-08-07 06:25",
+      "count": 11,
+      "summary": "양당 상원 법안은 중국과의 갈등에 대한 우주군 훈련을 날카롭게 할 것입니다",
+      "latest": "2026-08-07 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T07:45:35.772Z",
+      "lastRefreshed": "2026-08-07T09:17:27.693Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -89,7 +89,7 @@
       "summary": "도널드 트럼프, 재생 에너지에 대한 공격으로 5번째 에너지 회사 인수",
       "latest": "2026-08-06 22:46",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-07T07:45:35.772Z",
+      "lastRefreshed": "2026-08-07T09:17:27.693Z",
       "themes": [
         "주요 기업"
       ]
@@ -102,7 +102,7 @@
       "summary": "v16.3.1-canary.6",
       "latest": "2026-08-07 03:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T07:45:35.772Z",
+      "lastRefreshed": "2026-08-07T09:17:27.693Z",
       "themes": [
         "주요 기업"
       ]
@@ -439,6 +439,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Bipartisan Senate bill would sharpen Space Force training for conflict with China",
+        "url": "https://spacenews.com/bipartisan-senate-bill-would-sharpen-space-force-training-for-conflict-with-china/",
+        "source": "SpaceNews",
+        "date": "2026-08-07 09:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "양당 상원 법안은 중국과의 갈등에 대한 우주군 훈련을 날카롭게 할 것입니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
         "url": "https://arxiv.org/abs/2608.05159",
         "source": "arXiv cs.AI",
@@ -619,22 +635,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
-        "url": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/",
-        "source": "The Robot Report",
-        "date": "2026-08-06 20:19",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "HII, Path Robotics, GrayMatter Robotics와 최대 $ 900M 계약 체결",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -743,6 +743,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Bipartisan Senate bill would sharpen Space Force training for conflict with China",
+      "url": "https://spacenews.com/bipartisan-senate-bill-would-sharpen-space-force-training-for-conflict-with-china/",
+      "source": "SpaceNews",
+      "date": "2026-08-07 09:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "양당 상원 법안은 중국과의 갈등에 대한 우주군 훈련을 날카롭게 할 것입니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon",
       "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasas-lunar-development-and-test-facility-prepares-artemis-hardware-for-moon/",
@@ -2061,24 +2077,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Meta debuts first AI coding agent to take on Anthropic and OpenAI - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXpCdFJVQk9lTzZ1WFk5cENzSWRNa3hkYVRfMy1vZXMxekkzQXRja2xKX0E5dzRFQXVRUDgwWDFOSWEwRWJnQU55UjVQUms0b2NuOGl1NlpUT2FqUVFPMm9WWkRqZkhWX3lyQnIxck5vZDU0RE5zdXBUalY0THd1dm5qLS1VSG1FVzh4dWNFYWQ5SFlXM2fSAZsBQVVfeXFMUDRqYXFzVEpSNHM5N24zTDBlYmd6bDRlM0FmUnB2dldBNGRIMlo2cHd3Zm5kZXVaS1k4NVFZb1hUOXhuRnh4cFlabUFmQ0NDdmE2U0F0ZHBfdnJSajBWcXowZnE1a1RhMmsydzZ2YmoyMUpyYTdlRVRBSnBxX3haUkRWOVEzOFY5aDhmVUhYNzZJdDJjdWtaRXpJNUk?oc=5",
-      "source": "CNBC",
-      "date": "2026-08-05 19:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Meta, Anthropic 및 OpenAI를 맡은 최초의 AI 코딩 에이전트 데뷔 - CNBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2086,7 +2084,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 7. PM 4:45",
+    "checkedAt": "2026. 8. 7. PM 6:17",
     "mode": "매시간 공식 레이더"
   }
 }
