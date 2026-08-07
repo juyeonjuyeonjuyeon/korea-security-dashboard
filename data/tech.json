@@ -1,30 +1,29 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 7. AM 10:01",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v16.3.1-canary.5",
+  "updatedAt": "2026. 8. 7. PM 1:04",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v16.3.1-canary.6",
   "metrics": {
     "articleCount": 80,
     "recentCount": 60,
     "sourceCount": 22,
-    "officialCount": 24,
-    "opportunityCount": 1
+    "officialCount": 25,
+    "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.3.1-canary.5",
-    "창작 기술: 인공지능이 자연에서 발견할 수 없는 새로운 바이러스를 설계하다 - Axios",
-    "행사·무료: FinPerMA: LLM 에이전트를 위한 이론에 입각한 이벤트 기반 맞춤형 메모리 벤치마크"
+    "새 출시: v16.3.1-canary.6",
+    "창작 기술: 인공지능이 자연에서 발견할 수 없는 새로운 바이러스를 설계하다 - Axios"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "OpenAI의 새로운 AI 스마트 스피커는 300 ~ 400달러에 판매될 것으로 알려졌다.",
-      "latest": "2026-08-06 22:43",
+      "count": 31,
+      "summary": "에이전트 네스팅: 기존 엔터프라이즈 애플리케이션 통합 및 서비스를 위한 새로운 방법론",
+      "latest": "2026-08-07 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T01:01:22.225Z",
+      "lastRefreshed": "2026-08-07T04:04:35.093Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +38,7 @@
       "summary": "Tesla와 SpaceX는 텍사스에 'Terafab‘ 칩 공장 건설을 시작하기 위해 $ 16.8B를 투자할 예정입니다.",
       "latest": "2026-08-06 15:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T01:01:22.225Z",
+      "lastRefreshed": "2026-08-07T04:04:35.094Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +51,7 @@
       "summary": "HII, Path Robotics, GrayMatter Robotics와 최대 $ 900M 계약 체결",
       "latest": "2026-08-06 20:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T01:01:22.225Z",
+      "lastRefreshed": "2026-08-07T04:04:35.094Z",
       "themes": []
     },
     {
@@ -63,7 +62,7 @@
       "summary": "AI 권장 사항 중독: LLM 메모리를 자동으로 변경하는 \"Ask AI\" 버튼 방법",
       "latest": "2026-08-06 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T01:01:22.225Z",
+      "lastRefreshed": "2026-08-07T04:04:35.094Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +75,7 @@
       "summary": "교육자 및 청소년은 현지 대기 질을 조사하는 데 도움이 되는 TEMPO 데이터로 실습을 받습니다.",
       "latest": "2026-08-06 19:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T01:01:22.225Z",
+      "lastRefreshed": "2026-08-07T04:04:35.094Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -90,7 +89,7 @@
       "summary": "도널드 트럼프, 재생 에너지에 대한 공격으로 5번째 에너지 회사 인수",
       "latest": "2026-08-06 22:46",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-07T01:01:22.225Z",
+      "lastRefreshed": "2026-08-07T04:04:35.094Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,11 +98,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
-      "summary": "v16.3.1-canary.5",
-      "latest": "2026-08-07 00:52",
+      "count": 22,
+      "summary": "v16.3.1-canary.6",
+      "latest": "2026-08-07 03:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-07T01:01:22.225Z",
+      "lastRefreshed": "2026-08-07T04:04:35.094Z",
       "themes": [
         "주요 기업"
       ]
@@ -112,10 +111,26 @@
   "radar": {
     "releases": [
       {
+        "title": "v16.3.1-canary.6",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.6",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-07 03:41",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.6",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v16.3.1-canary.5",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.5",
         "source": "GitHub · Next.js",
-        "date": "2026-08-07 00:52",
+        "date": "2026-08-07 01:16",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -286,24 +301,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "GeForce NOW Shakes Up August With 26 New Games",
-        "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list/",
-        "source": "NVIDIA Blog",
-        "date": "2026-08-06 13:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "지포스는 이제 26개의 새로운 게임으로 8월을 뒤흔듭니다",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -434,48 +431,107 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
-        "source": "The Verge",
-        "date": "2026-08-05 18:04",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "물론 Fenix Flexin이 AI 음악 생성기 Treblo를 사용한 것 같습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
-    "opportunities": [
+    "opportunities": [],
+    "voices": [],
+    "analysis": [
       {
-        "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
-        "url": "https://arxiv.org/abs/2608.04095",
+        "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+        "url": "https://arxiv.org/abs/2608.05159",
         "source": "arXiv cs.AI",
-        "date": "2026-08-06 04:00",
+        "date": "2026-08-07 04:00",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "analysis",
         "category": "인공지능",
-        "titleKo": "FinPerMA: LLM 에이전트를 위한 이론에 입각한 이벤트 기반 맞춤형 메모리 벤치마크",
-        "type": "행사",
-        "themes": [
-          "기회"
-        ],
+        "titleKo": "에이전트 네스팅: 기존 엔터프라이즈 애플리케이션 통합 및 서비스를 위한 새로운 방법론",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "voices": [],
-    "analysis": [
+      },
+      {
+        "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
+        "url": "https://arxiv.org/abs/2608.05160",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-07 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "점화 지수: 언어 모델의 글로벌 작업 영역 역학 측정",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+        "url": "https://arxiv.org/abs/2608.05168",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-07 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "딱따구리 증류: 약한 모델이 강한 모델의 추론 버그를 진단합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
+        "url": "https://arxiv.org/abs/2608.05204",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-07 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "SkillTrace: LLM-Agent Skill Reuse를 위한 Multi-Trace Provenance Auditing",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
+        "url": "https://arxiv.org/abs/2608.05206",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-07 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "수달: 시간을 인식하는 역사적 인간 체스 AI",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
+        "url": "https://arxiv.org/abs/2608.05212",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-07 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "SearchAuditor: Long-Horizon 검색 에이전트에서 실패 감사 및 속성 지정",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Donald Trump Pays Off 5th Energy Company in Attack on Renewable Energy",
         "url": "https://cleantechnica.com/2026/08/06/donald-trump-pays-off-5th-energy-company-in-attack-on-renewable-energy/",
@@ -574,116 +630,6 @@
         "titleKo": "HII, Path Robotics, GrayMatter Robotics와 최대 $ 900M 계약 체결",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Suno hopes to go legit with watermarks for AI-generated music",
-        "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
-        "source": "Ars Technica",
-        "date": "2026-08-06 20:17",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Suno는 AI로 생성된 음악을 위한 워터마크와 함께 합법화되기를 희망합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic will design its own hardware to power Claude",
-        "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-        "source": "Ars Technica",
-        "date": "2026-08-06 20:03",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 Claude를 강화하기 위해 자체 하드웨어를 설계합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Large genome models used to design new viruses",
-        "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
-        "source": "Ars Technica",
-        "date": "2026-08-06 19:04",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "새로운 바이러스를 설계하는 데 사용되는 대형 게놈 모델",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI is giving ChatGPT free users unlimited text chats",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
-        "source": "The Verge",
-        "date": "2026-08-06 18:15",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI는 ChatGPT 무료 사용자에게 무제한 텍스트 채팅을 제공합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Suno shares plans to combat spammy AI music",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
-        "source": "The Verge",
-        "date": "2026-08-06 17:39",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Suno는 스팸성 AI 음악에 대처할 계획을 공유합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ChatGPT brings unlimited text chats to free users",
-        "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-        "source": "TechCrunch",
-        "date": "2026-08-06 17:34",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "ChatGPT는 무료 사용자에게 무제한 텍스트 채팅을 제공합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "기회"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -796,10 +742,122 @@
   },
   "news": [
     {
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "url": "https://arxiv.org/abs/2608.05159",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-07 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "에이전트 네스팅: 기존 엔터프라이즈 애플리케이션 통합 및 서비스를 위한 새로운 방법론",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
+      "url": "https://arxiv.org/abs/2608.05160",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-07 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "점화 지수: 언어 모델의 글로벌 작업 영역 역학 측정",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+      "url": "https://arxiv.org/abs/2608.05168",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-07 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "딱따구리 증류: 약한 모델이 강한 모델의 추론 버그를 진단합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
+      "url": "https://arxiv.org/abs/2608.05204",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-07 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "SkillTrace: LLM-Agent Skill Reuse를 위한 Multi-Trace Provenance Auditing",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
+      "url": "https://arxiv.org/abs/2608.05206",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-07 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "수달: 시간을 인식하는 역사적 인간 체스 AI",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
+      "url": "https://arxiv.org/abs/2608.05212",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-07 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "SearchAuditor: Long-Horizon 검색 에이전트에서 실패 감사 및 속성 지정",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.3.1-canary.6",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.6",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-07 03:41",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.6",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v16.3.1-canary.5",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.5",
       "source": "GitHub · Next.js",
-      "date": "2026-08-07 00:52",
+      "date": "2026-08-07 01:16",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -1691,104 +1749,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
-      "url": "https://arxiv.org/abs/2608.04012",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-06 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "중복 조정 인공 연령 점수 (AAS) 하에서 AI 시스템에 대한 장기 지속성 이론",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
-      "url": "https://arxiv.org/abs/2608.04066",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-06 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "LLM 제안, 집행부 처분: Long-Horizon 에이전트의 바인딩 드리프트에서 약속 드리프트를 해체하는 자체 검증 에이전트 도구",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
-      "url": "https://arxiv.org/abs/2608.04077",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-06 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "FinProBench: 전문 결과물에서 파생된 역할 기반 채점표로 금융 AI 상담원 평가",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
-      "url": "https://arxiv.org/abs/2608.04095",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-06 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "FinPerMA: LLM 에이전트를 위한 이론에 입각한 이벤트 기반 맞춤형 메모리 벤치마크",
-      "type": "행사",
-      "themes": [
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
-      "url": "https://arxiv.org/abs/2608.04156",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-06 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "BrainBench: 포괄적인 뇌파 이해를 위한 대규모 언어 모델 벤치마킹",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models",
-      "url": "https://arxiv.org/abs/2608.04190",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-06 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "사전 훈련된 변압기 기반 인식 모델의 역으로 강력한 외전 융합",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Lucid Aims Another Salvo At Tesla’s Robotaxi Business",
       "url": "https://cleantechnica.com/2026/08/05/lucid-evs-robotaxi-driverless-tesla-cybercab-elon-musk/",
       "source": "CleanTechnica",
@@ -2119,32 +2079,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
-      "source": "The Verge",
-      "date": "2026-08-05 18:04",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "물론 Fenix Flexin이 AI 음악 생성기 Treblo를 사용한 것 같습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 42,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 7. AM 10:01",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 7. PM 1:04",
+    "mode": "매시간 공식 레이더"
   }
 }
