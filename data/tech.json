@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 8. PM 1:31",
+  "updatedAt": "2026. 8. 8. PM 2:59",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.31.0",
+  "headline": "v0.31.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 59,
+    "recentCount": 61,
     "sourceCount": 20,
-    "officialCount": 30,
+    "officialCount": 31,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.31.0",
+    "새 출시: v0.31.1",
     "창작 기술: NIO, 배터리 스와핑을 Firefly로 열고 5세대 스와핑 스테이션 출시"
   ],
   "categories": [
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 32,
-      "summary": "v0.31.0",
-      "latest": "2026-08-08 03:10",
+      "summary": "v0.31.1",
+      "latest": "2026-08-08 05:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T04:31:02.531Z",
+      "lastRefreshed": "2026-08-08T05:59:30.885Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -38,7 +38,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T04:31:02.531Z",
+      "lastRefreshed": "2026-08-08T05:59:30.885Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "창고에서 살아남는 로봇 만들기",
       "latest": "2026-08-07 22:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T04:31:02.531Z",
+      "lastRefreshed": "2026-08-08T05:59:30.885Z",
       "themes": []
     },
     {
@@ -60,7 +60,7 @@
       "summary": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
       "latest": "2026-08-07 17:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T04:31:02.531Z",
+      "lastRefreshed": "2026-08-08T05:59:30.885Z",
       "themes": [
         "주요 기업"
       ]
@@ -70,10 +70,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 11,
-      "summary": "유럽의 무료 위성 서비스를 통해 산불 추적이 더 쉬워졌습니다.",
-      "latest": "2026-08-07 21:48",
+      "summary": "APOD: 2026년 8월 8일 – 템펠 2를 위한 메시에의 순간",
+      "latest": "2026-08-08 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T04:31:02.531Z",
+      "lastRefreshed": "2026-08-08T05:59:30.885Z",
       "themes": [
         "기회"
       ]
@@ -86,7 +86,7 @@
       "summary": "NIO, 배터리 스와핑을 Firefly로 열고 5세대 스와핑 스테이션 출시",
       "latest": "2026-08-08 01:47",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-08T04:31:02.531Z",
+      "lastRefreshed": "2026-08-08T05:59:30.885Z",
       "themes": [
         "미술·디자인"
       ]
@@ -99,7 +99,7 @@
       "summary": "이제 Hugging Face에 대한 OpenAI 우발적 공격의 타임라인이 있습니다.",
       "latest": "2026-08-07 23:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T04:31:02.531Z",
+      "lastRefreshed": "2026-08-08T05:59:30.885Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -108,6 +108,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.31.1",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.31.1",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-08-08 05:04",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.31.1",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "APOD: 2026 August 8 – A Messier Moment for Tempel 2",
+        "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-8-a-messier-moment-for-tempel-2/",
+        "source": "NASA",
+        "date": "2026-08-08 04:05",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "APOD: 2026년 8월 8일 – 템펠 2를 위한 메시에의 순간",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.31.0",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.31.0",
@@ -269,40 +301,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-        "source": "The Verge",
-        "date": "2026-08-07 18:40",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI는 브레이크가 너무 강력하기 때문에 새 모델에 브레이크를 둡니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Copilot usage metrics API adds agent app activity",
-        "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
-        "source": "GitHub Changelog",
-        "date": "2026-08-07 18:20",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Copilot 사용 메트릭 API는 상담원 앱 활동을 추가합니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -373,25 +371,6 @@
         "type": "뉴스·분석",
         "themes": [
           "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic will design its own hardware to power Claude",
-        "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-        "source": "Ars Technica",
-        "date": "2026-08-06 20:03",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 Claude를 강화하기 위해 자체 하드웨어를 설계합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -704,6 +683,38 @@
     ]
   },
   "news": [
+    {
+      "title": "v0.31.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.31.1",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-08-08 05:04",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.31.1",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "APOD: 2026 August 8 – A Messier Moment for Tempel 2",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-8-a-messier-moment-for-tempel-2/",
+      "source": "NASA",
+      "date": "2026-08-08 04:05",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "APOD: 2026년 8월 8일 – 템펠 2를 위한 메시에의 순간",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "v0.31.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.31.0",
@@ -1981,41 +1992,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic will design its own hardware to power Claude",
-      "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-      "source": "Ars Technica",
-      "date": "2026-08-06 20:03",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic은 Claude를 강화하기 위해 자체 하드웨어를 설계합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Educators & Teens Get Hands-On With TEMPO Data to Help Investigate Local Air Quality",
-      "url": "https://science.nasa.gov/learning-resources/science-activation/educators-teens-get-hands-on-with-tempo-data-to-help-investigate-local-air-quality/",
-      "source": "NASA",
-      "date": "2026-08-06 19:33",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "교육자 및 청소년은 현지 대기 질을 조사하는 데 도움이 되는 TEMPO 데이터로 실습을 받습니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2023,7 +1999,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 8. PM 1:31",
+    "checkedAt": "2026. 8. 8. PM 2:59",
     "mode": "매시간 공식 레이더"
   }
 }
