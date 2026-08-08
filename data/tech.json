@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 9. AM 7:50",
+  "updatedAt": "2026. 8. 9. AM 8:47",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
+  "headline": "v16.3.1-canary.9",
   "metrics": {
     "articleCount": 80,
     "recentCount": 23,
     "sourceCount": 24,
-    "officialCount": 29,
+    "officialCount": 30,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
+    "새 출시: v16.3.1-canary.9",
     "창작 기술: NIO, 배터리 스와핑을 Firefly로 열고 5세대 스와핑 스테이션 출시"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
+      "count": 30,
       "summary": "OpenAI, 프레젠테이션 스타트업 NextSlide 인수",
       "latest": "2026-08-08 19:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T22:50:00.640Z",
+      "lastRefreshed": "2026-08-08T23:47:38.295Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
       "latest": "2026-08-08 10:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T22:50:00.640Z",
+      "lastRefreshed": "2026-08-08T23:47:38.295Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "전문가들은 RoboBusiness에서 로봇 공학의 향후 20년을 내다보고 있습니다.",
       "latest": "2026-08-08 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T22:50:00.640Z",
+      "lastRefreshed": "2026-08-08T23:47:38.295Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
       "latest": "2026-08-08 12:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T22:50:00.640Z",
+      "lastRefreshed": "2026-08-08T23:47:38.295Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +74,7 @@
       "summary": "캐나다 우주국 Northrop Grumman, Gateway 프로젝트 용도 변경",
       "latest": "2026-08-08 17:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T22:50:00.640Z",
+      "lastRefreshed": "2026-08-08T23:47:38.295Z",
       "themes": [
         "기회"
       ]
@@ -87,7 +87,7 @@
       "summary": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
       "latest": "2026-08-08 15:04",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-08T22:50:00.640Z",
+      "lastRefreshed": "2026-08-08T23:47:38.295Z",
       "themes": [
         "미술·디자인"
       ]
@@ -96,11 +96,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 22,
-      "summary": "Pro, Max 및 Team 플랜의 경우 이제 자동 모드가 Claude Code의 기본값이 됩니다.",
-      "latest": "2026-08-08 22:36",
+      "count": 23,
+      "summary": "v16.3.1-canary.9",
+      "latest": "2026-08-08 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T22:50:00.640Z",
+      "lastRefreshed": "2026-08-08T23:47:38.295Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -109,6 +109,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.1-canary.9",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.9",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-08 23:44",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.9",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "BYD Expands PH EV Lineup with Double Model Launch, Celebrates Sealion 6 Milestone",
         "url": "https://cleantechnica.com/2026/08/08/byd-expands-ph-ev-lineup-with-double-model-launch-celebrates-sealion-6-milestone/",
@@ -292,22 +308,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Enterprises can now install third-party GitHub Apps",
-        "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
-        "source": "GitHub Changelog",
-        "date": "2026-08-07 21:40",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 기업에서 타사 GitHub 앱을 설치할 수 있습니다.",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -676,6 +676,22 @@
     ]
   },
   "news": [
+    {
+      "title": "v16.3.1-canary.9",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.9",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-08 23:44",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.9",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
       "url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
@@ -1975,22 +1991,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
-      "url": "https://arxiv.org/abs/2608.05206",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-07 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "수달: 시간을 인식하는 역사적 인간 체스 AI",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -1998,7 +1998,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 9. AM 7:50",
+    "checkedAt": "2026. 8. 9. AM 8:47",
     "mode": "매시간 공식 레이더"
   }
 }
