@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 9. AM 4:46",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 9. AM 6:31",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 32,
-    "sourceCount": 21,
-    "officialCount": 32,
+    "recentCount": 26,
+    "sourceCount": 24,
+    "officialCount": 29,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
+      "count": 32,
       "summary": "OpenAI, 프레젠테이션 스타트업 NextSlide 인수",
       "latest": "2026-08-08 19:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T19:46:53.961Z",
+      "lastRefreshed": "2026-08-08T21:31:33.734Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
       "latest": "2026-08-08 10:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T19:46:53.961Z",
+      "lastRefreshed": "2026-08-08T21:31:33.734Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,18 +50,18 @@
       "summary": "전문가들은 RoboBusiness에서 로봇 공학의 향후 20년을 내다보고 있습니다.",
       "latest": "2026-08-08 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T19:46:53.961Z",
+      "lastRefreshed": "2026-08-08T21:31:33.734Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
-      "summary": "미군 사이버사령부는 자살로 인한 사망자 집합과 씨름하고 있다.",
-      "latest": "2026-08-08 10:04",
+      "count": 5,
+      "summary": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
+      "latest": "2026-08-08 12:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T19:46:53.961Z",
+      "lastRefreshed": "2026-08-08T21:31:33.734Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +74,7 @@
       "summary": "캐나다 우주국 Northrop Grumman, Gateway 프로젝트 용도 변경",
       "latest": "2026-08-08 17:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T19:46:53.961Z",
+      "lastRefreshed": "2026-08-08T21:31:33.734Z",
       "themes": [
         "기회"
       ]
@@ -87,7 +87,7 @@
       "summary": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
       "latest": "2026-08-08 15:04",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-08T19:46:53.961Z",
+      "lastRefreshed": "2026-08-08T21:31:33.734Z",
       "themes": [
         "미술·디자인"
       ]
@@ -96,14 +96,13 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 24,
+      "count": 21,
       "summary": "이제 Hugging Face에 대한 OpenAI 우발적 공격의 타임라인이 있습니다.",
       "latest": "2026-08-08 14:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T19:46:53.961Z",
+      "lastRefreshed": "2026-08-08T21:31:33.734Z",
       "themes": [
-        "주요 기업",
-        "기회"
+        "주요 기업"
       ]
     }
   ],
@@ -121,6 +120,24 @@
         "titleKo": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
         "type": "출시·업데이트",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Exclusive: OpenAI slows release of Astra model citing cyber capabilities - Axios",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdko0MVp5V3ZKdjJjSTd3cE1QUktsRC1PMGNheTRZNVRUTmR5T3NLNTFBSkMwZjBzLTJiMFBSZVN0WTJ6UlhPMEh5TmM4eThSQi1YTGJ4UUg3M1dnZmVyQ3ZMN1N2Wkl0SEt6eDZQa3d0N2dsR1I1R25XeVVEMHp6aWdrcw?oc=5",
+        "source": "Axios",
+        "date": "2026-08-08 12:56",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -288,22 +305,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Copilot code review effort levels are generally available",
-        "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
-        "source": "GitHub Changelog",
-        "date": "2026-08-07 20:49",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Copilot 코드 검토 노력 수준은 일반적으로 사용할 수 있습니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -408,6 +409,24 @@
         "category": "소프트웨어·개발",
         "titleKo": "이제 Hugging Face에 대한 OpenAI 우발적 공격의 타임라인이 있습니다.",
         "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Exclusive: OpenAI slows release of Astra model citing cyber capabilities - Axios",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdko0MVp5V3ZKdjJjSTd3cE1QUktsRC1PMGNheTRZNVRUTmR5T3NLNTFBSkMwZjBzLTJiMFBSZVN0WTJ6UlhPMEh5TmM4eThSQi1YTGJ4UUg3M1dnZmVyQ3ZMN1N2Wkl0SEt6eDZQa3d0N2dsR1I1R25XeVVEMHp6aWdrcw?oc=5",
+        "source": "Axios",
+        "date": "2026-08-08 12:56",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
+        "type": "출시·업데이트",
         "themes": [
           "주요 기업"
         ],
@@ -527,24 +546,6 @@
         "titleKo": "창고에서 살아남는 로봇 만들기",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Europe's free satellite service just made it easier to track wildfires",
-        "url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
-        "source": "Ars Technica",
-        "date": "2026-08-07 21:48",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "유럽의 무료 위성 서비스를 통해 산불 추적이 더 쉬워졌습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "기회"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -753,6 +754,24 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Exclusive: OpenAI slows release of Astra model citing cyber capabilities - Axios",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdko0MVp5V3ZKdjJjSTd3cE1QUktsRC1PMGNheTRZNVRUTmR5T3NLNTFBSkMwZjBzLTJiMFBSZVN0WTJ6UlhPMEh5TmM4eThSQi1YTGJ4UUg3M1dnZmVyQ3ZMN1N2Wkl0SEt6eDZQa3d0N2dsR1I1R25XeVVEMHp6aWdrcw?oc=5",
+      "source": "Axios",
+      "date": "2026-08-08 12:56",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Experts look ahead at the next 20 years of robotics at RoboBusiness",
@@ -1433,16 +1452,16 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Exclusive: OpenAI slows release of Astra model citing cyber capabilities - Axios",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdko0MVp5V3ZKdjJjSTd3cE1QUktsRC1PMGNheTRZNVRUTmR5T3NLNTFBSkMwZjBzLTJiMFBSZVN0WTJ6UlhPMEh5TmM4eThSQi1YTGJ4UUg3M1dnZmVyQ3ZMN1N2Wkl0SEt6eDZQa3d0N2dsR1I1R25XeVVEMHp6aWdrcw?oc=5",
-      "source": "Axios",
-      "date": "2026-08-07 16:50",
+      "title": "Responding to the next frontier of critical cyber capabilities - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ2NXUG1KWUhSOVU2TE1wWWk5LUtwOHRBc2dGQWxlZTh2azJ2MHlnUHlTcWhaTWJKZ1g4WXUzS0VxcnRxbTByNjR6LUdJS3pYRUtKVmVwb3hQTVFqQXNSQjliUDRLSFVpR01uR3hjcTNreG1hR3FDc2ZpMW1qYXRUT25KdE8?oc=5",
+      "source": "OpenAI",
+      "date": "2026-08-07 16:37",
       "categoryId": "cyber",
       "confidence": "C",
       "stream": "news",
       "category": "사이버보안",
-      "titleKo": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
-      "type": "출시·업데이트",
+      "titleKo": "Responding to the next frontier of critical cyber capabilities - OpenAI",
+      "type": "뉴스·분석",
       "themes": [
         "주요 기업"
       ],
@@ -1478,6 +1497,24 @@
       "titleKo": "Cloudflare, AI 에이전트용 브라우저 Kitesurf 출시",
       "type": "출시·업데이트",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy | AI (artificial intelligence) - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UlBMaGtXenRldEhCZ1RTc0xIYlloVFdSQWlnV3IxWmI5UTlpT0hiTnR2cElIbGlTbzR1WGxZTmEtMGxkM2RicjRDN3BaVjJpZzBXdGNiVkVUWmtyRENVSFFpdTFlSzNGVmZyQnZ5WWctS28?oc=5",
+      "source": "The Guardian",
+      "date": "2026-08-07 15:20",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy | AI (artificial intelligence) - The Guardian",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1659,6 +1696,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Retailers tap AI shopping traffic but fight to keep customer data - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUkyUEpWNlhDYU5LbTVFTjdNa1dWdU9HbDRhWGZsRjVEU1VOY2VMVGZkOWRnY3QyS09OVzlYUWlUOVJ5QnlxaDd4TEp0em5Ea1RoZDFHVTN4UGhJcVFxTlBPZFZHVmFYUlUtSXRXNFAzQzhSWTZyazRWbXNjWEdDWmNjbWJmTWdSekdNdzRXVjRadFRwaXlGNXktYU1wblBnWW90eFhRZ0dHWjJSWXljWmxIdW9icFIzU0Uw?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-07 10:11",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Retailers tap AI shopping traffic but fight to keep customer data - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
@@ -1915,64 +1968,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.3.1-canary.5",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.5",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-07 01:16",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.1-canary.5",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Free domain now included with new Pro subscriptions",
-      "url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
-      "source": "Vercel Changelog",
-      "date": "2026-08-07 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 새로운 Pro 구독에 무료 도메인이 포함됩니다",
-      "type": "출시·업데이트",
-      "themes": [
-        "기회"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Give every agent in Herdr its own Vercel Sandbox",
-      "url": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox",
-      "source": "Vercel Changelog",
-      "date": "2026-08-06 23:01",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Give every agent in Herdr its own Vercel Sandbox",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 9. AM 4:46",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 9. AM 6:31",
+    "mode": "하루 2회 전체 수집"
   }
 }
