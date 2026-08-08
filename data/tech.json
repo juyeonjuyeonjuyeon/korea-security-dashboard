@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 9. AM 6:31",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 9. AM 7:50",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 26,
+    "recentCount": 23,
     "sourceCount": 24,
     "officialCount": 29,
     "opportunityCount": 0
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
+      "count": 31,
       "summary": "OpenAI, 프레젠테이션 스타트업 NextSlide 인수",
       "latest": "2026-08-08 19:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T21:31:33.734Z",
+      "lastRefreshed": "2026-08-08T22:50:00.640Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
       "latest": "2026-08-08 10:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T21:31:33.734Z",
+      "lastRefreshed": "2026-08-08T22:50:00.640Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "전문가들은 RoboBusiness에서 로봇 공학의 향후 20년을 내다보고 있습니다.",
       "latest": "2026-08-08 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T21:31:33.734Z",
+      "lastRefreshed": "2026-08-08T22:50:00.640Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
       "latest": "2026-08-08 12:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T21:31:33.734Z",
+      "lastRefreshed": "2026-08-08T22:50:00.640Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +74,7 @@
       "summary": "캐나다 우주국 Northrop Grumman, Gateway 프로젝트 용도 변경",
       "latest": "2026-08-08 17:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T21:31:33.734Z",
+      "lastRefreshed": "2026-08-08T22:50:00.640Z",
       "themes": [
         "기회"
       ]
@@ -87,7 +87,7 @@
       "summary": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
       "latest": "2026-08-08 15:04",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-08T21:31:33.734Z",
+      "lastRefreshed": "2026-08-08T22:50:00.640Z",
       "themes": [
         "미술·디자인"
       ]
@@ -96,13 +96,14 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
-      "summary": "이제 Hugging Face에 대한 OpenAI 우발적 공격의 타임라인이 있습니다.",
-      "latest": "2026-08-08 14:06",
+      "count": 22,
+      "summary": "Pro, Max 및 Team 플랜의 경우 이제 자동 모드가 Claude Code의 기본값이 됩니다.",
+      "latest": "2026-08-08 22:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T21:31:33.734Z",
+      "lastRefreshed": "2026-08-08T22:50:00.640Z",
       "themes": [
-        "주요 기업"
+        "주요 기업",
+        "미술·디자인"
       ]
     }
   ],
@@ -227,6 +228,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Grok Imagine Image 2.0 now available on Vercel AI Gateway",
+        "url": "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway",
+        "source": "Vercel Changelog",
+        "date": "2026-08-08 00:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "이제 Vercel AI Gateway에서 Grok Imagine Image 2.0을 사용할 수 있습니다.",
+        "type": "출시·업데이트",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v16.3.1-canary.8",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.8",
         "source": "GitHub · Next.js",
@@ -289,22 +308,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Copilot impact dashboard adds a return on investment section",
-        "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
-        "source": "GitHub Changelog",
-        "date": "2026-08-07 21:05",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Copilot Impact 대시보드에 투자 수익률 섹션이 추가됩니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -325,6 +328,24 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Grok Imagine Image 2.0 now available on Vercel AI Gateway",
+        "url": "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway",
+        "source": "Vercel Changelog",
+        "date": "2026-08-08 00:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "이제 Vercel AI Gateway에서 Grok Imagine Image 2.0을 사용할 수 있습니다.",
+        "type": "출시·업데이트",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       },
       {
         "title": "Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro",
@@ -348,6 +369,22 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+        "url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-08 22:36",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "Pro, Max 및 Team 플랜의 경우 이제 자동 모드가 Claude Code의 기본값이 됩니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "OpenAI acquires presentation startup NextSlide",
         "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
@@ -533,22 +570,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Building robots that survive the warehouse",
-        "url": "https://www.therobotreport.com/building-robots-that-survive-warehouse/",
-        "source": "The Robot Report",
-        "date": "2026-08-07 22:01",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "창고에서 살아남는 로봇 만들기",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -655,6 +676,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+      "source": "Simon Willison",
+      "date": "2026-08-08 22:36",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "Pro, Max 및 Team 플랜의 경우 이제 자동 모드가 Claude Code의 기본값이 됩니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "OpenAI acquires presentation startup NextSlide",
       "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
@@ -972,6 +1009,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Grok Imagine Image 2.0 now available on Vercel AI Gateway",
+      "url": "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-08-08 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "이제 Vercel AI Gateway에서 Grok Imagine Image 2.0을 사용할 수 있습니다.",
+      "type": "출시·업데이트",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "v16.3.1-canary.8",
@@ -1936,46 +1991,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
-      "url": "https://arxiv.org/abs/2608.05212",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-07 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "SearchAuditor: Long-Horizon 검색 에이전트에서 실패 감사 및 속성 지정",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v16.3.1-canary.6",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.6",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-07 03:41",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.1-canary.6",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 9. AM 6:31",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 9. AM 7:50",
+    "mode": "매시간 공식 레이더"
   }
 }
