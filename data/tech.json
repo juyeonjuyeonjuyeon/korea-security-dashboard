@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 8. PM 6:32",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v0.31.1",
+  "updatedAt": "2026. 8. 8. PM 7:53",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 58,
-    "sourceCount": 20,
-    "officialCount": 31,
+    "recentCount": 56,
+    "sourceCount": 21,
+    "officialCount": 32,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.31.1",
+    "새 출시: Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
     "창작 기술: NIO, 배터리 스와핑을 Firefly로 열고 5세대 스와핑 스테이션 출시"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
+      "count": 31,
       "summary": "v0.31.1",
       "latest": "2026-08-08 05:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T09:32:37.612Z",
+      "lastRefreshed": "2026-08-08T10:53:26.003Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -34,12 +34,14 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 0,
-      "summary": "새로운 주요 변화 확인 없음",
-      "latest": "—",
+      "count": 1,
+      "summary": "Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
+      "latest": "2026-08-08 10:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T09:32:37.612Z",
-      "themes": []
+      "lastRefreshed": "2026-08-08T10:53:26.003Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "robotics",
@@ -49,7 +51,7 @@
       "summary": "창고에서 살아남는 로봇 만들기",
       "latest": "2026-08-07 22:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T09:32:37.612Z",
+      "lastRefreshed": "2026-08-08T10:53:26.003Z",
       "themes": []
     },
     {
@@ -60,7 +62,7 @@
       "summary": "독점: OpenAI는 사이버 기능을 인용하는 Astra 모델의 출시를 늦춥니다 - Axios",
       "latest": "2026-08-07 16:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T09:32:37.612Z",
+      "lastRefreshed": "2026-08-08T10:53:26.003Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,7 +75,7 @@
       "summary": "APOD: 2026년 8월 8일 – 템펠 2를 위한 메시에의 순간",
       "latest": "2026-08-08 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T09:32:37.612Z",
+      "lastRefreshed": "2026-08-08T10:53:26.003Z",
       "themes": [
         "기회"
       ]
@@ -83,10 +85,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 6,
-      "summary": "NIO, 배터리 스와핑을 Firefly로 열고 5세대 스와핑 스테이션 출시",
-      "latest": "2026-08-08 01:47",
+      "summary": "중국에서 활성화된 세계 최대의 12.8GWh 배터리 저장 클러스터",
+      "latest": "2026-08-08 10:11",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-08T09:32:37.612Z",
+      "lastRefreshed": "2026-08-08T10:53:26.003Z",
       "themes": [
         "미술·디자인"
       ]
@@ -99,7 +101,7 @@
       "summary": "이제 Hugging Face에 대한 OpenAI 우발적 공격의 타임라인이 있습니다.",
       "latest": "2026-08-07 23:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-08T09:32:37.612Z",
+      "lastRefreshed": "2026-08-08T10:53:26.003Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -108,6 +110,24 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+        "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+        "source": "NVIDIA Blog",
+        "date": "2026-08-08 10:24",
+        "categoryId": "chips",
+        "confidence": "A",
+        "stream": "release",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.31.1",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.31.1",
@@ -285,22 +305,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "2026 IGARSS Hyperwall Schedule",
-        "url": "https://science.nasa.gov/earth/2026-igarss-hyperwall-schedule/",
-        "source": "NASA",
-        "date": "2026-08-07 18:57",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "2026 IGARSS 하이퍼월 일정",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -357,29 +361,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Suno hopes to go legit with watermarks for AI-generated music",
-        "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
-        "source": "Ars Technica",
-        "date": "2026-08-06 20:17",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Suno는 AI로 생성된 음악을 위한 워터마크와 함께 합법화되기를 희망합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "World’s Largest 12.8 GWh Battery Storage Cluster Activated in China",
+        "url": "https://cleantechnica.com/2026/08/08/worlds-largest-12-8-gwh-battery-storage-cluster-activated-in-china/",
+        "source": "CleanTechnica",
+        "date": "2026-08-08 10:11",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "중국에서 활성화된 세계 최대의 12.8GWh 배터리 저장 클러스터",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "NIO Opens Battery Swapping to Firefly and Launches 5th-Generation Swapping Stations",
         "url": "https://cleantechnica.com/2026/08/07/nio-opens-battery-swapping-to-firefly-and-launches-5th-generation-swapping-stations/",
@@ -563,22 +565,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Avatar Robotics raises seed round to address industrial labor constraints",
-        "url": "https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/",
-        "source": "The Robot Report",
-        "date": "2026-08-07 19:57",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Avatar Robotics는 산업 노동 제약을 해결하기 위해 종자를 올립니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -683,6 +669,40 @@
     ]
   },
   "news": [
+    {
+      "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+      "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+      "source": "NVIDIA Blog",
+      "date": "2026-08-08 10:24",
+      "categoryId": "chips",
+      "confidence": "A",
+      "stream": "release",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "World’s Largest 12.8 GWh Battery Storage Cluster Activated in China",
+      "url": "https://cleantechnica.com/2026/08/08/worlds-largest-12-8-gwh-battery-storage-cluster-activated-in-china/",
+      "source": "CleanTechnica",
+      "date": "2026-08-08 10:11",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "중국에서 활성화된 세계 최대의 12.8GWh 배터리 저장 클러스터",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v0.31.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.31.1",
@@ -1908,22 +1928,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Donald Trump Pays Off 5th Energy Company in Attack on Renewable Energy",
-      "url": "https://cleantechnica.com/2026/08/06/donald-trump-pays-off-5th-energy-company-in-attack-on-renewable-energy/",
-      "source": "CleanTechnica",
-      "date": "2026-08-06 22:46",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "도널드 트럼프, 재생 에너지에 대한 공격으로 5번째 에너지 회사 인수",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "AI designs new virus not found in nature - Axios",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYaVQyU0NhTUFLMEUycVI2ZlgzTWMwdVp6aEdYV3BMYlN6UHhtSFVRTmZBbFpKRnFSN0ROOVBuelZlMDhEb2ZwOG1NWGRoSFlMM0Z5bzRWOEI1V3BxenVyM0FhLTBDTDc3ZnVPUTN5N3VNSnZoZVE?oc=5",
       "source": "Axios",
@@ -1974,32 +1978,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Suno hopes to go legit with watermarks for AI-generated music",
-      "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
-      "source": "Ars Technica",
-      "date": "2026-08-06 20:17",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Suno는 AI로 생성된 음악을 위한 워터마크와 함께 합법화되기를 희망합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 8. 8. PM 6:32",
-    "mode": "하루 2회 전체 수집"
+    "officialSources": 9,
+    "checkedAt": "2026. 8. 8. PM 7:53",
+    "mode": "매시간 공식 레이더"
   }
 }
