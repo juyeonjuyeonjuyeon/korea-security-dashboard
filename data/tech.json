@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 10. AM 6:33",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v16.3.1-canary.9",
+  "updatedAt": "2026. 8. 10. AM 8:50",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v16.3.1-canary.10",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 8,
+    "recentCount": 9,
     "sourceCount": 25,
-    "officialCount": 30,
+    "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.3.1-canary.9",
+    "새 출시: v16.3.1-canary.10",
     "창작 기술: No Dogs in Space는 진정한 강박관념을 가진 사람들을 위한 음악 역사 팟캐스트입니다."
   ],
   "categories": [
@@ -23,7 +23,7 @@
       "summary": "Anthropic은 기본적으로 Claude Code의 자동 모드를 켜고 있습니다",
       "latest": "2026-08-09 19:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T21:33:13.597Z",
+      "lastRefreshed": "2026-08-09T23:50:16.672Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Embattled hedge fund Situational Awareness, 칩 스타트업에 $ 400M 투자 Source Foundry",
       "latest": "2026-08-09 20:35",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T21:33:13.597Z",
+      "lastRefreshed": "2026-08-09T23:50:16.672Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "아날로그 디바이스가 MassRobotics 스타트업을 지원하기 위한 전략적 후원사로 돌아왔습니다.",
       "latest": "2026-08-09 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T21:33:13.597Z",
+      "lastRefreshed": "2026-08-09T23:50:16.672Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "미군 사이버사령부는 자살로 인한 사망자 집합과 씨름하고 있다.",
       "latest": "2026-08-08 10:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T21:33:13.597Z",
+      "lastRefreshed": "2026-08-09T23:50:16.672Z",
       "themes": [
         "주요 기업"
       ]
@@ -70,11 +70,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
+      "count": 13,
       "summary": "No Dogs in Space는 진정한 강박관념을 가진 사람들을 위한 음악 역사 팟캐스트입니다.",
       "latest": "2026-08-09 20:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T21:33:13.597Z",
+      "lastRefreshed": "2026-08-09T23:50:16.672Z",
       "themes": [
         "음악·음성",
         "주요 기업",
@@ -89,7 +89,7 @@
       "summary": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
       "latest": "2026-08-08 15:04",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-09T21:33:13.597Z",
+      "lastRefreshed": "2026-08-09T23:50:16.672Z",
       "themes": [
         "미술·디자인"
       ]
@@ -98,11 +98,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 23,
-      "summary": "v16.3.1-canary.9",
-      "latest": "2026-08-08 23:44",
+      "count": 24,
+      "summary": "Claude Opus 5 시스템 프롬프트 인용",
+      "latest": "2026-08-09 23:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T21:33:13.597Z",
+      "lastRefreshed": "2026-08-09T23:50:16.672Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -111,6 +111,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.1-canary.10",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.10",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-09 23:23",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.10",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "GitHub Models is now retired",
+        "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-09 22:48",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub 모델이 이제 폐기되었습니다",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "v16.3.1-canary.9",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.9",
@@ -276,38 +308,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Enterprises can now install third-party GitHub Apps",
-        "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
-        "source": "GitHub Changelog",
-        "date": "2026-08-07 21:40",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 기업에서 타사 GitHub 앱을 설치할 수 있습니다.",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Copilot impact dashboard adds a return on investment section",
-        "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
-        "source": "GitHub Changelog",
-        "date": "2026-08-07 21:05",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Copilot Impact 대시보드에 투자 수익률 섹션이 추가됩니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -406,6 +406,38 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Quoting Claude Opus 5 system prompt",
+        "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-09 23:31",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "Claude Opus 5 시스템 프롬프트 인용",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "GitHub Models is now retired",
+        "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-08-09 22:48",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub 모델이 이제 폐기되었습니다",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
         "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
@@ -573,40 +605,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "BYD Expands PH EV Lineup with Double Model Launch, Celebrates Sealion 6 Milestone",
-        "url": "https://cleantechnica.com/2026/08/08/byd-expands-ph-ev-lineup-with-double-model-launch-celebrates-sealion-6-milestone/",
-        "source": "CleanTechnica",
-        "date": "2026-08-08 15:04",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-        "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-08-08 14:06",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 Hugging Face에 대한 OpenAI 우발적 공격의 타임라인이 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -713,6 +711,54 @@
     ]
   },
   "news": [
+    {
+      "title": "Quoting Claude Opus 5 system prompt",
+      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+      "source": "Simon Willison",
+      "date": "2026-08-09 23:31",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "Claude Opus 5 시스템 프롬프트 인용",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.3.1-canary.10",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.10",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-09 23:23",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.10",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "GitHub Models is now retired",
+      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "source": "Simon Willison",
+      "date": "2026-08-09 22:48",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub 모델이 이제 폐기되었습니다",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
       "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
@@ -1987,62 +2033,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
-      "url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
-      "source": "Vercel Changelog",
-      "date": "2026-08-07 04:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "감사 로그 드레인은 이제 Datadog, Splunk 및 Panther를 지원합니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Skill packs are now available on skills.sh",
-      "url": "https://vercel.com/changelog/skill-packs-are-now-available",
-      "source": "Vercel Changelog",
-      "date": "2026-08-07 04:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Skill packs are now available on skills.sh",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Sensing the Poles’ Hidden Heat",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
-      "source": "NASA",
-      "date": "2026-08-07 04:00",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "극의 숨겨진 열을 감지하기",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 10. AM 6:33",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 10. AM 8:50",
+    "mode": "매시간 공식 레이더"
   }
 }
