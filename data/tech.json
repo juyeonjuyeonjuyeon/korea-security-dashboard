@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 9. PM 11:55",
+  "updatedAt": "2026. 8. 10. AM 4:50",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.1-canary.9",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 11,
+    "recentCount": 6,
     "sourceCount": 25,
     "officialCount": 30,
     "opportunityCount": 0
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 27,
-      "summary": "AI 안전성 테스트가 안전 위험 요소가 되고 있습니다.",
-      "latest": "2026-08-09 14:30",
+      "summary": "Anthropic은 기본적으로 Claude Code의 자동 모드를 켜고 있습니다",
+      "latest": "2026-08-09 19:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T14:55:09.246Z",
+      "lastRefreshed": "2026-08-09T19:50:39.664Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Firebird, 아르메니아에서 가장 큰 CIS 지역 AI 공장 출범",
       "latest": "2026-08-08 10:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T14:55:09.246Z",
+      "lastRefreshed": "2026-08-09T19:50:39.664Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "아날로그 디바이스가 MassRobotics 스타트업을 지원하기 위한 전략적 후원사로 돌아왔습니다.",
       "latest": "2026-08-09 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T14:55:09.246Z",
+      "lastRefreshed": "2026-08-09T19:50:39.664Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "미군 사이버사령부는 자살로 인한 사망자 집합과 씨름하고 있다.",
       "latest": "2026-08-08 10:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T14:55:09.246Z",
+      "lastRefreshed": "2026-08-09T19:50:39.664Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +74,7 @@
       "summary": "캐나다 우주국 Northrop Grumman, Gateway 프로젝트 용도 변경",
       "latest": "2026-08-08 17:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T14:55:09.246Z",
+      "lastRefreshed": "2026-08-09T19:50:39.664Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -89,7 +89,7 @@
       "summary": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
       "latest": "2026-08-08 15:04",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-09T14:55:09.246Z",
+      "lastRefreshed": "2026-08-09T19:50:39.664Z",
       "themes": [
         "미술·디자인"
       ]
@@ -102,7 +102,7 @@
       "summary": "v16.3.1-canary.9",
       "latest": "2026-08-08 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-09T14:55:09.246Z",
+      "lastRefreshed": "2026-08-09T19:50:39.664Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -389,6 +389,24 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Anthropic is turning Claude Code’s auto mode on by default",
+        "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+        "source": "TechCrunch",
+        "date": "2026-08-09 19:20",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Anthropic은 기본적으로 Claude Code의 자동 모드를 켜고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "The AI safety test is becoming a safety risk",
         "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
         "source": "TechCrunch",
@@ -572,22 +590,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "World’s Largest 12.8 GWh Battery Storage Cluster Activated in China",
-        "url": "https://cleantechnica.com/2026/08/08/worlds-largest-12-8-gwh-battery-storage-cluster-activated-in-china/",
-        "source": "CleanTechnica",
-        "date": "2026-08-08 10:11",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "중국에서 활성화된 세계 최대의 12.8GWh 배터리 저장 클러스터",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -694,6 +696,24 @@
     ]
   },
   "news": [
+    {
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "source": "TechCrunch",
+      "date": "2026-08-09 19:20",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic은 기본적으로 Claude Code의 자동 모드를 켜고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "The AI safety test is becoming a safety risk",
       "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
@@ -1287,22 +1307,6 @@
       "stream": "news",
       "category": "우주·통신",
       "titleKo": "상원, 미군 우주 획득을 위한 새로운 수장 설치, 스파이 위성",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks",
-      "url": "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/",
-      "source": "TechCrunch",
-      "date": "2026-08-07 21:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "보안 연구원들이 폴란드 웹을 스캔한 결과, 법원, 병원, 공항이 해킹 위험에 처해 있는 것을 발견했습니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -2019,7 +2023,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 9. PM 11:55",
+    "checkedAt": "2026. 8. 10. AM 4:50",
     "mode": "매시간 공식 레이더"
   }
 }
