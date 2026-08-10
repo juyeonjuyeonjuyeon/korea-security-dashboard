@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 10. PM 1:57",
+  "updatedAt": "2026. 8. 10. PM 3:44",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 10일 – 세 개의 은하쌍",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 18,
-    "sourceCount": 24,
+    "recentCount": 23,
+    "sourceCount": 25,
     "officialCount": 25,
     "opportunityCount": 0
   },
@@ -19,15 +19,15 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
+      "count": 31,
       "summary": "다중 레이블 그래프 기초 모델을 향하여: 단일 벡터 표현 학습에서 다중 서맨틱 기초 학습까지",
       "latest": "2026-08-10 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-10T04:57:42.233Z",
+      "lastRefreshed": "2026-08-10T06:44:39.743Z",
       "themes": [
         "미술·디자인",
-        "주요 기업",
-        "음악·음성"
+        "음악·음성",
+        "주요 기업"
       ]
     },
     {
@@ -38,7 +38,7 @@
       "summary": "Embattled hedge fund Situational Awareness, 칩 스타트업에 $ 400M 투자 Source Foundry",
       "latest": "2026-08-09 20:35",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-10T04:57:42.233Z",
+      "lastRefreshed": "2026-08-10T06:44:39.743Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "아날로그 디바이스가 MassRobotics 스타트업을 지원하기 위한 전략적 후원사로 돌아왔습니다.",
       "latest": "2026-08-09 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-10T04:57:42.233Z",
+      "lastRefreshed": "2026-08-10T06:44:39.743Z",
       "themes": []
     },
     {
@@ -59,10 +59,10 @@
       "code": "CYBER",
       "label": "사이버보안",
       "count": 3,
-      "summary": "미군 사이버사령부는 자살로 인한 사망자 집합과 씨름하고 있다.",
-      "latest": "2026-08-08 10:04",
+      "summary": "OpenAI의 차세대 AI 모델인 Astra는 일시 중지를 트리거할 수 있을 만큼 강력한 사이버 성능을 보여줍니다",
+      "latest": "2026-08-10 05:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-10T04:57:42.233Z",
+      "lastRefreshed": "2026-08-10T06:44:39.743Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,11 +71,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 12,
+      "count": 11,
       "summary": "APOD: 2026년 8월 10일 – 세 개의 은하쌍",
       "latest": "2026-08-10 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-10T04:57:42.233Z",
+      "lastRefreshed": "2026-08-10T06:44:39.743Z",
       "themes": [
         "음악·음성",
         "주요 기업",
@@ -90,7 +90,7 @@
       "summary": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
       "latest": "2026-08-08 15:04",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-10T04:57:42.233Z",
+      "lastRefreshed": "2026-08-10T06:44:39.743Z",
       "themes": [
         "미술·디자인"
       ]
@@ -103,7 +103,7 @@
       "summary": "Claude Opus 5 시스템 프롬프트 인용",
       "latest": "2026-08-09 23:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-10T04:57:42.233Z",
+      "lastRefreshed": "2026-08-10T06:44:39.743Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -331,6 +331,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "New Zealand lost its music media, and what we're building to replace it",
+        "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+        "source": "Hacker News",
+        "date": "2026-08-09 20:42",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "뉴질랜드는 음악 미디어를 잃었고, 이를 대체하기 위해 우리가 만들고 있는 것은",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "No Dogs in Space is a music history podcast for true obsessives",
         "url": "https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast",
         "source": "The Verge",
@@ -347,6 +365,24 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "I made tinnitus my friend, then it disappeared [video]",
+        "url": "https://mynoise.net/vlog.php?ep=20260803",
+        "source": "Hacker News",
+        "date": "2026-08-09 18:41",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "이명을 친구로 삼았다가 사라졌어요 [동영상]",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket - WIRED",
@@ -425,6 +461,24 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+        "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+        "source": "The Hacker News",
+        "date": "2026-08-10 05:50",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "OpenAI의 차세대 AI 모델인 Astra는 일시 중지를 트리거할 수 있을 만큼 강력한 사이버 성능을 보여줍니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
         "url": "https://arxiv.org/abs/2608.06394",
@@ -604,27 +658,77 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic is turning Claude Code’s auto mode on by default",
-        "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-        "source": "TechCrunch",
-        "date": "2026-08-09 19:20",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 기본적으로 Claude Code의 자동 모드를 켜고 있습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Auto mode is now the default in Claude Code",
+        "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+        "source": "Hacker News",
+        "date": "2026-08-10 03:50",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "이제 끌로드 코드에서 자동 모드가 기본값입니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "New Zealand lost its music media, and what we're building to replace it",
+        "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+        "source": "Hacker News",
+        "date": "2026-08-09 20:42",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "뉴질랜드는 음악 미디어를 잃었고, 이를 대체하기 위해 우리가 만들고 있는 것은",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "The tragedy of the commons, AI edition",
+        "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
+        "source": "Hacker News",
+        "date": "2026-08-09 19:43",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "The tragedy of the commons, AI edition",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "I made tinnitus my friend, then it disappeared [video]",
+        "url": "https://mynoise.net/vlog.php?ep=20260803",
+        "source": "Hacker News",
+        "date": "2026-08-09 18:41",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "이명을 친구로 삼았다가 사라졌어요 [동영상]",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "OpenChamber: An Agentic Development Environment",
         "url": "https://openchamber.dev/",
@@ -656,78 +760,28 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Message your other Claude Code sessions",
-        "url": "https://code.claude.com/docs/en/cross-session-messaging",
-        "source": "Hacker News",
-        "date": "2026-08-08 15:34",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "다른 Claude Code 세션에 메시지 보내기",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Gentoo bugzilla closed due AI bot scraper overload",
-        "url": "https://social.treehouse.systems/@mgorny/117058483039362779",
-        "source": "Hacker News",
-        "date": "2026-08-08 13:55",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "젠투 버그질라 (Gentoo bugzilla) 가 AI 봇 스크레이퍼 과부하로 인해 폐쇄",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Timeline of the OpenAI accidental attack against Hugging Face",
-        "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-        "source": "Hacker News",
-        "date": "2026-08-08 10:57",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "포옹하는 얼굴에 대한 OpenAI 우발적 공격의 타임라인",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
-        "source": "Hacker News",
-        "date": "2026-08-08 10:04",
-        "categoryId": "cyber",
-        "confidence": "D",
-        "stream": "community",
-        "category": "사이버보안",
-        "titleKo": "미군 사이버사령부는 자살로 인한 사망자 집합과 씨름하고 있다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+      "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+      "source": "The Hacker News",
+      "date": "2026-08-10 05:50",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "OpenAI의 차세대 AI 모델인 Astra는 일시 중지를 트리거할 수 있을 만큼 강력한 사이버 성능을 보여줍니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "APOD: 2026 August 10 – Three Galaxy Pairs",
       "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-10-three-galaxy-pairs/",
@@ -843,6 +897,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Auto mode is now the default in Claude Code",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "source": "Hacker News",
+      "date": "2026-08-10 03:50",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "이제 끌로드 코드에서 자동 모드가 기본값입니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Katalyst Space makes progress in restoring control of Swift servicing spacecraft",
       "url": "https://spacenews.com/katalyst-space-makes-progress-in-restoring-control-of-swift-servicing-spacecraft/",
       "source": "SpaceNews",
@@ -907,6 +977,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "New Zealand lost its music media, and what we're building to replace it",
+      "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+      "source": "Hacker News",
+      "date": "2026-08-09 20:42",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "뉴질랜드는 음악 미디어를 잃었고, 이를 대체하기 위해 우리가 만들고 있는 것은",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
       "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
       "source": "TechCrunch",
@@ -941,6 +1029,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "The tragedy of the commons, AI edition",
+      "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
+      "source": "Hacker News",
+      "date": "2026-08-09 19:43",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "The tragedy of the commons, AI edition",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Anthropic is turning Claude Code’s auto mode on by default",
       "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
       "source": "TechCrunch",
@@ -957,6 +1061,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "I made tinnitus my friend, then it disappeared [video]",
+      "url": "https://mynoise.net/vlog.php?ep=20260803",
+      "source": "Hacker News",
+      "date": "2026-08-09 18:41",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "이명을 친구로 삼았다가 사라졌어요 [동영상]",
+      "type": "뉴스·분석",
+      "themes": [
+        "영상"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "OpenChamber: An Agentic Development Environment",
@@ -1123,22 +1245,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Message your other Claude Code sessions",
-      "url": "https://code.claude.com/docs/en/cross-session-messaging",
-      "source": "Hacker News",
-      "date": "2026-08-08 15:34",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "다른 Claude Code 세션에 메시지 보내기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "BYD Expands PH EV Lineup with Double Model Launch, Celebrates Sealion 6 Milestone",
       "url": "https://cleantechnica.com/2026/08/08/byd-expands-ph-ev-lineup-with-double-model-launch-celebrates-sealion-6-milestone/",
       "source": "CleanTechnica",
@@ -1171,22 +1277,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Gentoo bugzilla closed due AI bot scraper overload",
-      "url": "https://social.treehouse.systems/@mgorny/117058483039362779",
-      "source": "Hacker News",
-      "date": "2026-08-08 13:55",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "젠투 버그질라 (Gentoo bugzilla) 가 AI 봇 스크레이퍼 과부하로 인해 폐쇄",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Experts look ahead at the next 20 years of robotics at RoboBusiness",
@@ -1224,24 +1314,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Timeline of the OpenAI accidental attack against Hugging Face",
-      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-      "source": "Hacker News",
-      "date": "2026-08-08 10:57",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "포옹하는 얼굴에 대한 OpenAI 우발적 공격의 타임라인",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
       "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
       "source": "NVIDIA Blog",
@@ -1274,24 +1346,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
-      "source": "Hacker News",
-      "date": "2026-08-08 10:04",
-      "categoryId": "cyber",
-      "confidence": "D",
-      "stream": "community",
-      "category": "사이버보안",
-      "titleKo": "미군 사이버사령부는 자살로 인한 사망자 집합과 씨름하고 있다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v0.31.1",
@@ -2036,22 +2090,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "U.S. Senate confirms Schiess to lead Space Force",
-      "url": "https://spacenews.com/u-s-senate-confirms-schiess-to-lead-space-force/",
-      "source": "SpaceNews",
-      "date": "2026-08-07 12:42",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "미국 상원, 우주군을 이끌 스키스 확인",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2059,7 +2097,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 10. PM 1:57",
+    "checkedAt": "2026. 8. 10. PM 3:44",
     "mode": "매시간 공식 레이더"
   }
 }
