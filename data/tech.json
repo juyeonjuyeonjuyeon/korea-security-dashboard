@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 12. AM 2:15",
+  "updatedAt": "2026. 8. 12. AM 3:11",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "Vercel Connect는 이제 100개 이상의 커넥터에 대한 CLI 설정을 지원합니다.",
   "metrics": {
     "articleCount": 80,
     "recentCount": 65,
-    "sourceCount": 23,
-    "officialCount": 24,
+    "sourceCount": 21,
+    "officialCount": 23,
     "opportunityCount": 3
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "출시되지 않은 Anthropic 모델은 수학의 가장 큰 미해결 문제 중 하나에서 진전을 이루었습니다.",
-      "latest": "2026-08-11 16:25",
+      "count": 28,
+      "summary": "또 다른 OpenAI 임원이 이륙합니다.",
+      "latest": "2026-08-11 17:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T17:15:55.363Z",
+      "lastRefreshed": "2026-08-11T18:11:27.063Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "AI 컴퓨팅 성능을 확장하려면 새로운 파워 아키텍처가 필요한 이유",
       "latest": "2026-08-11 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T17:15:55.363Z",
+      "lastRefreshed": "2026-08-11T18:11:27.063Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
-      "summary": "Rivian CEO RJ Scaringe는 전기차, 로봇 및 자율주행에 한꺼번에 베팅하고 있습니다. Disrupt 2026에서 그 이유를 설명할 것입니다.",
-      "latest": "2026-08-11 15:30",
+      "count": 8,
+      "summary": "PlusAI, 자율주행 트럭 출시를 앞두고 주요 이정표 달성",
+      "latest": "2026-08-11 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T17:15:55.363Z",
+      "lastRefreshed": "2026-08-11T18:11:27.063Z",
       "themes": [
         "기회",
         "미술·디자인",
@@ -64,10 +64,10 @@
       "code": "CYBER",
       "label": "사이버보안",
       "count": 7,
-      "summary": "OpenAI, 취약점 공격 개발을 위한 안전 장치가 축소된 GPT-5.6-Cyber 출시",
-      "latest": "2026-08-11 13:11",
+      "summary": "연구원, 인증되지 않은 RCE에 도달하는 AI 지원 SharePoint 공격 체인 공개",
+      "latest": "2026-08-11 16:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T17:15:55.363Z",
+      "lastRefreshed": "2026-08-11T18:11:27.063Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -77,11 +77,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
-      "summary": "사자 성운이 거미줄을 타고 포효하는 광경",
-      "latest": "2026-08-11 17:02",
+      "count": 15,
+      "summary": "Scaleup Europe이란 무엇입니까? 위성 회사 ICEYE를 방금 후원한 $ 5.7B 펀드입니다.",
+      "latest": "2026-08-11 17:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T17:15:55.363Z",
+      "lastRefreshed": "2026-08-11T18:11:27.063Z",
       "themes": [
         "기회",
         "주요 기업",
@@ -93,23 +93,21 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 4,
-      "summary": "유기 유량 배터리는 장시간 에너지 저장에서 또 다른 샷을 얻습니다",
-      "latest": "2026-08-11 16:54",
+      "summary": "AI 데이터 센터는 글로벌 전력 위기가 아닌 지역별 미국 그리드 문제입니다.",
+      "latest": "2026-08-11 17:27",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-11T17:15:55.363Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-08-11T18:11:27.063Z",
+      "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 12,
+      "count": 13,
       "summary": "Vercel Connect는 이제 100개 이상의 커넥터에 대한 CLI 설정을 지원합니다.",
       "latest": "2026-08-11 19:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T17:15:55.363Z",
+      "lastRefreshed": "2026-08-11T18:11:27.063Z",
       "themes": [
         "음악·음성",
         "미술·디자인"
@@ -133,6 +131,38 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v16.3.1-canary.12",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.12",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-11 17:48",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.12",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
+        "url": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
+        "source": "The Robot Report",
+        "date": "2026-08-11 17:13",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "PlusAI, 자율주행 트럭 출시를 앞두고 주요 이정표 달성",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "Lion Nebula Roars in Webb’s Sights",
@@ -283,42 +313,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-        "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-        "source": "NVIDIA Blog",
-        "date": "2026-08-11 13:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "NVIDIA 및 로컬 AI 커뮤니티 Fuel 오픈소스 모델 및 지능형 에이전트",
-        "type": "오픈소스",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
-        "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-        "source": "NVIDIA Blog",
-        "date": "2026-08-11 13:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "NVIDIA Nemotron 3.5 Lightning 및 NeMo Switchyard는 더 빠르고 스마트하며 효율적인 에이전트 AI를 제공합니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -527,6 +521,106 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Another OpenAI executive takes off",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
+        "source": "The Verge",
+        "date": "2026-08-11 17:50",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "또 다른 OpenAI 임원이 이륙합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "What’s Scaleup Europe, the $5.7B fund that just backed satellite company ICEYE?",
+        "url": "https://techcrunch.com/2026/08/11/whats-scaleup-europe-the-5-7b-fund-that-just-backed-satellite-company-iceye/",
+        "source": "TechCrunch",
+        "date": "2026-08-11 17:41",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Scaleup Europe이란 무엇입니까? 위성 회사 ICEYE를 방금 후원한 $ 5.7B 펀드입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
+        "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+        "source": "TechCrunch",
+        "date": "2026-08-11 17:41",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI의 오랜 COO인 Brad Lightcap은 '새로운 것을 시작‘ 하기 위해 떠나고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+        "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+        "source": "TechCrunch",
+        "date": "2026-08-11 17:41",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "General Catalyst는 $ 1.1B를 2개월 된 River AI로 유도합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI Data Centers Are A Regional US Grid Issue, Not A Global Power Crisis",
+        "url": "https://cleantechnica.com/2026/08/11/ai-data-center-electricity-demand-us-grid/",
+        "source": "CleanTechnica",
+        "date": "2026-08-11 17:27",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "AI 데이터 센터는 글로벌 전력 위기가 아닌 지역별 미국 그리드 문제입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
+        "url": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
+        "source": "The Robot Report",
+        "date": "2026-08-11 17:13",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "PlusAI, 자율주행 트럭 출시를 앞두고 주요 이정표 달성",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Organic Flow Batteries Get Another Shot At Long Duration Energy Storage",
         "url": "https://cleantechnica.com/2026/08/11/energy-storage-organic-flow-battery-us-innovation-startups/",
         "source": "CleanTechnica",
@@ -536,6 +630,22 @@
         "stream": "news",
         "category": "에너지·기후기술",
         "titleKo": "유기 유량 배터리는 장시간 에너지 저장에서 또 다른 샷을 얻습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+        "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+        "source": "The Hacker News",
+        "date": "2026-08-11 16:47",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "연구원, 인증되지 않은 RCE에 도달하는 AI 지원 SharePoint 공격 체인 공개",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -605,130 +715,6 @@
         "type": "행사",
         "themes": [
           "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
-        "source": "The Verge",
-        "date": "2026-08-11 14:45",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "20개 미만의 AI 프롬프트를 사용하여 발견된 ’Zoomsday’ 해킹",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Webinar to discuss safety and scaling robot fleets in the warehouse",
-        "url": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
-        "source": "The Robot Report",
-        "date": "2026-08-11 14:34",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "창고의 안전 및 확장 로봇 차량에 대해 논의하는 웨비나",
-        "type": "행사",
-        "themes": [
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "SpaceX increasing footprint in missile defense",
-        "url": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/",
-        "source": "SpaceNews",
-        "date": "2026-08-11 14:34",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "미사일 방어에서 점유율 증가하는 SpaceX",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
-        "url": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/",
-        "source": "The Robot Report",
-        "date": "2026-08-11 14:17",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "3700억 달러 규모의 레이스: 통합 디자인이 빠르게 성장하는 시장에서 휴머노이드 제조업체의 성공을 도울 수 있는 방법",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Spotify says it won’t recommend music from ‘AI Personas’",
-        "url": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
-        "source": "The Verge",
-        "date": "2026-08-11 13:19",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Spotify는 ‘AI Personas‘ 의 음악을 추천하지 않을 것이라고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
-        "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-        "source": "The Hacker News",
-        "date": "2026-08-11 13:11",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "OpenAI, 취약점 공격 개발을 위한 안전 장치가 축소된 GPT-5.6-Cyber 출시",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Claude will apply invisible watermarks to AI text and images",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-        "source": "The Verge",
-        "date": "2026-08-11 13:09",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Claude는 AI 텍스트 및 이미지에 보이지 않는 워터마크를 적용합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -854,6 +840,122 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Another OpenAI executive takes off",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
+      "source": "The Verge",
+      "date": "2026-08-11 17:50",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "또 다른 OpenAI 임원이 이륙합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.3.1-canary.12",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.12",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-11 17:48",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.12",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "What’s Scaleup Europe, the $5.7B fund that just backed satellite company ICEYE?",
+      "url": "https://techcrunch.com/2026/08/11/whats-scaleup-europe-the-5-7b-fund-that-just-backed-satellite-company-iceye/",
+      "source": "TechCrunch",
+      "date": "2026-08-11 17:41",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Scaleup Europe이란 무엇입니까? 위성 회사 ICEYE를 방금 후원한 $ 5.7B 펀드입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
+      "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+      "source": "TechCrunch",
+      "date": "2026-08-11 17:41",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI의 오랜 COO인 Brad Lightcap은 '새로운 것을 시작‘ 하기 위해 떠나고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+      "source": "TechCrunch",
+      "date": "2026-08-11 17:41",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "General Catalyst는 $ 1.1B를 2개월 된 River AI로 유도합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI Data Centers Are A Regional US Grid Issue, Not A Global Power Crisis",
+      "url": "https://cleantechnica.com/2026/08/11/ai-data-center-electricity-demand-us-grid/",
+      "source": "CleanTechnica",
+      "date": "2026-08-11 17:27",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "AI 데이터 센터는 글로벌 전력 위기가 아닌 지역별 미국 그리드 문제입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
+      "url": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
+      "source": "The Robot Report",
+      "date": "2026-08-11 17:13",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "PlusAI, 자율주행 트럭 출시를 앞두고 주요 이정표 달성",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Lion Nebula Roars in Webb’s Sights",
       "url": "https://www.nasa.gov/image-article/lion-nebula-roars-in-webbs-sights/",
       "source": "NASA",
@@ -879,6 +981,22 @@
       "stream": "news",
       "category": "에너지·기후기술",
       "titleKo": "유기 유량 배터리는 장시간 에너지 저장에서 또 다른 샷을 얻습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+      "source": "The Hacker News",
+      "date": "2026-08-11 16:47",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "연구원, 인증되지 않은 RCE에 도달하는 AI 지원 SharePoint 공격 체인 공개",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1262,24 +1380,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Anthropic says it will watermark text generated by its AI models",
-      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
-      "source": "TechCrunch",
-      "date": "2026-08-11 12:13",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic은 AI 모델에서 생성된 텍스트에 워터마크를 표시할 것이라고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
       "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
       "source": "MIT Technology Review",
@@ -1558,24 +1658,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-      "source": "TechCrunch",
-      "date": "2026-08-11 00:03",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI가 70억 달러 규모의 직원 입찰 제안을 완료했다고 합니다 ($ 70 billion employee tender offer).",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "A sandbox without a network boundary is only half a sandbox",
       "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
       "source": "Vercel Changelog",
@@ -1590,24 +1672,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
-      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-      "source": "TechCrunch",
-      "date": "2026-08-10 23:56",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 주도 공격이 증가함에 따라 OpenAI는 새로운 사이버 모델을 출시합니다.",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v16.3.1-canary.11",
@@ -1721,22 +1785,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
-      "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
-      "source": "The Verge",
-      "date": "2026-08-10 22:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Mark Zuckerberg의 대규모 AI 선언문의 네 가지 핵심 사항",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2110,82 +2158,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "$10 Billion Tesla Solar Factory in Texas? And $20–25 Billion TERAFAB Project in Midst of AI Bubble?",
-      "url": "https://cleantechnica.com/2026/08/10/10-billion-tesla-solar-factory-in-texas-and-20-25-billion-terafab-project-in-midst-of-ai-bubble/",
-      "source": "CleanTechnica",
-      "date": "2026-08-10 10:59",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "텍사스에 100억 달러 규모의 테슬라 태양광 공장 ($ 100 Billion Tesla Solar Factory) 이 있나요? 그리고 AI 버블 한가운데에 $ 200-25 Billion TERAFAB Project가 있습니까?",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE42YVhOUXpnOEtLdW41SXZndUQ2OWd6cmstNHBhc2JqVGZZaE05Z3pIQk8tYUtVU2t1dGdpYWJvSzBWQWNFTDFLWXp0LWtJUGQ4TWNXVnZlWkFIa2Z2TkNPMGRQRWRsOXA3WjlMNDJDbm5Lc2V6SW9UR9IBfkFVX3lxTE00VHJaekgzSDJvajdabVhmN2JXSmVZeHkyS19xNHp6dkhnOHNKZ2tETHhtYlBTTHlILXNHQ3YxZW9vYTBhN0djbnhDLTJpM3NkZ1pDZ0cwZ05YeDhseVF6TWFXS0RvQUFmdXQtNVUyM0k0bTYyMGY5b0N3YmNjUQ?oc=5",
-      "source": "CNBC",
-      "date": "2026-08-10 10:57",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "OpenAI, AI 보안 논쟁이 심화됨에 따라 사이버 보안 위험에 대한 새로운 모델에 대한 통제 강화 - CNBC",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Release: v5.15.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-      "source": "GitHub · Transformers",
-      "date": "2026-08-10 10:28",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "릴리스: v5.15.0",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "source": "Hugging Face Blog",
-      "date": "2026-08-10 10:05",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "지식 증류를 규모에 맞게 실행할 수 있을 만큼 저렴하게 만들기",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 8. 12. AM 2:15",
+    "officialSources": 7,
+    "checkedAt": "2026. 8. 12. AM 3:11",
     "mode": "매시간 공식 레이더"
   }
 }
