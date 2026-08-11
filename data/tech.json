@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 11. PM 7:15",
+  "updatedAt": "2026. 8. 11. PM 8:09",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "Vercel Connect는 이제 100개 이상의 커넥터에 대한 CLI 설정을 지원합니다.",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 60,
+    "recentCount": 58,
     "sourceCount": 26,
     "officialCount": 23,
     "opportunityCount": 1
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 31,
-      "summary": "평가 AI를 위한 논쟁적 토대를 향하여",
-      "latest": "2026-08-11 04:00",
+      "summary": "수학의 인공지능 장악이 시작되었습니다",
+      "latest": "2026-08-11 09:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T10:15:42.365Z",
+      "lastRefreshed": "2026-08-11T11:09:39.319Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -38,7 +38,7 @@
       "summary": "GPU의 Rust SIMD",
       "latest": "2026-08-10 18:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T10:15:42.365Z",
+      "lastRefreshed": "2026-08-11T11:09:39.319Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "RoboStore는 미국 조직의 로봇 배포를 돕기 위해 Robo Inc. 를 출시합니다.",
       "latest": "2026-08-10 23:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T10:15:42.365Z",
+      "lastRefreshed": "2026-08-11T11:09:39.319Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -59,11 +59,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 7,
-      "summary": "사이버 방어 창이 좁아짐에 따라 새벽 확장 - OpenAI",
-      "latest": "2026-08-10 18:35",
+      "count": 8,
+      "summary": "악성 MCP 서버는 AI 코딩 에이전트가 비밀을 유출하도록 지침을 분할할 수 있습니다",
+      "latest": "2026-08-11 10:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T10:15:42.365Z",
+      "lastRefreshed": "2026-08-11T11:09:39.319Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -73,11 +73,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 15,
+      "count": 14,
       "summary": "Proteus Space는 이사회에 Kim Crider 소장 (USAF, Ret.) 을 지명합니다.",
       "latest": "2026-08-11 10:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T10:15:42.365Z",
+      "lastRefreshed": "2026-08-11T11:09:39.319Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -92,7 +92,7 @@
       "summary": "꾸준한 진전으로 호주의 에너지 시장 재편 — 2026년 7월 업데이트",
       "latest": "2026-08-11 02:23",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-11T10:15:42.365Z",
+      "lastRefreshed": "2026-08-11T11:09:39.319Z",
       "themes": [
         "주요 기업"
       ]
@@ -105,7 +105,7 @@
       "summary": "Vercel Connect는 이제 100개 이상의 커넥터에 대한 CLI 설정을 지원합니다.",
       "latest": "2026-08-11 19:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T10:15:42.365Z",
+      "lastRefreshed": "2026-08-11T11:09:39.319Z",
       "themes": [
         "음악·음성",
         "미술·디자인"
@@ -429,6 +429,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+        "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+        "source": "The Hacker News",
+        "date": "2026-08-11 10:24",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "악성 MCP 서버는 AI 코딩 에이전트가 비밀을 유출하도록 지침을 분할할 수 있습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
         "url": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/",
         "source": "SpaceNews",
@@ -455,6 +471,22 @@
         "category": "우주·통신",
         "titleKo": "H3, 내비게이션 위성 발사",
         "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The AI takeover of mathematics has begun",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+        "source": "The Verge",
+        "date": "2026-08-11 09:37",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "수학의 인공지능 장악이 시작되었습니다",
+        "type": "뉴스·분석",
         "themes": [],
         "official": false,
         "sourceLayer": "analysis",
@@ -591,40 +623,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Steady Progress Reshapes Australia’s Energy Market — July 2026 Update",
-        "url": "https://cleantechnica.com/2026/08/10/steady-progress-reshapes-australias-energy-market-july-2026-update/",
-        "source": "CleanTechnica",
-        "date": "2026-08-11 02:23",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "꾸준한 진전으로 호주의 에너지 시장 재편 — 2026년 7월 업데이트",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-        "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-        "source": "TechCrunch",
-        "date": "2026-08-11 00:03",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI가 70억 달러 규모의 직원 입찰 제안을 완료했다고 합니다 ($ 70 billion employee tender offer).",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -744,6 +742,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+      "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+      "source": "The Hacker News",
+      "date": "2026-08-11 10:24",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "악성 MCP 서버는 AI 코딩 에이전트가 비밀을 유출하도록 지침을 분할할 수 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
       "url": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/",
       "source": "SpaceNews",
@@ -770,6 +784,22 @@
       "category": "우주·통신",
       "titleKo": "H3, 내비게이션 위성 발사",
       "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The AI takeover of mathematics has begun",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+      "source": "The Verge",
+      "date": "2026-08-11 09:37",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "수학의 인공지능 장악이 시작되었습니다",
+      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -2018,40 +2048,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Northrop Grumman, Canadian Space Agency repurpose their Gateway projects",
-      "url": "https://spacenews.com/northrop-grumman-canadian-space-agency-repurpose-their-gateway-projects/",
-      "source": "SpaceNews",
-      "date": "2026-08-08 17:45",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "캐나다 우주국 Northrop Grumman, Gateway 프로젝트 용도 변경",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1dJNXVXYnpmS0U2OFQtSDhFcURicFNyMGFMVGVjdTAtQWJmc21hcUU3dGJaNnBMeVMySHVhTGZmRF9xUko1c2JJS3haRjlTaWtVV3QtelExODdVTGtfNThUb0RrS2JFN3pqWEJoUkkwSHpoSWJaemNFam1zbXFwUkJnbFRjRFZV?oc=5",
-      "source": "The Guardian",
-      "date": "2026-08-08 16:51",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI, 보안 문제로 AI 모델 Astra 일부 작업 일시 중지 | AI (인공지능) - The Guardian",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2059,7 +2055,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 11. PM 7:15",
+    "checkedAt": "2026. 8. 11. PM 8:09",
     "mode": "매시간 공식 레이더"
   }
 }
