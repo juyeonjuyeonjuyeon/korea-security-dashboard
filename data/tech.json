@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 11. PM 1:42",
+  "updatedAt": "2026. 8. 11. PM 3:07",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 11일 – 토성의 여섯 위성",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 59,
+    "recentCount": 57,
     "sourceCount": 25,
     "officialCount": 25,
     "opportunityCount": 1
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
+      "count": 32,
       "summary": "평가 AI를 위한 논쟁적 토대를 향하여",
       "latest": "2026-08-11 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T04:42:53.608Z",
+      "lastRefreshed": "2026-08-11T06:07:23.582Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -38,7 +38,7 @@
       "summary": "GPU의 Rust SIMD",
       "latest": "2026-08-10 18:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T04:42:53.608Z",
+      "lastRefreshed": "2026-08-11T06:07:23.582Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "RoboStore는 미국 조직의 로봇 배포를 돕기 위해 Robo Inc. 를 출시합니다.",
       "latest": "2026-08-10 23:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T04:42:53.608Z",
+      "lastRefreshed": "2026-08-11T06:07:23.582Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -61,11 +61,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
+      "count": 6,
       "summary": "배송 10–50 × 추가 코드? AI 속도 개발 보안에 대한 이 웨비나 보기",
       "latest": "2026-08-10 17:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T04:42:53.608Z",
+      "lastRefreshed": "2026-08-11T06:07:23.582Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -79,7 +79,7 @@
       "summary": "APOD: 2026년 8월 11일 – 토성의 여섯 위성",
       "latest": "2026-08-11 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T04:42:53.608Z",
+      "lastRefreshed": "2026-08-11T06:07:23.582Z",
       "themes": [
         "미술·디자인",
         "음악·음성",
@@ -94,7 +94,7 @@
       "summary": "꾸준한 진전으로 호주의 에너지 시장 재편 — 2026년 7월 업데이트",
       "latest": "2026-08-11 02:23",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-11T04:42:53.608Z",
+      "lastRefreshed": "2026-08-11T06:07:23.582Z",
       "themes": [
         "주요 기업"
       ]
@@ -107,7 +107,7 @@
       "summary": "네트워크 경계가 없는 샌드박스는 샌드박스의 절반에 불과합니다.",
       "latest": "2026-08-11 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T04:42:53.608Z",
+      "lastRefreshed": "2026-08-11T06:07:23.582Z",
       "themes": [
         "음악·음성",
         "미술·디자인",
@@ -700,6 +700,38 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "GPT 5.6 Cyber",
+        "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "source": "Hacker News",
+        "date": "2026-08-10 17:14",
+        "categoryId": "cyber",
+        "confidence": "D",
+        "stream": "community",
+        "category": "사이버보안",
+        "titleKo": "GPT 5.6 사이버",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "What's the best programming language for coding agents?",
+        "url": "http://danluu.com/pl-tokens/",
+        "source": "Hacker News",
+        "date": "2026-08-10 16:28",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "코딩 에이전트에 가장 적합한 프로그래밍 언어는 무엇입니까?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Show HN: Ante, a coding agent in a single binary that runs offline",
         "url": "https://github.com/AntigmaLabs/ante",
         "source": "Hacker News",
@@ -709,38 +741,6 @@
         "stream": "community",
         "category": "인공지능",
         "titleKo": "HN 표시: 오프라인으로 실행되는 단일 바이너리의 코딩 에이전트인 Ante",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
-        "url": "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/",
-        "source": "Hacker News",
-        "date": "2026-08-10 14:56",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Kinney Drugs, 수백 건의 고객 불만 제기 후 AI 전화 도우미를 철회",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Letter to Governor Abbott on responsible AI infrastructure in Texas",
-        "url": "https://openai.com/index/responsible-ai-infrastructure-texas/",
-        "source": "Hacker News",
-        "date": "2026-08-10 14:38",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "텍사스의 책임감 있는 AI 인프라에 대해 애보트 주지사에게 보내는 서한",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -1245,6 +1245,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "GPT 5.6 Cyber",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "source": "Hacker News",
+      "date": "2026-08-10 17:14",
+      "categoryId": "cyber",
+      "confidence": "D",
+      "stream": "community",
+      "category": "사이버보안",
+      "titleKo": "GPT 5.6 사이버",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research",
       "url": "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/",
       "source": "The Robot Report",
@@ -1278,6 +1294,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "What's the best programming language for coding agents?",
+      "url": "http://danluu.com/pl-tokens/",
+      "source": "Hacker News",
+      "date": "2026-08-10 16:28",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "코딩 에이전트에 가장 적합한 프로그래밍 언어는 무엇입니까?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
@@ -1349,38 +1381,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
-      "url": "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/",
-      "source": "Hacker News",
-      "date": "2026-08-10 14:56",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Kinney Drugs, 수백 건의 고객 불만 제기 후 AI 전화 도우미를 철회",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "url": "https://openai.com/index/responsible-ai-infrastructure-texas/",
-      "source": "Hacker News",
-      "date": "2026-08-10 14:38",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "텍사스의 책임감 있는 AI 인프라에 대해 애보트 주지사에게 보내는 서한",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Copilot on web expands conversation controls",
@@ -2083,7 +2083,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 11. PM 1:42",
+    "checkedAt": "2026. 8. 11. PM 3:07",
     "mode": "매시간 공식 레이더"
   }
 }
