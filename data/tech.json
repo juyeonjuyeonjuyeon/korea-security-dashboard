@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 11. PM 6:56",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 11. PM 7:15",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "Vercel Connect는 이제 100개 이상의 커넥터에 대한 CLI 설정을 지원합니다.",
   "metrics": {
     "articleCount": 80,
@@ -24,7 +24,7 @@
       "summary": "평가 AI를 위한 논쟁적 토대를 향하여",
       "latest": "2026-08-11 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T09:56:34.964Z",
+      "lastRefreshed": "2026-08-11T10:15:42.365Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -38,7 +38,7 @@
       "summary": "GPU의 Rust SIMD",
       "latest": "2026-08-10 18:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T09:56:34.964Z",
+      "lastRefreshed": "2026-08-11T10:15:42.365Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "RoboStore는 미국 조직의 로봇 배포를 돕기 위해 Robo Inc. 를 출시합니다.",
       "latest": "2026-08-10 23:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T09:56:34.964Z",
+      "lastRefreshed": "2026-08-11T10:15:42.365Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -63,7 +63,7 @@
       "summary": "사이버 방어 창이 좁아짐에 따라 새벽 확장 - OpenAI",
       "latest": "2026-08-10 18:35",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T09:56:34.964Z",
+      "lastRefreshed": "2026-08-11T10:15:42.365Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -73,11 +73,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
-      "summary": "H3, 내비게이션 위성 발사",
-      "latest": "2026-08-11 09:52",
+      "count": 15,
+      "summary": "Proteus Space는 이사회에 Kim Crider 소장 (USAF, Ret.) 을 지명합니다.",
+      "latest": "2026-08-11 10:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T09:56:34.964Z",
+      "lastRefreshed": "2026-08-11T10:15:42.365Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -88,11 +88,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
+      "count": 3,
       "summary": "꾸준한 진전으로 호주의 에너지 시장 재편 — 2026년 7월 업데이트",
       "latest": "2026-08-11 02:23",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-11T09:56:34.964Z",
+      "lastRefreshed": "2026-08-11T10:15:42.365Z",
       "themes": [
         "주요 기업"
       ]
@@ -105,7 +105,7 @@
       "summary": "Vercel Connect는 이제 100개 이상의 커넥터에 대한 CLI 설정을 지원합니다.",
       "latest": "2026-08-11 19:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-11T09:56:34.964Z",
+      "lastRefreshed": "2026-08-11T10:15:42.365Z",
       "themes": [
         "음악·음성",
         "미술·디자인"
@@ -429,6 +429,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
+        "url": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/",
+        "source": "SpaceNews",
+        "date": "2026-08-11 10:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Proteus Space는 이사회에 Kim Crider 소장 (USAF, Ret.) 을 지명합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "H3 launches navigation satellite",
         "url": "https://spacenews.com/h3-launches-navigation-satellite/",
         "source": "SpaceNews",
@@ -609,24 +625,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
-        "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-        "source": "TechCrunch",
-        "date": "2026-08-10 23:56",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 주도 공격이 증가함에 따라 OpenAI는 새로운 사이버 모델을 출시합니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -744,6 +742,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
+      "url": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/",
+      "source": "SpaceNews",
+      "date": "2026-08-11 10:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Proteus Space는 이사회에 Kim Crider 소장 (USAF, Ret.) 을 지명합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "H3 launches navigation satellite",
@@ -2038,30 +2052,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "BYD Expands PH EV Lineup with Double Model Launch, Celebrates Sealion 6 Milestone",
-      "url": "https://cleantechnica.com/2026/08/08/byd-expands-ph-ev-lineup-with-double-model-launch-celebrates-sealion-6-milestone/",
-      "source": "CleanTechnica",
-      "date": "2026-08-08 15:04",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "BYD, 더블 모델 출시로 PH EV 라인업 확장, Sealion 6 마일스톤 기념",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 11. PM 6:56",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 11. PM 7:15",
+    "mode": "매시간 공식 레이더"
   }
 }
