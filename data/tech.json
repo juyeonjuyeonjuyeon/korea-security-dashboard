@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 12. AM 9:02",
+  "updatedAt": "2026. 8. 12. AM 11:47",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.3.1-canary.13",
+  "headline": "v3.0.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 75,
+    "recentCount": 79,
     "sourceCount": 24,
-    "officialCount": 28,
+    "officialCount": 29,
     "opportunityCount": 2
   },
   "summary": [
-    "새 출시: v16.3.1-canary.13",
-    "창작 기술: 3700억 달러 규모의 레이스: 통합 디자인이 빠르게 성장하는 시장에서 휴머노이드 제조업체의 성공을 도울 수 있는 방법",
+    "새 출시: v3.0.0",
+    "창작 기술: 대규모 WorldClaw Agentic 3D 오픈 월드 생성",
     "행사·무료: 우주 시스템을 위한 MOSA 상호 운용성 표준 웨비나 – 2026년 8월 26일"
   ],
   "categories": [
@@ -21,25 +21,25 @@
       "code": "AI",
       "label": "인공지능",
       "count": 23,
-      "summary": "v0.32.0",
-      "latest": "2026-08-11 21:56",
+      "summary": "Saber는 Rideshare Stimulator의 작가를 ChatGPT로 교체하는 것을 거부합니다",
+      "latest": "2026-08-12 00:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T00:02:14.913Z",
+      "lastRefreshed": "2026-08-12T02:47:41.665Z",
       "themes": [
+        "미술·디자인",
         "주요 기업",
-        "음악·음성",
-        "미술·디자인"
+        "음악·음성"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 5,
-      "summary": "엔비디아 네모트론 3.5 라이트닝 및 네모 스위치야드",
-      "latest": "2026-08-11 19:35",
+      "count": 6,
+      "summary": "엔비디아 AI 팩토리 컴퓨팅이 투자 가능한 자산 클래스가 되고 있습니다",
+      "latest": "2026-08-12 00:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T00:02:14.913Z",
+      "lastRefreshed": "2026-08-12T02:47:41.665Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
+      "count": 5,
       "summary": "국방용 드론 개발업체 Cambridge Aerospace, $ 300M 모금",
       "latest": "2026-08-11 20:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T00:02:14.913Z",
+      "lastRefreshed": "2026-08-12T02:47:41.665Z",
       "themes": [
         "기회",
         "미술·디자인"
@@ -66,7 +66,7 @@
       "summary": "거의 400개의 보안 구멍을 연결하는 Microsoft 플러그",
       "latest": "2026-08-11 21:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T00:02:14.913Z",
+      "lastRefreshed": "2026-08-12T02:47:41.665Z",
       "themes": [
         "주요 기업"
       ]
@@ -79,7 +79,7 @@
       "summary": "낸시 그레이스 로만 우주 망원경이란? (5 ~ 8학년)",
       "latest": "2026-08-11 21:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T00:02:14.913Z",
+      "lastRefreshed": "2026-08-12T02:47:41.665Z",
       "themes": [
         "기회",
         "주요 기업",
@@ -90,22 +90,24 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
-      "summary": "슈나이더 일렉트릭 캐나다, 고객이 새로운 에너지 환경을 탐색할 수 있도록 커머셜 리더십 강화",
-      "latest": "2026-08-11 22:38",
+      "count": 6,
+      "summary": "자율 화물 확장: Pony.ai의 로봇 트럭 사업 내부",
+      "latest": "2026-08-12 02:25",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-12T00:02:14.914Z",
-      "themes": []
+      "lastRefreshed": "2026-08-12T02:47:41.665Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
-      "summary": "v16.3.1-canary.13",
-      "latest": "2026-08-11 23:51",
+      "count": 18,
+      "summary": "v3.0.0",
+      "latest": "2026-08-12 01:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T00:02:14.914Z",
+      "lastRefreshed": "2026-08-12T02:47:41.665Z",
       "themes": [
         "주요 기업"
       ]
@@ -113,6 +115,42 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.0.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.0.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-08-12 01:54",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.0.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
+        "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
+        "source": "NVIDIA Blog",
+        "date": "2026-08-12 00:38",
+        "categoryId": "chips",
+        "confidence": "A",
+        "stream": "release",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "엔비디아 AI 팩토리 컴퓨팅이 투자 가능한 자산 클래스가 되고 있습니다",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.3.1-canary.13",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.13",
@@ -274,41 +312,27 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Vercel Connect now supports CLI setup for 100+ connectors",
-        "url": "https://vercel.com/changelog/vercel-cli-100-services",
-        "source": "Vercel Changelog",
-        "date": "2026-08-11 19:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Vercel Connect는 이제 100개 이상의 커넥터에 대한 CLI 설정을 지원합니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Upcoming deprecation of MAI-Code-1-Flash",
-        "url": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
-        "source": "GitHub Changelog",
-        "date": "2026-08-11 18:50",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "MAI-Code-1-Flash 사용 중단 예정",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "WorldClaw Agentic 3D open-world generation at scale",
+        "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+        "source": "Hacker News",
+        "date": "2026-08-11 21:56",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "대규모 WorldClaw Agentic 3D 오픈 월드 생성",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
         "url": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/",
@@ -422,6 +446,72 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Scaling Autonomous Freight: Inside Pony.ai’s Robotruck Business",
+        "url": "https://cleantechnica.com/2026/08/11/scaling-autonomous-freight-inside-pony-ais-robotruck-business/",
+        "source": "CleanTechnica",
+        "date": "2026-08-12 02:25",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "자율 화물 확장: Pony.ai의 로봇 트럭 사업 내부",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The Single Largest Pollution Source In The USA Going To Be An Amazon AI Data Center",
+        "url": "https://cleantechnica.com/2026/08/11/the-single-largest-pollution-source-in-the-usa-going-to-be-an-amazon-ai-data-center/",
+        "source": "CleanTechnica",
+        "date": "2026-08-12 02:12",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "아마존 AI 데이터 센터가 될 예정인 미국에서 가장 큰 단일 오염원",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+        "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+        "source": "The Verge",
+        "date": "2026-08-12 00:40",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Saber는 Rideshare Stimulator의 작가를 ChatGPT로 교체하는 것을 거부합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Arcfox Goes Battery Swapping with the Help of CATL",
+        "url": "https://cleantechnica.com/2026/08/11/arcfox-goes-battery-swapping-with-the-help-of-catl/",
+        "source": "CleanTechnica",
+        "date": "2026-08-12 00:17",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Arcfox, CATL의 도움으로 배터리 교환",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Schneider Electric Canada Strengthens Commercial Leadership to Help Customers Navigate the New Energy Landscape",
         "url": "https://cleantechnica.com/2026/08/11/schneider-electric-canada-strengthens-commercial-leadership-to-help-customers-navigate-the-new-energy-landscape/",
@@ -553,81 +643,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI launches ChatGPT desktop app for Linux",
-        "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-        "source": "TechCrunch",
-        "date": "2026-08-11 19:15",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI, Linux용 ChatGPT 데스크톱 앱 출시",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google’s Gemini app surges to 1 billion users",
-        "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-        "source": "TechCrunch",
-        "date": "2026-08-11 18:49",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google의 Gemini 앱 사용자 수가 10억 명으로 급증했습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google’s Gemini app surges to one billion users",
-        "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-        "source": "TechCrunch",
-        "date": "2026-08-11 18:49",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google의 Gemini 앱이 10억 명의 사용자로 급증",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Another OpenAI executive takes off",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
-        "source": "The Verge",
-        "date": "2026-08-11 17:50",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "또 다른 OpenAI 임원이 이륙합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "WorldClaw Agentic 3D open-world generation at scale",
+        "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+        "source": "Hacker News",
+        "date": "2026-08-11 21:56",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "대규모 WorldClaw Agentic 3D 오픈 월드 생성",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
         "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
@@ -713,26 +749,112 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
-        "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
-        "source": "Hacker News",
-        "date": "2026-08-11 10:40",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub Copilot을 MitM 프록시 뒤에 두면서 배운 점",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Scaling Autonomous Freight: Inside Pony.ai’s Robotruck Business",
+      "url": "https://cleantechnica.com/2026/08/11/scaling-autonomous-freight-inside-pony-ais-robotruck-business/",
+      "source": "CleanTechnica",
+      "date": "2026-08-12 02:25",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "자율 화물 확장: Pony.ai의 로봇 트럭 사업 내부",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Single Largest Pollution Source In The USA Going To Be An Amazon AI Data Center",
+      "url": "https://cleantechnica.com/2026/08/11/the-single-largest-pollution-source-in-the-usa-going-to-be-an-amazon-ai-data-center/",
+      "source": "CleanTechnica",
+      "date": "2026-08-12 02:12",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "아마존 AI 데이터 센터가 될 예정인 미국에서 가장 큰 단일 오염원",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v3.0.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.0.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-08-12 01:54",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.0.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+      "source": "The Verge",
+      "date": "2026-08-12 00:40",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Saber는 Rideshare Stimulator의 작가를 ChatGPT로 교체하는 것을 거부합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
+      "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
+      "source": "NVIDIA Blog",
+      "date": "2026-08-12 00:38",
+      "categoryId": "chips",
+      "confidence": "A",
+      "stream": "release",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "엔비디아 AI 팩토리 컴퓨팅이 투자 가능한 자산 클래스가 되고 있습니다",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Arcfox Goes Battery Swapping with the Help of CATL",
+      "url": "https://cleantechnica.com/2026/08/11/arcfox-goes-battery-swapping-with-the-help-of-catl/",
+      "source": "CleanTechnica",
+      "date": "2026-08-12 00:17",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Arcfox, CATL의 도움으로 배터리 교환",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.3.1-canary.13",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.13",
@@ -796,6 +918,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "source": "Hacker News",
+      "date": "2026-08-11 21:56",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "대규모 WorldClaw Agentic 3D 오픈 월드 생성",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
@@ -1720,22 +1860,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
-      "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
-      "source": "Hacker News",
-      "date": "2026-08-11 10:40",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "GitHub Copilot을 MitM 프록시 뒤에 두면서 배운 점",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
       "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
       "source": "The Hacker News",
@@ -1796,22 +1920,6 @@
       "category": "우주·통신",
       "titleKo": "H3, 내비게이션 위성 발사",
       "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The AI takeover of mathematics has begun",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
-      "source": "The Verge",
-      "date": "2026-08-11 09:37",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "수학의 인공지능 장악이 시작되었습니다",
-      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1968,22 +2076,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Steady Progress Reshapes Australia’s Energy Market — July 2026 Update",
-      "url": "https://cleantechnica.com/2026/08/10/steady-progress-reshapes-australias-energy-market-july-2026-update/",
-      "source": "CleanTechnica",
-      "date": "2026-08-11 02:23",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "꾸준한 진전으로 호주의 에너지 시장 재편 — 2026년 7월 업데이트",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "A sandbox without a network boundary is only half a sandbox",
       "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
       "source": "Vercel Changelog",
@@ -1998,72 +2090,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.3.1-canary.11",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.11",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-10 23:48",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.1-canary.11",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "RoboStore launches Robo Inc. to help U.S. organizations deploy robots",
-      "url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
-      "source": "The Robot Report",
-      "date": "2026-08-10 23:40",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "RoboStore는 미국 조직의 로봇 배포를 돕기 위해 Robo Inc. 를 출시합니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta drops open-source model - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaUw3LUFMNWxsM1dJa05NejczbTN5SUtXb3lIT2p3bHczMmhHNDZzU2pXQVlSaVg2NUltbjdyTW95d0ZYWXVLNW93TWFXN1FFOVU3Q0xUMjhRLUdtUE5ZdkRiVndrblVNX2ROVlpGX1hON2JsRl9MbUZDdVl5SjJobXdXemlJRVFVcDJQdGNOa2tfMEJmSEtwMnJkTEhUUQ?oc=5",
-      "source": "The Guardian",
-      "date": "2026-08-10 22:57",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "저커버그, 메타가 오픈소스 모델을 떨어뜨리면서 모두를 위한 ‘초지능’ AI 추진 - 가디언",
-      "type": "오픈소스",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "CATL Battery for Electric Aviation Passes Important Safety Test",
-      "url": "https://cleantechnica.com/2026/08/10/catl-battery-for-electric-aviation-passes-important-safety-test/",
-      "source": "CleanTechnica",
-      "date": "2026-08-10 22:36",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "전기 항공용 CATL 배터리, 중요한 안전 테스트 통과",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2071,7 +2097,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 12. AM 9:02",
+    "checkedAt": "2026. 8. 12. AM 11:47",
     "mode": "매시간 공식 레이더"
   }
 }
