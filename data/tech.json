@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 13. AM 6:46",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 13. AM 7:06",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "NASA 데이터는 우리의 달에서 살아가는 상업 우주 계획에 도움이 됩니다",
   "metrics": {
     "articleCount": 80,
     "recentCount": 64,
-    "sourceCount": 24,
+    "sourceCount": 23,
     "officialCount": 29,
     "opportunityCount": 0
   },
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
-      "summary": "인공지능은 일자리를 파괴해야 했습니다. 대학살 장소는 어디인가요? - 가디언",
-      "latest": "2026-08-12 18:57",
+      "count": 31,
+      "summary": "Twitch 콘텐츠는 수년간 Amazon AI를 교육해 왔지만 사용자는 지금 수신을 거부할 수 있습니다.",
+      "latest": "2026-08-12 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T21:46:34.920Z",
+      "lastRefreshed": "2026-08-12T22:06:07.753Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -38,7 +38,7 @@
       "summary": "NVIDIA CEO Tops Glassdoor의 2026년 최고의 CEO 목록",
       "latest": "2026-08-12 14:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T21:46:34.920Z",
+      "lastRefreshed": "2026-08-12T22:06:07.753Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,18 +51,18 @@
       "summary": "Northrop의 로봇 우주 정비사는 인공위성을 더 오래 작동시킬 수 있는 새로운 방법입니다.",
       "latest": "2026-08-12 20:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T21:46:34.920Z",
+      "lastRefreshed": "2026-08-12T22:06:07.753Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
+      "count": 3,
       "summary": "OpenAI, Anthropic, Google API 결함 약한 AI 모델이 더 강한 모델의 추론을 해독하게 함",
       "latest": "2026-08-12 11:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T21:46:34.920Z",
+      "lastRefreshed": "2026-08-12T22:06:07.753Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -72,11 +72,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 9,
-      "summary": "NASA 데이터는 우리의 달에서 살아가는 상업 우주 계획에 도움이 됩니다",
-      "latest": "2026-08-12 20:40",
+      "count": 10,
+      "summary": "우주 사령부는 다음 우주 전쟁에 필요한 능력을 식별합니다",
+      "latest": "2026-08-12 22:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T21:46:34.920Z",
+      "lastRefreshed": "2026-08-12T22:06:07.753Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "트럼프와 연결된 그린란드 에너지 회사가 얼굴에 떨어짐",
       "latest": "2026-08-12 13:21",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-12T21:46:34.920Z",
+      "lastRefreshed": "2026-08-12T22:06:07.753Z",
       "themes": [
         "주요 기업"
       ]
@@ -102,7 +102,7 @@
       "summary": "VS 코드, Copilot CLI 및 Copilot 앱의 에이전트 플러그인 1.0",
       "latest": "2026-08-12 18:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-12T21:46:34.920Z",
+      "lastRefreshed": "2026-08-12T22:06:07.753Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -405,6 +405,40 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Space Command identifies capabilities it needs for the next space war",
+        "url": "https://spacenews.com/space-command-identifies-capabilities-it-needs-for-the-next-space-war/",
+        "source": "SpaceNews",
+        "date": "2026-08-12 22:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "우주 사령부는 다음 우주 전쟁에 필요한 능력을 식별합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
+        "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+        "source": "Ars Technica",
+        "date": "2026-08-12 21:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Twitch 콘텐츠는 수년간 Amazon AI를 교육해 왔지만 사용자는 지금 수신을 거부할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Northrop’s robot space mechanic is a new way to keep satellites at work longer",
         "url": "https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/",
         "source": "TechCrunch",
@@ -572,38 +606,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Form Energy raises $750M to build more 100-hour batteries for the grid",
-        "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/",
-        "source": "TechCrunch",
-        "date": "2026-08-12 16:18",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Form Energy, 전력망용 100시간 배터리를 더 만들기 위해 $ 750M 모금",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Booksellers suspect AI firms are buying and then destroying rare books",
-        "url": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
-        "source": "Ars Technica",
-        "date": "2026-08-12 15:19",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "서점주들은 AI 기업이 희귀 서적을 구입한 다음 파괴하고 있다고 의심합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -710,6 +712,40 @@
     ]
   },
   "news": [
+    {
+      "title": "Space Command identifies capabilities it needs for the next space war",
+      "url": "https://spacenews.com/space-command-identifies-capabilities-it-needs-for-the-next-space-war/",
+      "source": "SpaceNews",
+      "date": "2026-08-12 22:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "우주 사령부는 다음 우주 전쟁에 필요한 능력을 식별합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
+      "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+      "source": "Ars Technica",
+      "date": "2026-08-12 21:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Twitch 콘텐츠는 수년간 Amazon AI를 교육해 왔지만 사용자는 지금 수신을 거부할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Northrop’s robot space mechanic is a new way to keep satellites at work longer",
       "url": "https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/",
@@ -2004,48 +2040,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "OpenAI introduces a new cyber model amid fears of AI cyberattacks - Axios",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEx3dTFaeDJuXzJTOXRxYmtxYUFlYTk1UTVxX2F3RVg5c2lncFZHQm5TS3hvTEJaUzFZUk4tU0ZKNUtSZy1aU1dSY2JaYkRDQ05aSDNOUTZOeWVpUG1ZNjJ5a3lqLUF5VUZ4b0JQcWRIVzFCcGVCTm5GbzNkT3p6eXZPSHhCZHhrWWNCM0I1MUo?oc=5",
-      "source": "Axios",
-      "date": "2026-08-11 16:48",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "OpenAI introduces a new cyber model amid fears of AI cyberattacks - Axios",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "source": "The Hacker News",
-      "date": "2026-08-11 16:47",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "연구원, 인증되지 않은 RCE에 도달하는 AI 지원 SharePoint 공격 체인 공개",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
     "successful": 37,
-    "total": 47,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 13. AM 6:46",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 13. AM 7:06",
+    "mode": "매시간 공식 레이더"
   }
 }
