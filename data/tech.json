@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 13. PM 3:49",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 13. PM 6:59",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "APOD: 2026년 8월 13일 – 스페인 상공의 개기일식",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 56,
+    "recentCount": 57,
     "sourceCount": 22,
-    "officialCount": 29,
+    "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "협업 대화 결과를 위한 다중 LLM 에이전트 시스템의 동적 거버넌스",
-      "latest": "2026-08-13 04:00",
+      "count": 31,
+      "summary": "아이들이 인공지능에 대해 느끼는 점",
+      "latest": "2026-08-13 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T06:49:28.086Z",
+      "lastRefreshed": "2026-08-13T09:59:07.288Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -38,7 +38,7 @@
       "summary": "NVIDIA CEO Tops Glassdoor의 2026년 최고의 CEO 목록",
       "latest": "2026-08-12 14:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T06:49:28.086Z",
+      "lastRefreshed": "2026-08-13T09:59:07.288Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "Northrop의 로봇 우주 정비사는 인공위성을 더 오래 작동시킬 수 있는 새로운 방법입니다.",
       "latest": "2026-08-12 20:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T06:49:28.086Z",
+      "lastRefreshed": "2026-08-13T09:59:07.288Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "OpenAI, Anthropic, Google API 결함 약한 AI 모델이 더 강한 모델의 추론을 해독하게 함",
       "latest": "2026-08-12 11:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T06:49:28.086Z",
+      "lastRefreshed": "2026-08-13T09:59:07.288Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -72,11 +72,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 11,
-      "summary": "APOD: 2026년 8월 13일 – 스페인 상공의 개기일식",
-      "latest": "2026-08-13 04:05",
+      "count": 12,
+      "summary": "아스트라니스, 정지 감시 위성 공개",
+      "latest": "2026-08-13 09:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T06:49:28.086Z",
+      "lastRefreshed": "2026-08-13T09:59:07.288Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
       "latest": "2026-08-13 00:28",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-13T06:49:28.086Z",
+      "lastRefreshed": "2026-08-13T09:59:07.288Z",
       "themes": [
         "주요 기업"
       ]
@@ -102,7 +102,7 @@
       "summary": "v16.3.1-canary.15",
       "latest": "2026-08-12 23:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T06:49:28.086Z",
+      "lastRefreshed": "2026-08-13T09:59:07.288Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -387,6 +387,38 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Astranis unveils geostationary surveillance satellite",
+        "url": "https://spacenews.com/astranis-unveils-geostationary-surveillance-satellite/",
+        "source": "SpaceNews",
+        "date": "2026-08-13 09:30",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "아스트라니스, 정지 감시 위성 공개",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "How kids feel about AI, in their own words",
+        "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-13 09:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "아이들이 인공지능에 대해 느끼는 점",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
         "url": "https://arxiv.org/abs/2608.11207",
         "source": "arXiv cs.AI",
@@ -549,41 +581,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The web’s newest weapon against AI scrapers is a font",
-        "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
-        "source": "Ars Technica",
-        "date": "2026-08-12 22:02",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 스크레이퍼에 대한 웹의 최신 무기는 글꼴입니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Space Command identifies capabilities it needs for the next space war",
-        "url": "https://spacenews.com/space-command-identifies-capabilities-it-needs-for-the-next-space-war/",
-        "source": "SpaceNews",
-        "date": "2026-08-12 22:00",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "우주 사령부는 다음 우주 전쟁에 필요한 능력을 식별합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "ChatGPT Desktop (Codex Desktop) for Linux",
+        "url": "https://openai.com/codex/",
+        "source": "Hacker News",
+        "date": "2026-08-13 04:53",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Linux용 ChatGPT 데스크톱 (코덱스 데스크톱)",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index",
         "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
@@ -598,6 +614,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Hax – a minimalist, terminal-native coding agent written in C",
+        "url": "https://usehax.dev/",
+        "source": "Hacker News",
+        "date": "2026-08-12 14:43",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "HAX – C로 작성된 미니멀리스트, 터미널 네이티브 코딩 에이전트",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -651,42 +683,58 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "My Agent Setup",
-        "url": "https://chad.cm/posts/2026-8-11-my-agent-setup",
-        "source": "Hacker News",
-        "date": "2026-08-12 13:56",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "내 상담원 설정",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "AI is removing the middle class of software engineering?",
-        "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-        "source": "Hacker News",
-        "date": "2026-08-12 13:20",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI가 소프트웨어 공학의 중산층을 제거하고 있습니까?",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Astranis unveils geostationary surveillance satellite",
+      "url": "https://spacenews.com/astranis-unveils-geostationary-surveillance-satellite/",
+      "source": "SpaceNews",
+      "date": "2026-08-13 09:30",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "아스트라니스, 정지 감시 위성 공개",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "How kids feel about AI, in their own words",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-13 09:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "아이들이 인공지능에 대해 느끼는 점",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "ChatGPT Desktop (Codex Desktop) for Linux",
+      "url": "https://openai.com/codex/",
+      "source": "Hacker News",
+      "date": "2026-08-13 04:53",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Linux용 ChatGPT 데스크톱 (코덱스 데스크톱)",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "APOD: 2026 August 13 – Total Solar Eclipse Over Spain",
       "url": "https://science.nasa.gov/image-article/apod-2026-august-13-total-solar-eclipse-over-spain/",
@@ -1267,6 +1315,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Hax – a minimalist, terminal-native coding agent written in C",
+      "url": "https://usehax.dev/",
+      "source": "Hacker News",
+      "date": "2026-08-12 14:43",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "HAX – C로 작성된 미니멀리스트, 터미널 네이티브 코딩 에이전트",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Inside the Data Bottleneck Slowing Visual and Physical AI",
       "url": "https://content.knowledgehub.wiley.com/the-2026-state-of-visual-and-physical-ai-a-survey-of-700-practitioners-on-data-models-and-production/",
       "source": "IEEE Spectrum",
@@ -1383,22 +1447,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "My Agent Setup",
-      "url": "https://chad.cm/posts/2026-8-11-my-agent-setup",
-      "source": "Hacker News",
-      "date": "2026-08-12 13:56",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "내 상담원 설정",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution",
       "url": "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/",
       "source": "The Robot Report",
@@ -1481,22 +1529,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI is removing the middle class of software engineering?",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "source": "Hacker News",
-      "date": "2026-08-12 13:20",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI가 소프트웨어 공학의 중산층을 제거하고 있습니까?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "China’s iSpace raises first batch of series E funding for reusable rocketry",
@@ -1599,6 +1631,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Google Open Source Blog - blog.google",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ya0FhbmRwTzlLdzJQWlFCcE5MRmxpSElRbnF4d3ZDMU9GME82NDN3NjNFMF9IZ3RPMEtrS3JXOXlRX1dvS2gta1JR?oc=5",
+      "source": "blog.google",
+      "date": "2026-08-12 07:35",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "news",
+      "category": "소프트웨어·개발",
+      "titleKo": "Google Open Source Blog - blog.google",
+      "type": "오픈소스",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "DeepSeek V4 Pro now runs updated weights on AI Gateway",
       "url": "https://vercel.com/changelog/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway",
       "source": "Vercel Changelog",
@@ -1613,22 +1663,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "China-linked hackers hit Taiwan in unprecedented ‘autonomous’ AI cyber attack - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRlhNU3NZdFNQZ19HWWJKTnRkWUY5eUl3bXRRZjlZT1JGc2tvbzFlZEs2OGVnQWdIazNheUVDNWwxOUx1UF9Cc0MyM3NFcFZEbTluS2xxLTRDSC01ejVCdkJ3Q0Q2NTJLeE1kSnhqUXQ5VVFRWFFzQmR5QU5uQXYtMnU1eXM?oc=5",
-      "source": "Financial Times",
-      "date": "2026-08-12 04:12",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "중국과 연계된 해커들이 전례 없는 ‘자율적‘ 인공지능 사이버 공격으로 대만을 강타하다 - 파이낸셜타임스",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Scaling Autonomous Freight: Inside Pony.ai’s Robotruck Business",
@@ -1979,50 +2013,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v2.54.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v2.54.0",
-      "source": "GitHub · OpenAI Python",
-      "date": "2026-08-11 18:45",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v2.54.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta drops open-source model - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaUw3LUFMNWxsM1dJa05NejczbTN5SUtXb3lIT2p3bHczMmhHNDZzU2pXQVlSaVg2NUltbjdyTW95d0ZYWXVLNW93TWFXN1FFOVU3Q0xUMjhRLUdtUE5ZdkRiVndrblVNX2ROVlpGX1hON2JsRl9MbUZDdVl5SjJobXdXemlJRVFVcDJQdGNOa2tfMEJmSEtwMnJkTEhUUQ?oc=5",
-      "source": "The Guardian",
-      "date": "2026-08-11 18:45",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "저커버그, 메타가 오픈소스 모델을 떨어뜨리면서 모두를 위한 ‘초지능’ AI 추진 - 가디언",
-      "type": "오픈소스",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 13. PM 3:49",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 13. PM 6:59",
+    "mode": "하루 2회 전체 수집"
   }
 }
