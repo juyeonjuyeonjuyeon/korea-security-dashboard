@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 14. AM 2:16",
+  "updatedAt": "2026. 8. 14. AM 3:12",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "Strands Agent, LeRobot 및 Hugging Face Storage Buckets로 한 곳에서 기록, 교육 및 배포",
+  "headline": "v0.33.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 58,
-    "sourceCount": 21,
-    "officialCount": 26,
+    "recentCount": 59,
+    "sourceCount": 22,
+    "officialCount": 27,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: Strands Agent, LeRobot 및 Hugging Face Storage Buckets로 한 곳에서 기록, 교육 및 배포",
+    "새 출시: v0.33.0",
     "창작 기술: 2K, ‘차세대 블록버스터 스포츠 프랜차이즈‘ 를 구축하기 위한 새로운 스튜디오 출시"
   ],
   "categories": [
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 34,
-      "summary": "Strands Agent, LeRobot 및 Hugging Face Storage Buckets로 한 곳에서 기록, 교육 및 배포",
-      "latest": "2026-08-13 17:16",
+      "summary": "쌍둥이자리 3.7 플래시",
+      "latest": "2026-08-13 17:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T17:16:23.844Z",
+      "lastRefreshed": "2026-08-13T18:12:24.512Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -38,7 +38,7 @@
       "summary": "엔비디아의 새로운 $ 500B 계획은 위험하지만 특히 노후된 GPU의 경우 훌륭합니다.",
       "latest": "2026-08-13 15:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T17:16:23.844Z",
+      "lastRefreshed": "2026-08-13T18:12:24.512Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "모바일 매니퓰레이터와 휴머노이드: 로봇 공학의 미래",
       "latest": "2026-08-13 15:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T17:16:23.844Z",
+      "lastRefreshed": "2026-08-13T18:12:24.512Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "OpenAI, Anthropic, Google API 결함 약한 AI 모델이 더 강한 모델의 추론을 해독하게 함",
       "latest": "2026-08-12 11:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T17:16:23.844Z",
+      "lastRefreshed": "2026-08-13T18:12:24.512Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -72,22 +72,22 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 12,
+      "count": 13,
       "summary": "우주 사령부는 본사 이전이 진행됨에 따라 앨라배마 발자국을 확장합니다.",
       "latest": "2026-08-13 16:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T17:16:23.844Z",
+      "lastRefreshed": "2026-08-13T18:12:24.512Z",
       "themes": []
     },
     {
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
+      "count": 4,
       "summary": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
       "latest": "2026-08-13 00:28",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-13T17:16:23.844Z",
+      "lastRefreshed": "2026-08-13T18:12:24.512Z",
       "themes": [
         "주요 기업"
       ]
@@ -100,7 +100,7 @@
       "summary": "X 오픈소스의 순위 알고리즘을 통해 사용자가 '섀도우 금지‘ 여부를 확인할 수 있습니다.",
       "latest": "2026-08-13 16:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T17:16:23.844Z",
+      "lastRefreshed": "2026-08-13T18:12:24.512Z",
       "themes": [
         "주요 기업"
       ]
@@ -108,6 +108,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.33.0",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.0",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-08-13 17:20",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.33.0",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
         "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
@@ -284,22 +300,6 @@
         "stream": "release",
         "category": "인공지능",
         "titleKo": "ICML에서 2,200개의 논문을 복제함으로써 배운 점",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "One-click upgrade for deprecated Node.js versions",
-        "url": "https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions",
-        "source": "Vercel Changelog",
-        "date": "2026-08-13 00:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "더 이상 사용되지 않는 Node.js 버전에 대한 원클릭 업그레이드",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -629,6 +629,38 @@
     ],
     "community": [
       {
+        "title": "Gemini 3.7 Flash",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+        "source": "Hacker News",
+        "date": "2026-08-13 17:23",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "쌍둥이자리 3.7 플래시",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Heart aerospace completes first flight of largest electric aircraft",
+        "url": "https://www.heartaerospace.com/newsroom/heart-aerospace-completes-first-flight-of-world-s-largest-electric-aircraft",
+        "source": "Hacker News",
+        "date": "2026-08-13 14:11",
+        "categoryId": "space",
+        "confidence": "D",
+        "stream": "community",
+        "category": "우주·통신",
+        "titleKo": "Heart Aerospace, 가장 큰 전기 항공기 첫 비행 완료",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "AI agents lie, cheat and steal. That is putting off users",
         "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
         "source": "Hacker News",
@@ -691,42 +723,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "ChatGPT Desktop (Codex Desktop) for Linux",
-        "url": "https://openai.com/codex/",
-        "source": "Hacker News",
-        "date": "2026-08-13 04:53",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Linux용 ChatGPT 데스크톱 (코덱스 데스크톱)",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
-        "url": "https://sharktastica.co.uk/articles/pc-fxt-45",
-        "source": "Hacker News",
-        "date": "2026-08-12 23:50",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "IBM PC 및 모델 F/XT의 45번째 생일을 축하합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "source": "Hacker News",
+      "date": "2026-08-13 17:23",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "쌍둥이자리 3.7 플래시",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "v0.33.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.0",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-08-13 17:20",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.33.0",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
@@ -998,6 +1030,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Heart aerospace completes first flight of largest electric aircraft",
+      "url": "https://www.heartaerospace.com/newsroom/heart-aerospace-completes-first-flight-of-world-s-largest-electric-aircraft",
+      "source": "Hacker News",
+      "date": "2026-08-13 14:11",
+      "categoryId": "space",
+      "confidence": "D",
+      "stream": "community",
+      "category": "우주·통신",
+      "titleKo": "Heart Aerospace, 가장 큰 전기 항공기 첫 비행 완료",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Does Google even want to win at AI?",
       "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
       "source": "The Verge",
@@ -1230,22 +1278,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "ChatGPT Desktop (Codex Desktop) for Linux",
-      "url": "https://openai.com/codex/",
-      "source": "Hacker News",
-      "date": "2026-08-13 04:53",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Linux용 ChatGPT 데스크톱 (코덱스 데스크톱)",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "APOD: 2026 August 13 – Total Solar Eclipse Over Spain",
       "url": "https://science.nasa.gov/image-article/apod-2026-august-13-total-solar-eclipse-over-spain/",
       "source": "NASA",
@@ -1424,6 +1456,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Gemini 3.7 Flash now available on AI Gateway for 50% off",
+      "url": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off",
+      "source": "Vercel Changelog",
+      "date": "2026-08-13 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "이제 Gemini 3.7 Flash를 AI Gateway에서 50% 할인된 가격에 이용할 수 있습니다",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "One-click upgrade for deprecated Node.js versions",
       "url": "https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions",
       "source": "Vercel Changelog",
@@ -1502,22 +1550,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
-      "url": "https://sharktastica.co.uk/articles/pc-fxt-45",
-      "source": "Hacker News",
-      "date": "2026-08-12 23:50",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "IBM PC 및 모델 F/XT의 45번째 생일을 축하합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
@@ -1948,22 +1980,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "DeepSeek V4 Pro now runs updated weights on AI Gateway",
-      "url": "https://vercel.com/changelog/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-08-12 07:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "DeepSeek V4 Pro는 이제 AI 게이트웨이에서 업데이트된 가중치를 실행합니다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Scaling Autonomous Freight: Inside Pony.ai’s Robotruck Business",
       "url": "https://cleantechnica.com/2026/08/11/scaling-autonomous-freight-inside-pony-ais-robotruck-business/",
       "source": "CleanTechnica",
@@ -2032,30 +2048,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Arcfox Goes Battery Swapping with the Help of CATL",
-      "url": "https://cleantechnica.com/2026/08/11/arcfox-goes-battery-swapping-with-the-help-of-catl/",
-      "source": "CleanTechnica",
-      "date": "2026-08-12 00:17",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Arcfox, CATL의 도움으로 배터리 교환",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 8. 14. AM 2:16",
+    "officialSources": 9,
+    "checkedAt": "2026. 8. 14. AM 3:12",
     "mode": "매시간 공식 레이더"
   }
 }
