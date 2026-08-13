@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 13. AM 9:00",
+  "updatedAt": "2026. 8. 13. PM 12:02",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.1-canary.15",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 62,
-    "sourceCount": 23,
+    "recentCount": 56,
+    "sourceCount": 22,
     "officialCount": 29,
     "opportunityCount": 0
   },
@@ -23,7 +23,7 @@
       "summary": "일부 Claude 사용자는 Anthropic의 새로운 워터 마크가 자신의 직업, 수업에서 그것을 사용하는 것을 포착 할 것이라고 화를 냈습니다.",
       "latest": "2026-08-12 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T00:00:56.198Z",
+      "lastRefreshed": "2026-08-13T03:02:28.601Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
+      "count": 2,
       "summary": "NVIDIA CEO Tops Glassdoor의 2026년 최고의 CEO 목록",
       "latest": "2026-08-12 14:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T00:00:56.198Z",
+      "lastRefreshed": "2026-08-13T03:02:28.601Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "Northrop의 로봇 우주 정비사는 인공위성을 더 오래 작동시킬 수 있는 새로운 방법입니다.",
       "latest": "2026-08-12 20:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T00:00:56.198Z",
+      "lastRefreshed": "2026-08-13T03:02:28.601Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "OpenAI, Anthropic, Google API 결함 약한 AI 모델이 더 강한 모델의 추론을 해독하게 함",
       "latest": "2026-08-12 11:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T00:00:56.198Z",
+      "lastRefreshed": "2026-08-13T03:02:28.601Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -76,7 +76,7 @@
       "summary": "우주군은 기동 시위를 위해 두 대의 임펄스 우주 차량을 추가로 주문합니다",
       "latest": "2026-08-12 23:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T00:00:56.198Z",
+      "lastRefreshed": "2026-08-13T03:02:28.601Z",
       "themes": [
         "주요 기업"
       ]
@@ -85,11 +85,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
-      "summary": "트럼프와 연결된 그린란드 에너지 회사가 얼굴에 떨어짐",
-      "latest": "2026-08-12 13:21",
+      "count": 6,
+      "summary": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
+      "latest": "2026-08-13 00:28",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-13T00:00:56.198Z",
+      "lastRefreshed": "2026-08-13T03:02:28.601Z",
       "themes": [
         "주요 기업"
       ]
@@ -102,7 +102,7 @@
       "summary": "v16.3.1-canary.15",
       "latest": "2026-08-12 23:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T00:00:56.198Z",
+      "lastRefreshed": "2026-08-13T03:02:28.601Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -369,6 +369,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs",
+        "url": "https://cleantechnica.com/2026/08/12/waymo-imports-3200-zeekr-robotaxis-despite-super-high-tariffs/",
+        "source": "CleanTechnica",
+        "date": "2026-08-13 00:28",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
         "url": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/",
         "source": "SpaceNews",
@@ -549,22 +565,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ICE wants to give agents electrified gloves that shock people into compliance",
-        "url": "https://www.theverge.com/policy/979010/ice-agents-electric-shock-gloves",
-        "source": "The Verge",
-        "date": "2026-08-12 17:40",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "ICE는 에이전트에게 전기 장갑을 제공하여 사람들에게 규정 준수에 충격을 주고자 합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -671,6 +671,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs",
+      "url": "https://cleantechnica.com/2026/08/12/waymo-imports-3200-zeekr-robotaxis-despite-super-high-tariffs/",
+      "source": "CleanTechnica",
+      "date": "2026-08-13 00:28",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.3.1-canary.15",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.15",
@@ -1983,30 +1999,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI computing power is becoming a tradable asset class as CME launches futures contracts - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZmFWZUtLT0phNWhEV3ZSVEpGS0pRUG9OcGdIMGNaVW5fclkwUG40XzJ6SERENFpZWkEzamJIWEtJXzVQbkx5RVB4SFlUWFAwN3VTaVI0dk5TVFh1d2dGdmRVSWRUTmZ5Uzk1WWJDSWpuT3BVRmlFN1RPck5IU1czTGw4MVpscGxiWTlJTExQT043S1UzSGl2bTVmQ082LWNuT1NGTm0tMzhkekg20gGyAUFVX3lxTE5VWlgxSHF1eWUyUGRBd3NDRGNEOGJxSzM3amFscGJYZG95U040STNyajVQY2tuRU1DLVgyeDBiQ09FSVlkSU9nMThSNVkxZG5IWTVSekpiTHlYOTBmMzdlYlExdXdpQ0ZXRVpjZEdsalllZl9xZFZaMC1TQW11bzZ0ajdyQjIyZm1od1hpczFPSE9ESTExY1pCNi1OSk5Da1VkNUtNUE91OWRyVnBTR1hNc3c?oc=5",
-      "source": "CNBC",
-      "date": "2026-08-11 18:09",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "CME가 선물 계약을 시작하면서 AI 컴퓨팅 파워가 거래 가능한 자산 클래스가 되고 있습니다 - CNBC",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 35,
+    "successful": 37,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 13. AM 9:00",
+    "checkedAt": "2026. 8. 13. PM 12:02",
     "mode": "매시간 공식 레이더"
   }
 }
