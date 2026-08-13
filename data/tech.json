@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 14. AM 6:46",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 14. AM 7:06",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "Writer는 토큰 비용을 포함하도록 새로운 AI 모델과 업그레이드된 하네스를 도입합니다",
   "metrics": {
     "articleCount": 80,
@@ -23,7 +23,7 @@
       "summary": "Writer는 토큰 비용을 포함하도록 새로운 AI 모델과 업그레이드된 하네스를 도입합니다",
       "latest": "2026-08-13 21:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T21:46:55.215Z",
+      "lastRefreshed": "2026-08-13T22:06:05.539Z",
       "themes": [
         "음악·음성",
         "주요 기업",
@@ -38,7 +38,7 @@
       "summary": "수업 중: 이제 GeForce가 Linux, Chromebook 등을 레벨업합니다.",
       "latest": "2026-08-13 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T21:46:55.215Z",
+      "lastRefreshed": "2026-08-13T22:06:05.539Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "이제 엉망진창을 가리키면 이 로봇 진공청소기가 진공청소기를 빨아들입니다.",
       "latest": "2026-08-13 18:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T21:46:55.215Z",
+      "lastRefreshed": "2026-08-13T22:06:05.539Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "민간 보안 회사는 곧 해외 사이버 범죄자를 해킹 할 수 있습니다",
       "latest": "2026-08-13 19:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T21:46:55.215Z",
+      "lastRefreshed": "2026-08-13T22:06:05.539Z",
       "themes": []
     },
     {
@@ -70,10 +70,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 14,
-      "summary": "NASA의 737, 새로운 페인트 공개",
-      "latest": "2026-08-13 19:41",
+      "summary": "Space Force는 멀티벤더 위성 네트워크 테스트를 위해 5개의 회사에 6천만 달러 ($) 를 수여합니다",
+      "latest": "2026-08-13 22:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T21:46:55.215Z",
+      "lastRefreshed": "2026-08-13T22:06:05.539Z",
       "themes": []
     },
     {
@@ -84,7 +84,7 @@
       "summary": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
       "latest": "2026-08-13 00:28",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-13T21:46:55.215Z",
+      "lastRefreshed": "2026-08-13T22:06:05.539Z",
       "themes": []
     },
     {
@@ -95,7 +95,7 @@
       "summary": "인터넷 개기일식: 아이슬란드, 스페인, 포르투갈의 교통 영향",
       "latest": "2026-08-13 19:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T21:46:55.215Z",
+      "lastRefreshed": "2026-08-13T22:06:05.539Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -379,6 +379,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Space Force awards five companies $60 million for multi-vendor satellite network tests",
+        "url": "https://spacenews.com/space-force-awards-five-companies-60-million-for-multi-vendor-satellite-network-tests/",
+        "source": "SpaceNews",
+        "date": "2026-08-13 22:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Space Force는 멀티벤더 위성 네트워크 테스트를 위해 5개의 회사에 6천만 달러 ($) 를 수여합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Writer introduces new AI model and upgraded harness to contain token costs",
         "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
         "source": "TechCrunch",
@@ -563,22 +579,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Japan to deploy stronger AI safeguards as model capabilities advance - Nikkei Asia",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLUFWM2JudnlTRzFGTlhTSGdDYjM5NnpwYjFjazd0Q1NnTEdCQnRTMW54QVh2cFdPYmZWclpOeEwxSkFxSFJaaDJiNjJGYlA1WV93SDRQNEUyQ3ZkWGNXakZWTTAyVzNkNjZyMnIxb3VqSUZJVGVWemEtamVpNTdpU2Rwa0g2bUFJTzZYRlhZQU5iYjhaQUpTZTFXSnc2ckpLeUR1RkF5MERHVmpBckZtMWVvUnJkLUk0a3BOZjZxTDlhSHhUVE8zNFlhYlgzallMMHc?oc=5",
-        "source": "Nikkei Asia",
-        "date": "2026-08-13 18:17",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "일본, 모델 역량 발전에 따라 더 강력한 AI 보호 장치 배치 - Nikkei Asia",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -681,6 +681,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Space Force awards five companies $60 million for multi-vendor satellite network tests",
+      "url": "https://spacenews.com/space-force-awards-five-companies-60-million-for-multi-vendor-satellite-network-tests/",
+      "source": "SpaceNews",
+      "date": "2026-08-13 22:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Space Force는 멀티벤더 위성 네트워크 테스트를 위해 5개의 회사에 6천만 달러 ($) 를 수여합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Writer introduces new AI model and upgraded harness to contain token costs",
       "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
@@ -1798,22 +1814,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Space Command identifies capabilities it needs for the next space war",
-      "url": "https://spacenews.com/space-command-identifies-capabilities-it-needs-for-the-next-space-war/",
-      "source": "SpaceNews",
-      "date": "2026-08-12 22:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "우주 사령부는 다음 우주 전쟁에 필요한 능력을 식별합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "NASA Data Helps Commercial Space Plan Living Off Our Moon",
       "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-data-helps-commercial-space-plan-living-off-our-moon/",
       "source": "NASA",
@@ -1995,11 +1995,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 42,
-    "total": 47,
+    "successful": 33,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 14. AM 6:46",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 14. AM 7:06",
+    "mode": "매시간 공식 레이더"
   }
 }
