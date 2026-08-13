@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 13. PM 6:59",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 13. PM 9:01",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 13일 – 스페인 상공의 개기일식",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 57,
+    "recentCount": 53,
     "sourceCount": 22,
-    "officialCount": 28,
+    "officialCount": 27,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,14 +19,14 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "아이들이 인공지능에 대해 느끼는 점",
-      "latest": "2026-08-13 09:00",
+      "count": 32,
+      "summary": "Twitch 스트리머는 이제 Amazon의 AI 교육에서 탈퇴할 수 있습니다.",
+      "latest": "2026-08-13 11:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T09:59:07.288Z",
+      "lastRefreshed": "2026-08-13T12:01:57.568Z",
       "themes": [
-        "미술·디자인",
         "주요 기업",
+        "미술·디자인",
         "영상"
       ]
     },
@@ -38,7 +38,7 @@
       "summary": "NVIDIA CEO Tops Glassdoor의 2026년 최고의 CEO 목록",
       "latest": "2026-08-12 14:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T09:59:07.288Z",
+      "lastRefreshed": "2026-08-13T12:01:57.568Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "Northrop의 로봇 우주 정비사는 인공위성을 더 오래 작동시킬 수 있는 새로운 방법입니다.",
       "latest": "2026-08-12 20:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T09:59:07.288Z",
+      "lastRefreshed": "2026-08-13T12:01:57.568Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "OpenAI, Anthropic, Google API 결함 약한 AI 모델이 더 강한 모델의 추론을 해독하게 함",
       "latest": "2026-08-12 11:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T09:59:07.288Z",
+      "lastRefreshed": "2026-08-13T12:01:57.568Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -76,7 +76,7 @@
       "summary": "아스트라니스, 정지 감시 위성 공개",
       "latest": "2026-08-13 09:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T09:59:07.288Z",
+      "lastRefreshed": "2026-08-13T12:01:57.568Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
       "latest": "2026-08-13 00:28",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-13T09:59:07.288Z",
+      "lastRefreshed": "2026-08-13T12:01:57.568Z",
       "themes": [
         "주요 기업"
       ]
@@ -98,11 +98,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
+      "count": 19,
       "summary": "v16.3.1-canary.15",
       "latest": "2026-08-12 23:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T09:59:07.288Z",
+      "lastRefreshed": "2026-08-13T12:01:57.568Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -387,6 +387,40 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Twitch streamers can now opt out from training Amazon’s AI",
+        "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+        "source": "The Verge",
+        "date": "2026-08-13 11:43",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Twitch 스트리머는 이제 Amazon의 AI 교육에서 탈퇴할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Claude's new Scarlet Letter watermark is invisible — for now",
+        "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+        "source": "Ars Technica",
+        "date": "2026-08-13 11:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Claude의 새로운 Scarlet Letter 워터마크가 보이지 않습니다 — 지금은",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Astranis unveils geostationary surveillance satellite",
         "url": "https://spacenews.com/astranis-unveils-geostationary-surveillance-satellite/",
         "source": "SpaceNews",
@@ -547,40 +581,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
-        "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-        "source": "TechCrunch",
-        "date": "2026-08-12 22:26",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "일부 Claude 사용자는 Anthropic의 새로운 워터 마크가 자신의 직업, 수업에서 그것을 사용하는 것을 포착 할 것이라고 화를 냈습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI nuclear power firm Fermi finally has a new CEO",
-        "url": "https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/",
-        "source": "TechCrunch",
-        "date": "2026-08-12 22:24",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 원자력 회사 페르미 (Fermi) 에 마침내 새로운 CEO가 생겼다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -594,6 +594,22 @@
         "stream": "community",
         "category": "인공지능",
         "titleKo": "Linux용 ChatGPT 데스크톱 (코덱스 데스크톱)",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
+        "url": "https://sharktastica.co.uk/articles/pc-fxt-45",
+        "source": "Hacker News",
+        "date": "2026-08-12 23:50",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "IBM PC 및 모델 F/XT의 45번째 생일을 축하합니다",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -667,26 +683,44 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-        "url": "https://knownagents.com/insights",
-        "source": "Hacker News",
-        "date": "2026-08-12 14:02",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "누군가가 ClaudeBot과 같은 AI 봇을 스푸핑하여 대량 취약점 검사를 실행하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Twitch streamers can now opt out from training Amazon’s AI",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "source": "The Verge",
+      "date": "2026-08-13 11:43",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Twitch 스트리머는 이제 Amazon의 AI 교육에서 탈퇴할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Claude's new Scarlet Letter watermark is invisible — for now",
+      "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+      "source": "Ars Technica",
+      "date": "2026-08-13 11:10",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Claude의 새로운 Scarlet Letter 워터마크가 보이지 않습니다 — 지금은",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Astranis unveils geostationary surveillance satellite",
       "url": "https://spacenews.com/astranis-unveils-geostationary-surveillance-satellite/",
@@ -880,6 +914,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
+      "url": "https://sharktastica.co.uk/articles/pc-fxt-45",
+      "source": "Hacker News",
+      "date": "2026-08-12 23:50",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "IBM PC 및 모델 F/XT의 45번째 생일을 축하합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
@@ -1160,24 +1210,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Twitch streamers can now opt out from training Amazon’s AI",
-      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
-      "source": "The Verge",
-      "date": "2026-08-12 17:29",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Twitch 스트리머는 이제 Amazon의 AI 교육에서 탈퇴할 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
       "source": "The Verge",
@@ -1392,22 +1424,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-      "url": "https://knownagents.com/insights",
-      "source": "Hacker News",
-      "date": "2026-08-12 14:02",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "누군가가 ClaudeBot과 같은 AI 봇을 스푸핑하여 대량 취약점 검사를 실행하고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
@@ -1997,30 +2013,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Upcoming deprecation of MAI-Code-1-Flash",
-      "url": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
-      "source": "GitHub Changelog",
-      "date": "2026-08-11 18:50",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "MAI-Code-1-Flash 사용 중단 예정",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 13. PM 6:59",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 13. PM 9:01",
+    "mode": "매시간 공식 레이더"
   }
 }
