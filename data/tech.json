@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 15. AM 6:26",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 15. AM 7:43",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.1-canary.18",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 51,
+    "recentCount": 50,
     "sourceCount": 24,
-    "officialCount": 28,
+    "officialCount": 27,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
+      "count": 35,
       "summary": "Thrive의 조슈아 쿠슈너 (Joshua Kushner) 는 실리콘 밸리 VC들에게 인공지능의 행복감에 대해 꾸짖습니다.",
       "latest": "2026-08-14 19:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T21:26:22.825Z",
+      "lastRefreshed": "2026-08-14T22:43:52.414Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T21:26:22.825Z",
+      "lastRefreshed": "2026-08-14T22:43:52.414Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "월스트리트의 로봇: 로봇 회사를 위한 공공 시장으로의 비전통적인 길",
       "latest": "2026-08-14 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T21:26:22.825Z",
+      "lastRefreshed": "2026-08-14T22:43:52.414Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다 - reuters.com",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T21:26:22.825Z",
+      "lastRefreshed": "2026-08-14T22:43:52.414Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,32 +71,32 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 13,
-      "summary": "NASA 경진대회는 학생들이 루나 테크놀로지가 실현할 수 있는 미래를 상상하도록 돕습니다.",
-      "latest": "2026-08-14 20:00",
+      "summary": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
+      "latest": "2026-08-14 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T21:26:22.825Z",
+      "lastRefreshed": "2026-08-14T22:43:52.414Z",
       "themes": []
     },
     {
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
-      "summary": "호주에서는 가정용 배터리 붐이 도매 전력 가격 인하를 도왔습니다.",
-      "latest": "2026-08-14 14:07",
+      "count": 5,
+      "summary": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
+      "latest": "2026-08-14 22:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-14T21:26:22.825Z",
+      "lastRefreshed": "2026-08-14T22:43:52.414Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
+      "count": 17,
       "summary": "v16.3.1-canary.18",
       "latest": "2026-08-14 20:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T21:26:22.825Z",
+      "lastRefreshed": "2026-08-14T22:43:52.414Z",
       "themes": [
         "주요 기업"
       ]
@@ -323,6 +323,38 @@
     "voices": [],
     "analysis": [
       {
+        "title": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
+        "url": "https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/",
+        "source": "SpaceNews",
+        "date": "2026-08-14 22:26",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
+        "url": "https://cleantechnica.com/2026/08/14/move-local-energy-goals-forward-apply-to-the-energy-technology-innovation-partnership-project/",
+        "source": "CleanTechnica",
+        "date": "2026-08-14 22:02",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
         "url": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
         "source": "TechCrunch",
@@ -487,43 +519,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Uber and Pony.ai plan to bring 2,000 robotaxis to Europe",
-        "url": "https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
-        "source": "TechCrunch",
-        "date": "2026-08-14 10:44",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Uber와 Pony.ai는 유럽에 2,000대의 로봇 택시를 도입할 계획입니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google cuts Gemini 3.7 Flash prices as enterprise AI economics diverge and Pro cadence slows - InfoWorld",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZHdtTVhTTUM3V0NWc1h1SnBBN3lTUUs3ZklfbVlhMVRQNkszSEZSOVZQWll1MjgyYUhSXzR1cDI4WW9FbU92QktCamcxOEY3N2FSN2c2dnFBTHFtZ0hVdHg1LUhVTno1N3pXeFBPVEgzWFlEX1pkVWdkRXZYZ3RSdk5qRnRwSDFiVC1QcEkyVGZ2bHpQX2xtRTVvLU03WGFOOVc5WnZEMm5meTVwNVdkSkZScURNUjRuRnQ4S1BNQ0U2aW9CQlpady12YnQwZ2wwdEtkeFJn?oc=5",
-        "source": "InfoWorld",
-        "date": "2026-08-14 09:40",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google, 엔터프라이즈 AI 경제성이 갈라지고 Pro 케이던스가 느려짐에 따라 Gemini 3.7 플래시 가격 인하 - InfoWorld",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Maximizing the value of your Claude Code sessions",
+        "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+        "source": "Hacker News",
+        "date": "2026-08-14 16:15",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Maximizing the value of your Claude Code sessions",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "AI by Hand",
         "url": "https://www.byhand.ai/",
@@ -607,26 +621,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "The TEMU-Fication of Software, Digital Goods and Services",
-        "url": "https://xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services/",
-        "source": "Hacker News",
-        "date": "2026-08-14 12:00",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "The TEMU-Fication of Software, Digital Goods and Services",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
+      "url": "https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/",
+      "source": "SpaceNews",
+      "date": "2026-08-14 22:26",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
+      "url": "https://cleantechnica.com/2026/08/14/move-local-energy-goals-forward-apply-to-the-energy-technology-innovation-partnership-project/",
+      "source": "CleanTechnica",
+      "date": "2026-08-14 22:02",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.3.1-canary.18",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.18",
@@ -806,6 +836,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "source": "Hacker News",
+      "date": "2026-08-14 16:15",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Maximizing the value of your Claude Code sessions",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Google will now allow users to remove visible watermark from its AI generations",
@@ -1072,22 +1118,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The TEMU-Fication of Software, Digital Goods and Services",
-      "url": "https://xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services/",
-      "source": "Hacker News",
-      "date": "2026-08-14 12:00",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "The TEMU-Fication of Software, Digital Goods and Services",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Intuitive Machines wins contract for three GEO satellites",
@@ -1744,22 +1774,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Space Command expands Alabama footprint as headquarters relocation advances",
-      "url": "https://spacenews.com/space-command-expands-alabama-footprint-as-headquarters-relocation-advances/",
-      "source": "SpaceNews",
-      "date": "2026-08-13 16:27",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "우주 사령부는 본사 이전이 진행됨에 따라 앨라배마 발자국을 확장합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "What 50 open source projects taught us about security in the AI era - The GitHub Blog",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ2ZnVDh0WlE0OGE3RnhkU3F4Q1MtOWNiRXNSNFp2NjgxWHR2X05zTWxCVVJ4T3hUdWRwVEFlMVNNX3l1QmI4U2pHdXE3RC0wMDFhR084bm94d0dPUHZOU0szM1pKdmM1b1hCSWh3aGNtRDFUYWhUb3BpRVVTM0xqcXcwNDMwb3FkWkVBOHBRR0I2SUtQNEc3QjdCY0FrVUZ4UzJrSDdSZ3RfZnJBNW00SHZn?oc=5",
       "source": "The GitHub Blog",
@@ -1920,30 +1934,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Inside the Vercel intern experience",
-      "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
-      "source": "Vercel Changelog",
-      "date": "2026-08-13 04:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "베르셀 인턴 체험 속으로",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 15. AM 6:26",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 15. AM 7:43",
+    "mode": "매시간 공식 레이더"
   }
 }
