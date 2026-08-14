@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 15. AM 5:48",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 15. AM 6:26",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v16.3.1-canary.18",
   "metrics": {
     "articleCount": 80,
     "recentCount": 51,
-    "sourceCount": 22,
-    "officialCount": 30,
+    "sourceCount": 24,
+    "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
@@ -23,7 +23,7 @@
       "summary": "Thrive의 조슈아 쿠슈너 (Joshua Kushner) 는 실리콘 밸리 VC들에게 인공지능의 행복감에 대해 꾸짖습니다.",
       "latest": "2026-08-14 19:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T20:48:35.647Z",
+      "lastRefreshed": "2026-08-14T21:26:22.825Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T20:48:35.648Z",
+      "lastRefreshed": "2026-08-14T21:26:22.825Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,40 +50,42 @@
       "summary": "월스트리트의 로봇: 로봇 회사를 위한 공공 시장으로의 비전통적인 길",
       "latest": "2026-08-14 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T20:48:35.648Z",
+      "lastRefreshed": "2026-08-14T21:26:22.825Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 2,
-      "summary": "민간 보안 회사는 곧 해외 사이버 범죄자를 해킹 할 수 있습니다",
-      "latest": "2026-08-13 19:38",
+      "count": 3,
+      "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다 - reuters.com",
+      "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T20:48:35.648Z",
-      "themes": []
+      "lastRefreshed": "2026-08-14T21:26:22.825Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
       "count": 13,
-      "summary": "NASA MAX POWER: America's Newest Aerospace Expo, Airshow 발표",
-      "latest": "2026-08-14 18:44",
+      "summary": "NASA 경진대회는 학생들이 루나 테크놀로지가 실현할 수 있는 미래를 상상하도록 돕습니다.",
+      "latest": "2026-08-14 20:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T20:48:35.648Z",
+      "lastRefreshed": "2026-08-14T21:26:22.825Z",
       "themes": []
     },
     {
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
+      "count": 4,
       "summary": "호주에서는 가정용 배터리 붐이 도매 전력 가격 인하를 도왔습니다.",
       "latest": "2026-08-14 14:07",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-14T20:48:35.648Z",
+      "lastRefreshed": "2026-08-14T21:26:22.825Z",
       "themes": []
     },
     {
@@ -94,7 +96,7 @@
       "summary": "v16.3.1-canary.18",
       "latest": "2026-08-14 20:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T20:48:35.648Z",
+      "lastRefreshed": "2026-08-14T21:26:22.825Z",
       "themes": [
         "주요 기업"
       ]
@@ -112,6 +114,22 @@
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "v16.3.1-canary.18",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NASA Competition Invites Students to Help Imagine a Future Enabled by Lunar Technologies",
+        "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-competition-invites-students-to-help-imagine-a-future-enabled-by-lunar-technologies/",
+        "source": "NASA",
+        "date": "2026-08-14 20:00",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA 경진대회는 학생들이 루나 테크놀로지가 실현할 수 있는 미래를 상상하도록 돕습니다.",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -279,22 +297,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Cheaper launch has moved the spacecraft bottleneck. Mass is out, surface area is in.",
-        "url": "https://spacenews.com/cheaper-launch-has-moved-the-spacecraft-bottleneck-mass-is-out-surface-area-is-in/",
-        "source": "SpaceNews",
-        "date": "2026-08-14 13:00",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "더 저렴한 발사로 우주선 병목 현상이 발생했습니다. 질량은 나갔고, 표면적은 들어갔습니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -503,15 +505,15 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Apple trained its own AI model for China with help from Alibaba",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
-        "source": "The Verge",
-        "date": "2026-08-14 09:30",
+        "title": "Google cuts Gemini 3.7 Flash prices as enterprise AI economics diverge and Pro cadence slows - InfoWorld",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZHdtTVhTTUM3V0NWc1h1SnBBN3lTUUs3ZklfbVlhMVRQNkszSEZSOVZQWll1MjgyYUhSXzR1cDI4WW9FbU92QktCamcxOEY3N2FSN2c2dnFBTHFtZ0hVdHg1LUhVTno1N3pXeFBPVEgzWFlEX1pkVWdkRXZYZ3RSdk5qRnRwSDFiVC1QcEkyVGZ2bHpQX2xtRTVvLU03WGFOOVc5WnZEMm5meTVwNVdkSkZScURNUjRuRnQ4S1BNQ0U2aW9CQlpady12YnQwZ2wwdEtkeFJn?oc=5",
+        "source": "InfoWorld",
+        "date": "2026-08-14 09:40",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
         "category": "인공지능",
-        "titleKo": "애플은 알리바바의 도움을 받아 중국을 대상으로 자체 AI 모델을 교육했다.",
+        "titleKo": "Google, 엔터프라이즈 AI 경제성이 갈라지고 Pro 케이던스가 느려짐에 따라 Gemini 3.7 플래시 가격 인하 - InfoWorld",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -635,6 +637,22 @@
       "stream": "release",
       "category": "소프트웨어·개발",
       "titleKo": "v16.3.1-canary.18",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "NASA Competition Invites Students to Help Imagine a Future Enabled by Lunar Technologies",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-competition-invites-students-to-help-imagine-a-future-enabled-by-lunar-technologies/",
+      "source": "NASA",
+      "date": "2026-08-14 20:00",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA 경진대회는 학생들이 루나 테크놀로지가 실현할 수 있는 미래를 상상하도록 돕습니다.",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1022,6 +1040,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "China's Z.ai says new model nears Anthropic's Mythos 5 in cyber-defence tests - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS1MtSVJMY0p5blN0MUdSV0xMMmE1NzdWdVJYUjh0cTdCNVJyOXRLVmtId004V0xIc2FyVS1IRk5laFR1MHBKemVhcWV0SGxWZkVJUGM0V2t6d214Zlg1QUFQam1aS1RoanhfOXR3dzNmWmN3enhDWWpDZ1poT1JJek92Q0tIU2ZvdVR1VTlWcEdtZVZSVmVEa1BKV29XaHIwdHVoTHFJUDhkc0pveVpidEtOcE5walIyM1E?oc=5",
+      "source": "reuters.com",
+      "date": "2026-08-14 12:53",
+      "categoryId": "cyber",
+      "confidence": "B",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다 - reuters.com",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "Robots on Wall Street: Non-traditional paths to public markets for robotics companies",
       "url": "https://www.therobotreport.com/robots-on-wall-street-non-traditional-paths-public-markets-robotics-companies/",
       "source": "The Robot Report",
@@ -1081,6 +1117,24 @@
       "titleKo": "Uber와 Pony.ai는 유럽에 2,000대의 로봇 택시를 도입할 계획입니다.",
       "type": "뉴스·분석",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google cuts Gemini 3.7 Flash prices as enterprise AI economics diverge and Pro cadence slows - InfoWorld",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZHdtTVhTTUM3V0NWc1h1SnBBN3lTUUs3ZklfbVlhMVRQNkszSEZSOVZQWll1MjgyYUhSXzR1cDI4WW9FbU92QktCamcxOEY3N2FSN2c2dnFBTHFtZ0hVdHg1LUhVTno1N3pXeFBPVEgzWFlEX1pkVWdkRXZYZ3RSdk5qRnRwSDFiVC1QcEkyVGZ2bHpQX2xtRTVvLU03WGFOOVc5WnZEMm5meTVwNVdkSkZScURNUjRuRnQ4S1BNQ0U2aW9CQlpady12YnQwZ2wwdEtkeFJn?oc=5",
+      "source": "InfoWorld",
+      "date": "2026-08-14 09:40",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google, 엔터프라이즈 AI 경제성이 갈라지고 Pro 케이던스가 느려짐에 따라 Gemini 3.7 플래시 가격 인하 - InfoWorld",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1161,22 +1215,6 @@
       "stream": "release",
       "category": "우주·통신",
       "titleKo": "APOD: 2026년 8월 14일 – 그린란드에서 출발하는 개기일식",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "A Sunflower’s View of Totality",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
-      "source": "NASA",
-      "date": "2026-08-14 04:01",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "전체에 대한 해바라기의 관점",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1722,20 +1760,20 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "What 50 open source projects taught us about security in the AI era - github.blog",
+      "title": "What 50 open source projects taught us about security in the AI era - The GitHub Blog",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ2ZnVDh0WlE0OGE3RnhkU3F4Q1MtOWNiRXNSNFp2NjgxWHR2X05zTWxCVVJ4T3hUdWRwVEFlMVNNX3l1QmI4U2pHdXE3RC0wMDFhR084bm94d0dPUHZOU0szM1pKdmM1b1hCSWh3aGNtRDFUYWhUb3BpRVVTM0xqcXcwNDMwb3FkWkVBOHBRR0I2SUtQNEc3QjdCY0FrVUZ4UzJrSDdSZ3RfZnJBNW00SHZn?oc=5",
-      "source": "github.blog",
+      "source": "The GitHub Blog",
       "date": "2026-08-13 16:01",
       "categoryId": "software",
-      "confidence": "A",
+      "confidence": "C",
       "stream": "news",
       "category": "소프트웨어·개발",
-      "titleKo": "What 50 open source projects taught us about security in the AI era - github.blog",
+      "titleKo": "What 50 open source projects taught us about security in the AI era - The GitHub Blog",
       "type": "오픈소스",
       "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Mobile manipulators and humanoids: The future of robotics",
@@ -1898,46 +1936,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs",
-      "url": "https://cleantechnica.com/2026/08/12/waymo-imports-3200-zeekr-robotaxis-despite-super-high-tariffs/",
-      "source": "CleanTechnica",
-      "date": "2026-08-13 00:28",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "source": "Hugging Face Blog",
-      "date": "2026-08-13 00:00",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "ICML에서 2,200개의 논문을 복제함으로써 배운 점",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 10,
-    "checkedAt": "2026. 8. 15. AM 5:48",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 9,
+    "checkedAt": "2026. 8. 15. AM 6:26",
+    "mode": "하루 2회 전체 수집"
   }
 }
