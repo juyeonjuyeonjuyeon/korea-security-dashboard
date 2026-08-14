@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 15. AM 7:43",
+  "updatedAt": "2026. 8. 15. AM 8:40",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.3.1-canary.18",
+  "headline": "v16.3.1-canary.19",
   "metrics": {
     "articleCount": 80,
     "recentCount": 50,
     "sourceCount": 24,
-    "officialCount": 27,
+    "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.3.1-canary.18",
+    "새 출시: v16.3.1-canary.19",
     "창작 기술: 넷플릭스가 두 개의 게임 스튜디오를 폐쇄합니다"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
+      "count": 34,
       "summary": "Thrive의 조슈아 쿠슈너 (Joshua Kushner) 는 실리콘 밸리 VC들에게 인공지능의 행복감에 대해 꾸짖습니다.",
       "latest": "2026-08-14 19:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T22:43:52.414Z",
+      "lastRefreshed": "2026-08-14T23:40:44.156Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T22:43:52.414Z",
+      "lastRefreshed": "2026-08-14T23:40:44.156Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "월스트리트의 로봇: 로봇 회사를 위한 공공 시장으로의 비전통적인 길",
       "latest": "2026-08-14 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T22:43:52.414Z",
+      "lastRefreshed": "2026-08-14T23:40:44.156Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다 - reuters.com",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T22:43:52.414Z",
+      "lastRefreshed": "2026-08-14T23:40:44.156Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +74,7 @@
       "summary": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
       "latest": "2026-08-14 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T22:43:52.414Z",
+      "lastRefreshed": "2026-08-14T23:40:44.156Z",
       "themes": []
     },
     {
@@ -85,18 +85,18 @@
       "summary": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
       "latest": "2026-08-14 22:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-14T22:43:52.414Z",
+      "lastRefreshed": "2026-08-14T23:40:44.156Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
-      "summary": "v16.3.1-canary.18",
-      "latest": "2026-08-14 20:41",
+      "count": 18,
+      "summary": "v16.3.1-canary.19",
+      "latest": "2026-08-14 23:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T22:43:52.414Z",
+      "lastRefreshed": "2026-08-14T23:40:44.156Z",
       "themes": [
         "주요 기업"
       ]
@@ -104,6 +104,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.1-canary.19",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.19",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-14 23:22",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.19",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.3.1-canary.18",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.18",
@@ -276,22 +292,6 @@
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "Cloudflare가 MCP 트래픽을 감지하고 보안을 유지하는 방법",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Secure all your internal vibe-coded applications — in one click",
-        "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-        "source": "Cloudflare Blog",
-        "date": "2026-08-14 13:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "클릭 한 번으로 모든 내부 진동 코딩 애플리케이션을 보호하세요",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -625,6 +625,22 @@
     ]
   },
   "news": [
+    {
+      "title": "v16.3.1-canary.19",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.19",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-14 23:22",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.19",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
       "url": "https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/",
@@ -1918,30 +1934,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "How kids feel about AI, in their own words",
-      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-      "source": "MIT Technology Review",
-      "date": "2026-08-13 09:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "아이들이 인공지능에 대해 느끼는 점",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
+    "successful": 36,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 15. AM 7:43",
+    "checkedAt": "2026. 8. 15. AM 8:40",
     "mode": "매시간 공식 레이더"
   }
 }
