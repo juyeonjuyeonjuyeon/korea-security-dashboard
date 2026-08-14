@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 14. AM 8:05",
+  "updatedAt": "2026. 8. 14. AM 9:01",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.3.1",
+  "headline": "v16.3.1-canary.16",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 70,
+    "recentCount": 63,
     "sourceCount": 23,
     "officialCount": 29,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.3.1",
+    "새 출시: v16.3.1-canary.16",
     "창작 기술: 넷플릭스가 두 개의 게임 스튜디오를 폐쇄합니다"
   ],
   "categories": [
@@ -23,7 +23,7 @@
       "summary": "v0.33.1",
       "latest": "2026-08-13 22:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T23:05:37.197Z",
+      "lastRefreshed": "2026-08-14T00:01:23.804Z",
       "themes": [
         "음악·음성",
         "주요 기업",
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 2,
+      "count": 1,
       "summary": "수업 중: 이제 GeForce가 Linux, Chromebook 등을 레벨업합니다.",
       "latest": "2026-08-13 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T23:05:37.197Z",
+      "lastRefreshed": "2026-08-14T00:01:23.804Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "마침내 마당에서 신뢰할 수 있는 로봇 잔디 깎는 기계를 찾았습니다.",
       "latest": "2026-08-13 22:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T23:05:37.197Z",
+      "lastRefreshed": "2026-08-14T00:01:23.804Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "민간 보안 회사는 곧 해외 사이버 범죄자를 해킹 할 수 있습니다",
       "latest": "2026-08-13 19:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T23:05:37.197Z",
+      "lastRefreshed": "2026-08-14T00:01:23.804Z",
       "themes": []
     },
     {
@@ -73,7 +73,7 @@
       "summary": "Space Force는 멀티벤더 위성 네트워크 테스트를 위해 5개의 회사에 6천만 달러 ($) 를 수여합니다",
       "latest": "2026-08-13 22:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T23:05:37.197Z",
+      "lastRefreshed": "2026-08-14T00:01:23.804Z",
       "themes": []
     },
     {
@@ -84,18 +84,18 @@
       "summary": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
       "latest": "2026-08-13 00:28",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-13T23:05:37.197Z",
+      "lastRefreshed": "2026-08-14T00:01:23.804Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
-      "summary": "v16.3.1",
-      "latest": "2026-08-13 22:48",
+      "count": 20,
+      "summary": "v16.3.1-canary.16",
+      "latest": "2026-08-13 23:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-13T23:05:37.197Z",
+      "lastRefreshed": "2026-08-14T00:01:23.804Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -104,6 +104,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.1-canary.16",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.16",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-13 23:49",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.16",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.3.1",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1",
@@ -280,22 +296,6 @@
         "themes": [
           "주요 기업"
         ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v0.33.0",
-        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.0",
-        "source": "GitHub · ComfyUI",
-        "date": "2026-08-13 17:20",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "v0.33.0",
-        "type": "출시·업데이트",
-        "themes": [],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -681,6 +681,22 @@
     ]
   },
   "news": [
+    {
+      "title": "v16.3.1-canary.16",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.16",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-13 23:49",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.16",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "v16.3.1",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1",
@@ -1974,24 +1990,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-      "source": "NVIDIA Blog",
-      "date": "2026-08-12 14:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "NVIDIA CEO Tops Glassdoor의 2026년 최고의 CEO 목록",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -1999,7 +1997,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 14. AM 8:05",
+    "checkedAt": "2026. 8. 14. AM 9:01",
     "mode": "매시간 공식 레이더"
   }
 }
