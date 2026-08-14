@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 14. AM 9:01",
+  "updatedAt": "2026. 8. 14. PM 12:01",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.1-canary.16",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 63,
+    "recentCount": 65,
     "sourceCount": 23,
     "officialCount": 29,
     "opportunityCount": 0
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
+      "count": 35,
       "summary": "v0.33.1",
       "latest": "2026-08-13 22:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T00:01:23.804Z",
+      "lastRefreshed": "2026-08-14T03:01:07.830Z",
       "themes": [
         "음악·음성",
         "주요 기업",
@@ -38,7 +38,7 @@
       "summary": "수업 중: 이제 GeForce가 Linux, Chromebook 등을 레벨업합니다.",
       "latest": "2026-08-13 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T00:01:23.804Z",
+      "lastRefreshed": "2026-08-14T03:01:07.830Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,11 +47,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
+      "count": 5,
       "summary": "마침내 마당에서 신뢰할 수 있는 로봇 잔디 깎는 기계를 찾았습니다.",
       "latest": "2026-08-13 22:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T00:01:23.804Z",
+      "lastRefreshed": "2026-08-14T03:01:07.830Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "민간 보안 회사는 곧 해외 사이버 범죄자를 해킹 할 수 있습니다",
       "latest": "2026-08-13 19:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T00:01:23.804Z",
+      "lastRefreshed": "2026-08-14T03:01:07.830Z",
       "themes": []
     },
     {
@@ -70,32 +70,32 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 14,
-      "summary": "Space Force는 멀티벤더 위성 네트워크 테스트를 위해 5개의 회사에 6천만 달러 ($) 를 수여합니다",
-      "latest": "2026-08-13 22:00",
+      "summary": "CesiumAstro는 별자리 계획을 강화하기 위해 반도체 전문가를 구매합니다",
+      "latest": "2026-08-14 02:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T00:01:23.804Z",
+      "lastRefreshed": "2026-08-14T03:01:07.830Z",
       "themes": []
     },
     {
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 1,
-      "summary": "Waymo는 초고율 관세에도 불구하고 3,200개의 Zeekr Robotaxis를 수입합니다",
-      "latest": "2026-08-13 00:28",
+      "count": 2,
+      "summary": "조지아 파워와의 공개 AI 계약에 필요한 투명성, 책임성",
+      "latest": "2026-08-14 00:19",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-14T00:01:23.804Z",
+      "lastRefreshed": "2026-08-14T03:01:07.830Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
+      "count": 21,
       "summary": "v16.3.1-canary.16",
       "latest": "2026-08-13 23:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T00:01:23.804Z",
+      "lastRefreshed": "2026-08-14T03:01:07.830Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -379,6 +379,38 @@
     "voices": [],
     "analysis": [
       {
+        "title": "CesiumAstro buys semiconductor specialist to boost constellation plans",
+        "url": "https://spacenews.com/cesiumastro-buys-semiconductor-specialist-to-boost-constellation-plans/",
+        "source": "SpaceNews",
+        "date": "2026-08-14 02:24",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "CesiumAstro는 별자리 계획을 강화하기 위해 반도체 전문가를 구매합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Transparency, Accountability Needed in Open AI Contract with Georgia Power",
+        "url": "https://cleantechnica.com/2026/08/13/transparency-accountability-needed-in-open-ai-contract-with-georgia-power/",
+        "source": "CleanTechnica",
+        "date": "2026-08-14 00:19",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "조지아 파워와의 공개 AI 계약에 필요한 투명성, 책임성",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "I finally found a robot lawnmower I’d trust with my yard",
         "url": "https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame",
         "source": "The Verge",
@@ -461,6 +493,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "llm-gemini 0.33",
+        "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+        "source": "Simon Willison",
+        "date": "2026-08-13 19:37",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "llm-gemini 0.33",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "OpenAI is losing its second executive this week",
         "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
         "source": "The Verge",
@@ -526,56 +574,6 @@
         "titleKo": "트럼프 관리자는 민간 기업이 국제 사이버 공격을 시작하도록 할 것입니다.",
         "type": "출시·업데이트",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Virgin Galactic wants your help naming its new Delta class spaceship",
-        "url": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
-        "source": "Ars Technica",
-        "date": "2026-08-13 19:12",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "Virgin Galactic은 새로운 델타급 우주선의 이름을 정하는 데 도움을 원합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "You can now just point at a mess and this robot vacuum will suck it up",
-        "url": "https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review",
-        "source": "The Verge",
-        "date": "2026-08-13 18:34",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "이제 엉망진창을 가리키면 이 로봇 진공청소기가 진공청소기를 빨아들입니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
-        "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
-        "source": "TechCrunch",
-        "date": "2026-08-13 18:28",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic set AI agents loose on the same task. 그들은 잔디 전쟁을 시작했습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -681,6 +679,38 @@
     ]
   },
   "news": [
+    {
+      "title": "CesiumAstro buys semiconductor specialist to boost constellation plans",
+      "url": "https://spacenews.com/cesiumastro-buys-semiconductor-specialist-to-boost-constellation-plans/",
+      "source": "SpaceNews",
+      "date": "2026-08-14 02:24",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "CesiumAstro는 별자리 계획을 강화하기 위해 반도체 전문가를 구매합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Transparency, Accountability Needed in Open AI Contract with Georgia Power",
+      "url": "https://cleantechnica.com/2026/08/13/transparency-accountability-needed-in-open-ai-contract-with-georgia-power/",
+      "source": "CleanTechnica",
+      "date": "2026-08-14 00:19",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "조지아 파워와의 공개 AI 계약에 필요한 투명성, 책임성",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.3.1-canary.16",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.16",
@@ -837,6 +867,22 @@
       "stream": "news",
       "category": "사이버보안",
       "titleKo": "민간 보안 회사는 곧 해외 사이버 범죄자를 해킹 할 수 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "llm-gemini 0.33",
+      "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+      "source": "Simon Willison",
+      "date": "2026-08-13 19:37",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "llm-gemini 0.33",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1830,22 +1876,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
-      "url": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/",
-      "source": "SpaceNews",
-      "date": "2026-08-12 23:30",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "우주군은 기동 시위를 위해 두 대의 임펄스 우주 차량을 추가로 주문합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "NASA Data Helps Commercial Space Plan Living Off Our Moon",
       "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-data-helps-commercial-space-plan-living-off-our-moon/",
       "source": "NASA",
@@ -1958,38 +1988,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Inside the Data Bottleneck Slowing Visual and Physical AI",
-      "url": "https://content.knowledgehub.wiley.com/the-2026-state-of-visual-and-physical-ai-a-survey-of-700-practitioners-on-data-models-and-production/",
-      "source": "IEEE Spectrum",
-      "date": "2026-08-12 14:18",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "데이터 병목 현상 속도로 느려지는 시각적 및 물리적 AI",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Q2 2026 robotics demand increased across industries, reports A3",
-      "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
-      "source": "The Robot Report",
-      "date": "2026-08-12 14:18",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "2026년 2분기 산업 전반에 걸쳐 로봇 수요 증가, A3 보고서",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -1997,7 +1995,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 14. AM 9:01",
+    "checkedAt": "2026. 8. 14. PM 12:01",
     "mode": "매시간 공식 레이더"
   }
 }
