@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 15. AM 1:07",
+  "updatedAt": "2026. 8. 15. AM 2:14",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "해바라기밭에서 즐기는 개기일식",
+  "headline": "v16.3.1-canary.17",
   "metrics": {
     "articleCount": 80,
     "recentCount": 59,
@@ -11,7 +11,7 @@
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: 해바라기밭에서 즐기는 개기일식",
+    "새 출시: v16.3.1-canary.17",
     "창작 기술: 넷플릭스가 두 개의 게임 스튜디오를 폐쇄합니다"
   ],
   "categories": [
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 34,
-      "summary": "마크 주커버그는 정말로 인공지능이 '모두를 위한 것‘ 이라고 믿는가?",
-      "latest": "2026-08-14 15:43",
+      "summary": "이제 Google Gemini의 표시된 워터마크를 끌 수 있습니다.",
+      "latest": "2026-08-14 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T16:07:54.877Z",
+      "lastRefreshed": "2026-08-14T17:14:55.800Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "수업 중: 이제 GeForce가 Linux, Chromebook 등을 레벨업합니다.",
       "latest": "2026-08-13 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T16:07:54.877Z",
+      "lastRefreshed": "2026-08-14T17:14:55.800Z",
       "themes": [
         "주요 기업"
       ]
@@ -46,11 +46,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
+      "count": 5,
       "summary": "월스트리트의 로봇: 로봇 회사를 위한 공공 시장으로의 비전통적인 길",
       "latest": "2026-08-14 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T16:07:54.877Z",
+      "lastRefreshed": "2026-08-14T17:14:55.800Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "GLM-5.3: 새로운 사이버 기능을 갖춘 프론티어 코딩",
       "latest": "2026-08-14 05:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T16:07:54.877Z",
+      "lastRefreshed": "2026-08-14T17:14:55.800Z",
       "themes": []
     },
     {
@@ -72,18 +72,18 @@
       "summary": "해바라기밭에서 즐기는 개기일식",
       "latest": "2026-08-14 14:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T16:07:54.877Z",
+      "lastRefreshed": "2026-08-14T17:14:55.800Z",
       "themes": []
     },
     {
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
-      "summary": "호주에서는 가정용 배터리 붐이 도매 전력 가격을 절반으로 낮추는 데 도움이 되었습니다.",
+      "count": 5,
+      "summary": "호주에서는 가정용 배터리 붐이 도매 전력 가격 인하를 도왔습니다.",
       "latest": "2026-08-14 14:07",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-14T16:07:54.877Z",
+      "lastRefreshed": "2026-08-14T17:14:55.800Z",
       "themes": []
     },
     {
@@ -91,10 +91,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 19,
-      "summary": "Cloudflare가 MCP 트래픽을 감지하고 보안을 유지하는 방법",
-      "latest": "2026-08-14 13:12",
+      "summary": "v16.3.1-canary.17",
+      "latest": "2026-08-14 17:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T16:07:54.877Z",
+      "lastRefreshed": "2026-08-14T17:14:55.800Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -103,6 +103,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.1-canary.17",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.17",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-14 17:04",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.1-canary.17",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Encrypted Client Hello (ECH) is now supported on Vercel CDN",
+        "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
+        "source": "Vercel Changelog",
+        "date": "2026-08-14 16:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "이제 Vercel CDN에서 ECH (Encrypted Client Hello) 가 지원됩니다.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "Total Solar Eclipse in Sunflower Field",
         "url": "https://www.nasa.gov/image-article/total-solar-eclipse-in-sunflower-field/",
@@ -232,6 +264,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "GitHub Copilot weekly releases — August 10",
+        "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+        "source": "GitHub Changelog",
+        "date": "2026-08-14 03:15",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub Copilot 주간 릴리스 — 8월 10일",
+        "type": "오픈소스",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "State of Open Models: Summer 2026 Observations",
         "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "source": "Hugging Face Blog",
@@ -241,54 +289,6 @@
         "stream": "release",
         "category": "인공지능",
         "titleKo": "개방형 모델 상태: 2026년 여름 관측",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.3.1-canary.16",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.16",
-        "source": "GitHub · Next.js",
-        "date": "2026-08-13 23:49",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.3.1-canary.16",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.3.1",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1",
-        "source": "GitHub · Next.js",
-        "date": "2026-08-13 22:48",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.3.1",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v0.33.1",
-        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.1",
-        "source": "GitHub · ComfyUI",
-        "date": "2026-08-13 22:18",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "v0.33.1",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -319,6 +319,42 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "You can now turn off Google Gemini’s visible watermarks",
+        "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+        "source": "The Verge",
+        "date": "2026-08-14 16:49",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "이제 Google Gemini의 표시된 워터마크를 끌 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Google will now allow users to remove visible watermark from its AI generations",
+        "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+        "source": "TechCrunch",
+        "date": "2026-08-14 16:13",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "이제 Google은 사용자가 AI 세대에서 가시적 워터마크를 제거할 수 있도록 허용합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
         "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
@@ -482,41 +518,43 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "XPENG Debuts L03 AI SUV Coupe in Indonesia As Vehicle Heads for the Phillippines",
-        "url": "https://cleantechnica.com/2026/08/14/xpeng-debuts-l03-ai-suv-coupe-in-indonesia-as-vehicle-heads-for-the-phillippines/",
-        "source": "CleanTechnica",
-        "date": "2026-08-14 08:27",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "XPENG, 인도네시아에서 L03 AI SUV 쿠페 차량으로 필리핀으로 데뷔",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
-        "url": "https://arxiv.org/abs/2608.12371",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-14 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "모바일 에지 컴퓨팅에서 스트림 처리를 위한 LLM 지원 계약 순 협상을 통한 다중 에이전트 스케줄링",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
+        "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+        "source": "Hacker News",
+        "date": "2026-08-14 14:34",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "천재가 실패할 때: 인공지능 연구소의 지적 오만함",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "In Australia, a home battery boom has helped cut wholesale power prices",
+        "url": "https://e360.yale.edu/digest/australia-home-batteries",
+        "source": "Hacker News",
+        "date": "2026-08-14 14:07",
+        "categoryId": "energy",
+        "confidence": "D",
+        "stream": "community",
+        "category": "에너지·기후기술",
+        "titleKo": "호주에서는 가정용 배터리 붐이 도매 전력 가격 인하를 도왔습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
         "url": "https://e360.yale.edu/digest/australia-home-batteries",
@@ -580,42 +618,78 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Gemini 3.7 Flash",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-        "source": "Hacker News",
-        "date": "2026-08-13 17:23",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "쌍둥이자리 3.7 플래시",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "AI At Home Part 1: A Box Of Scraps",
-        "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-        "source": "Hacker News",
-        "date": "2026-08-13 16:22",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI At Home 1부: 조각 상자",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v16.3.1-canary.17",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.17",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-14 17:04",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.1-canary.17",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "You can now turn off Google Gemini’s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "source": "The Verge",
+      "date": "2026-08-14 16:49",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "이제 Google Gemini의 표시된 워터마크를 끌 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "source": "TechCrunch",
+      "date": "2026-08-14 16:13",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "이제 Google은 사용자가 AI 세대에서 가시적 워터마크를 제거할 수 있도록 허용합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Encrypted Client Hello (ECH) is now supported on Vercel CDN",
+      "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
+      "source": "Vercel Changelog",
+      "date": "2026-08-14 16:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "이제 Vercel CDN에서 ECH (Encrypted Client Hello) 가 지원됩니다.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
       "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
@@ -665,6 +739,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
+      "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+      "source": "Hacker News",
+      "date": "2026-08-14 14:34",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "천재가 실패할 때: 인공지능 연구소의 지적 오만함",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
       "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
       "source": "Ars Technica",
@@ -681,6 +773,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "In Australia, a home battery boom has helped cut wholesale power prices",
+      "url": "https://e360.yale.edu/digest/australia-home-batteries",
+      "source": "Hacker News",
+      "date": "2026-08-14 14:07",
+      "categoryId": "energy",
+      "confidence": "D",
+      "stream": "community",
+      "category": "에너지·기후기술",
+      "titleKo": "호주에서는 가정용 배터리 붐이 도매 전력 가격 인하를 도왔습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
@@ -1005,6 +1113,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "GitHub Copilot weekly releases — August 10",
+      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+      "source": "GitHub Changelog",
+      "date": "2026-08-14 03:15",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub Copilot 주간 릴리스 — 8월 10일",
+      "type": "오픈소스",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "CesiumAstro buys semiconductor specialist to boost constellation plans",
       "url": "https://spacenews.com/cesiumastro-buys-semiconductor-specialist-to-boost-constellation-plans/",
       "source": "SpaceNews",
@@ -1299,24 +1423,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "IBM partners with OpenAI to bolster enterprise AI push",
-      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
-      "source": "TechCrunch",
-      "date": "2026-08-13 19:19",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "IBM은 OpenAI와 파트너십을 맺고 엔터프라이즈 AI 추진력을 강화합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "License data quality improvements",
       "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
       "source": "GitHub Changelog",
@@ -1415,22 +1521,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "You can now just point at a mess and this robot vacuum will suck it up",
-      "url": "https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review",
-      "source": "The Verge",
-      "date": "2026-08-13 18:34",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "이제 엉망진창을 가리키면 이 로봇 진공청소기가 진공청소기를 빨아들입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Japan to deploy stronger AI safeguards as model capabilities advance - Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLUFWM2JudnlTRzFGTlhTSGdDYjM5NnpwYjFjazd0Q1NnTEdCQnRTMW54QVh2cFdPYmZWclpOeEwxSkFxSFJaaDJiNjJGYlA1WV93SDRQNEUyQ3ZkWGNXakZWTTAyVzNkNjZyMnIxb3VqSUZJVGVWemEtamVpNTdpU2Rwa0g2bUFJTzZYRlhZQU5iYjhaQUpTZTFXSnc2ckpLeUR1RkF5MERHVmpBckZtMWVvUnJkLUk0a3BOZjZxTDlhSHhUVE8zNFlhYlgzallMMHc?oc=5",
       "source": "Nikkei Asia",
@@ -1461,22 +1551,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "Hacker News",
-      "date": "2026-08-13 17:23",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "쌍둥이자리 3.7 플래시",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v0.33.0",
@@ -1561,22 +1635,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI At Home Part 1: A Box Of Scraps",
-      "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-      "source": "Hacker News",
-      "date": "2026-08-13 16:22",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI At Home 1부: 조각 상자",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "What 50 open source projects taught us about security in the AI era - github.blog",
@@ -1871,54 +1929,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Grok Build is now available in the AI SDK harness layer",
-      "url": "https://vercel.com/changelog/grok-build-harness-adapter",
-      "source": "Vercel Changelog",
-      "date": "2026-08-13 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 AI SDK 하네스 계층에서 Grok Build를 사용할 수 있습니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Use ACP-compatible harnesses with the AI SDK harness layer",
-      "url": "https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer",
-      "source": "Vercel Changelog",
-      "date": "2026-08-13 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "AI SDK 하네스 레이어와 ACP 호환 하네스 사용",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.3.1-canary.15",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.15",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-12 23:50",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.1-canary.15",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -1926,7 +1936,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 8. 15. AM 1:07",
+    "checkedAt": "2026. 8. 15. AM 2:14",
     "mode": "매시간 공식 레이더"
   }
 }
