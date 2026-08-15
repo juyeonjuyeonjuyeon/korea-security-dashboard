@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 16. AM 5:42",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 16. AM 6:22",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "APOD: 2026년 8월 15일 – 스웨덴의 밝은 페르세우스자리",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 19,
+    "recentCount": 21,
     "sourceCount": 25,
     "officialCount": 30,
     "opportunityCount": 1
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 35,
-      "summary": "Anthropic은 Claude의 새로운 워터마크가 어떻게 작동하는지 자세히 공유합니다.",
-      "latest": "2026-08-15 18:58",
+      "summary": "챗봇 역할극을 통해 AI의 비용을 웃겨보세요",
+      "latest": "2026-08-15 20:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T20:42:24.291Z",
+      "lastRefreshed": "2026-08-15T21:22:14.744Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T20:42:24.291Z",
+      "lastRefreshed": "2026-08-15T21:22:14.744Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "자연스러운 의사소통이 불가능한 로봇이 채택되지 않는 이유",
       "latest": "2026-08-15 12:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T20:42:24.291Z",
+      "lastRefreshed": "2026-08-15T21:22:14.745Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다. - Reuters",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T20:42:24.291Z",
+      "lastRefreshed": "2026-08-15T21:22:14.745Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "SpaceX, 커서 획득 공식 종료",
       "latest": "2026-08-15 16:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T20:42:24.291Z",
+      "lastRefreshed": "2026-08-15T21:22:14.745Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
       "latest": "2026-08-14 22:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-15T20:42:24.291Z",
+      "lastRefreshed": "2026-08-15T21:22:14.745Z",
       "themes": []
     },
     {
@@ -100,7 +100,7 @@
       "summary": "v3.1.0",
       "latest": "2026-08-14 23:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T20:42:24.291Z",
+      "lastRefreshed": "2026-08-15T21:22:14.745Z",
       "themes": [
         "주요 기업"
       ]
@@ -366,6 +366,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+        "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+        "source": "The Verge",
+        "date": "2026-08-15 20:43",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "챗봇 역할극을 통해 AI의 비용을 웃겨보세요",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Anthropic shares more details about how Claude’s new watermarks will work",
         "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
         "source": "TechCrunch",
@@ -546,22 +562,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
-        "url": "https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/",
-        "source": "SpaceNews",
-        "date": "2026-08-14 22:26",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -575,6 +575,22 @@
         "stream": "community",
         "category": "인공지능",
         "titleKo": "AI는 수학자를 능가하지 않습니다. It's Out-Remembering Them",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Cloudflare's AI Psychosis",
+        "url": "https://opensauce.it/cloudflare-ai-psychosis/",
+        "source": "Hacker News",
+        "date": "2026-08-15 14:08",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Cloudflare의 AI 정신병",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -646,28 +662,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
-        "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
-        "source": "Hacker News",
-        "date": "2026-08-14 14:34",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "천재가 실패할 때: 인공지능 연구소의 지적 오만함",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "source": "The Verge",
+      "date": "2026-08-15 20:43",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "챗봇 역할극을 통해 AI의 비용을 웃겨보세요",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Anthropic shares more details about how Claude’s new watermarks will work",
       "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
@@ -753,6 +767,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Cloudflare's AI Psychosis",
+      "url": "https://opensauce.it/cloudflare-ai-psychosis/",
+      "source": "Hacker News",
+      "date": "2026-08-15 14:08",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Cloudflare의 AI 정신병",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Why robots that can’t communicate naturally won’t be adopted",
@@ -1295,24 +1325,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
-      "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
-      "source": "Hacker News",
-      "date": "2026-08-14 14:34",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "천재가 실패할 때: 인공지능 연구소의 지적 오만함",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
       "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
       "source": "Ars Technica",
@@ -1723,24 +1735,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "OpenAI is losing its second executive this week",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
-      "source": "The Verge",
-      "date": "2026-08-13 19:28",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI가 이번 주 두 번째 임원을 잃고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "License data quality improvements",
       "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
       "source": "GitHub Changelog",
@@ -1807,15 +1801,15 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Japan to deploy stronger AI safeguards as model capabilities advance - Nikkei Asia",
+      "title": "Japan to deploy stronger AI safeguards as model capabilities advance - asia.nikkei.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLUFWM2JudnlTRzFGTlhTSGdDYjM5NnpwYjFjazd0Q1NnTEdCQnRTMW54QVh2cFdPYmZWclpOeEwxSkFxSFJaaDJiNjJGYlA1WV93SDRQNEUyQ3ZkWGNXakZWTTAyVzNkNjZyMnIxb3VqSUZJVGVWemEtamVpNTdpU2Rwa0g2bUFJTzZYRlhZQU5iYjhaQUpTZTFXSnc2ckpLeUR1RkF5MERHVmpBckZtMWVvUnJkLUk0a3BOZjZxTDlhSHhUVE8zNFlhYlgzallMMHc?oc=5",
-      "source": "Nikkei Asia",
+      "source": "asia.nikkei.com",
       "date": "2026-08-13 18:17",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "일본, 모델 역량 발전에 따라 더 강력한 AI 보호 장치 배치 - Nikkei Asia",
+      "titleKo": "Japan to deploy stronger AI safeguards as model capabilities advance - asia.nikkei.com",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1990,11 +1984,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 8. 16. AM 5:42",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 16. AM 6:22",
+    "mode": "하루 2회 전체 수집"
   }
 }
