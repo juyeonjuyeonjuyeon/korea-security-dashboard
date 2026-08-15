@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 15. AM 8:40",
+  "updatedAt": "2026. 8. 15. AM 10:52",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.3.1-canary.19",
+  "headline": "v3.1.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 50,
-    "sourceCount": 24,
-    "officialCount": 28,
+    "recentCount": 49,
+    "sourceCount": 25,
+    "officialCount": 30,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.3.1-canary.19",
+    "새 출시: v3.1.0",
     "창작 기술: 넷플릭스가 두 개의 게임 스튜디오를 폐쇄합니다"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
+      "count": 33,
       "summary": "Thrive의 조슈아 쿠슈너 (Joshua Kushner) 는 실리콘 밸리 VC들에게 인공지능의 행복감에 대해 꾸짖습니다.",
       "latest": "2026-08-14 19:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T23:40:44.156Z",
+      "lastRefreshed": "2026-08-15T01:52:17.172Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T23:40:44.156Z",
+      "lastRefreshed": "2026-08-15T01:52:17.172Z",
       "themes": [
         "주요 기업"
       ]
@@ -46,11 +46,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 5,
+      "count": 4,
       "summary": "월스트리트의 로봇: 로봇 회사를 위한 공공 시장으로의 비전통적인 길",
       "latest": "2026-08-14 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T23:40:44.156Z",
+      "lastRefreshed": "2026-08-15T01:52:17.172Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다 - reuters.com",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T23:40:44.156Z",
+      "lastRefreshed": "2026-08-15T01:52:17.172Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +74,7 @@
       "summary": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
       "latest": "2026-08-14 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T23:40:44.156Z",
+      "lastRefreshed": "2026-08-15T01:52:17.172Z",
       "themes": []
     },
     {
@@ -85,18 +85,18 @@
       "summary": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
       "latest": "2026-08-14 22:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-14T23:40:44.156Z",
+      "lastRefreshed": "2026-08-15T01:52:17.172Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
-      "summary": "v16.3.1-canary.19",
-      "latest": "2026-08-14 23:22",
+      "count": 20,
+      "summary": "v3.1.0",
+      "latest": "2026-08-14 23:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-14T23:40:44.156Z",
+      "lastRefreshed": "2026-08-15T01:52:17.172Z",
       "themes": [
         "주요 기업"
       ]
@@ -105,15 +105,49 @@
   "radar": {
     "releases": [
       {
+        "title": "v3.1.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.1.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-08-14 23:48",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.1.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v16.3.1-canary.19",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.19",
         "source": "GitHub · Next.js",
-        "date": "2026-08-14 23:22",
+        "date": "2026-08-14 23:46",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "v16.3.1-canary.19",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Multiple redirect URIs and token refresh for OAuth apps",
+        "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
+        "source": "GitHub Changelog",
+        "date": "2026-08-14 22:43",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "OAuth 앱에 대한 다중 리디렉션 URI 및 토큰 새로 고침",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -260,38 +294,6 @@
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "이제 Vercel CDN에서 ECH (Encrypted Client Hello) 가 지원됩니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Total Solar Eclipse in Sunflower Field",
-        "url": "https://www.nasa.gov/image-article/total-solar-eclipse-in-sunflower-field/",
-        "source": "NASA",
-        "date": "2026-08-14 14:48",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "해바라기밭에서 즐기는 개기일식",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "How Cloudflare detects MCP traffic and helps secure it",
-        "url": "https://blog.cloudflare.com/mcp-security-updates/",
-        "source": "Cloudflare Blog",
-        "date": "2026-08-14 13:12",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Cloudflare가 MCP 트래픽을 감지하고 보안을 유지하는 방법",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -626,15 +628,49 @@
   },
   "news": [
     {
+      "title": "v3.1.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.1.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-08-14 23:48",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.1.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v16.3.1-canary.19",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.19",
       "source": "GitHub · Next.js",
-      "date": "2026-08-14 23:22",
+      "date": "2026-08-14 23:46",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
       "category": "소프트웨어·개발",
       "titleKo": "v16.3.1-canary.19",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Multiple redirect URIs and token refresh for OAuth apps",
+      "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
+      "source": "GitHub Changelog",
+      "date": "2026-08-14 22:43",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "OAuth 앱에 대한 다중 리디렉션 URI 및 토큰 새로 고침",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1902,46 +1938,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "BioflexBot robot hand aims to replicate key human hand motions",
-      "url": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/",
-      "source": "The Robot Report",
-      "date": "2026-08-13 12:15",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "BioflexBot 로봇 핸드는 사람의 주요 손 동작을 복제하는 것을 목표로 합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
-      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
-      "source": "MIT Technology Review",
-      "date": "2026-08-13 12:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "The Download: AI에 대한 아이들의 생각과 수컷 생쥐의 암컷 복제",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
+    "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 8. 15. AM 8:40",
+    "officialSources": 10,
+    "checkedAt": "2026. 8. 15. AM 10:52",
     "mode": "매시간 공식 레이더"
   }
 }
