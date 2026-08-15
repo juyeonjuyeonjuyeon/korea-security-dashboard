@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 15. PM 6:21",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 15. PM 10:01",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 15일 – 스웨덴의 밝은 페르세우스자리",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 45,
+    "recentCount": 38,
     "sourceCount": 25,
     "officialCount": 30,
     "opportunityCount": 1
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
+      "count": 33,
       "summary": "모바일 에지 컴퓨팅에서 스트림 처리를 위한 LLM 지원 계약 순 협상을 통한 다중 에이전트 스케줄링",
       "latest": "2026-08-15 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T09:21:07.308Z",
+      "lastRefreshed": "2026-08-15T13:01:36.560Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -39,7 +39,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T09:21:07.308Z",
+      "lastRefreshed": "2026-08-15T13:01:36.561Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 3,
-      "summary": "월스트리트의 로봇: 로봇 회사를 위한 공공 시장으로의 비전통적인 길",
-      "latest": "2026-08-14 12:30",
+      "count": 4,
+      "summary": "자연스러운 의사소통이 불가능한 로봇이 채택되지 않는 이유",
+      "latest": "2026-08-15 12:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T09:21:07.308Z",
+      "lastRefreshed": "2026-08-15T13:01:36.561Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다. - Reuters",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T09:21:07.308Z",
+      "lastRefreshed": "2026-08-15T13:01:36.561Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "APOD: 2026년 8월 15일 – 스웨덴의 밝은 페르세우스자리",
       "latest": "2026-08-15 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T09:21:07.308Z",
+      "lastRefreshed": "2026-08-15T13:01:36.561Z",
       "themes": []
     },
     {
@@ -87,7 +87,7 @@
       "summary": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
       "latest": "2026-08-14 22:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-15T09:21:07.308Z",
+      "lastRefreshed": "2026-08-15T13:01:36.561Z",
       "themes": []
     },
     {
@@ -98,7 +98,7 @@
       "summary": "v3.1.0",
       "latest": "2026-08-14 23:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-15T09:21:07.308Z",
+      "lastRefreshed": "2026-08-15T13:01:36.561Z",
       "themes": [
         "주요 기업"
       ]
@@ -346,6 +346,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Why robots that can’t communicate naturally won’t be adopted",
+        "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+        "source": "The Robot Report",
+        "date": "2026-08-15 12:20",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "자연스러운 의사소통이 불가능한 로봇이 채택되지 않는 이유",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
         "url": "https://arxiv.org/abs/2608.12371",
         "source": "arXiv cs.AI",
@@ -522,24 +538,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google will now allow users to remove visible watermark from its AI generations",
-        "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-        "source": "TechCrunch",
-        "date": "2026-08-14 16:13",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "이제 Google은 사용자가 AI 세대에서 가시적 워터마크를 제거할 수 있도록 허용합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -646,6 +644,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Why robots that can’t communicate naturally won’t be adopted",
+      "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+      "source": "The Robot Report",
+      "date": "2026-08-15 12:20",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "자연스러운 의사소통이 불가능한 로봇이 채택되지 않는 이유",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "APOD: 2026 August 15 – Bright Perseids from Sweden",
       "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden/",
@@ -1943,30 +1957,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "DeepSeek releases official V4 Pro model as it steps up expansion - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBOcmxUZXZzV20xU1pZMnI1X0JKRzV1SUJwcGhzaE1JZDZfUTZqVDZMVXNhUHFoY295SHZuLWZZbTlXa1AtUmI2dkRhRWliRXFBYzdZQlROdUVzZ2dNc2pHLUhvdTFBSVpSTW9SaHBQUnJubTdMX2FQUkhHTDhiUGtiZDUxLTRQXzRrZERqSzlOSXZpMWYxUzVWeXFCdW1HZEVWbWMtVDhFU1BCSkE?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-13 12:56",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "DeepSeek, 확장 단계에 따라 공식 V4 Pro 모델 출시 - Reuters",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 8. 15. PM 6:21",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 15. PM 10:01",
+    "mode": "매시간 공식 레이더"
   }
 }
