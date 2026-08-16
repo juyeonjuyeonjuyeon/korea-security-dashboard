@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 16. PM 10:03",
+  "updatedAt": "2026. 8. 16. PM 11:42",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 16일 – 옐로스톤의 은하수",
   "metrics": {
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
-      "summary": "새롭게 등장하는 다중 에이전트 시스템의 패턴과 문제점",
-      "latest": "2026-08-16 02:12",
+      "count": 35,
+      "summary": "CLAUDE: 시스템 프롬프트",
+      "latest": "2026-08-16 12:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T13:03:22.390Z",
+      "lastRefreshed": "2026-08-16T14:42:28.279Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -39,7 +39,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T13:03:22.390Z",
+      "lastRefreshed": "2026-08-16T14:42:28.279Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "로봇공학이 뇌졸중 재활을 혁신하는 방법",
       "latest": "2026-08-16 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T13:03:22.390Z",
+      "lastRefreshed": "2026-08-16T14:42:28.279Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다. - Reuters",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T13:03:22.390Z",
+      "lastRefreshed": "2026-08-16T14:42:28.279Z",
       "themes": [
         "주요 기업"
       ]
@@ -72,11 +72,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 15,
+      "count": 14,
       "summary": "미국 방위 기관은 위성 폐기 연구를 위해 3 개 회사를 활용합니다.",
       "latest": "2026-08-16 10:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T13:03:22.390Z",
+      "lastRefreshed": "2026-08-16T14:42:28.279Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
       "latest": "2026-08-14 22:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-16T13:03:22.390Z",
+      "lastRefreshed": "2026-08-16T14:42:28.279Z",
       "themes": []
     },
     {
@@ -100,7 +100,7 @@
       "summary": "v16.3.1-canary.20",
       "latest": "2026-08-15 23:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T13:03:22.390Z",
+      "lastRefreshed": "2026-08-16T14:42:28.279Z",
       "themes": [
         "주요 기업"
       ]
@@ -568,6 +568,22 @@
     ],
     "community": [
       {
+        "title": "Claude: System Prompts",
+        "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+        "source": "Hacker News",
+        "date": "2026-08-16 12:48",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "CLAUDE: 시스템 프롬프트",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Patterns and problems in emerging multi-agent systems",
         "url": "https://www.anthropic.com/research/multiagent-systems",
         "source": "Hacker News",
@@ -646,26 +662,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Europe's scorched landscapes seen from space after summer heatwaves",
-        "url": "https://www.bbc.com/news/articles/c4gxy0wqqd9o",
-        "source": "Hacker News",
-        "date": "2026-08-15 17:21",
-        "categoryId": "space",
-        "confidence": "D",
-        "stream": "community",
-        "category": "우주·통신",
-        "titleKo": "여름 폭염 이후 우주에서 본 유럽의 그을린 풍경",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "source": "Hacker News",
+      "date": "2026-08-16 12:48",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "CLAUDE: 시스템 프롬프트",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "How robotics is revolutionizing stroke rehabilitation",
       "url": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
@@ -856,22 +872,6 @@
       "stream": "community",
       "category": "인공지능",
       "titleKo": "AI는 수학자를 능가하지 않습니다. It's Out-Remembering Them",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Europe's scorched landscapes seen from space after summer heatwaves",
-      "url": "https://www.bbc.com/news/articles/c4gxy0wqqd9o",
-      "source": "Hacker News",
-      "date": "2026-08-15 17:21",
-      "categoryId": "space",
-      "confidence": "D",
-      "stream": "community",
-      "category": "우주·통신",
-      "titleKo": "여름 폭염 이후 우주에서 본 유럽의 그을린 풍경",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1986,7 +1986,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 8. 16. PM 10:03",
+    "checkedAt": "2026. 8. 16. PM 11:42",
     "mode": "매시간 공식 레이더"
   }
 }
