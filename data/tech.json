@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 17. AM 6:21",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 17. AM 6:36",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 16일 – 옐로스톤의 은하수",
   "metrics": {
     "articleCount": 80,
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 36,
-      "summary": "Stripe가 AI 게이트웨이 스타트업 OpenRouter를 $ 7B 이상에 인수할 예정인 것으로 알려졌습니다.",
-      "latest": "2026-08-16 20:57",
+      "summary": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
+      "latest": "2026-08-16 21:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T21:21:13.853Z",
+      "lastRefreshed": "2026-08-16T21:36:52.441Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -39,7 +39,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T21:21:13.853Z",
+      "lastRefreshed": "2026-08-16T21:36:52.441Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "로봇공학이 뇌졸중 재활을 혁신하는 방법",
       "latest": "2026-08-16 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T21:21:13.853Z",
+      "lastRefreshed": "2026-08-16T21:36:52.441Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다. - Reuters",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T21:21:13.853Z",
+      "lastRefreshed": "2026-08-16T21:36:52.441Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "미국 방위 기관은 위성 폐기 연구를 위해 3 개 회사를 활용합니다.",
       "latest": "2026-08-16 10:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T21:21:13.853Z",
+      "lastRefreshed": "2026-08-16T21:36:52.441Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
       "latest": "2026-08-14 22:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-16T21:21:13.853Z",
+      "lastRefreshed": "2026-08-16T21:36:52.441Z",
       "themes": []
     },
     {
@@ -100,7 +100,7 @@
       "summary": "v16.3.1-canary.20",
       "latest": "2026-08-15 23:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T21:21:13.853Z",
+      "lastRefreshed": "2026-08-16T21:36:52.441Z",
       "themes": [
         "주요 기업"
       ]
@@ -366,6 +366,24 @@
     "voices": [],
     "analysis": [
       {
+        "title": "OpenAI reportedly disbanded its preparedness team",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+        "source": "The Verge",
+        "date": "2026-08-16 21:32",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
         "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
         "source": "TechCrunch",
@@ -550,22 +568,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Why robots that can’t communicate naturally won’t be adopted",
-        "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
-        "source": "The Robot Report",
-        "date": "2026-08-15 12:20",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "자연스러운 의사소통이 불가능한 로봇이 채택되지 않는 이유",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -670,6 +672,24 @@
     ]
   },
   "news": [
+    {
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "source": "The Verge",
+      "date": "2026-08-16 21:32",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
       "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
@@ -1561,24 +1581,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Apple trained its own AI model for China with help from Alibaba",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
-      "source": "The Verge",
-      "date": "2026-08-14 09:30",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "애플은 알리바바의 도움을 받아 중국을 대상으로 자체 AI 모델을 교육했다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Job titles of the future: Space travel agent",
       "url": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
       "source": "MIT Technology Review",
@@ -1988,11 +1990,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 8. 17. AM 6:21",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 17. AM 6:36",
+    "mode": "매시간 공식 레이더"
   }
 }
