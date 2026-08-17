@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 17. PM 6:03",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 17. PM 6:35",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "APOD: 2026년 8월 17일 – 황금 코로나 일식",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 25,
-    "sourceCount": 25,
+    "recentCount": 26,
+    "sourceCount": 24,
     "officialCount": 28,
     "opportunityCount": 1
   },
@@ -20,14 +20,14 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 37,
-      "summary": "상담원 평가에서 과도한 크레딧을 줄이는 무보상 심사 채점표 유도",
-      "latest": "2026-08-17 04:00",
+      "count": 36,
+      "summary": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
+      "latest": "2026-08-17 09:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T09:03:06.596Z",
+      "lastRefreshed": "2026-08-17T09:35:56.681Z",
       "themes": [
-        "기회",
         "주요 기업",
+        "기회",
         "미술·디자인"
       ]
     },
@@ -39,7 +39,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T09:03:06.596Z",
+      "lastRefreshed": "2026-08-17T09:35:56.681Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 3,
-      "summary": "로봇공학이 뇌졸중 재활을 혁신하는 방법",
-      "latest": "2026-08-16 12:30",
+      "count": 4,
+      "summary": "아이의 로봇 절친이 죽으면 어떻게 될까요?",
+      "latest": "2026-08-17 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T09:03:06.596Z",
+      "lastRefreshed": "2026-08-17T09:35:56.681Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다. - Reuters",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T09:03:06.596Z",
+      "lastRefreshed": "2026-08-17T09:35:56.681Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "Lynk와 Omnispace가 Elveo Mobile을 결성하여 D2D 서비스 발전",
       "latest": "2026-08-17 04:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T09:03:06.596Z",
+      "lastRefreshed": "2026-08-17T09:35:56.681Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "ForeFront Power, Fresno시 최초의 Erthos 태양 에너지 시스템 완공",
       "latest": "2026-08-17 03:23",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-17T09:03:06.596Z",
+      "lastRefreshed": "2026-08-17T09:35:56.681Z",
       "themes": []
     },
     {
@@ -100,7 +100,7 @@
       "summary": "v16.3.1-canary.21",
       "latest": "2026-08-16 23:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T09:03:06.596Z",
+      "lastRefreshed": "2026-08-17T09:35:56.681Z",
       "themes": [
         "주요 기업"
       ]
@@ -364,6 +364,40 @@
     "voices": [],
     "analysis": [
       {
+        "title": "OpenAI reportedly disbanded its preparedness team",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+        "source": "The Verge",
+        "date": "2026-08-17 09:21",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "What happens when a kid’s robot best friend dies?",
+        "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-17 09:00",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "아이의 로봇 절친이 죽으면 어떻게 될까요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Lynk and Omnispace form Elveo Mobile to advance D2D services",
         "url": "https://spacenews.com/lynk-and-omnispace-form-elveo-mobile-to-advance-d2d-services/",
         "source": "SpaceNews",
@@ -510,24 +544,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "OpenAI reportedly disbanded its preparedness team",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-        "source": "The Verge",
-        "date": "2026-08-16 21:32",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
         "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
         "source": "TechCrunch",
@@ -537,22 +553,6 @@
         "stream": "news",
         "category": "인공지능",
         "titleKo": "Stripe가 AI 게이트웨이 스타트업 OpenRouter를 $ 7B 이상에 인수할 예정인 것으로 알려졌습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
-        "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
-        "source": "TechCrunch",
-        "date": "2026-08-16 20:32",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "사람들이 마크 주커버그의 인공지능 미래를 구매하지 않는 이유",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -666,6 +666,40 @@
     ]
   },
   "news": [
+    {
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "source": "The Verge",
+      "date": "2026-08-17 09:21",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "What happens when a kid’s robot best friend dies?",
+      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-17 09:00",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "아이의 로봇 절친이 죽으면 어떻게 될까요?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Lynk and Omnispace form Elveo Mobile to advance D2D services",
       "url": "https://spacenews.com/lynk-and-omnispace-form-elveo-mobile-to-advance-d2d-services/",
@@ -877,24 +911,6 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "OpenAI reportedly disbanded its preparedness team",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-      "source": "The Verge",
-      "date": "2026-08-16 21:32",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
@@ -1295,6 +1311,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDU1cndzcnNhVERISGg5M3psalAyTEVrR2JKSEExUTVoV0JkSjJZZVRIOW40N1lweld1bXEzYWRrNEZxb2w2YzctanRaNnRnckRJLWRINnlpVnlnbXZvSUxBRFN6QUNvb01UMXhXVmp3MDNDTnN2TGZveTdlam9Gem93RFFaZVFSazRzWUpmZXI0VlV3VU56cjZPUUNXQk9GTzFTdkpzMTdvRnF6RUllb1NMbm02OFFiUEJhQXhab1JjZ0w3QWhPT0VqUVZpc0xEYXBV?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-14 21:45",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "독점: Apple은 알리바바의 지원을 받아 중국 시장을 위한 자체 AI 모델을 훈련한다고 소식통이 전합니다. - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "v16.3.1-canary.18",
@@ -1951,50 +1985,14 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Introducing Gemini 3.7 Flash - blog.google",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZnVHS2RsOVpIeE9xTGhZMUZHbWRtVi1IVHpZcFQ3RExDV1N2c3l2c1o2OW9iazVBQXRTaEpfRFU1UEdlZ3VYNGl6TFZYQTBoNENJRFd4dUNFTE9vYU5mYk05ZFJBWDhIRXE0T0xUQ1hrUzFuSzNPM0tTaGNTWTZyM1V5SzcxcGRLek5tUUZOYnhFSUFZanRnUDFMdGVKUkd2NDNR?oc=5",
-      "source": "blog.google",
-      "date": "2026-08-13 17:05",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Introducing Gemini 3.7 Flash - blog.google",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
-      "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-      "source": "Ars Technica",
-      "date": "2026-08-13 17:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google, 이전 출시 3주 만에 Gemini 3.7 Flash 발표",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 8. 17. PM 6:03",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 17. PM 6:35",
+    "mode": "하루 2회 전체 수집"
   }
 }
