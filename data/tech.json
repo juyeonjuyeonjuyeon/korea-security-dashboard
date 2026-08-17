@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 17. AM 8:36",
+  "updatedAt": "2026. 8. 17. AM 10:57",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.1-canary.21",
   "metrics": {
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
-      "summary": "OpenAI가 준비 팀을 해체한 것으로 알려졌습니다.",
-      "latest": "2026-08-16 21:32",
+      "count": 37,
+      "summary": "클로드의 '워터마크' 텍스트 간음은 글쓰기의 변태이다",
+      "latest": "2026-08-16 21:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T23:36:36.812Z",
+      "lastRefreshed": "2026-08-17T01:57:23.395Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -39,7 +39,7 @@
       "summary": "Universitas Gadjah Mada, Indosat 및 NVIDIA 인도네시아 최초의 대학 AI 센터를 열어 지역 AI 인재 양성",
       "latest": "2026-08-14 17:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T23:36:36.812Z",
+      "lastRefreshed": "2026-08-17T01:57:23.395Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "로봇공학이 뇌졸중 재활을 혁신하는 방법",
       "latest": "2026-08-16 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T23:36:36.812Z",
+      "lastRefreshed": "2026-08-17T01:57:23.395Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "중국의 Z.ai는 새로운 모델이 사이버 방어 테스트에서 Anthropic의 Mythos 5에 근접했다고 말합니다. - Reuters",
       "latest": "2026-08-14 12:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T23:36:36.812Z",
+      "lastRefreshed": "2026-08-17T01:57:23.395Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "위성 사업자는 제약된 시장에서 출시 거래를 강조합니다",
       "latest": "2026-08-16 23:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T23:36:36.812Z",
+      "lastRefreshed": "2026-08-17T01:57:23.395Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,18 +89,18 @@
       "summary": "Move Local Energy Goals Forward: Apply to the Energy Technology Innovation Partnership Project",
       "latest": "2026-08-14 22:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-16T23:36:36.812Z",
+      "lastRefreshed": "2026-08-17T01:57:23.395Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
+      "count": 19,
       "summary": "v16.3.1-canary.21",
-      "latest": "2026-08-16 23:21",
+      "latest": "2026-08-16 23:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-16T23:36:36.812Z",
+      "lastRefreshed": "2026-08-17T01:57:23.395Z",
       "themes": [
         "주요 기업"
       ]
@@ -112,7 +112,7 @@
         "title": "v16.3.1-canary.21",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.21",
         "source": "GitHub · Next.js",
-        "date": "2026-08-16 23:21",
+        "date": "2026-08-16 23:55",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -568,6 +568,42 @@
     ],
     "community": [
       {
+        "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+        "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+        "source": "Hacker News",
+        "date": "2026-08-16 21:53",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "클로드의 '워터마크' 텍스트 간음은 글쓰기의 변태이다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+        "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+        "source": "Hacker News",
+        "date": "2026-08-16 21:07",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Nvidia는 보증할 수 있는 OpenAI 인프라 파이낸싱의 양을 크게 줄입니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
         "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
         "source": "Hacker News",
@@ -632,38 +668,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Patterns and problems in emerging multi-agent systems",
-        "url": "https://www.anthropic.com/research/multiagent-systems",
-        "source": "Hacker News",
-        "date": "2026-08-16 02:12",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "새롭게 등장하는 다중 에이전트 시스템의 패턴과 문제점",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Software Engineering fundamentals matter more",
-        "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
-        "source": "Hacker News",
-        "date": "2026-08-15 22:31",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "소프트웨어 엔지니어링 기초가 더 중요합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -672,7 +676,7 @@
       "title": "v16.3.1-canary.21",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.21",
       "source": "GitHub · Next.js",
-      "date": "2026-08-16 23:21",
+      "date": "2026-08-16 23:55",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -701,6 +705,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "source": "Hacker News",
+      "date": "2026-08-16 21:53",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "클로드의 '워터마크' 텍스트 간음은 글쓰기의 변태이다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "OpenAI reportedly disbanded its preparedness team",
       "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
       "source": "The Verge",
@@ -717,6 +739,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "source": "Hacker News",
+      "date": "2026-08-16 21:07",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Nvidia는 보증할 수 있는 OpenAI 인프라 파이낸싱의 양을 크게 줄입니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
@@ -915,22 +955,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Patterns and problems in emerging multi-agent systems",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "source": "Hacker News",
-      "date": "2026-08-16 02:12",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "새롭게 등장하는 다중 에이전트 시스템의 패턴과 문제점",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v16.3.1-canary.20",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.20",
       "source": "GitHub · Next.js",
@@ -945,22 +969,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Software Engineering fundamentals matter more",
-      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
-      "source": "Hacker News",
-      "date": "2026-08-15 22:31",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "소프트웨어 엔지니어링 기초가 더 중요합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
@@ -1986,11 +1994,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 37,
+    "successful": 36,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 8. 17. AM 8:36",
+    "checkedAt": "2026. 8. 17. AM 10:57",
     "mode": "매시간 공식 레이더"
   }
 }
