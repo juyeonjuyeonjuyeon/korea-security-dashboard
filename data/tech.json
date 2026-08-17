@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 17. PM 10:55",
+  "updatedAt": "2026. 8. 17. PM 11:47",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "지능형 인프라 보안",
+  "headline": "Github.com 관련 사건",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 36,
+    "recentCount": 37,
     "sourceCount": 24,
-    "officialCount": 27,
+    "officialCount": 26,
     "opportunityCount": 2
   },
   "summary": [
-    "새 출시: 지능형 인프라 보안",
+    "새 출시: Github.com 관련 사건",
     "창작 기술: Unisoc VoLTE 화상 통화 익스플로잇 체인은 공격자에게 전체 Android 커널 액세스 권한을 부여할 수 있습니다.",
     "행사·무료: 제77차 국제 우주 대회 (IAC 2026) 는 놓칠 수 없는 단 한 번의 우주 이벤트입니다."
   ],
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "암호화폐 하드웨어 지갑 소유자는 최근 개인 데이터 유출 사고 이후 새로운 보안 위험에 직면해 있습니다.",
-      "latest": "2026-08-17 13:00",
+      "count": 31,
+      "summary": "AI 코파일럿부터 스웜 요원까지",
+      "latest": "2026-08-17 14:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T13:55:41.686Z",
+      "lastRefreshed": "2026-08-17T14:47:22.857Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -39,7 +39,7 @@
       "summary": "지능형 인프라 보안",
       "latest": "2026-08-17 12:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T13:55:41.686Z",
+      "lastRefreshed": "2026-08-17T14:47:22.857Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Gravis Robotics, 자율 건설을 위해 $ 200M 모금",
       "latest": "2026-08-17 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T13:55:41.686Z",
+      "lastRefreshed": "2026-08-17T14:47:22.857Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "Unisoc VoLTE 화상 통화 익스플로잇 체인은 공격자에게 전체 Android 커널 액세스 권한을 부여할 수 있습니다.",
       "latest": "2026-08-17 10:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T13:55:41.687Z",
+      "lastRefreshed": "2026-08-17T14:47:22.857Z",
       "themes": [
         "영상",
         "주요 기업"
@@ -77,7 +77,7 @@
       "summary": "L3Harris, Kubasik이 물러난 후 우주 부문 리더 Sam Mehta CEO로 임명",
       "latest": "2026-08-17 12:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T13:55:41.687Z",
+      "lastRefreshed": "2026-08-17T14:47:22.857Z",
       "themes": [
         "기회"
       ]
@@ -90,18 +90,18 @@
       "summary": "ForeFront Power, Fresno시 최초의 Erthos 태양 에너지 시스템 완공",
       "latest": "2026-08-17 03:23",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-17T13:55:41.687Z",
+      "lastRefreshed": "2026-08-17T14:47:22.857Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
-      "summary": "v16.3.1-canary.21",
-      "latest": "2026-08-16 23:55",
+      "count": 19,
+      "summary": "Github.com 관련 사건",
+      "latest": "2026-08-17 13:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T13:55:41.687Z",
+      "lastRefreshed": "2026-08-17T14:47:22.857Z",
       "themes": [
         "주요 기업"
       ]
@@ -109,6 +109,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "Incident with Github.com",
+        "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
+        "source": "Hacker News",
+        "date": "2026-08-17 13:40",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "Github.com 관련 사건",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "GitHub down again? no PR access",
+        "url": "https://news.ycombinator.com/item?id=49330632",
+        "source": "Hacker News",
+        "date": "2026-08-17 13:37",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub가 다시 다운되었나요? PR 액세스 권한 없음",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Securing the Infrastructure of Intelligence",
         "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
@@ -126,6 +158,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+        "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+        "source": "Hacker News",
+        "date": "2026-08-17 12:09",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "GPT 5.6 SOL은 지금까지 출시된 OpenAI 중 최고의 \"비전\" 모델입니다.",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Satellite operators are in panic mode due to a worsening launch crisis",
@@ -254,56 +304,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Summer Triangle Corner: Deneb",
-        "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/summer-triangle-corner-deneb/",
-        "source": "NASA",
-        "date": "2026-08-15 10:00",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "여름 삼각형 코너: 데네브",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "APOD: 2026 August 15 – Bright Perseids from Sweden",
-        "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden/",
-        "source": "NASA",
-        "date": "2026-08-15 04:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "APOD: 2026년 8월 15일 – 스웨덴의 밝은 페르세우스자리",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.1.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.1.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-08-14 23:48",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.1.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -402,6 +402,22 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "From AI Copilots to Agent Swarms",
+        "url": "https://spectrum.ieee.org/amd-agent-swarms",
+        "source": "IEEE Spectrum",
+        "date": "2026-08-17 14:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI 코파일럿부터 스웜 요원까지",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Crypto hardware wallet owners face fresh security risks after recent spate of personal data thefts",
         "url": "https://techcrunch.com/2026/08/17/crypto-hardware-wallet-owners-face-fresh-security-risks-after-recent-spate-of-personal-data-thefts/",
@@ -583,25 +599,59 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
-        "source": "The Verge",
-        "date": "2026-08-17 09:48",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "ChatGPT의 컴퓨터 기록은 클릭 및 키 입력을 추적합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Incident with Github.com",
+        "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
+        "source": "Hacker News",
+        "date": "2026-08-17 13:40",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "Github.com 관련 사건",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "GitHub down again? no PR access",
+        "url": "https://news.ycombinator.com/item?id=49330632",
+        "source": "Hacker News",
+        "date": "2026-08-17 13:37",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub가 다시 다운되었나요? PR 액세스 권한 없음",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+        "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+        "source": "Hacker News",
+        "date": "2026-08-17 12:09",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "GPT 5.6 SOL은 지금까지 출시된 OpenAI 중 최고의 \"비전\" 모델입니다.",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Anthropic's 'watermark' text adulteration in Claude is a perversion of writing",
         "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
@@ -653,58 +703,58 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-        "source": "Hacker News",
-        "date": "2026-08-16 20:31",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Stripe, AI Firm OpenRouter를 구매하기 위해 $ 7B 이상의 거래 성사",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Models Are Getting Dumber on Purpose",
-        "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
-        "source": "Hacker News",
-        "date": "2026-08-16 19:04",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "모델이 목적에 따라 멍청해지고 있습니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "MathCode, Mathematical Coding Agent",
-        "url": "https://math-ai-org.github.io/mathcode/",
-        "source": "Hacker News",
-        "date": "2026-08-16 18:17",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "MathCode, 수학 코딩 에이전트",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "From AI Copilots to Agent Swarms",
+      "url": "https://spectrum.ieee.org/amd-agent-swarms",
+      "source": "IEEE Spectrum",
+      "date": "2026-08-17 14:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI 코파일럿부터 스웜 요원까지",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Incident with Github.com",
+      "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
+      "source": "Hacker News",
+      "date": "2026-08-17 13:40",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "Github.com 관련 사건",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "GitHub down again? no PR access",
+      "url": "https://news.ycombinator.com/item?id=49330632",
+      "source": "Hacker News",
+      "date": "2026-08-17 13:37",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub가 다시 다운되었나요? PR 액세스 권한 없음",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "Crypto hardware wallet owners face fresh security risks after recent spate of personal data thefts",
       "url": "https://techcrunch.com/2026/08/17/crypto-hardware-wallet-owners-face-fresh-security-risks-after-recent-spate-of-personal-data-thefts/",
@@ -804,6 +854,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "source": "Hacker News",
+      "date": "2026-08-17 12:09",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "GPT 5.6 SOL은 지금까지 출시된 OpenAI 중 최고의 \"비전\" 모델입니다.",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
@@ -1232,54 +1300,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-      "source": "Hacker News",
-      "date": "2026-08-16 20:31",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Stripe, AI Firm OpenRouter를 구매하기 위해 $ 7B 이상의 거래 성사",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Models Are Getting Dumber on Purpose",
-      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
-      "source": "Hacker News",
-      "date": "2026-08-16 19:04",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "모델이 목적에 따라 멍청해지고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "MathCode, Mathematical Coding Agent",
-      "url": "https://math-ai-org.github.io/mathcode/",
-      "source": "Hacker News",
-      "date": "2026-08-16 18:17",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "MathCode, 수학 코딩 에이전트",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
@@ -2006,32 +2026,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v0.122.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.122.0",
-      "source": "GitHub · Anthropic SDK",
-      "date": "2026-08-13 18:35",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v0.122.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 10,
-    "checkedAt": "2026. 8. 17. PM 10:55",
+    "officialSources": 9,
+    "checkedAt": "2026. 8. 17. PM 11:47",
     "mode": "매시간 공식 레이더"
   }
 }
