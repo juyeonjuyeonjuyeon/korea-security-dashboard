@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 18. AM 6:43",
+  "updatedAt": "2026. 8. 18. AM 7:44",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "NASA, 페이로드 처리 서비스 제공 업체 선정",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 61,
-    "sourceCount": 27,
-    "officialCount": 23,
+    "recentCount": 62,
+    "sourceCount": 26,
+    "officialCount": 22,
     "opportunityCount": 3
   },
   "summary": [
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
+      "count": 34,
       "summary": "AI 자동화 시작 릴레이가 종료되고 직원이 Google의 Chrome 팀에 합류합니다.",
       "latest": "2026-08-17 21:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T21:43:47.100Z",
+      "lastRefreshed": "2026-08-17T22:44:25.605Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -36,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
-      "summary": "엔비디아, SpaceX의 $ 21B 지분 공개",
-      "latest": "2026-08-17 14:22",
+      "count": 4,
+      "summary": "Rust의 GPU 오프로드: 휴대용, 안전 및 고속",
+      "latest": "2026-08-17 17:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T21:43:47.100Z",
+      "lastRefreshed": "2026-08-17T22:44:25.605Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,12 +49,14 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 9,
-      "summary": "Moxi 2.0의 5년간의 운영 형태 부지런한 로봇 공학 출시",
-      "latest": "2026-08-17 21:15",
+      "count": 10,
+      "summary": "전 SpaceX 엔지니어가 강철 부품을 만드는 로봇 공장을 건설하고 있습니다.",
+      "latest": "2026-08-17 21:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T21:43:47.100Z",
-      "themes": []
+      "lastRefreshed": "2026-08-17T22:44:25.605Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "cyber",
@@ -64,7 +66,7 @@
       "summary": "눈송이 GitHub 작업 결함으로 인해 조작된 문제가 발생합니다. 트리거 명령 주입",
       "latest": "2026-08-17 18:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T21:43:47.100Z",
+      "lastRefreshed": "2026-08-17T22:44:25.605Z",
       "themes": [
         "영상"
       ]
@@ -74,10 +76,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 14,
-      "summary": "새로운 EU 제재 대상 러시아 우주 산업의 리더",
-      "latest": "2026-08-17 21:05",
+      "summary": "HEO, 비지구 이미징에 행성 위성 사용",
+      "latest": "2026-08-17 22:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T21:43:47.100Z",
+      "lastRefreshed": "2026-08-17T22:44:25.605Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -91,18 +93,18 @@
       "summary": "ForeFront Power, Fresno시 최초의 Erthos 태양 에너지 시스템 완공",
       "latest": "2026-08-17 03:23",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-17T21:43:47.100Z",
+      "lastRefreshed": "2026-08-17T22:44:25.605Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 15,
+      "count": 14,
       "summary": "v3.2.0",
       "latest": "2026-08-17 19:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-17T21:43:47.100Z",
+      "lastRefreshed": "2026-08-17T22:44:25.605Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -226,6 +228,22 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "Cursor launches Origin, GitHub alternative",
+        "url": "https://cursor.com/changelog/origin-code-hosting",
+        "source": "Hacker News",
+        "date": "2026-08-17 17:02",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "Cursor, Origin, GitHub 대안 출시",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Colorful Collage of Tarantula Nebula",
         "url": "https://www.nasa.gov/image-article/colorful-collage-of-tarantula-nebula/",
         "source": "NASA",
@@ -292,22 +310,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-        "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-        "source": "Hacker News",
-        "date": "2026-08-17 14:18",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI로 생성된 GitHub Copilot \"Autofix\" 는 Snowflake의 JIRA를 손상시킬 수 있습니다.",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ],
     "creative": [
@@ -481,6 +483,22 @@
     ],
     "analysis": [
       {
+        "title": "HEO to use Planet satellites for non-Earth imaging",
+        "url": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/",
+        "source": "SpaceNews",
+        "date": "2026-08-17 22:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "HEO, 비지구 이미징에 행성 위성 사용",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
         "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
         "source": "TechCrunch",
@@ -490,6 +508,24 @@
         "stream": "news",
         "category": "인공지능",
         "titleKo": "AI 자동화 시작 릴레이가 종료되고 직원이 Google의 Chrome 팀에 합류합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
+        "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
+        "source": "Ars Technica",
+        "date": "2026-08-17 21:18",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "전 SpaceX 엔지니어가 강철 부품을 만드는 로봇 공장을 건설하고 있습니다.",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -648,42 +684,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic CEO Dario Amodei Says Open-Weight AI Won’t Decentralize Power - TechRepublic",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT2VnaTlvT0x1b1dOYkpGTUYwbWtYTzZUaGZVVkZ6aVVPcGdGVnZfU2pBTUdVSWRBYXJCOUFPLWdOOE5LVWhWMm1SVTdDakJ4c2RLVEp6VnhZcXBZUXIxZmw5MmZFQTZxZkxkNXJaVEZCeGdNcFA4Z3JBTGo2c01namNQcE9MWjRFazZRMTZ6b0s?oc=5",
-        "source": "TechRepublic",
-        "date": "2026-08-17 17:06",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "인류학 CEO 다리오 아메데이 (Dario Amodei), 개방형 AI가 권력을 분산시키지 않을 것이라고 말하다 - TechRepublic",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-        "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-        "source": "TechCrunch",
-        "date": "2026-08-17 16:38",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "책 판매를 시작한 아마존은 AI 훈련을 위해 희귀한 텍스트를 파괴하고 있다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -722,6 +722,38 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "GPU Offload in Rust: Portable, Safe, and Fast",
+        "url": "https://arxiv.org/abs/2608.13759",
+        "source": "Hacker News",
+        "date": "2026-08-17 17:54",
+        "categoryId": "chips",
+        "confidence": "D",
+        "stream": "community",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "Rust의 GPU 오프로드: 휴대용, 안전 및 고속",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Cursor launches Origin, GitHub alternative",
+        "url": "https://cursor.com/changelog/origin-code-hosting",
+        "source": "Hacker News",
+        "date": "2026-08-17 17:02",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "Cursor, Origin, GitHub 대안 출시",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Anthropic's War on open source AI",
         "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
         "source": "Hacker News",
@@ -754,42 +786,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "How to disable or avoid intrusive AI",
-        "url": "https://www.librarian.net/notoai/",
-        "source": "Hacker News",
-        "date": "2026-08-17 14:07",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "침입성 AI를 비활성화하거나 방지하는 방법",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Ask HN: Alternatives to GitHub",
-        "url": "https://news.ycombinator.com/item?id=49331033",
-        "source": "Hacker News",
-        "date": "2026-08-17 13:59",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "Ask HN: GitHub에 대한 대안",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "HEO to use Planet satellites for non-Earth imaging",
+      "url": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/",
+      "source": "SpaceNews",
+      "date": "2026-08-17 22:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "HEO, 비지구 이미징에 행성 위성 사용",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
       "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
@@ -800,6 +816,24 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "AI 자동화 시작 릴레이가 종료되고 직원이 Google의 Chrome 팀에 합류합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
+      "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
+      "source": "Ars Technica",
+      "date": "2026-08-17 21:18",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "전 SpaceX 엔지니어가 강철 부품을 만드는 로봇 공장을 건설하고 있습니다.",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1076,6 +1110,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
+      "url": "https://arxiv.org/abs/2608.13759",
+      "source": "Hacker News",
+      "date": "2026-08-17 17:54",
+      "categoryId": "chips",
+      "confidence": "D",
+      "stream": "community",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Rust의 GPU 오프로드: 휴대용, 안전 및 고속",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Next Generation of Planetary Scientists Learn Public Engagement Skills",
       "url": "https://science.nasa.gov/learning-resources/science-activation/next-generation-of-planetary-scientists-learn-public-engagement-skills/",
       "source": "NASA",
@@ -1124,6 +1174,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Cursor launches Origin, GitHub alternative",
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "source": "Hacker News",
+      "date": "2026-08-17 17:02",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "Cursor, Origin, GitHub 대안 출시",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
@@ -1314,22 +1380,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "How to disable or avoid intrusive AI",
-      "url": "https://www.librarian.net/notoai/",
-      "source": "Hacker News",
-      "date": "2026-08-17 14:07",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "침입성 AI를 비활성화하거나 방지하는 방법",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "From AI Copilots to Agent Swarms",
       "url": "https://spectrum.ieee.org/amd-agent-swarms",
       "source": "IEEE Spectrum",
@@ -1344,22 +1394,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Ask HN: Alternatives to GitHub",
-      "url": "https://news.ycombinator.com/item?id=49331033",
-      "source": "Hacker News",
-      "date": "2026-08-17 13:59",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "Ask HN: GitHub에 대한 대안",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Gravis Robotics raises $200M for autonomous construction",
@@ -1794,22 +1828,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Satellite operators emphasize launch deals in a constrained market",
-      "url": "https://spacenews.com/satellite-operators-emphasize-launch-deals-in-a-constrained-market/",
-      "source": "SpaceNews",
-      "date": "2026-08-16 23:05",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "위성 사업자는 제약된 시장에서 출시 거래를 강조합니다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "How robotics is revolutionizing stroke rehabilitation",
       "url": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
       "source": "The Robot Report",
@@ -2108,30 +2126,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "How Cloudflare detects MCP traffic and helps secure it",
-      "url": "https://blog.cloudflare.com/mcp-security-updates/",
-      "source": "Cloudflare Blog",
-      "date": "2026-08-14 13:12",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Cloudflare가 MCP 트래픽을 감지하고 보안을 유지하는 방법",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 8. 18. AM 6:43",
+    "officialSources": 8,
+    "checkedAt": "2026. 8. 18. AM 7:44",
     "mode": "매시간 공식 레이더"
   }
 }
