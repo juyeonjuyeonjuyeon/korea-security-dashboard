@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 18. PM 12:11",
+  "updatedAt": "2026. 8. 18. PM 1:01",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.1-canary.22",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 64,
+    "recentCount": 63,
     "sourceCount": 25,
     "officialCount": 21,
     "opportunityCount": 2
@@ -22,13 +22,13 @@
       "code": "AI",
       "label": "인공지능",
       "count": 32,
-      "summary": "Reddit’s AI is turning posts into podcasts and short videos",
-      "latest": "2026-08-18 01:51",
+      "summary": "FLOP 대 실제 작업: AI 효율성 평가에서 복제의 중요성",
+      "latest": "2026-08-18 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T03:11:07.576Z",
+      "lastRefreshed": "2026-08-18T04:01:08.829Z",
       "themes": [
-        "영상",
         "주요 기업",
+        "영상",
         "음악·음성"
       ]
     },
@@ -40,7 +40,7 @@
       "summary": "Rust의 GPU 오프로드: 휴대용, 안전 및 고속",
       "latest": "2026-08-17 17:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T03:11:07.576Z",
+      "lastRefreshed": "2026-08-18T04:01:08.829Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "전 SpaceX 엔지니어가 강철 부품을 만드는 로봇 공장을 건설하고 있습니다.",
       "latest": "2026-08-17 21:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T03:11:07.576Z",
+      "lastRefreshed": "2026-08-18T04:01:08.829Z",
       "themes": [
         "주요 기업"
       ]
@@ -66,7 +66,7 @@
       "summary": "눈송이 GitHub 작업 결함으로 인해 조작된 문제가 발생합니다. 트리거 명령 주입",
       "latest": "2026-08-17 18:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T03:11:07.576Z",
+      "lastRefreshed": "2026-08-18T04:01:08.829Z",
       "themes": [
         "영상"
       ]
@@ -79,7 +79,7 @@
       "summary": "호기심 블로그, Sols 4975-4981: 14주년 기념",
       "latest": "2026-08-17 23:10",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T03:11:07.576Z",
+      "lastRefreshed": "2026-08-18T04:01:08.829Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -93,7 +93,7 @@
       "summary": "테슬라 모델 Y를 폴스타 4와 교환했습니다",
       "latest": "2026-08-18 02:55",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-18T03:11:07.576Z",
+      "lastRefreshed": "2026-08-18T04:01:08.829Z",
       "themes": [
         "주요 기업"
       ]
@@ -106,7 +106,7 @@
       "summary": "v16.3.1-canary.22",
       "latest": "2026-08-17 23:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T03:11:07.576Z",
+      "lastRefreshed": "2026-08-18T04:01:08.829Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -465,6 +465,104 @@
     ],
     "analysis": [
       {
+        "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
+        "url": "https://arxiv.org/abs/2608.14550",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-18 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "FLOP 대 실제 작업: AI 효율성 평가에서 복제의 중요성",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+        "url": "https://arxiv.org/abs/2608.14552",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-18 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "큰 언어 모델은 의학적 추론에서 메타인지 민감도를 보여줍니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "When to Communicate: Belief Distributions and KL Divergence for Principled Gating in Multi-Agent RL",
+        "url": "https://arxiv.org/abs/2608.14559",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-18 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "의사소통 시기: 다중 에이전트 RL에서 원칙적인 게이팅을 위한 신념 분포 및 KL 발산",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+        "url": "https://arxiv.org/abs/2608.14562",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-18 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "고위험 사용 사례의 공정성과 윤리를 위한 글로벌 AI 규정: 비교 검토",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Position: AI Lock-In Is in Progress, and We Must Be Prepared",
+        "url": "https://arxiv.org/abs/2608.14565",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-18 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "포지션: AI 락인이 진행 중이며, 이에 대비해야 합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Position: Evaluations of AI Moral Reasoning Still Miss Half of the Picture",
+        "url": "https://arxiv.org/abs/2608.14566",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-18 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "포지션: 인공지능 도덕적 추론에 대한 평가가 여전히 그림의 절반을 놓치고 있음",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "I Traded My Tesla Model Y For A Polestar 4",
         "url": "https://cleantechnica.com/2026/08/17/i-traded-my-tesla-model-y-for-a-polestar-4/",
         "source": "CleanTechnica",
@@ -560,106 +658,6 @@
         "stream": "news",
         "category": "우주·통신",
         "titleKo": "HEO, 비지구 이미징에 행성 위성 사용",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
-        "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-        "source": "TechCrunch",
-        "date": "2026-08-17 21:27",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 자동화 시작 릴레이가 종료되고 직원이 Google의 Chrome 팀에 합류합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
-        "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
-        "source": "Ars Technica",
-        "date": "2026-08-17 21:18",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "전 SpaceX 엔지니어가 강철 부품을 만드는 로봇 공장을 건설하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
-        "url": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/",
-        "source": "The Robot Report",
-        "date": "2026-08-17 21:15",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Moxi 2.0의 5년간의 운영 형태 부지런한 로봇 공학 출시",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "New EU sanctions target leaders of Russia’s space industry",
-        "url": "https://spacenews.com/new-eu-sanctions-target-leaders-of-russias-space-industry/",
-        "source": "SpaceNews",
-        "date": "2026-08-17 21:05",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "새로운 EU 제재 대상 러시아 우주 산업의 리더",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Surgeons use da Vinci surgical robot to perform common cardiac surgery",
-        "url": "https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/",
-        "source": "The Robot Report",
-        "date": "2026-08-17 20:56",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "외과의는 다빈치 수술 로봇을 사용하여 일반적인 심장 수술을 수행합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "How Generalist uses human demonstration data for robot learning",
-        "url": "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
-        "source": "The Robot Report",
-        "date": "2026-08-17 19:32",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "제너럴리스트가 로봇 학습을 위해 인간 시범 데이터를 사용하는 방법",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -771,6 +769,104 @@
     ]
   },
   "news": [
+    {
+      "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
+      "url": "https://arxiv.org/abs/2608.14550",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-18 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "FLOP 대 실제 작업: AI 효율성 평가에서 복제의 중요성",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+      "url": "https://arxiv.org/abs/2608.14552",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-18 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "큰 언어 모델은 의학적 추론에서 메타인지 민감도를 보여줍니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "When to Communicate: Belief Distributions and KL Divergence for Principled Gating in Multi-Agent RL",
+      "url": "https://arxiv.org/abs/2608.14559",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-18 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "의사소통 시기: 다중 에이전트 RL에서 원칙적인 게이팅을 위한 신념 분포 및 KL 발산",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+      "url": "https://arxiv.org/abs/2608.14562",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-18 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "고위험 사용 사례의 공정성과 윤리를 위한 글로벌 AI 규정: 비교 검토",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Position: AI Lock-In Is in Progress, and We Must Be Prepared",
+      "url": "https://arxiv.org/abs/2608.14565",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-18 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "포지션: AI 락인이 진행 중이며, 이에 대비해야 합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Position: Evaluations of AI Moral Reasoning Still Miss Half of the Picture",
+      "url": "https://arxiv.org/abs/2608.14566",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-18 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "포지션: 인공지능 도덕적 추론에 대한 평가가 여전히 그림의 절반을 놓치고 있음",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "I Traded My Tesla Model Y For A Polestar 4",
       "url": "https://cleantechnica.com/2026/08/17/i-traded-my-tesla-model-y-for-a-polestar-4/",
@@ -1729,104 +1825,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
-      "url": "https://arxiv.org/abs/2608.13564",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-17 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "상담원 평가에서 과도한 크레딧을 줄이는 무보상 심사 채점표 유도",
-      "type": "뉴스·분석",
-      "themes": [
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
-      "url": "https://arxiv.org/abs/2608.13565",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-17 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "규모 기반 전문가 마스킹을 통한 전문가 혼합 모델의 깊이 인식 민감도 분석",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Modular Cognitive Architecture Emerges in Large Language Models",
-      "url": "https://arxiv.org/abs/2608.13567",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-17 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "대규모 언어 모델에서 나타나는 모듈식 인지 아키텍처",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
-      "url": "https://arxiv.org/abs/2608.13574",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-17 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "Agentao: LLM 에이전트 사용을 위한 관리되는 로컬 첫 번째 런타임",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI Evaluation Should Work With Humans",
-      "url": "https://arxiv.org/abs/2608.13577",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-17 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "인공지능 평가는 인간과 함께 해야 합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Stable Miscalibration in Large Language Models: A Practical View of High-Confidence Errors",
-      "url": "https://arxiv.org/abs/2608.13591",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-17 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "대용량 언어 모델의 안정적인 오보정: 신뢰도가 높은 오류에 대한 실용적인 관점",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "ForeFront Power Completes Its First Erthos Solar Energy System for the City of Fresno",
       "url": "https://cleantechnica.com/2026/08/16/forefront-power-completes-its-first-erthos-solar-energy-system-for-the-city-of-fresno/",
       "source": "CleanTechnica",
@@ -2112,7 +2110,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 18. PM 12:11",
+    "checkedAt": "2026. 8. 18. PM 1:01",
     "mode": "매시간 공식 레이더"
   }
 }
