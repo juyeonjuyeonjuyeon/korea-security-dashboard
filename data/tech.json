@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 19. AM 1:51",
+  "updatedAt": "2026. 8. 19. AM 2:46",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "Chat SDK에 Instagram 어댑터 추가",
   "metrics": {
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
-      "summary": "Anthro Energy는 솔리드 스테이트 배터리의 길을 열 수있는 공장의 기반을 깨뜨립니다.",
-      "latest": "2026-08-18 14:00",
+      "count": 35,
+      "summary": "여러 모델에 대한 성능 저하",
+      "latest": "2026-08-18 16:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T16:51:46.002Z",
+      "lastRefreshed": "2026-08-18T17:46:48.413Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -36,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
-      "summary": "Rust의 GPU 오프로드: 휴대용, 안전 및 고속",
-      "latest": "2026-08-17 17:54",
+      "count": 2,
+      "summary": "엔비디아, SpaceX의 $ 21B 지분 공개",
+      "latest": "2026-08-17 14:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T16:51:46.002Z",
+      "lastRefreshed": "2026-08-18T17:46:48.413Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 10,
+      "count": 9,
       "summary": "FORT Robotics, SPAC 합병을 통해 안전 스택 공개",
       "latest": "2026-08-18 15:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T16:51:46.002Z",
+      "lastRefreshed": "2026-08-18T17:46:48.413Z",
       "themes": [
         "주요 기업"
       ]
@@ -66,7 +66,7 @@
       "summary": "Tesla가 드디어 Cybercab을 출시합니다. 준비가 되었기를 바랍니다.",
       "latest": "2026-08-18 16:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T16:51:46.002Z",
+      "lastRefreshed": "2026-08-18T17:46:48.413Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -76,11 +76,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 13,
-      "summary": "NASA의 B777이 새로운 페인트 코트를 얻습니다",
-      "latest": "2026-08-18 15:10",
+      "count": 14,
+      "summary": "미국은 중국의 우주 프로그램으로부터의 위협에 곧 깨어날 것입니다.",
+      "latest": "2026-08-18 16:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T16:51:46.002Z",
+      "lastRefreshed": "2026-08-18T17:46:48.413Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -94,7 +94,7 @@
       "summary": "아직 갈 곳이 없는 750기가와트의 에너지 저장 공간",
       "latest": "2026-08-18 14:38",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-18T16:51:46.002Z",
+      "lastRefreshed": "2026-08-18T17:46:48.413Z",
       "themes": [
         "주요 기업"
       ]
@@ -107,7 +107,7 @@
       "summary": "Chat SDK에 Instagram 어댑터 추가",
       "latest": "2026-08-19 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T16:51:46.002Z",
+      "lastRefreshed": "2026-08-18T17:46:48.413Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -470,6 +470,22 @@
     ],
     "analysis": [
       {
+        "title": "The United States is about to wake up to the threat from China's space program",
+        "url": "https://arstechnica.com/space/2026/08/the-united-states-is-about-to-wake-up-to-the-threat-from-chinas-space-program/",
+        "source": "Ars Technica",
+        "date": "2026-08-18 16:30",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "미국은 중국의 우주 프로그램으로부터의 위협에 곧 깨어날 것입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
         "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
         "source": "The Verge",
@@ -655,25 +671,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "New report takes closer look at the Space Force spending surge",
-        "url": "https://spacenews.com/new-report-takes-closer-look-at-the-space-force-spending-surge/",
-        "source": "SpaceNews",
-        "date": "2026-08-18 12:00",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "새로운 보고서에서는 우주군 지출 탄력요금제를 자세히 살펴봅니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Degraded performance for multiple models",
+        "url": "https://status.claude.com/incidents/q7txxvbsftgq",
+        "source": "Hacker News",
+        "date": "2026-08-18 16:28",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "여러 모델에 대한 성능 저하",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Claude writing a macOS driver for my obscure HP printer built only for Windows",
         "url": "https://twitter.com/kuberwastaken/status/2089377982536388964",
@@ -757,22 +773,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "GPU Offload in Rust: Portable, Safe, and Fast",
-        "url": "https://arxiv.org/abs/2608.13759",
-        "source": "Hacker News",
-        "date": "2026-08-17 17:54",
-        "categoryId": "chips",
-        "confidence": "D",
-        "stream": "community",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Rust의 GPU 오프로드: 휴대용, 안전 및 고속",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -792,6 +792,38 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "The United States is about to wake up to the threat from China's space program",
+      "url": "https://arstechnica.com/space/2026/08/the-united-states-is-about-to-wake-up-to-the-threat-from-chinas-space-program/",
+      "source": "Ars Technica",
+      "date": "2026-08-18 16:30",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "미국은 중국의 우주 프로그램으로부터의 위협에 곧 깨어날 것입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Degraded performance for multiple models",
+      "url": "https://status.claude.com/incidents/q7txxvbsftgq",
+      "source": "Hacker News",
+      "date": "2026-08-18 16:28",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "여러 모델에 대한 성능 저하",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
@@ -1722,22 +1754,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
-      "url": "https://arxiv.org/abs/2608.13759",
-      "source": "Hacker News",
-      "date": "2026-08-17 17:54",
-      "categoryId": "chips",
-      "confidence": "D",
-      "stream": "community",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Rust의 GPU 오프로드: 휴대용, 안전 및 고속",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Anthropic CEO Dario Amodei Says Open-Weight AI Won’t Decentralize Power - TechRepublic",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT2VnaTlvT0x1b1dOYkpGTUYwbWtYTzZUaGZVVkZ6aVVPcGdGVnZfU2pBTUdVSWRBYXJCOUFPLWdOOE5LVWhWMm1SVTdDakJ4c2RLVEp6VnhZcXBZUXIxZmw5MmZFQTZxZkxkNXJaVEZCeGdNcFA4Z3JBTGo2c01namNQcE9MWjRFazZRMTZ6b0s?oc=5",
       "source": "TechRepublic",
@@ -2088,22 +2104,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "How robotics is revolutionizing stroke rehabilitation",
-      "url": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
-      "source": "The Robot Report",
-      "date": "2026-08-16 12:30",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "로봇공학이 뇌졸중 재활을 혁신하는 방법",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2111,7 +2111,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 19. AM 1:51",
+    "checkedAt": "2026. 8. 19. AM 2:46",
     "mode": "매시간 공식 레이더"
   }
 }
