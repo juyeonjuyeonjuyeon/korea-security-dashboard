@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 19. AM 5:42",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 19. AM 6:25",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "Chat SDK에 Instagram 어댑터 추가",
   "metrics": {
     "articleCount": 80,
     "recentCount": 58,
-    "sourceCount": 25,
-    "officialCount": 21,
+    "sourceCount": 24,
+    "officialCount": 22,
     "opportunityCount": 1
   },
   "summary": [
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
+      "count": 35,
       "summary": "로빈 윌리엄스의 인스타그램 계정이 ’AI 악용‘ 에 맞서 싸웠습니다",
       "latest": "2026-08-18 19:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T20:42:44.414Z",
+      "lastRefreshed": "2026-08-18T21:25:55.849Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -40,7 +40,7 @@
       "summary": "엔비디아, SpaceX의 $ 21B 지분 공개",
       "latest": "2026-08-17 14:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T20:42:44.414Z",
+      "lastRefreshed": "2026-08-18T21:25:55.849Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 9,
+      "count": 8,
       "summary": "FORT Robotics, SPAC 합병을 통해 안전 스택 공개",
       "latest": "2026-08-18 15:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T20:42:44.414Z",
+      "lastRefreshed": "2026-08-18T21:25:55.849Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,28 +62,27 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
+      "count": 3,
       "summary": "Tesla가 드디어 Cybercab을 출시합니다. 준비가 되었기를 바랍니다.",
       "latest": "2026-08-18 17:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T20:42:44.414Z",
+      "lastRefreshed": "2026-08-18T21:25:55.849Z",
       "themes": [
-        "주요 기업",
-        "영상"
+        "주요 기업"
       ]
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
-      "summary": "NASA의 LRO Images Falcon 9 달의 분화구, 새로운 세부 사항 배우기",
-      "latest": "2026-08-18 18:49",
+      "count": 15,
+      "summary": "모든 역경에 대비하여 SpaceX는 바다에서 24 일 후에 마침내 Starship을 항구로 끌어들입니다.",
+      "latest": "2026-08-18 19:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T20:42:44.414Z",
+      "lastRefreshed": "2026-08-18T21:25:55.849Z",
       "themes": [
-        "미술·디자인",
         "주요 기업",
+        "미술·디자인",
         "기회"
       ]
     },
@@ -95,7 +94,7 @@
       "summary": "아직 갈 곳이 없는 750기가와트의 에너지 저장 공간",
       "latest": "2026-08-18 14:38",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-18T20:42:44.414Z",
+      "lastRefreshed": "2026-08-18T21:25:55.849Z",
       "themes": [
         "주요 기업"
       ]
@@ -104,11 +103,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 11,
+      "count": 13,
       "summary": "Chat SDK에 Instagram 어댑터 추가",
       "latest": "2026-08-19 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-18T20:42:44.414Z",
+      "lastRefreshed": "2026-08-18T21:25:55.849Z",
       "themes": [
         "주요 기업"
       ]
@@ -128,6 +127,24 @@
         "titleKo": "Chat SDK에 Instagram 어댑터 추가",
         "type": "출시·업데이트",
         "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v3.3.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.3.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-08-18 21:17",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.3.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -300,22 +317,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "$1 million hacker challenge for Vercel Sandbox",
-        "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
-        "source": "Vercel Changelog",
-        "date": "2026-08-18 13:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Vercel Sandbox에 대한 $ 1 백만 해커 챌린지",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -392,24 +393,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-        "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-        "source": "The Hacker News",
-        "date": "2026-08-17 10:52",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "Unisoc VoLTE 화상 통화 익스플로잇 체인은 공격자에게 전체 Android 커널 액세스 권한을 부여할 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [
@@ -479,6 +462,40 @@
         "stream": "news",
         "category": "인공지능",
         "titleKo": "OpenAI는 AI가 Hugging Face를 해킹한 후 새로운 보안 변경 사항을 적용합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Software industry’s impact in 2020: 15.8 million jobs and $933 billion to the US economy - TechRepublic",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZDJrbWhtUzN3a281eUMybXNxcFE3MndjanpoS3lSWDBMbk9EVWhNMjFiYWQ4cWdxWVJjZXktMnpBZFh0UEZZZUduaDE0VV9TQzBRTDJ3Umx5RWFoX1M0ZGxockFlQ1FNRWFNR2pzUWNVNGVnWFp6ckdWVnNCSUtrR1ZDNGUzSm1JMmlqczJ3RnpxV1ZLb2wyRnZ2MDFJR21ONWpoejNJVWpQQ1hnRzYweW5FOUpDcFYxTy1OVmMySEdFcVNi?oc=5",
+        "source": "TechRepublic",
+        "date": "2026-08-18 19:12",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "news",
+        "category": "소프트웨어·개발",
+        "titleKo": "2020년 소프트웨어 산업의 영향: 미국 경제에 1,580만 개의 일자리와 933억 달러 ($) - TechRepublic",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
+        "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
+        "source": "Ars Technica",
+        "date": "2026-08-18 19:01",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "모든 역경에 대비하여 SpaceX는 바다에서 24 일 후에 마침내 Starship을 항구로 끌어들입니다.",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -620,43 +637,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Perplexity’s free AI offer left it with millions more users in India",
-        "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
-        "source": "TechCrunch",
-        "date": "2026-08-18 13:45",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Perplexity의 무료 AI 제공으로 인도에서 수백만 명의 사용자가 증가했습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Apple’s new macOS update reportedly contains a video of AirPods with a camera",
-        "url": "https://techcrunch.com/2026/08/18/apples-new-macos-update-reportedly-contains-a-video-of-airpods-with-a-camera/",
-        "source": "TechCrunch",
-        "date": "2026-08-18 13:28",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Apple의 새로운 macOS 업데이트에는 카메라가 장착된 AirPods 동영상이 포함되어 있다고 합니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업",
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -780,6 +760,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "v3.3.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.3.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-08-18 21:17",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.3.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
       "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
       "source": "The Verge",
@@ -823,6 +821,40 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "OpenAI는 AI가 Hugging Face를 해킹한 후 새로운 보안 변경 사항을 적용합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Software industry’s impact in 2020: 15.8 million jobs and $933 billion to the US economy - TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZDJrbWhtUzN3a281eUMybXNxcFE3MndjanpoS3lSWDBMbk9EVWhNMjFiYWQ4cWdxWVJjZXktMnpBZFh0UEZZZUduaDE0VV9TQzBRTDJ3Umx5RWFoX1M0ZGxockFlQ1FNRWFNR2pzUWNVNGVnWFp6ckdWVnNCSUtrR1ZDNGUzSm1JMmlqczJ3RnpxV1ZLb2wyRnZ2MDFJR21ONWpoejNJVWpQQ1hnRzYweW5FOUpDcFYxTy1OVmMySEdFcVNi?oc=5",
+      "source": "TechRepublic",
+      "date": "2026-08-18 19:12",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "news",
+      "category": "소프트웨어·개발",
+      "titleKo": "2020년 소프트웨어 산업의 영향: 미국 경제에 1,580만 개의 일자리와 933억 달러 ($) - TechRepublic",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
+      "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
+      "source": "Ars Technica",
+      "date": "2026-08-18 19:01",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "모든 역경에 대비하여 SpaceX는 바다에서 24 일 후에 마침내 Starship을 항구로 끌어들입니다.",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1347,6 +1379,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "The Powerful Chinese AI Model Experts Warned About—and Waited for—Is Here - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX0QxcFZOYUpXNWVMZ284dGpQRGJIZ2d0WlFleUk5QlFDZXE3eV9kTXVmN0tYUlg5NEJSWGI2eXYyQ2ZsbWRzRDI4bDZHVGpvSEt1bVU5c0JEWnRHSTN2SFpXRUZPZy1JQVhmT2dmMkVmUzV4VDVOTTBCcVdtMURrZC1Cdzh6X3NsZlBQYw?oc=5",
+      "source": "WIRED",
+      "date": "2026-08-18 09:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "강력한 중국 AI 모델 전문가들은 여기에 대해 경고하고 기다리고 있습니다 - 유선",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Apple’s camera-equipped AirPods appear in leaked video",
       "url": "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak",
       "source": "The Verge",
@@ -1489,6 +1537,22 @@
       "stream": "analysis",
       "category": "인공지능",
       "titleKo": "포지션: 인공지능 도덕적 추론에 대한 평가가 여전히 그림의 절반을 놓치고 있음",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI hasn’t gone rogue. It’s worse than that - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORnFZc1d0aHJpLWZXd1hjT0h2NWtaMUVUc2JxZkZldW9vbUxWMWx1NjNxV1ZZMGkwMTl0OGtjVkJ4R0x3c19IVTNsZVFVWFJrOHlMbFJnNHBhNE5tbk5vNEFuT2JwX1ZzXzNLekhWX1FEQTA4ZGVZWlJCRmR6TTI4VXJ6TTg?oc=5",
+      "source": "Financial Times",
+      "date": "2026-08-18 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI hasn’t gone rogue. It’s worse than that - Financial Times",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1860,15 +1924,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "SoftBank Invests $200 Million in Construction Startup Gravis Robotics - Bloomberg",
+      "title": "SoftBank Invests $200 Million in Construction Startup Gravis Robotics - bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMjl6ajJ5QUZNSHcxZnJoMzBaOGhxZVk5ZVZyWXBwckM2V1lzSTRmNEVFaDJGXzRmM01XeGJQR2ZfdDdnNUdvcU1pdzZJUVhMelpTT2V5dkdtNE81X0VHN191VkZNTmlHSWxxU1VoeTJzM2QxTy16UGhoMllnOFJhX29fY3dGLWNLX1pTYmNTLWQxeXAyeEJsV3R5dTFrUUZENU42c1dLb09tcG81WldmaF94ZWc1MnJnYTZV?oc=5",
-      "source": "Bloomberg",
+      "source": "bloomberg.com",
       "date": "2026-08-17 15:16",
       "categoryId": "robotics",
       "confidence": "C",
       "stream": "news",
       "category": "로봇·모빌리티",
-      "titleKo": "SoftBank, 건설 스타트업 Gravis Robotics에 2억 $ 투자 - Bloomberg",
+      "titleKo": "SoftBank Invests $200 Million in Construction Startup Gravis Robotics - bloomberg.com",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1994,100 +2058,16 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Satellite operators are in panic mode due to a worsening launch crisis",
-      "url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
+      "title": "Satellite operators are in panic mode due to a worsening launch crisis - Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNblV5X2NfWHJIU3RISS12eUQyak9BekJETU5zbWg3a19seTJrTjZwYUlOVDd3OGozRERRWE9OM3ZDd2NwNHAwVVkyUXpMdUtYMHQtbDZCaDRuUjZBS1J3VzViVE9KS3NKNVNkUkVCRzNDQmtJbVRoY3FkZWN2Z1VUQmZiNncxaktYV1gyWEd2TktHZzUwQVF3ZlkwQUh0MEVtSmZ4bjdscTU4ZEU?oc=5",
       "source": "Ars Technica",
       "date": "2026-08-17 11:00",
       "categoryId": "space",
       "confidence": "C",
       "stream": "news",
       "category": "우주·통신",
-      "titleKo": "위성 사업자는 발사 위기가 악화되어 공황 상태에 있습니다.",
+      "titleKo": "Satellite operators are in panic mode due to a worsening launch crisis - Ars Technica",
       "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-      "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "source": "The Hacker News",
-      "date": "2026-08-17 10:52",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "Unisoc VoLTE 화상 통화 익스플로잇 체인은 공격자에게 전체 Android 커널 액세스 권한을 부여할 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "영상"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "New policy ideas for the Intelligence Age - OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50c2tWanNsR0xvM0w1d2hzSFJHS1FXenprdUZCQmNfZVQ2WlNNenprcEczaUcwMm9nYlAyQUwxQ05LY2UwMXpXM1ZRWHNieF91dVYtcklTRG8wQ28wc1VpRFNnSE91M0tDRTFPTHBzRWNiUHJVZVE?oc=5",
-      "source": "OpenAI",
-      "date": "2026-08-17 10:23",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "지능화 시대를 위한 새로운 정책 아이디어 - OpenAI",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Trump crypto firm backs venture offering AI from restricted Chinese companies - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHhDcEM5cGN4V2duaGh3RmNtbVZndFdfWHBjSkF5ekRiN1JBVnRULTBUeTVld0I3czliYWZsckdXbVJfLTdJcldxY0V1VnV6NU1sME1uM3BWLUttZzR4RDVPSkJsTXlRQkRSTkFJc2pLelNEYXNBWHpUX1BGdzFBTGtmaFFwdE1DclphZDZncHMyTk5oNmFZSWhQRmVrUHdkaFpCb3ZBWWY4eExmcGZEMkJZekFPTEI3VG4zUQ?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-17 10:04",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "트럼프 암호화폐 회사, 제한된 중국 기업의 AI 제공 벤처 지원 - 로이터",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "What happens when a kid’s robot best friend dies?",
-      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
-      "source": "MIT Technology Review",
-      "date": "2026-08-17 09:00",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "아이의 로봇 절친이 죽으면 어떻게 될까요?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Chinese AI Models Stoke Corporate Divide Over Safety, Savings - Bloomberg Law News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUG1OYUlMNGZoMWtmd1dGTDlfV1N3RnU2ZE45VF9GWjBSeXdZcnNFWXdtQjdja0JpMXZUZTNYZDlXUTg1ZDg4dTFUcm9TcXBTTVJCVkdIOWdVNDE3eHNTaEI4LXlMRnd4YzM3dUl5S1BkbmRXR2kyc2oySFk5V1FMV1hhSVd3eHdxeUUtbmRwaWlJWThITEVmRThMYXN0ZHhtYmpRUUZ2a0VxZHozbGdkRWFEaXVaVXM?oc=5",
-      "source": "Bloomberg Law News",
-      "date": "2026-08-17 09:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Chinese AI Models Stoke Corporate Divide Over Safety, Savings - Bloomberg Law News",
-      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -2095,11 +2075,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 19. AM 5:42",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 19. AM 6:25",
+    "mode": "하루 2회 전체 수집"
   }
 }
