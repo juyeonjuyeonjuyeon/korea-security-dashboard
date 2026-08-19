@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 20. AM 3:56",
+  "updatedAt": "2026. 8. 20. AM 4:42",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "NASA, 상업용 SWIFT 부스트 임무를 위한 다음 단계 업데이트",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 63,
+    "recentCount": 60,
     "sourceCount": 26,
-    "officialCount": 25,
+    "officialCount": 26,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "연구원들은 OpenAI가 제한된 사이버 프로그램에 대한 액세스를 취소했다고 말합니다.",
-      "latest": "2026-08-19 18:46",
+      "count": 34,
+      "summary": "AI는 지금쯤 사람들을 이길 예정이었습니다.",
+      "latest": "2026-08-19 19:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T18:56:23.102Z",
+      "lastRefreshed": "2026-08-19T19:42:55.656Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -38,7 +38,7 @@
       "summary": "엔비디아의 새로운 재무 전략은",
       "latest": "2026-08-19 13:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T18:56:23.102Z",
+      "lastRefreshed": "2026-08-19T19:42:55.656Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,18 +51,18 @@
       "summary": "Unitree Robotics의 IPO는 휴머노이드 산업에 어떤 의미인가요?",
       "latest": "2026-08-19 18:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T18:56:23.102Z",
+      "lastRefreshed": "2026-08-19T19:42:55.656Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
+      "count": 3,
       "summary": "피싱 3.0: 에이전트 대 에이전트로의 싸움",
       "latest": "2026-08-19 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T18:56:23.102Z",
+      "lastRefreshed": "2026-08-19T19:42:55.656Z",
       "themes": [
         "주요 기업"
       ]
@@ -72,10 +72,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 15,
-      "summary": "NASA, 상업용 SWIFT 부스트 임무를 위한 다음 단계 업데이트",
-      "latest": "2026-08-19 18:08",
+      "summary": "Katalyst Space와 NASA, Swift 재부스트 계획 포기",
+      "latest": "2026-08-19 19:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T18:56:23.102Z",
+      "lastRefreshed": "2026-08-19T19:42:55.656Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -85,14 +85,13 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
+      "count": 4,
       "summary": "백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다.",
       "latest": "2026-08-19 17:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-19T18:56:23.102Z",
+      "lastRefreshed": "2026-08-19T19:42:55.656Z",
       "themes": [
-        "음악·음성",
-        "주요 기업"
+        "음악·음성"
       ]
     },
     {
@@ -103,7 +102,7 @@
       "summary": "v0.124.0",
       "latest": "2026-08-19 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T18:56:23.102Z",
+      "lastRefreshed": "2026-08-19T19:42:55.656Z",
       "themes": [
         "주요 기업"
       ]
@@ -121,6 +120,22 @@
         "stream": "release",
         "category": "우주·통신",
         "titleKo": "NASA, 상업용 SWIFT 부스트 임무를 위한 다음 단계 업데이트",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Human-Related Microbes May Survive Moon’s South Pole, NASA Finds",
+        "url": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/",
+        "source": "NASA",
+        "date": "2026-08-19 18:02",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA는 인간 관련 미생물이 달의 남극에서 살아남을 수 있다고 밝혔다.",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -292,22 +307,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Patch release: v5.15.1",
-        "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-        "source": "GitHub · Transformers",
-        "date": "2026-08-19 10:50",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "패치 릴리스: v5.15.1",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -423,6 +422,74 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Katalyst Space and NASA abandon plans for Swift reboost",
+        "url": "https://spacenews.com/katalyst-space-and-nasa-abandon-plans-for-swift-reboost/",
+        "source": "SpaceNews",
+        "date": "2026-08-19 19:23",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Katalyst Space와 NASA, Swift 재부스트 계획 포기",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI was supposed to win people over by now — it hasn’t",
+        "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+        "source": "TechCrunch",
+        "date": "2026-08-19 19:11",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI는 지금쯤 사람들을 이길 예정이었습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Google packs Search and Gemini with new AI study tools",
+        "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+        "source": "TechCrunch",
+        "date": "2026-08-19 19:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "새로운 AI 연구 도구로 Google Packs Search 및 Gemini",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Google Gemini is getting a dedicated student hub",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+        "source": "The Verge",
+        "date": "2026-08-19 18:52",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Google Gemini는 학생 전용 허브를 제공하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Researchers say OpenAI revoked their access to limited cyber program",
         "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
@@ -560,73 +627,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "This robot vacuum solves my kitchen stool problem",
-        "url": "https://www.theverge.com/tech/981874/mova-v70-ultra-robot-vacuum-mop-arm-hands-on-review",
-        "source": "The Verge",
-        "date": "2026-08-19 15:26",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "이 로봇 진공청소기는 주방 스툴 문제를 해결합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Moog Inc. Expands METEORITE Satellite Bus Capacity for High-Maneuverability Missions",
-        "url": "https://spacenews.com/moog-inc-expands-meteorite-satellite-bus-capacity-for-high-maneuverability-missions/",
-        "source": "SpaceNews",
-        "date": "2026-08-19 15:11",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "Moog Inc., 높은 기동성 임무를 위해 운석 위성 버스 용량 확장",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
-        "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
-        "source": "TechCrunch",
-        "date": "2026-08-19 15:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Amazon은 AI 기반 Alexa + 를 Fire TV에서 무료로 제공하며 Prime은 필요하지 않습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Serve Robotics to deploy its autonomous delivery robots with Grubhub",
-        "url": "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/",
-        "source": "The Robot Report",
-        "date": "2026-08-19 13:55",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Grubhub를 사용하여 자율 전달 로봇을 배포하는 Robotics 제공",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -734,6 +734,74 @@
   },
   "news": [
     {
+      "title": "Katalyst Space and NASA abandon plans for Swift reboost",
+      "url": "https://spacenews.com/katalyst-space-and-nasa-abandon-plans-for-swift-reboost/",
+      "source": "SpaceNews",
+      "date": "2026-08-19 19:23",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Katalyst Space와 NASA, Swift 재부스트 계획 포기",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI was supposed to win people over by now — it hasn’t",
+      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+      "source": "TechCrunch",
+      "date": "2026-08-19 19:11",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI는 지금쯤 사람들을 이길 예정이었습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "source": "TechCrunch",
+      "date": "2026-08-19 19:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "새로운 AI 연구 도구로 Google Packs Search 및 Gemini",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google Gemini is getting a dedicated student hub",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "source": "The Verge",
+      "date": "2026-08-19 18:52",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google Gemini는 학생 전용 허브를 제공하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Researchers say OpenAI revoked their access to limited cyber program",
       "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
       "source": "TechCrunch",
@@ -779,6 +847,22 @@
       "stream": "release",
       "category": "우주·통신",
       "titleKo": "NASA, 상업용 SWIFT 부스트 임무를 위한 다음 단계 업데이트",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Human-Related Microbes May Survive Moon’s South Pole, NASA Finds",
+      "url": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/",
+      "source": "NASA",
+      "date": "2026-08-19 18:02",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA는 인간 관련 미생물이 달의 남극에서 살아남을 수 있다고 밝혔다.",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1171,22 +1255,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
-      "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
-      "source": "TechCrunch",
-      "date": "2026-08-19 12:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI는 암을 치료하는 데 가깝지 않습니다. 이 스타트업은 무엇이 필요한지 알고 있다고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission",
       "url": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/",
       "source": "SpaceNews",
@@ -1253,24 +1321,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
-      "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
-      "source": "The Verge",
-      "date": "2026-08-19 08:58",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "Tesla가 드디어 Cybercab을 출시합니다. 준비가 되었기를 바랍니다.",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
       "url": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
       "source": "NASA",
@@ -1287,15 +1337,15 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "APOD: 2026 August 19 – The Case of the Mysterious Maybe Meteor",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-19-the-case-of-the-mysterious-maybe-meteor/",
-      "source": "NASA",
-      "date": "2026-08-19 04:05",
-      "categoryId": "space",
+      "title": "Algolia joins the Vercel Marketplace",
+      "url": "https://vercel.com/changelog/algolia-vercel-marketplace",
+      "source": "Vercel Changelog",
+      "date": "2026-08-19 04:00",
+      "categoryId": "software",
       "confidence": "A",
       "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "APOD: 2026년 8월 19일 – 신비한 어쩌면 유성의 사건",
+      "category": "소프트웨어·개발",
+      "titleKo": "알골리아, 베르셀 마켓플레이스에 합류",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1563,38 +1613,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Rocket Lab to test Space Force data network connection in orbit in 2027",
-      "url": "https://spacenews.com/rocket-lab-to-test-space-force-data-network-connection-in-orbit-in-2027/",
-      "source": "SpaceNews",
-      "date": "2026-08-18 22:52",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "2027년 궤도에서 우주군 데이터 네트워크 연결을 테스트하기 위한 로켓 연구소",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-      "source": "TechCrunch",
-      "date": "2026-08-18 22:14",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "Cursor는 GitHub의 불만을 활용하여 라이벌 호스팅 플랫폼을 출시합니다.",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "AI usage patterns in software teams",
@@ -2043,24 +2061,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "I Traded My Tesla Model Y For A Polestar 4",
-      "url": "https://cleantechnica.com/2026/08/17/i-traded-my-tesla-model-y-for-a-polestar-4/",
-      "source": "CleanTechnica",
-      "date": "2026-08-18 02:55",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "테슬라 모델 Y를 폴스타 4와 교환했습니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2068,7 +2068,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 20. AM 3:56",
+    "checkedAt": "2026. 8. 20. AM 4:42",
     "mode": "매시간 공식 레이더"
   }
 }
