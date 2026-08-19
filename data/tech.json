@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 19. PM 11:00",
+  "updatedAt": "2026. 8. 19. PM 11:55",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "LFM2.5 Q4\\_0 양자화 인식 증류의 체크포인트",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 56,
+    "recentCount": 58,
     "sourceCount": 26,
     "officialCount": 26,
     "opportunityCount": 0
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
+      "count": 33,
       "summary": "LFM2.5 Q4\\_0 양자화 인식 증류의 체크포인트",
       "latest": "2026-08-19 13:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T14:00:38.667Z",
+      "lastRefreshed": "2026-08-19T14:55:22.584Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -37,7 +37,7 @@
       "summary": "엔비디아의 새로운 재무 전략은",
       "latest": "2026-08-19 13:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T14:00:38.667Z",
+      "lastRefreshed": "2026-08-19T14:55:22.584Z",
       "themes": [
         "주요 기업"
       ]
@@ -46,11 +46,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 2,
-      "summary": "Pudu Robotics, 새로운 MP2000 자율 지게차 출시",
-      "latest": "2026-08-19 13:07",
+      "count": 4,
+      "summary": "Grubhub를 사용하여 자율 전달 로봇을 배포하는 Robotics 제공",
+      "latest": "2026-08-19 13:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T14:00:38.667Z",
+      "lastRefreshed": "2026-08-19T14:55:22.584Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "피싱 3.0: 에이전트 대 에이전트로의 싸움",
       "latest": "2026-08-19 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T14:00:38.667Z",
+      "lastRefreshed": "2026-08-19T14:55:22.584Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,10 +71,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 15,
-      "summary": "우주 산업의 다음 과제: 공급망 복원력",
-      "latest": "2026-08-19 13:00",
+      "summary": "커리어 스포트라이트: 정비사 (만 14 ~ 18세)",
+      "latest": "2026-08-19 13:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T14:00:38.667Z",
+      "lastRefreshed": "2026-08-19T14:55:22.584Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -84,11 +84,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 6,
+      "count": 5,
       "summary": "포니 AI, 자율 대형 트럭 1,000대 배치 계획",
       "latest": "2026-08-19 03:06",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-19T14:00:38.667Z",
+      "lastRefreshed": "2026-08-19T14:55:22.584Z",
       "themes": [
         "주요 기업"
       ]
@@ -101,7 +101,7 @@
       "summary": "v0.123.0",
       "latest": "2026-08-19 13:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T14:00:38.667Z",
+      "lastRefreshed": "2026-08-19T14:55:22.584Z",
       "themes": [
         "주요 기업"
       ]
@@ -119,6 +119,22 @@
         "stream": "release",
         "category": "인공지능",
         "titleKo": "LFM2.5 Q4\\_0 양자화 인식 증류의 체크포인트",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Career Spotlight: Mechanic (Ages 14-18)",
+        "url": "https://www.nasa.gov/learning-resources/career-spotlight-mechanic-ages-14-18/",
+        "source": "NASA",
+        "date": "2026-08-19 13:48",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "커리어 스포트라이트: 정비사 (만 14 ~ 18세)",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -288,22 +304,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.3.1-canary.24",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.24",
-        "source": "GitHub · Next.js",
-        "date": "2026-08-18 23:44",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.3.1-canary.24",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -401,6 +401,38 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Serve Robotics to deploy its autonomous delivery robots with Grubhub",
+        "url": "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/",
+        "source": "The Robot Report",
+        "date": "2026-08-19 13:55",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Grubhub를 사용하여 자율 전달 로봇을 배포하는 Robotics 제공",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "This robot vacuum solves my kitchen stool problem",
+        "url": "https://www.theverge.com/tech/981874/mova-v70-ultra-robot-vacuum-mop-arm-hands-on-review",
+        "source": "The Verge",
+        "date": "2026-08-19 13:49",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "이 로봇 진공청소기는 주방 스툴 문제를 해결합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Nvidia’s new financial strategy does not compute",
         "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
@@ -566,41 +598,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
-        "url": "https://arxiv.org/abs/2608.16956",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-19 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "사고의 대가: 모델별 API 계약으로서의 추론 노력",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
-        "url": "https://arxiv.org/abs/2608.17007",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-19 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Show HN: Interactive, animated architecture of any HuggingFace models",
+        "url": "https://modelmap.cc",
+        "source": "Hacker News",
+        "date": "2026-08-18 23:57",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "HN 표시: HuggingFace 모델의 대화형 애니메이션 아키텍처",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "AI usage patterns in software teams",
         "url": "https://linear.app/data",
@@ -684,26 +700,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Claude Code May–August 2026 weekly limits promotion",
-        "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-        "source": "Hacker News",
-        "date": "2026-08-18 17:02",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "클로드 코드 2026년 5월 ~ 8월 주간 한도 프로모션",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Serve Robotics to deploy its autonomous delivery robots with Grubhub",
+      "url": "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/",
+      "source": "The Robot Report",
+      "date": "2026-08-19 13:55",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Grubhub를 사용하여 자율 전달 로봇을 배포하는 Robotics 제공",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "This robot vacuum solves my kitchen stool problem",
+      "url": "https://www.theverge.com/tech/981874/mova-v70-ultra-robot-vacuum-mop-arm-hands-on-review",
+      "source": "The Verge",
+      "date": "2026-08-19 13:49",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "이 로봇 진공청소기는 주방 스툴 문제를 해결합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
       "url": "https://huggingface.co/blog/LiquidAI/qad",
@@ -714,6 +746,22 @@
       "stream": "release",
       "category": "인공지능",
       "titleKo": "LFM2.5 Q4\\_0 양자화 인식 증류의 체크포인트",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Career Spotlight: Mechanic (Ages 14-18)",
+      "url": "https://www.nasa.gov/learning-resources/career-spotlight-mechanic-ages-14-18/",
+      "source": "NASA",
+      "date": "2026-08-19 13:48",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "커리어 스포트라이트: 정비사 (만 14 ~ 18세)",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1149,6 +1197,22 @@
       "layerLabel": "주요 언론 확인"
     },
     {
+      "title": "Show HN: Interactive, animated architecture of any HuggingFace models",
+      "url": "https://modelmap.cc",
+      "source": "Hacker News",
+      "date": "2026-08-18 23:57",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "HN 표시: HuggingFace 모델의 대화형 애니메이션 아키텍처",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "v16.3.1-canary.24",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.24",
       "source": "GitHub · Next.js",
@@ -1519,22 +1583,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Claude Code May–August 2026 weekly limits promotion",
-      "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "source": "Hacker News",
-      "date": "2026-08-18 17:02",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "클로드 코드 2026년 5월 ~ 8월 주간 한도 프로모션",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Vercel for Platforms can now deploy from your users' GitHub repositories",
       "url": "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories",
       "source": "Vercel Changelog",
@@ -1663,22 +1711,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "NASA Glenn’s Legacy Forged Through Decades of Flight Research",
-      "url": "https://www.nasa.gov/general/nasa-glenn-inflight-research/",
-      "source": "NASA",
-      "date": "2026-08-18 14:00",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "수십 년간의 비행 연구를 통해 탄생한 NASA 글렌의 유산",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
       "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
       "source": "TechCrunch",
@@ -1793,22 +1825,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "ChatGPT is getting a dedicated mode for teens",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
-      "source": "The Verge",
-      "date": "2026-08-18 11:29",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "ChatGPT는 청소년을 위한 전용 모드를 제공합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Nvidia's AI moat is shifting from chips to capital - CNBC",
@@ -2005,22 +2021,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Autonomous Electric Freight Trucks Scaling Up In Europe",
-      "url": "https://cleantechnica.com/2026/08/17/autonomous-electric-freight-trucks-scaling-up-in-europe/",
-      "source": "CleanTechnica",
-      "date": "2026-08-17 23:02",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "유럽에서 확장되는 자율 전기 화물 트럭",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2028,7 +2028,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 19. PM 11:00",
+    "checkedAt": "2026. 8. 19. PM 11:55",
     "mode": "매시간 공식 레이더"
   }
 }
