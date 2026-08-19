@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 20. AM 12:48",
+  "updatedAt": "2026. 8. 20. AM 1:50",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "LFM2.5 Q4\\_0 양자화 인식 증류의 체크포인트",
+  "headline": "v3.3.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 58,
+    "recentCount": 60,
     "sourceCount": 26,
     "officialCount": 26,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: LFM2.5 Q4\\_0 양자화 인식 증류의 체크포인트",
+    "새 출시: v3.3.1",
     "창작 기술: 달 착륙선 임무에 제노 파워 방사성 동위원소 가열 장치를 비행하는 반딧불 항공 우주"
   ],
   "categories": [
@@ -23,7 +23,7 @@
       "summary": "TerraPower의 원자로에는 AI 데이터 센터에 전력을 공급하기 위한 비밀 무기가 있습니다.",
       "latest": "2026-08-19 15:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T15:48:52.760Z",
+      "lastRefreshed": "2026-08-19T16:50:11.336Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -38,7 +38,7 @@
       "summary": "엔비디아의 새로운 재무 전략은",
       "latest": "2026-08-19 13:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T15:48:52.760Z",
+      "lastRefreshed": "2026-08-19T16:50:11.336Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "이 로봇 진공청소기는 주방 스툴 문제를 해결합니다.",
       "latest": "2026-08-19 15:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T15:48:52.760Z",
+      "lastRefreshed": "2026-08-19T16:50:11.336Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "피싱 3.0: 에이전트 대 에이전트로의 싸움",
       "latest": "2026-08-19 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T15:48:52.760Z",
+      "lastRefreshed": "2026-08-19T16:50:11.336Z",
       "themes": [
         "주요 기업"
       ]
@@ -72,10 +72,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 15,
-      "summary": "Moog Inc., 높은 기동성 임무를 위해 운석 위성 버스 용량 확장",
-      "latest": "2026-08-19 15:11",
+      "summary": "고대 은하수 합병",
+      "latest": "2026-08-19 16:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T15:48:52.760Z",
+      "lastRefreshed": "2026-08-19T16:50:11.336Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -89,7 +89,7 @@
       "summary": "포니 AI, 자율 대형 트럭 1,000대 배치 계획",
       "latest": "2026-08-19 03:06",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-19T15:48:52.760Z",
+      "lastRefreshed": "2026-08-19T16:50:11.336Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,10 +99,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 18,
-      "summary": "v0.123.0",
-      "latest": "2026-08-19 13:31",
+      "summary": "v3.3.1",
+      "latest": "2026-08-19 16:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T15:48:52.760Z",
+      "lastRefreshed": "2026-08-19T16:50:11.336Z",
       "themes": [
         "주요 기업"
       ]
@@ -110,6 +110,72 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.3.1",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-08-19 16:30",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.3.1",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Ancient Milky Way Merger",
+        "url": "https://www.nasa.gov/image-article/ancient-milky-way-merger/",
+        "source": "NASA",
+        "date": "2026-08-19 16:18",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "고대 은하수 합병",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+        "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+        "source": "Cloudflare Blog",
+        "date": "2026-08-19 16:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Cloudflare Workers에 대한 원격 Spectre 공격 재방문",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NASA Establishes State Hubs to Grow Technical Aerospace Workforce",
+        "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
+        "source": "NASA",
+        "date": "2026-08-19 15:55",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA, 항공우주 기술 인력 확충을 위한 주정부 허브 설립",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
         "url": "https://huggingface.co/blog/LiquidAI/qad",
@@ -241,70 +307,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
-        "url": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
-        "source": "NASA",
-        "date": "2026-08-19 05:02",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "렌즈 뒤에서: NASA Johnson의 사진작가 만나기",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "APOD: 2026 August 19 – The Case of the Mysterious Maybe Meteor",
-        "url": "https://science.nasa.gov/image-article/apod-2026-august-19-the-case-of-the-mysterious-maybe-meteor/",
-        "source": "NASA",
-        "date": "2026-08-19 04:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "APOD: 2026년 8월 19일 – 신비한 어쩌면 유성의 사건",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "China’s Landspace recovers booster with second orbital launch of Zhuque-3 rocket",
-        "url": "https://spacenews.com/chinas-landspace-recovers-booster-with-second-orbital-launch-of-zhuque-3-rocket/",
-        "source": "SpaceNews",
-        "date": "2026-08-19 01:05",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "중국의 Landspace는 Zhuque-3 로켓의 두 번째 궤도 발사로 부스터를 복구합니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Chat SDK adds Instagram adapter",
-        "url": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter",
-        "source": "Vercel Changelog",
-        "date": "2026-08-19 00:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Chat SDK에 Instagram 어댑터 추가",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -706,6 +708,72 @@
     ]
   },
   "news": [
+    {
+      "title": "v3.3.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-08-19 16:30",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.3.1",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Ancient Milky Way Merger",
+      "url": "https://www.nasa.gov/image-article/ancient-milky-way-merger/",
+      "source": "NASA",
+      "date": "2026-08-19 16:18",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "고대 은하수 합병",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+      "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+      "source": "Cloudflare Blog",
+      "date": "2026-08-19 16:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Cloudflare Workers에 대한 원격 Spectre 공격 재방문",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "NASA Establishes State Hubs to Grow Technical Aerospace Workforce",
+      "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
+      "source": "NASA",
+      "date": "2026-08-19 15:55",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA, 항공우주 기술 인력 확충을 위한 주정부 허브 설립",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
       "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
@@ -1602,22 +1670,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "source": "NASA",
-      "date": "2026-08-18 18:03",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "국가 인프라에 초점을 맞춘 NASA 학생 항공 챌린지",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "OpenAI institutes new safeguards after Hugging Face breach",
       "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
       "source": "TechCrunch",
@@ -1693,22 +1745,6 @@
       "stream": "release",
       "category": "소프트웨어·개발",
       "titleKo": "BGP 역할 모델: RFC 9234 채택 추적",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "NASA’s B777 Gets New Coat of Paint",
-      "url": "https://www.nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint/",
-      "source": "NASA",
-      "date": "2026-08-18 15:10",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA의 B777이 새로운 페인트 코트를 얻습니다",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1992,38 +2028,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Sign JWTs from your Functions without managing private keys",
-      "url": "https://vercel.com/changelog/sign-jwts-from-your-functions-without-managing-private-keys",
-      "source": "Vercel Changelog",
-      "date": "2026-08-18 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "개인 키를 관리하지 않고 함수에서 JWT 서명",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.3.1-canary.22",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.22",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-17 23:45",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.1-canary.22",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2031,7 +2035,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 20. AM 12:48",
+    "checkedAt": "2026. 8. 20. AM 1:50",
     "mode": "매시간 공식 레이더"
   }
 }
