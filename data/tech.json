@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 19. PM 6:28",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "Tesla가 드디어 Cybercab을 출시합니다. 준비가 되었기를 바랍니다.",
+  "updatedAt": "2026. 8. 19. PM 7:48",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v5.15.1",
   "metrics": {
     "articleCount": 80,
     "recentCount": 58,
-    "sourceCount": 25,
-    "officialCount": 24,
+    "sourceCount": 26,
+    "officialCount": 25,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: Tesla가 드디어 Cybercab을 출시합니다. 준비가 되었기를 바랍니다.",
+    "새 출시: v5.15.1",
     "창작 기술: DiSCO: 배포 안내 대조적 프롬프트 최적화를 통해 텍스트-이미지 생성 방어"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "GxP-Agent: LLM 에이전트를 사용한 신뢰할 수 있는 임상 시험 프로그래밍을 위한 Process-DAG 토폴로지",
-      "latest": "2026-08-19 04:00",
+      "count": 34,
+      "summary": "v5.15.1",
+      "latest": "2026-08-19 10:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T09:28:31.309Z",
+      "lastRefreshed": "2026-08-19T10:48:53.071Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -38,7 +38,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T09:28:31.309Z",
+      "lastRefreshed": "2026-08-19T10:48:53.072Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "FORT Robotics, SPAC 합병을 통해 안전 스택 공개",
       "latest": "2026-08-18 15:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T09:28:31.309Z",
+      "lastRefreshed": "2026-08-19T10:48:53.072Z",
       "themes": [
         "주요 기업"
       ]
@@ -58,11 +58,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
+      "count": 3,
       "summary": "Tesla가 드디어 Cybercab을 출시합니다. 준비가 되었기를 바랍니다.",
       "latest": "2026-08-19 08:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T09:28:31.309Z",
+      "lastRefreshed": "2026-08-19T10:48:53.072Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,7 +75,7 @@
       "summary": "렌즈 뒤에서: NASA Johnson의 사진작가 만나기",
       "latest": "2026-08-19 05:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T09:28:31.309Z",
+      "lastRefreshed": "2026-08-19T10:48:53.072Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -89,7 +89,7 @@
       "summary": "포니 AI, 자율 대형 트럭 1,000대 배치 계획",
       "latest": "2026-08-19 03:06",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-19T09:28:31.309Z",
+      "lastRefreshed": "2026-08-19T10:48:53.072Z",
       "themes": [
         "주요 기업"
       ]
@@ -102,7 +102,7 @@
       "summary": "Chat SDK에 Instagram 어댑터 추가",
       "latest": "2026-08-19 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T09:28:31.309Z",
+      "lastRefreshed": "2026-08-19T10:48:53.072Z",
       "themes": [
         "주요 기업"
       ]
@@ -110,6 +110,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v5.15.1",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+        "source": "GitHub · Transformers",
+        "date": "2026-08-19 10:45",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v5.15.1",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
         "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
@@ -285,24 +301,6 @@
         "type": "출시·업데이트",
         "themes": [
           "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA’s LRO Images Falcon 9 Crater on Moon, Learns New Details",
-        "url": "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-        "source": "NASA",
-        "date": "2026-08-18 18:49",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA의 LRO Images Falcon 9 달의 분화구, 새로운 세부 사항 배우기",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
         ],
         "official": true,
         "sourceLayer": "official",
@@ -706,6 +704,22 @@
     ]
   },
   "news": [
+    {
+      "title": "v5.15.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+      "source": "GitHub · Transformers",
+      "date": "2026-08-19 10:45",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v5.15.1",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
       "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
@@ -2012,30 +2026,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-      "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-      "source": "The Hacker News",
-      "date": "2026-08-17 18:44",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "눈송이 GitHub 작업 결함으로 인해 조작된 문제가 발생합니다. 트리거 명령 주입",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 8. 19. PM 6:28",
-    "mode": "하루 2회 전체 수집"
+    "officialSources": 9,
+    "checkedAt": "2026. 8. 19. PM 7:48",
+    "mode": "매시간 공식 레이더"
   }
 }
