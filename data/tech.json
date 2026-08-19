@@ -1,29 +1,29 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 20. AM 1:50",
+  "updatedAt": "2026. 8. 20. AM 2:43",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v3.3.1",
+  "headline": "v0.124.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 60,
+    "recentCount": 64,
     "sourceCount": 26,
-    "officialCount": 26,
+    "officialCount": 25,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v3.3.1",
-    "창작 기술: 달 착륙선 임무에 제노 파워 방사성 동위원소 가열 장치를 비행하는 반딧불 항공 우주"
+    "새 출시: v0.124.0",
+    "창작 기술: 백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다."
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "TerraPower의 원자로에는 AI 데이터 센터에 전력을 공급하기 위한 비밀 무기가 있습니다.",
-      "latest": "2026-08-19 15:44",
+      "count": 32,
+      "summary": "월스트리트가 AI 컴퓨팅에 가격을 매길 수 있도록 돕는 스타트업을 만나보세요",
+      "latest": "2026-08-19 17:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T16:50:11.336Z",
+      "lastRefreshed": "2026-08-19T17:43:56.720Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -38,7 +38,7 @@
       "summary": "엔비디아의 새로운 재무 전략은",
       "latest": "2026-08-19 13:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T16:50:11.336Z",
+      "lastRefreshed": "2026-08-19T17:43:56.720Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "이 로봇 진공청소기는 주방 스툴 문제를 해결합니다.",
       "latest": "2026-08-19 15:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T16:50:11.336Z",
+      "lastRefreshed": "2026-08-19T17:43:56.720Z",
       "themes": []
     },
     {
@@ -62,7 +62,7 @@
       "summary": "피싱 3.0: 에이전트 대 에이전트로의 싸움",
       "latest": "2026-08-19 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T16:50:11.336Z",
+      "lastRefreshed": "2026-08-19T17:43:56.720Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,7 +75,7 @@
       "summary": "고대 은하수 합병",
       "latest": "2026-08-19 16:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T16:50:11.336Z",
+      "lastRefreshed": "2026-08-19T17:43:56.720Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -85,12 +85,13 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
-      "summary": "포니 AI, 자율 대형 트럭 1,000대 배치 계획",
-      "latest": "2026-08-19 03:06",
+      "count": 6,
+      "summary": "백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다.",
+      "latest": "2026-08-19 17:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-19T16:50:11.336Z",
+      "lastRefreshed": "2026-08-19T17:43:56.720Z",
       "themes": [
+        "음악·음성",
         "주요 기업"
       ]
     },
@@ -99,10 +100,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 18,
-      "summary": "v3.3.1",
-      "latest": "2026-08-19 16:30",
+      "summary": "v0.124.0",
+      "latest": "2026-08-19 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T16:50:11.336Z",
+      "lastRefreshed": "2026-08-19T17:43:56.720Z",
       "themes": [
         "주요 기업"
       ]
@@ -110,6 +111,24 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.124.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.124.0",
+        "source": "GitHub · Anthropic SDK",
+        "date": "2026-08-19 16:51",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v0.124.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v3.3.1",
         "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
@@ -289,27 +308,27 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
+      }
+    ],
+    "creative": [
       {
-        "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
-        "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
-        "source": "The Verge",
-        "date": "2026-08-19 08:58",
-        "categoryId": "cyber",
+        "title": "Famous US Automaker Faces The Music As Million-Dollar Vote Scheme Goes South",
+        "url": "https://cleantechnica.com/2026/08/19/elon-musk-fraud-lawsuit-2024-elections-class-action/",
+        "source": "CleanTechnica",
+        "date": "2026-08-19 17:08",
+        "categoryId": "energy",
         "confidence": "C",
         "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "Tesla가 드디어 Cybercab을 출시합니다. 준비가 되었기를 바랍니다.",
-        "type": "출시·업데이트",
+        "category": "에너지·기후기술",
+        "titleKo": "백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다.",
+        "type": "뉴스·분석",
         "themes": [
-          "주요 기업"
+          "음악·음성"
         ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "creative": [
+      },
       {
         "title": "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission",
         "url": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/",
@@ -404,6 +423,76 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Meet the startup helping Wall Street put a price on AI compute",
+        "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+        "source": "TechCrunch",
+        "date": "2026-08-19 17:26",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "월스트리트가 AI 컴퓨팅에 가격을 매길 수 있도록 돕는 스타트업을 만나보세요",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI hit the brakes. Now what?",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+        "source": "The Verge",
+        "date": "2026-08-19 17:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI가 브레이크를 밟았습니다. 이제 어떻게 해야 할까요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Famous US Automaker Faces The Music As Million-Dollar Vote Scheme Goes South",
+        "url": "https://cleantechnica.com/2026/08/19/elon-musk-fraud-lawsuit-2024-elections-class-action/",
+        "source": "CleanTechnica",
+        "date": "2026-08-19 17:08",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Meta AI is getting a Mac app",
+        "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+        "source": "The Verge",
+        "date": "2026-08-19 16:14",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "메타 AI가 Mac 앱을 가져옵니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
         "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
@@ -536,72 +625,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
-        "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
-        "source": "MIT Technology Review",
-        "date": "2026-08-19 12:10",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "다운로드: AI의 자기 개선 문제, 그리고 열을 몰고 오는 것",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
-        "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
-        "source": "TechCrunch",
-        "date": "2026-08-19 12:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI는 암을 치료하는 데 가깝지 않습니다. 이 스타트업은 무엇이 필요한지 알고 있다고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission",
-        "url": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/",
-        "source": "SpaceNews",
-        "date": "2026-08-19 12:00",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "달 착륙선 임무에 제노 파워 방사성 동위원소 가열 장치를 비행하는 반딧불 항공 우주",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-        "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
-        "source": "The Hacker News",
-        "date": "2026-08-19 11:30",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "피싱 3.0: 에이전트 대 에이전트로의 싸움",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -709,6 +732,76 @@
   },
   "news": [
     {
+      "title": "Meet the startup helping Wall Street put a price on AI compute",
+      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "source": "TechCrunch",
+      "date": "2026-08-19 17:26",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "월스트리트가 AI 컴퓨팅에 가격을 매길 수 있도록 돕는 스타트업을 만나보세요",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI hit the brakes. Now what?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "source": "The Verge",
+      "date": "2026-08-19 17:10",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI가 브레이크를 밟았습니다. 이제 어떻게 해야 할까요?",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Famous US Automaker Faces The Music As Million-Dollar Vote Scheme Goes South",
+      "url": "https://cleantechnica.com/2026/08/19/elon-musk-fraud-lawsuit-2024-elections-class-action/",
+      "source": "CleanTechnica",
+      "date": "2026-08-19 17:08",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.124.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.124.0",
+      "source": "GitHub · Anthropic SDK",
+      "date": "2026-08-19 16:51",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v0.124.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v3.3.1",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
       "source": "GitHub · OpenAI Python",
@@ -741,6 +834,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Meta AI is getting a Mac app",
+      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "source": "The Verge",
+      "date": "2026-08-19 16:14",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "메타 AI가 Mac 앱을 가져옵니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
@@ -1284,6 +1395,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Vercel Connect now supports Microsoft",
+      "url": "https://vercel.com/changelog/vercel-connect-supports-microsoft",
+      "source": "Vercel Changelog",
+      "date": "2026-08-19 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "이제 Vercel Connect가 Microsoft를 지원합니다",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Chat SDK adds Instagram adapter",
       "url": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter",
       "source": "Vercel Changelog",
@@ -1548,24 +1677,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "source": "The Verge",
-      "date": "2026-08-18 19:28",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI는 AI가 Hugging Face를 해킹한 후 새로운 보안 변경 사항을 적용합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Software industry’s impact in 2020: 15.8 million jobs and $933 billion to the US economy - TechRepublic",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZDJrbWhtUzN3a281eUMybXNxcFE3MndjanpoS3lSWDBMbk9EVWhNMjFiYWQ4cWdxWVJjZXktMnpBZFh0UEZZZUduaDE0VV9TQzBRTDJ3Umx5RWFoX1M0ZGxockFlQ1FNRWFNR2pzUWNVNGVnWFp6ckdWVnNCSUtrR1ZDNGUzSm1JMmlqczJ3RnpxV1ZLb2wyRnZ2MDFJR21ONWpoejNJVWpQQ1hnRzYweW5FOUpDcFYxTy1OVmMySEdFcVNi?oc=5",
       "source": "TechRepublic",
@@ -1768,38 +1879,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Anthro Energy breaks ground on factory that could pave the road to solid-state batteries",
-      "url": "https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries/",
-      "source": "TechCrunch",
-      "date": "2026-08-18 14:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthro Energy는 솔리드 스테이트 배터리의 길을 열 수있는 공장의 기반을 깨뜨립니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Firefox’s Smart Window promises a better AI browser",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
-      "source": "The Verge",
-      "date": "2026-08-18 13:17",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Firefox의 Smart Window는 더 나은 AI 브라우저를 약속합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "$1 million hacker challenge for Vercel Sandbox",
       "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
       "source": "Vercel Changelog",
@@ -1980,54 +2059,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
-      "date": "2026-08-18 00:00",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Cline is now available in the AI SDK harness layer",
-      "url": "https://vercel.com/changelog/cline-harness-adapter",
-      "source": "Vercel Changelog",
-      "date": "2026-08-18 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 AI SDK 하네스 계층에서 Cline을 사용할 수 있습니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "GLM 5.3 now available on AI Gateway",
-      "url": "https://vercel.com/changelog/glm-5-3-now-available-on-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-08-18 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 AI 게이트웨이에서 GLM 5.3을 사용할 수 있습니다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2035,7 +2066,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 20. AM 1:50",
+    "checkedAt": "2026. 8. 20. AM 2:43",
     "mode": "매시간 공식 레이더"
   }
 }
