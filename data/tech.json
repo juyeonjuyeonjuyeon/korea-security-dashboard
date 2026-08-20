@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 20. AM 8:40",
+  "updatedAt": "2026. 8. 20. AM 10:54",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.3.1-canary.25",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 61,
+    "recentCount": 56,
     "sourceCount": 24,
     "officialCount": 29,
     "opportunityCount": 1
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 28,
+      "count": 26,
       "summary": "OpenAI는 새로운 고객 개인 정보 보호를 통해 Anthropic을 통합하고자 합니다.",
       "latest": "2026-08-19 22:10",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T23:40:37.244Z",
+      "lastRefreshed": "2026-08-20T01:54:14.000Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -39,7 +39,7 @@
       "summary": "엔비디아의 새로운 재무 전략은",
       "latest": "2026-08-19 13:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T23:40:37.244Z",
+      "lastRefreshed": "2026-08-20T01:54:14.000Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Waymo의 저렴한 차세대 로봇 택시가 이제 이 세 도시의 모든 라이더에게 개방되었습니다.",
       "latest": "2026-08-19 22:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T23:40:37.244Z",
+      "lastRefreshed": "2026-08-20T01:54:14.000Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "OpenAI, 안전하지 않은 AI 행동에 대한 방어 강화로 프론티어 RL 훈련 일시 중단",
       "latest": "2026-08-19 18:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T23:40:37.244Z",
+      "lastRefreshed": "2026-08-20T01:54:14.000Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "Eartheye Space, IN2와 전략적 파트너십 구축",
       "latest": "2026-08-19 23:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T23:40:37.244Z",
+      "lastRefreshed": "2026-08-20T01:54:14.000Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -86,11 +86,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
-      "summary": "백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다.",
-      "latest": "2026-08-19 17:08",
+      "count": 5,
+      "summary": "Bouge RV의 배터리 구동 휴대용 냉장고로 그리드를 쉽게 벗어날 수 있습니다 (CleanTechnica 테스트 완료)",
+      "latest": "2026-08-19 23:39",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-19T23:40:37.244Z",
+      "lastRefreshed": "2026-08-20T01:54:14.000Z",
       "themes": [
         "음악·음성"
       ]
@@ -99,11 +99,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
+      "count": 22,
       "summary": "v16.3.1-canary.25",
-      "latest": "2026-08-19 23:22",
+      "latest": "2026-08-19 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-19T23:40:37.244Z",
+      "lastRefreshed": "2026-08-20T01:54:14.000Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -117,7 +117,7 @@
         "title": "v16.3.1-canary.25",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.25",
         "source": "GitHub · Next.js",
-        "date": "2026-08-19 23:22",
+        "date": "2026-08-19 23:46",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -403,42 +403,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
-        "url": "https://github.com/DenisSergeevitch/desktop-fly",
-        "source": "Hacker News",
-        "date": "2026-08-18 21:50",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "실제 FlyWire 커넥텀으로 구동되는 macOS 데스크톱의 3D 초파리",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "The Download: how people really use AI, and Flock’s design choices",
-        "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
-        "source": "MIT Technology Review",
-        "date": "2026-08-18 12:10",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "다운로드: 사람들이 AI를 실제로 사용하는 방법 및 Flock의 디자인 선택",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [
@@ -463,6 +427,22 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Bouge RV’s Battery-Powered Portable Fridges Make Going Off Grid Easy (CleanTechnica Tested)",
+        "url": "https://cleantechnica.com/2026/08/19/bouge-rvs-battery-powered-portable-fridges-make-going-off-grid-easy-cleantechnica-tested/",
+        "source": "CleanTechnica",
+        "date": "2026-08-19 23:39",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Bouge RV의 배터리 구동 휴대용 냉장고로 그리드를 쉽게 벗어날 수 있습니다 (CleanTechnica 테스트 완료)",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Eartheye Space forges strategic partnership with IN2",
         "url": "https://spacenews.com/eartheye-space-forges-strategic-partnership-with-in2/",
@@ -652,25 +632,41 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "What does Unitree Robotics’ IPO mean for the humanoid industry?",
-        "url": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
-        "source": "The Robot Report",
-        "date": "2026-08-19 18:01",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Unitree Robotics의 IPO는 휴머노이드 산업에 어떤 의미인가요?",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Feature Request: Support AGENTS.md",
+        "url": "https://github.com/anthropics/claude-code/issues/6235",
+        "source": "Hacker News",
+        "date": "2026-08-19 21:19",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "기능 요청: 지원 AGENTS.md",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Extensible Software in the age of LLMs",
+        "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+        "source": "Hacker News",
+        "date": "2026-08-19 16:26",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "LLM 시대의 확장 가능한 소프트웨어",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Mathematics in the age of AI",
         "url": "https://arxiv.org/abs/2608.16753",
@@ -734,40 +730,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
-        "url": "https://github.com/DenisSergeevitch/desktop-fly",
-        "source": "Hacker News",
-        "date": "2026-08-18 21:50",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "실제 FlyWire 커넥텀으로 구동되는 macOS 데스크톱의 3D 초파리",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Claude Code teaching macOS to natively print to the HP Laser 1008a",
-        "url": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
-        "source": "Hacker News",
-        "date": "2026-08-18 21:14",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "MacOS를 HP Laser 1008a에 네이티브로 인쇄하도록 교육하는 Claude Code",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -776,7 +738,7 @@
       "title": "v16.3.1-canary.25",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.25",
       "source": "GitHub · Next.js",
-      "date": "2026-08-19 23:22",
+      "date": "2026-08-19 23:46",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -787,6 +749,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Bouge RV’s Battery-Powered Portable Fridges Make Going Off Grid Easy (CleanTechnica Tested)",
+      "url": "https://cleantechnica.com/2026/08/19/bouge-rvs-battery-powered-portable-fridges-make-going-off-grid-easy-cleantechnica-tested/",
+      "source": "CleanTechnica",
+      "date": "2026-08-19 23:39",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Bouge RV의 배터리 구동 휴대용 냉장고로 그리드를 쉽게 벗어날 수 있습니다 (CleanTechnica 테스트 완료)",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Eartheye Space forges strategic partnership with IN2",
@@ -873,6 +851,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Feature Request: Support AGENTS.md",
+      "url": "https://github.com/anthropics/claude-code/issues/6235",
+      "source": "Hacker News",
+      "date": "2026-08-19 21:19",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "기능 요청: 지원 AGENTS.md",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
@@ -1147,6 +1141,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Extensible Software in the age of LLMs",
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "source": "Hacker News",
+      "date": "2026-08-19 16:26",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "LLM 시대의 확장 가능한 소프트웨어",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Ancient Milky Way Merger",
@@ -1856,24 +1866,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
-      "url": "https://github.com/DenisSergeevitch/desktop-fly",
-      "source": "Hacker News",
-      "date": "2026-08-18 21:50",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "실제 FlyWire 커넥텀으로 구동되는 macOS 데스크톱의 3D 초파리",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Mojo🔥 is now open source",
       "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
       "source": "Simon Willison",
@@ -1906,22 +1898,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Claude Code teaching macOS to natively print to the HP Laser 1008a",
-      "url": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
-      "source": "Hacker News",
-      "date": "2026-08-18 21:14",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "MacOS를 HP Laser 1008a에 네이티브로 인쇄하도록 교육하는 Claude Code",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Software industry’s impact in 2020: 15.8 million jobs and $933 billion to the US economy - TechRepublic",
@@ -2088,32 +2064,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Download: how people really use AI, and Flock’s design choices",
-      "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
-      "source": "MIT Technology Review",
-      "date": "2026-08-18 12:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "다운로드: 사람들이 AI를 실제로 사용하는 방법 및 Flock의 디자인 선택",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
+    "successful": 36,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 20. AM 8:40",
+    "checkedAt": "2026. 8. 20. AM 10:54",
     "mode": "매시간 공식 레이더"
   }
 }
