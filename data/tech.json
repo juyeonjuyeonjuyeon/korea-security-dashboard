@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 21. AM 6:29",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 21. AM 6:46",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "SmallSat 2026",
   "metrics": {
     "articleCount": 80,
@@ -24,7 +24,7 @@
       "summary": "제약 부문은 비용, 일정 삭감의 희망 속에서 AI를 두 배로 낮춥니다 - 로이터",
       "latest": "2026-08-20 20:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T21:29:34.609Z",
+      "lastRefreshed": "2026-08-20T21:46:37.199Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "새로운 Firefox 브라우저 지원으로 지금 GeForce에서 게임을 즐겨보세요",
       "latest": "2026-08-20 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T21:29:34.609Z",
+      "lastRefreshed": "2026-08-20T21:46:37.199Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "ATDev는 자율 휠체어를 만드는 여정에 대한 업데이트를 제공합니다",
       "latest": "2026-08-20 17:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T21:29:34.609Z",
+      "lastRefreshed": "2026-08-20T21:46:37.199Z",
       "themes": [
         "주요 기업"
       ]
@@ -65,7 +65,7 @@
       "summary": "ThreatsDay: GOGS 10.0 RCE, n8n Workflow-to-RCE, $ 1,000만 보상, GLM-5.3 AI 취약점 공격 등",
       "latest": "2026-08-20 17:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T21:29:34.609Z",
+      "lastRefreshed": "2026-08-20T21:46:37.199Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,10 +75,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 14,
-      "summary": "SmallSat 2026",
-      "latest": "2026-08-20 20:05",
+      "summary": "SpaceWERX는 군사 분야 기술을 확장하기 위해 11개 회사를 선정합니다.",
+      "latest": "2026-08-20 21:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T21:29:34.609Z",
+      "lastRefreshed": "2026-08-20T21:46:37.199Z",
       "themes": [
         "주요 기업"
       ]
@@ -91,7 +91,7 @@
       "summary": "버몬트에서 휴가를 즐기는 농가에서 신재생 에너지에 대해 배워보는 여행",
       "latest": "2026-08-20 16:56",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-20T21:29:34.609Z",
+      "lastRefreshed": "2026-08-20T21:46:37.199Z",
       "themes": [
         "음악·음성"
       ]
@@ -104,7 +104,7 @@
       "summary": "v1.0.0",
       "latest": "2026-08-20 19:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T21:29:34.609Z",
+      "lastRefreshed": "2026-08-20T21:46:37.199Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -421,6 +421,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "SpaceWERX selects 11 firms to scale technologies for military space",
+        "url": "https://spacenews.com/spacewerx-selects-11-firms-to-scale-technologies-for-military-space/",
+        "source": "SpaceNews",
+        "date": "2026-08-20 21:44",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "SpaceWERX는 군사 분야 기술을 확장하기 위해 11개 회사를 선정합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "It’s Greg Brockman’s OpenAI now",
         "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
         "source": "The Verge",
@@ -601,22 +617,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Rocket Lab launches 9th satellite for iQPS",
-        "url": "https://spacenews.com/rocket-lab-launches-9th-satellite-for-iqps/",
-        "source": "SpaceNews",
-        "date": "2026-08-20 16:38",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "로켓랩, iQPS용 9번째 위성 발사",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -721,6 +721,22 @@
     ]
   },
   "news": [
+    {
+      "title": "SpaceWERX selects 11 firms to scale technologies for military space",
+      "url": "https://spacenews.com/spacewerx-selects-11-firms-to-scale-technologies-for-military-space/",
+      "source": "SpaceNews",
+      "date": "2026-08-20 21:44",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "SpaceWERX는 군사 분야 기술을 확장하기 위해 11개 회사를 선정합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Pharma sector doubles down on AI amid hopes of slashing costs, timelines - Reuters",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNnV1bDJ0Q1NTVmtoc3JtclJ3VlpfYTg3SWFTeWh4Zlg0Qk1TNXRnQ2Y0MW1Ra1N3SHRBTFFfejFWZnY5aWt2d0h4NTAtUm5BTTRUQjFuR2YxM0E0UE5hZXR6bWVxSEpFOVRaWGJEVWhfYkZheDBmRjg0OS1KMzhrNVFVOVItRmgyczJnSlNYYXE4WlpUN3Jhd25faXVLZE1VRjlUcTlUb1MtSFhaR0QyWjZwZHdXdVJvNi1Udmh5LVdoNXRRbWJHRldWMTJSMEJIRlZN?oc=5",
@@ -1506,22 +1522,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Muon Space raises $250 million to ramp up satellite production",
-      "url": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/",
-      "source": "SpaceNews",
-      "date": "2026-08-20 11:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "뮤온 스페이스, 위성 생산 증대를 위해 2억 5천만 달러 ($) 모금",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
       "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
       "source": "Hacker News",
@@ -2033,11 +2033,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 8. 21. AM 6:29",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 21. AM 6:46",
+    "mode": "매시간 공식 레이더"
   }
 }
