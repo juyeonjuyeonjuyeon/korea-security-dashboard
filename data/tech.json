@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 21. AM 5:49",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v1.0.0",
+  "updatedAt": "2026. 8. 21. AM 6:29",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "SmallSat 2026",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 65,
-    "sourceCount": 21,
-    "officialCount": 30,
+    "recentCount": 68,
+    "sourceCount": 24,
+    "officialCount": 28,
     "opportunityCount": 2
   },
   "summary": [
-    "새 출시: v1.0.0",
+    "새 출시: SmallSat 2026",
     "창작 기술: Genesis GV90은 EV 설계에서 가능한 피 묻은 문을 날려버립니다.",
     "행사·무료: 누군가가 가짜 암호화폐 컨퍼런스를 유인 수단으로 사용하여 보안 연구원을 표적으로 삼았습니다."
   ],
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 27,
-      "summary": "이제 Greg Brockman의 OpenAI입니다.",
-      "latest": "2026-08-20 20:16",
+      "count": 29,
+      "summary": "제약 부문은 비용, 일정 삭감의 희망 속에서 AI를 두 배로 낮춥니다 - 로이터",
+      "latest": "2026-08-20 20:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T20:49:32.063Z",
+      "lastRefreshed": "2026-08-20T21:29:34.609Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "새로운 Firefox 브라우저 지원으로 지금 GeForce에서 게임을 즐겨보세요",
       "latest": "2026-08-20 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T20:49:32.063Z",
+      "lastRefreshed": "2026-08-20T21:29:34.609Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "ATDev는 자율 휠체어를 만드는 여정에 대한 업데이트를 제공합니다",
       "latest": "2026-08-20 17:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T20:49:32.063Z",
+      "lastRefreshed": "2026-08-20T21:29:34.609Z",
       "themes": [
         "주요 기업"
       ]
@@ -61,11 +61,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
+      "count": 5,
       "summary": "ThreatsDay: GOGS 10.0 RCE, n8n Workflow-to-RCE, $ 1,000만 보상, GLM-5.3 AI 취약점 공격 등",
       "latest": "2026-08-20 17:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T20:49:32.063Z",
+      "lastRefreshed": "2026-08-20T21:29:34.609Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 13,
-      "summary": "우주에서 ISR의 다음 단계",
-      "latest": "2026-08-20 17:21",
+      "count": 14,
+      "summary": "SmallSat 2026",
+      "latest": "2026-08-20 20:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T20:49:32.063Z",
+      "lastRefreshed": "2026-08-20T21:29:34.609Z",
       "themes": [
         "주요 기업"
       ]
@@ -91,7 +91,7 @@
       "summary": "버몬트에서 휴가를 즐기는 농가에서 신재생 에너지에 대해 배워보는 여행",
       "latest": "2026-08-20 16:56",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-20T20:49:32.063Z",
+      "lastRefreshed": "2026-08-20T21:29:34.609Z",
       "themes": [
         "음악·음성"
       ]
@@ -100,11 +100,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
+      "count": 19,
       "summary": "v1.0.0",
       "latest": "2026-08-20 19:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T20:49:32.063Z",
+      "lastRefreshed": "2026-08-20T21:29:34.609Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -113,6 +113,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "SmallSat 2026",
+        "url": "https://science.nasa.gov/earth/smallsat-2026/",
+        "source": "NASA",
+        "date": "2026-08-20 20:05",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "SmallSat 2026",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v1.0.0",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
@@ -292,22 +308,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Code scanning adds a mitigated alert dismissal reason",
-        "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
-        "source": "GitHub Changelog",
-        "date": "2026-08-20 15:14",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "코드 스캔은 완화된 경보 기각 사유를 추가합니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -621,6 +621,38 @@
     ],
     "community": [
       {
+        "title": "Show HN: Huzzah – a novel approach to coding with AI",
+        "url": "https://www.danielvaughn.dev/posts/huzzah/",
+        "source": "Hacker News",
+        "date": "2026-08-20 19:05",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Show HN: Huzzah – AI로 코딩하는 새로운 접근법",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+        "url": "https://github.com/zachahn/vomit",
+        "source": "Hacker News",
+        "date": "2026-08-20 15:26",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "구토: 별도의 LLM으로 Claude 5의 토큰 출력 정리",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Clean up Claude 5's token vomit with a separate LLM",
         "url": "https://github.com/zachahn/vomit",
         "source": "Hacker News",
@@ -685,42 +717,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Feature Request: Support AGENTS.md",
-        "url": "https://github.com/anthropics/claude-code/issues/6235",
-        "source": "Hacker News",
-        "date": "2026-08-19 21:19",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "기능 요청: 지원 AGENTS.md",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Extensible Software in the age of LLMs",
-        "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
-        "source": "Hacker News",
-        "date": "2026-08-19 16:26",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "LLM 시대의 확장 가능한 소프트웨어",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Pharma sector doubles down on AI amid hopes of slashing costs, timelines - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNnV1bDJ0Q1NTVmtoc3JtclJ3VlpfYTg3SWFTeWh4Zlg0Qk1TNXRnQ2Y0MW1Ra1N3SHRBTFFfejFWZnY5aWt2d0h4NTAtUm5BTTRUQjFuR2YxM0E0UE5hZXR6bWVxSEpFOVRaWGJEVWhfYkZheDBmRjg0OS1KMzhrNVFVOVItRmgyczJnSlNYYXE4WlpUN3Jhd25faXVLZE1VRjlUcTlUb1MtSFhaR0QyWjZwZHdXdVJvNi1Udmh5LVdoNXRRbWJHRldWMTJSMEJIRlZN?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-20 20:25",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "제약 부문은 비용, 일정 삭감의 희망 속에서 AI를 두 배로 낮춥니다 - 로이터",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
     {
       "title": "It’s Greg Brockman’s OpenAI now",
       "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
@@ -738,6 +754,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "SmallSat 2026",
+      "url": "https://science.nasa.gov/earth/smallsat-2026/",
+      "source": "NASA",
+      "date": "2026-08-20 20:05",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "SmallSat 2026",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Someone targeted security researchers using a fake crypto conference as a lure",
@@ -808,6 +840,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "source": "Hacker News",
+      "date": "2026-08-20 19:05",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Show HN: Huzzah – AI로 코딩하는 새로운 접근법",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v0.33.3",
@@ -1084,6 +1132,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "source": "Hacker News",
+      "date": "2026-08-20 15:26",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "구토: 별도의 LLM으로 Claude 5의 토큰 출력 정리",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Clean up Claude 5's token vomit with a separate LLM",
       "url": "https://github.com/zachahn/vomit",
       "source": "Hacker News",
@@ -1330,22 +1394,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "For a16z, AI gives foreign founders an advantage",
-      "url": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
-      "source": "TechCrunch",
-      "date": "2026-08-20 13:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "A16z의 경우, AI는 외국인 창업자에게 이점을 제공합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova",
       "url": "https://spacenews.com/portal-space-systems-to-include-rideshare-payloads-on-falcon-9-launch-of-supernova/",
       "source": "SpaceNews",
@@ -1372,6 +1420,22 @@
       "category": "우주·통신",
       "titleKo": "Rock West Composites ® 가 2026 소형 위성 컨퍼런스에서 새로운 STRATOPultrusion™ 제품 라인을 선보입니다",
       "type": "행사",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "For a16z, AI gives foreign founders an advantage",
+      "url": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
+      "source": "TechCrunch",
+      "date": "2026-08-20 13:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "A16z의 경우, AI는 외국인 창업자에게 이점을 제공합니다.",
+      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1476,6 +1540,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Alibaba shares fall 5% as AI spending drives 75% drop in net income - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXSEhwMVo2bGM2dXQyeWFVYkVYM3d4dExLOTRNSFZUMGVXZEwzanU1RWc0NmcwY20xZ0Y2Qk9OcExIWS03S1B3MVU4amNkeFdkMGQ5M3ZYUm9pZ2pQVlMxSnVadHN0dE5SOEHSAW9BVV95cUxPQWtHNDBuQ3ZQZkhETm9mVXNoZUczR29UM1BveUo1cGhPWlNua2ZfdDNUa240R01vOHF2SWUwS0prcEpHQnMxMXc3Y0xwMU1WRmJMQTVIOVhVNFd3anZZWW16ZHVfVkloZHB4N1gzYzQ?oc=5",
+      "source": "CNBC",
+      "date": "2026-08-20 09:48",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Alibaba shares fall 5% as AI spending drives 75% drop in net income - CNBC",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Unlocking hidden revenue streams with market models",
       "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
       "source": "MIT Technology Review",
@@ -1486,6 +1566,22 @@
       "category": "인공지능",
       "titleKo": "시장 모델로 숨겨진 수익원 창출",
       "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI World TV Launches, Delivering Trusted AI Journalism, Exclusive Interviews, and Expert Insights - The Register-Guard",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNVZpdS13NnlBUFY5NU9vcDRGbW9GcGVEOXozajRQYkpmTEQtVDhhWDAzM3NmY2lyMUhaQk1UYzE2ZGZVR0hXeDR0RXZndXlHM3lBNl9jVHl2cmZRV2s0RlNuUzFUYURrNDJvZXBMYXV6MVR4OGlOaUlRWnBtV2RjWjJ5Y2N4QV9pb1QyUEtxUnNPZmJlb3RiNVNjTV9CR041VWVKWEtONXJfX0dBSHUweXZUNmlRWW5DQnJRbFVUUGljcy1pYTJKUndZdzVQN045bXcxbzJfUVVGZVZZcFo3ekxJVndPZw?oc=5",
+      "source": "The Register-Guard",
+      "date": "2026-08-20 09:41",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI World TV Launches, Delivering Trusted AI Journalism, Exclusive Interviews, and Expert Insights - The Register-Guard",
+      "type": "출시·업데이트",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1636,22 +1732,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "An Uncommon Drifter in the Denmark Strait",
-      "url": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
-      "source": "NASA",
-      "date": "2026-08-20 04:00",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "An Uncommon Drifter in the Denmark Strait",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Asahi Kasei Develops Novel Lithium Pre-doping Technology to Raise Energy Density and Lower Cost of Silicon-rich Lithium-ion Batteries",
       "url": "https://cleantechnica.com/2026/08/19/asahi-kasei-develops-novel-lithium-pre-doping-technology-to-raise-energy-density-and-lower-cost-of-silicon-rich-lithium-ion-batteries/",
       "source": "CleanTechnica",
@@ -1750,22 +1830,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Feature Request: Support AGENTS.md",
-      "url": "https://github.com/anthropics/claude-code/issues/6235",
-      "source": "Hacker News",
-      "date": "2026-08-19 21:19",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "기능 요청: 지원 AGENTS.md",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
       "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
       "source": "GitHub Changelog",
@@ -1810,6 +1874,22 @@
       "category": "로봇·모빌리티",
       "titleKo": "Unitree Robotics의 IPO는 휴머노이드 산업에 어떤 의미인가요?",
       "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Canada’s Scrappy Rocket Startups Aim for Sovereign Space Launch - IEEE Spectrum",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRNnd2NGZKZklXc2FRdXZZT0lCMW5SeW1IUmFiaFZsSFRFN1lONFp5TFJvTWJVWUJ4U0ZkQVYzMTBEcnVsMTJjcHNheUVHS3dNZUNOQQ?oc=5",
+      "source": "IEEE Spectrum",
+      "date": "2026-08-19 18:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Canada’s Scrappy Rocket Startups Aim for Sovereign Space Launch - IEEE Spectrum",
+      "type": "출시·업데이트",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1868,22 +1948,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Extensible Software in the age of LLMs",
-      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
-      "source": "Hacker News",
-      "date": "2026-08-19 16:26",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "LLM 시대의 확장 가능한 소프트웨어",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
@@ -1966,78 +2030,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Track organization code quality trends",
-      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-      "source": "GitHub Changelog",
-      "date": "2026-08-19 12:56",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "조직 코드 품질 동향 추적",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
-      "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
-      "source": "MIT Technology Review",
-      "date": "2026-08-19 12:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "다운로드: AI의 자기 개선 문제, 그리고 열을 몰고 오는 것",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-      "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
-      "source": "The Hacker News",
-      "date": "2026-08-19 11:30",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "피싱 3.0: 에이전트 대 에이전트로의 싸움",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Patch release: v5.15.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-      "source": "GitHub · Transformers",
-      "date": "2026-08-19 10:50",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "패치 릴리스: v5.15.1",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 11,
-    "checkedAt": "2026. 8. 21. AM 5:49",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 10,
+    "checkedAt": "2026. 8. 21. AM 6:29",
+    "mode": "하루 2회 전체 수집"
   }
 }
