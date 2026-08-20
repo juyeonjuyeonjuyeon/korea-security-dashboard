@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 20. PM 7:50",
+  "updatedAt": "2026. 8. 20. PM 8:46",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 20일 – 세페우스의 코끼리 줄기",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 52,
+    "recentCount": 53,
     "sourceCount": 23,
-    "officialCount": 29,
+    "officialCount": 28,
     "opportunityCount": 1
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "시장 모델로 숨겨진 수익원 창출",
       "latest": "2026-08-20 09:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T10:50:41.464Z",
+      "lastRefreshed": "2026-08-20T11:46:19.323Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -38,7 +38,7 @@
       "summary": "엔비디아의 새로운 재무 전략은",
       "latest": "2026-08-19 13:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T10:50:41.464Z",
+      "lastRefreshed": "2026-08-20T11:46:19.323Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,18 +51,18 @@
       "summary": "Waymo의 저렴한 차세대 로봇 택시가 이제 이 세 도시의 모든 라이더에게 개방되었습니다.",
       "latest": "2026-08-19 22:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T10:50:41.464Z",
+      "lastRefreshed": "2026-08-20T11:46:19.323Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 3,
-      "summary": "OpenAI, 안전하지 않은 AI 행동에 대한 방어 강화로 프론티어 RL 훈련 일시 중단",
-      "latest": "2026-08-19 18:06",
+      "count": 4,
+      "summary": "NASA AIT-GUI 결함으로 인해 인증되지 않은 공격자가 우주선 명령을 내릴 수 있음",
+      "latest": "2026-08-20 11:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T10:50:41.464Z",
+      "lastRefreshed": "2026-08-20T11:46:19.323Z",
       "themes": [
         "주요 기업"
       ]
@@ -72,10 +72,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 17,
-      "summary": "LatConnect 60은 SWIRSAT 이미징 별자리를 위해 Transcelestial의 우주 광학 네트워크를 선택합니다",
-      "latest": "2026-08-20 10:00",
+      "summary": "뮤온 스페이스, 위성 생산 증대를 위해 2억 5천만 달러 ($) 모금",
+      "latest": "2026-08-20 11:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T10:50:41.464Z",
+      "lastRefreshed": "2026-08-20T11:46:19.323Z",
       "themes": [
         "주요 기업"
       ]
@@ -85,10 +85,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 5,
-      "summary": "Bouge RV의 배터리 구동 휴대용 냉장고로 그리드를 쉽게 벗어날 수 있습니다 (CleanTechnica 테스트 완료)",
-      "latest": "2026-08-19 23:39",
+      "summary": "Asahi Kasei, 실리콘이 풍부한 리튬 이온 배터리의 에너지 밀도와 비용 절감을 위한 새로운 리튬 프리 도핑 기술 개발",
+      "latest": "2026-08-20 03:55",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-20T10:50:41.464Z",
+      "lastRefreshed": "2026-08-20T11:46:19.323Z",
       "themes": [
         "음악·음성"
       ]
@@ -97,11 +97,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 22,
+      "count": 21,
       "summary": "v16.3.1-canary.25",
       "latest": "2026-08-19 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T10:50:41.464Z",
+      "lastRefreshed": "2026-08-20T11:46:19.323Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -390,6 +390,38 @@
     "voices": [],
     "analysis": [
       {
+        "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+        "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+        "source": "The Hacker News",
+        "date": "2026-08-20 11:05",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "NASA AIT-GUI 결함으로 인해 인증되지 않은 공격자가 우주선 명령을 내릴 수 있음",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Muon Space raises $250 million to ramp up satellite production",
+        "url": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/",
+        "source": "SpaceNews",
+        "date": "2026-08-20 11:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "뮤온 스페이스, 위성 생산 증대를 위해 2억 5천만 달러 ($) 모금",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation",
         "url": "https://spacenews.com/latconnect-60-selects-transcelestials-space-optical-network-for-swirsat-imaging-constellation/",
         "source": "SpaceNews",
@@ -548,38 +580,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Bouge RV’s Battery-Powered Portable Fridges Make Going Off Grid Easy (CleanTechnica Tested)",
-        "url": "https://cleantechnica.com/2026/08/19/bouge-rvs-battery-powered-portable-fridges-make-going-off-grid-easy-cleantechnica-tested/",
-        "source": "CleanTechnica",
-        "date": "2026-08-19 23:39",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "Bouge RV의 배터리 구동 휴대용 냉장고로 그리드를 쉽게 벗어날 수 있습니다 (CleanTechnica 테스트 완료)",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Eartheye Space forges strategic partnership with IN2",
-        "url": "https://spacenews.com/eartheye-space-forges-strategic-partnership-with-in2/",
-        "source": "SpaceNews",
-        "date": "2026-08-19 23:07",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "Eartheye Space, IN2와 전략적 파트너십 구축",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -682,6 +682,38 @@
     ]
   },
   "news": [
+    {
+      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+      "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "source": "The Hacker News",
+      "date": "2026-08-20 11:05",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "NASA AIT-GUI 결함으로 인해 인증되지 않은 공격자가 우주선 명령을 내릴 수 있음",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Muon Space raises $250 million to ramp up satellite production",
+      "url": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/",
+      "source": "SpaceNews",
+      "date": "2026-08-20 11:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "뮤온 스페이스, 위성 생산 증대를 위해 2억 5천만 달러 ($) 모금",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation",
       "url": "https://spacenews.com/latconnect-60-selects-transcelestials-space-optical-network-for-swirsat-imaging-constellation/",
@@ -868,6 +900,22 @@
       "stream": "analysis",
       "category": "인공지능",
       "titleKo": "동적 그래프 변환으로서의 자기 진화 에이전트: 설문 조사 및 새로운 관점",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Asahi Kasei Develops Novel Lithium Pre-doping Technology to Raise Energy Density and Lower Cost of Silicon-rich Lithium-ion Batteries",
+      "url": "https://cleantechnica.com/2026/08/19/asahi-kasei-develops-novel-lithium-pre-doping-technology-to-raise-energy-density-and-lower-cost-of-silicon-rich-lithium-ion-batteries/",
+      "source": "CleanTechnica",
+      "date": "2026-08-20 03:55",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Asahi Kasei, 실리콘이 풍부한 리튬 이온 배터리의 에너지 밀도와 비용 절감을 위한 새로운 리튬 프리 도핑 기술 개발",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1479,22 +1527,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "The space industry’s next challenge: supply chain resilience",
-      "url": "https://spacenews.com/the-space-industrys-next-challenge-supply-chain-resilience/",
-      "source": "SpaceNews",
-      "date": "2026-08-19 13:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "우주 산업의 다음 과제: 공급망 복원력",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Track organization code quality trends",
       "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
       "source": "GitHub Changelog",
@@ -1974,38 +2006,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "BGP Role model: tracking the adoption of RFC 9234",
-      "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-      "source": "Cloudflare Blog",
-      "date": "2026-08-18 15:21",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "BGP 역할 모델: RFC 9234 채택 추적",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "750 Gigawatts Of Energy Storage, And Nowhere To Go — Yet",
-      "url": "https://cleantechnica.com/2026/08/18/energy-storage-demand-us-new-factory-deltax-georgia/",
-      "source": "CleanTechnica",
-      "date": "2026-08-18 14:38",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "아직 갈 곳이 없는 750기가와트의 에너지 저장 공간",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2013,7 +2013,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 20. PM 7:50",
+    "checkedAt": "2026. 8. 20. PM 8:46",
     "mode": "매시간 공식 레이더"
   }
 }
