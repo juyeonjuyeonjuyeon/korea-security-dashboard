@@ -1,32 +1,33 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 21. AM 4:48",
+  "updatedAt": "2026. 8. 21. AM 5:49",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.33.3",
+  "headline": "v1.0.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 63,
+    "recentCount": 65,
     "sourceCount": 21,
     "officialCount": 30,
-    "opportunityCount": 1
+    "opportunityCount": 2
   },
   "summary": [
-    "새 출시: v0.33.3",
-    "창작 기술: Windows 11 arm64 VS2026 이미지 일반 사용 가능",
-    "행사·무료: Rock West Composites ® 가 2026 소형 위성 컨퍼런스에서 새로운 STRATOPultrusion™ 제품 라인을 선보입니다"
+    "새 출시: v1.0.0",
+    "창작 기술: Genesis GV90은 EV 설계에서 가능한 피 묻은 문을 날려버립니다.",
+    "행사·무료: 누군가가 가짜 암호화폐 컨퍼런스를 유인 수단으로 사용하여 보안 연구원을 표적으로 삼았습니다."
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 28,
-      "summary": "Google은 AI 기반 트래픽 손실에 대처할 수 있는 새로운 방법을 게시자에게 제공합니다.",
-      "latest": "2026-08-20 19:18",
+      "count": 27,
+      "summary": "이제 Greg Brockman의 OpenAI입니다.",
+      "latest": "2026-08-20 20:16",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T19:48:29.307Z",
+      "lastRefreshed": "2026-08-20T20:49:32.063Z",
       "themes": [
         "주요 기업",
+        "미술·디자인",
         "음악·음성"
       ]
     },
@@ -38,7 +39,7 @@
       "summary": "새로운 Firefox 브라우저 지원으로 지금 GeForce에서 게임을 즐겨보세요",
       "latest": "2026-08-20 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T19:48:29.307Z",
+      "lastRefreshed": "2026-08-20T20:49:32.063Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +52,7 @@
       "summary": "ATDev는 자율 휠체어를 만드는 여정에 대한 업데이트를 제공합니다",
       "latest": "2026-08-20 17:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T19:48:29.307Z",
+      "lastRefreshed": "2026-08-20T20:49:32.063Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +65,7 @@
       "summary": "ThreatsDay: GOGS 10.0 RCE, n8n Workflow-to-RCE, $ 1,000만 보상, GLM-5.3 AI 취약점 공격 등",
       "latest": "2026-08-20 17:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T19:48:29.307Z",
+      "lastRefreshed": "2026-08-20T20:49:32.063Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +78,7 @@
       "summary": "우주에서 ISR의 다음 단계",
       "latest": "2026-08-20 17:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T19:48:29.308Z",
+      "lastRefreshed": "2026-08-20T20:49:32.063Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +91,7 @@
       "summary": "버몬트에서 휴가를 즐기는 농가에서 신재생 에너지에 대해 배워보는 여행",
       "latest": "2026-08-20 16:56",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-20T19:48:29.308Z",
+      "lastRefreshed": "2026-08-20T20:49:32.063Z",
       "themes": [
         "음악·음성"
       ]
@@ -99,19 +100,37 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
-      "summary": "CLI에서 Vercel Toolbar 댓글 관리",
-      "latest": "2026-08-20 18:03",
+      "count": 21,
+      "summary": "v1.0.0",
+      "latest": "2026-08-20 19:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-20T19:48:29.308Z",
+      "lastRefreshed": "2026-08-20T20:49:32.063Z",
       "themes": [
-        "미술·디자인",
-        "주요 기업"
+        "주요 기업",
+        "미술·디자인"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v1.0.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+        "source": "GitHub · Anthropic SDK",
+        "date": "2026-08-20 19:58",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v1.0.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.33.3",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.3",
@@ -289,25 +308,27 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Artemis Mission Patches",
-        "url": "https://www.nasa.gov/image-article/artemis-mission-patches/",
-        "source": "NASA",
-        "date": "2026-08-20 15:13",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "아르테미스 미션 패치",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "The Genesis GV90 blows the bloody doors off what’s possible in EV design",
+        "url": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
+        "source": "The Verge",
+        "date": "2026-08-20 19:52",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Genesis GV90은 EV 설계에서 가능한 피 묻은 문을 날려버립니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Windows 11 arm64 VS2026 image generally available",
         "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
@@ -365,6 +386,22 @@
     ],
     "opportunities": [
       {
+        "title": "Someone targeted security researchers using a fake crypto conference as a lure",
+        "url": "https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/",
+        "source": "TechCrunch",
+        "date": "2026-08-20 20:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "누군가가 가짜 암호화폐 컨퍼런스를 유인 수단으로 사용하여 보안 연구원을 표적으로 삼았습니다.",
+        "type": "행사",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Rock West Composites® Is Premiering Its New STRATOPultrusion™ Product Line at the 2026 Small Satellite Conference",
         "url": "https://spacenews.com/rock-west-composites-is-premiering-its-new-stratopultrusion-product-line-at-the-2026-small-satellite-conference/",
         "source": "SpaceNews",
@@ -383,6 +420,58 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "It’s Greg Brockman’s OpenAI now",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+        "source": "The Verge",
+        "date": "2026-08-20 20:16",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "이제 Greg Brockman의 OpenAI입니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Someone targeted security researchers using a fake crypto conference as a lure",
+        "url": "https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/",
+        "source": "TechCrunch",
+        "date": "2026-08-20 20:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "누군가가 가짜 암호화폐 컨퍼런스를 유인 수단으로 사용하여 보안 연구원을 표적으로 삼았습니다.",
+        "type": "행사",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The Genesis GV90 blows the bloody doors off what’s possible in EV design",
+        "url": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
+        "source": "The Verge",
+        "date": "2026-08-20 19:52",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Genesis GV90은 EV 설계에서 가능한 피 묻은 문을 날려버립니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Google gives publishers a new way to fight AI-driven traffic losses",
         "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
@@ -528,56 +617,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Electric Trucks In Play As New, Trump-Endorsed Lithium-Ion Battery Factory Takes Shape",
-        "url": "https://cleantechnica.com/2026/08/20/batteries-lithium-ion-us-factory-forge-nano-samsung-sdi/",
-        "source": "CleanTechnica",
-        "date": "2026-08-20 16:14",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "새로운 전기 트럭, 트럼프 승인 리튬 이온 배터리 공장 형태를 취하다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Moog Highlights Huntsville Expansion and New Hardware-in-the-Loop Lab During Space and Missile Defense Symposium",
-        "url": "https://spacenews.com/moog-highlights-huntsville-expansion-and-new-hardware-in-the-loop-lab-during-space-and-missile-defense-symposium/",
-        "source": "SpaceNews",
-        "date": "2026-08-20 16:00",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "Moog는 우주 및 미사일 방어 심포지엄 동안 Huntsville 확장 및 새로운 Hardware-in-the-Loop Lab을 강조합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "It’s Greg Brockman’s OpenAI now",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-        "source": "The Verge",
-        "date": "2026-08-20 15:54",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "이제 Greg Brockman의 OpenAI입니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -682,6 +721,76 @@
     ]
   },
   "news": [
+    {
+      "title": "It’s Greg Brockman’s OpenAI now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "source": "The Verge",
+      "date": "2026-08-20 20:16",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "이제 Greg Brockman의 OpenAI입니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Someone targeted security researchers using a fake crypto conference as a lure",
+      "url": "https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/",
+      "source": "TechCrunch",
+      "date": "2026-08-20 20:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "누군가가 가짜 암호화폐 컨퍼런스를 유인 수단으로 사용하여 보안 연구원을 표적으로 삼았습니다.",
+      "type": "행사",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v1.0.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+      "source": "GitHub · Anthropic SDK",
+      "date": "2026-08-20 19:58",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v1.0.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "The Genesis GV90 blows the bloody doors off what’s possible in EV design",
+      "url": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
+      "source": "The Verge",
+      "date": "2026-08-20 19:52",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Genesis GV90은 EV 설계에서 가능한 피 묻은 문을 날려버립니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Google gives publishers a new way to fight AI-driven traffic losses",
       "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
@@ -954,24 +1063,6 @@
       "titleKo": "Moog는 우주 및 미사일 방어 심포지엄 동안 Huntsville 확장 및 새로운 Hardware-in-the-Loop Lab을 강조합니다.",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "It’s Greg Brockman’s OpenAI now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "source": "The Verge",
-      "date": "2026-08-20 15:54",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "이제 Greg Brockman의 OpenAI입니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1281,22 +1372,6 @@
       "category": "우주·통신",
       "titleKo": "Rock West Composites ® 가 2026 소형 위성 컨퍼런스에서 새로운 STRATOPultrusion™ 제품 라인을 선보입니다",
       "type": "행사",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "US says hackers are targeting vulnerable water systems with the help of AI",
-      "url": "https://techcrunch.com/2026/08/20/us-says-hackers-are-targeting-vulnerable-water-systems-with-the-help-of-ai/",
-      "source": "TechCrunch",
-      "date": "2026-08-20 12:43",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "미국은 해커들이 AI의 도움으로 취약한 물 시스템을 표적으로 삼고 있다고 말한다.",
-      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1707,24 +1782,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Google Gemini is getting a dedicated student hub",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
-      "source": "The Verge",
-      "date": "2026-08-19 18:52",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google Gemini는 학생 전용 허브를 제공하고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
       "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
       "source": "The Hacker News",
@@ -1973,22 +2030,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v5.15.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-      "source": "GitHub · Transformers",
-      "date": "2026-08-19 10:45",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v5.15.1",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -1996,7 +2037,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 11,
-    "checkedAt": "2026. 8. 21. AM 4:48",
+    "checkedAt": "2026. 8. 21. AM 5:49",
     "mode": "매시간 공식 레이더"
   }
 }
