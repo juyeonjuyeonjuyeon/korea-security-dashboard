@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 21. PM 6:01",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "유럽의 뜨거운 여름",
+  "updatedAt": "2026. 8. 21. PM 6:31",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.3.2",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 69,
-    "sourceCount": 24,
-    "officialCount": 26,
+    "recentCount": 72,
+    "sourceCount": 23,
+    "officialCount": 27,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: 유럽의 뜨거운 여름",
+    "새 출시: v16.3.2",
     "창작 기술: 인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
     "행사·무료: 누군가가 가짜 암호화폐 컨퍼런스를 유인 수단으로 사용하여 보안 연구원을 표적으로 삼았습니다."
   ],
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 28,
+      "count": 29,
       "summary": "인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
       "latest": "2026-08-21 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:01:19.968Z",
+      "lastRefreshed": "2026-08-21T09:31:45.834Z",
       "themes": [
         "미술·디자인",
         "기회",
@@ -39,7 +39,7 @@
       "summary": "새로운 Firefox 브라우저 지원으로 지금 GeForce에서 게임을 즐겨보세요",
       "latest": "2026-08-20 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:01:19.968Z",
+      "lastRefreshed": "2026-08-21T09:31:45.834Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 6,
       "summary": "테슬라, 우버, 웨이모 모두 네바다에서 수천 대의 로봇 택시를 운행할 수 있습니다.",
       "latest": "2026-08-21 00:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:01:19.968Z",
+      "lastRefreshed": "2026-08-21T09:31:45.834Z",
       "themes": [
         "주요 기업"
       ]
@@ -61,14 +61,12 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
+      "count": 4,
       "summary": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
       "latest": "2026-08-20 17:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:01:19.968Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-08-21T09:31:45.834Z",
+      "themes": []
     },
     {
       "id": "space",
@@ -78,7 +76,7 @@
       "summary": "이 회사의 우주 거울 배치 계획은 많은 사람들에게 밤하늘을 위태롭게 할 수 있습니다.",
       "latest": "2026-08-21 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:01:19.968Z",
+      "lastRefreshed": "2026-08-21T09:31:45.834Z",
       "themes": [
         "주요 기업"
       ]
@@ -91,18 +89,18 @@
       "summary": "웨이모, 휴스턴에서 로보택시 서비스 전면 개시",
       "latest": "2026-08-21 02:17",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-21T09:01:19.968Z",
+      "lastRefreshed": "2026-08-21T09:31:45.834Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
-      "summary": "생산 및 미리보기 트래픽에 대한 상시 추적",
-      "latest": "2026-08-21 00:00",
+      "count": 20,
+      "summary": "v16.3.2",
+      "latest": "2026-08-21 09:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:01:19.968Z",
+      "lastRefreshed": "2026-08-21T09:31:45.834Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -111,6 +109,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.3.2",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.2",
+        "source": "GitHub · Next.js",
+        "date": "2026-08-21 09:07",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.3.2",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "Europe’s Scorching Summer",
         "url": "https://science.nasa.gov/earth/europes-scorching-summer/",
@@ -158,6 +172,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Trump signs memo to help drastically boost US commercial space launches - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkh1VE1fRktBNUVjamY5eGg0T010SWoxOGFXYWRvajNoVjhIX3hjX2JnYzZzRDdsdXhDVEVuT1hYdVZHaWFsSnRwcTJ6VGE2XzBfQ3dQU1pJZkNyRkRhQW0zc1RiMU9tVGhXeWFjQjExaXUtc1o2LTRLN19kVkdkT09GSmU3RlNEZnZFa1pJLV93SURwdU9CWDUwZDFneVRVc0dR?oc=5",
+        "source": "Reuters",
+        "date": "2026-08-20 23:53",
+        "categoryId": "space",
+        "confidence": "B",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "트럼프, 미국 상업용 우주 발사 대폭 늘리기 위한 메모 서명 - 로이터",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "verified",
+        "layerLabel": "주요 언론 확인"
       },
       {
         "title": "v16.3.1-canary.26",
@@ -272,40 +302,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Windows 11 arm64 VS2026 image generally available",
-        "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
-        "source": "GitHub Changelog",
-        "date": "2026-08-20 17:52",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Windows 11 arm64 VS2026 이미지 일반 사용 가능",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "ATDev gives update on its journey building autonomous wheelchairs",
-        "url": "https://www.therobotreport.com/atdev-gives-update-journey-building-autonomous-wheelchairs/",
-        "source": "The Robot Report",
-        "date": "2026-08-20 17:39",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "ATDev는 자율 휠체어를 만드는 여정에 대한 업데이트를 제공합니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -684,6 +680,22 @@
   },
   "news": [
     {
+      "title": "v16.3.2",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.2",
+      "source": "GitHub · Next.js",
+      "date": "2026-08-21 09:07",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.3.2",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "When AI designs a drug, who gets the credit?",
       "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
       "source": "MIT Technology Review",
@@ -879,6 +891,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Pharma sector doubles down on AI amid hopes of slashing costs, timelines - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNnV1bDJ0Q1NTVmtoc3JtclJ3VlpfYTg3SWFTeWh4Zlg0Qk1TNXRnQ2Y0MW1Ra1N3SHRBTFFfejFWZnY5aWt2d0h4NTAtUm5BTTRUQjFuR2YxM0E0UE5hZXR6bWVxSEpFOVRaWGJEVWhfYkZheDBmRjg0OS1KMzhrNVFVOVItRmgyczJnSlNYYXE4WlpUN3Jhd25faXVLZE1VRjlUcTlUb1MtSFhaR0QyWjZwZHdXdVJvNi1Udmh5LVdoNXRRbWJHRldWMTJSMEJIRlZN?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-21 02:01",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "제약 부문은 비용, 일정 삭감의 희망 속에서 AI를 두 배로 낮춥니다 - 로이터",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
       "url": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
       "source": "TechCrunch",
@@ -959,6 +987,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Trump signs memo to help drastically boost US commercial space launches - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkh1VE1fRktBNUVjamY5eGg0T010SWoxOGFXYWRvajNoVjhIX3hjX2JnYzZzRDdsdXhDVEVuT1hYdVZHaWFsSnRwcTJ6VGE2XzBfQ3dQU1pJZkNyRkRhQW0zc1RiMU9tVGhXeWFjQjExaXUtc1o2LTRLN19kVkdkT09GSmU3RlNEZnZFa1pJLV93SURwdU9CWDUwZDFneVRVc0dR?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-20 23:53",
+      "categoryId": "space",
+      "confidence": "B",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "트럼프, 미국 상업용 우주 발사 대폭 늘리기 위한 메모 서명 - 로이터",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "v16.3.1-canary.26",
@@ -1109,22 +1153,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Pharma sector doubles down on AI amid hopes of slashing costs, timelines - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNnV1bDJ0Q1NTVmtoc3JtclJ3VlpfYTg3SWFTeWh4Zlg0Qk1TNXRnQ2Y0MW1Ra1N3SHRBTFFfejFWZnY5aWt2d0h4NTAtUm5BTTRUQjFuR2YxM0E0UE5hZXR6bWVxSEpFOVRaWGJEVWhfYkZheDBmRjg0OS1KMzhrNVFVOVItRmgyczJnSlNYYXE4WlpUN3Jhd25faXVLZE1VRjlUcTlUb1MtSFhaR0QyWjZwZHdXdVJvNi1Udmh5LVdoNXRRbWJHRldWMTJSMEJIRlZN?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-20 20:25",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "제약 부문은 비용, 일정 삭감의 희망 속에서 AI를 두 배로 낮춥니다 - 로이터",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "It’s Greg Brockman’s OpenAI now",
@@ -1435,6 +1463,22 @@
       "category": "우주·통신",
       "titleKo": "로켓랩, iQPS용 9번째 위성 발사",
       "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Gatekeeping bots, piles of slop: Welcome to the age of AI weirdness at work - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXU5akdIVl9XNk1vNGxBckVmS3VXOEpTTzVscVZ6SGFwT1NQd3YtTzdPU0d2a2M1OUpGWGVkVVEtZ19McDlHNko3cGV3MWFZSXlZeHhWMmJabXU5UFBOVHhFckpYQmkwVVo2bEFmVGZfbmNvaHVhaTl0SFV2dTNtX0tzV1AwRy1zaHFFTUNhQXkzZXRiWnZ6ODFvSUJ1RlZ3ZU5vRi16M0pMZ01ySmpZ0gG0AUFVX3lxTE1KV0tYTFZ6QXgzbTVIU2tXdEs2elo1QUh3eWZDQmpWMU9oODlsdmU5VVdqQWtLTDJueV9wRE4zMFptVC1HeFVJNVl0VUg2Sk11eEdRbDJ4c0JsdXRENXNra3g0MzZhaDhaN1BZX2xXVzZrNncxT2k4dW9xUVZDLXNKR3RzeGpieUp4a3k0QmVnQVlUZldmNl9MdGh3Q3Q0SVh5MXo1cHdONnZwREVHdG5STFFlMA?oc=5",
+      "source": "CNBC",
+      "date": "2026-08-20 16:30",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Gatekeeping bots, piles of slop: Welcome to the age of AI weirdness at work - CNBC",
+      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1943,64 +1987,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-      "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
-      "source": "The Hacker News",
-      "date": "2026-08-19 18:06",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "OpenAI, 안전하지 않은 AI 행동에 대한 방어 강화로 프론티어 RL 훈련 일시 중단",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "What does Unitree Robotics’ IPO mean for the humanoid industry?",
-      "url": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
-      "source": "The Robot Report",
-      "date": "2026-08-19 18:01",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Unitree Robotics의 IPO는 휴머노이드 산업에 어떤 의미인가요?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Canada’s Scrappy Rocket Startups Aim for Sovereign Space Launch - IEEE Spectrum",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRNnd2NGZKZklXc2FRdXZZT0lCMW5SeW1IUmFiaFZsSFRFN1lONFp5TFJvTWJVWUJ4U0ZkQVYzMTBEcnVsMTJjcHNheUVHS3dNZUNOQQ?oc=5",
-      "source": "IEEE Spectrum",
-      "date": "2026-08-19 18:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Canada’s Scrappy Rocket Startups Aim for Sovereign Space Launch - IEEE Spectrum",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 42,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 21. PM 6:01",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 21. PM 6:31",
+    "mode": "하루 2회 전체 수집"
   }
 }
