@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 21. PM 2:50",
+  "updatedAt": "2026. 8. 21. PM 6:01",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "유럽의 뜨거운 여름",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 66,
+    "recentCount": 69,
     "sourceCount": 24,
-    "officialCount": 27,
+    "officialCount": 26,
     "opportunityCount": 1
   },
   "summary": [
     "새 출시: 유럽의 뜨거운 여름",
-    "창작 기술: Genesis GV90은 EV 설계에서 가능한 피 묻은 문을 날려버립니다.",
+    "창작 기술: 인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
     "행사·무료: 누군가가 가짜 암호화폐 컨퍼런스를 유인 수단으로 사용하여 보안 연구원을 표적으로 삼았습니다."
   ],
   "categories": [
@@ -20,14 +20,15 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 27,
-      "summary": "AI Agent에 대한 Context Acquisition으로서의 Active Inference",
-      "latest": "2026-08-21 04:00",
+      "count": 28,
+      "summary": "인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
+      "latest": "2026-08-21 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T05:50:45.909Z",
+      "lastRefreshed": "2026-08-21T09:01:19.968Z",
       "themes": [
-        "주요 기업",
-        "미술·디자인"
+        "미술·디자인",
+        "기회",
+        "주요 기업"
       ]
     },
     {
@@ -38,7 +39,7 @@
       "summary": "새로운 Firefox 브라우저 지원으로 지금 GeForce에서 게임을 즐겨보세요",
       "latest": "2026-08-20 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T05:50:45.909Z",
+      "lastRefreshed": "2026-08-21T09:01:19.968Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +52,7 @@
       "summary": "테슬라, 우버, 웨이모 모두 네바다에서 수천 대의 로봇 택시를 운행할 수 있습니다.",
       "latest": "2026-08-21 00:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T05:50:45.909Z",
+      "lastRefreshed": "2026-08-21T09:01:19.968Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +65,7 @@
       "summary": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
       "latest": "2026-08-20 17:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T05:50:45.909Z",
+      "lastRefreshed": "2026-08-21T09:01:19.968Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
-      "summary": "유럽의 뜨거운 여름",
-      "latest": "2026-08-21 04:01",
+      "count": 15,
+      "summary": "이 회사의 우주 거울 배치 계획은 많은 사람들에게 밤하늘을 위태롭게 할 수 있습니다.",
+      "latest": "2026-08-21 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T05:50:45.909Z",
+      "lastRefreshed": "2026-08-21T09:01:19.968Z",
       "themes": [
         "주요 기업"
       ]
@@ -86,24 +87,22 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 6,
+      "count": 5,
       "summary": "웨이모, 휴스턴에서 로보택시 서비스 전면 개시",
       "latest": "2026-08-21 02:17",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-21T05:50:45.909Z",
-      "themes": [
-        "음악·음성"
-      ]
+      "lastRefreshed": "2026-08-21T09:01:19.968Z",
+      "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
-      "summary": "ChatGPT 검색은 이제 사이트: operator를 대규모로 사용합니다",
-      "latest": "2026-08-20 23:57",
+      "count": 19,
+      "summary": "생산 및 미리보기 트래픽에 대한 상시 추적",
+      "latest": "2026-08-21 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T05:50:45.909Z",
+      "lastRefreshed": "2026-08-21T09:01:19.968Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -143,6 +142,22 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Always-on tracing for production and preview traffic",
+        "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+        "source": "Vercel Changelog",
+        "date": "2026-08-21 00:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "생산 및 미리보기 트래픽에 대한 상시 추적",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       },
       {
         "title": "v16.3.1-canary.26",
@@ -291,25 +306,28 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "From all-or-nothing to task-based OAuth consent",
-        "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
-        "source": "Cloudflare Blog",
-        "date": "2026-08-20 17:03",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "전부 또는 전무에서 작업 기반 OAuth 동의에 이르기까지",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "When AI designs a drug, who gets the credit?",
+        "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-21 09:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인",
+          "기회"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "The Genesis GV90 blows the bloody doors off what’s possible in EV design",
         "url": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
@@ -345,24 +363,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Famous US Automaker Faces The Music As Million-Dollar Vote Scheme Goes South",
-        "url": "https://cleantechnica.com/2026/08/19/elon-musk-fraud-lawsuit-2024-elections-class-action/",
-        "source": "CleanTechnica",
-        "date": "2026-08-19 17:08",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [
@@ -385,6 +385,57 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "When AI designs a drug, who gets the credit?",
+        "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-21 09:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인",
+          "기회"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
+        "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-21 09:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "이 회사의 우주 거울 배치 계획은 많은 사람들에게 밤하늘을 위태롭게 할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Landspace aims to refly recovered Zhuque-3 booster within six months",
+        "url": "https://spacenews.com/landspace-aims-to-refly-recovered-zhuque-3-booster-within-six-months/",
+        "source": "SpaceNews",
+        "date": "2026-08-21 08:54",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Landspace는 6개월 이내에 회수된 Zhuque-3 부스터에 대응하는 것을 목표로 합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Active Inference as Context Acquisition for AI Agents",
         "url": "https://arxiv.org/abs/2608.19202",
@@ -530,54 +581,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ChatGPT search now uses the site:operator at scale",
-        "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
-        "source": "Simon Willison",
-        "date": "2026-08-20 23:57",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "ChatGPT 검색은 이제 사이트: operator를 대규모로 사용합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "New space transportation policy focuses on increased launch rates",
-        "url": "https://spacenews.com/new-space-transportation-policy-focuses-on-increased-launch-rates/",
-        "source": "SpaceNews",
-        "date": "2026-08-20 23:30",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "발사 속도 증가에 초점을 맞춘 새로운 우주 운송 정책",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Elve qualifies millimeter-wave amplifiers for spaceflight",
-        "url": "https://spacenews.com/elve-qualifies-millimeter-wave-amplifiers-for-spaceflight/",
-        "source": "SpaceNews",
-        "date": "2026-08-20 22:51",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "ELVE, 우주 비행용 밀리미터파 증폭기 자격 획득",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -680,6 +683,57 @@
     ]
   },
   "news": [
+    {
+      "title": "When AI designs a drug, who gets the credit?",
+      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-21 09:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인",
+        "기회"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
+      "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-21 09:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "이 회사의 우주 거울 배치 계획은 많은 사람들에게 밤하늘을 위태롭게 할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Landspace aims to refly recovered Zhuque-3 booster within six months",
+      "url": "https://spacenews.com/landspace-aims-to-refly-recovered-zhuque-3-booster-within-six-months/",
+      "source": "SpaceNews",
+      "date": "2026-08-21 08:54",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Landspace는 6개월 이내에 회수된 Zhuque-3 부스터에 대응하는 것을 목표로 합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Europe’s Scorching Summer",
       "url": "https://science.nasa.gov/earth/europes-scorching-summer/",
@@ -873,6 +927,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Always-on tracing for production and preview traffic",
+      "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+      "source": "Vercel Changelog",
+      "date": "2026-08-21 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "생산 및 미리보기 트래픽에 대한 상시 추적",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "ChatGPT search now uses the site:operator at scale",
@@ -1387,22 +1457,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Moog Highlights Huntsville Expansion and New Hardware-in-the-Loop Lab During Space and Missile Defense Symposium",
-      "url": "https://spacenews.com/moog-highlights-huntsville-expansion-and-new-hardware-in-the-loop-lab-during-space-and-missile-defense-symposium/",
-      "source": "SpaceNews",
-      "date": "2026-08-20 16:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Moog는 우주 및 미사일 방어 심포지엄 동안 Huntsville 확장 및 새로운 Hardware-in-the-Loop Lab을 강조합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Debates over AI consciousness are a trap",
       "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
       "source": "MIT Technology Review",
@@ -1825,22 +1879,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Bun 1.4 is now available in Vercel Functions",
-      "url": "https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions",
-      "source": "Vercel Changelog",
-      "date": "2026-08-20 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 Vercel 함수에서 BUN 1.4를 사용할 수 있습니다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "v16.3.1-canary.25",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.25",
       "source": "GitHub · Next.js",
@@ -1955,42 +1993,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Famous US Automaker Faces The Music As Million-Dollar Vote Scheme Goes South",
-      "url": "https://cleantechnica.com/2026/08/19/elon-musk-fraud-lawsuit-2024-elections-class-action/",
-      "source": "CleanTechnica",
-      "date": "2026-08-19 17:08",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "백만 달러짜리 투표 계획이 남쪽으로 이동함에 따라 유명한 미국 자동차 제조업체가 음악에 직면해 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v0.124.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.124.0",
-      "source": "GitHub · Anthropic SDK",
-      "date": "2026-08-19 16:51",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v0.124.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -1998,7 +2000,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 21. PM 2:50",
+    "checkedAt": "2026. 8. 21. PM 6:01",
     "mode": "매시간 공식 레이더"
   }
 }
