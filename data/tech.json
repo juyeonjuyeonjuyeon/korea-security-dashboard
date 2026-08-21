@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 22. AM 6:25",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 22. AM 6:42",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "ORA가 Vercel의 모든 주요 AI 에이전트를 벤치마킹하는 방법",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 64,
+    "recentCount": 65,
     "sourceCount": 22,
     "officialCount": 25,
     "opportunityCount": 0
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 32,
-      "summary": "엔비디아는 방금 AI 모델이 아닌 하네스가 이제 진정한 영웅이라는 것을 보여주었습니다.",
-      "latest": "2026-08-21 19:43",
+      "summary": "100만 명이 넘는 사람들이 LinkedIn의 AI slop 버튼을 클릭했습니다.",
+      "latest": "2026-08-21 21:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T21:25:35.501Z",
+      "lastRefreshed": "2026-08-21T21:42:29.983Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -38,7 +38,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T21:25:35.501Z",
+      "lastRefreshed": "2026-08-21T21:42:29.983Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "아마존의 Bhavana Chandrashekhar가 RoboBusiness의 Women in Robotics Lunch에서 강연합니다.",
       "latest": "2026-08-21 19:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T21:25:35.501Z",
+      "lastRefreshed": "2026-08-21T21:42:29.983Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,7 +62,7 @@
       "summary": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "latest": "2026-08-21 18:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T21:25:35.501Z",
+      "lastRefreshed": "2026-08-21T21:42:29.983Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,7 +75,7 @@
       "summary": "새로운 Novaspace 예측: 2035년까지 6,500개 이상의 EO 위성 발사 예정",
       "latest": "2026-08-21 19:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T21:25:35.501Z",
+      "lastRefreshed": "2026-08-21T21:42:29.983Z",
       "themes": [
         "주요 기업"
       ]
@@ -88,7 +88,7 @@
       "summary": "정부 광대는 마침내 에너지 저장이 시간과 공간에 존재하는 것임을 인정합니다.",
       "latest": "2026-08-21 18:11",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-21T21:25:35.501Z",
+      "lastRefreshed": "2026-08-21T21:42:29.983Z",
       "themes": []
     },
     {
@@ -99,7 +99,7 @@
       "summary": "ORA가 Vercel의 모든 주요 AI 에이전트를 벤치마킹하는 방법",
       "latest": "2026-08-21 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T21:25:35.501Z",
+      "lastRefreshed": "2026-08-21T21:42:29.983Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -364,6 +364,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Over one million people have clicked LinkedIn’s AI slop button",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+        "source": "The Verge",
+        "date": "2026-08-21 21:25",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "100만 명이 넘는 사람들이 LinkedIn의 AI slop 버튼을 클릭했습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Amazon’s Bhavana Chandrashekhar to speak at RoboBusiness’ Women in Robotics Lunch",
         "url": "https://www.therobotreport.com/amazons-bhavana-chandrashekhar-speaks-robobusiness-women-in-robotics-lunch/",
         "source": "The Robot Report",
@@ -544,22 +560,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-        "url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
-        "source": "Ars Technica",
-        "date": "2026-08-21 13:11",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "웨이모, Uber와의 로보택시 전투에서 로비 지출 두 배로 늘려",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -662,6 +662,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Over one million people have clicked LinkedIn’s AI slop button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "source": "The Verge",
+      "date": "2026-08-21 21:25",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "100만 명이 넘는 사람들이 LinkedIn의 AI slop 버튼을 클릭했습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "How Ora benchmarks every major AI agent on Vercel",
       "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
@@ -1960,30 +1976,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Debates over AI consciousness are a trap",
-      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-      "source": "MIT Technology Review",
-      "date": "2026-08-20 15:42",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "인공지능 의식에 대한 논쟁은 함정이다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 22. AM 6:25",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 22. AM 6:42",
+    "mode": "매시간 공식 레이더"
   }
 }
