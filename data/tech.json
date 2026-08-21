@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 21. PM 6:54",
+  "updatedAt": "2026. 8. 21. PM 8:45",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 70,
+    "recentCount": 68,
     "sourceCount": 23,
     "officialCount": 27,
     "opportunityCount": 1
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 29,
+      "count": 28,
       "summary": "인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
       "latest": "2026-08-21 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:54:02.155Z",
+      "lastRefreshed": "2026-08-21T11:45:10.744Z",
       "themes": [
         "미술·디자인",
         "기회",
@@ -39,7 +39,7 @@
       "summary": "새로운 Firefox 브라우저 지원으로 지금 GeForce에서 게임을 즐겨보세요",
       "latest": "2026-08-20 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:54:02.155Z",
+      "lastRefreshed": "2026-08-21T11:45:10.744Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "테슬라, 우버, 웨이모 모두 네바다에서 수천 대의 로봇 택시를 운행할 수 있습니다.",
       "latest": "2026-08-21 00:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:54:02.155Z",
+      "lastRefreshed": "2026-08-21T11:45:10.744Z",
       "themes": [
         "주요 기업"
       ]
@@ -65,18 +65,18 @@
       "summary": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
       "latest": "2026-08-20 17:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:54:02.155Z",
+      "lastRefreshed": "2026-08-21T11:45:10.744Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 15,
+      "count": 16,
       "summary": "이 회사의 우주 거울 배치 계획은 많은 사람들에게 밤하늘을 위태롭게 할 수 있습니다.",
       "latest": "2026-08-21 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:54:02.155Z",
+      "lastRefreshed": "2026-08-21T11:45:10.744Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "웨이모, 휴스턴에서 로보택시 서비스 전면 개시",
       "latest": "2026-08-21 02:17",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-21T09:54:02.155Z",
+      "lastRefreshed": "2026-08-21T11:45:10.744Z",
       "themes": []
     },
     {
@@ -98,9 +98,9 @@
       "label": "소프트웨어·개발",
       "count": 20,
       "summary": "v16.4.0-canary.0",
-      "latest": "2026-08-21 09:41",
+      "latest": "2026-08-21 10:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T09:54:02.155Z",
+      "lastRefreshed": "2026-08-21T11:45:10.744Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -113,7 +113,7 @@
         "title": "v16.4.0-canary.0",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.0",
         "source": "GitHub · Next.js",
-        "date": "2026-08-21 09:41",
+        "date": "2026-08-21 10:05",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -613,6 +613,22 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "SpacetimeDB: a short technical review",
+        "url": "https://strn.cat/posts/spacetime/",
+        "source": "Hacker News",
+        "date": "2026-08-20 19:19",
+        "categoryId": "space",
+        "confidence": "D",
+        "stream": "community",
+        "category": "우주·통신",
+        "titleKo": "SpacetimeDB: 간단한 기술 검토",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Show HN: Huzzah – a novel approach to coding with AI",
         "url": "https://www.danielvaughn.dev/posts/huzzah/",
         "source": "Hacker News",
@@ -659,22 +675,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Anti-AI fonts are useless and harmful",
-        "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-        "source": "Hacker News",
-        "date": "2026-08-20 15:06",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Anti-AI 글꼴은 쓸모없고 유해합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -683,7 +683,7 @@
       "title": "v16.4.0-canary.0",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.0",
       "source": "GitHub · Next.js",
-      "date": "2026-08-21 09:41",
+      "date": "2026-08-21 10:05",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -1257,6 +1257,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "SpacetimeDB: a short technical review",
+      "url": "https://strn.cat/posts/spacetime/",
+      "source": "Hacker News",
+      "date": "2026-08-20 19:19",
+      "categoryId": "space",
+      "confidence": "D",
+      "stream": "community",
+      "category": "우주·통신",
+      "titleKo": "SpacetimeDB: 간단한 기술 검토",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Google gives publishers a new way to fight AI-driven traffic losses",
       "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
       "source": "TechCrunch",
@@ -1595,22 +1611,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Anti-AI fonts are useless and harmful",
-      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-      "source": "Hacker News",
-      "date": "2026-08-20 15:06",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Anti-AI 글꼴은 쓸모없고 유해합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NASA Selects University Teams to Help Advance Aviation Research",
@@ -1994,7 +1994,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 21. PM 6:54",
+    "checkedAt": "2026. 8. 21. PM 8:45",
     "mode": "매시간 공식 레이더"
   }
 }
