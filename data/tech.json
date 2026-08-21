@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 22. AM 5:43",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 22. AM 6:25",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "ORA가 Vercel의 모든 주요 AI 에이전트를 벤치마킹하는 방법",
   "metrics": {
     "articleCount": 80,
     "recentCount": 64,
     "sourceCount": 22,
-    "officialCount": 26,
+    "officialCount": 25,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
+      "count": 32,
       "summary": "엔비디아는 방금 AI 모델이 아닌 하네스가 이제 진정한 영웅이라는 것을 보여주었습니다.",
       "latest": "2026-08-21 19:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T20:43:25.420Z",
+      "lastRefreshed": "2026-08-21T21:25:35.501Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -38,7 +38,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T20:43:25.420Z",
+      "lastRefreshed": "2026-08-21T21:25:35.501Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "아마존의 Bhavana Chandrashekhar가 RoboBusiness의 Women in Robotics Lunch에서 강연합니다.",
       "latest": "2026-08-21 19:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T20:43:25.420Z",
+      "lastRefreshed": "2026-08-21T21:25:35.501Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,7 +62,7 @@
       "summary": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "latest": "2026-08-21 18:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T20:43:25.420Z",
+      "lastRefreshed": "2026-08-21T21:25:35.501Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,7 +75,7 @@
       "summary": "새로운 Novaspace 예측: 2035년까지 6,500개 이상의 EO 위성 발사 예정",
       "latest": "2026-08-21 19:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T20:43:25.420Z",
+      "lastRefreshed": "2026-08-21T21:25:35.501Z",
       "themes": [
         "주요 기업"
       ]
@@ -88,18 +88,18 @@
       "summary": "정부 광대는 마침내 에너지 저장이 시간과 공간에 존재하는 것임을 인정합니다.",
       "latest": "2026-08-21 18:11",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-21T20:43:25.420Z",
+      "lastRefreshed": "2026-08-21T21:25:35.501Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
+      "count": 17,
       "summary": "ORA가 Vercel의 모든 주요 AI 에이전트를 벤치마킹하는 방법",
       "latest": "2026-08-21 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T20:43:25.420Z",
+      "lastRefreshed": "2026-08-21T21:25:35.501Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -1466,15 +1466,31 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "GPT-5.6 Sol pricing drops on AI Gateway, and 50% discount still applies",
-      "url": "https://vercel.com/changelog/gpt-5-6-sol-pricing-drops-on-ai-gateway-and-50-discount-still-applies",
+      "title": "Vercel CLI expands support for DNS, domains, and project commands",
+      "url": "https://vercel.com/changelog/vercel-cli-expands-support-for-dns-domains-and-project-commands",
       "source": "Vercel Changelog",
       "date": "2026-08-21 00:00",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
       "category": "소프트웨어·개발",
-      "titleKo": "GPT-5.6 Sol pricing drops on AI Gateway, and 50% discount still applies",
+      "titleKo": "Vercel CLI expands support for DNS, domains, and project commands",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "GPT-5.6 Sol is now 50% off a lower price",
+      "url": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
+      "source": "Vercel Changelog",
+      "date": "2026-08-21 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "GPT-5.6 Sol is now 50% off a lower price",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1516,22 +1532,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Always-on tracing for production and preview traffic",
-      "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
-      "source": "Vercel Changelog",
-      "date": "2026-08-21 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "생산 및 미리보기 트래픽에 대한 상시 추적",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "ChatGPT search now uses the site:operator at scale",
       "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
       "source": "Simon Willison",
@@ -1546,22 +1546,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Trump signs memo to help drastically boost US commercial space launches - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkh1VE1fRktBNUVjamY5eGg0T010SWoxOGFXYWRvajNoVjhIX3hjX2JnYzZzRDdsdXhDVEVuT1hYdVZHaWFsSnRwcTJ6VGE2XzBfQ3dQU1pJZkNyRkRhQW0zc1RiMU9tVGhXeWFjQjExaXUtc1o2LTRLN19kVkdkT09GSmU3RlNEZnZFa1pJLV93SURwdU9CWDUwZDFneVRVc0dR?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-20 23:53",
-      "categoryId": "space",
-      "confidence": "B",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "트럼프, 미국 상업용 우주 발사 대폭 늘리기 위한 메모 서명 - 로이터",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "v16.3.1-canary.26",
@@ -1678,6 +1662,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Trump signs memo to help drastically boost US commercial space launches - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkh1VE1fRktBNUVjamY5eGg0T010SWoxOGFXYWRvajNoVjhIX3hjX2JnYzZzRDdsdXhDVEVuT1hYdVZHaWFsSnRwcTJ6VGE2XzBfQ3dQU1pJZkNyRkRhQW0zc1RiMU9tVGhXeWFjQjExaXUtc1o2LTRLN19kVkdkT09GSmU3RlNEZnZFa1pJLV93SURwdU9CWDUwZDFneVRVc0dR?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-20 21:59",
+      "categoryId": "space",
+      "confidence": "B",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "트럼프, 미국 상업용 우주 발사 대폭 늘리기 위한 메모 서명 - 로이터",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Google Discover is getting an AI chatbot-tuned feed",
@@ -1914,6 +1914,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "AI is making a mess of how humans interact at work - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXU5akdIVl9XNk1vNGxBckVmS3VXOEpTTzVscVZ6SGFwT1NQd3YtTzdPU0d2a2M1OUpGWGVkVVEtZ19McDlHNko3cGV3MWFZSXlZeHhWMmJabXU5UFBOVHhFckpYQmkwVVo2bEFmVGZfbmNvaHVhaTl0SFV2dTNtX0tzV1AwRy1zaHFFTUNhQXkzZXRiWnZ6ODFvSUJ1RlZ3ZU5vRi16M0pMZ01ySmpZ0gG0AUFVX3lxTE1KV0tYTFZ6QXgzbTVIU2tXdEs2elo1QUh3eWZDQmpWMU9oODlsdmU5VVdqQWtLTDJueV9wRE4zMFptVC1HeFVJNVl0VUg2Sk11eEdRbDJ4c0JsdXRENXNra3g0MzZhaDhaN1BZX2xXVzZrNncxT2k4dW9xUVZDLXNKR3RzeGpieUp4a3k0QmVnQVlUZldmNl9MdGh3Q3Q0SVh5MXo1cHdONnZwREVHdG5STFFlMA?oc=5",
+      "source": "CNBC",
+      "date": "2026-08-20 16:30",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI is making a mess of how humans interact at work - CNBC",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Gatekeeping bots, piles of slop: Welcome to the age of AI weirdness at work - CNBC",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXU5akdIVl9XNk1vNGxBckVmS3VXOEpTTzVscVZ6SGFwT1NQd3YtTzdPU0d2a2M1OUpGWGVkVVEtZ19McDlHNko3cGV3MWFZSXlZeHhWMmJabXU5UFBOVHhFckpYQmkwVVo2bEFmVGZfbmNvaHVhaTl0SFV2dTNtX0tzV1AwRy1zaHFFTUNhQXkzZXRiWnZ6ODFvSUJ1RlZ3ZU5vRi16M0pMZ01ySmpZ0gG0AUFVX3lxTE1KV0tYTFZ6QXgzbTVIU2tXdEs2elo1QUh3eWZDQmpWMU9oODlsdmU5VVdqQWtLTDJueV9wRE4zMFptVC1HeFVJNVl0VUg2Sk11eEdRbDJ4c0JsdXRENXNra3g0MzZhaDhaN1BZX2xXVzZrNncxT2k4dW9xUVZDLXNKR3RzeGpieUp4a3k0QmVnQVlUZldmNl9MdGh3Q3Q0SVh5MXo1cHdONnZwREVHdG5STFFlMA?oc=5",
       "source": "CNBC",
@@ -1960,30 +1976,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Code scanning adds a mitigated alert dismissal reason",
-      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
-      "source": "GitHub Changelog",
-      "date": "2026-08-20 15:14",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "코드 스캔은 완화된 경보 기각 사유를 추가합니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 22. AM 5:43",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 22. AM 6:25",
+    "mode": "하루 2회 전체 수집"
   }
 }
