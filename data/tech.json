@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 22. AM 12:50",
+  "updatedAt": "2026. 8. 22. AM 1:54",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "Deployment Storage keeps your deployments rollback-ready",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 62,
+    "recentCount": 65,
     "sourceCount": 23,
-    "officialCount": 24,
+    "officialCount": 27,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "Stop Hunting, Start Solving: Accelerating Root Cause Analysis with Agentic AI",
-      "latest": "2026-08-21 14:32",
+      "count": 30,
+      "summary": "미국 정부 연구소는 보안 취약점에 대해 중국 라이더를 조사하고 있습니다",
+      "latest": "2026-08-21 16:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T15:50:46.994Z",
+      "lastRefreshed": "2026-08-21T16:54:50.844Z",
       "themes": [
         "기회",
         "주요 기업",
@@ -39,7 +39,7 @@
       "summary": "새로운 Firefox 브라우저 지원으로 지금 GeForce에서 게임을 즐겨보세요",
       "latest": "2026-08-20 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T15:50:46.994Z",
+      "lastRefreshed": "2026-08-21T16:54:50.844Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
+      "count": 5,
       "summary": "웨이모, Uber와의 로보택시 전투에서 로비 지출 두 배로 늘려",
       "latest": "2026-08-21 13:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T15:50:46.994Z",
+      "lastRefreshed": "2026-08-21T16:54:50.844Z",
       "themes": [
         "주요 기업"
       ]
@@ -61,12 +61,14 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
-      "summary": "강화된 SOC 워크플로우를 위한 Wazuh 및 AI",
-      "latest": "2026-08-21 11:21",
+      "count": 4,
+      "summary": "Microsoft Defender의 자체 드라이버를 무기화하여 부팅 시 보안 소프트웨어를 삭제할 수 있습니다.",
+      "latest": "2026-08-21 15:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T15:50:46.994Z",
-      "themes": []
+      "lastRefreshed": "2026-08-21T16:54:50.844Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "space",
@@ -76,7 +78,7 @@
       "summary": "코스모시스 프레임워크는 워싱턴이 복잡성을 염두에 두고 공간을 관리하도록 보장할 수 있습니다.",
       "latest": "2026-08-21 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T15:50:46.994Z",
+      "lastRefreshed": "2026-08-21T16:54:50.844Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,18 +91,18 @@
       "summary": "Toyota Is Still Working On That Futuristic Fluoride-Ion EV Battery",
       "latest": "2026-08-21 14:12",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-21T15:50:46.994Z",
+      "lastRefreshed": "2026-08-21T16:54:50.844Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
+      "count": 19,
       "summary": "Deployment Storage keeps your deployments rollback-ready",
       "latest": "2026-08-22 05:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T15:50:46.994Z",
+      "lastRefreshed": "2026-08-21T16:54:50.844Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -121,6 +123,40 @@
         "titleKo": "Deployment Storage keeps your deployments rollback-ready",
         "type": "출시·업데이트",
         "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "The new GitHub Copilot experience in Slack",
+        "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+        "source": "GitHub Changelog",
+        "date": "2026-08-21 16:07",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Slack의 새로운 GitHub Copilot 경험",
+        "type": "오픈소스",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+        "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+        "source": "GitHub Changelog",
+        "date": "2026-08-21 16:03",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Microsoft Teams에서 GitHub Copilot과 에이전트 공유 작업",
+        "type": "오픈소스",
+        "themes": [
+          "주요 기업"
+        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -206,6 +242,40 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "DeepSeek V4 Flash with vision now available on AI Gateway",
+        "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+        "source": "Vercel Changelog",
+        "date": "2026-08-21 00:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "AI 게이트웨이에서 비전이 있는 DeepSeek V4 플래시 사용 가능",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Connect v0 apps to Slack, Google, and 100+ other services",
+        "url": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+        "source": "Vercel Changelog",
+        "date": "2026-08-21 00:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "V0 앱을 Slack, Google 및 100개 이상의 다른 서비스에 연결",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "Always-on tracing for production and preview traffic",
         "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
         "source": "Vercel Changelog",
@@ -236,70 +306,6 @@
         "official": false,
         "sourceLayer": "verified",
         "layerLabel": "주요 언론 확인"
-      },
-      {
-        "title": "v16.3.1-canary.26",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.26",
-        "source": "GitHub · Next.js",
-        "date": "2026-08-20 23:48",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.3.1-canary.26",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "New space transportation policy focuses on increased launch rates",
-        "url": "https://spacenews.com/new-space-transportation-policy-focuses-on-increased-launch-rates/",
-        "source": "SpaceNews",
-        "date": "2026-08-20 23:30",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "발사 속도 증가에 초점을 맞춘 새로운 우주 운송 정책",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Pinning saved views to the repository issues sidebar is generally available and more",
-        "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-        "source": "GitHub Changelog",
-        "date": "2026-08-20 23:29",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "저장된 뷰를 저장소 문제 사이드바에 고정하는 것은 일반적으로 사용할 수 있습니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "SmallSat 2026",
-        "url": "https://science.nasa.gov/earth/smallsat-2026/",
-        "source": "NASA",
-        "date": "2026-08-20 20:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "SmallSat 2026",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -380,6 +386,56 @@
     "voices": [],
     "analysis": [
       {
+        "title": "US government lab is probing Chinese lidar for security vulnerabilities",
+        "url": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
+        "source": "TechCrunch",
+        "date": "2026-08-21 16:01",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "미국 정부 연구소는 보안 취약점에 대해 중국 라이더를 조사하고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Major YouTube creators are facing backlash for accepting AI money",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+        "source": "The Verge",
+        "date": "2026-08-21 15:55",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "주요 유튜브 크리에이터들이 AI 자금 수수에 대한 반발에 직면하고 있다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+        "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+        "source": "The Hacker News",
+        "date": "2026-08-21 15:52",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "Microsoft Defender의 자체 드라이버를 무기화하여 부팅 시 보안 소프트웨어를 삭제할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Stop Hunting, Start Solving: Accelerating Root Cause Analysis with Agentic AI",
         "url": "https://event.on24.com/wcc/r/5460332/DAFEFF7A68EE900DEA7A14356089B553?utm_source=IEEE&utm_medium=site&utm_campaign=922",
         "source": "IEEE Spectrum",
@@ -405,22 +461,6 @@
         "stream": "news",
         "category": "에너지·기후기술",
         "titleKo": "Toyota Is Still Working On That Futuristic Fluoride-Ion EV Battery",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Major YouTube creators are facing backlash for accepting AI money",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-        "source": "The Verge",
-        "date": "2026-08-21 13:43",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "주요 유튜브 크리에이터들이 AI 자금 수수에 대한 반발에 직면하고 있다.",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -547,41 +587,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
-        "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
-        "source": "MIT Technology Review",
-        "date": "2026-08-21 09:00",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "이 회사의 우주 거울 배치 계획은 많은 사람들에게 밤하늘을 위태롭게 할 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Landspace aims to refly recovered Zhuque-3 booster within six months",
-        "url": "https://spacenews.com/landspace-aims-to-refly-recovered-zhuque-3-booster-within-six-months/",
-        "source": "SpaceNews",
-        "date": "2026-08-21 08:54",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "Landspace는 6개월 이내에 회수된 Zhuque-3 부스터에 대응하는 것을 목표로 합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "I'm Becoming AI-Blind",
+        "url": "https://cymerys.com/w/im-becoming-ai-blind",
+        "source": "Hacker News",
+        "date": "2026-08-21 11:48",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI-Blind가 되고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "AI companies destroy physical books – let's scan rare books before it's too late",
         "url": "https://annas-archive.pk/blog/physical-destruction.html",
@@ -661,22 +685,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Clean up Claude 5's token vomit with a separate LLM",
-        "url": "https://github.com/zachahn/vomit",
-        "source": "Hacker News",
-        "date": "2026-08-20 15:26",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "별도의 LLM으로 Claude 5의 토큰 구토 청소",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -696,6 +704,90 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "The new GitHub Copilot experience in Slack",
+      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "source": "GitHub Changelog",
+      "date": "2026-08-21 16:07",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Slack의 새로운 GitHub Copilot 경험",
+      "type": "오픈소스",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "source": "GitHub Changelog",
+      "date": "2026-08-21 16:03",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Microsoft Teams에서 GitHub Copilot과 에이전트 공유 작업",
+      "type": "오픈소스",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "US government lab is probing Chinese lidar for security vulnerabilities",
+      "url": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
+      "source": "TechCrunch",
+      "date": "2026-08-21 16:01",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "미국 정부 연구소는 보안 취약점에 대해 중국 라이더를 조사하고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Major YouTube creators are facing backlash for accepting AI money",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+      "source": "The Verge",
+      "date": "2026-08-21 15:55",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "주요 유튜브 크리에이터들이 AI 자금 수수에 대한 반발에 직면하고 있다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+      "source": "The Hacker News",
+      "date": "2026-08-21 15:52",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "Microsoft Defender의 자체 드라이버를 무기화하여 부팅 시 보안 소프트웨어를 삭제할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Stop Hunting, Start Solving: Accelerating Root Cause Analysis with Agentic AI",
@@ -723,22 +815,6 @@
       "stream": "news",
       "category": "에너지·기후기술",
       "titleKo": "Toyota Is Still Working On That Futuristic Fluoride-Ion EV Battery",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Major YouTube creators are facing backlash for accepting AI money",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-      "source": "The Verge",
-      "date": "2026-08-21 13:43",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "주요 유튜브 크리에이터들이 AI 자금 수수에 대한 반발에 직면하고 있다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -794,6 +870,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "I'm Becoming AI-Blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "source": "Hacker News",
+      "date": "2026-08-21 11:48",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI-Blind가 되고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Wazuh and AI For Enhanced SOC Workflows",
@@ -1157,6 +1249,40 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "DeepSeek V4 Flash with vision now available on AI Gateway",
+      "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-08-21 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "AI 게이트웨이에서 비전이 있는 DeepSeek V4 플래시 사용 가능",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Connect v0 apps to Slack, Google, and 100+ other services",
+      "url": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+      "source": "Vercel Changelog",
+      "date": "2026-08-21 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "V0 앱을 Slack, Google 및 100개 이상의 다른 서비스에 연결",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Always-on tracing for production and preview traffic",
       "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
       "source": "Vercel Changelog",
@@ -1457,24 +1583,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
-      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
-      "source": "TechCrunch",
-      "date": "2026-08-20 19:18",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google은 AI 기반 트래픽 손실에 대처할 수 있는 새로운 방법을 게시자에게 제공합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Show HN: Huzzah – a novel approach to coding with AI",
       "url": "https://www.danielvaughn.dev/posts/huzzah/",
       "source": "Hacker News",
@@ -1733,22 +1841,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Clean up Claude 5's token vomit with a separate LLM",
-      "url": "https://github.com/zachahn/vomit",
-      "source": "Hacker News",
-      "date": "2026-08-20 15:26",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "별도의 LLM으로 Claude 5의 토큰 구토 청소",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Code scanning adds a mitigated alert dismissal reason",
       "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
       "source": "GitHub Changelog",
@@ -1822,22 +1914,6 @@
       "stream": "release",
       "category": "소프트웨어·개발",
       "titleKo": "GitHub 코드 품질을 위한 별도의 GitHub Actions 경로",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Track GitHub Code Quality enablement changes in the audit log",
-      "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
-      "source": "GitHub Changelog",
-      "date": "2026-08-20 14:28",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "감사 로그에서 GitHub 코드 품질 활성화 변경 사항 추적",
       "type": "오픈소스",
       "themes": [],
       "official": true,
@@ -1929,70 +2005,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Agtonomy releases new autonomous multi-point turning features",
-      "url": "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/",
-      "source": "The Robot Report",
-      "date": "2026-08-20 12:30",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Agtonomy, 새로운 자율 멀티 포인트 선삭 기능 출시",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-      "source": "The Hacker News",
-      "date": "2026-08-20 11:45",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "\"Shady AI\" 가 보안의 차세대 거버넌스 문제인 이유",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-      "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "source": "The Hacker News",
-      "date": "2026-08-20 11:05",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "NASA AIT-GUI 결함으로 인해 인증되지 않은 공격자가 우주선 명령을 내릴 수 있음",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Alibaba shares fall 5% as AI spending drives 75% drop in net income - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXSEhwMVo2bGM2dXQyeWFVYkVYM3d4dExLOTRNSFZUMGVXZEwzanU1RWc0NmcwY20xZ0Y2Qk9OcExIWS03S1B3MVU4amNkeFdkMGQ5M3ZYUm9pZ2pQVlMxSnVadHN0dE5SOEHSAW9BVV95cUxPQWtHNDBuQ3ZQZkhETm9mVXNoZUczR29UM1BveUo1cGhPWlNua2ZfdDNUa240R01vOHF2SWUwS0prcEpHQnMxMXc3Y0xwMU1WRmJMQTVIOVhVNFd3anZZWW16ZHVfVkloZHB4N1gzYzQ?oc=5",
-      "source": "CNBC",
-      "date": "2026-08-20 09:48",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Alibaba shares fall 5% as AI spending drives 75% drop in net income - CNBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2000,7 +2012,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 22. AM 12:50",
+    "checkedAt": "2026. 8. 22. AM 1:54",
     "mode": "매시간 공식 레이더"
   }
 }
