@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 21. PM 8:45",
+  "updatedAt": "2026. 8. 21. PM 10:14",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 68,
+    "recentCount": 70,
     "sourceCount": 23,
-    "officialCount": 27,
+    "officialCount": 24,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,15 +20,15 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 28,
-      "summary": "인공지능이 약물을 디자인할 때 누가 신용을 얻나요?",
-      "latest": "2026-08-21 09:00",
+      "count": 30,
+      "summary": "다운로드: 우주 거울의 위협과 AI 약물에 대한 크레딧",
+      "latest": "2026-08-21 12:10",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T11:45:10.744Z",
+      "lastRefreshed": "2026-08-21T13:14:13.460Z",
       "themes": [
-        "미술·디자인",
         "기회",
-        "주요 기업"
+        "주요 기업",
+        "미술·디자인"
       ]
     },
     {
@@ -39,7 +39,7 @@
       "summary": "새로운 Firefox 브라우저 지원으로 지금 GeForce에서 게임을 즐겨보세요",
       "latest": "2026-08-20 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T11:45:10.744Z",
+      "lastRefreshed": "2026-08-21T13:14:13.460Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "테슬라, 우버, 웨이모 모두 네바다에서 수천 대의 로봇 택시를 운행할 수 있습니다.",
       "latest": "2026-08-21 00:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T11:45:10.744Z",
+      "lastRefreshed": "2026-08-21T13:14:13.460Z",
       "themes": [
         "주요 기업"
       ]
@@ -61,22 +61,22 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
-      "summary": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-      "latest": "2026-08-20 17:23",
+      "count": 5,
+      "summary": "강화된 SOC 워크플로우를 위한 Wazuh 및 AI",
+      "latest": "2026-08-21 11:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T11:45:10.744Z",
+      "lastRefreshed": "2026-08-21T13:14:13.460Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 16,
-      "summary": "이 회사의 우주 거울 배치 계획은 많은 사람들에게 밤하늘을 위태롭게 할 수 있습니다.",
-      "latest": "2026-08-21 09:00",
+      "count": 17,
+      "summary": "코스모시스 프레임워크는 워싱턴이 복잡성을 염두에 두고 공간을 관리하도록 보장할 수 있습니다.",
+      "latest": "2026-08-21 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T11:45:10.744Z",
+      "lastRefreshed": "2026-08-21T13:14:13.460Z",
       "themes": [
         "주요 기업"
       ]
@@ -85,22 +85,22 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
+      "count": 4,
       "summary": "웨이모, 휴스턴에서 로보택시 서비스 전면 개시",
       "latest": "2026-08-21 02:17",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-21T11:45:10.744Z",
+      "lastRefreshed": "2026-08-21T13:14:13.460Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
+      "count": 17,
       "summary": "v16.4.0-canary.0",
       "latest": "2026-08-21 10:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-21T11:45:10.744Z",
+      "lastRefreshed": "2026-08-21T13:14:13.460Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -382,6 +382,92 @@
     "voices": [],
     "analysis": [
       {
+        "title": "The COSMOSIS framework can ensure that Washington governs space with its complexity in mind.",
+        "url": "https://spacenews.com/the-cosmosis-framework-can-ensure-that-washington-governs-space-with-its-complexity-in-mind/",
+        "source": "SpaceNews",
+        "date": "2026-08-21 13:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "코스모시스 프레임워크는 워싱턴이 복잡성을 염두에 두고 공간을 관리하도록 보장할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The Download: threats from space mirrors and credit for AI drugs",
+        "url": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-21 12:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "다운로드: 우주 거울의 위협과 AI 약물에 대한 크레딧",
+        "type": "뉴스·분석",
+        "themes": [
+          "기회"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Wazuh and AI For Enhanced SOC Workflows",
+        "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+        "source": "The Hacker News",
+        "date": "2026-08-21 11:21",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "강화된 SOC 워크플로우를 위한 Wazuh 및 AI",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
+        "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
+        "source": "Ars Technica",
+        "date": "2026-08-21 11:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "메타 AI 안경에 대한 수요가 폭발적으로 증가함에 따라 소름 끼치는 녹음을 피하기가 더 어렵습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Rocket Report: SpaceX makes its mark on the Moon; ULA names new boss",
+        "url": "https://arstechnica.com/space/2026/08/rocket-report-spacex-makes-a-mark-on-the-moon-ula-names-new-boss/",
+        "source": "Ars Technica",
+        "date": "2026-08-21 11:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "로켓 보고서: SpaceX가 달에 모습을 드러내다; ULA가 새로운 보스를 지명하다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "When AI designs a drug, who gets the credit?",
         "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
         "source": "MIT Technology Review",
@@ -495,96 +581,14 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Symposium: Trust via Auditable Records for Communities of AI Scientist Agents",
-        "url": "https://arxiv.org/abs/2608.19511",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-21 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "심포지엄: AI 과학자 에이전트 커뮤니티에 대한 감사 가능한 기록을 통한 신뢰",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Scientific Data Skills: Enabling Agent-Ready Scientific Data Services at Scale",
-        "url": "https://arxiv.org/abs/2608.19625",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-21 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "과학적 데이터 기술: 대규모로 에이전트 지원 과학적 데이터 서비스 활성화",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Waymo Fully Launches Robotaxi Service in Houston",
-        "url": "https://cleantechnica.com/2026/08/20/waymo-fully-launches-robotaxi-service-in-houston/",
-        "source": "CleanTechnica",
-        "date": "2026-08-21 02:17",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "웨이모, 휴스턴에서 로보택시 서비스 전면 개시",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
-        "url": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
-        "source": "TechCrunch",
-        "date": "2026-08-21 00:23",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "테슬라, 우버, 웨이모 모두 네바다에서 수천 대의 로봇 택시를 운행할 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
-        "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-        "source": "TechCrunch",
-        "date": "2026-08-21 00:13",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 데이터 스타트업 Micro1, AI 교육 붐 속에서 총 실행률 $ 500M 달성",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
       {
         "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-        "url": "https://annas-archive.gl/blog/physical-destruction.html",
+        "url": "https://annas-archive.pk/blog/physical-destruction.html",
         "source": "Hacker News",
-        "date": "2026-08-21 02:37",
+        "date": "2026-08-21 10:05",
         "categoryId": "ai",
         "confidence": "D",
         "stream": "community",
@@ -680,6 +684,92 @@
   },
   "news": [
     {
+      "title": "The COSMOSIS framework can ensure that Washington governs space with its complexity in mind.",
+      "url": "https://spacenews.com/the-cosmosis-framework-can-ensure-that-washington-governs-space-with-its-complexity-in-mind/",
+      "source": "SpaceNews",
+      "date": "2026-08-21 13:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "코스모시스 프레임워크는 워싱턴이 복잡성을 염두에 두고 공간을 관리하도록 보장할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Download: threats from space mirrors and credit for AI drugs",
+      "url": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-21 12:10",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "다운로드: 우주 거울의 위협과 AI 약물에 대한 크레딧",
+      "type": "뉴스·분석",
+      "themes": [
+        "기회"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Wazuh and AI For Enhanced SOC Workflows",
+      "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "source": "The Hacker News",
+      "date": "2026-08-21 11:21",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "강화된 SOC 워크플로우를 위한 Wazuh 및 AI",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
+      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
+      "source": "Ars Technica",
+      "date": "2026-08-21 11:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "메타 AI 안경에 대한 수요가 폭발적으로 증가함에 따라 소름 끼치는 녹음을 피하기가 더 어렵습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Rocket Report: SpaceX makes its mark on the Moon; ULA names new boss",
+      "url": "https://arstechnica.com/space/2026/08/rocket-report-spacex-makes-a-mark-on-the-moon-ula-names-new-boss/",
+      "source": "Ars Technica",
+      "date": "2026-08-21 11:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "로켓 보고서: SpaceX가 달에 모습을 드러내다; ULA가 새로운 보스를 지명하다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.4.0-canary.0",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.0",
       "source": "GitHub · Next.js",
@@ -694,6 +784,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.pk/blog/physical-destruction.html",
+      "source": "Hacker News",
+      "date": "2026-08-21 10:05",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI 회사가 실제 서적을 파괴합니다 – 너무 늦기 전에 희귀 서적을 스캔합시다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v16.3.2",
@@ -873,22 +979,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "url": "https://annas-archive.gl/blog/physical-destruction.html",
-      "source": "Hacker News",
-      "date": "2026-08-21 02:37",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI 회사가 실제 서적을 파괴합니다 – 너무 늦기 전에 희귀 서적을 스캔합시다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Waymo Fully Launches Robotaxi Service in Houston",
@@ -1485,22 +1575,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Rocket Lab launches 9th satellite for iQPS",
-      "url": "https://spacenews.com/rocket-lab-launches-9th-satellite-for-iqps/",
-      "source": "SpaceNews",
-      "date": "2026-08-20 16:38",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "로켓랩, iQPS용 9번째 위성 발사",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Gatekeeping bots, piles of slop: Welcome to the age of AI weirdness at work - CNBC",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXU5akdIVl9XNk1vNGxBckVmS3VXOEpTTzVscVZ6SGFwT1NQd3YtTzdPU0d2a2M1OUpGWGVkVVEtZ19McDlHNko3cGV3MWFZSXlZeHhWMmJabXU5UFBOVHhFckpYQmkwVVo2bEFmVGZfbmNvaHVhaTl0SFV2dTNtX0tzV1AwRy1zaHFFTUNhQXkzZXRiWnZ6ODFvSUJ1RlZ3ZU5vRi16M0pMZ01ySmpZ0gG0AUFVX3lxTE1KV0tYTFZ6QXgzbTVIU2tXdEs2elo1QUh3eWZDQmpWMU9oODlsdmU5VVdqQWtLTDJueV9wRE4zMFptVC1HeFVJNVl0VUg2Sk11eEdRbDJ4c0JsdXRENXNra3g0MzZhaDhaN1BZX2xXVzZrNncxT2k4dW9xUVZDLXNKR3RzeGpieUp4a3k0QmVnQVlUZldmNl9MdGh3Q3Q0SVh5MXo1cHdONnZwREVHdG5STFFlMA?oc=5",
       "source": "CNBC",
@@ -1921,72 +1995,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Manage Vercel Container Registry with Vercel CLI",
-      "url": "https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli",
-      "source": "Vercel Changelog",
-      "date": "2026-08-20 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Manage Vercel Container Registry with Vercel CLI",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.3.1-canary.25",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.25",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-19 23:46",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.3.1-canary.25",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Bouge RV’s Battery-Powered Portable Fridges Make Going Off Grid Easy (CleanTechnica Tested)",
-      "url": "https://cleantechnica.com/2026/08/19/bouge-rvs-battery-powered-portable-fridges-make-going-off-grid-easy-cleantechnica-tested/",
-      "source": "CleanTechnica",
-      "date": "2026-08-19 23:39",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Bouge RV의 배터리 구동 휴대용 냉장고로 그리드를 쉽게 벗어날 수 있습니다 (CleanTechnica 테스트 완료)",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v0.125.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.125.0",
-      "source": "GitHub · Anthropic SDK",
-      "date": "2026-08-19 22:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v0.125.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -1994,7 +2002,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 21. PM 8:45",
+    "checkedAt": "2026. 8. 21. PM 10:14",
     "mode": "매시간 공식 레이더"
   }
 }
