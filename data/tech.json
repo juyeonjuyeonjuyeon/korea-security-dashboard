@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 22. PM 12:09",
+  "updatedAt": "2026. 8. 22. PM 12:59",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.1",
   "metrics": {
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 27,
+      "count": 26,
       "summary": "마이클 폴란스키 (Michael Polansky) 는 아직 살아있는 피부에 대한 인공지능 모델을 훈련하고 있다.",
       "latest": "2026-08-22 01:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T03:09:50.006Z",
+      "lastRefreshed": "2026-08-22T03:59:20.826Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -38,7 +38,7 @@
       "summary": "엔비디아, 데이터 센터 개발자 클로버리프와 파트너십 체결",
       "latest": "2026-08-21 22:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T03:09:50.006Z",
+      "lastRefreshed": "2026-08-22T03:59:20.826Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "소프트웨어 정의 제조가 실제 공장 운영에 적합한 방법",
       "latest": "2026-08-22 00:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T03:09:50.006Z",
+      "lastRefreshed": "2026-08-22T03:59:20.826Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +64,7 @@
       "summary": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "latest": "2026-08-21 18:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T03:09:50.006Z",
+      "lastRefreshed": "2026-08-22T03:59:20.826Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "일본 우주 기술 스타트업 레타라 (Letara) 가 $ 1,600만 달러로 인공위성 추진기 너머로 확장",
       "latest": "2026-08-22 01:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T03:09:50.006Z",
+      "lastRefreshed": "2026-08-22T03:59:20.826Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,18 +90,18 @@
       "summary": "인공지능 디스토피아를 탐험하는 빌 맥키벤",
       "latest": "2026-08-21 22:13",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-22T03:09:50.006Z",
+      "lastRefreshed": "2026-08-22T03:59:20.826Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
-      "summary": "v16.4.0-canary.1",
-      "latest": "2026-08-21 23:43",
+      "count": 20,
+      "summary": "소프트웨어가 더 이상 느릴 이유가 없습니다",
+      "latest": "2026-08-22 01:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T03:09:50.006Z",
+      "lastRefreshed": "2026-08-22T03:59:20.826Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -566,6 +566,22 @@
     ],
     "community": [
       {
+        "title": "There's no reason for software to be slow anymore",
+        "url": "https://danluu.com/perf-opt/",
+        "source": "Hacker News",
+        "date": "2026-08-22 01:06",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "소프트웨어가 더 이상 느릴 이유가 없습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "What happens when a GPU reads memory",
         "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
         "source": "Hacker News",
@@ -644,22 +660,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-        "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-        "source": "Hacker News",
-        "date": "2026-08-21 14:31",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claudette: Claude가 BuzzFeed 기사처럼 말하는 것을 멈추게 하기",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -679,6 +679,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "There's no reason for software to be slow anymore",
+      "url": "https://danluu.com/perf-opt/",
+      "source": "Hacker News",
+      "date": "2026-08-22 01:06",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "소프트웨어가 더 이상 느릴 이유가 없습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Japanese space tech startup Letara expands beyond satellite thrusters with $16M",
@@ -1219,22 +1235,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-      "source": "Hacker News",
-      "date": "2026-08-21 14:31",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Claudette: Claude가 BuzzFeed 기사처럼 말하는 것을 멈추게 하기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Toyota Is Still Working On That Futuristic Fluoride-Ion EV Battery",
@@ -1983,7 +1983,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 22. PM 12:09",
+    "checkedAt": "2026. 8. 22. PM 12:59",
     "mode": "매시간 공식 레이더"
   }
 }
