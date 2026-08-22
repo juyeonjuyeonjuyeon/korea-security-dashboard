@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 22. PM 11:41",
+  "updatedAt": "2026. 8. 23. AM 12:39",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 22일 – 대부분 페르세우스류",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 39,
+    "recentCount": 38,
     "sourceCount": 21,
     "officialCount": 23,
     "opportunityCount": 0
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 27,
+      "count": 26,
       "summary": "Munder Difflin – 복제본의 사무실을 운영하는 에이전트 하네스",
       "latest": "2026-08-22 09:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T14:41:48.921Z",
+      "lastRefreshed": "2026-08-22T15:39:13.082Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -38,7 +38,7 @@
       "summary": "엔비디아, 데이터 센터 개발자 클로버리프와 파트너십 체결",
       "latest": "2026-08-21 22:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T14:41:48.921Z",
+      "lastRefreshed": "2026-08-22T15:39:13.082Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "미국 잔디밭 2곳 중 1곳에 로봇 제초기를 설치할 수 있는 기술",
       "latest": "2026-08-22 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T14:41:48.921Z",
+      "lastRefreshed": "2026-08-22T15:39:13.082Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +64,7 @@
       "summary": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "latest": "2026-08-21 18:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T14:41:48.921Z",
+      "lastRefreshed": "2026-08-22T15:39:13.082Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 8월 22일 – 대부분 페르세우스류",
       "latest": "2026-08-22 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T14:41:48.921Z",
+      "lastRefreshed": "2026-08-22T15:39:13.082Z",
       "themes": [
         "주요 기업"
       ]
@@ -86,11 +86,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 6,
-      "summary": "Heart Aerospace는 항공 전환 투자자들이 수십억 달러를 투입해야 하는",
-      "latest": "2026-08-22 06:32",
+      "count": 7,
+      "summary": "미국 배터리 스타트업들이 방어의 생명줄을 찾았습니다",
+      "latest": "2026-08-22 15:20",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-22T14:41:48.921Z",
+      "lastRefreshed": "2026-08-22T15:39:13.082Z",
       "themes": [
         "주요 기업"
       ]
@@ -103,7 +103,7 @@
       "summary": "소프트웨어가 더 이상 느릴 이유가 없습니다",
       "latest": "2026-08-22 01:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T14:41:48.921Z",
+      "lastRefreshed": "2026-08-22T15:39:13.082Z",
       "themes": [
         "주요 기업"
       ]
@@ -331,6 +331,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "US battery startups have found a lifeline in defense",
+        "url": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+        "source": "TechCrunch",
+        "date": "2026-08-22 15:20",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "미국 배터리 스타트업들이 방어의 생명줄을 찾았습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "The technology that could bring robot mowers to one in two American lawns",
         "url": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
         "source": "The Robot Report",
@@ -511,22 +527,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
-        "source": "The Verge",
-        "date": "2026-08-21 21:54",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "100만 명이 넘는 사람들이 LinkedIn의 AI slop 버튼을 클릭했습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -629,6 +629,22 @@
     ]
   },
   "news": [
+    {
+      "title": "US battery startups have found a lifeline in defense",
+      "url": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+      "source": "TechCrunch",
+      "date": "2026-08-22 15:20",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "미국 배터리 스타트업들이 방어의 생명줄을 찾았습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "The technology that could bring robot mowers to one in two American lawns",
       "url": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
@@ -969,24 +985,6 @@
       "titleKo": "새로운 Novaspace 예측: 2035년까지 6,500개 이상의 EO 위성 발사 예정",
       "type": "출시·업데이트",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "source": "TechCrunch",
-      "date": "2026-08-21 19:43",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "엔비디아는 방금 AI 모델이 아닌 하네스가 이제 진정한 영웅이라는 것을 보여주었습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1946,7 +1944,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 22. PM 11:41",
+    "checkedAt": "2026. 8. 23. AM 12:39",
     "mode": "매시간 공식 레이더"
   }
 }
