@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 23. AM 12:39",
+  "updatedAt": "2026. 8. 23. AM 1:43",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 22일 – 대부분 페르세우스류",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 38,
-    "sourceCount": 21,
-    "officialCount": 23,
+    "recentCount": 33,
+    "sourceCount": 20,
+    "officialCount": 22,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 26,
-      "summary": "Munder Difflin – 복제본의 사무실을 운영하는 에이전트 하네스",
-      "latest": "2026-08-22 09:49",
+      "count": 27,
+      "summary": "OpenAI는 캘리포니아가 AI 안전 법안을 강화해야 한다고 말합니다.",
+      "latest": "2026-08-22 16:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T15:39:13.082Z",
+      "lastRefreshed": "2026-08-22T16:43:43.945Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -34,24 +34,22 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 2,
-      "summary": "엔비디아, 데이터 센터 개발자 클로버리프와 파트너십 체결",
-      "latest": "2026-08-21 22:37",
+      "count": 1,
+      "summary": "GPU가 메모리를 읽을 때 일어나는 일",
+      "latest": "2026-08-21 16:16",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T15:39:13.082Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-08-22T16:43:43.945Z",
+      "themes": []
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
-      "summary": "미국 잔디밭 2곳 중 1곳에 로봇 제초기를 설치할 수 있는 기술",
-      "latest": "2026-08-22 12:30",
+      "count": 7,
+      "summary": "로봇은 스스로 움직이지 않는다: 물리적 AI에 힘을 실어주는 인력",
+      "latest": "2026-08-22 14:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T15:39:13.082Z",
+      "lastRefreshed": "2026-08-22T16:43:43.945Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +62,7 @@
       "summary": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "latest": "2026-08-21 18:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T15:39:13.082Z",
+      "lastRefreshed": "2026-08-22T16:43:43.945Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +75,7 @@
       "summary": "APOD: 2026년 8월 22일 – 대부분 페르세우스류",
       "latest": "2026-08-22 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T15:39:13.082Z",
+      "lastRefreshed": "2026-08-22T16:43:43.945Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +88,7 @@
       "summary": "미국 배터리 스타트업들이 방어의 생명줄을 찾았습니다",
       "latest": "2026-08-22 15:20",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-22T15:39:13.082Z",
+      "lastRefreshed": "2026-08-22T16:43:43.945Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,11 +97,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
+      "count": 18,
       "summary": "소프트웨어가 더 이상 느릴 이유가 없습니다",
       "latest": "2026-08-22 01:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T15:39:13.082Z",
+      "lastRefreshed": "2026-08-22T16:43:43.945Z",
       "themes": [
         "주요 기업"
       ]
@@ -331,6 +329,40 @@
     "voices": [],
     "analysis": [
       {
+        "title": "OpenAI says California should strengthen its AI safety bill",
+        "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+        "source": "TechCrunch",
+        "date": "2026-08-22 16:30",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI는 캘리포니아가 AI 안전 법안을 강화해야 한다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+        "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+        "source": "TechCrunch",
+        "date": "2026-08-22 16:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Frontier AI 실험실은 여전히 불량 모델을 어떻게 포함할지 말하지 않습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "US battery startups have found a lifeline in defense",
         "url": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
         "source": "TechCrunch",
@@ -340,6 +372,22 @@
         "stream": "news",
         "category": "에너지·기후기술",
         "titleKo": "미국 배터리 스타트업들이 방어의 생명줄을 찾았습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Robots don’t run themselves: The workforce powering physical AI",
+        "url": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+        "source": "The Robot Report",
+        "date": "2026-08-22 14:30",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "로봇은 스스로 움직이지 않는다: 물리적 AI에 힘을 실어주는 인력",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -477,56 +525,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia partners with data center developer Cloverleaf",
-        "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-        "source": "TechCrunch",
-        "date": "2026-08-21 22:37",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아, 데이터 센터 개발자 클로버리프와 파트너십 체결",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Bill McKibben Explores The AI Dystopia",
-        "url": "https://cleantechnica.com/2026/08/21/bill-mckibben-explores-the-ai-dystopia/",
-        "source": "CleanTechnica",
-        "date": "2026-08-21 22:13",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "인공지능 디스토피아를 탐험하는 빌 맥키벤",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
-        "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-        "source": "TechCrunch",
-        "date": "2026-08-21 22:10",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인공지능 (AI) 회계 스타트업 릴렛 (Rillet) 이 1억 달러 ($) 를 모으고 48시간 만에 유니콘이 된 방법",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -630,6 +628,40 @@
   },
   "news": [
     {
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "source": "TechCrunch",
+      "date": "2026-08-22 16:30",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 캘리포니아가 AI 안전 법안을 강화해야 한다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "source": "TechCrunch",
+      "date": "2026-08-22 16:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Frontier AI 실험실은 여전히 불량 모델을 어떻게 포함할지 말하지 않습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "US battery startups have found a lifeline in defense",
       "url": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
       "source": "TechCrunch",
@@ -639,6 +671,22 @@
       "stream": "news",
       "category": "에너지·기후기술",
       "titleKo": "미국 배터리 스타트업들이 방어의 생명줄을 찾았습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Robots don’t run themselves: The workforce powering physical AI",
+      "url": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+      "source": "The Robot Report",
+      "date": "2026-08-22 14:30",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "로봇은 스스로 움직이지 않는다: 물리적 AI에 힘을 실어주는 인력",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -858,24 +906,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Nvidia partners with data center developer Cloverleaf",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-      "source": "TechCrunch",
-      "date": "2026-08-21 22:37",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "엔비디아, 데이터 센터 개발자 클로버리프와 파트너십 체결",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Bill McKibben Explores The AI Dystopia",
       "url": "https://cleantechnica.com/2026/08/21/bill-mckibben-explores-the-ai-dystopia/",
       "source": "CleanTechnica",
@@ -885,22 +915,6 @@
       "stream": "news",
       "category": "에너지·기후기술",
       "titleKo": "인공지능 디스토피아를 탐험하는 빌 맥키벤",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
-      "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-      "source": "TechCrunch",
-      "date": "2026-08-21 22:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "인공지능 (AI) 회계 스타트업 릴렛 (Rillet) 이 1억 달러 ($) 를 모으고 48시간 만에 유니콘이 된 방법",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1919,32 +1933,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v1.0.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
-      "source": "GitHub · Anthropic SDK",
-      "date": "2026-08-20 19:58",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v1.0.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 7,
-    "checkedAt": "2026. 8. 23. AM 12:39",
+    "officialSources": 6,
+    "checkedAt": "2026. 8. 23. AM 1:43",
     "mode": "매시간 공식 레이더"
   }
 }
