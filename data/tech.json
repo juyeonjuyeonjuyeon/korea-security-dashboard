@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 23. AM 3:51",
+  "updatedAt": "2026. 8. 23. AM 4:39",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 22일 – 대부분 페르세우스류",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 28,
+    "recentCount": 24,
     "sourceCount": 20,
     "officialCount": 22,
     "opportunityCount": 0
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 27,
-      "summary": "OpenAI는 캘리포니아가 AI 안전 법안을 강화해야 한다고 말합니다.",
-      "latest": "2026-08-22 16:30",
+      "summary": "DeepMind 동문들이 설립한 Inherent는 AI ‘팀원‘ 이 연구를 복제하는 데 있어 Anthropic과 OpenAI를 능가했다고 말합니다.",
+      "latest": "2026-08-22 19:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T18:51:25.941Z",
+      "lastRefreshed": "2026-08-22T19:39:45.772Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -38,7 +38,7 @@
       "summary": "GPU가 메모리를 읽을 때 일어나는 일",
       "latest": "2026-08-21 16:16",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T18:51:25.941Z",
+      "lastRefreshed": "2026-08-22T19:39:45.772Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "로봇은 스스로 움직이지 않는다: 물리적 AI에 힘을 실어주는 인력",
       "latest": "2026-08-22 14:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T18:51:25.941Z",
+      "lastRefreshed": "2026-08-22T19:39:45.772Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,7 +62,7 @@
       "summary": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "latest": "2026-08-21 18:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T18:51:25.941Z",
+      "lastRefreshed": "2026-08-22T19:39:45.772Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,7 +75,7 @@
       "summary": "APOD: 2026년 8월 22일 – 대부분 페르세우스류",
       "latest": "2026-08-22 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T18:51:25.941Z",
+      "lastRefreshed": "2026-08-22T19:39:45.772Z",
       "themes": [
         "주요 기업"
       ]
@@ -88,7 +88,7 @@
       "summary": "미국 배터리 스타트업들이 방어의 생명줄을 찾았습니다",
       "latest": "2026-08-22 15:20",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-22T18:51:25.941Z",
+      "lastRefreshed": "2026-08-22T19:39:45.772Z",
       "themes": [
         "주요 기업"
       ]
@@ -101,7 +101,7 @@
       "summary": "소프트웨어가 더 이상 느릴 이유가 없습니다",
       "latest": "2026-08-22 01:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-22T18:51:25.941Z",
+      "lastRefreshed": "2026-08-22T19:39:45.772Z",
       "themes": [
         "주요 기업"
       ]
@@ -365,6 +365,24 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+        "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "source": "TechCrunch",
+        "date": "2026-08-22 19:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "DeepMind 동문들이 설립한 Inherent는 AI ‘팀원‘ 이 연구를 복제하는 데 있어 Anthropic과 OpenAI를 능가했다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "OpenAI says California should strengthen its AI safety bill",
         "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
         "source": "TechCrunch",
@@ -543,24 +561,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic’s Opus 4.6 is a smut-machine",
-        "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-        "source": "TechCrunch",
-        "date": "2026-08-21 23:07",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic의 Opus 4.6은 스머트 머신입니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -665,6 +665,24 @@
     ]
   },
   "news": [
+    {
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch",
+      "date": "2026-08-22 19:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "DeepMind 동문들이 설립한 Inherent는 AI ‘팀원‘ 이 연구를 복제하는 데 있어 Anthropic과 OpenAI를 능가했다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "OpenAI says California should strengthen its AI safety bill",
       "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
@@ -942,24 +960,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Anthropic’s Opus 4.6 is a smut-machine",
-      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-      "source": "TechCrunch",
-      "date": "2026-08-21 23:07",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic의 Opus 4.6은 스머트 머신입니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Bill McKibben Explores The AI Dystopia",
@@ -1980,7 +1980,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 8. 23. AM 3:51",
+    "checkedAt": "2026. 8. 23. AM 4:39",
     "mode": "매시간 공식 레이더"
   }
 }
