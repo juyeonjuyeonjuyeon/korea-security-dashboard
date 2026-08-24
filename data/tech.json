@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 24. PM 6:07",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 24. PM 6:41",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "본빌 호수가 남긴 것",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 14,
+    "recentCount": 16,
     "sourceCount": 22,
-    "officialCount": 17,
+    "officialCount": 16,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 29,
-      "summary": "SDAD: AI-Native SDLC를 위한 Spec-Driven Agentic 개발",
-      "latest": "2026-08-24 04:00",
+      "summary": "아이들은 AI에 대해 잘 알지 못하지만, 우리는 여전히 그 이유를 모릅니다.",
+      "latest": "2026-08-24 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T09:07:25.910Z",
+      "lastRefreshed": "2026-08-24T09:41:51.248Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -38,18 +38,18 @@
       "summary": "TechCrunch Mobility: Waymo의 로봇 택시 야망을 이끄는 맞춤형 칩",
       "latest": "2026-08-23 16:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T09:07:25.910Z",
+      "lastRefreshed": "2026-08-24T09:41:51.248Z",
       "themes": []
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
-      "summary": "로봇은 스스로 움직이지 않는다: 물리적 AI에 힘을 실어주는 인력",
-      "latest": "2026-08-22 14:30",
+      "count": 8,
+      "summary": "우사인 볼트의 100m 기록을 깨는 휴머노이드 로봇",
+      "latest": "2026-08-24 09:10",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T09:07:25.910Z",
+      "lastRefreshed": "2026-08-24T09:41:51.248Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,7 +62,7 @@
       "summary": "UAT-10147 AI를 사용하여 서버 공격 확장, SPECTRE 배포 EDR 바이패스 및 Linux 루트킷 사용",
       "latest": "2026-08-24 08:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T09:07:25.910Z",
+      "lastRefreshed": "2026-08-24T09:41:51.248Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,11 +71,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
+      "count": 15,
       "summary": "본빌 호수가 남긴 것",
       "latest": "2026-08-24 04:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T09:07:25.910Z",
+      "lastRefreshed": "2026-08-24T09:41:51.248Z",
       "themes": [
         "주요 기업"
       ]
@@ -84,11 +84,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 6,
+      "count": 5,
       "summary": "Heart Aerospace는 항공 전환 투자자들이 수십억 달러를 투입해야 하는",
       "latest": "2026-08-22 06:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-24T09:07:25.910Z",
+      "lastRefreshed": "2026-08-24T09:41:51.248Z",
       "themes": [
         "주요 기업"
       ]
@@ -97,11 +97,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
+      "count": 18,
       "summary": "v16.4.0-canary.3",
       "latest": "2026-08-23 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T09:07:25.910Z",
+      "lastRefreshed": "2026-08-24T09:41:51.248Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -157,6 +157,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Canada’s Scrappy Rocket Startups Aim for Sovereign Space Launch - IEEE Spectrum",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRNnd2NGZKZklXc2FRdXZZT0lCMW5SeW1IUmFiaFZsSFRFN1lONFp5TFJvTWJVWUJ4U0ZkQVYzMTBEcnVsMTJjcHNheUVHS3dNZUNOQQ?oc=5",
+        "source": "IEEE Spectrum",
+        "date": "2026-08-23 00:28",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "캐나다의 스크랩피 로켓 스타트업, 주권 우주 발사 목표 - IEEE 스펙트럼",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "v16.4.0-canary.2",
@@ -287,22 +303,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-        "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/",
-        "source": "NASA",
-        "date": "2026-08-21 17:41",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "TB 26-04 NASA의 CEA (Chemical Equilibrium with Applications) 코드 업데이트 및 현대화",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -383,6 +383,38 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Humanoid robots smash Usain Bolt’s 100-meter record",
+        "url": "https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
+        "source": "The Verge",
+        "date": "2026-08-24 09:10",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "우사인 볼트의 100m 기록을 깨는 휴머노이드 로봇",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Kids outlearn AI—and we still don’t know why",
+        "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-24 09:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "아이들은 AI에 대해 잘 알지 못하지만, 우리는 여전히 그 이유를 모릅니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
         "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
@@ -548,38 +580,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
-        "url": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
-        "source": "TechCrunch",
-        "date": "2026-08-23 16:03",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "TechCrunch Mobility: Waymo의 로봇 택시 야망을 이끄는 맞춤형 칩",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
-        "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-        "source": "TechCrunch",
-        "date": "2026-08-23 15:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "저작권이 있는 책에서 AI 모델을 교육하는 것이 합법적인가요? 복잡합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -686,6 +686,38 @@
     ]
   },
   "news": [
+    {
+      "title": "Humanoid robots smash Usain Bolt’s 100-meter record",
+      "url": "https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
+      "source": "The Verge",
+      "date": "2026-08-24 09:10",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "우사인 볼트의 100m 기록을 깨는 휴머노이드 로봇",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Kids outlearn AI—and we still don’t know why",
+      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-24 09:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "아이들은 AI에 대해 잘 알지 못하지만, 우리는 여전히 그 이유를 모릅니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
       "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
@@ -931,6 +963,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Canada’s Scrappy Rocket Startups Aim for Sovereign Space Launch - IEEE Spectrum",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRNnd2NGZKZklXc2FRdXZZT0lCMW5SeW1IUmFiaFZsSFRFN1lONFp5TFJvTWJVWUJ4U0ZkQVYzMTBEcnVsMTJjcHNheUVHS3dNZUNOQQ?oc=5",
+      "source": "IEEE Spectrum",
+      "date": "2026-08-23 00:28",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "캐나다의 스크랩피 로켓 스타트업, 주권 우주 발사 목표 - IEEE 스펙트럼",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v16.4.0-canary.2",
@@ -1956,62 +2004,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Deployment Storage keeps your deployments rollback-ready",
-      "url": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready",
-      "source": "Vercel Changelog",
-      "date": "2026-08-21 05:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Deployment Storage keeps your deployments rollback-ready",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Waymo Fully Launches Robotaxi Service in Houston",
-      "url": "https://cleantechnica.com/2026/08/20/waymo-fully-launches-robotaxi-service-in-houston/",
-      "source": "CleanTechnica",
-      "date": "2026-08-21 02:17",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "웨이모, 휴스턴에서 로보택시 서비스 전면 개시",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Pharma sector doubles down on AI amid hopes of slashing costs, timelines - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNnV1bDJ0Q1NTVmtoc3JtclJ3VlpfYTg3SWFTeWh4Zlg0Qk1TNXRnQ2Y0MW1Ra1N3SHRBTFFfejFWZnY5aWt2d0h4NTAtUm5BTTRUQjFuR2YxM0E0UE5hZXR6bWVxSEpFOVRaWGJEVWhfYkZheDBmRjg0OS1KMzhrNVFVOVItRmgyczJnSlNYYXE4WlpUN3Jhd25faXVLZE1VRjlUcTlUb1MtSFhaR0QyWjZwZHdXdVJvNi1Udmh5LVdoNXRRbWJHRldWMTJSMEJIRlZN?oc=5",
-      "source": "Reuters",
-      "date": "2026-08-21 02:01",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "제약 부문은 비용, 일정 삭감의 희망 속에서 AI를 두 배로 낮춥니다 - 로이터",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 5,
-    "checkedAt": "2026. 8. 24. PM 6:07",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 24. PM 6:41",
+    "mode": "하루 2회 전체 수집"
   }
 }
