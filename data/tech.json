@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 24. PM 2:04",
+  "updatedAt": "2026. 8. 24. PM 6:07",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "본빌 호수가 남긴 것",
   "metrics": {
     "articleCount": 80,
     "recentCount": 14,
-    "sourceCount": 23,
-    "officialCount": 18,
+    "sourceCount": 22,
+    "officialCount": 17,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
+      "count": 29,
       "summary": "SDAD: AI-Native SDLC를 위한 Spec-Driven Agentic 개발",
       "latest": "2026-08-24 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T05:04:58.323Z",
+      "lastRefreshed": "2026-08-24T09:07:25.910Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -38,7 +38,7 @@
       "summary": "TechCrunch Mobility: Waymo의 로봇 택시 야망을 이끄는 맞춤형 칩",
       "latest": "2026-08-23 16:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T05:04:58.323Z",
+      "lastRefreshed": "2026-08-24T09:07:25.910Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "로봇은 스스로 움직이지 않는다: 물리적 AI에 힘을 실어주는 인력",
       "latest": "2026-08-22 14:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T05:04:58.323Z",
+      "lastRefreshed": "2026-08-24T09:07:25.910Z",
       "themes": [
         "주요 기업"
       ]
@@ -58,11 +58,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 3,
-      "summary": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "latest": "2026-08-21 18:53",
+      "count": 4,
+      "summary": "UAT-10147 AI를 사용하여 서버 공격 확장, SPECTRE 배포 EDR 바이패스 및 Linux 루트킷 사용",
+      "latest": "2026-08-24 08:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T05:04:58.323Z",
+      "lastRefreshed": "2026-08-24T09:07:25.910Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,7 +75,7 @@
       "summary": "본빌 호수가 남긴 것",
       "latest": "2026-08-24 04:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T05:04:58.323Z",
+      "lastRefreshed": "2026-08-24T09:07:25.910Z",
       "themes": [
         "주요 기업"
       ]
@@ -88,7 +88,7 @@
       "summary": "Heart Aerospace는 항공 전환 투자자들이 수십억 달러를 투입해야 하는",
       "latest": "2026-08-22 06:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-24T05:04:58.323Z",
+      "lastRefreshed": "2026-08-24T09:07:25.910Z",
       "themes": [
         "주요 기업"
       ]
@@ -101,7 +101,7 @@
       "summary": "v16.4.0-canary.3",
       "latest": "2026-08-23 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T05:04:58.323Z",
+      "lastRefreshed": "2026-08-24T09:07:25.910Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -384,6 +384,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+        "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+        "source": "The Hacker News",
+        "date": "2026-08-24 08:08",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "UAT-10147 AI를 사용하여 서버 공격 확장, SPECTRE 배포 EDR 바이패스 및 Linux 루트킷 사용",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
         "url": "https://arxiv.org/abs/2608.20341",
         "source": "arXiv cs.AI",
@@ -564,22 +580,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
-        "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
-        "source": "TechCrunch",
-        "date": "2026-08-22 21:46",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "하버드의 $ 699 스타트업 부트캠프는 강사의 AI 아바타를 제공합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -686,6 +686,22 @@
     ]
   },
   "news": [
+    {
+      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+      "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+      "source": "The Hacker News",
+      "date": "2026-08-24 08:08",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "UAT-10147 AI를 사용하여 서버 공격 확장, SPECTRE 배포 EDR 바이패스 및 Linux 루트킷 사용",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "What Lake Bonneville Left Behind",
       "url": "https://science.nasa.gov/earth/earth-observatory/what-lake-bonneville-left-behind/",
@@ -1988,30 +2004,14 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Measuring benchmark optimization in speech recognition",
-      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "source": "Hugging Face Blog",
-      "date": "2026-08-21 00:00",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "음성 인식에서 벤치마크 최적화 측정",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 6,
-    "checkedAt": "2026. 8. 24. PM 2:04",
+    "officialSources": 5,
+    "checkedAt": "2026. 8. 24. PM 6:07",
     "mode": "매시간 공식 레이더"
   }
 }
