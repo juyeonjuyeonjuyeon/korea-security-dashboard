@@ -1,18 +1,19 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 25. AM 6:30",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 25. AM 7:46",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "NASA, 플로리다에서 로마 우주 망원경 발사 범위 설정",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 57,
+    "recentCount": 59,
     "sourceCount": 21,
     "officialCount": 22,
-    "opportunityCount": 0
+    "opportunityCount": 1
   },
   "summary": [
     "새 출시: NASA, 플로리다에서 로마 우주 망원경 발사 범위 설정",
-    "창작 기술: 3D 프린팅 총을 이용한 고양이와 마우스 게임이 시작되었습니다"
+    "창작 기술: 3D 프린팅 총을 이용한 고양이와 마우스 게임이 시작되었습니다",
+    "행사·무료: 탄성 빌드 기계는 이제 다운그레이드를 방지하기 위해 Turborepo 캐시 히트를 사용합니다"
   ],
   "categories": [
     {
@@ -23,7 +24,7 @@
       "summary": "알라바마, OpenAI의 Hugging Face 해킹에 대한 조사 착수",
       "latest": "2026-08-24 19:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T21:30:54.582Z",
+      "lastRefreshed": "2026-08-24T22:46:40.139Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,7 +39,7 @@
       "summary": "XPU가 세계적 수준의 AI 공장을 만나는 방법",
       "latest": "2026-08-24 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T21:30:54.582Z",
+      "lastRefreshed": "2026-08-24T22:46:40.139Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,14 +48,12 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 6,
       "summary": "XPeng Motors 휴머노이드 로봇 유닛 Dogotix, $ 900M 모금",
       "latest": "2026-08-24 20:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T21:30:54.582Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-08-24T22:46:40.139Z",
+      "themes": []
     },
     {
       "id": "cyber",
@@ -64,18 +63,18 @@
       "summary": "아폴로, 금융 회사를 겨냥한 사이버 공격 중 데이터 유출 확인 - TechRepublic",
       "latest": "2026-08-24 18:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T21:30:54.582Z",
+      "lastRefreshed": "2026-08-24T22:46:40.139Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
-      "summary": "트럼프는 블록버스터 IPO 2주 후 스페이스X 주식을 샀다.",
-      "latest": "2026-08-24 21:24",
+      "count": 15,
+      "summary": "로봇 공학과 궤도 상 노동의 미래",
+      "latest": "2026-08-24 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T21:30:54.582Z",
+      "lastRefreshed": "2026-08-24T22:46:40.139Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -89,7 +88,7 @@
       "summary": "트럼프는 청정에너지를 억제하려 했다. 어쨌든 호황입니다.",
       "latest": "2026-08-24 14:43",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-24T21:30:54.582Z",
+      "lastRefreshed": "2026-08-24T22:46:40.139Z",
       "themes": [
         "주요 기업"
       ]
@@ -102,9 +101,10 @@
       "summary": "v16.4.0-canary.5",
       "latest": "2026-08-24 19:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T21:30:54.582Z",
+      "lastRefreshed": "2026-08-24T22:46:40.139Z",
       "themes": [
-        "주요 기업"
+        "주요 기업",
+        "기회"
       ]
     }
   ],
@@ -381,9 +381,44 @@
         "layerLabel": "커뮤니티 신호"
       }
     ],
-    "opportunities": [],
+    "opportunities": [
+      {
+        "title": "Elastic build machines now use Turborepo cache hits to prevent downgrades",
+        "url": "https://vercel.com/changelog/elastic-build-machines-now-use-turborepo-cache-hits-to-prevent-downgrades",
+        "source": "Vercel Changelog",
+        "date": "2026-08-24 16:11",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "탄성 빌드 기계는 이제 다운그레이드를 방지하기 위해 Turborepo 캐시 히트를 사용합니다",
+        "type": "행사",
+        "themes": [
+          "기회"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      }
+    ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Robotics and the future of on-orbit labor",
+        "url": "https://spacenews.com/robotics-and-the-future-of-on-orbit-labor/",
+        "source": "SpaceNews",
+        "date": "2026-08-24 22:26",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "로봇 공학과 궤도 상 노동의 미래",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
         "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
@@ -567,24 +602,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "llm-anthropic 0.27",
-        "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-        "source": "Simon Willison",
-        "date": "2026-08-24 16:27",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "llm-anthropic 0.27",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -695,6 +712,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Robotics and the future of on-orbit labor",
+      "url": "https://spacenews.com/robotics-and-the-future-of-on-orbit-labor/",
+      "source": "SpaceNews",
+      "date": "2026-08-24 22:26",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "로봇 공학과 궤도 상 노동의 미래",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
       "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
@@ -1076,6 +1109,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Elastic build machines now use Turborepo cache hits to prevent downgrades",
+      "url": "https://vercel.com/changelog/elastic-build-machines-now-use-turborepo-cache-hits-to-prevent-downgrades",
+      "source": "Vercel Changelog",
+      "date": "2026-08-24 16:11",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "탄성 빌드 기계는 이제 다운그레이드를 방지하기 위해 Turborepo 캐시 히트를 사용합니다",
+      "type": "행사",
+      "themes": [
+        "기회"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Coding expertise is going to collapse from AI reliance",
@@ -1986,48 +2037,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "How Ora benchmarks every major AI agent on Vercel",
-      "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-      "source": "Vercel Changelog",
-      "date": "2026-08-21 21:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "ORA가 Vercel의 모든 주요 AI 에이전트를 벤치마킹하는 방법",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Amazon’s Bhavana Chandrashekhar to speak at RoboBusiness’ Women in Robotics Lunch",
-      "url": "https://www.therobotreport.com/amazons-bhavana-chandrashekhar-speaks-robobusiness-women-in-robotics-lunch/",
-      "source": "The Robot Report",
-      "date": "2026-08-21 19:57",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "아마존의 Bhavana Chandrashekhar가 RoboBusiness의 Women in Robotics Lunch에서 강연합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 8. 25. AM 6:30",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 25. AM 7:46",
+    "mode": "매시간 공식 레이더"
   }
 }
