@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 25. AM 8:40",
+  "updatedAt": "2026. 8. 25. AM 10:55",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.6",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 62,
+    "recentCount": 58,
     "sourceCount": 21,
     "officialCount": 22,
     "opportunityCount": 1
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 27,
-      "summary": "AI가 엔트리 레벨 일자리를 가장 어렵게 만들고 있다고 Stanford 연구팀은 밝혔습니다.",
-      "latest": "2026-08-24 21:45",
+      "summary": "상황 인식, 거의 파산할 뻔한 스타 AI 헤지 펀드, 현재 SEC의 조사를 받고 있음",
+      "latest": "2026-08-25 00:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T23:40:01.003Z",
+      "lastRefreshed": "2026-08-25T01:55:02.182Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "XPU가 세계적 수준의 AI 공장을 만나는 방법",
       "latest": "2026-08-24 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T23:40:01.003Z",
+      "lastRefreshed": "2026-08-25T01:55:02.182Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "다음 큰 인공지능 놀이는 앱이나 휴머노이드가 아니라 뇌와 뇌가 있는 기계입니다.",
       "latest": "2026-08-24 22:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T23:40:01.003Z",
+      "lastRefreshed": "2026-08-25T01:55:02.182Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "아폴로, 금융 회사를 겨냥한 사이버 공격 중 데이터 유출 확인 - TechRepublic",
       "latest": "2026-08-24 18:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T23:40:01.003Z",
+      "lastRefreshed": "2026-08-25T01:55:02.182Z",
       "themes": []
     },
     {
@@ -74,7 +74,7 @@
       "summary": "로봇 공학과 궤도 상 노동의 미래",
       "latest": "2026-08-24 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T23:40:01.003Z",
+      "lastRefreshed": "2026-08-25T01:55:02.182Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -88,7 +88,7 @@
       "summary": "트럼프는 청정에너지를 억제하려 했다. 어쨌든 호황입니다.",
       "latest": "2026-08-24 14:43",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-24T23:40:01.003Z",
+      "lastRefreshed": "2026-08-25T01:55:02.182Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,9 +99,9 @@
       "label": "소프트웨어·개발",
       "count": 18,
       "summary": "v16.4.0-canary.6",
-      "latest": "2026-08-24 23:22",
+      "latest": "2026-08-24 23:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-24T23:40:01.003Z",
+      "lastRefreshed": "2026-08-25T01:55:02.182Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -114,7 +114,7 @@
         "title": "v16.4.0-canary.6",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.6",
         "source": "GitHub · Next.js",
-        "date": "2026-08-24 23:22",
+        "date": "2026-08-24 23:45",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -404,6 +404,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+        "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+        "source": "TechCrunch",
+        "date": "2026-08-25 00:23",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "상황 인식, 거의 파산할 뻔한 스타 AI 헤지 펀드, 현재 SEC의 조사를 받고 있음",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
         "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
         "source": "The Robot Report",
@@ -584,22 +600,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-        "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
-        "source": "The Hacker News",
-        "date": "2026-08-24 17:41",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "보안할 수 있는 것보다 더 많은 AI 코드를 배송하시겠습니까? 개선 부채를 관리하는 방법 시청하기",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -711,10 +711,26 @@
   },
   "news": [
     {
+      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+      "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+      "source": "TechCrunch",
+      "date": "2026-08-25 00:23",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "상황 인식, 거의 파산할 뻔한 스타 AI 헤지 펀드, 현재 SEC의 조사를 받고 있음",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.4.0-canary.6",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.6",
       "source": "GitHub · Next.js",
-      "date": "2026-08-24 23:22",
+      "date": "2026-08-24 23:45",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -1309,24 +1325,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-      "source": "TechCrunch",
-      "date": "2026-08-24 15:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI는 모든 것을 위한 AI 에이전트를 구축하고 있습니다. 모두 사용하시겠습니까?",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Spirit Electronics Adds Texas Instruments and Microchip Technology Space Grade Components to Online Store Ahead of SmallSat 2026",
@@ -2042,7 +2040,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 8. 25. AM 8:40",
+    "checkedAt": "2026. 8. 25. AM 10:55",
     "mode": "매시간 공식 레이더"
   }
 }
