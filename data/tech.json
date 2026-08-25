@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 25. PM 6:02",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 25. PM 6:30",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "Thomson Reuters, 자체 프론티어 모델 출시",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 58,
-    "sourceCount": 22,
-    "officialCount": 22,
+    "recentCount": 61,
+    "sourceCount": 23,
+    "officialCount": 23,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 28,
-      "summary": "KVBoost: 효율적인 대용량 언어 모델 추론을 위한 편차 유도 재계산으로 청크 수준 키-값 캐시 재사용",
-      "latest": "2026-08-25 04:00",
+      "count": 30,
+      "summary": "Hugging Face 해킹으로 Alabama AG에 의해 소환된 OpenAI",
+      "latest": "2026-08-25 09:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:02:40.799Z",
+      "lastRefreshed": "2026-08-25T09:30:32.179Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "XPU가 세계적 수준의 AI 공장을 만나는 방법",
       "latest": "2026-08-24 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:02:40.799Z",
+      "lastRefreshed": "2026-08-25T09:30:32.179Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,10 +49,10 @@
       "code": "ROBOT",
       "label": "로봇·모빌리티",
       "count": 7,
-      "summary": "다음 큰 인공지능 놀이는 앱이나 휴머노이드가 아니라 뇌와 뇌가 있는 기계입니다.",
-      "latest": "2026-08-24 22:53",
+      "summary": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "latest": "2026-08-25 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:02:40.799Z",
+      "lastRefreshed": "2026-08-25T09:30:32.179Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "아폴로, 금융 회사를 겨냥한 사이버 공격 중 데이터 유출 확인 - TechRepublic",
       "latest": "2026-08-24 18:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:02:40.799Z",
+      "lastRefreshed": "2026-08-25T09:30:32.179Z",
       "themes": []
     },
     {
@@ -74,7 +74,7 @@
       "summary": "로봇 공학과 궤도 상 노동의 미래",
       "latest": "2026-08-24 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:02:40.799Z",
+      "lastRefreshed": "2026-08-25T09:30:32.179Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -88,7 +88,7 @@
       "summary": "매사추세츠는 에너지 비용을 낮추기 위한 조치를 취하고 있습니다. 세부 정보를 올바르게 입력하세요.",
       "latest": "2026-08-25 03:12",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-25T09:02:40.799Z",
+      "lastRefreshed": "2026-08-25T09:30:32.179Z",
       "themes": [
         "주요 기업"
       ]
@@ -97,14 +97,15 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
+      "count": 15,
       "summary": "v16.4.0-canary.6",
       "latest": "2026-08-24 23:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:02:40.799Z",
+      "lastRefreshed": "2026-08-25T09:30:32.179Z",
       "themes": [
         "주요 기업",
-        "기회"
+        "기회",
+        "미술·디자인"
       ]
     }
   ],
@@ -343,6 +344,24 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "v4.5.13",
+        "url": "https://github.com/blender/blender/releases/tag/v4.5.13",
+        "source": "GitHub · Blender",
+        "date": "2026-08-24 11:28",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v4.5.13",
+        "type": "출시·업데이트",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "opportunities": [
@@ -367,6 +386,40 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+        "source": "The Verge",
+        "date": "2026-08-25 09:15",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Hugging Face 해킹으로 Alabama AG에 의해 소환된 OpenAI",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+        "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-25 09:00",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
         "url": "https://arxiv.org/abs/2608.21362",
@@ -526,40 +579,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
-        "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-        "source": "Ars Technica",
-        "date": "2026-08-24 21:45",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI가 엔트리 레벨 일자리를 가장 어렵게 만들고 있다고 Stanford 연구팀은 밝혔습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-        "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-        "source": "TechCrunch",
-        "date": "2026-08-24 21:24",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "트럼프는 블록버스터 IPO 2주 후 스페이스X 주식을 샀다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -668,6 +687,40 @@
     ]
   },
   "news": [
+    {
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "source": "The Verge",
+      "date": "2026-08-25 09:15",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Hugging Face 해킹으로 Alabama AG에 의해 소환된 OpenAI",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-25 09:00",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
       "url": "https://arxiv.org/abs/2608.21362",
@@ -1022,6 +1075,22 @@
       "themes": [
         "미술·디자인"
       ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI Security Test Targeted Real Companies After a Naming Error - TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYWpsMFFEVk1sSUh3bm9ySG80RndrcjhFb2hIWGVfZmpqcmtpNF9kZFh6RTNuZDQ4VjYtSDhQMWdkWEU5d3FtaXR3SmY5N1RIbGJlcEFfZDZxWHA1Z2pJVEFmRmVST0M4S0hNRjNOVV9wS0pJWnhCSUdwRkV6N2U3YnBn?oc=5",
+      "source": "TechRepublic",
+      "date": "2026-08-24 19:40",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "이름 지정 오류 후 AI 보안 테스트 대상 실제 회사 - TechRepublic",
+      "type": "뉴스·분석",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1605,6 +1674,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "v4.5.13",
+      "url": "https://github.com/blender/blender/releases/tag/v4.5.13",
+      "source": "GitHub · Blender",
+      "date": "2026-08-24 11:28",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v4.5.13",
+      "type": "출시·업데이트",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Humanoid robots smash Usain Bolt’s 100-meter record",
       "url": "https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
       "source": "The Verge",
@@ -1921,80 +2008,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "HPE Discover 2023: GreenLake enters the AI market with LLM cloud service - TechRepublic",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xcEdfcHl5VDZTckZlQ0x3Z2hfVDN6emQ0Q0t2a1dOVU9PYTlHTDhVVTFiYUtoLUtqeFVCQjhZM09DSnBKbTM5X3h3b21zTUZYb2xQVWc2b1NqWWZ2NDU2N0d1QldhZzlUbmc?oc=5",
-      "source": "TechRepublic",
-      "date": "2026-08-22 03:36",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "HPE Discover 2023: GreenLake, LLM 클라우드 서비스로 AI 시장 진출 - TechRepublic",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "MiniMax Unveils M2.1 to Bring Multilingual Programming Gains to Open AI Models - TechRepublic",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Bd29fTmdTaXVjUDJwSzA4YVhudGxmWGNYR0I0TlJPRXVFQU9lQi04eEpCYTFNQ0hxNldhVENVLWp0YW0wTkhmeHBEaVJ0ZTJrWlNxT1dnS0RWRVEyY1Y4N3JQU1NLeGxRUExDWS0wN2ZIdw?oc=5",
-      "source": "TechRepublic",
-      "date": "2026-08-22 03:17",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "MiniMax, M2.1을 공개하여 개방형 AI 모델에 다국어 프로그래밍 이득 제공 - TechRepublic",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Microsoft Teams will now integrate with GitHub to help you manage developer projects - TechRepublic",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY21mSlJzYnQybWZKa3lHSi1mU2RfQVVOWFpQOXNYbjVYQlR6dGRXaUkyQmNLYkJEZXp5TXBLcV9YS2lSWUJwd0J6Z1dkel85TWRwZDNoVlBSSkp4R2l4emVzU01aVWRFaTJVQ2NDTkdDOWtVXzlOT05aT1R2OEFZT0ZWbDNka3JaRkdTRTBTRlh2cHMtNGNzQVVscTBqV0MtQ1E5MUs1cnhVMTRWdFRjc1EyNjNab0lUbzRnYzdLRHBPV0k?oc=5",
-      "source": "TechRepublic",
-      "date": "2026-08-22 00:50",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 Microsoft Teams가 GitHub와 통합되어 개발자 프로젝트를 관리하는 데 도움이 됩니다 - TechRepublic",
-      "type": "오픈소스",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "How software-defined manufacturing fits into real factory operations",
-      "url": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
-      "source": "The Robot Report",
-      "date": "2026-08-22 00:48",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "소프트웨어 정의 제조가 실제 공장 운영에 적합한 방법",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 7,
-    "checkedAt": "2026. 8. 25. PM 6:02",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 8,
+    "checkedAt": "2026. 8. 25. PM 6:30",
+    "mode": "하루 2회 전체 수집"
   }
 }
