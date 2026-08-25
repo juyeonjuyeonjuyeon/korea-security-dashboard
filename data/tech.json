@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 25. PM 6:30",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 25. PM 6:53",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "Thomson Reuters, 자체 프론티어 모델 출시",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 61,
+    "recentCount": 62,
     "sourceCount": 23,
-    "officialCount": 23,
+    "officialCount": 24,
     "opportunityCount": 1
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "Hugging Face 해킹으로 Alabama AG에 의해 소환된 OpenAI",
       "latest": "2026-08-25 09:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:30:32.179Z",
+      "lastRefreshed": "2026-08-25T09:53:49.677Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "XPU가 세계적 수준의 AI 공장을 만나는 방법",
       "latest": "2026-08-24 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:30:32.179Z",
+      "lastRefreshed": "2026-08-25T09:53:49.677Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
       "latest": "2026-08-25 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:30:32.179Z",
+      "lastRefreshed": "2026-08-25T09:53:49.677Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "아폴로, 금융 회사를 겨냥한 사이버 공격 중 데이터 유출 확인 - TechRepublic",
       "latest": "2026-08-24 18:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:30:32.179Z",
+      "lastRefreshed": "2026-08-25T09:53:49.677Z",
       "themes": []
     },
     {
@@ -74,7 +74,7 @@
       "summary": "로봇 공학과 궤도 상 노동의 미래",
       "latest": "2026-08-24 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:30:32.179Z",
+      "lastRefreshed": "2026-08-25T09:53:49.677Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -84,28 +84,26 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
+      "count": 3,
       "summary": "매사추세츠는 에너지 비용을 낮추기 위한 조치를 취하고 있습니다. 세부 정보를 올바르게 입력하세요.",
       "latest": "2026-08-25 03:12",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-25T09:30:32.179Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-08-25T09:53:49.677Z",
+      "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 15,
+      "count": 16,
       "summary": "v16.4.0-canary.6",
       "latest": "2026-08-24 23:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-25T09:30:32.179Z",
+      "lastRefreshed": "2026-08-25T09:53:49.677Z",
       "themes": [
+        "미술·디자인",
         "주요 기업",
-        "기회",
-        "미술·디자인"
+        "기회"
       ]
     }
   ],
@@ -344,6 +342,24 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "v5.2.1: Cycles: Bump minimum driver version in UI from 570 to 575",
+        "url": "https://github.com/blender/blender/releases/tag/v5.2.1",
+        "source": "GitHub · Blender",
+        "date": "2026-08-24 16:50",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v5.2.1: 주기: UI의 최소 드라이버 버전을 570에서 575로 범프",
+        "type": "출시·업데이트",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       },
       {
         "title": "v4.5.13",
@@ -1308,6 +1324,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "v5.2.1: Cycles: Bump minimum driver version in UI from 570 to 575",
+      "url": "https://github.com/blender/blender/releases/tag/v5.2.1",
+      "source": "GitHub · Blender",
+      "date": "2026-08-24 16:50",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v5.2.1: 주기: UI의 최소 드라이버 버전을 570에서 575로 범프",
+      "type": "출시·업데이트",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
       "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
       "source": "Ars Technica",
@@ -1990,32 +2024,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Who Was Right About Tesla Robotaxi Deployment in 2025?",
-      "url": "https://cleantechnica.com/2026/08/21/who-was-right-about-tesla-robotaxi-deployment-in-2025/",
-      "source": "CleanTechnica",
-      "date": "2026-08-22 03:55",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "2025년 Tesla Robotaxi 배포에 대해 누가 옳았습니까?",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 25. PM 6:30",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 25. PM 6:53",
+    "mode": "매시간 공식 레이더"
   }
 }
