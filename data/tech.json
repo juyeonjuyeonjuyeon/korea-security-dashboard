@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 26. PM 5:02",
+  "updatedAt": "2026. 8. 26. PM 6:05",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 26일 – JWST 이미지 사자의 머리 성운",
   "metrics": {
     "articleCount": 80,
     "recentCount": 68,
-    "sourceCount": 20,
+    "sourceCount": 19,
     "officialCount": 29,
     "opportunityCount": 4
   },
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
+      "count": 32,
       "summary": "빌 게이츠는 우리가 AI의 위험 기준을 통과했다고 말합니다. 이제 무엇을 할까요?",
       "latest": "2026-08-26 07:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T08:02:42.814Z",
+      "lastRefreshed": "2026-08-26T09:05:31.532Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "Apple의 새로운 Mac Mini는 새로운 M6 및 M5 Pro 칩을 제공하며 가격이 더 높습니다.",
       "latest": "2026-08-25 15:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T08:02:42.814Z",
+      "lastRefreshed": "2026-08-26T09:05:31.532Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -53,7 +53,7 @@
       "summary": "로보틱스 스타트업 제너럴리스트 (Generalist) 가 $ 3B 밸류에이션에 도달했다고 소식통은 전합니다.",
       "latest": "2026-08-26 00:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T08:02:42.814Z",
+      "lastRefreshed": "2026-08-26T09:05:31.532Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,11 +62,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
-      "summary": "가짜 Apple 지원 AI가 비밀번호 및 2FA 코드로 타겟 도난 장치 소유자를 호출합니다",
-      "latest": "2026-08-26 05:47",
+      "count": 6,
+      "summary": "인터폴, '자칼 IV 작전'으로 전 세계 사이버 사기 단속 강화: 58명 체포, 263명 신원 확인",
+      "latest": "2026-08-26 07:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T08:02:42.814Z",
+      "lastRefreshed": "2026-08-26T09:05:31.532Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -80,7 +80,7 @@
       "summary": "APOD: 2026년 8월 26일 – JWST 이미지 사자의 머리 성운",
       "latest": "2026-08-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T08:02:42.814Z",
+      "lastRefreshed": "2026-08-26T09:05:31.532Z",
       "themes": [
         "미술·디자인",
         "기회",
@@ -95,7 +95,7 @@
       "summary": "에너지 저장은 신뢰성을 강화하고 있습니다. 이 5개의 주가 요금 청구를 주도하고 있습니다.",
       "latest": "2026-08-26 01:56",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-26T08:02:42.814Z",
+      "lastRefreshed": "2026-08-26T09:05:31.532Z",
       "themes": [
         "주요 기업"
       ]
@@ -108,7 +108,7 @@
       "summary": "v16.4.0-canary.8",
       "latest": "2026-08-25 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T08:02:42.814Z",
+      "lastRefreshed": "2026-08-26T09:05:31.532Z",
       "themes": [
         "기회"
       ]
@@ -538,6 +538,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+        "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+        "source": "The Hacker News",
+        "date": "2026-08-26 07:54",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "인터폴, '자칼 IV 작전'으로 전 세계 사이버 사기 단속 강화: 58명 체포, 263명 신원 확인",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
         "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
         "source": "MIT Technology Review",
@@ -718,24 +734,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
-        "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
-        "source": "TechCrunch",
-        "date": "2026-08-26 00:06",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI는 높은 인지도로 출발하는 스트림이 계속됨에 따라 최고의 데이터 센터 임원을 잃게 됩니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -844,6 +842,22 @@
     ]
   },
   "news": [
+    {
+      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+      "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+      "source": "The Hacker News",
+      "date": "2026-08-26 07:54",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "인터폴, '자칼 IV 작전'으로 전 세계 사이버 사기 단속 강화: 58명 체포, 263명 신원 확인",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
       "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
@@ -2167,22 +2181,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "AI Security Test Targeted Real Companies After a Naming Error - TechRepublic",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYWpsMFFEVk1sSUh3bm9ySG80RndrcjhFb2hIWGVfZmpqcmtpNF9kZFh6RTNuZDQ4VjYtSDhQMWdkWEU5d3FtaXR3SmY5N1RIbGJlcEFfZDZxWHA1Z2pJVEFmRmVST0M4S0hNRjNOVV9wS0pJWnhCSUdwRkV6N2U3YnBn?oc=5",
-      "source": "TechRepublic",
-      "date": "2026-08-24 19:40",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "이름 지정 오류 후 AI 보안 테스트 대상 실제 회사 - TechRepublic",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2190,7 +2188,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 26. PM 5:02",
+    "checkedAt": "2026. 8. 26. PM 6:05",
     "mode": "매시간 공식 레이더"
   }
 }
