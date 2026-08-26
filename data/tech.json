@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 26. PM 6:05",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 8. 26. PM 6:35",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "APOD: 2026년 8월 26일 – JWST 이미지 사자의 머리 성운",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 68,
-    "sourceCount": 19,
-    "officialCount": 29,
+    "recentCount": 72,
+    "sourceCount": 20,
+    "officialCount": 27,
     "opportunityCount": 4
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "빌 게이츠는 우리가 AI의 위험 기준을 통과했다고 말합니다. 이제 무엇을 할까요?",
-      "latest": "2026-08-26 07:01",
+      "count": 34,
+      "summary": "Raised on AI",
+      "latest": "2026-08-26 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:05:31.532Z",
+      "lastRefreshed": "2026-08-26T09:35:32.186Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "Apple의 새로운 Mac Mini는 새로운 M6 및 M5 Pro 칩을 제공하며 가격이 더 높습니다.",
       "latest": "2026-08-25 15:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:05:31.532Z",
+      "lastRefreshed": "2026-08-26T09:35:32.186Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 6,
       "summary": "로보틱스 스타트업 제너럴리스트 (Generalist) 가 $ 3B 밸류에이션에 도달했다고 소식통은 전합니다.",
       "latest": "2026-08-26 00:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:05:31.532Z",
+      "lastRefreshed": "2026-08-26T09:35:32.186Z",
       "themes": [
         "주요 기업"
       ]
@@ -66,7 +66,7 @@
       "summary": "인터폴, '자칼 IV 작전'으로 전 세계 사이버 사기 단속 강화: 58명 체포, 263명 신원 확인",
       "latest": "2026-08-26 07:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:05:31.532Z",
+      "lastRefreshed": "2026-08-26T09:35:32.186Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -80,7 +80,7 @@
       "summary": "APOD: 2026년 8월 26일 – JWST 이미지 사자의 머리 성운",
       "latest": "2026-08-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:05:31.532Z",
+      "lastRefreshed": "2026-08-26T09:35:32.186Z",
       "themes": [
         "미술·디자인",
         "기회",
@@ -95,7 +95,7 @@
       "summary": "에너지 저장은 신뢰성을 강화하고 있습니다. 이 5개의 주가 요금 청구를 주도하고 있습니다.",
       "latest": "2026-08-26 01:56",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-26T09:05:31.532Z",
+      "lastRefreshed": "2026-08-26T09:35:32.186Z",
       "themes": [
         "주요 기업"
       ]
@@ -104,11 +104,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
+      "count": 16,
       "summary": "v16.4.0-canary.8",
       "latest": "2026-08-25 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:05:31.532Z",
+      "lastRefreshed": "2026-08-26T09:35:32.186Z",
       "themes": [
         "기회"
       ]
@@ -538,6 +538,40 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Raised on AI",
+        "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-26 09:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Raised on AI",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI models flub these intelligence tests. Can you fare any better?",
+        "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+        "source": "MIT Technology Review",
+        "date": "2026-08-26 09:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI 모델은 이러한 인텔리전스 테스트를 플럽합니다. 더 나은 요금을 책정할 수 있나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
         "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
         "source": "The Hacker News",
@@ -702,38 +736,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Energy Storage Is Strengthening Reliability. These 5 States Are Leading the Charge.",
-        "url": "https://cleantechnica.com/2026/08/25/energy-storage-is-strengthening-reliability-these-5-states-are-leading-the-charge/",
-        "source": "CleanTechnica",
-        "date": "2026-08-26 01:56",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "에너지 저장은 신뢰성을 강화하고 있습니다. 이 5개의 주가 요금 청구를 주도하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Robotics startup Generalist reaches $3B valuation, sources say",
-        "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
-        "source": "TechCrunch",
-        "date": "2026-08-26 00:40",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "로보틱스 스타트업 제너럴리스트 (Generalist) 가 $ 3B 밸류에이션에 도달했다고 소식통은 전합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -842,6 +844,40 @@
     ]
   },
   "news": [
+    {
+      "title": "Raised on AI",
+      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-26 09:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Raised on AI",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "source": "MIT Technology Review",
+      "date": "2026-08-26 09:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI 모델은 이러한 인텔리전스 테스트를 플럽합니다. 더 나은 요금을 책정할 수 있나요?",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
       "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
@@ -1093,6 +1129,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Persona AI Brings Calm Experience to the Hectic Humanoid Industry - IEEE Spectrum",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5COGFhcUVRZXRCVktwZ0dlUEpoSWtBMEI4NmNlcEp1UXBGRVJMdGc2QV9KVmJlMDFvbDNFRFItTTlCLUtZZ3RGSmw5LVdlLUFiRlF6VmhQdzZEZnNLSW05dVJrMGdMYW10ZXhlVDl3?oc=5",
+      "source": "IEEE Spectrum",
+      "date": "2026-08-26 00:00",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "페르소나 AI, 헥틱 휴머노이드 산업에 차분한 경험을 선사하다 - IEEE 스펙트럼",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Tesla Gets Robotaxi Permit in Nevada … for 10 Vehicles",
       "url": "https://cleantechnica.com/2026/08/25/tesla-gets-robotaxi-permit-in-nevada-for-10-vehicles/",
       "source": "CleanTechnica",
@@ -1275,6 +1327,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Google expands Gemini Enterprise AI platform for law firms, lawyers - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZk81aGh3d2lJX0FucWpwclltdnRJd3RqNVpTWnhMeGNBU3FUeWRIby1lcEpQQ3NOT1VaWjRlU19vT1lmVzdMTEpjbm16eTh4MTdvbGRtN1ZQb243eVZ2aF9Sd19PMEtzd2ZpbGV2R0p5SzZRTGJLNkE4TGNZUmtxVnlvVGx1NlVYQkIwMmEwRnV6RGxEQ1BvTGIzNGE?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-25 20:13",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google, 로펌, 변호사를 위한 Gemini Enterprise AI 플랫폼 확장 - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Rule insights dashboard generally available",
@@ -1489,6 +1559,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "SpaceX to build $100 billion Starship rocket complex in Louisiana - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORG1YdF9QNURIQTAzUGlMYjJjRDNEUTl5MUxDV0h6bEZvb042NXpHeW1ZbUtvRW9LbjZfWHM1cjdLSURFN0hZclBpOXFVSGV1N2lSQ0ZlQXEyUXZhU3RQR1gxa1JDNVRKZFFOUlpSaHFOVmk4TGt3UUlmTnViWlNqYVNnSDJKaGZpenpYVERzRTUzTWJybS10aE9CZlo4NHJNSGc?oc=5",
+      "source": "Reuters",
+      "date": "2026-08-25 16:26",
+      "categoryId": "space",
+      "confidence": "B",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "SpaceX, 루이지애나에 $ 1,000억 규모의 우주선 로켓 단지 건설 - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "v16.3.3",
@@ -1989,22 +2077,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-      "source": "MIT Technology Review",
-      "date": "2026-08-25 09:00",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Introducing Run SDK: secure eval for your agents",
       "url": "https://vercel.com/blog/introducing-run",
       "source": "Vercel Changelog",
@@ -2117,78 +2189,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Robotics and the future of on-orbit labor",
-      "url": "https://spacenews.com/robotics-and-the-future-of-on-orbit-labor/",
-      "source": "SpaceNews",
-      "date": "2026-08-24 22:26",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "로봇 공학과 궤도 상 노동의 미래",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
-      "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
-      "source": "The Robot Report",
-      "date": "2026-08-24 20:07",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "XPeng Motors 휴머노이드 로봇 유닛 Dogotix, $ 900M 모금",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v0.33.4",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.4",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-08-24 19:57",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.33.4",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.4.0-canary.5",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.5",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-24 19:47",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.0-canary.5",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 26. PM 6:05",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 8. 26. PM 6:35",
+    "mode": "하루 2회 전체 수집"
   }
 }
