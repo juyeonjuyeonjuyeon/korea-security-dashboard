@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 26. PM 6:35",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 26. PM 7:53",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 8월 26일 – JWST 이미지 사자의 머리 성운",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 72,
+    "recentCount": 73,
     "sourceCount": 20,
-    "officialCount": 27,
+    "officialCount": 26,
     "opportunityCount": 4
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "Raised on AI",
       "latest": "2026-08-26 09:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:35:32.186Z",
+      "lastRefreshed": "2026-08-26T10:53:22.852Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "Apple의 새로운 Mac Mini는 새로운 M6 및 M5 Pro 칩을 제공하며 가격이 더 높습니다.",
       "latest": "2026-08-25 15:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:35:32.186Z",
+      "lastRefreshed": "2026-08-26T10:53:22.852Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
+      "count": 5,
       "summary": "로보틱스 스타트업 제너럴리스트 (Generalist) 가 $ 3B 밸류에이션에 도달했다고 소식통은 전합니다.",
       "latest": "2026-08-26 00:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:35:32.186Z",
+      "lastRefreshed": "2026-08-26T10:53:22.852Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,11 +62,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
-      "summary": "인터폴, '자칼 IV 작전'으로 전 세계 사이버 사기 단속 강화: 58명 체포, 263명 신원 확인",
-      "latest": "2026-08-26 07:54",
+      "count": 8,
+      "summary": "Claude Opus 4.6 헬스장 예약 제한 우회, 테스트에서 다른 사용자의 예약 취소",
+      "latest": "2026-08-26 10:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:35:32.186Z",
+      "lastRefreshed": "2026-08-26T10:53:22.852Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -80,7 +80,7 @@
       "summary": "APOD: 2026년 8월 26일 – JWST 이미지 사자의 머리 성운",
       "latest": "2026-08-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:35:32.186Z",
+      "lastRefreshed": "2026-08-26T10:53:22.852Z",
       "themes": [
         "미술·디자인",
         "기회",
@@ -95,7 +95,7 @@
       "summary": "에너지 저장은 신뢰성을 강화하고 있습니다. 이 5개의 주가 요금 청구를 주도하고 있습니다.",
       "latest": "2026-08-26 01:56",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-26T09:35:32.186Z",
+      "lastRefreshed": "2026-08-26T10:53:22.852Z",
       "themes": [
         "주요 기업"
       ]
@@ -104,11 +104,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
+      "count": 15,
       "summary": "v16.4.0-canary.8",
       "latest": "2026-08-25 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-26T09:35:32.186Z",
+      "lastRefreshed": "2026-08-26T10:53:22.852Z",
       "themes": [
         "기회"
       ]
@@ -538,6 +538,40 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+        "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+        "source": "The Hacker News",
+        "date": "2026-08-26 10:27",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "Claude Opus 4.6 헬스장 예약 제한 우회, 테스트에서 다른 사용자의 예약 취소",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
+        "url": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
+        "source": "The Hacker News",
+        "date": "2026-08-26 09:38",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "OpenAI, 영향력 행사에 사용된 러시아 채팅 금지GPT 계정",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Raised on AI",
         "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
         "source": "MIT Technology Review",
@@ -702,40 +736,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "MolEmb: Multimodal Large Language Models Can Be Strong Molecular Embedding Models",
-        "url": "https://arxiv.org/abs/2608.23646",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-26 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "MolEmb: Multimodal Large Language Models Can Be Strong Molecular Embedding Models",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-        "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-        "source": "TechCrunch",
-        "date": "2026-08-26 03:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인도의 링그는 전화 통화를 통해 음성 AI를 밀면서 Peak XV의 지원을 받습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -844,6 +844,40 @@
     ]
   },
   "news": [
+    {
+      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+      "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+      "source": "The Hacker News",
+      "date": "2026-08-26 10:27",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "Claude Opus 4.6 헬스장 예약 제한 우회, 테스트에서 다른 사용자의 예약 취소",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
+      "url": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
+      "source": "The Hacker News",
+      "date": "2026-08-26 09:38",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "OpenAI, 영향력 행사에 사용된 러시아 채팅 금지GPT 계정",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Raised on AI",
       "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
@@ -2157,46 +2191,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.4.0-canary.6",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.6",
-      "source": "GitHub · Next.js",
-      "date": "2026-08-24 23:45",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.0-canary.6",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
-      "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
-      "source": "The Robot Report",
-      "date": "2026-08-24 22:53",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "다음 큰 인공지능 놀이는 앱이나 휴머노이드가 아니라 뇌와 뇌가 있는 기계입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 8. 26. PM 6:35",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 26. PM 7:53",
+    "mode": "매시간 공식 레이더"
   }
 }
