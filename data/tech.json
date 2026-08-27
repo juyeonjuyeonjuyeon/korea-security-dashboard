@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 28. AM 4:24",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 28. AM 5:34",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "Chat SDK로 Claude Managed Agent 실행",
   "metrics": {
     "articleCount": 80,
     "recentCount": 80,
-    "sourceCount": 25,
-    "officialCount": 20,
+    "sourceCount": 24,
+    "officialCount": 21,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
-      "summary": "OpenAI는 보상 해킹이 AI 에이전트가 제로 데이즈를 악용하고 포옹의 얼굴을 뚫도록 유도했다고 말합니다 - 해커 뉴스",
-      "latest": "2026-08-27 18:36",
+      "count": 34,
+      "summary": "OpenAI로 탈퇴한 Thinking Machines 공동 설립자 Barret Zoph가 현재 Google에 있습니다.",
+      "latest": "2026-08-27 19:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-27T19:24:16.722Z",
+      "lastRefreshed": "2026-08-27T20:34:17.221Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "Jensen Huang은 Nvidia가 AGI를 달성했다고 말합니다. 중요한 것은 아닙니다.",
       "latest": "2026-08-27 16:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-27T19:24:16.722Z",
+      "lastRefreshed": "2026-08-27T20:34:17.221Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,22 +48,22 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 6,
       "summary": "NSF는 로봇 공학에 중점을 둔 3 개의 새로운 기술 센터에 $ 90M를 투자합니다.",
       "latest": "2026-08-27 18:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-27T19:24:16.722Z",
+      "lastRefreshed": "2026-08-27T20:34:17.221Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
-      "summary": "AI 기반 공격에 대비한 보안 운영 구축 방법 알아보기",
-      "latest": "2026-08-27 11:56",
+      "count": 5,
+      "summary": "OpenAI는 보상 해킹으로 AI 요원이 제로 데이즈를 이용하고 포옹하는 얼굴을 뚫었다고 말합니다.",
+      "latest": "2026-08-27 18:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-27T19:24:16.722Z",
+      "lastRefreshed": "2026-08-27T20:34:17.221Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "미항공우주국 (NASA), 터키 아르테미스 협정 서명식에 미디어 초청",
       "latest": "2026-08-27 18:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-27T19:24:16.722Z",
+      "lastRefreshed": "2026-08-27T20:34:17.221Z",
       "themes": []
     },
     {
@@ -87,7 +87,7 @@
       "summary": "배터리 비용은 전 세계적입니다. 화물 지리학은 그렇지 않습니다.",
       "latest": "2026-08-27 07:36",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-27T19:24:16.722Z",
+      "lastRefreshed": "2026-08-27T20:34:17.221Z",
       "themes": [
         "미술·디자인"
       ]
@@ -96,11 +96,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 12,
+      "count": 14,
       "summary": "Chat SDK로 Claude Managed Agent 실행",
       "latest": "2026-08-28 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-27T19:24:16.722Z",
+      "lastRefreshed": "2026-08-27T20:34:17.221Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -121,6 +121,24 @@
         "titleKo": "Chat SDK로 Claude Managed Agent 실행",
         "type": "출시·업데이트",
         "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v1.2.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+        "source": "GitHub · Anthropic SDK",
+        "date": "2026-08-27 20:28",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v1.2.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -288,22 +306,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Galactic Energy targets Sept. 1 for debut launch of Pallas-1 rocket - SpaceNews",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT0RDVEExaU0xc1RDbldPT1d2VDBfNnk0cWpvQ294bXR4WU1DeDFhQVIxT3ZOdnZvUXkwbEFRcnBqdVVDcy01dndsSmhzcG9MM3Jzd3BzUUlWVUVuNU1vbktHM2VkTHdMU1g0Skg3b0ZxeHh1ai1SUURPRVpHdERBNlZFSWVlYmI4OTQwcW8yOG9yRWM?oc=5",
-        "source": "SpaceNews",
-        "date": "2026-08-27 09:47",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "은하 에너지, 팔라스-1 로켓의 데뷔 발사를 위해 9월 1일 목표 - SpaceNews",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -439,15 +441,51 @@
     ],
     "analysis": [
       {
-        "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face - The Hacker News",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfUUdvd08wRTFsbk9kbWd2TnQxSTl4YXhRQl9Objl1Mmk4VUxZTktnaWg4Q1dMeGl5dDJjSG9Rd2ZUQmJBWUNpTXFHalJtMm9RRlJCdHoxTWY3REVhak0zTnh3bmRpOV9LYmNQdl9nT21sc0RNR2JoZDJVa1BjcXc?oc=5",
-        "source": "The Hacker News",
-        "date": "2026-08-27 18:36",
+        "title": "Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google",
+        "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+        "source": "TechCrunch",
+        "date": "2026-08-27 19:52",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
         "category": "인공지능",
-        "titleKo": "OpenAI는 보상 해킹이 AI 에이전트가 제로 데이즈를 악용하고 포옹의 얼굴을 뚫도록 유도했다고 말합니다 - 해커 뉴스",
+        "titleKo": "OpenAI로 탈퇴한 Thinking Machines 공동 설립자 Barret Zoph가 현재 Google에 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Google’s AI note-taking app now allows you to interact with books",
+        "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+        "source": "The Verge",
+        "date": "2026-08-27 19:43",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "이제 Google의 AI 노트 필기 앱을 사용하여 책과 상호 작용할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+        "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+        "source": "The Hacker News",
+        "date": "2026-08-27 18:36",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "OpenAI는 보상 해킹으로 AI 요원이 제로 데이즈를 이용하고 포옹하는 얼굴을 뚫었다고 말합니다.",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -611,41 +649,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
-        "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
-        "source": "TechCrunch",
-        "date": "2026-08-27 14:56",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Hugging Face는 귀여운 $ 399 오픈 소스 오리 로봇인 Microduck을 판매하고 있습니다.",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The electronics ‘under the hood’ of space networking",
-        "url": "https://spacenews.com/the-electronics-under-the-hood-of-space-networking/",
-        "source": "SpaceNews",
-        "date": "2026-08-27 14:50",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "공간 네트워킹의 ‘후드 아래’ 전자 제품",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Gemini Omni 1.1 Flash",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+        "source": "Hacker News",
+        "date": "2026-08-27 17:06",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Gemini Omni 1.1 플래시",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Small Models Have Arrived",
         "url": "https://calv.info/small-models-have-arrived",
@@ -729,22 +751,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-        "url": "https://github.com/SenteLabsAI/OpenExecutive",
-        "source": "Hacker News",
-        "date": "2026-08-27 01:46",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "CEO는 AI를 위한 공간을 마련하기 위해 개발자를 해고했습니다. 개발자가 오픈 소스 AI CEO를 만든다",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -766,6 +772,60 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "v1.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+      "source": "GitHub · Anthropic SDK",
+      "date": "2026-08-27 20:28",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v1.2.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google",
+      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "source": "TechCrunch",
+      "date": "2026-08-27 19:52",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI로 탈퇴한 Thinking Machines 공동 설립자 Barret Zoph가 현재 Google에 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google’s AI note-taking app now allows you to interact with books",
+      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+      "source": "The Verge",
+      "date": "2026-08-27 19:43",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "이제 Google의 AI 노트 필기 앱을 사용하여 책과 상호 작용할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "NASA Invites Media to Turkey Artemis Accords Signing Ceremony",
       "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony/",
       "source": "NASA",
@@ -782,15 +842,15 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face - The Hacker News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfUUdvd08wRTFsbk9kbWd2TnQxSTl4YXhRQl9Objl1Mmk4VUxZTktnaWg4Q1dMeGl5dDJjSG9Rd2ZUQmJBWUNpTXFHalJtMm9RRlJCdHoxTWY3REVhak0zTnh3bmRpOV9LYmNQdl9nT21sc0RNR2JoZDJVa1BjcXc?oc=5",
+      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+      "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
       "source": "The Hacker News",
       "date": "2026-08-27 18:36",
-      "categoryId": "ai",
+      "categoryId": "cyber",
       "confidence": "C",
       "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI는 보상 해킹이 AI 에이전트가 제로 데이즈를 악용하고 포옹의 얼굴을 뚫도록 유도했다고 말합니다 - 해커 뉴스",
+      "category": "사이버보안",
+      "titleKo": "OpenAI는 보상 해킹으로 AI 요원이 제로 데이즈를 이용하고 포옹하는 얼굴을 뚫었다고 말합니다.",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -918,6 +978,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "source": "Hacker News",
+      "date": "2026-08-27 17:06",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Gemini Omni 1.1 플래시",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
@@ -1127,24 +1203,6 @@
       "titleKo": "염좌, 통증 및 채찍질: Waymo 및 Zoox 테스트 드라이버가 로봇 택시 스케일로 다치고 있습니다.",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Australian police arrest two over TeamPCP hacks targeting Mercor, OpenAI, and others",
-      "url": "https://techcrunch.com/2026/08/27/australian-police-arrest-two-over-teampcp-hacks-targeting-mercor-openai-and-others/",
-      "source": "TechCrunch",
-      "date": "2026-08-27 14:27",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "호주 경찰, Mercor, OpenAI 등을 겨냥한 TeamPCP 해킹으로 2명 체포",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1486,6 +1544,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "The best workflow engine is a programming language",
+      "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
+      "source": "Vercel Changelog",
+      "date": "2026-08-27 07:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "The best workflow engine is a programming language",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5",
       "source": "Bloomberg",
@@ -1730,22 +1804,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-      "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "source": "Hacker News",
-      "date": "2026-08-27 01:46",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "CEO는 AI를 위한 공간을 마련하기 위해 개발자를 해고했습니다. 개발자가 오픈 소스 AI CEO를 만든다",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v3.5.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.5.0",
       "source": "GitHub · OpenAI Python",
@@ -1988,24 +2046,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "OpenAI’s rogue AI model incident was worse than we thought - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb1plTFExM3lLRkRCZ3ZLb0FobHM5R1ZyTVREaWxOWnJfcG5ZRlE4NHpXNjBQRTl3ZTVKQkVfWUY0YjhsMnIyUnRTZlBZNm0yTVQ4Z1dhZkU3TVc2eWFuNnF4N1hZSHhwTGNFaFh6M0c3em9qWnpxd1NJS3J0TWh2U0wtcHRGNmlFV3MyTU1iYTJuLXlETUl6Mi04VVZvZS03TXRud1NsUk1GZk9QNm9YMGxxQ1ladHpUbnlrVFlQcVBFY3BRamNRakVn?oc=5",
-      "source": "The Verge",
-      "date": "2026-08-26 21:36",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI’s rogue AI model incident was worse than we thought - The Verge",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
       "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
       "source": "Ars Technica",
@@ -2058,46 +2098,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v0.34.1",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.1",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-08-26 20:38",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.34.1",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Persona AI Brings Calm Experience to the Hectic Humanoid Industry - IEEE Spectrum",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5COGFhcUVRZXRCVktwZ0dlUEpoSWtBMEI4NmNlcEp1UXBGRVJMdGc2QV9KVmJlMDFvbDNFRFItTTlCLUtZZ3RGSmw5LVdlLUFiRlF6VmhQdzZEZnNLSW05dVJrMGdMYW10ZXhlVDl3?oc=5",
-      "source": "IEEE Spectrum",
-      "date": "2026-08-26 20:17",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Persona AI Brings Calm Experience to the Hectic Humanoid Industry - IEEE Spectrum",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 28. AM 4:24",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 28. AM 5:34",
+    "mode": "매시간 공식 레이더"
   }
 }
