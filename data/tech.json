@@ -1,33 +1,33 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 29. PM 12:05",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 8. 29. PM 6:10",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.11",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 47,
+    "recentCount": 45,
     "sourceCount": 26,
     "officialCount": 25,
     "opportunityCount": 0
   },
   "summary": [
     "새 출시: v16.4.0-canary.11",
-    "창작 기술: Visual Studio의 GitHub Copilot — 8월 업데이트"
+    "창작 기술: PICasso: 실리콘 광소자의 자율 최적화를 위한 AI 지원 설계 프레임워크"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
-      "summary": "Google은 AI 모드에서 검색 결과를 추가로 묻습니다.",
-      "latest": "2026-08-28 22:48",
+      "count": 34,
+      "summary": "독립형 LLM 및 ICU 사망률 예측을 설명하기 위한 사전 지정된 에이전트 파이프라인: eICU 데모 데이터 세트에 대한 타당성 연구",
+      "latest": "2026-08-29 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-29T03:05:55.042Z",
+      "lastRefreshed": "2026-08-29T09:10:29.811Z",
       "themes": [
-        "주요 기업",
         "미술·디자인",
-        "영상"
+        "주요 기업",
+        "음악·음성"
       ]
     },
     {
@@ -38,7 +38,7 @@
       "summary": "Neocloud Lambda는 더 많은 칩을 구매하기 위해 $ 10억의 부채를 확보합니다",
       "latest": "2026-08-28 20:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-29T03:05:55.042Z",
+      "lastRefreshed": "2026-08-29T09:10:29.811Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "가르치고 반복하기에서 SelfPath AI까지: 다음 로봇 도약",
       "latest": "2026-08-28 23:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-29T03:05:55.042Z",
+      "lastRefreshed": "2026-08-29T09:10:29.811Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +64,7 @@
       "summary": "루트 RCE를 활성화하는 두 개의 Unitree G1 EDU 휴머노이드 로봇 결함, 하나는 블루투스를 통해 시작",
       "latest": "2026-08-28 12:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-29T03:05:55.042Z",
+      "lastRefreshed": "2026-08-29T09:10:29.811Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,12 +73,14 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
-      "summary": "NASA의 아르테미스 II 승무원, 의회 우주 명예 훈장 수상",
-      "latest": "2026-08-28 22:21",
+      "count": 11,
+      "summary": "SpaceX 인수 후 Cursor에 대한 당사의 결정",
+      "latest": "2026-08-29 01:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-29T03:05:55.042Z",
-      "themes": []
+      "lastRefreshed": "2026-08-29T09:10:29.811Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "energy",
@@ -88,7 +90,7 @@
       "summary": "시에라 클럽, 개인 개발자를 위한 요세미티 조각 계획 트럼프 슬램",
       "latest": "2026-08-28 23:11",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-29T03:05:55.042Z",
+      "lastRefreshed": "2026-08-29T09:10:29.811Z",
       "themes": [
         "주요 기업"
       ]
@@ -101,7 +103,7 @@
       "summary": "v16.4.0-canary.11",
       "latest": "2026-08-28 23:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-29T03:05:55.042Z",
+      "lastRefreshed": "2026-08-29T09:10:29.811Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -309,6 +311,24 @@
     ],
     "creative": [
       {
+        "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+        "url": "https://arxiv.org/abs/2608.26113",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-29 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "PICasso: 실리콘 광소자의 자율 최적화를 위한 AI 지원 설계 프레임워크",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "GitHub Copilot in Visual Studio — August update",
         "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
         "source": "GitHub Changelog",
@@ -325,6 +345,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Run Qwen3.8 27B locally: real numbers from my Mac Studio",
+        "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally/",
+        "source": "Hacker News",
+        "date": "2026-08-28 15:24",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Run Qwen3.8 27B locally: real numbers from my Mac Studio",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Autistici/Inventati's main .org domain goes dark after US terrorism designation",
@@ -361,12 +399,48 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      }
+    ],
+    "opportunities": [],
+    "voices": [],
+    "analysis": [
+      {
+        "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+        "url": "https://arxiv.org/abs/2608.26109",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-29 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "독립형 LLM 및 ICU 사망률 예측을 설명하기 위한 사전 지정된 에이전트 파이프라인: eICU 데모 데이터 세트에 대한 타당성 연구",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+        "url": "https://arxiv.org/abs/2608.26111",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-29 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "배터리 예후 및 건강 관리를 위한 대형 모델: 검토 및 향후 로드맵",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
         "url": "https://arxiv.org/abs/2608.26113",
         "source": "arXiv cs.AI",
-        "date": "2026-08-28 04:00",
+        "date": "2026-08-29 04:00",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "analysis",
@@ -379,11 +453,55 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "opportunities": [],
-    "voices": [],
-    "analysis": [
+      },
+      {
+        "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+        "url": "https://arxiv.org/abs/2608.26114",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-29 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "CIFQA: 재무 질의 응답을 위한 결정론적 도구 기반 다중 에이전트 LLM 프레임워크",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The Accuracy-Efficiency Paradox Quantifying Net Energy Loss in on-Device Energy Forecasting",
+        "url": "https://arxiv.org/abs/2608.26134",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-29 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "온디바이스 에너지 예측에서 순 에너지 손실을 정량화하는 정확성-효율성 역설",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Leveraging Large Language Models for Systematic Literature Review of Disease Spread Models",
+        "url": "https://arxiv.org/abs/2608.26150",
+        "source": "arXiv cs.AI",
+        "date": "2026-08-29 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "질병 확산 모델의 체계적인 문헌 검토를 위한 대규모 언어 모델 활용",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "From teach and repeat to SelfPath AI: The next robotics leap",
         "url": "https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/",
@@ -483,109 +601,61 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-        "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-        "source": "TechCrunch",
-        "date": "2026-08-28 19:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인류학 연구원이 자기 계발 AI를 엿볼 수 있게 해주었습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-        "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
-        "source": "TechCrunch",
-        "date": "2026-08-28 18:19",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "오픈 웨이트 AI 회사는 밸리에서 가장 인기있는 인수 목표입니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
-        "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
-        "source": "Ars Technica",
-        "date": "2026-08-28 18:07",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "연방 판사에 의해 불법으로 간주되는 \"깨어있는\" 인류에 대한 트럼프의 블랙리스트",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Oscar Winner Brings Monsters to Life With His Simulation Software",
-        "url": "https://spectrum.ieee.org/oscar-winner-jernej-barbic",
-        "source": "IEEE Spectrum",
-        "date": "2026-08-28 18:00",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "오스카 수상자는 시뮬레이션 소프트웨어로 몬스터에게 생명을 불어넣습니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Here's what we know about the \"space academy\" Trump just announced",
-        "url": "https://arstechnica.com/space/2026/08/trump-calls-for-creation-of-a-space-academy-to-train-future-nasa-leaders/",
-        "source": "Ars Technica",
-        "date": "2026-08-28 17:36",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "방금 트럼프가 발표한 \"우주 아카데미\" 에 대해 우리가 알고 있는 것은 다음과 같습니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "EXL acquires physical AI model developer iMerit",
-        "url": "https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/",
-        "source": "The Robot Report",
-        "date": "2026-08-28 17:36",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "EXL, 물리적 AI 모델 개발자 iMerit 인수",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Our decision on Cursor following its acquisition by SpaceX",
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+        "source": "Hacker News",
+        "date": "2026-08-29 01:47",
+        "categoryId": "space",
+        "confidence": "D",
+        "stream": "community",
+        "category": "우주·통신",
+        "titleKo": "SpaceX 인수 후 Cursor에 대한 당사의 결정",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+        "url": "https://arxiv.org/abs/2608.23691",
+        "source": "Hacker News",
+        "date": "2026-08-28 17:01",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "오픈 월드 멀티 에이전트 환경에서 자율적인 수학적 발견",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Run Qwen3.8 27B locally: real numbers from my Mac Studio",
+        "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally/",
+        "source": "Hacker News",
+        "date": "2026-08-28 15:24",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Run Qwen3.8 27B locally: real numbers from my Mac Studio",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Autistici/Inventati's main .org domain goes dark after US terrorism designation",
         "url": "https://mastodon.bida.im/@cavallette/117172989300228024",
@@ -637,62 +707,126 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-        "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-        "source": "Hacker News",
-        "date": "2026-08-28 06:33",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Luanti가 근거 없는 AI 저작권 고지로 인해 Google Play에서 삭제됨",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Please stop flooding our projects with AI slop to furnish your CV",
-        "url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
-        "source": "Hacker News",
-        "date": "2026-08-28 03:49",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "이력서를 제출하기 위해 AI 슬롭으로 프로젝트에 홍수를 일으키지 마십시오.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
-        "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-        "source": "Hacker News",
-        "date": "2026-08-28 02:03",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "판사 규칙 트럼프 행정부의 인류학 블랙리스트는 불법이었습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+      "url": "https://arxiv.org/abs/2608.26109",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-29 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "독립형 LLM 및 ICU 사망률 예측을 설명하기 위한 사전 지정된 에이전트 파이프라인: eICU 데모 데이터 세트에 대한 타당성 연구",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+      "url": "https://arxiv.org/abs/2608.26111",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-29 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "배터리 예후 및 건강 관리를 위한 대형 모델: 검토 및 향후 로드맵",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+      "url": "https://arxiv.org/abs/2608.26113",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-29 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "PICasso: 실리콘 광소자의 자율 최적화를 위한 AI 지원 설계 프레임워크",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+      "url": "https://arxiv.org/abs/2608.26114",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-29 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "CIFQA: 재무 질의 응답을 위한 결정론적 도구 기반 다중 에이전트 LLM 프레임워크",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Accuracy-Efficiency Paradox Quantifying Net Energy Loss in on-Device Energy Forecasting",
+      "url": "https://arxiv.org/abs/2608.26134",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-29 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "온디바이스 에너지 예측에서 순 에너지 손실을 정량화하는 정확성-효율성 역설",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Leveraging Large Language Models for Systematic Literature Review of Disease Spread Models",
+      "url": "https://arxiv.org/abs/2608.26150",
+      "source": "arXiv cs.AI",
+      "date": "2026-08-29 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "질병 확산 모델의 체계적인 문헌 검토를 위한 대규모 언어 모델 활용",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "source": "Hacker News",
+      "date": "2026-08-29 01:47",
+      "categoryId": "space",
+      "confidence": "D",
+      "stream": "community",
+      "category": "우주·통신",
+      "titleKo": "SpaceX 인수 후 Cursor에 대한 당사의 결정",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "v16.4.0-canary.11",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.11",
@@ -1026,6 +1160,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "source": "Hacker News",
+      "date": "2026-08-28 17:01",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "오픈 월드 멀티 에이전트 환경에서 자율적인 수학적 발견",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Nvidia-Backed Lambda Inks $1 Billion Private Debt for Chip Deal - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNlg2YUFpb3paaFpOeTgtR2FVSFhZd1ZVaTZGTXBwbTh2bDg3WS1CdVphZ1YyTmpneDJndVZSWGJiM0NQdk1XRUhxa1lmdXZZQk5HVGp2S3VrdFl6bHlXUm1OWFNwNk9wbGxjemhOa0lQM3JZRVk1WmVaV3Zva0R0T2JOdmpleFFVd2hZbUJsT3ctYmNyMk04ODQxaklmaVpMNHFzVEt1ZkVPbHFiQjNkTGVnZw?oc=5",
       "source": "Bloomberg.com",
@@ -1094,6 +1244,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Run Qwen3.8 27B locally: real numbers from my Mac Studio",
+      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally/",
+      "source": "Hacker News",
+      "date": "2026-08-28 15:24",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Run Qwen3.8 27B locally: real numbers from my Mac Studio",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Autistici/Inventati's main .org domain goes dark after US terrorism designation",
@@ -1314,24 +1482,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-      "source": "Hacker News",
-      "date": "2026-08-28 06:33",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Luanti가 근거 없는 AI 저작권 고지로 인해 Google Play에서 삭제됨",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "APOD: 2026 August 28 – The Sky Turns Above Paranal",
       "url": "https://science.nasa.gov/image-article/apod-2026-august-28-the-sky-turns-above-paranal/",
       "source": "NASA",
@@ -1346,104 +1496,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
-      "url": "https://arxiv.org/abs/2608.26109",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-28 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "독립형 LLM 및 ICU 사망률 예측을 설명하기 위한 사전 지정된 에이전트 파이프라인: eICU 데모 데이터 세트에 대한 타당성 연구",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
-      "url": "https://arxiv.org/abs/2608.26111",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-28 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "배터리 예후 및 건강 관리를 위한 대형 모델: 검토 및 향후 로드맵",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
-      "url": "https://arxiv.org/abs/2608.26113",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-28 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "PICasso: 실리콘 광소자의 자율 최적화를 위한 AI 지원 설계 프레임워크",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
-      "url": "https://arxiv.org/abs/2608.26114",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-28 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "CIFQA: 재무 질의 응답을 위한 결정론적 도구 기반 다중 에이전트 LLM 프레임워크",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Accuracy-Efficiency Paradox Quantifying Net Energy Loss in on-Device Energy Forecasting",
-      "url": "https://arxiv.org/abs/2608.26134",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-28 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "온디바이스 에너지 예측에서 순 에너지 손실을 정량화하는 정확성-효율성 역설",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Leveraging Large Language Models for Systematic Literature Review of Disease Spread Models",
-      "url": "https://arxiv.org/abs/2608.26150",
-      "source": "arXiv cs.AI",
-      "date": "2026-08-28 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "질병 확산 모델의 체계적인 문헌 검토를 위한 대규모 언어 모델 활용",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Vietnam urges Qualcomm, Samsung to deepen AI, chip investment as it seeks tech upgrade - Reuters",
@@ -1464,22 +1516,6 @@
       "layerLabel": "주요 언론 확인"
     },
     {
-      "title": "Please stop flooding our projects with AI slop to furnish your CV",
-      "url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
-      "source": "Hacker News",
-      "date": "2026-08-28 03:49",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "이력서를 제출하기 위해 AI 슬롭으로 프로젝트에 홍수를 일으키지 마십시오.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v16.4.0-canary.10",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.10",
       "source": "GitHub · Next.js",
@@ -1494,24 +1530,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
-      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "source": "Hacker News",
-      "date": "2026-08-28 02:03",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "판사 규칙 트럼프 행정부의 인류학 블랙리스트는 불법이었습니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Georgia PSC Approves Secret OpenAI Contract",
@@ -2031,11 +2049,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 29. PM 12:05",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 8. 29. PM 6:10",
+    "mode": "매시간 공식 레이더"
   }
 }
