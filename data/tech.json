@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 31. AM 2:34",
+  "updatedAt": "2026. 8. 31. AM 6:12",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "낸시 그레이스 로만 우주 망원경, 암흑 물질과 암흑 에너지 연구 위해 발사",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 22,
+    "recentCount": 21,
     "sourceCount": 24,
     "officialCount": 23,
     "opportunityCount": 1
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 26,
+      "count": 27,
       "summary": "Caterpillar는 채굴 자동화를 통해 배운 것을 AI 배포에 적용하고 있습니다.",
       "latest": "2026-08-30 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T17:34:17.256Z",
+      "lastRefreshed": "2026-08-30T21:12:05.534Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "엔비디아 지원 람다 잉크 칩 거래를 위한 $ 10억 개인 부채 - Bloomberg.com",
       "latest": "2026-08-28 16:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T17:34:17.256Z",
+      "lastRefreshed": "2026-08-30T21:12:05.534Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "테크크런치 모빌리티 (TechCrunch Mobility): 로봇 택시의 숨겨진 인건비",
       "latest": "2026-08-30 16:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T17:34:17.256Z",
+      "lastRefreshed": "2026-08-30T21:12:05.534Z",
       "themes": [
         "주요 기업"
       ]
@@ -65,21 +65,20 @@
       "summary": "루트 RCE를 활성화하는 두 개의 Unitree G1 EDU 휴머노이드 로봇 결함, 하나는 블루투스를 통해 시작",
       "latest": "2026-08-28 12:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T17:34:17.256Z",
+      "lastRefreshed": "2026-08-30T21:12:05.534Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 19,
+      "count": 18,
       "summary": "낸시 그레이스 로만 우주 망원경, 암흑 물질과 암흑 에너지 연구 위해 발사",
       "latest": "2026-08-30 16:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T17:34:17.256Z",
+      "lastRefreshed": "2026-08-30T21:12:05.534Z",
       "themes": [
-        "기회",
-        "주요 기업"
+        "기회"
       ]
     },
     {
@@ -90,7 +89,7 @@
       "summary": "XPENG, 물리적 AI를 한 단계 끌어올리다",
       "latest": "2026-08-30 14:57",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-30T17:34:17.256Z",
+      "lastRefreshed": "2026-08-30T21:12:05.534Z",
       "themes": [
         "주요 기업"
       ]
@@ -103,7 +102,7 @@
       "summary": "v16.4.0-canary.12",
       "latest": "2026-08-29 23:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T17:34:17.256Z",
+      "lastRefreshed": "2026-08-30T21:12:05.534Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -273,24 +272,6 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
-        "title": "StemDeck, a free, open-source and local AI stem separator",
-        "url": "https://github.com/stemdeckapp/stemdeck",
-        "source": "Hacker News",
-        "date": "2026-08-29 01:24",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "StemDeck, 무료 오픈 소스 및 로컬 AI 스템 분리기",
-        "type": "오픈소스",
-        "themes": [
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
         "title": "v16.4.0-canary.11",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.11",
         "source": "GitHub · Next.js",
@@ -302,6 +283,24 @@
         "titleKo": "v16.4.0-canary.11",
         "type": "출시·업데이트",
         "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v3.6.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.6.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-08-28 22:28",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "버전 3.6.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -326,6 +325,24 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+        "url": "https://github.com/anthropics/claude-code/issues/66504",
+        "source": "Hacker News",
+        "date": "2026-08-30 12:50",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "기본적으로 커밋 메시지 및 PR 설명에 추가된 Claude 세션 URL",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
@@ -642,6 +659,40 @@
     ],
     "community": [
       {
+        "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+        "url": "https://github.com/anthropics/claude-code/issues/66504",
+        "source": "Hacker News",
+        "date": "2026-08-30 12:50",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "기본적으로 커밋 메시지 및 PR 설명에 추가된 Claude 세션 URL",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "No AI Fridays",
+        "url": "https://noaifridays.com/",
+        "source": "Hacker News",
+        "date": "2026-08-30 12:31",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "인공지능 금요일 없음",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "The Rise and Fall of Agent Civilizations",
         "url": "https://www.dwarkesh.com/p/openai-huggingface",
         "source": "Hacker News",
@@ -701,42 +752,6 @@
         "titleKo": "\"생성 AI의 책임 있는 사용\" 을 허용하는 데비안 투표",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Our decision on Cursor following its acquisition by SpaceX",
-        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-        "source": "Hacker News",
-        "date": "2026-08-29 01:47",
-        "categoryId": "space",
-        "confidence": "D",
-        "stream": "community",
-        "category": "우주·통신",
-        "titleKo": "SpaceX 인수 후 Cursor에 대한 당사의 결정",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "StemDeck, a free, open-source and local AI stem separator",
-        "url": "https://github.com/stemdeckapp/stemdeck",
-        "source": "Hacker News",
-        "date": "2026-08-29 01:24",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "StemDeck, 무료 오픈 소스 및 로컬 AI 스템 분리기",
-        "type": "오픈소스",
-        "themes": [
-          "기회"
-        ],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -894,6 +909,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+      "url": "https://github.com/anthropics/claude-code/issues/66504",
+      "source": "Hacker News",
+      "date": "2026-08-30 12:50",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "기본적으로 커밋 메시지 및 PR 설명에 추가된 Claude 세션 URL",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "The edge AI wall: Why embodied AI requires new mathematics",
       "url": "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/",
       "source": "The Robot Report",
@@ -908,6 +941,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "No AI Fridays",
+      "url": "https://noaifridays.com/",
+      "source": "Hacker News",
+      "date": "2026-08-30 12:31",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "인공지능 금요일 없음",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NASA launches powerful new Roman Space Telescope from Florida - Reuters",
@@ -1320,42 +1369,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-      "source": "Hacker News",
-      "date": "2026-08-29 01:47",
-      "categoryId": "space",
-      "confidence": "D",
-      "stream": "community",
-      "category": "우주·통신",
-      "titleKo": "SpaceX 인수 후 Cursor에 대한 당사의 결정",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "StemDeck, a free, open-source and local AI stem separator",
-      "url": "https://github.com/stemdeckapp/stemdeck",
-      "source": "Hacker News",
-      "date": "2026-08-29 01:24",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "StemDeck, 무료 오픈 소스 및 로컬 AI 스템 분리기",
-      "type": "오픈소스",
-      "themes": [
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v16.4.0-canary.11",
@@ -2069,11 +2082,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 36,
+    "successful": 37,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 8. 31. AM 2:34",
+    "checkedAt": "2026. 8. 31. AM 6:12",
     "mode": "매시간 공식 레이더"
   }
 }
