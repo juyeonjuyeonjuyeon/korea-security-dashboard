@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 8. 30. AM 9:24",
+  "updatedAt": "2026. 8. 30. PM 9:57",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.12",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 19,
+    "recentCount": 10,
     "sourceCount": 26,
     "officialCount": 25,
     "opportunityCount": 0
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "소니 뮤직, 워너, 앤서로픽 고소, 지적 재산권 절도의 \"뻔뻔한 캠페인\" 주장",
-      "latest": "2026-08-29 18:41",
+      "count": 31,
+      "summary": "에이전트 문명의 흥망성쇠",
+      "latest": "2026-08-29 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T00:24:43.863Z",
+      "lastRefreshed": "2026-08-30T12:57:37.985Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -38,7 +38,7 @@
       "summary": "Neocloud Lambda는 더 많은 칩을 구매하기 위해 $ 10억의 부채를 확보합니다",
       "latest": "2026-08-28 20:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T00:24:43.863Z",
+      "lastRefreshed": "2026-08-30T12:57:37.985Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,11 +47,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
-      "summary": "스웜 로봇 공학에서 분산 전력과 중앙 집중식 전력의 차이점",
-      "latest": "2026-08-29 12:25",
+      "count": 9,
+      "summary": "데이터 센터에서 로봇을 작동시키려는 Meta의 노력",
+      "latest": "2026-08-30 11:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T00:24:43.863Z",
+      "lastRefreshed": "2026-08-30T12:57:37.985Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +64,7 @@
       "summary": "루트 RCE를 활성화하는 두 개의 Unitree G1 EDU 휴머노이드 로봇 결함, 하나는 블루투스를 통해 시작",
       "latest": "2026-08-28 12:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T00:24:43.863Z",
+      "lastRefreshed": "2026-08-30T12:57:37.985Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "낸시 그레이스 우주 망원경",
       "latest": "2026-08-29 15:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T00:24:43.863Z",
+      "lastRefreshed": "2026-08-30T12:57:37.985Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +90,7 @@
       "summary": "미 육군은 \"환경\" 으로부터 에너지를 포획하는 것을 목표로 합니다.",
       "latest": "2026-08-29 11:39",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-30T00:24:43.863Z",
+      "lastRefreshed": "2026-08-30T12:57:37.985Z",
       "themes": [
         "주요 기업"
       ]
@@ -103,7 +103,7 @@
       "summary": "v16.4.0-canary.12",
       "latest": "2026-08-29 23:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-30T00:24:43.863Z",
+      "lastRefreshed": "2026-08-30T12:57:37.985Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -427,6 +427,24 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Inside Meta’s push to put robots to work in data centers",
+        "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+        "source": "Ars Technica",
+        "date": "2026-08-30 11:03",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "데이터 센터에서 로봇을 작동시키려는 Meta의 노력",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
         "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
         "source": "TechCrunch",
@@ -611,25 +629,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Accuracy-Efficiency Paradox Quantifying Net Energy Loss in on-Device Energy Forecasting",
-        "url": "https://arxiv.org/abs/2608.26134",
-        "source": "arXiv cs.AI",
-        "date": "2026-08-29 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "온디바이스 에너지 예측에서 순 에너지 손실을 정량화하는 정확성-효율성 역설",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "The Rise and Fall of Agent Civilizations",
+        "url": "https://www.dwarkesh.com/p/openai-huggingface",
+        "source": "Hacker News",
+        "date": "2026-08-29 23:43",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "에이전트 문명의 흥망성쇠",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
         "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
@@ -713,26 +731,44 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-        "url": "https://arxiv.org/abs/2608.23691",
-        "source": "Hacker News",
-        "date": "2026-08-28 17:01",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "오픈 월드 멀티 에이전트 환경에서 자율적인 수학적 발견",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Inside Meta’s push to put robots to work in data centers",
+      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "source": "Ars Technica",
+      "date": "2026-08-30 11:03",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "데이터 센터에서 로봇을 작동시키려는 Meta의 노력",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Rise and Fall of Agent Civilizations",
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "source": "Hacker News",
+      "date": "2026-08-29 23:43",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "에이전트 문명의 흥망성쇠",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "v16.4.0-canary.12",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.12",
@@ -1386,20 +1422,20 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "url": "https://arxiv.org/abs/2608.23691",
-      "source": "Hacker News",
-      "date": "2026-08-28 17:01",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "오픈 월드 멀티 에이전트 환경에서 자율적인 수학적 발견",
+      "title": "China’s robots race ahead",
+      "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "source": "The Verge",
+      "date": "2026-08-28 17:20",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "중국의 로봇이 앞다투어 경쟁합니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Nvidia-Backed Lambda Inks $1 Billion Private Debt for Chip Deal - Bloomberg.com",
@@ -1565,24 +1601,6 @@
       "titleKo": "로마 우주 망원경 8월 30일 발사 준비 완료 - SpaceNews",
       "type": "출시·업데이트",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "source": "The Verge",
-      "date": "2026-08-28 11:18",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic은 트럼프 행정부, 법원 규칙에 의해 불법적으로 블랙리스트에 올랐습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1932,24 +1950,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
-      "url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
-      "source": "Ars Technica",
-      "date": "2026-08-27 19:55",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "보고서: 엔비디아, AI 모델 저장소 Hugging Face를 $ 130억에 인수",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
       "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
       "source": "The Hacker News",
@@ -2075,7 +2075,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 8. 30. AM 9:24",
+    "checkedAt": "2026. 8. 30. PM 9:57",
     "mode": "매시간 공식 레이더"
   }
 }
