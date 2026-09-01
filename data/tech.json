@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 1. AM 8:53",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 1. AM 9:25",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v16.4.0-canary.13",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 53,
+    "recentCount": 50,
     "sourceCount": 24,
-    "officialCount": 18,
+    "officialCount": 19,
     "opportunityCount": 1
   },
   "summary": [
@@ -22,13 +22,13 @@
       "code": "AI",
       "label": "인공지능",
       "count": 32,
-      "summary": "펜타곤에는 이제 자체 버전의 ChatGPT와 Grok가 있습니다.",
-      "latest": "2026-08-31 20:13",
+      "summary": "Apple, OpenAI를 위해 회사 데이터를 훔친 혐의로 기소된 전 직원에 대해 ‘충격적인 증거’ 공유",
+      "latest": "2026-09-01 00:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-31T23:53:50.602Z",
+      "lastRefreshed": "2026-09-01T00:25:37.186Z",
       "themes": [
-        "음악·음성",
         "주요 기업",
+        "음악·음성",
         "영상"
       ]
     },
@@ -40,7 +40,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-31T23:53:50.602Z",
+      "lastRefreshed": "2026-09-01T00:25:37.186Z",
       "themes": []
     },
     {
@@ -51,7 +51,7 @@
       "summary": "Skild AI, S1 플래그십 로봇 파운데이션 모델 공개",
       "latest": "2026-08-31 21:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-31T23:53:50.602Z",
+      "lastRefreshed": "2026-09-01T00:25:37.186Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +64,7 @@
       "summary": "도보로 이동할 수 있는 ASCII 사이버펑크 도시 (HTML 파일 1개) [동영상]",
       "latest": "2026-08-31 18:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-31T23:53:50.602Z",
+      "lastRefreshed": "2026-09-01T00:25:37.186Z",
       "themes": [
         "영상"
       ]
@@ -77,7 +77,7 @@
       "summary": "NASA, 튀르키예를 최신 아르테미스 협정 서명자로 환영",
       "latest": "2026-08-31 21:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-31T23:53:50.602Z",
+      "lastRefreshed": "2026-09-01T00:25:37.186Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "Jackery, 새로운 HomePower 1000 Plus v2 휴대용 배터리에 기능 및 확장성 추가",
       "latest": "2026-08-31 20:38",
       "cadence": "격주",
-      "lastRefreshed": "2026-08-31T23:53:50.603Z",
+      "lastRefreshed": "2026-09-01T00:25:37.186Z",
       "themes": []
     },
     {
@@ -102,7 +102,7 @@
       "summary": "v16.4.0-canary.13",
       "latest": "2026-08-31 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-08-31T23:53:50.603Z",
+      "lastRefreshed": "2026-09-01T00:25:37.186Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -497,6 +497,24 @@
     ],
     "analysis": [
       {
+        "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+        "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+        "source": "TechCrunch",
+        "date": "2026-09-01 00:13",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Apple, OpenAI를 위해 회사 데이터를 훔친 혐의로 기소된 전 직원에 대해 ‘충격적인 증거’ 공유",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Skild AI unveils S1 flagship robot foundation model",
         "url": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
         "source": "The Robot Report",
@@ -679,24 +697,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-        "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-        "source": "TechCrunch",
-        "date": "2026-08-31 16:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Clipto는 AI를 사용하여 테라바이트의 비디오를 검색하며 현재 $ 250M의 가치를 지니고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -806,6 +806,24 @@
     ]
   },
   "news": [
+    {
+      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "source": "TechCrunch",
+      "date": "2026-09-01 00:13",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Apple, OpenAI를 위해 회사 데이터를 훔친 혐의로 기소된 전 직원에 대해 ‘충격적인 증거’ 공유",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.4.0-canary.13",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.13",
@@ -1150,24 +1168,6 @@
       "titleKo": "AI가 정부가 해킹 도구를 사용하는 것을 더 어렵게 만드는 방법",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "source": "TechCrunch",
-      "date": "2026-08-31 15:15",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "엔비디아의 $ 3.5B MediaTek 베팅은 빅 테크의 AI 칩 빌드아웃을 해결하기 위한 계획을 보여줍니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1898,22 +1898,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "NASA, SpaceX Adjust Crew-13 Launch Date - NASA (.gov)",
+      "title": "NASA, SpaceX Adjust Crew-13 Launch Date - nasa.gov",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd3N4dmdkUUZqNXA1Q0VBNUp2aldyM1BUbjU4bWs1bl9MTnRSNEwwQ2IxX2pkSnhhXzRYX2tKZUlQWTAyX3h5aF84M1RwZEhFR3g5eTRiNTkzVDh6ZmZCQllRX1FaLTBoWEl2dnhRUHZ5RVZ1Uk1DSFZPbnFrbHJPM3FsQTlvNnF0RzNkZzdJWG9wcl80?oc=5",
-      "source": "NASA (.gov)",
+      "source": "nasa.gov",
       "date": "2026-08-30 10:39",
       "categoryId": "space",
-      "confidence": "C",
+      "confidence": "A",
       "stream": "news",
       "category": "우주·통신",
-      "titleKo": "NASA, SpaceX Adjust Crew-13 Launch Date - NASA (.gov)",
+      "titleKo": "NASA, SpaceX Adjust Crew-13 Launch Date - nasa.gov",
       "type": "출시·업데이트",
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "NASA’s Roman Space Telescope Launch Broadcast Begins - NASA Science (.gov)",
@@ -2127,11 +2127,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 5,
-    "checkedAt": "2026. 9. 1. AM 8:53",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 6,
+    "checkedAt": "2026. 9. 1. AM 9:25",
+    "mode": "하루 2회 전체 수집"
   }
 }
