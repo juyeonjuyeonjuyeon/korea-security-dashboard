@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 3. AM 7:41",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 3. AM 8:03",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v0.34.3",
   "metrics": {
     "articleCount": 80,
@@ -23,7 +23,7 @@
       "summary": "TechCrunch Disrupt 2026의 새로운 Real World AI Stage는 엔비디아, 로봇 및 멸종한 동물을 특징으로 합니다.",
       "latest": "2026-09-02 22:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T22:41:23.681Z",
+      "lastRefreshed": "2026-09-02T23:03:07.755Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -37,7 +37,7 @@
       "summary": "NVIDIA와 CrowdStrike, Agentic 사이버 보안 프론티어 강화",
       "latest": "2026-09-01 21:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T22:41:23.681Z",
+      "lastRefreshed": "2026-09-02T23:03:07.755Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "NexCOBOT, 물리적 AI 시장의 장애물과 가속화에 대해 논의",
       "latest": "2026-09-02 19:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T22:41:23.681Z",
+      "lastRefreshed": "2026-09-02T23:03:07.755Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "Google, Anthropic 및 OpenAI, 사이버 AI 모델, 안전 장치 및 액세스 프로그램 공개",
       "latest": "2026-09-02 18:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T22:41:23.681Z",
+      "lastRefreshed": "2026-09-02T23:03:07.755Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +74,7 @@
       "summary": "Artemis IV 타임라인을 경계하는 NASA는 달 우주복 디자인을 바꾸고 있습니다.",
       "latest": "2026-09-02 19:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T22:41:23.681Z",
+      "lastRefreshed": "2026-09-02T23:03:07.755Z",
       "themes": [
         "미술·디자인"
       ]
@@ -87,7 +87,7 @@
       "summary": "보고서: 미국, 2분기에 에너지 저장 용량 20GWh 추가, 사상 최대 분기",
       "latest": "2026-09-02 03:45",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-02T22:41:23.681Z",
+      "lastRefreshed": "2026-09-02T23:03:07.755Z",
       "themes": []
     },
     {
@@ -98,7 +98,7 @@
       "summary": "엔터프라이즈 관리 설정은 모든 기본 모델을 지원합니다",
       "latest": "2026-09-02 18:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T22:41:23.681Z",
+      "lastRefreshed": "2026-09-02T23:03:07.755Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -560,6 +560,24 @@
     ],
     "community": [
       {
+        "title": "Mamdani Bans AI in NYC Schools",
+        "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+        "source": "Hacker News",
+        "date": "2026-09-02 20:57",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "맘다니, 뉴욕시 학교에서 AI 금지",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
         "source": "Hacker News",
@@ -640,22 +658,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Quasar 438B: Europe's Leading AI Model",
-        "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
-        "source": "Hacker News",
-        "date": "2026-09-02 10:02",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Quasar 438B: 유럽 최고의 AI 모델",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -677,6 +679,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Mamdani Bans AI in NYC Schools",
+      "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+      "source": "Hacker News",
+      "date": "2026-09-02 20:57",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "맘다니, 뉴욕시 학교에서 AI 금지",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "OpenAI’s new reasoning technique alarms AI safety experts",
@@ -1363,22 +1383,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Quasar 438B: Europe's Leading AI Model",
-      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
-      "source": "Hacker News",
-      "date": "2026-09-02 10:02",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Quasar 438B: 유럽 최고의 AI 모델",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "UK cyber bill targets AI users, not the vendors building it - The Register",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFBSUHR0YmJjb1lKWUtzSHNKMHV2SUFBVEFGZTJpMEVmQ3BCUkF0dUxtdUxoajNxcFpSNHdCbnBFWEttTTUwTkJZWHFrandONC1OMTIxSFFqNGdYMU1mdmpKZ1NxQjc4LWlXVlNkNVhVaXd3TllYcHBxZDF1WXN1Sm1CeEFoQTJOQVV3TEQzcy0yYTdVZWpYNVV3MV82RWNTRWM3UFRnbGRvODkxX2dRMjg3bGU?oc=5",
       "source": "The Register",
@@ -1775,22 +1779,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "US urges hands-off approach to AI regulation at G20 tech meeting - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVmNEZEtiMUprakFZdzJZc1ByWHZFSDBOWk1PUlZzdjRnLUhRajdvVHQ3LWQ4YkVTcDFDTmVGc2FiSTQ1Q2lqRU0tR0xfYVN3QXVwQWN3Z0E1RURlTVhzWU1fbHBLbURkQksyWjdseTdqUFRDbkxjZWswUzdNalNPcm9peVBuUjRldjlTZU9rZkRraWFNbVNFT3QtSEdaLWFDSjBYS2pyTnY2OTFGWUxvag?oc=5",
-      "source": "Reuters",
-      "date": "2026-09-01 20:29",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "미국, G20 기술 회의에서 AI 규제에 대한 손쉬운 접근 촉구 - 로이터",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
       "title": "Set an expiration date for individual user budgets",
       "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
       "source": "GitHub Changelog",
@@ -1989,14 +1977,30 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Making the AI-powered case for legacy modernization",
+      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+      "source": "MIT Technology Review",
+      "date": "2026-09-01 14:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Making the AI-powered case for legacy modernization",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 9. 3. AM 7:41",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 9. 3. AM 8:03",
+    "mode": "하루 2회 전체 수집"
   }
 }
