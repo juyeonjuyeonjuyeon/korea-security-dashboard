@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 2. AM 9:18",
+  "updatedAt": "2026. 9. 2. PM 2:53",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.4.0-canary.14",
+  "headline": "v3.7.0",
   "metrics": {
     "articleCount": 80,
     "recentCount": 59,
-    "sourceCount": 26,
-    "officialCount": 25,
+    "sourceCount": 27,
+    "officialCount": 26,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.4.0-canary.14",
-    "창작 기술: Google은 스튜디오가 AI를 필요로 하는 것보다 할리우드를 더 필요로 합니다"
+    "새 출시: v3.7.0",
+    "창작 기술: I-CARE: 텍스트-이미지 모델을 위한 제어 가능하고 다양하며 대표적인 비학습 설정에서 간섭 관련 현상 분석"
   ],
   "categories": [
     {
@@ -20,14 +20,14 @@
       "code": "AI",
       "label": "인공지능",
       "count": 37,
-      "summary": "팀 쿡은 환경에 의해 괜찮 았지만 AI는 기후 유산을 뒤집을 수 있습니다.",
-      "latest": "2026-09-01 23:09",
+      "summary": "하이퍼월드: 하이퍼그래프 구조화 상태 직렬화를 통해 학습된 텍스트 월드 모델 개선",
+      "latest": "2026-09-02 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T00:18:42.271Z",
+      "lastRefreshed": "2026-09-02T05:53:30.613Z",
       "themes": [
+        "미술·디자인",
         "주요 기업",
-        "음악·음성",
-        "미술·디자인"
+        "음악·음성"
       ]
     },
     {
@@ -38,7 +38,7 @@
       "summary": "NVIDIA와 CrowdStrike, Agentic 사이버 보안 프론티어 강화",
       "latest": "2026-09-01 21:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T00:18:42.272Z",
+      "lastRefreshed": "2026-09-02T05:53:30.613Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,22 +47,22 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 6,
       "summary": "2026년 8월의 10대 로봇 이야기",
       "latest": "2026-09-01 18:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T00:18:42.272Z",
+      "lastRefreshed": "2026-09-02T05:53:30.613Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
+      "count": 5,
       "summary": "OpenAI가 '치명적인‘ 사이버 능력을 갖춘 첫 번째 AI 모델을 출시하려고 합니다 - 유선",
       "latest": "2026-09-01 20:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T00:18:42.272Z",
+      "lastRefreshed": "2026-09-02T05:53:30.613Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -76,29 +76,29 @@
       "summary": "NASA, Blue Origin을 화성 통신 네트워크 제공업체로 선정",
       "latest": "2026-09-01 21:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T00:18:42.272Z",
+      "lastRefreshed": "2026-09-02T05:53:30.613Z",
       "themes": []
     },
     {
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 3,
-      "summary": "GoSun의 Moonrider 배터리 전기 트랙터의 가격은 $ 19,995입니다.",
-      "latest": "2026-09-01 17:35",
+      "count": 4,
+      "summary": "보고서: 미국, 2분기에 에너지 저장 용량 20GWh 추가, 사상 최대 분기",
+      "latest": "2026-09-02 03:45",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-02T00:18:42.272Z",
+      "lastRefreshed": "2026-09-02T05:53:30.613Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
-      "summary": "Claude Fable 5.1 덕분에 정말 멋진 애니메이션 펠리컨이 되었어요",
-      "latest": "2026-09-01 23:57",
+      "count": 19,
+      "summary": "v3.7.0",
+      "latest": "2026-09-02 01:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T00:18:42.272Z",
+      "lastRefreshed": "2026-09-02T05:53:30.613Z",
       "themes": [
         "주요 기업"
       ]
@@ -106,6 +106,24 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.7.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.7.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-09-02 01:30",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.7.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.4.0-canary.14",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.14",
@@ -293,25 +311,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Copilot code review can now approve pull requests",
-        "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-        "source": "GitHub Changelog",
-        "date": "2026-09-01 19:25",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 Copilot 코드 검토를 통해 끌어오기 요청을 승인할 수 있습니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+        "url": "https://arxiv.org/abs/2609.00003",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-02 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "I-CARE: 텍스트-이미지 모델을 위한 제어 가능하고 다양하며 대표적인 비학습 설정에서 간섭 관련 현상 분석",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Google needs Hollywood more than the studios need AI",
         "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
@@ -349,17 +369,37 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
+      }
+    ],
+    "opportunities": [],
+    "voices": [],
+    "analysis": [
       {
-        "title": "Leveraging Generative AI to Design Accessible Interactive Visualizations for Undergraduate Mathematics: A Six-Phase Workflow",
-        "url": "https://arxiv.org/abs/2608.28601",
+        "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+        "url": "https://arxiv.org/abs/2609.00002",
         "source": "arXiv cs.AI",
-        "date": "2026-09-01 04:00",
+        "date": "2026-09-02 04:00",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "analysis",
         "category": "인공지능",
-        "titleKo": "생성 AI를 활용하여 학부 수학을 위한 접근 가능한 대화형 시각화 설계: 6단계 워크플로",
+        "titleKo": "하이퍼월드: 하이퍼그래프 구조화 상태 직렬화를 통해 학습된 텍스트 월드 모델 개선",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+        "url": "https://arxiv.org/abs/2609.00003",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-02 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "I-CARE: 텍스트-이미지 모델을 위한 제어 가능하고 다양하며 대표적인 비학습 설정에서 간섭 관련 현상 분석",
         "type": "뉴스·분석",
         "themes": [
           "미술·디자인"
@@ -367,11 +407,103 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "opportunities": [],
-    "voices": [],
-    "analysis": [
+      },
+      {
+        "title": "Discrete-Time MDP Modeling for Multi-Item Capacitated Lot Sizing with Stochastic Demand Timing",
+        "url": "https://arxiv.org/abs/2609.00004",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-02 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "스토캐스틱 수요 타이밍을 가진 다중 항목 정전 용량 로트 사이징을 위한 이산 시간 MDP 모델링",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Incremental Risk Assessment of Progressive Elder Financial Scams via Instruction-Tuned Small Language Models",
+        "url": "https://arxiv.org/abs/2609.00005",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-02 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "강의식 소규모 언어 모델을 통한 프로그레시브 노인 금융 사기의 점진적 위험 평가",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+        "url": "https://arxiv.org/abs/2609.00015",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-02 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "OpenAgentFlow: 이기종 AI 에이전트 함대에 대한 시스템 전반의 안전 경계 활성화",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "EULER: Exploring Underused Links with Evidence-Checked Return for Multi-Agent Mathematical Discovery",
+        "url": "https://arxiv.org/abs/2609.00032",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-02 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "오일러: 다중 에이전트 수학적 검색을 위한 증거 확인 반환이 포함된 사용되지 않는 링크 탐색",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "REPORT: U.S. Adds 20 GWh of Energy Storage Capacity in Q2, Largest Quarter on Record",
+        "url": "https://cleantechnica.com/2026/09/01/report-u-s-adds-20-gwh-of-energy-storage-capacity-in-q2-largest-quarter-on-record/",
+        "source": "CleanTechnica",
+        "date": "2026-09-02 03:45",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "보고서: 미국, 2분기에 에너지 저장 용량 20GWh 추가, 사상 최대 분기",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Solar & Storage Are Saving Schools Millions. See How These 6 Are Using the Extra Budget Space.",
+        "url": "https://cleantechnica.com/2026/09/01/solar-storage-are-saving-schools-millions-see-how-these-6-are-using-the-extra-budget-space/",
+        "source": "CleanTechnica",
+        "date": "2026-09-02 03:38",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "태양열 및 저장 장치는 수백만 명의 학교를 절약하고 있습니다. 이 6가지가 추가 예산 공간을 어떻게 사용하는지 확인하세요.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Claude Fable 5.1 made me a really nice animated pelican",
         "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
@@ -438,149 +570,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
-        "source": "The Verge",
-        "date": "2026-09-01 22:01",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 Claude Fable 5.1을 출시하고 에이전트 작업에 대해 최대 45% 저렴하다고 말합니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI to launch new model with ‘stronger safeguards’ after hack - BNN Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVzFzQzg3a0F2eEZxa2g5STFGM3JxXzhLMzYxSWdWdHhWaEVSTFRDRk9hZGxoZ0tJckFKWlB0V2djNEl0aXJ6ZlhNelViQTR2VDZYQUxsT25rLUVXVnkxUmN2SVZEejNtc1JkTHNySFRWUGd3UVA0aXlJck9FNWlmcVFVX2ZVMUFzNFhZUno1a2d0d0dsZ05JZG13ZW11SzM3dGRjbWphTnRQcWVoaUpSM3EtZGdFeGNIbzdFZk5zY0czWXpNckZicHdCb3ZNOWVp?oc=5",
-        "source": "BNN Bloomberg",
-        "date": "2026-09-01 21:18",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI, 해킹 후 ‘더 강력한 안전 장치’ 로 새로운 모델 출시 - BNN Bloomberg",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
-        "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-        "source": "TechCrunch",
-        "date": "2026-09-01 21:06",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI의 Astra 모델이 출시되고 있으며 컴퓨터 시스템에 침입하는 데 매우 능숙합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
-        "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-        "source": "TechCrunch",
-        "date": "2026-09-01 21:06",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Open AI의 Astra 모델이 출시되고 있으며 컴퓨터 시스템에 침투하는 데 매우 능숙합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
-        "source": "The Verge",
-        "date": "2026-09-01 20:45",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI는 Hugging Face 해킹 이후 새 모델 개발을 지연시켰습니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities - WIRED",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFE3NkFwdlQ2WktBelBib0paY3NRUVhCZkRuZF9laks5ZVd5MFhCd0JHWjlqYjF5a1F0WC1GbE5NalgyVEh4REhiRG91TVZFZWs4cUVsWkZBM1hKbnlXRXV1c05NSHVIaGlJUTg4eHpLRTN5QlpXVnpUM2tXY2Z1SWhLSWVzOTROWldMUHdzQQ?oc=5",
-        "source": "WIRED",
-        "date": "2026-09-01 20:00",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "OpenAI가 '치명적인‘ 사이버 능력을 갖춘 첫 번째 AI 모델을 출시하려고 합니다 - 유선",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic’s new Fable release is cheaper, less restrictive",
-        "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
-        "source": "TechCrunch",
-        "date": "2026-09-01 19:39",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic의 새로운 Fable 릴리스는 더 저렴하고 덜 제한적입니다",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "How AI plotted an interstellar journey to Alpha Centauri",
-        "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
-        "source": "MIT Technology Review",
-        "date": "2026-09-01 19:10",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인공지능이 알파 센타우리로 가는 성간 여행을 계획한 방법",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "My local model setup on an M4 Pro Mac Mini",
+        "url": "https://lws.io/blog/my-local-model-setup/",
+        "source": "Hacker News",
+        "date": "2026-09-01 22:30",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "M4 Pro Mac Mini에서 로컬 모델 설정",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
         "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
@@ -664,26 +672,158 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
-        "url": "https://www.norirobotics.com/",
-        "source": "Hacker News",
-        "date": "2026-09-01 17:35",
-        "categoryId": "robotics",
-        "confidence": "D",
-        "stream": "community",
-        "category": "로봇·모빌리티",
-        "titleKo": "HN 출시: Nori Robotics (YC S26) – 개발을 위한 저가형 휴머노이드 로봇",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "url": "https://arxiv.org/abs/2609.00002",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-02 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "하이퍼월드: 하이퍼그래프 구조화 상태 직렬화를 통해 학습된 텍스트 월드 모델 개선",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+      "url": "https://arxiv.org/abs/2609.00003",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-02 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "I-CARE: 텍스트-이미지 모델을 위한 제어 가능하고 다양하며 대표적인 비학습 설정에서 간섭 관련 현상 분석",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Discrete-Time MDP Modeling for Multi-Item Capacitated Lot Sizing with Stochastic Demand Timing",
+      "url": "https://arxiv.org/abs/2609.00004",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-02 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "스토캐스틱 수요 타이밍을 가진 다중 항목 정전 용량 로트 사이징을 위한 이산 시간 MDP 모델링",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Incremental Risk Assessment of Progressive Elder Financial Scams via Instruction-Tuned Small Language Models",
+      "url": "https://arxiv.org/abs/2609.00005",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-02 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "강의식 소규모 언어 모델을 통한 프로그레시브 노인 금융 사기의 점진적 위험 평가",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+      "url": "https://arxiv.org/abs/2609.00015",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-02 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "OpenAgentFlow: 이기종 AI 에이전트 함대에 대한 시스템 전반의 안전 경계 활성화",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "EULER: Exploring Underused Links with Evidence-Checked Return for Multi-Agent Mathematical Discovery",
+      "url": "https://arxiv.org/abs/2609.00032",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-02 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "오일러: 다중 에이전트 수학적 검색을 위한 증거 확인 반환이 포함된 사용되지 않는 링크 탐색",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "REPORT: U.S. Adds 20 GWh of Energy Storage Capacity in Q2, Largest Quarter on Record",
+      "url": "https://cleantechnica.com/2026/09/01/report-u-s-adds-20-gwh-of-energy-storage-capacity-in-q2-largest-quarter-on-record/",
+      "source": "CleanTechnica",
+      "date": "2026-09-02 03:45",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "보고서: 미국, 2분기에 에너지 저장 용량 20GWh 추가, 사상 최대 분기",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Solar & Storage Are Saving Schools Millions. See How These 6 Are Using the Extra Budget Space.",
+      "url": "https://cleantechnica.com/2026/09/01/solar-storage-are-saving-schools-millions-see-how-these-6-are-using-the-extra-budget-space/",
+      "source": "CleanTechnica",
+      "date": "2026-09-02 03:38",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "태양열 및 저장 장치는 수백만 명의 학교를 절약하고 있습니다. 이 6가지가 추가 예산 공간을 어떻게 사용하는지 확인하세요.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v3.7.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.7.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-09-02 01:30",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.7.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Claude Fable 5.1 made me a really nice animated pelican",
       "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
@@ -750,6 +890,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "My local model setup on an M4 Pro Mac Mini",
+      "url": "https://lws.io/blog/my-local-model-setup/",
+      "source": "Hacker News",
+      "date": "2026-09-01 22:30",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "M4 Pro Mac Mini에서 로컬 모델 설정",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
@@ -1193,22 +1349,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
-      "url": "https://www.norirobotics.com/",
-      "source": "Hacker News",
-      "date": "2026-09-01 17:35",
-      "categoryId": "robotics",
-      "confidence": "D",
-      "stream": "community",
-      "category": "로봇·모빌리티",
-      "titleKo": "HN 출시: Nori Robotics (YC S26) – 개발을 위한 저가형 휴머노이드 로봇",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Historic Engines Take Their Place on Artemis III",
       "url": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
       "source": "NASA",
@@ -1535,104 +1675,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
-      "url": "https://arxiv.org/abs/2608.28590",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-01 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "DS-Lighting: 데이터 과학 자동화를 위해 에이전트가 명시적으로 활용하도록 만들기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "A collective capability boundary in frontier large language models on guideline-conformant and case-specific oncology decision-making",
-      "url": "https://arxiv.org/abs/2608.28592",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-01 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "지침 적합성 및 사례별 종양학 의사 결정에 대한 프론티어 대형 언어 모델의 집단 역량 경계",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Statutory AI: Aligning Large Language Models With Legal Norms",
-      "url": "https://arxiv.org/abs/2608.28593",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-01 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "법정 AI: 대용량 언어 모델을 법적 규범에 맞추기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys",
-      "url": "https://arxiv.org/abs/2608.28597",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-01 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "온라인 설문조사에서 에이전트 AI 기능과 데이터 품질 관리 간의 경쟁",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Leveraging Generative AI to Design Accessible Interactive Visualizations for Undergraduate Mathematics: A Six-Phase Workflow",
-      "url": "https://arxiv.org/abs/2608.28601",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-01 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "생성 AI를 활용하여 학부 수학을 위한 접근 가능한 대화형 시각화 설계: 6단계 워크플로",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "C3-UniMM: Causal Cycle-Consistent Unified Multimodal Modeling via Super Alignment and Shared Decoding Space",
-      "url": "https://arxiv.org/abs/2608.28603",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-01 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "C3-UniMM: Super Alignment 및 Shared Decoding Space를 통한 Causal Cycle-Consistent Unified Multimodal Modeling",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Ice Island Survives Run-In With Joe Island",
       "url": "https://science.nasa.gov/earth/earth-observatory/iceberg-from-petermann-glacier-speeds-away/",
       "source": "NASA",
@@ -1674,6 +1716,22 @@
       "stream": "release",
       "category": "인공지능",
       "titleKo": "@ huggingface/kernels 소개: 로컬 AI용 200개 이상의 WebGPU 커널",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Qwen 3.8 Max 0902 now available on AI Gateway",
+      "url": "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-09-01 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Qwen 3.8 Max 0902 now available on AI Gateway",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -1943,80 +2001,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
-      "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
-      "source": "The Hacker News",
-      "date": "2026-08-31 13:50",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "⚡ 주간 요약: 중국 스파이 프록시, AI 에이전트 오프 태스크, 라우터 백도어 등",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "ChatGPT and Reddit now face EU's toughest online safety rules",
-      "url": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
-      "source": "Ars Technica",
-      "date": "2026-08-31 13:41",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "ChatGPT와 Reddit은 이제 EU에서 가장 까다로운 온라인 안전 규칙에 직면해 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
-      "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
-      "source": "Cloudflare Blog",
-      "date": "2026-08-31 12:59",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Adaptive Intelligence 소개: 모든 봇 공격의 경제성 훼손",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The First Battery Was Inspired By a Dead Frog",
-      "url": "https://spectrum.ieee.org/voltaic-pile-first-battery",
-      "source": "IEEE Spectrum",
-      "date": "2026-08-31 12:00",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "첫 번째 배터리는 죽은 개구리에서 영감을 얻었습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 9. 2. AM 9:18",
+    "officialSources": 9,
+    "checkedAt": "2026. 9. 2. PM 2:53",
     "mode": "매시간 공식 레이더"
   }
 }
