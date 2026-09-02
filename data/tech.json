@@ -1,29 +1,29 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 3. AM 4:50",
+  "updatedAt": "2026. 9. 3. AM 7:41",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v0.34.3",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 64,
-    "sourceCount": 27,
-    "officialCount": 22,
+    "recentCount": 61,
+    "sourceCount": 26,
+    "officialCount": 23,
     "opportunityCount": 0
   },
   "summary": [
     "새 출시: v0.34.3",
-    "창작 기술: Adobe, 인도 시장 정보 스타트업 RILO 인수"
+    "창작 기술: Artemis IV 타임라인을 경계하는 NASA는 달 우주복 디자인을 바꾸고 있습니다."
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 38,
-      "summary": "v0.34.3",
-      "latest": "2026-09-02 19:25",
+      "count": 37,
+      "summary": "TechCrunch Disrupt 2026의 새로운 Real World AI Stage는 엔비디아, 로봇 및 멸종한 동물을 특징으로 합니다.",
+      "latest": "2026-09-02 22:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T19:50:33.197Z",
+      "lastRefreshed": "2026-09-02T22:41:23.681Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -37,7 +37,7 @@
       "summary": "NVIDIA와 CrowdStrike, Agentic 사이버 보안 프론티어 강화",
       "latest": "2026-09-01 21:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T19:50:33.197Z",
+      "lastRefreshed": "2026-09-02T22:41:23.681Z",
       "themes": [
         "주요 기업"
       ]
@@ -46,11 +46,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
-      "summary": "300번째 IEEE 마일스톤으로 명명된 NASA의 화물 이동 로봇 팔",
-      "latest": "2026-09-02 18:00",
+      "count": 6,
+      "summary": "NexCOBOT, 물리적 AI 시장의 장애물과 가속화에 대해 논의",
+      "latest": "2026-09-02 19:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T19:50:33.197Z",
+      "lastRefreshed": "2026-09-02T22:41:23.681Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "Google, Anthropic 및 OpenAI, 사이버 AI 모델, 안전 장치 및 액세스 프로그램 공개",
       "latest": "2026-09-02 18:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T19:50:33.197Z",
+      "lastRefreshed": "2026-09-02T22:41:23.681Z",
       "themes": [
         "주요 기업"
       ]
@@ -70,12 +70,14 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 8,
-      "summary": "NASA, 커뮤니티 칼리지 연구와 항공 우주 커리어를 연결하는 챌린지 개편",
-      "latest": "2026-09-02 19:01",
+      "count": 9,
+      "summary": "Artemis IV 타임라인을 경계하는 NASA는 달 우주복 디자인을 바꾸고 있습니다.",
+      "latest": "2026-09-02 19:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T19:50:33.197Z",
-      "themes": []
+      "lastRefreshed": "2026-09-02T22:41:23.681Z",
+      "themes": [
+        "미술·디자인"
+      ]
     },
     {
       "id": "energy",
@@ -85,18 +87,18 @@
       "summary": "보고서: 미국, 2분기에 에너지 저장 용량 20GWh 추가, 사상 최대 분기",
       "latest": "2026-09-02 03:45",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-02T19:50:33.197Z",
+      "lastRefreshed": "2026-09-02T22:41:23.681Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 15,
+      "count": 16,
       "summary": "엔터프라이즈 관리 설정은 모든 기본 모델을 지원합니다",
       "latest": "2026-09-02 18:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T19:50:33.197Z",
+      "lastRefreshed": "2026-09-02T22:41:23.681Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -152,6 +154,40 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Content exclusions generally available in Copilot app and CLI",
+        "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+        "source": "GitHub Changelog",
+        "date": "2026-09-02 18:14",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Copilot 앱 및 CLI에서 일반적으로 제공되는 콘텐츠 제외",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+        "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+        "source": "Ars Technica",
+        "date": "2026-09-02 18:13",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Google, 6주 만에 세 번째 플래시 모델인 Gemini 3.8 Flash 출시",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
@@ -272,56 +308,21 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "APOD: 2026 September 2 – Solar Eclipses and Culture",
-        "url": "https://science.nasa.gov/image-article/apod-2026-september-2-solar-eclipses-and-culture/",
-        "source": "NASA",
-        "date": "2026-09-02 04:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "APOD: 2026년 9월 2일 – 일식과 문화",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.7.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.7.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-09-02 01:30",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.7.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
       {
-        "title": "Adobe acquires Indian market intelligence startup Rilo",
-        "url": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/",
-        "source": "TechCrunch",
-        "date": "2026-09-02 14:03",
-        "categoryId": "ai",
+        "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
+        "url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+        "source": "Ars Technica",
+        "date": "2026-09-02 19:37",
+        "categoryId": "space",
         "confidence": "C",
         "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Adobe, 인도 시장 정보 스타트업 RILO 인수",
+        "category": "우주·통신",
+        "titleKo": "Artemis IV 타임라인을 경계하는 NASA는 달 우주복 디자인을 바꾸고 있습니다.",
         "type": "뉴스·분석",
         "themes": [
-          "주요 기업",
           "미술·디자인"
         ],
         "official": false,
@@ -351,6 +352,94 @@
     "voices": [],
     "analysis": [
       {
+        "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+        "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+        "source": "TechCrunch",
+        "date": "2026-09-02 22:24",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "TechCrunch Disrupt 2026의 새로운 Real World AI Stage는 엔비디아, 로봇 및 멸종한 동물을 특징으로 합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+        "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+        "source": "TechCrunch",
+        "date": "2026-09-02 20:19",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI 안전 전문가에게 알리는 OpenAI의 새로운 추론 기술",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+        "source": "The Verge",
+        "date": "2026-09-02 20:11",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Google은 새로운 Gemini 3.8 플래시 모델이 ‘더 열심히‘ 작동하지만 더 많은 비용이 들 수 있다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "NexCOBOT discusses physical AI market hurdles and acceleration",
+        "url": "https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/",
+        "source": "The Robot Report",
+        "date": "2026-09-02 19:45",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "NexCOBOT, 물리적 AI 시장의 장애물과 가속화에 대해 논의",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
+        "url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+        "source": "Ars Technica",
+        "date": "2026-09-02 19:37",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Artemis IV 타임라인을 경계하는 NASA는 달 우주복 디자인을 바꾸고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
         "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
         "source": "The Hacker News",
@@ -369,6 +458,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+        "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+        "source": "Ars Technica",
+        "date": "2026-09-02 18:13",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Google, 6주 만에 세 번째 플래시 모델인 Gemini 3.8 Flash 출시",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "NASA’s Cargo-Moving Robotic Arm Named 300th IEEE Milestone",
         "url": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
         "source": "IEEE Spectrum",
@@ -378,6 +485,22 @@
         "stream": "news",
         "category": "로봇·모빌리티",
         "titleKo": "300번째 IEEE 마일스톤으로 명명된 NASA의 화물 이동 로봇 팔",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+        "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+        "source": "Ars Technica",
+        "date": "2026-09-02 17:58",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "트럼프는 FED가 AI 안전 테스트에 사용하는 비밀 규칙을 공개하도록 강요받을 수 있습니다.",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -430,128 +553,6 @@
         "titleKo": "인공지능 탐지가 '진짜 또는 가짜‘ 보다 어려운 이유에 대한 Pangram의 Max SPERO",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-        "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-        "source": "TechCrunch",
-        "date": "2026-09-02 17:09",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "미국 정부는 저작권이 있는 자료에 대한 LLM 교육 문제에 대해 OpenAI와 협력합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
-        "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
-        "source": "The Hacker News",
-        "date": "2026-09-02 16:41",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "가짜 소프트웨어 설치자는 Windows Update를 비활성화하고 Microsoft Defender를 약화시킵니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-        "source": "The Verge",
-        "date": "2026-09-02 16:40",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "연구원들은 OpenAI의 Astra 출시를 앞두고 안전 재앙을 우려하고 있습니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "llm-gemini 0.34",
-        "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-        "source": "Simon Willison",
-        "date": "2026-09-02 16:39",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "llm-gemini 0.34",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
-        "source": "The Verge",
-        "date": "2026-09-02 16:12",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "트럼프 행정부는 뉴욕시 저작권 소송에서 OpenAI를 지원하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "India’s richest man now wants to turn aging computers into AI-ready PCs",
-        "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
-        "source": "TechCrunch",
-        "date": "2026-09-02 16:01",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인도에서 가장 부유한 사람은 이제 노후화된 컴퓨터를 AI 지원 PC로 전환하고자 합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google is sending MrBeast into the wilderness, armed with AI",
-        "url": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
-        "source": "The Verge",
-        "date": "2026-09-02 15:47",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google은 인공지능으로 무장한 MrBeast를 황야로 보내고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -660,6 +661,94 @@
   },
   "news": [
     {
+      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+      "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+      "source": "TechCrunch",
+      "date": "2026-09-02 22:24",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "TechCrunch Disrupt 2026의 새로운 Real World AI Stage는 엔비디아, 로봇 및 멸종한 동물을 특징으로 합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "source": "TechCrunch",
+      "date": "2026-09-02 20:19",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI 안전 전문가에게 알리는 OpenAI의 새로운 추론 기술",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "source": "The Verge",
+      "date": "2026-09-02 20:11",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google은 새로운 Gemini 3.8 플래시 모델이 ‘더 열심히‘ 작동하지만 더 많은 비용이 들 수 있다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "NexCOBOT discusses physical AI market hurdles and acceleration",
+      "url": "https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/",
+      "source": "The Robot Report",
+      "date": "2026-09-02 19:45",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "NexCOBOT, 물리적 AI 시장의 장애물과 가속화에 대해 논의",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
+      "url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+      "source": "Ars Technica",
+      "date": "2026-09-02 19:37",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Artemis IV 타임라인을 경계하는 NASA는 달 우주복 디자인을 바꾸고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v0.34.3",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.3",
       "source": "GitHub · ComfyUI",
@@ -726,6 +815,40 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Content exclusions generally available in Copilot app and CLI",
+      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "source": "GitHub Changelog",
+      "date": "2026-09-02 18:14",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Copilot 앱 및 CLI에서 일반적으로 제공되는 콘텐츠 제외",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+      "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+      "source": "Ars Technica",
+      "date": "2026-09-02 18:13",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google, 6주 만에 세 번째 플래시 모델인 Gemini 3.8 Flash 출시",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "NASA’s Cargo-Moving Robotic Arm Named 300th IEEE Milestone",
       "url": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
       "source": "IEEE Spectrum",
@@ -756,6 +879,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+      "source": "Ars Technica",
+      "date": "2026-09-02 17:58",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "트럼프는 FED가 AI 안전 테스트에 사용하는 비밀 규칙을 공개하도록 강요받을 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Amazon’s AI assistant can now spot fake emails from the company",
@@ -994,24 +1133,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "PSA: Amazon’s shopping AI can now tell you if that message is a scam",
-      "url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
-      "source": "TechCrunch",
-      "date": "2026-09-02 14:56",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "PSA: 아마존의 쇼핑 AI는 이제 그 메시지가 사기인지 알 수 있습니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "NASA Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds",
       "url": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/",
       "source": "NASA",
@@ -1094,25 +1215,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Adobe acquires Indian market intelligence startup Rilo",
-      "url": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/",
-      "source": "TechCrunch",
-      "date": "2026-09-02 14:03",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Adobe, 인도 시장 정보 스타트업 RILO 인수",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Facilitating AI integration with simplicity at scale",
       "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
       "source": "MIT Technology Review",
@@ -1143,22 +1245,6 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "NYC bans AI use for students until they reach high school",
-      "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
-      "source": "The Verge",
-      "date": "2026-09-02 13:51",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "NYC는 학생이 고등학교에 입학할 때까지 AI 사용을 금지합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
@@ -1502,6 +1588,38 @@
       "themes": [
         "주요 기업"
       ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Muse Spark 1.3 now available on AI Gateway",
+      "url": "https://vercel.com/changelog/muse-spark-1-3-now-available-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-09-02 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Muse Spark 1.3 now available on AI Gateway",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "GLM-5.3 is 50% off through DigitalOcean on AI Gateway",
+      "url": "https://vercel.com/changelog/glm-5-3-is-50-off-through-digitalocean-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-09-02 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "GLM-5.3 is 50% off through DigitalOcean on AI Gateway",
+      "type": "출시·업데이트",
+      "themes": [],
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
@@ -1871,128 +1989,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "date": "2026-09-01 14:29",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Claude Fable 5.1은 GitHub Copilot에서 일반적으로 사용할 수 있습니다.",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Making the AI-powered case for legacy modernization",
-      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
-      "source": "MIT Technology Review",
-      "date": "2026-09-01 14:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "레거시 현대화를 위한 AI 기반 케이스 만들기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Missing Layer in Robot Safety Assurance",
-      "url": "https://www.therobotreport.com/the-missing-layer-in-robot-safety-assurance/",
-      "source": "The Robot Report",
-      "date": "2026-09-01 13:56",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "로봇 안전 보증의 누락된 계층",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "HowToRobot and Robotics Australia Group partner on platform to encourage robot adoption",
-      "url": "https://www.therobotreport.com/howtorobot-robotics-australia-group-partner-platform-encourage-robot-adoption/",
-      "source": "The Robot Report",
-      "date": "2026-09-01 13:45",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "하우투로봇 (HowToRobot) 과 로보틱스 오스트레일리아 그룹 (Robotics Australia Group) 은 로봇 도입을 장려하기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "US to urge hands-off AI regulation at G20 tech meeting, official says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmFFcTlLcU1BTjFTOXBjTE80ZGFzSUc5ZUtPREdXX2tDcTJZODd4UTNwekU1M3JFdXlZdUhPcFl6Z0RqcWhjQ3VvLW92cmtZMHlLY0ZmTktxNlUtVXJLRlFfTXhWWXpvbGRBTU1Vb0FEY0dVNWE1Y3VNZTJ5SVhoU19hU0lsU0xmUnpoSkJrMVY5T1ZIaHlzTHRBS2JRTjdRU0U0R0tB?oc=5",
-      "source": "Reuters",
-      "date": "2026-09-01 13:34",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "미국, G20 기술 회의에서 AI 규제 철폐 촉구 - 로이터",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
-      "url": "https://blog.cloudflare.com/cache-transcoding/",
-      "source": "Cloudflare Blog",
-      "date": "2026-09-01 12:59",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Zstandard 및 Pingora로 페타바이트의 캐시 스토리지를 절약하는 방법",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
-      "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
-      "source": "MIT Technology Review",
-      "date": "2026-09-01 12:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "다운로드: 작물을 위한 미생물 조작 및 OpenAI의 배양 문제",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 10,
-    "checkedAt": "2026. 9. 3. AM 4:50",
+    "officialSources": 9,
+    "checkedAt": "2026. 9. 3. AM 7:41",
     "mode": "매시간 공식 레이더"
   }
 }
