@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 3. AM 8:03",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v0.34.3",
+  "updatedAt": "2026. 9. 3. AM 10:09",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v16.4.0-canary.15",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 61,
+    "recentCount": 58,
     "sourceCount": 26,
-    "officialCount": 23,
+    "officialCount": 24,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.34.3",
+    "새 출시: v16.4.0-canary.15",
     "창작 기술: Artemis IV 타임라인을 경계하는 NASA는 달 우주복 디자인을 바꾸고 있습니다."
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 37,
+      "count": 35,
       "summary": "TechCrunch Disrupt 2026의 새로운 Real World AI Stage는 엔비디아, 로봇 및 멸종한 동물을 특징으로 합니다.",
       "latest": "2026-09-02 22:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T23:03:07.755Z",
+      "lastRefreshed": "2026-09-03T01:09:30.292Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -37,7 +37,7 @@
       "summary": "NVIDIA와 CrowdStrike, Agentic 사이버 보안 프론티어 강화",
       "latest": "2026-09-01 21:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T23:03:07.755Z",
+      "lastRefreshed": "2026-09-03T01:09:30.292Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,10 +47,10 @@
       "code": "ROBOT",
       "label": "로봇·모빌리티",
       "count": 6,
-      "summary": "NexCOBOT, 물리적 AI 시장의 장애물과 가속화에 대해 논의",
-      "latest": "2026-09-02 19:45",
+      "summary": "Uber, 런던에서 최초로 로보택시 출시한 웨이모 (Waymo) 를 제치고",
+      "latest": "2026-09-02 21:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T23:03:07.755Z",
+      "lastRefreshed": "2026-09-03T01:09:30.292Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "Google, Anthropic 및 OpenAI, 사이버 AI 모델, 안전 장치 및 액세스 프로그램 공개",
       "latest": "2026-09-02 18:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T23:03:07.755Z",
+      "lastRefreshed": "2026-09-03T01:09:30.292Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +74,7 @@
       "summary": "Artemis IV 타임라인을 경계하는 NASA는 달 우주복 디자인을 바꾸고 있습니다.",
       "latest": "2026-09-02 19:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T23:03:07.755Z",
+      "lastRefreshed": "2026-09-03T01:09:30.292Z",
       "themes": [
         "미술·디자인"
       ]
@@ -83,22 +83,24 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 3,
-      "summary": "보고서: 미국, 2분기에 에너지 저장 용량 20GWh 추가, 사상 최대 분기",
-      "latest": "2026-09-02 03:45",
+      "count": 4,
+      "summary": "머스크에도 불구하고 테슬라 모델 Y와 함께 전기차로 변신하는 빌",
+      "latest": "2026-09-03 00:47",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-02T23:03:07.755Z",
-      "themes": []
+      "lastRefreshed": "2026-09-03T01:09:30.292Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
-      "summary": "엔터프라이즈 관리 설정은 모든 기본 모델을 지원합니다",
-      "latest": "2026-09-02 18:51",
+      "count": 17,
+      "summary": "v16.4.0-canary.15",
+      "latest": "2026-09-02 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-02T23:03:07.755Z",
+      "lastRefreshed": "2026-09-03T01:09:30.292Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -107,6 +109,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.0-canary.15",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.15",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-02 23:43",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.15",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Uber beats Waymo as first to launch robotaxis in London",
+        "url": "https://www.theverge.com/news/988415/uber-wayve-robotaxi-london-launch",
+        "source": "The Verge",
+        "date": "2026-09-02 21:31",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Uber, 런던에서 최초로 로보택시 출시한 웨이모 (Waymo) 를 제치고",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "v0.34.3",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.3",
@@ -272,42 +306,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-        "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-        "source": "Hugging Face Blog",
-        "date": "2026-09-02 13:49",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "Confluent에서 IBM 시계열 모델을 사용한 실시간 인텔리전스",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Free domain with Pro offer now includes .app and .dev",
-        "url": "https://vercel.com/changelog/app-and-dev-domains-included-with-free-domain-for-pro",
-        "source": "Vercel Changelog",
-        "date": "2026-09-02 07:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Pro 혜택이 포함된 무료 도메인에는 이제 .app 및 .dev가 포함됩니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "기회"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -352,6 +350,24 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Bill Goes Electric with Tesla Model Y Despite Musk",
+        "url": "https://cleantechnica.com/2026/09/02/bill-goes-electric-with-tesla-model-y-despite-musk/",
+        "source": "CleanTechnica",
+        "date": "2026-09-03 00:47",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "머스크에도 불구하고 테슬라 모델 Y와 함께 전기차로 변신하는 빌",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
         "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
         "source": "TechCrunch",
@@ -365,6 +381,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Uber beats Waymo as first to launch robotaxis in London",
+        "url": "https://www.theverge.com/news/988415/uber-wayve-robotaxi-london-launch",
+        "source": "The Verge",
+        "date": "2026-09-02 21:31",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Uber, 런던에서 최초로 로보택시 출시한 웨이모 (Waymo) 를 제치고",
+        "type": "출시·업데이트",
+        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -524,38 +556,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Learn why food is physical AI’s hardest problem at RoboBusiness",
-        "url": "https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/",
-        "source": "The Robot Report",
-        "date": "2026-09-02 17:37",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "RoboBusiness에서 음식이 물리적 AI의 가장 어려운 문제인 이유 알아보기",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
-        "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-        "source": "TechCrunch",
-        "date": "2026-09-02 17:18",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인공지능 탐지가 '진짜 또는 가짜‘ 보다 어려운 이유에 대한 Pangram의 Max SPERO",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -573,6 +573,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Fable 5.1 World Modeling",
+        "url": "https://github.com/PhiloLabs/fable51-worlds",
+        "source": "Hacker News",
+        "date": "2026-09-02 19:49",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "우화 5.1 세계 모델링",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -642,26 +658,44 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Check if a file was made with Claude",
-        "url": "https://claude.com/check-content",
-        "source": "Hacker News",
-        "date": "2026-09-02 12:23",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude로 만든 파일인지 확인",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Bill Goes Electric with Tesla Model Y Despite Musk",
+      "url": "https://cleantechnica.com/2026/09/02/bill-goes-electric-with-tesla-model-y-despite-musk/",
+      "source": "CleanTechnica",
+      "date": "2026-09-03 00:47",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "머스크에도 불구하고 테슬라 모델 Y와 함께 전기차로 변신하는 빌",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.4.0-canary.15",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.15",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-02 23:43",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.15",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
       "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
@@ -676,6 +710,22 @@
       "themes": [
         "주요 기업"
       ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Uber beats Waymo as first to launch robotaxis in London",
+      "url": "https://www.theverge.com/news/988415/uber-wayve-robotaxi-london-launch",
+      "source": "The Verge",
+      "date": "2026-09-02 21:31",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Uber, 런던에서 최초로 로보택시 출시한 웨이모 (Waymo) 를 제치고",
+      "type": "출시·업데이트",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -733,6 +783,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Fable 5.1 World Modeling",
+      "url": "https://github.com/PhiloLabs/fable51-worlds",
+      "source": "Hacker News",
+      "date": "2026-09-02 19:49",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "우화 5.1 세계 모델링",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NexCOBOT discusses physical AI market hurdles and acceleration",
@@ -1185,24 +1251,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
-      "source": "The Verge",
-      "date": "2026-09-02 14:36",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI는 수십 건의 새로운 소송에서 텀블러 릿지 대량 총격 사건을 ’방조 및 방조' 한 혐의로 기소되었습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
       "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
       "source": "Simon Willison",
@@ -1317,22 +1365,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Check if a file was made with Claude",
-      "url": "https://claude.com/check-content",
-      "source": "Hacker News",
-      "date": "2026-09-02 12:23",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Claude로 만든 파일인지 확인",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "The Download: AI puzzles and a path to our nearest star system",
@@ -1961,46 +1993,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Visko launches Orbis live model and closes pre-seed funding round",
-      "url": "https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/",
-      "source": "The Robot Report",
-      "date": "2026-09-01 16:00",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Visko, Orbis 라이브 모델 출시 및 사전 시드 자금 조달 라운드 종료",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Making the AI-powered case for legacy modernization",
-      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
-      "source": "MIT Technology Review",
-      "date": "2026-09-01 14:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Making the AI-powered case for legacy modernization",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 9. 3. AM 8:03",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 3. AM 10:09",
+    "mode": "매시간 공식 레이더"
   }
 }
