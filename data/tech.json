@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 3. PM 2:53",
+  "updatedAt": "2026. 9. 3. PM 8:22",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 9월 3일 – 일식과 황새",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 58,
-    "sourceCount": 26,
-    "officialCount": 23,
+    "recentCount": 59,
+    "sourceCount": 25,
+    "officialCount": 24,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
-      "summary": "EvalDetectBench: 프론티어 언어 모델에서 평가 인식 측정을 위한 벤치마크",
-      "latest": "2026-09-03 04:00",
+      "count": 36,
+      "summary": "전사적으로 에이전트 AI 파일럿 확장",
+      "latest": "2026-09-03 09:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-03T05:53:03.670Z",
+      "lastRefreshed": "2026-09-03T11:22:29.402Z",
       "themes": [
         "주요 기업"
       ]
@@ -36,7 +36,7 @@
       "summary": "NVIDIA와 CrowdStrike, Agentic 사이버 보안 프론티어 강화",
       "latest": "2026-09-01 21:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-03T05:53:03.670Z",
+      "lastRefreshed": "2026-09-03T11:22:29.402Z",
       "themes": [
         "주요 기업"
       ]
@@ -45,11 +45,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 5,
-      "summary": "Uber, 런던에서 최초로 로보택시 출시한 웨이모 (Waymo) 를 제치고",
-      "latest": "2026-09-02 21:31",
+      "count": 6,
+      "summary": "PlusAI, SPAC 거래를 통해 자율주행 트럭 공개",
+      "latest": "2026-09-03 10:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-03T05:53:03.670Z",
+      "lastRefreshed": "2026-09-03T11:22:29.402Z",
       "themes": []
     },
     {
@@ -60,7 +60,7 @@
       "summary": "Google, Anthropic 및 OpenAI, 사이버 AI 모델, 안전 장치 및 액세스 프로그램 공개",
       "latest": "2026-09-02 18:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-03T05:53:03.670Z",
+      "lastRefreshed": "2026-09-03T11:22:29.402Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,7 +73,7 @@
       "summary": "APOD: 2026년 9월 3일 – 일식과 황새",
       "latest": "2026-09-03 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-03T05:53:03.670Z",
+      "lastRefreshed": "2026-09-03T11:22:29.402Z",
       "themes": [
         "미술·디자인"
       ]
@@ -82,11 +82,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 6,
+      "count": 5,
       "summary": "BYD, Sealion 08 출시, 4D 레이더 칩 대량 생산 시작",
       "latest": "2026-09-03 03:22",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-03T05:53:03.670Z",
+      "lastRefreshed": "2026-09-03T11:22:29.402Z",
       "themes": [
         "주요 기업"
       ]
@@ -95,11 +95,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
+      "count": 15,
       "summary": "v16.4.0-canary.15",
       "latest": "2026-09-02 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-03T05:53:03.670Z",
+      "lastRefreshed": "2026-09-03T11:22:29.402Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -155,6 +155,38 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Give Your Coding Agents a Memory You Own",
+        "url": "https://huggingface.co/blog/funes",
+        "source": "Hugging Face Blog",
+        "date": "2026-09-03 00:00",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "코딩 에이전트에게 내가 소유한 메모리를 제공하세요",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+        "url": "https://huggingface.co/blog/train-to-paint-with-code",
+        "source": "Hugging Face Blog",
+        "date": "2026-09-03 00:00",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "TRL 및 OpenEnv로 수채화를 칠하는 코딩 모델 교육",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       },
       {
         "title": "v16.4.0-canary.15",
@@ -269,40 +301,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
-        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
-        "source": "NASA",
-        "date": "2026-09-02 18:00",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA의 허블, 토성의 남극을 둘러싼 새로운 십자군 추적",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
-        "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
-        "source": "The Hacker News",
-        "date": "2026-09-02 16:41",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "가짜 소프트웨어 설치자는 Windows Update를 비활성화하고 Microsoft Defender를 약화시킵니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -328,6 +326,54 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "PlusAI to take autonomous trucking public via a SPAC deal",
+        "url": "https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/",
+        "source": "The Robot Report",
+        "date": "2026-09-03 10:00",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "PlusAI, SPAC 거래를 통해 자율주행 트럭 공개",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Scaling agentic AI pilots across the enterprise",
+        "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+        "source": "MIT Technology Review",
+        "date": "2026-09-03 09:30",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "전사적으로 에이전트 AI 파일럿 확장",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Anker’s new MindBase is an AI-powered brain for your smart home",
+        "url": "https://www.theverge.com/tech/987936/anker-eufy-mindbase-ai-security-camera-system-matter",
+        "source": "The Verge",
+        "date": "2026-09-03 06:18",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Anker의 새로운 MindBase는 스마트 홈을 위한 AI 기반 두뇌입니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
         "url": "https://arxiv.org/abs/2609.01611",
@@ -477,58 +523,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
-        "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
-        "source": "TechCrunch",
-        "date": "2026-09-02 22:24",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "TechCrunch Disrupt 2026의 새로운 Real World AI Stage는 엔비디아, 로봇 및 멸종한 동물을 특징으로 합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Uber beats Waymo as first to launch robotaxis in London",
-        "url": "https://www.theverge.com/news/988415/uber-wayve-robotaxi-london-launch",
-        "source": "The Verge",
-        "date": "2026-09-02 21:31",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Uber, 런던에서 최초로 로보택시 출시한 웨이모 (Waymo) 를 제치고",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-        "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-        "source": "TechCrunch",
-        "date": "2026-09-02 20:19",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 안전 전문가에게 알리는 OpenAI의 새로운 추론 기술",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -546,6 +540,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Reasons robotics is hard",
+        "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+        "source": "Hacker News",
+        "date": "2026-09-02 22:02",
+        "categoryId": "robotics",
+        "confidence": "D",
+        "stream": "community",
+        "category": "로봇·모빌리티",
+        "titleKo": "로봇 공학이 어려운 이유",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -615,26 +625,58 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-        "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-        "source": "Hacker News",
-        "date": "2026-09-02 13:59",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "세 사이트는 AI를 위한 215,128개의 “최고의 소프트웨어” 페이지를 만들었습니다. 당혹스러움이 그들을 인용합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "PlusAI to take autonomous trucking public via a SPAC deal",
+      "url": "https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/",
+      "source": "The Robot Report",
+      "date": "2026-09-03 10:00",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "PlusAI, SPAC 거래를 통해 자율주행 트럭 공개",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Scaling agentic AI pilots across the enterprise",
+      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "source": "MIT Technology Review",
+      "date": "2026-09-03 09:30",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "전사적으로 에이전트 AI 파일럿 확장",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anker’s new MindBase is an AI-powered brain for your smart home",
+      "url": "https://www.theverge.com/tech/987936/anker-eufy-mindbase-ai-security-camera-system-matter",
+      "source": "The Verge",
+      "date": "2026-09-03 06:18",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anker의 새로운 MindBase는 스마트 홈을 위한 AI 기반 두뇌입니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "APOD: 2026 September 3 – The Eclipse and the Stork",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-3-the-eclipse-and-the-stork/",
@@ -818,6 +860,38 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "url": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face Blog",
+      "date": "2026-09-03 00:00",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "코딩 에이전트에게 내가 소유한 메모리를 제공하세요",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": "Hugging Face Blog",
+      "date": "2026-09-03 00:00",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "TRL 및 OpenEnv로 수채화를 칠하는 코딩 모델 교육",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v16.4.0-canary.15",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.15",
       "source": "GitHub · Next.js",
@@ -868,6 +942,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Reasons robotics is hard",
+      "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+      "source": "Hacker News",
+      "date": "2026-09-02 22:02",
+      "categoryId": "robotics",
+      "confidence": "D",
+      "stream": "community",
+      "category": "로봇·모빌리티",
+      "titleKo": "로봇 공학이 어려운 이유",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Uber beats Waymo as first to launch robotaxis in London",
@@ -1292,24 +1382,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Google is sending MrBeast into the wilderness, armed with AI",
-      "url": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
-      "source": "The Verge",
-      "date": "2026-09-02 15:47",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google은 인공지능으로 무장한 MrBeast를 황야로 보내고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Rising Over Louisiana",
       "url": "https://www.nasa.gov/image-article/rising-over-louisiana/",
       "source": "NASA",
@@ -1452,22 +1524,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "source": "Hacker News",
-      "date": "2026-09-02 13:59",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "세 사이트는 AI를 위한 215,128개의 “최고의 소프트웨어” 페이지를 만들었습니다. 당혹스러움이 그들을 인용합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
@@ -1900,82 +1956,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Top 10 robotics stories of August 2026",
-      "url": "https://www.therobotreport.com/top-10-robotics-stories-of-august-2026/",
-      "source": "The Robot Report",
-      "date": "2026-09-01 18:56",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "2026년 8월의 10대 로봇 이야기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic changes data retention policy after pushback from customers - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkcVVPMGQtbVV6Mm9JNGxwN0RVR2VLMEZOcC1pN0tPZEdpekYzR1B0ZWpvWEpPUC1LY1pYamxsclZwTko0TTFpenBNQVZoWmJ6MnhLclVpYmxVY05HQm9ya0hQcWlRN0YyVWxNakFB0gFzQVVfeXFMT1VZRkJMTFhpYUZQVGVVdHdHTlRrbzVMQ09ETmpVUFh0MGY0bzBKdlBWU19Ral9wdFZkalowamlqenVuaHcwREpSQ2NDWWVjbS1jT2tJdzlLUmpYSFlCMkJWMkhjdGZsR0REMzdCOUxQdkh0QQ?oc=5",
-      "source": "CNBC",
-      "date": "2026-09-01 18:01",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic changes data retention policy after pushback from customers - CNBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v1.3.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.3.0",
-      "source": "GitHub · Anthropic SDK",
-      "date": "2026-09-01 17:36",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v1.3.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The Moonrider Battery Electric Tractor From GoSun Is Priced At $19,995",
-      "url": "https://cleantechnica.com/2026/09/01/the-moonrider-battery-electric-tractor-from-gosun-is-priced-at-19995/",
-      "source": "CleanTechnica",
-      "date": "2026-09-01 17:35",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "GoSun의 Moonrider 배터리 전기 트랙터의 가격은 $ 19,995입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 9. 3. PM 2:53",
+    "officialSources": 8,
+    "checkedAt": "2026. 9. 3. PM 8:22",
     "mode": "매시간 공식 레이더"
   }
 }
