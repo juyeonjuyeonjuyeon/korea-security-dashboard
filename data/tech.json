@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 4. PM 2:58",
+  "updatedAt": "2026. 9. 4. PM 8:25",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "태평양의 열대성 사이클론 3종",
+  "headline": "v16.4.0-canary.17",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 64,
+    "recentCount": 65,
     "sourceCount": 27,
-    "officialCount": 27,
+    "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: 태평양의 열대성 사이클론 3종",
+    "새 출시: v16.4.0-canary.17",
     "창작 기술: DuplexSpeechBench-IFEval: 전이중 음성 에이전트에 따른 암시적 지시 평가",
     "인물 발언: 샘 알트먼 (Sam Altman) 이 OpenAI가 AI 혜택 전달에 열을 올렸다고 말함 - Bloomberg.com"
   ],
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
+      "count": 32,
       "summary": "식욕을 돋우지 못하는 AI 생성 메뉴의 동일성 문제",
       "latest": "2026-09-04 04:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T05:58:58.846Z",
+      "lastRefreshed": "2026-09-04T11:25:41.643Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 7,
+      "count": 6,
       "summary": "엔비디아는 공식적으로 DLSS 5를 구형 GPU로 가져올 것이지만 게이머가 완전히 제어할 수는 없습니다.",
-      "latest": "2026-09-04 03:30",
+      "latest": "2026-09-04 09:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T05:58:58.846Z",
+      "lastRefreshed": "2026-09-04T11:25:41.643Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 8,
+      "count": 6,
       "summary": "메드트로닉, 수술 파트너 코너스톤 로보틱스에 $ 700M 투자",
       "latest": "2026-09-03 18:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T05:58:58.846Z",
+      "lastRefreshed": "2026-09-04T11:25:41.643Z",
       "themes": [
         "주요 기업"
       ]
@@ -61,11 +61,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
-      "summary": "비정상적으로 음소거된 Tesla Cybercab 출시",
-      "latest": "2026-09-04 01:51",
+      "count": 7,
+      "summary": "공개되지 않은 여러 보안 결함을 패치한 후 Plex Urges 즉시 업데이트",
+      "latest": "2026-09-04 07:35",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T05:58:58.846Z",
+      "lastRefreshed": "2026-09-04T11:25:41.643Z",
       "themes": [
         "주요 기업"
       ]
@@ -78,7 +78,7 @@
       "summary": "태평양의 열대성 사이클론 3종",
       "latest": "2026-09-04 04:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T05:58:58.846Z",
+      "lastRefreshed": "2026-09-04T11:25:41.643Z",
       "themes": [
         "미술·디자인"
       ]
@@ -91,7 +91,7 @@
       "summary": "파도 에너지의 다가오는 쓰나미는 여전히 다가오고 있습니다",
       "latest": "2026-09-04 02:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-04T05:58:58.846Z",
+      "lastRefreshed": "2026-09-04T11:25:41.643Z",
       "themes": [
         "주요 기업"
       ]
@@ -100,18 +100,69 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 12,
-      "summary": "v16.4.0-canary.16",
-      "latest": "2026-09-03 23:47",
+      "count": 14,
+      "summary": "Microsoft의 Project Zenith는 개발자를 위한 ‘방해 없는 Windows 환경’ 입니다.",
+      "latest": "2026-09-04 11:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T05:58:58.846Z",
+      "lastRefreshed": "2026-09-04T11:25:41.643Z",
       "themes": [
-        "주요 기업"
+        "주요 기업",
+        "기회"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.0-canary.17",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.17",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-04 08:59",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.17",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+        "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+        "source": "The Hacker News",
+        "date": "2026-09-04 07:35",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "공개되지 않은 여러 보안 결함을 패치한 후 Plex Urges 즉시 업데이트",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The unusually muted Tesla Cybercab launch",
+        "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+        "source": "The Verge",
+        "date": "2026-09-04 06:34",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "비정상적으로 음소거된 Tesla Cybercab 출시",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "A Trio of Tropical Cyclones in the Pacific",
         "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
@@ -127,24 +178,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "The unusually muted Tesla Cybercab launch",
-        "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-        "source": "The Verge",
-        "date": "2026-09-04 01:51",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "비정상적으로 음소거된 Tesla Cybercab 출시",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "v16.4.0-canary.16",
@@ -281,38 +314,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Upcoming deprecation of selected GitHub Copilot models",
-        "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-        "source": "GitHub Changelog",
-        "date": "2026-09-03 19:40",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "선택한 GitHub Copilot 모델의 향후 사용 중단",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "GitHub CLI Linux package signing key expires September 5",
-        "url": "https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5",
-        "source": "GitHub Changelog",
-        "date": "2026-09-03 19:05",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub CLI Linux 패키지 서명 키가 9월 5일에 만료됩니다",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -430,6 +431,95 @@
     ],
     "analysis": [
       {
+        "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
+        "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+        "source": "The Verge",
+        "date": "2026-09-04 11:22",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "news",
+        "category": "소프트웨어·개발",
+        "titleKo": "Microsoft의 Project Zenith는 개발자를 위한 ‘방해 없는 Windows 환경’ 입니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "기회"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
+        "url": "https://www.theverge.com/games/989978/nvidia-dlss-5-rtx-40",
+        "source": "The Verge",
+        "date": "2026-09-04 09:45",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "엔비디아는 공식적으로 DLSS 5를 구형 GPU로 가져올 것이지만 게이머가 완전히 제어할 수는 없습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+        "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+        "source": "The Hacker News",
+        "date": "2026-09-04 07:35",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "공개되지 않은 여러 보안 결함을 패치한 후 Plex Urges 즉시 업데이트",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+        "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+        "source": "The Hacker News",
+        "date": "2026-09-04 06:47",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "GPT-6 Astra는 OpenAI가 PoC 공격 요청을 차단함에 따라 ExploitBench에서 100% 점수를 얻습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The unusually muted Tesla Cybercab launch",
+        "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+        "source": "The Verge",
+        "date": "2026-09-04 06:34",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "비정상적으로 음소거된 Tesla Cybercab 출시",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "The sameness problem behind those unappetizing AI-generated menus",
         "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
         "source": "TechCrunch",
@@ -544,92 +634,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
-        "url": "https://www.theverge.com/games/989978/nvidia-dlss-5-rtx-40",
-        "source": "The Verge",
-        "date": "2026-09-04 03:30",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아는 공식적으로 DLSS 5를 구형 GPU로 가져올 것이지만 게이머가 완전히 제어할 수는 없습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Coming Tsunami Of Wave Energy Is Still Coming",
-        "url": "https://cleantechnica.com/2026/09/03/wave-energy-us-pacwave-renewables-us-policy/",
-        "source": "CleanTechnica",
-        "date": "2026-09-04 02:32",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "파도 에너지의 다가오는 쓰나미는 여전히 다가오고 있습니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The unusually muted Tesla Cybercab launch",
-        "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-        "source": "The Verge",
-        "date": "2026-09-04 01:51",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "비정상적으로 음소거된 Tesla Cybercab 출시",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Tesla is asking people if they want to buy and run Cybercab fleets",
-        "url": "https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/",
-        "source": "TechCrunch",
-        "date": "2026-09-03 22:18",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "Tesla는 사람들에게 Cybercab 차량을 구매하고 운영할 것인지 묻고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "India Launches Rocket in Boost to Space Ambitions After Failures - bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHhUa3Y1ZUphYVZERExoeWRFMVhvanlfWDktN0tNN0M5emY5WUlUSUxMbmU3a0ZIT2ZncVRmenVUaGZFRWhGRVB5ajdGNjU4RXBVa1lpZHBEZXRqc0xBb0tFMVVscVd4d1Z0b3FYMS05RjBuMDByQVhXeUFnSi1hV1VycW8xR0E5YWYzMl9NQUgtVjZKR1ltVHpJU2hoS2tBNTBJVnlwZEs5ZmxoOWprOWFoSWI0Zw?oc=5",
-        "source": "bloomberg.com",
-        "date": "2026-09-03 22:10",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "인도, 실패 후 우주 야망에 대한 부스트에서 로켓 발사 - bloomberg.com",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -738,6 +742,111 @@
     ]
   },
   "news": [
+    {
+      "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
+      "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+      "source": "The Verge",
+      "date": "2026-09-04 11:22",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "news",
+      "category": "소프트웨어·개발",
+      "titleKo": "Microsoft의 Project Zenith는 개발자를 위한 ‘방해 없는 Windows 환경’ 입니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업",
+        "기회"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
+      "url": "https://www.theverge.com/games/989978/nvidia-dlss-5-rtx-40",
+      "source": "The Verge",
+      "date": "2026-09-04 09:45",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "엔비디아는 공식적으로 DLSS 5를 구형 GPU로 가져올 것이지만 게이머가 완전히 제어할 수는 없습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.4.0-canary.17",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.17",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-04 08:59",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.17",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+      "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+      "source": "The Hacker News",
+      "date": "2026-09-04 07:35",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "공개되지 않은 여러 보안 결함을 패치한 후 Plex Urges 즉시 업데이트",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+      "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+      "source": "The Hacker News",
+      "date": "2026-09-04 06:47",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "GPT-6 Astra는 OpenAI가 PoC 공격 요청을 차단함에 따라 ExploitBench에서 100% 점수를 얻습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The unusually muted Tesla Cybercab launch",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "date": "2026-09-04 06:34",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "비정상적으로 음소거된 Tesla Cybercab 출시",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "The sameness problem behind those unappetizing AI-generated menus",
       "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
@@ -871,24 +980,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
-      "url": "https://www.theverge.com/games/989978/nvidia-dlss-5-rtx-40",
-      "source": "The Verge",
-      "date": "2026-09-04 03:30",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "엔비디아는 공식적으로 DLSS 5를 구형 GPU로 가져올 것이지만 게이머가 완전히 제어할 수는 없습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "The Coming Tsunami Of Wave Energy Is Still Coming",
       "url": "https://cleantechnica.com/2026/09/03/wave-energy-us-pacwave-renewables-us-policy/",
       "source": "CleanTechnica",
@@ -900,24 +991,6 @@
       "titleKo": "파도 에너지의 다가오는 쓰나미는 여전히 다가오고 있습니다",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The unusually muted Tesla Cybercab launch",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "date": "2026-09-04 01:51",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "비정상적으로 음소거된 Tesla Cybercab 출시",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1602,6 +1675,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Why AI food looks like that",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+      "source": "The Verge",
+      "date": "2026-09-03 14:08",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Why AI food looks like that",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
       "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
       "source": "Ars Technica",
@@ -1733,40 +1822,6 @@
       "stream": "news",
       "category": "로봇·모빌리티",
       "titleKo": "역동적인 산업용 로봇 케이블 캐리어 보호",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Nvidia is buying Hugging Face for almost $13 billion",
-      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
-      "source": "The Verge",
-      "date": "2026-09-03 12:18",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Nvidia는 거의 $ 130억에 Hugging Face를 구매하고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "These new robot lawnmowers trim your edges",
-      "url": "https://www.theverge.com/tech/988172/anker-mammotion-robot-mowers-edgers-ifa-2026",
-      "source": "The Verge",
-      "date": "2026-09-03 12:13",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "이 새로운 로봇 잔디 깎는 기계는 가장자리를 다듬습니다",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -2038,56 +2093,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
-      "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
-      "source": "Ars Technica",
-      "date": "2026-09-02 18:13",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google, 6주 만에 세 번째 플래시 모델인 Gemini 3.8 Flash 출시",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NASA’s Cargo-Moving Robotic Arm Named 300th IEEE Milestone",
-      "url": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
-      "source": "IEEE Spectrum",
-      "date": "2026-09-02 18:00",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "300번째 IEEE 마일스톤으로 명명된 NASA의 화물 이동 로봇 팔",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
-      "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
-      "source": "Ars Technica",
-      "date": "2026-09-02 17:58",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "트럼프는 FED가 AI 안전 테스트에 사용하는 비밀 규칙을 공개하도록 강요받을 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2095,7 +2100,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 9. 4. PM 2:58",
+    "checkedAt": "2026. 9. 4. PM 8:25",
     "mode": "매시간 공식 레이더"
   }
 }
