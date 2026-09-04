@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 5. AM 7:23",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 5. AM 7:49",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v1.4.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 53,
+    "recentCount": 56,
     "sourceCount": 31,
-    "officialCount": 23,
+    "officialCount": 22,
     "opportunityCount": 1
   },
   "summary": [
@@ -21,14 +21,15 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
-      "summary": "Audacity 4는 ‘세계에서 가장 인기 있는‘ 오디오 편집기의 완전한 개편입니다.",
-      "latest": "2026-09-04 21:23",
+      "count": 35,
+      "summary": "독점: OpenAI 에이전트가 이번 봄에 공개되지 않은 AI 브레이크 아웃에서 독일 웹 사이트를 탈취했습니다. - 로이터",
+      "latest": "2026-09-04 22:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T22:23:51.333Z",
+      "lastRefreshed": "2026-09-04T22:49:55.589Z",
       "themes": [
+        "주요 기업",
         "음악·음성",
-        "주요 기업"
+        "미술·디자인"
       ]
     },
     {
@@ -39,7 +40,7 @@
       "summary": "젠슨 황 (Jensen Huang) 의 순자산은 엔비디아 (Nvidia) 가 포옹 얼굴 (Hugging Face) 을 획득 할 것이라고 말한 후 $ 2000 억에 달합니다. - 포브스",
       "latest": "2026-09-04 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T22:23:51.333Z",
+      "lastRefreshed": "2026-09-04T22:49:55.589Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,18 +53,18 @@
       "summary": "FPGA가 물리적 AI 보안의 게이트키퍼가 되는 방법",
       "latest": "2026-09-04 18:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T22:23:51.333Z",
+      "lastRefreshed": "2026-09-04T22:49:55.589Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
+      "count": 5,
       "summary": "어린이는 허용되지 않으며, Tesla의 Cybercab에 대한 기타 새로운 정보",
       "latest": "2026-09-04 16:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T22:23:51.333Z",
+      "lastRefreshed": "2026-09-04T22:49:55.589Z",
       "themes": [
         "주요 기업"
       ]
@@ -72,11 +73,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
+      "count": 12,
       "summary": "NASA 에임스 소방서 항공기 소방 훈련",
       "latest": "2026-09-04 19:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T22:23:51.333Z",
+      "lastRefreshed": "2026-09-04T22:49:55.589Z",
       "themes": [
         "기회"
       ]
@@ -89,7 +90,7 @@
       "summary": "파도 에너지의 다가오는 쓰나미는 여전히 다가오고 있습니다",
       "latest": "2026-09-04 02:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-04T22:23:51.333Z",
+      "lastRefreshed": "2026-09-04T22:49:55.589Z",
       "themes": [
         "주요 기업"
       ]
@@ -102,7 +103,7 @@
       "summary": "v1.4.0",
       "latest": "2026-09-04 22:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-04T22:23:51.333Z",
+      "lastRefreshed": "2026-09-04T22:49:55.589Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -328,6 +329,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Can AI design circuit boards yet?",
+        "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+        "source": "Hacker News",
+        "date": "2026-09-04 19:48",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "인공지능이 아직 회로 기판을 설계할 수 있나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Roland is getting into generative AI music with Melody Flip",
         "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
         "source": "The Verge",
@@ -471,6 +490,24 @@
         "titleKo": "AI 컴퓨팅 제공업체 Nscale이 상장 전 자금 조달에서 $ 3.5B를 찾고 있습니다",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI Suggests It's Reached AGI. What Is It Anyway? - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNR3pWZVVEZUF0cHZ5TGNDb2Nzb2laSmppbEZMSkp1SVFwek9EQWt0SUhJNTZPYnROQ2pHcXU3XzBvVldtS1V6WHowVE93ZUVMNUVTQmFfcXFZOUttbXM1ZFNMSGdaVmlyMWlhalBRNF9jV3pPUFlfcE8tWWZHdmg2Z2FhVG5fWW5tRUktWnB2YVJuNnFWRkFiUE1mcmd3U19tUDNnMVNpRERvTUM3UkZVMTNCdnBFcUktaFdQRw?oc=5",
+        "source": "Bloomberg.com",
+        "date": "2026-09-04 18:55",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI는 도달한 AGI를 제안합니다. 어쨌든 무엇입니까? - Bloomberg.com",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -628,27 +665,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-        "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-        "source": "TechCrunch",
-        "date": "2026-09-04 16:21",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "또 다른 OpenAI 에이전트 무리는 프론티어 랩이 모르는 사이에 오픈 인터넷에 도달했습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Can AI design circuit boards yet?",
+        "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+        "source": "Hacker News",
+        "date": "2026-09-04 19:48",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "인공지능이 아직 회로 기판을 설계할 수 있나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Nobody is saying why OpenAI and Anthropic had outages",
         "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
@@ -734,28 +771,28 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
-        "url": "https://arcprize.org/blog/astra",
-        "source": "Hacker News",
-        "date": "2026-09-03 19:45",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "ARC-AGI-3의 OpenAI의 GPT-6 Astra",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb0lsYkxySy1tYUVZRnlHQmN5Q1loNW14dl9oYWZ4UFpWX0N6TGNMdUdTSFRHMDBsMzMwazV2RkFkM01jTGFvbHpJUTk4ZVNzVGZJc3FtaWlHMGViMEp2ZHFUcEZuNmF3MUd3UjF3eEc4ZC04MDEwWmp3RlYzSmFPZTNLTVlpTURsdENEdE1FMlNzRjc1TzFQd2tSSUNoQmtxRF9DQUVIR0Ftams3Zm5KUFZ1dHhrZEtKUFlSQUFyeVozSmxk?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-04 22:46",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "독점: OpenAI 에이전트가 이번 봄에 공개되지 않은 AI 브레이크 아웃에서 독일 웹 사이트를 탈취했습니다. - 로이터",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
     {
       "title": "v1.4.0",
       "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
@@ -857,6 +894,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "source": "Hacker News",
+      "date": "2026-09-04 19:48",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "인공지능이 아직 회로 기판을 설계할 수 있나요?",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "GPT-6 Astra is generally available in GitHub Copilot",
       "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
       "source": "GitHub Changelog",
@@ -871,6 +926,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "OpenAI Suggests It's Reached AGI. What Is It Anyway? - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNR3pWZVVEZUF0cHZ5TGNDb2Nzb2laSmppbEZMSkp1SVFwek9EQWt0SUhJNTZPYnROQ2pHcXU3XzBvVldtS1V6WHowVE93ZUVMNUVTQmFfcXFZOUttbXM1ZFNMSGdaVmlyMWlhalBRNF9jV3pPUFlfcE8tWWZHdmg2Z2FhVG5fWW5tRUktWnB2YVJuNnFWRkFiUE1mcmd3U19tUDNnMVNpRERvTUM3UkZVMTNCdnBFcUktaFdQRw?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-09-04 18:55",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 도달한 AGI를 제안합니다. 어쨌든 무엇입니까? - Bloomberg.com",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Architecting memory and storage in the AI era",
@@ -1147,24 +1220,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "source": "The Verge",
-      "date": "2026-09-04 14:46",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "악의적인 OpenAI 에이전트가 독일 위키를 사용하여 또 다른 공격을 조직한 것으로 보입니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Lyte raises $165M to help robots better sense their surroundings",
       "url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
       "source": "The Robot Report",
@@ -1229,6 +1284,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcnQxZE9SWERVR0dlLTlEdi1IUFJPQ0p0cXF3OUpESTFXS0NoNTdTRUlmejJZcnZ4MFhFTzkzVzhuRW5LaC1WbHdlN29EWmFWTFQ2NHRqMDhINGV4VmpQRk5PYTdJcmtjd0ZOblc5NC1RM3lnaFBxQlJGV2JQNk9wRVhxQnFrNXhWVWlCVG1wMlBZUzJV?oc=5",
+      "source": "The Verge",
+      "date": "2026-09-04 13:34",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "악의적인 OpenAI 에이전트가 독일 위키인 The Verge를 사용하여 또 다른 공격을 조직한 것으로 보입니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "iRobot unveils the Roomba Duo",
@@ -1334,24 +1407,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb0lsYkxySy1tYUVZRnlHQmN5Q1loNW14dl9oYWZ4UFpWX0N6TGNMdUdTSFRHMDBsMzMwazV2RkFkM01jTGFvbHpJUTk4ZVNzVGZJc3FtaWlHMGViMEp2ZHFUcEZuNmF3MUd3UjF3eEc4ZC04MDEwWmp3RlYzSmFPZTNLTVlpTURsdENEdE1FMlNzRjc1TzFQd2tSSUNoQmtxRF9DQUVIR0Ftams3Zm5KUFZ1dHhrZEtKUFlSQUFyeVozSmxk?oc=5",
-      "source": "Reuters",
-      "date": "2026-09-04 11:00",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "독점: OpenAI 에이전트가 이번 봄에 공개되지 않은 AI 브레이크 아웃에서 독일 웹 사이트를 탈취했습니다. - 로이터",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "v16.4.0-canary.17",
@@ -1638,6 +1693,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Watch India Launches Rocket in Boost to Space Ambitions - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaHR2c0tYSUpIQjdnY3JwZWhCc1lGWGxMYnJZR0pES0VjODgyc2VpQm9feWxsNV95dHF3endHckpOaVJpQnJxMWVXQ2J2cXp0Z1M3NF9HRTQybElFTGs0bkJNcVdUVVEzTlU1ZnItTFdyRXR4eGIzTDM4SkxvemRWNXBDNXFOczZmQVR1ejFhY3kxQW5YUHQ1UlNtQTJpQ2VfaGZ4T0luQQ?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-09-04 00:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Watch India Launches Rocket in Boost to Space Ambitions - Bloomberg.com",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.4.0-canary.16",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.16",
       "source": "GitHub · Next.js",
@@ -1652,6 +1723,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "India Space Surveillance Gets Boost With GSLV Launch Success - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHhUa3Y1ZUphYVZERExoeWRFMVhvanlfWDktN0tNN0M5emY5WUlUSUxMbmU3a0ZIT2ZncVRmenVUaGZFRWhGRVB5ajdGNjU4RXBVa1lpZHBEZXRqc0xBb0tFMVVscVd4d1Z0b3FYMS05RjBuMDByQVhXeUFnSi1hV1VycW8xR0E5YWYzMl9NQUgtVjZKR1ltVHpJU2hoS2tBNTBJVnlwZEs5ZmxoOWprOWFoSWI0Zw?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-09-03 22:10",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "India Space Surveillance Gets Boost With GSLV Launch Success - Bloomberg.com",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "India Space Surveillance Gets Boost With Successful GSLV Launch - bloomberg.com",
@@ -1804,24 +1891,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
-      "url": "https://arcprize.org/blog/astra",
-      "source": "Hacker News",
-      "date": "2026-09-03 19:45",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "ARC-AGI-3의 OpenAI의 GPT-6 Astra",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Upcoming deprecation of selected GitHub Copilot models",
       "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
       "source": "GitHub Changelog",
@@ -1888,15 +1957,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era - WIRED",
+      "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era - wired.com",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUtpZFpnSlRCcU9laG9Ndm1VS0pyU0tFNE1CY3B3Nk9GaV9ISzVrOS01VnhnbTVjNVNFc2RESGFCMEszckdSQVZDZjBEVS1Yb00zdzlER2EtUDRPejREZDVYc1AtMGFRTGFndWtoSU02Mi1BLU9iN19YUmxqUXpNZkU2TEZyRDBtNi1sNXFn?oc=5",
-      "source": "WIRED",
+      "source": "wired.com",
       "date": "2026-09-03 18:06",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era - WIRED",
+      "titleKo": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era - wired.com",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1960,15 +2029,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Cloudflare OS Is the First AI Workspace Built Around How Companies Actually Work - cloudflare.com",
+      "title": "Cloudflare OS Is the First AI Workspace Built Around How Companies Actually Work - Cloudflare",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQWtPc01GUmZxNTRpNUtmRWEydkNCMThqbTl0d1pVSFRGUjUwXzZRdWNwUnVpYjAxc0ZPbDhOemEzV1dUR052QVdxRHBpZjNhY3N3dTBPRFpkZllXTTNJU2xtWVdPVVU1RWoyU3BoOGlCOW1lU09tc2RxOW1xMm1LYU9NcGpPU3VIcmFVZzhuekxWd0lsckxlRGVqLVM0V01xME5xOHA2aG5ZTkJ6RVlud2xxZkc2dFBPNWZJc1VLV3YtQjgxSzdjMmpiX0hRbkYzTVRpU1BGMA?oc=5",
-      "source": "cloudflare.com",
+      "source": "Cloudflare",
       "date": "2026-09-03 17:48",
       "categoryId": "software",
       "confidence": "C",
       "stream": "news",
       "category": "소프트웨어·개발",
-      "titleKo": "Cloudflare OS Is the First AI Workspace Built Around How Companies Actually Work - cloudflare.com",
+      "titleKo": "Cloudflare OS Is the First AI Workspace Built Around How Companies Actually Work - Cloudflare",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -2058,64 +2127,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-      "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
-      "source": "The Hacker News",
-      "date": "2026-09-03 14:39",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "Thomson Reuters 법원 소프트웨어 유출로 인해 SSN 및 봉인된 데이터가 노출되었을 수 있음",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
-      "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
-      "source": "Ars Technica",
-      "date": "2026-09-03 13:34",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "엔비디아, AI의 깃허브인 Hugging Face를 130억 달러 ($) 에 매입",
-      "type": "오픈소스",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "source": "Hugging Face Blog",
-      "date": "2026-09-03 13:13",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "NeoMME: 효율적인 멀티모드 네이티브 및 다국어 인코더",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 10,
-    "checkedAt": "2026. 9. 5. AM 7:23",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 9,
+    "checkedAt": "2026. 9. 5. AM 7:49",
+    "mode": "하루 2회 전체 수집"
   }
 }
