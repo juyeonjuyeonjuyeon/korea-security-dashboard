@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 5. PM 2:49",
+  "updatedAt": "2026. 9. 5. PM 7:41",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v0.34.5",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 45,
+    "recentCount": 43,
     "sourceCount": 30,
-    "officialCount": 22,
+    "officialCount": 21,
     "opportunityCount": 1
   },
   "summary": [
@@ -22,10 +22,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 37,
-      "summary": "v0.34.5",
-      "latest": "2026-09-05 02:40",
+      "summary": "AI는 사고를 처리하고 엔지니어는 시스템에 대한 연락을 끊습니다.",
+      "latest": "2026-09-05 07:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T05:49:29.936Z",
+      "lastRefreshed": "2026-09-05T10:41:50.728Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -40,7 +40,7 @@
       "summary": "젠슨 황 (Jensen Huang) 의 순자산은 엔비디아 (Nvidia) 가 포옹 얼굴 (Hugging Face) 을 획득 할 것이라고 말한 후 $ 2000 억에 달합니다. - 포브스",
       "latest": "2026-09-04 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T05:49:29.936Z",
+      "lastRefreshed": "2026-09-05T10:41:50.728Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,18 +53,18 @@
       "summary": "FPGA가 물리적 AI 보안의 게이트키퍼가 되는 방법",
       "latest": "2026-09-04 18:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T05:49:29.936Z",
+      "lastRefreshed": "2026-09-05T10:41:50.728Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
-      "summary": "어린이는 허용되지 않으며, Tesla의 Cybercab에 대한 기타 새로운 정보",
-      "latest": "2026-09-04 16:51",
+      "count": 6,
+      "summary": "수천 명의 OpenAI 에이전트가 조용히 버려진 위키를 조정 채널로 전환했습니다.",
+      "latest": "2026-09-05 07:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T05:49:29.936Z",
+      "lastRefreshed": "2026-09-05T10:41:50.728Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,11 +73,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 12,
+      "count": 11,
       "summary": "NASA 에임스 소방서 항공기 소방 훈련",
       "latest": "2026-09-04 19:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T05:49:29.936Z",
+      "lastRefreshed": "2026-09-05T10:41:50.728Z",
       "themes": [
         "기회"
       ]
@@ -90,7 +90,7 @@
       "summary": "파도 에너지의 다가오는 쓰나미는 여전히 다가오고 있습니다",
       "latest": "2026-09-04 02:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-05T05:49:29.936Z",
+      "lastRefreshed": "2026-09-05T10:41:50.728Z",
       "themes": []
     },
     {
@@ -101,7 +101,7 @@
       "summary": "v16.4.0-canary.18",
       "latest": "2026-09-04 23:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T05:49:29.936Z",
+      "lastRefreshed": "2026-09-05T10:41:50.728Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -459,6 +459,24 @@
     ],
     "analysis": [
       {
+        "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+        "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+        "source": "The Hacker News",
+        "date": "2026-09-05 07:55",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "수천 명의 OpenAI 에이전트가 조용히 버려진 위키를 조정 채널로 전환했습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
         "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
         "source": "TechCrunch",
@@ -647,27 +665,41 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVVhEYzRsSWhMcG5SUEoxa1ZFVlh2T0RMckItYjVXMGpVZUJvYVlMRG5iNlFzb21TWjl6ZjY3RjNpcUwtdFBvbVdpTXQyS0prNzNkVS1Kb3FJbmNQRk1OLVV0cS1QRHVkR0ZUVUJPQThKWWFlNTgwLTNEM04yckU5TE91NG1mMndlTHE2YnBBQUhPZnZwX1dKSXdCWDdHcFk4RDZxN2RKMWo2NVFLZmZBRk8tZV9JWDFGZkpWWklEYXotZVA0U0F0NmtJVlcyZlh1TTNVOTBUeDN0WVY4cHFB?oc=5",
-        "source": "Forbes",
-        "date": "2026-09-04 16:49",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "젠슨 황 (Jensen Huang) 의 순자산은 엔비디아 (Nvidia) 가 포옹 얼굴 (Hugging Face) 을 획득 할 것이라고 말한 후 $ 2000 억에 달합니다. - 포브스",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "AI handles incidents, engineers lose touch with their systems",
+        "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+        "source": "Hacker News",
+        "date": "2026-09-05 07:52",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI는 사고를 처리하고 엔지니어는 시스템에 대한 연락을 끊습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+        "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+        "source": "Hacker News",
+        "date": "2026-09-04 23:38",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Spotify의 포털에서 Claude Code 토큰 사용량을 90% 줄였습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Can AI design circuit boards yet?",
         "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
@@ -705,6 +737,22 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "“Next-token predictor” is the wrong mental model for LLMs",
+        "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
+        "source": "Hacker News",
+        "date": "2026-09-04 17:09",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "\"다음 토큰 예측 변수\" 는 LLM에 대한 잘못된 정신 모델입니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Corporate America is getting hooked on open-source AI",
         "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
         "source": "Hacker News",
@@ -719,62 +767,44 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
-        "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
-        "source": "Hacker News",
-        "date": "2026-09-04 11:59",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Google AI 모드는 동일한 제품을 기존 검색보다 21.6% 더 비싸게 표시합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Discovery of a new OpenAI agent message board",
-        "url": "https://collusion.wiki/",
-        "source": "Hacker News",
-        "date": "2026-09-04 11:54",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "새로운 OpenAI 에이전트 메시지 보드 발견",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
-        "url": "https://armature.tech/blog/which-tools-coding-agents-install",
-        "source": "Hacker News",
-        "date": "2026-09-03 21:20",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude, Codex 및 Cursor는 어떤 도구를 선택합니까? 알아보기 위해 17k 런을 측정했습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+      "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+      "source": "The Hacker News",
+      "date": "2026-09-05 07:55",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "수천 명의 OpenAI 에이전트가 조용히 버려진 위키를 조정 채널로 전환했습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "source": "Hacker News",
+      "date": "2026-09-05 07:52",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI는 사고를 처리하고 엔지니어는 시스템에 대한 연락을 끊습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "v0.34.5",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.5",
@@ -806,6 +836,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "source": "Hacker News",
+      "date": "2026-09-04 23:38",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Spotify의 포털에서 Claude Code 토큰 사용량을 90% 줄였습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
@@ -1116,6 +1162,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "“Next-token predictor” is the wrong mental model for LLMs",
+      "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
+      "source": "Hacker News",
+      "date": "2026-09-04 17:09",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "\"다음 토큰 예측 변수\" 는 LLM에 대한 잘못된 정신 모델입니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
       "url": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
       "source": "TechCrunch",
@@ -1420,42 +1482,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
-      "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
-      "source": "Hacker News",
-      "date": "2026-09-04 11:59",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Google AI 모드는 동일한 제품을 기존 검색보다 21.6% 더 비싸게 표시합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Discovery of a new OpenAI agent message board",
-      "url": "https://collusion.wiki/",
-      "source": "Hacker News",
-      "date": "2026-09-04 11:54",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "새로운 OpenAI 에이전트 메시지 보드 발견",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
@@ -1825,22 +1851,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
-      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
-      "source": "Hacker News",
-      "date": "2026-09-03 21:20",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Claude, Codex 및 Cursor는 어떤 도구를 선택합니까? 알아보기 위해 17k 런을 측정했습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
       "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
       "source": "Cloudflare Blog",
@@ -2111,22 +2121,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
-      "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
-      "source": "NASA",
-      "date": "2026-09-03 17:06",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "진행 상황 96 우주선 발사, 도킹을 다루는 NASA",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2134,7 +2128,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 9. 5. PM 2:49",
+    "checkedAt": "2026. 9. 5. PM 7:41",
     "mode": "매시간 공식 레이더"
   }
 }
