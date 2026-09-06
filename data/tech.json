@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 7. AM 2:07",
+  "updatedAt": "2026. 9. 7. AM 4:15",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.19",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 20,
+    "recentCount": 21,
     "sourceCount": 25,
-    "officialCount": 19,
+    "officialCount": 18,
     "opportunityCount": 1
   },
   "summary": [
@@ -22,10 +22,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 30,
-      "summary": "나는 AI에 대해 느낀다",
+      "summary": "인공지능에 대한 나의 생각",
       "latest": "2026-09-06 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T17:07:16.233Z",
+      "lastRefreshed": "2026-09-06T19:15:11.208Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -39,7 +39,7 @@
       "summary": "Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face - Forbes",
       "latest": "2026-09-04 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T17:07:16.233Z",
+      "lastRefreshed": "2026-09-06T19:15:11.208Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Travis Kalanick의 Atoms가 로봇 택시 사업에 뛰어들고 있을지도 모릅니다.",
       "latest": "2026-09-06 16:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T17:07:16.234Z",
+      "lastRefreshed": "2026-09-06T19:15:11.208Z",
       "themes": [
         "주요 기업"
       ]
@@ -65,7 +65,7 @@
       "summary": "패치되지 않은 Magento 및 Adobe Commerce Zero-Day가 백도어 온라인 스토어에 악용됨",
       "latest": "2026-09-05 20:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T17:07:16.234Z",
+      "lastRefreshed": "2026-09-06T19:15:11.208Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -79,7 +79,7 @@
       "summary": "Isar Aerospace는 궤도에 도달하고 두 번째 비행에 페이로드를 배치합니다",
       "latest": "2026-09-06 07:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T17:07:16.234Z",
+      "lastRefreshed": "2026-09-06T19:15:11.208Z",
       "themes": [
         "영상",
         "기회"
@@ -89,11 +89,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
-      "summary": "폭스바겐 감독위원회, 모델 삭감 및 인력 10만명 감축 계획 승인",
-      "latest": "2026-09-06 03:26",
+      "count": 5,
+      "summary": "Zoox, 휴스턴에서 Robotaxi 테스트 시작",
+      "latest": "2026-09-06 18:54",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-06T17:07:16.234Z",
+      "lastRefreshed": "2026-09-06T19:15:11.208Z",
       "themes": [
         "주요 기업"
       ]
@@ -102,11 +102,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 13,
+      "count": 12,
       "summary": "v16.4.0-canary.19",
       "latest": "2026-09-05 23:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T17:07:16.234Z",
+      "lastRefreshed": "2026-09-06T19:15:11.208Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -465,6 +465,22 @@
     ],
     "analysis": [
       {
+        "title": "Zoox Begins Robotaxi Testing in Houston",
+        "url": "https://cleantechnica.com/2026/09/06/zoox-begins-robotaxi-testing-in-houston/",
+        "source": "CleanTechnica",
+        "date": "2026-09-06 18:54",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Zoox, 휴스턴에서 Robotaxi 테스트 시작",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
         "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
         "source": "TechCrunch",
@@ -647,27 +663,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-        "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-        "source": "TechCrunch",
-        "date": "2026-09-05 18:05",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI는 ‘위키 사건' 을 확인하며, 더 많은 공개를 위해 ‘프레임워크 작업 중’ 이라고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "How I feel about AI",
+        "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+        "source": "Hacker News",
+        "date": "2026-09-06 15:00",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "인공지능에 대한 나의 생각",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "I Feel about AI",
         "url": "https://beza1e1.tuxen.de/ai_feelings.html",
@@ -749,26 +763,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "AI handles incidents, engineers lose touch with their systems",
-        "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
-        "source": "Hacker News",
-        "date": "2026-09-05 07:52",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI는 사고를 처리하고 엔지니어는 시스템에 대한 연락을 끊습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Zoox Begins Robotaxi Testing in Houston",
+      "url": "https://cleantechnica.com/2026/09/06/zoox-begins-robotaxi-testing-in-houston/",
+      "source": "CleanTechnica",
+      "date": "2026-09-06 18:54",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Zoox, 휴스턴에서 Robotaxi 테스트 시작",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
       "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
@@ -802,6 +816,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "How I feel about AI",
+      "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+      "source": "Hacker News",
+      "date": "2026-09-06 15:00",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "인공지능에 대한 나의 생각",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "I Feel about AI",
@@ -1224,22 +1254,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI handles incidents, engineers lose touch with their systems",
-      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
-      "source": "Hacker News",
-      "date": "2026-09-05 07:52",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI는 사고를 처리하고 엔지니어는 시스템에 대한 연락을 끊습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true? - The Guardian",
@@ -2092,30 +2106,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v16.4.0-canary.16",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.16",
-      "source": "GitHub · Next.js",
-      "date": "2026-09-03 23:47",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.0-canary.16",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
+    "successful": 36,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 9. 7. AM 2:07",
+    "checkedAt": "2026. 9. 7. AM 4:15",
     "mode": "매시간 공식 레이더"
   }
 }
