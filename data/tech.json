@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 6. PM 10:42",
+  "updatedAt": "2026. 9. 7. AM 2:07",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.19",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 19,
+    "recentCount": 20,
     "sourceCount": 25,
     "officialCount": 19,
     "opportunityCount": 1
@@ -21,15 +21,14 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "GPT-6 아스트라: 차세대 인텔리전스 - openai.com",
-      "latest": "2026-09-06 12:31",
+      "count": 30,
+      "summary": "나는 AI에 대해 느낀다",
+      "latest": "2026-09-06 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T13:42:29.506Z",
+      "lastRefreshed": "2026-09-06T17:07:16.233Z",
       "themes": [
         "주요 기업",
-        "음악·음성",
-        "기회"
+        "음악·음성"
       ]
     },
     {
@@ -40,7 +39,7 @@
       "summary": "Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face - Forbes",
       "latest": "2026-09-04 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T13:42:29.506Z",
+      "lastRefreshed": "2026-09-06T17:07:16.233Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,22 +48,24 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 9,
-      "summary": "압력 센서는 로봇 그립 정확도를 향상시키는 데 도움이 될 수 있습니다",
-      "latest": "2026-09-06 12:30",
+      "count": 11,
+      "summary": "Travis Kalanick의 Atoms가 로봇 택시 사업에 뛰어들고 있을지도 모릅니다.",
+      "latest": "2026-09-06 16:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T13:42:29.506Z",
-      "themes": []
+      "lastRefreshed": "2026-09-06T17:07:16.234Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 7,
+      "count": 6,
       "summary": "패치되지 않은 Magento 및 Adobe Commerce Zero-Day가 백도어 온라인 스토어에 악용됨",
       "latest": "2026-09-05 20:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T13:42:29.506Z",
+      "lastRefreshed": "2026-09-06T17:07:16.234Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -78,7 +79,7 @@
       "summary": "Isar Aerospace는 궤도에 도달하고 두 번째 비행에 페이로드를 배치합니다",
       "latest": "2026-09-06 07:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T13:42:29.506Z",
+      "lastRefreshed": "2026-09-06T17:07:16.234Z",
       "themes": [
         "영상",
         "기회"
@@ -92,7 +93,7 @@
       "summary": "폭스바겐 감독위원회, 모델 삭감 및 인력 10만명 감축 계획 승인",
       "latest": "2026-09-06 03:26",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-06T13:42:29.506Z",
+      "lastRefreshed": "2026-09-06T17:07:16.234Z",
       "themes": [
         "주요 기업"
       ]
@@ -105,7 +106,7 @@
       "summary": "v16.4.0-canary.19",
       "latest": "2026-09-05 23:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T13:42:29.506Z",
+      "lastRefreshed": "2026-09-06T17:07:16.234Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -464,6 +465,56 @@
     ],
     "analysis": [
       {
+        "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+        "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+        "source": "TechCrunch",
+        "date": "2026-09-06 16:45",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Travis Kalanick의 Atoms가 로봇 택시 사업에 뛰어들고 있을지도 모릅니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "TechCrunch Mobility: Tesla Cybercab hits the road — and a snag",
+        "url": "https://techcrunch.com/2026/09/06/techcrunch-mobility-tesla-cybercab-hits-the-road-and-a-snag/",
+        "source": "TechCrunch",
+        "date": "2026-09-06 16:08",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "TechCrunch Mobility: Tesla Cybercab이 출시를 앞두고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Eric Sivertson discusses FPGAs and robot security",
+        "url": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
+        "source": "The Robot Report",
+        "date": "2026-09-06 14:30",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "에릭 시버트슨 (Eric Sivertson) 이 FPGA 및 로봇 보안에 대해 논의합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Pressure sensors can help improve robotic gripping accuracy",
         "url": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
         "source": "The Robot Report",
@@ -614,63 +665,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "10 Facts About The Tesla Cybercab",
-        "url": "https://cleantechnica.com/2026/09/05/10-facts-about-the-tesla-cybercab/",
-        "source": "CleanTechnica",
-        "date": "2026-09-05 16:18",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "테슬라 사이버캡에 대한 10가지 사실",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Using Blender with coding agents on macOS",
-        "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-        "source": "Simon Willison",
-        "date": "2026-09-05 15:51",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "MacOS에서 코딩 에이전트와 함께 Blender 사용",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
-        "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
-        "source": "Ars Technica",
-        "date": "2026-09-05 15:17",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "Tesla의 Cybercab이 배포되었으며 이미 조사 중입니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "I Feel about AI",
+        "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+        "source": "Hacker News",
+        "date": "2026-09-06 15:00",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "나는 AI에 대해 느낀다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
         "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
@@ -681,6 +694,22 @@
         "stream": "community",
         "category": "우주·통신",
         "titleKo": "Isar Aerospace는 궤도에 도달하고 두 번째 비행에 페이로드를 배치합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "AI, Tools and Transformation",
+        "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+        "source": "Hacker News",
+        "date": "2026-09-06 02:12",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI, 도구 및 혁신",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -736,44 +765,76 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-        "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
-        "source": "Hacker News",
-        "date": "2026-09-04 23:38",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Spotify의 포털에서 Claude Code 토큰 사용량을 90% 줄였습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "An open DNS recursive service for free security and high privacy",
-        "url": "https://quad9.net/",
-        "source": "Hacker News",
-        "date": "2026-09-04 20:13",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "무료 보안 및 높은 개인 정보 보호를 위한 개방형 DNS 재귀 서비스",
-        "type": "뉴스·분석",
-        "themes": [
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "source": "TechCrunch",
+      "date": "2026-09-06 16:45",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Travis Kalanick의 Atoms가 로봇 택시 사업에 뛰어들고 있을지도 모릅니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "TechCrunch Mobility: Tesla Cybercab hits the road — and a snag",
+      "url": "https://techcrunch.com/2026/09/06/techcrunch-mobility-tesla-cybercab-hits-the-road-and-a-snag/",
+      "source": "TechCrunch",
+      "date": "2026-09-06 16:08",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "TechCrunch Mobility: Tesla Cybercab이 출시를 앞두고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "I Feel about AI",
+      "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+      "source": "Hacker News",
+      "date": "2026-09-06 15:00",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "나는 AI에 대해 느낀다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Eric Sivertson discusses FPGAs and robot security",
+      "url": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
+      "source": "The Robot Report",
+      "date": "2026-09-06 14:30",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "에릭 시버트슨 (Eric Sivertson) 이 FPGA 및 로봇 보안에 대해 논의합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "GPT-6 Astra: A new generation of intelligence - openai.com",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
@@ -839,6 +900,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI, Tools and Transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "source": "Hacker News",
+      "date": "2026-09-06 02:12",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI, 도구 및 혁신",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "GPT-6 Astra on robot arms",
@@ -1229,22 +1306,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
-      "source": "Hacker News",
-      "date": "2026-09-04 23:38",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Spotify의 포털에서 Claude Code 토큰 사용량을 90% 줄였습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
       "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
       "source": "TechCrunch",
@@ -1333,22 +1394,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "source": "TechCrunch",
-      "date": "2026-09-04 21:12",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 컴퓨팅 제공업체 Nscale이 상장 전 자금 조달에서 $ 3.5B를 찾고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v0.34.4",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.4",
       "source": "GitHub · ComfyUI",
@@ -1379,24 +1424,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "An open DNS recursive service for free security and high privacy",
-      "url": "https://quad9.net/",
-      "source": "Hacker News",
-      "date": "2026-09-04 20:13",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "무료 보안 및 높은 개인 정보 보호를 위한 개방형 DNS 재귀 서비스",
-      "type": "뉴스·분석",
-      "themes": [
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NASA Ames Fire Department Aircraft Firefighting Training",
@@ -1528,24 +1555,6 @@
       "titleKo": "한때 AI 공격으로 인기가 높았던 ASCII 밀수는 스팸 발송자에 의해 수용됩니다.",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
-      "url": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
-      "source": "TechCrunch",
-      "date": "2026-09-04 16:51",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "어린이는 허용되지 않으며, Tesla의 Cybercab에 대한 기타 새로운 정보",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1698,22 +1707,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Robot.com partners with Sodexo to roll out more sidewalk delivery robots",
-      "url": "https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/",
-      "source": "The Robot Report",
-      "date": "2026-09-04 14:15",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Robot.com은 Sodexo와 파트너십을 맺고 더 많은 인도 배달 로봇을 출시합니다",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2122,7 +2115,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 9. 6. PM 10:42",
+    "checkedAt": "2026. 9. 7. AM 2:07",
     "mode": "매시간 공식 레이더"
   }
 }
