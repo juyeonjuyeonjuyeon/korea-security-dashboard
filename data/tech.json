@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 7. AM 4:15",
+  "updatedAt": "2026. 9. 7. AM 6:27",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.19",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 21,
+    "recentCount": 19,
     "sourceCount": 25,
     "officialCount": 18,
     "opportunityCount": 1
@@ -22,10 +22,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 30,
-      "summary": "인공지능에 대한 나의 생각",
-      "latest": "2026-09-06 15:00",
+      "summary": "출판사와 에이전트가 Anthropic settlement에 대해 클레임을 제기함에 따라 저자들은 반발하고 있습니다.",
+      "latest": "2026-09-06 20:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T19:15:11.208Z",
+      "lastRefreshed": "2026-09-06T21:27:14.186Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -39,7 +39,7 @@
       "summary": "Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face - Forbes",
       "latest": "2026-09-04 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T19:15:11.208Z",
+      "lastRefreshed": "2026-09-06T21:27:14.186Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Travis Kalanick의 Atoms가 로봇 택시 사업에 뛰어들고 있을지도 모릅니다.",
       "latest": "2026-09-06 16:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T19:15:11.208Z",
+      "lastRefreshed": "2026-09-06T21:27:14.186Z",
       "themes": [
         "주요 기업"
       ]
@@ -65,7 +65,7 @@
       "summary": "패치되지 않은 Magento 및 Adobe Commerce Zero-Day가 백도어 온라인 스토어에 악용됨",
       "latest": "2026-09-05 20:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T19:15:11.208Z",
+      "lastRefreshed": "2026-09-06T21:27:14.186Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -75,11 +75,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 15,
+      "count": 14,
       "summary": "Isar Aerospace는 궤도에 도달하고 두 번째 비행에 페이로드를 배치합니다",
       "latest": "2026-09-06 07:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T19:15:11.208Z",
+      "lastRefreshed": "2026-09-06T21:27:14.186Z",
       "themes": [
         "영상",
         "기회"
@@ -89,11 +89,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
-      "summary": "Zoox, 휴스턴에서 Robotaxi 테스트 시작",
-      "latest": "2026-09-06 18:54",
+      "count": 6,
+      "summary": "Tesla Cybercab 출시 조사 중",
+      "latest": "2026-09-06 20:44",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-06T19:15:11.208Z",
+      "lastRefreshed": "2026-09-06T21:27:14.186Z",
       "themes": [
         "주요 기업"
       ]
@@ -106,7 +106,7 @@
       "summary": "v16.4.0-canary.19",
       "latest": "2026-09-05 23:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-06T19:15:11.208Z",
+      "lastRefreshed": "2026-09-06T21:27:14.186Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -465,6 +465,42 @@
     ],
     "analysis": [
       {
+        "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+        "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+        "source": "TechCrunch",
+        "date": "2026-09-06 20:47",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "출판사와 에이전트가 Anthropic settlement에 대해 클레임을 제기함에 따라 저자들은 반발하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Tesla Cybercab Rollout Being Investigated",
+        "url": "https://cleantechnica.com/2026/09/06/tesla-cybercab-rollout-being-investigated/",
+        "source": "CleanTechnica",
+        "date": "2026-09-06 20:44",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Tesla Cybercab 출시 조사 중",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Zoox Begins Robotaxi Testing in Houston",
         "url": "https://cleantechnica.com/2026/09/06/zoox-begins-robotaxi-testing-in-houston/",
         "source": "CleanTechnica",
@@ -627,42 +663,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-        "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-        "source": "The Hacker News",
-        "date": "2026-09-05 20:14",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "패치되지 않은 Magento 및 Adobe Commerce Zero-Day가 백도어 온라인 스토어에 악용됨",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Hikers rescued after using Google Gemini for planning",
-        "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-        "source": "TechCrunch",
-        "date": "2026-09-05 19:35",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "계획 수립을 위해 Google Gemini를 사용한 후 구조된 등산객",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -767,6 +767,42 @@
     ]
   },
   "news": [
+    {
+      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "source": "TechCrunch",
+      "date": "2026-09-06 20:47",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "출판사와 에이전트가 Anthropic settlement에 대해 클레임을 제기함에 따라 저자들은 반발하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Tesla Cybercab Rollout Being Investigated",
+      "url": "https://cleantechnica.com/2026/09/06/tesla-cybercab-rollout-being-investigated/",
+      "source": "CleanTechnica",
+      "date": "2026-09-06 20:44",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Tesla Cybercab 출시 조사 중",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Zoox Begins Robotaxi Testing in Houston",
       "url": "https://cleantechnica.com/2026/09/06/zoox-begins-robotaxi-testing-in-houston/",
@@ -1318,24 +1354,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "source": "TechCrunch",
-      "date": "2026-09-04 23:15",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI의 불량 상담원은 공식적인 조사 절차 없이 계속 탈출하고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks - Reuters",
@@ -2090,30 +2108,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Watch India Launches Rocket in Boost to Space Ambitions - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaHR2c0tYSUpIQjdnY3JwZWhCc1lGWGxMYnJZR0pES0VjODgyc2VpQm9feWxsNV95dHF3endHckpOaVJpQnJxMWVXQ2J2cXp0Z1M3NF9HRTQybElFTGs0bkJNcVdUVVEzTlU1ZnItTFdyRXR4eGIzTDM4SkxvemRWNXBDNXFOczZmQVR1ejFhY3kxQW5YUHQ1UlNtQTJpQ2VfaGZ4T0luQQ?oc=5",
-      "source": "Bloomberg.com",
-      "date": "2026-09-04 00:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Watch India Launches Rocket in Boost to Space Ambitions - Bloomberg.com",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
+    "successful": 37,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 9. 7. AM 4:15",
+    "checkedAt": "2026. 9. 7. AM 6:27",
     "mode": "매시간 공식 레이더"
   }
 }
