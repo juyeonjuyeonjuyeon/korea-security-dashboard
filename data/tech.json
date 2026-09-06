@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 6. AM 8:57",
+  "updatedAt": "2026. 9. 6. PM 1:46",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.19",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 21,
-    "sourceCount": 25,
-    "officialCount": 20,
+    "recentCount": 20,
+    "sourceCount": 24,
+    "officialCount": 19,
     "opportunityCount": 1
   },
   "summary": [
@@ -25,7 +25,7 @@
       "summary": "시애틀 타임스와 뉴스데이는 OpenAI와 Microsoft를 고소하기 위한 최신 간행물입니다.",
       "latest": "2026-09-05 22:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T23:57:25.864Z",
+      "lastRefreshed": "2026-09-06T04:46:46.862Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -40,7 +40,7 @@
       "summary": "젠슨 황 (Jensen Huang) 의 순자산은 엔비디아 (Nvidia) 가 포옹 얼굴 (Hugging Face) 을 획득 할 것이라고 말한 후 $ 2000 억에 달합니다. - 포브스",
       "latest": "2026-09-04 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T23:57:25.864Z",
+      "lastRefreshed": "2026-09-06T04:46:46.862Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "Enovis, 외과 기술 제공업체 eCential Robotics를 $ 180M에 인수",
       "latest": "2026-09-05 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T23:57:25.864Z",
+      "lastRefreshed": "2026-09-06T04:46:46.862Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "패치되지 않은 Magento 및 Adobe Commerce Zero-Day가 백도어 온라인 스토어에 악용됨",
       "latest": "2026-09-05 20:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T23:57:25.864Z",
+      "lastRefreshed": "2026-09-06T04:46:46.862Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -78,7 +78,7 @@
       "summary": "유럽이 인공위성 발사 경쟁에 돌입하면서 독일 로켓이 우주에 도착하다 - Reuters",
       "latest": "2026-09-05 21:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T23:57:25.864Z",
+      "lastRefreshed": "2026-09-06T04:46:46.862Z",
       "themes": [
         "기회"
       ]
@@ -87,11 +87,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 3,
-      "summary": "테슬라 사이버캡에 대한 10가지 사실",
-      "latest": "2026-09-05 16:18",
+      "count": 4,
+      "summary": "폭스바겐 감독위원회, 모델 삭감 및 인력 10만명 감축 계획 승인",
+      "latest": "2026-09-06 03:26",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-05T23:57:25.864Z",
+      "lastRefreshed": "2026-09-06T04:46:46.862Z",
       "themes": [
         "주요 기업"
       ]
@@ -100,11 +100,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 14,
+      "count": 13,
       "summary": "v16.4.0-canary.19",
       "latest": "2026-09-05 23:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-05T23:57:25.864Z",
+      "lastRefreshed": "2026-09-06T04:46:46.862Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -461,6 +461,22 @@
     ],
     "analysis": [
       {
+        "title": "Volkswagen Superviosory Board Approves Plan To Slash Models & Reduce Workforce By 100,000",
+        "url": "https://cleantechnica.com/2026/09/05/volkswagen-superviosory-board-approves-plan-to-slash-models-reduce-workforce-by-100000/",
+        "source": "CleanTechnica",
+        "date": "2026-09-06 03:26",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "폭스바겐 감독위원회, 모델 삭감 및 인력 10만명 감축 계획 승인",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Introducing GPT-6 Astra for developers",
         "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
         "source": "Simon Willison",
@@ -649,22 +665,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Enovis to acquire surgical tech provider eCential Robotics for $180M",
-        "url": "https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/",
-        "source": "The Robot Report",
-        "date": "2026-09-05 12:30",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Enovis, 외과 기술 제공업체 eCential Robotics를 $ 180M에 인수",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -773,6 +773,22 @@
     ]
   },
   "news": [
+    {
+      "title": "Volkswagen Superviosory Board Approves Plan To Slash Models & Reduce Workforce By 100,000",
+      "url": "https://cleantechnica.com/2026/09/05/volkswagen-superviosory-board-approves-plan-to-slash-models-reduce-workforce-by-100000/",
+      "source": "CleanTechnica",
+      "date": "2026-09-06 03:26",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "폭스바겐 감독위원회, 모델 삭감 및 인력 10만명 감축 계획 승인",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.4.0-canary.19",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.19",
@@ -2100,32 +2116,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-      "source": "Cloudflare Blog",
-      "date": "2026-09-03 21:03",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Cloudflare Managed Defense 및 OpenAI Daybreak 모델을 사용한 컨텍스트 인식 취약점 발견 및 개선 소개",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 9. 6. AM 8:57",
+    "officialSources": 7,
+    "checkedAt": "2026. 9. 6. PM 1:46",
     "mode": "매시간 공식 레이더"
   }
 }
