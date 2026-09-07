@@ -1,19 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 8. AM 8:20",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v0.34.6",
+  "updatedAt": "2026. 9. 8. AM 8:33",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v16.4.0-canary.20",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 31,
+    "recentCount": 32,
     "sourceCount": 26,
     "officialCount": 13,
-    "opportunityCount": 1
+    "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.34.6",
+    "새 출시: v16.4.0-canary.20",
     "창작 기술: Video compressor",
-    "행사·무료: NASA, 시각 장애인을 위한 가상 아르테미스 웨비나 개최",
     "인물 발언: Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face - Forbes"
   ],
   "categories": [
@@ -25,7 +24,7 @@
       "summary": "GPT-6 Astra: 차세대 인텔리전스 - OpenAI",
       "latest": "2026-09-07 23:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-07T23:20:38.601Z",
+      "lastRefreshed": "2026-09-07T23:33:28.409Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -40,7 +39,7 @@
       "summary": "Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face - Forbes",
       "latest": "2026-09-04 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-07T23:20:38.601Z",
+      "lastRefreshed": "2026-09-07T23:33:28.409Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +52,7 @@
       "summary": "실리콘 실드: 인공지능과 로봇공학이 현대 전쟁을 바꾸는 방법 - CNBC TV18",
       "latest": "2026-09-07 14:16",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-07T23:20:38.601Z",
+      "lastRefreshed": "2026-09-07T23:33:28.409Z",
       "themes": [
         "주요 기업"
       ]
@@ -66,7 +65,7 @@
       "summary": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
       "latest": "2026-09-07 11:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-07T23:20:38.601Z",
+      "lastRefreshed": "2026-09-07T23:33:28.409Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -76,15 +75,14 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 13,
+      "count": 12,
       "summary": "SpaceX 라이벌, 역사적인 첫 로켓 발사, 업계는 더 많은 것을 '절실히' - CNBC",
       "latest": "2026-09-07 10:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-07T23:20:38.601Z",
+      "lastRefreshed": "2026-09-07T23:33:28.409Z",
       "themes": [
         "주요 기업",
-        "영상",
-        "기회"
+        "영상"
       ]
     },
     {
@@ -95,7 +93,7 @@
       "summary": "XPENG Brings Physical AI To IFA Berlin",
       "latest": "2026-09-07 22:07",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-07T23:20:38.601Z",
+      "lastRefreshed": "2026-09-07T23:33:28.409Z",
       "themes": [
         "주요 기업"
       ]
@@ -104,11 +102,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 10,
-      "summary": "Video compressor",
-      "latest": "2026-09-07 18:29",
+      "count": 11,
+      "summary": "v16.4.0-canary.20",
+      "latest": "2026-09-07 23:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-07T23:20:38.601Z",
+      "lastRefreshed": "2026-09-07T23:33:28.409Z",
       "themes": [
         "영상",
         "주요 기업",
@@ -118,6 +116,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.0-canary.20",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.20",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-07 23:21",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.20",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.34.6",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.6",
@@ -299,22 +313,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v0.34.5",
-        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.5",
-        "source": "GitHub · ComfyUI",
-        "date": "2026-09-05 02:40",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "v0.34.5",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -463,26 +461,7 @@
         "layerLabel": "전문가·기술 분석"
       }
     ],
-    "opportunities": [
-      {
-        "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
-        "url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
-        "source": "NASA",
-        "date": "2026-09-04 16:48",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA, 시각 장애인을 위한 가상 아르테미스 웨비나 개최",
-        "type": "행사",
-        "themes": [
-          "기회"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      }
-    ],
+    "opportunities": [],
     "voices": [
       {
         "title": "Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face - Forbes",
@@ -815,6 +794,22 @@
     ]
   },
   "news": [
+    {
+      "title": "v16.4.0-canary.20",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.20",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-07 23:21",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.20",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
@@ -2150,32 +2145,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
-      "url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
-      "source": "NASA",
-      "date": "2026-09-04 16:48",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA, 시각 장애인을 위한 가상 아르테미스 웨비나 개최",
-      "type": "행사",
-      "themes": [
-        "기회"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 5,
-    "checkedAt": "2026. 9. 8. AM 8:20",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 8. AM 8:33",
+    "mode": "매시간 공식 레이더"
   }
 }
