@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 10. AM 7:36",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 10. AM 8:00",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "Suno, 음반 업계의 도움으로 만든 최초의 AI 음악 모델 출시",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 65,
-    "sourceCount": 25,
-    "officialCount": 31,
+    "recentCount": 70,
+    "sourceCount": 28,
+    "officialCount": 29,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
+      "count": 36,
       "summary": "OpenAI는 이사회에 저명한 AI 파멸자를 추가합니다",
       "latest": "2026-09-09 22:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T22:36:13.955Z",
+      "lastRefreshed": "2026-09-09T23:00:02.600Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -38,7 +38,7 @@
       "summary": "애플의 아이폰 18 프로는 가변 카메라 조리개와 더 강력한 칩을 추가",
       "latest": "2026-09-09 17:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T22:36:13.956Z",
+      "lastRefreshed": "2026-09-09T23:00:02.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,22 +47,22 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 6,
       "summary": "벽돌 공사가 건설 중인 로봇에 대해 Monumental에 가르쳐 준 것",
       "latest": "2026-09-09 21:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T22:36:13.956Z",
+      "lastRefreshed": "2026-09-09T23:00:02.600Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
+      "count": 4,
       "summary": "Infostealer 로그는 MFA를 우회할 수 있는 재생 가능한 AI 토큰을 노출합니다",
       "latest": "2026-09-09 14:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T22:36:13.956Z",
+      "lastRefreshed": "2026-09-09T23:00:02.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -71,11 +71,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 8,
+      "count": 7,
       "summary": "NASA, 서비스 계약 시작에 상대성 우주 테란 R 추가",
       "latest": "2026-09-09 20:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T22:36:13.956Z",
+      "lastRefreshed": "2026-09-09T23:00:02.600Z",
       "themes": []
     },
     {
@@ -86,7 +86,7 @@
       "summary": "에너지 금고 확장 중력 저장. 배터리 벤치마크는 잔인합니다.",
       "latest": "2026-09-09 14:51",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-09T22:36:13.956Z",
+      "lastRefreshed": "2026-09-09T23:00:02.600Z",
       "themes": []
     },
     {
@@ -97,7 +97,7 @@
       "summary": "CodeQL 2.27.0은 Linux ARM64에 대한 지원을 추가합니다",
       "latest": "2026-09-09 21:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T22:36:13.956Z",
+      "lastRefreshed": "2026-09-09T23:00:02.600Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -454,6 +454,42 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+        "source": "OpenAI",
+        "date": "2026-09-09 20:41",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "GPT-6 Astra: 차세대 인텔리전스 - OpenAI",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs - NVIDIA Developer",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU0ZLRE45bXZqTWxMN295R0FFTWNDWEF4b3RRVHFKZFRjb1kycGFRNW9OOE5Tc1JiQVRYZjItOGNKeU1oOVpnYlZ2NXI3NWRvbVFXVmZYMXo3WkFlRmdKRWRpZ01MU1lJaEdYYThUSXJheWZHMGk4bmVQVHF0SWxpRTJQczNpaDZPQk85OXl6OGdoLXdrdG1XU01Hd19fN1JkQTBFM1FGWUJnSmo5MnNfTnJZYzJJUEc5?oc=5",
+        "source": "NVIDIA Developer",
+        "date": "2026-09-09 20:29",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "news",
+        "category": "소프트웨어·개발",
+        "titleKo": "CUDA 툴킷 13.4, Windows on Arm 지원 및 공유 GPU에 대한 향상된 제어 기능 추가 - NVIDIA Developer",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
         "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
         "source": "TechCrunch",
@@ -533,40 +569,6 @@
         "stream": "news",
         "category": "인공지능",
         "titleKo": "Apple의 새로운 폴더블 폰의 힌지는 AI로 제작되었습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Here’s how the new iPhone 18 Pro stacks up to the last-gen models",
-        "url": "https://www.theverge.com/tech/988501/iphone-18-pro-max-spec-comparison-features",
-        "source": "The Verge",
-        "date": "2026-09-09 18:53",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "새로운 iPhone 18 Pro가 마지막 세대 모델까지 스택하는 방법은 다음과 같습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Apple is raising iPhone prices by $100 on all of its old models",
-        "url": "https://www.theverge.com/tech/992551/apple-iphone-17-17e-air-price-increase",
-        "source": "The Verge",
-        "date": "2026-09-09 18:35",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Apple은 모든 구형 모델에서 iPhone 가격을 $ 100 인상하고 있습니다.",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -787,6 +789,42 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+      "source": "OpenAI",
+      "date": "2026-09-09 20:41",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "GPT-6 Astra: 차세대 인텔리전스 - OpenAI",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs - NVIDIA Developer",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU0ZLRE45bXZqTWxMN295R0FFTWNDWEF4b3RRVHFKZFRjb1kycGFRNW9OOE5Tc1JiQVRYZjItOGNKeU1oOVpnYlZ2NXI3NWRvbVFXVmZYMXo3WkFlRmdKRWRpZ01MU1lJaEdYYThUSXJheWZHMGk4bmVQVHF0SWxpRTJQczNpaDZPQk85OXl6OGdoLXdrdG1XU01Hd19fN1JkQTBFM1FGWUJnSmo5MnNfTnJZYzJJUEc5?oc=5",
+      "source": "NVIDIA Developer",
+      "date": "2026-09-09 20:29",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "news",
+      "category": "소프트웨어·개발",
+      "titleKo": "CUDA 툴킷 13.4, Windows on Arm 지원 및 공유 GPU에 대한 향상된 제어 기능 추가 - NVIDIA Developer",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
       "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
       "source": "TechCrunch",
@@ -905,6 +943,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Legal AI startup Harvey reaches $15.5 billion valuation in new funding round - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlB6ckhOUjNOZ3VfSVNXTVBvQWlkLTRiWUwxLU1KZG9fT0t3QVI5U043NS1pdGp6UHpCM0hjTHFzZm5OelhkWVdZbkY3RnBBbEdCVnFTXzhJNl8yTW4tOHo5UzU3SEU5VW0xNFZnQkhCNjJzWVVWTmZEQUhsUVNYalpYNnpIZUo1S0UxNEF0MHFtalVablBwWFF1ZDE5V25OSDIzd2tadlZqdU9xdDFQc1YwR1FxNW91aDJKeHNaeF9iQQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-09 19:33",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "법률 AI 스타트업 하비, 신규 자금 조달 라운드에서 $ 155억 가치 달성 - 로이터",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "The hinge for Apple’s new foldable phone was built with AI",
       "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
       "source": "TechCrunch",
@@ -914,6 +968,24 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "Apple의 새로운 폴더블 폰의 힌지는 AI로 제작되었습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anthropic researchers say AI could cause human extinction by 2030 - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSVlEaEpsMXNNdTNyNTY5VzZyTDVfQkFyNTJTTTNyZkM1amhPQnZtRFpCdFU1X245b1lSUEQ4Y0Zqa0x5Nkgzb3NjX1BxX1BlcUo1LThfUDNyVXpGd08wTFJ1cE4tb19SSnlXMERDc2tMUDZfN3VjZm02QjVQMmVmelVYYnhRV3pEQ2pqSXRVUlpSRGhwemdr?oc=5",
+      "source": "The Guardian",
+      "date": "2026-09-09 18:58",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인류학 연구자들은 인공지능이 2030년까지 인류 멸종을 초래할 수 있다고 말합니다 - The Guardian",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1004,6 +1076,22 @@
       "themes": [
         "주요 기업"
       ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI could kill all humans in next decade, warn experts: but how seriously should we take them? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNUNtV20wYXJQU1RyZGpkOVh6LUFqTDRPY1hDTDhoQzlVZWduQjB2aVR0QzZmYkozX3BLZHVYMDdaV1c5UHhaNktCX0o1UnZCWm81Wjl3TUs0c1I3QXB3Z3NRQW1EZFduejZTLWk3OFBqMFhQNFhTM1d1NEVvbkM4czhqNlhUWlNqRnVvV2FvamxYRTRPTDlPQ2xGOXpac1V2NjkzdUh5U0s5NW9fLUE?oc=5",
+      "source": "The Guardian",
+      "date": "2026-09-09 17:48",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인공지능이 향후 10년 안에 모든 인간을 죽일 수 있다고 전문가들에게 경고합니다. 하지만 우리는 인공지능을 얼마나 심각하게 받아들여야 할까요? - 가디언",
+      "type": "뉴스·분석",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1163,6 +1251,24 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Alibaba takes on Anthropic with 50% cheaper e-commerce AI agent - Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYXRmR3JyRkRNeGNlQlNCcmpobXU5TG1qM2VQVXNnWVZzMlpBdGtqMFhwaFNVTkxPeGxTN2RZZ2VfUE1VTDVDVHZZWlNUd0Q2MXdIeTJWbHRUYTRvYVBfR0pkUUxZcmE2czlrZjN3ZDNSLU1CejhLNUZ3cFFpamtqVzNMMDdNZzhscWo5THhnWEF5NVNqc3R3cnNyeHI1U1hnNW9QejBBcUpvdElzeFZkaEJlVDFCQUZBYmVOeHR2a2xWM1VnVGxsRTNR?oc=5",
+      "source": "Nikkei Asia",
+      "date": "2026-09-09 16:01",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Alibaba, 50% 저렴한 전자 상거래 AI 에이전트로 Anthropic 인수 - Nikkei Asia",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
       "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
       "source": "NVIDIA Blog",
@@ -1259,6 +1365,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans' - bbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6WDZoOFRnTjQ5WW5vMUJKeThhbUUyUTlaeXdKbUhoNE5WNDhnVjhmM080N3p3ZFJfSm9ncUZtblZDRm1YU1hYbjBZZ3ZXNkRjSmNBUmdTa0tCZw?oc=5",
+      "source": "bbc.com",
+      "date": "2026-09-09 15:34",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인류 연구원은 AI가 '모든 인간을 죽일 수 있는' 확률이 10% 이상이라고 믿습니다 - bbc.com",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "v3.11.0",
@@ -1373,24 +1497,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
-      "source": "OpenAI",
-      "date": "2026-09-09 13:12",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "GPT-6 Astra: 차세대 인텔리전스 - OpenAI",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
@@ -1527,24 +1633,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans' - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6WDZoOFRnTjQ5WW5vMUJKeThhbUUyUTlaeXdKbUhoNE5WNDhnVjhmM080N3p3ZFJfSm9ncUZtblZDRm1YU1hYbjBZZ3ZXNkRjSmNBUmdTa0tCZw?oc=5",
-      "source": "BBC",
-      "date": "2026-09-09 10:46",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "인류 연구원은 AI가 '모든 인간을 죽일 수 있는' 확률이 10% 이상이라고 믿습니다. - BBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
       "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
       "url": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
       "source": "The Hacker News",
@@ -1574,6 +1662,22 @@
       "themes": [
         "주요 기업"
       ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans' - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FWC1lZ2xrRGtNX2VqX3RQOFlKXzNOcW1mdUVNRmV6VE05dm92SlNaUmVNYmFlcnBuVDJvbUI0R2xfaW1fOHg5eVp5ZGszMU9qcjQtWWJVR3B0SDFLYzNWTS1mWnl2WlJRRUZYZE1LbW1FXzg0ZTNmTEcxTjllQdIBgwFBVV95cUxPZFdIdE5uZnlyMlhCdUpWRHo4UWtyRWVfazZCdDlNVTA0YjdtbjNpRTZSVWZLbnFiMnNRN2pqeTV0NVFMVGVBVlVVdzFXX1V4LTNmWU1FOW9xOGNCVHAweXk0bnBwemNhMm9HUTJqaDJYWHRIbUVuTUdIX2tSNU9Mcl9BOA?oc=5",
+      "source": "CNBC",
+      "date": "2026-09-09 07:06",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans' - CNBC",
+      "type": "뉴스·분석",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1833,15 +1937,15 @@
       "layerLabel": "주요 언론 확인"
     },
     {
-      "title": "OpenAI says it cracked 90-year-old maths problem in 88 hours - BBC",
+      "title": "OpenAI says it cracked 90-year-old maths problem in 88 hours - bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3SVF1ZXlGRkRVeHY3OFBzZ0xLR29lQ3d5dWNXeU5nU0V0SFNhRkRzcmhFVVRGckphOVJWTVhPSVg0R2ZOUWZYbkU5aEFwdmVpaEtPUGd4MjFZQQ?oc=5",
-      "source": "BBC",
+      "source": "bbc.com",
       "date": "2026-09-08 20:57",
       "categoryId": "ai",
       "confidence": "B",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "OpenAI는 90년 된 수학 문제를 88시간 만에 해독했다고 말합니다 - BBC",
+      "titleKo": "OpenAI says it cracked 90-year-old maths problem in 88 hours - bbc.com",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1915,128 +2019,30 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Meta pushes into personal AI agents as company faces public reckoning over privacy and safety - cnbc.com",
+      "title": "Meta pushes into personal AI agents as company faces public reckoning over privacy and safety - CNBC",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc3FnZkpVdk5HZkFnakV0N3dBWmZ6SFFjTE1DLWlsUGQ0N1Y3SlhiTGFzVkFQQnY2cHkxSzd2YlpwOERKLVZOOGtkdThRTzloZzBBUWlpWmUyS2UzU3J3QjhPUkFhR1pROW9ybW1JNWpMSmZWdjRwV0cyY3Atcnh1c3E1Q28zVnRGLTlmS1ZGQkRPY0xYVjU40gGcAUFVX3lxTE05R3lsWEZfZjV6WkRZNndRZU8wZWhUZDViT0tYYU1VWlpSTUpFNkpra2EzS0JCcl9ySzRCWTR4enJoVDdoTXFfcElqQ0hJZ0JVeXRWSU11ZWlnOElBbW9XYjFLVEtybktUMWlhU01DOC1VcVFGaktNeTl1eFNGYmowYjZZTzY5SnkzcllGdUl5N1NfWlprVmh2TFVoeQ?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-09-08 19:00",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "Meta pushes into personal AI agents as company faces public reckoning over privacy and safety - cnbc.com",
+      "titleKo": "Meta pushes into personal AI agents as company faces public reckoning over privacy and safety - CNBC",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v3.9.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.9.0",
-      "source": "GitHub · OpenAI Python",
-      "date": "2026-09-08 16:42",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v3.9.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Why vision AI is the safety backbone of the automated job site",
-      "url": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
-      "source": "The Robot Report",
-      "date": "2026-09-08 16:05",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "비전 AI가 자동화 작업 현장의 안전 중추인 이유",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Stoke Space plans more powerful rocket, raises $1 billion - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDFTS1I1WXB4UjJqcHdsdW9FWDhFUUE1NktRREJ6cjdjRUtQR3BDQTVwajR4M1F3RUFDM3Y4S3dYeVIwb0JHWjU3dDlhUUdnWVF2am8waFlSTWhTVkFfbkZmQkpnSUkxcmo0cEVXOUg2WUVBTWdKb2RiM0o2Q19tdXE5NFZLSDFHdHRVR21odk1UaE1yYlAzZDVYdUhhX18xOERzWThLT21heExTbjhYTkZCSTk?oc=5",
-      "source": "Reuters",
-      "date": "2026-09-08 14:32",
-      "categoryId": "space",
-      "confidence": "B",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "스토크 스페이스, 더 강력한 로켓 계획, $ 10억 모금 - 로이터",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "source": "Hugging Face Blog",
-      "date": "2026-09-08 14:23",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "누구를 위한 안전인가요? 전체 주제가 아닌 주제의 올바른 부분 집합 거부",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
-      "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-      "source": "The Hacker News",
-      "date": "2026-09-08 14:19",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "ChatGPT 결함 심어진 프롬프트가 피해자의 Gmail 데이터를 다른 계정으로 전송하도록 허용",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "source": "The Hacker News",
-      "date": "2026-09-08 13:48",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "자율주행 AI 에이전트는 6시간 이내에 수천 개의 자격 증명을 손상시킵니다.",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 9. 10. AM 7:36",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 9. 10. AM 8:00",
+    "mode": "하루 2회 전체 수집"
   }
 }
