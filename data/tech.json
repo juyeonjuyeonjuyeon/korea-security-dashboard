@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 9. AM 8:14",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "ChatGPT 이미지 2.5 소개",
+  "updatedAt": "2026. 9. 9. AM 9:19",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v3.10.0",
   "metrics": {
     "articleCount": 80,
     "recentCount": 60,
     "sourceCount": 26,
-    "officialCount": 18,
+    "officialCount": 21,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: ChatGPT 이미지 2.5 소개",
+    "새 출시: v3.10.0",
     "창작 기술: ChatGPT 이미지 2.5 소개"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
+      "count": 31,
       "summary": "GPT-6 Astra: 차세대 인텔리전스 - OpenAI",
       "latest": "2026-09-08 23:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-08T23:14:08.028Z",
+      "lastRefreshed": "2026-09-09T00:19:03.272Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -37,7 +37,7 @@
       "summary": "최고의 칩 제조업체는 ASML의 $ 400M 기계를 수용하고 중요한 칩 제조 변경에 동의합니다.",
       "latest": "2026-09-08 19:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-08T23:14:08.028Z",
+      "lastRefreshed": "2026-09-09T00:19:03.272Z",
       "themes": []
     },
     {
@@ -48,7 +48,7 @@
       "summary": "보스턴 다이내믹스 (Boston Dynamics) 베테랑들이 로봇으로 캐릭터에 생명을 불어넣는 다이내믹 크리처스 (Dynamic Creatures",
       "latest": "2026-09-08 20:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-08T23:14:08.028Z",
+      "lastRefreshed": "2026-09-09T00:19:03.272Z",
       "themes": []
     },
     {
@@ -59,7 +59,7 @@
       "summary": "거의 1,000개의 보안 구멍을 연결하는 Microsoft 플러그",
       "latest": "2026-09-08 21:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-08T23:14:08.028Z",
+      "lastRefreshed": "2026-09-09T00:19:03.272Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -73,7 +73,7 @@
       "summary": "익스플로레이션 컴퍼니 (The Exploration Company) 가 스페이스X에 도전하기 위해 4억 5천만 달러 ($",
       "latest": "2026-09-08 20:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-08T23:14:08.028Z",
+      "lastRefreshed": "2026-09-09T00:19:03.272Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -87,7 +87,7 @@
       "summary": "수직 항공우주의 eVTOL은 날 수 있습니다. 여객 사업은 아직 입증되지 않았습니다",
       "latest": "2026-09-08 13:37",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-08T23:14:08.028Z",
+      "lastRefreshed": "2026-09-09T00:19:03.272Z",
       "themes": [
         "주요 기업"
       ]
@@ -96,20 +96,54 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 12,
-      "summary": "ChatGPT 이미지 2.5 소개",
-      "latest": "2026-09-08 22:46",
+      "count": 15,
+      "summary": "v3.10.0",
+      "latest": "2026-09-09 00:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-08T23:14:08.028Z",
+      "lastRefreshed": "2026-09-09T00:19:03.272Z",
       "themes": [
-        "미술·디자인",
         "주요 기업",
+        "미술·디자인",
         "영상"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.10.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.10.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-09-09 00:17",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.10.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v16.4.0-canary.22",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.22",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-08 23:43",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.22",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "Introducing ChatGPT Images 2.5",
         "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
@@ -275,38 +309,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Superbubble in the Large Magellanic Cloud",
-        "url": "https://www.nasa.gov/image-article/superbubble-in-the-large-magellanic-cloud/",
-        "source": "NASA",
-        "date": "2026-09-08 16:49",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "거대한 마젤란 구름 속의 초거품",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Automatic Dependabot access to GitHub-hosted registries",
-        "url": "https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries",
-        "source": "GitHub Changelog",
-        "date": "2026-09-08 16:46",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub 호스팅 레지스트리에 대한 자동 Dependabot 액세스",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -399,6 +401,24 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+        "url": "https://vercel.com/changelog/gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway",
+        "source": "Vercel Changelog",
+        "date": "2026-09-08 00:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+        "type": "출시·업데이트",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       },
       {
         "title": "Video compressor",
@@ -651,6 +671,24 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "Muse – Meta’s personal AI agent",
+        "url": "https://ai.meta.com/muse/",
+        "source": "Hacker News",
+        "date": "2026-09-08 19:25",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "뮤즈 – 메타의 개인 AI 에이전트",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Muse: Meta's personal AI agent, features and capabilities",
         "url": "https://ai.meta.com/muse/",
         "source": "Hacker News",
@@ -717,26 +755,44 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "We Must Return to the Office to Use AI in Person",
-        "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-        "source": "Hacker News",
-        "date": "2026-09-08 13:41",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI를 직접 사용하려면 사무실로 돌아와야 합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v3.10.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.10.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-09-09 00:17",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.10.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "v16.4.0-canary.22",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.22",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-08 23:43",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.22",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
@@ -1044,6 +1100,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Muse – Meta’s personal AI agent",
+      "url": "https://ai.meta.com/muse/",
+      "source": "Hacker News",
+      "date": "2026-09-08 19:25",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "뮤즈 – 메타의 개인 AI 에이전트",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Muse: Meta's personal AI agent, features and capabilities",
@@ -1502,22 +1576,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "We Must Return to the Office to Use AI in Person",
-      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-      "source": "Hacker News",
-      "date": "2026-09-08 13:41",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI를 직접 사용하려면 사무실로 돌아와야 합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Vertical Aerospace’s eVTOL Can Fly. The Passenger Business Is Still Unproven",
       "url": "https://cleantechnica.com/2026/09/08/vertical-aerospace-evtol-financing-passenger-market/",
       "source": "CleanTechnica",
@@ -1712,6 +1770,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+      "url": "https://vercel.com/changelog/gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-09-08 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+      "type": "출시·업데이트",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Flat Rate CDN is now GA for Pro teams",
@@ -2028,64 +2104,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security",
-      "url": "https://arxiv.org/abs/2609.04300",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-07 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "데이터 최적화 비상 심사: 전력 시스템 보안에 대한 기계 학습 접근 방식",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets",
-      "url": "https://arxiv.org/abs/2609.04373",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-07 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "더 나은 모델이 더 위험한 시스템을 만들 수 있는 이유: 금융 시장의 LLM 에이전트의 증거",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
-      "url": "https://arxiv.org/abs/2609.04377",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-07 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "기업 언어 모델 (CLM): 암묵적이고 단편적인 기업 지식을 주권적이고 감사 가능하며 실행 가능한 기업 인텔리전스 계층으로 전환",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 9. 9. AM 8:14",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 9. AM 9:19",
+    "mode": "매시간 공식 레이더"
   }
 }
