@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 9. AM 9:19",
+  "updatedAt": "2026. 9. 9. PM 3:02",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v3.10.0",
+  "headline": "v0.35.0",
   "metrics": {
     "articleCount": 80,
     "recentCount": 60,
-    "sourceCount": 26,
-    "officialCount": 21,
+    "sourceCount": 25,
+    "officialCount": 23,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v3.10.0",
+    "새 출시: v0.35.0",
     "창작 기술: ChatGPT 이미지 2.5 소개"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "GPT-6 Astra: 차세대 인텔리전스 - OpenAI",
-      "latest": "2026-09-08 23:09",
+      "count": 30,
+      "summary": "v0.35.0",
+      "latest": "2026-09-09 05:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T00:19:03.272Z",
+      "lastRefreshed": "2026-09-09T06:02:52.371Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -37,7 +37,7 @@
       "summary": "최고의 칩 제조업체는 ASML의 $ 400M 기계를 수용하고 중요한 칩 제조 변경에 동의합니다.",
       "latest": "2026-09-08 19:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T00:19:03.272Z",
+      "lastRefreshed": "2026-09-09T06:02:52.371Z",
       "themes": []
     },
     {
@@ -48,7 +48,7 @@
       "summary": "보스턴 다이내믹스 (Boston Dynamics) 베테랑들이 로봇으로 캐릭터에 생명을 불어넣는 다이내믹 크리처스 (Dynamic Creatures",
       "latest": "2026-09-08 20:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T00:19:03.272Z",
+      "lastRefreshed": "2026-09-09T06:02:52.371Z",
       "themes": []
     },
     {
@@ -59,7 +59,7 @@
       "summary": "거의 1,000개의 보안 구멍을 연결하는 Microsoft 플러그",
       "latest": "2026-09-08 21:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T00:19:03.272Z",
+      "lastRefreshed": "2026-09-09T06:02:52.371Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -70,10 +70,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 12,
-      "summary": "익스플로레이션 컴퍼니 (The Exploration Company) 가 스페이스X에 도전하기 위해 4억 5천만 달러 ($",
-      "latest": "2026-09-08 20:47",
+      "summary": "다시 울리는 아낙 크라카타우",
+      "latest": "2026-09-09 04:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T00:19:03.272Z",
+      "lastRefreshed": "2026-09-09T06:02:52.371Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -87,7 +87,7 @@
       "summary": "수직 항공우주의 eVTOL은 날 수 있습니다. 여객 사업은 아직 입증되지 않았습니다",
       "latest": "2026-09-08 13:37",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-09T00:19:03.272Z",
+      "lastRefreshed": "2026-09-09T06:02:52.371Z",
       "themes": [
         "주요 기업"
       ]
@@ -96,11 +96,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 15,
-      "summary": "v3.10.0",
-      "latest": "2026-09-09 00:17",
+      "count": 16,
+      "summary": "JetBrains용 Copilot의 엔터프라이즈 관리 샌드박스",
+      "latest": "2026-09-09 02:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-09T00:19:03.272Z",
+      "lastRefreshed": "2026-09-09T06:02:52.371Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -110,6 +110,54 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.35.0",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.0",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-09-09 05:02",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.35.0",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Anak Krakatau Rumbles Again",
+        "url": "https://science.nasa.gov/earth/earth-observatory/anak-krakatau-rumbles-again/",
+        "source": "NASA",
+        "date": "2026-09-09 04:01",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "다시 울리는 아낙 크라카타우",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+        "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+        "source": "GitHub Changelog",
+        "date": "2026-09-09 02:43",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "JetBrains용 Copilot의 엔터프라이즈 관리 샌드박스",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v3.10.0",
         "url": "https://github.com/openai/openai-python/releases/tag/v3.10.0",
@@ -259,56 +307,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Vercel Sandbox routing is now 18x faster globally",
-        "url": "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally",
-        "source": "Vercel Changelog",
-        "date": "2026-09-08 20:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 Vercel 샌드박스 라우팅이 전 세계적으로 18배 더 빨라졌습니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "New customer portal help.github.com",
-        "url": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
-        "source": "GitHub Changelog",
-        "date": "2026-09-08 18:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "신규 고객 포털 help.github.com",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Update to Google’s AI weather model improves forecast accuracy",
-        "url": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/",
-        "source": "Ars Technica",
-        "date": "2026-09-08 18:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google의 AI 기상 모델 업데이트로 예측 정확도 향상",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -347,24 +345,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ChatGPT Images 2.5",
-        "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
-        "source": "Hacker News",
-        "date": "2026-09-08 18:37",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "ChatGPT 이미지 2.5",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "NASA Technique for Manipulating Satellite Photos Now Reveals Ancient Images",
@@ -442,6 +422,24 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "What OpenAI’s latest controversy tells us about the future of math",
+        "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+        "source": "MIT Technology Review",
+        "date": "2026-09-09 03:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI의 최근 논쟁이 수학의 미래에 대해 알려주는 것",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
         "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
@@ -581,6 +579,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "The universal language of space is... Star Trek? Mais oui.",
+        "url": "https://arstechnica.com/space/2026/09/astronaut-on-iss-celebrates-60-years-of-star-trek-with-prop-badge/",
+        "source": "Ars Technica",
+        "date": "2026-09-08 20:20",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "우주의 보편적 언어는... Star Trek? Mais oui입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
         "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
         "source": "The Verge",
@@ -615,43 +629,59 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
+      }
+    ],
+    "community": [
       {
-        "title": "AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
-        "source": "The Verge",
-        "date": "2026-09-08 19:32",
+        "title": "I resigned from Anthropic today",
+        "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+        "source": "Hacker News",
+        "date": "2026-09-09 00:40",
         "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
+        "confidence": "D",
+        "stream": "community",
         "category": "인공지능",
-        "titleKo": "AI 파워 사용자는 Anthropic이 구독으로 자신을 속였다고 주장하며 법정으로 가져갑니다.",
+        "titleKo": "저는 오늘 Anthropic에서 물러났습니다.",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
         ],
         "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "Top chipmakers embrace ASML’s $400M machines, agree to crucial chipmaking change",
-        "url": "https://arstechnica.com/gadgets/2026/09/top-chipmakers-embrace-asmls-400m-machines-agree-to-crucial-chipmaking-change/",
-        "source": "Ars Technica",
-        "date": "2026-09-08 19:12",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "최고의 칩 제조업체는 ASML의 $ 400M 기계를 수용하고 중요한 칩 제조 변경에 동의합니다.",
+        "title": "Large language models develop novel social biases through adaptive exploration",
+        "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
+        "source": "Hacker News",
+        "date": "2026-09-08 21:47",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "대형 언어 모델은 적응 탐구를 통해 새로운 사회적 편견을 개발합니다",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "community": [
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Tao: Open math problems being non-renewably mined by AI",
+        "url": "https://mathstodon.xyz/@tao/117237320796901560",
+        "source": "Hacker News",
+        "date": "2026-09-08 21:00",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "TAO: AI에 의해 재생 불가능하게 채굴되는 개방형 수학 문제",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "OpenAI fought dirty on career-making math problem",
         "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
@@ -705,60 +735,94 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "ChatGPT Images 2.5",
-        "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
-        "source": "Hacker News",
-        "date": "2026-09-08 18:37",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "ChatGPT 이미지 2.5",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-        "url": "https://github.com/ayghri/i-have-adhd",
-        "source": "Hacker News",
-        "date": "2026-09-08 14:13",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "I-have-ADHD: 코딩 에이전트가 답을 묻는 것을 막는 기술",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "LibreOffice breaks download records after declaring it has no AI features",
-        "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-        "source": "Hacker News",
-        "date": "2026-09-08 14:05",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "LibreOffice는 AI 기능이 없다고 선언한 후 다운로드 레코드를 중단합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v0.35.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.0",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-09-09 05:02",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.35.0",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anak Krakatau Rumbles Again",
+      "url": "https://science.nasa.gov/earth/earth-observatory/anak-krakatau-rumbles-again/",
+      "source": "NASA",
+      "date": "2026-09-09 04:01",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "다시 울리는 아낙 크라카타우",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "source": "MIT Technology Review",
+      "date": "2026-09-09 03:10",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI의 최근 논쟁이 수학의 미래에 대해 알려주는 것",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+      "source": "GitHub Changelog",
+      "date": "2026-09-09 02:43",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "JetBrains용 Copilot의 엔터프라이즈 관리 샌드박스",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "I resigned from Anthropic today",
+      "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+      "source": "Hacker News",
+      "date": "2026-09-09 00:40",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "저는 오늘 Anthropic에서 물러났습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "v3.10.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.10.0",
@@ -846,6 +910,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Large language models develop novel social biases through adaptive exploration",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
+      "source": "Hacker News",
+      "date": "2026-09-08 21:47",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "대형 언어 모델은 적응 탐구를 통해 새로운 사회적 편견을 개발합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
@@ -912,6 +992,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Tao: Open math problems being non-renewably mined by AI",
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "source": "Hacker News",
+      "date": "2026-09-08 21:00",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "TAO: AI에 의해 재생 불가능하게 채굴되는 개방형 수학 문제",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
@@ -996,6 +1092,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "The universal language of space is... Star Trek? Mais oui.",
+      "url": "https://arstechnica.com/space/2026/09/astronaut-on-iss-celebrates-60-years-of-star-trek-with-prop-badge/",
+      "source": "Ars Technica",
+      "date": "2026-09-08 20:20",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "우주의 보편적 언어는... Star Trek? Mais oui입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
@@ -1222,24 +1334,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "ChatGPT Images 2.5",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
-      "source": "Hacker News",
-      "date": "2026-09-08 18:37",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "ChatGPT 이미지 2.5",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "New customer portal help.github.com",
@@ -1496,22 +1590,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "source": "Hacker News",
-      "date": "2026-09-08 14:13",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "I-have-ADHD: 코딩 에이전트가 답을 묻는 것을 막는 기술",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "1,000 Museum Visitors Dive Into NASA Sea Level Science on World Ocean Day",
       "url": "https://science.nasa.gov/learning-resources/science-activation/1000-museum-visitors-dive-into-nasa-sea-level-science-on-world-ocean-day/",
       "source": "NASA",
@@ -1521,38 +1599,6 @@
       "stream": "release",
       "category": "우주·통신",
       "titleKo": "1,000명의 박물관 관람객이 세계 해양의 날을 맞아 NASA 해수면 과학 체험하기",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "LibreOffice breaks download records after declaring it has no AI features",
-      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-      "source": "Hacker News",
-      "date": "2026-09-08 14:05",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "LibreOffice는 AI 기능이 없다고 선언한 후 다운로드 레코드를 중단합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "NASA’s Hubble, Webb Find Far-out Solar System Objects ‘Remember’ Past",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-      "source": "NASA",
-      "date": "2026-09-08 14:00",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA's Hubble, Webb Find Far-out Solar System Objects ‘Remember’ Past",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -2006,22 +2052,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "The complex corporate web behind a $3.2 billion AI data center",
-      "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-      "source": "Ars Technica",
-      "date": "2026-09-07 11:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "32억 달러 규모의 AI 데이터 센터 뒤에 있는 복잡한 기업 웹 ($ 32 billion AI data center)",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more - CNBC",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3RrTEI3WGZWNmhSMWU3YnNiRHBaNE1vdzlSLWJGWUZZdzNwQ0hEWFRDZkpJWkdKYjdfa1R1eDF4Y0dFbWRRbTBfbWJnVjVrNEF1WW1yMTlqZ3l4LTBYN0dmc2lqV1pyVGl3UkI1ZU82dWkwdjVkcWxLdnFwclpfeDJCa3fSAYoBQVVfeXFMUGN5V2JLOVpDVjNTRXVPQ2pfRUtyTFpSMnhQbllJODV5NlI1cVVMZXhNMGdCMnEyVGp0UlhsOHBoLTQwT0VyTzdJaXhOR3BTRThIblE3MmxkLWpmenNlc0FnLUVBYjlHT0RxcGh4WHU5OHQwZlNrcGgteEd3M3ZENG50dVM5bHZ4UUNn?oc=5",
       "source": "CNBC",
@@ -2054,56 +2084,6 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "German space rocket reaches orbit in Europe's first commercial launch - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWtGQzdRb3BkZlNlZXdoamc5LU9Qc1RTaFJYNjJzemV0NU9ONDVmM0JFTW5wRWNvbW43LTRhOEw0cmZkcDFsUDFRd2lXSHk2dV9sOHNTcTdZRWFBTXN2VmlMRkRZTzdIX1lOZUFUMm9wWXQwUmpRanowbERtLWJnRWc1dGQ2dFdCNXJOU3NjYjhJeWR2c0xsWUZxZzlJZ0hVVHc?oc=5",
-      "source": "Reuters",
-      "date": "2026-09-07 04:10",
-      "categoryId": "space",
-      "confidence": "B",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "German space rocket reaches orbit in Europe's first commercial launch - Reuters",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
-      "url": "https://arxiv.org/abs/2609.04286",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-07 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "모델 매칭에서 에이전트 모집까지: AI 채용 시스템, 평가 및 거버넌스에 대한 체계화된 서술 검토",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
-      "url": "https://arxiv.org/abs/2609.04298",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-07 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "Harbor Adapters and Harbor-Index: 대규모 에이전트 평가를 위한 인프라 및 선별된 메타 데이터 세트",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2111,7 +2091,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 9. 9. AM 9:19",
+    "checkedAt": "2026. 9. 9. PM 3:02",
     "mode": "매시간 공식 레이더"
   }
 }
