@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 12. AM 7:38",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 12. AM 8:02",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "Copilot 사용 지표에 VS 코드 에이전트 추가",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 57,
-    "sourceCount": 25,
-    "officialCount": 31,
+    "recentCount": 58,
+    "sourceCount": 26,
+    "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "Y Combinator의 Garry Tan은 미국 오픈 웨이트 AI 연구소도 프론티어 모델을 ‘증류’ 하기를 원합니다.",
-      "latest": "2026-09-11 20:59",
+      "count": 34,
+      "summary": "메카 AI, 로봇 훈련 데이터에 대한 서두로 세쿼이아 주도 거래에서 $ 500M 가치 평가에 근접",
+      "latest": "2026-09-11 22:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T22:38:38.189Z",
+      "lastRefreshed": "2026-09-11T23:02:35.776Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 5,
+      "count": 4,
       "summary": "칩 제조를 위한 애리조나의 생명줄이 건조해지고 있습니다",
       "latest": "2026-09-11 09:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T22:38:38.189Z",
+      "lastRefreshed": "2026-09-11T23:02:35.776Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -52,7 +52,7 @@
       "summary": "한 번에 하나의 벽돌: Monumental이 로봇 공학을 사용하여 벽을 만드는 방법",
       "latest": "2026-09-11 21:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T22:38:38.189Z",
+      "lastRefreshed": "2026-09-11T23:02:35.776Z",
       "themes": [
         "주요 기업"
       ]
@@ -65,7 +65,7 @@
       "summary": "Anthropic, 중국 기반 AI 연구소 7곳이 산업 규모의 클로드 증류 공격을 감행했다고 말하다",
       "latest": "2026-09-11 16:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T22:38:38.189Z",
+      "lastRefreshed": "2026-09-11T23:02:35.776Z",
       "themes": [
         "주요 기업"
       ]
@@ -78,7 +78,7 @@
       "summary": "Artifact InSPECtor로 우주 망원경의 데이터 정제 지원",
       "latest": "2026-09-11 19:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T22:38:38.189Z",
+      "lastRefreshed": "2026-09-11T23:02:35.776Z",
       "themes": [
         "주요 기업"
       ]
@@ -91,18 +91,18 @@
       "summary": "BLUETTI, IFA 2026에서 일, 가정, 삶을 위한 새로운 에너지 솔루션 출시",
       "latest": "2026-09-11 13:49",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-11T22:38:38.189Z",
+      "lastRefreshed": "2026-09-11T23:02:35.776Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 25,
+      "count": 24,
       "summary": "Copilot 사용 지표에 VS 코드 에이전트 추가",
       "latest": "2026-09-11 21:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T22:38:38.189Z",
+      "lastRefreshed": "2026-09-11T23:02:35.776Z",
       "themes": [
         "주요 기업"
       ]
@@ -367,6 +367,22 @@
     ],
     "analysis": [
       {
+        "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+        "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+        "source": "TechCrunch",
+        "date": "2026-09-11 22:58",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "메카 AI, 로봇 훈련 데이터에 대한 서두로 세쿼이아 주도 거래에서 $ 500M 가치 평가에 근접",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "One brick at a time: How Monumental uses robotics to build walls",
         "url": "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/",
         "source": "The Robot Report",
@@ -376,6 +392,22 @@
         "stream": "news",
         "category": "로봇·모빌리티",
         "titleKo": "한 번에 하나의 벽돌: Monumental이 로봇 공학을 사용하여 벽을 만드는 방법",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+        "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+        "source": "TechCrunch",
+        "date": "2026-09-11 20:59",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Y Combinator의 Garry Tan은 미국 오픈 웨이트 AI 연구소도 프론티어 모델을 ‘증류’ 하기를 원합니다.",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -428,6 +460,24 @@
         "titleKo": "변호사는 살인 사건에서 AI로 환각된 목격자에게 $ 5,000의 벌금을 부과했습니다.",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "GPT-6 Astra: The next generation in intelligence for work - OpenAI",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CMVNUYU5VZ0ZwQm56OGo4bVhKSmtEU1dLT01wR0hmbzE2ektwRS1LNnVqRkVha3ZzLXJyVE9GdHpMREM5dnRXS1Q2MHJoNGV3RFVLZ3VvZ3dwcGphbnI2RWx4dnFBMWM0Zmc?oc=5",
+        "source": "OpenAI",
+        "date": "2026-09-11 20:32",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "GPT-6 Astra: 업무용 인텔리전스의 차세대 - OpenAI",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -506,54 +556,6 @@
         "stream": "news",
         "category": "인공지능",
         "titleKo": "ChatGPT를 사용하는 변호사가 위조된 증인의 가짜 증언을 인용하여 처벌받음",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Roblox is making it easier to build games with AI — and play them outside Roblox",
-        "url": "https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/",
-        "source": "TechCrunch",
-        "date": "2026-09-11 19:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Roblox는 AI로 게임을 쉽게 만들고 Roblox 외부에서 게임을 플레이할 수 있도록 합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Central Eurasia names its 2026 Road to Battlefield winners: Cerberus, WeGlobal AI, and LOOQ",
-        "url": "https://techcrunch.com/2026/09/11/central-eurasia-names-its-2026-road-to-battlefield-winners-cerberus-weglobal-ai-and-looq/",
-        "source": "TechCrunch",
-        "date": "2026-09-11 18:58",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "중부 유라시아, 2026년 전장으로 가는 길 수상자로 선정: Cerberus, WeGlobal AI, LOOQ",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Feeling sad about AI",
-        "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
-        "source": "Simon Willison",
-        "date": "2026-09-11 17:28",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "인공지능에 대한 슬픔",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -664,6 +666,22 @@
   },
   "news": [
     {
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "source": "TechCrunch",
+      "date": "2026-09-11 22:58",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "메카 AI, 로봇 훈련 데이터에 대한 서두로 세쿼이아 주도 거래에서 $ 500M 가치 평가에 근접",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Add VS Code Agents to Copilot usage metrics",
       "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
       "source": "GitHub Changelog",
@@ -689,6 +707,22 @@
       "stream": "news",
       "category": "로봇·모빌리티",
       "titleKo": "한 번에 하나의 벽돌: Monumental이 로봇 공학을 사용하여 벽을 만드는 방법",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "source": "TechCrunch",
+      "date": "2026-09-11 20:59",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Y Combinator의 Garry Tan은 미국 오픈 웨이트 AI 연구소도 프론티어 모델을 ‘증류’ 하기를 원합니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -741,6 +775,40 @@
       "titleKo": "변호사는 살인 사건에서 AI로 환각된 목격자에게 $ 5,000의 벌금을 부과했습니다.",
       "type": "뉴스·분석",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "US Senate negotiators consider requiring AI firms to mitigate known major risks - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTVJFRjl0M2NxU3YtVmplOGp5YkNqcllYY0R0Y2xPV0ZaTU5fNElVVXl1WDI4NjRRRGtSNXlwanRTUjRFY2ZCTUdLcE52QTZyTnN4WDdKNGE1bWM0SDBBdmdpSUw4YXZ1WDNnZ1hGTzl1RVhodnhBZzFEVHJ1VlJUd3Q1Z3gwTUVIMGR3X1g4Q0ZkUUFLdTc2dnAzZzZzaEREYjg5SGltUTJrelRKdjJwQ2RZbUJzY0NjMjI0SFUyUTF3X18wZ2ZjSw?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-11 20:39",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "미국 상원 협상가들은 AI 기업이 알려진 주요 위험을 완화하도록 요구하는 것을 고려하고 있다. - 로이터",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
+      "title": "GPT-6 Astra: The next generation in intelligence for work - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CMVNUYU5VZ0ZwQm56OGo4bVhKSmtEU1dLT01wR0hmbzE2ektwRS1LNnVqRkVha3ZzLXJyVE9GdHpMREM5dnRXS1Q2MHJoNGV3RFVLZ3VvZ3dwcGphbnI2RWx4dnFBMWM0Zmc?oc=5",
+      "source": "OpenAI",
+      "date": "2026-09-11 20:32",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "GPT-6 Astra: 업무용 인텔리전스의 차세대 - OpenAI",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -872,38 +940,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Roblox is making it easier to build games with AI — and play them outside Roblox",
-      "url": "https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/",
-      "source": "TechCrunch",
-      "date": "2026-09-11 19:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Roblox는 AI로 게임을 쉽게 만들고 Roblox 외부에서 게임을 플레이할 수 있도록 합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Central Eurasia names its 2026 Road to Battlefield winners: Cerberus, WeGlobal AI, and LOOQ",
-      "url": "https://techcrunch.com/2026/09/11/central-eurasia-names-its-2026-road-to-battlefield-winners-cerberus-weglobal-ai-and-looq/",
-      "source": "TechCrunch",
-      "date": "2026-09-11 18:58",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "중부 유라시아, 2026년 전장으로 가는 길 수상자로 선정: Cerberus, WeGlobal AI, LOOQ",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "I spent $220 on Google app ads and 60% of the installs were robots",
@@ -1049,6 +1085,22 @@
       "stream": "analysis",
       "category": "소프트웨어·개발",
       "titleKo": "Huggingface.co/security.txt 인용",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Tech whistleblowers warn AI could wipe out humanity. Doomspeak or not, we must take these claims seriously - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeDE4OS1VcWlHc1JPdGFEMDJZYXZGX0FmbWlzaGhTZVRJZ2YwblFuVHpYeTdDcU43M2xMZEJvVTR3R0pCU2l1bHRkVUIyTjJhZndQcXZZd1phOGY1RUpDZDBUZUJiRzFFak1KWmR3TXVxcV85Zld0ZW1pdWdVY0pQRnRHTTVKdG1NVzV4dzFVWQ?oc=5",
+      "source": "The Guardian",
+      "date": "2026-09-11 16:02",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "기술 내부 고발자들은 AI가 인류를 쓸어버릴 수 있다고 경고합니다. 둠스피크든 아니든, 우리는 이러한 주장을 진지하게 받아들여야 합니다 - 가디언",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1270,40 +1322,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "GPT-6 Astra: The next generation in intelligence for work - OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CMVNUYU5VZ0ZwQm56OGo4bVhKSmtEU1dLT01wR0hmbzE2ektwRS1LNnVqRkVha3ZzLXJyVE9GdHpMREM5dnRXS1Q2MHJoNGV3RFVLZ3VvZ3dwcGphbnI2RWx4dnFBMWM0Zmc?oc=5",
-      "source": "OpenAI",
-      "date": "2026-09-11 11:28",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "GPT-6 Astra: 업무용 인텔리전스의 차세대 - OpenAI",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Tech whistleblowers warn AI could wipe out humanity. Doomspeak or not, we must take these claims seriously - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeDE4OS1VcWlHc1JPdGFEMDJZYXZGX0FmbWlzaGhTZVRJZ2YwblFuVHpYeTdDcU43M2xMZEJvVTR3R0pCU2l1bHRkVUIyTjJhZndQcXZZd1phOGY1RUpDZDBUZUJiRzFFak1KWmR3TXVxcV85Zld0ZW1pdWdVY0pQRnRHTTVKdG1NVzV4dzFVWQ?oc=5",
-      "source": "The Guardian",
-      "date": "2026-09-11 11:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "기술 내부 고발자들은 AI가 인류를 쓸어버릴 수 있다고 경고합니다. 둠스피크든 아니든, 우리는 이러한 주장을 진지하게 받아들여야 합니다 - 가디언",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Why OpenAI’s Sam Altman Says He’s Ready to Slow AI Development - bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRjlEMFJqU1BlRnJjclFudDF5aGFWZGFwNTAwZ1RDVll6V1JZaGNtQWU1RmdkQU1xYld3d0l0M0pDc0tlMmNxVU1hQmtGQnJPZkZzUGVGWlZTdmVKcDN4eDJ3VXItamd6NkVuSk9PNnhScGhZTUJRaTh1cFZPeEZQR3JCR0hKZW42S0oxaVd0VE9kVjZMNW5lNEFLUUotOUlKcTlTWlh3SGxWaE1uZ1daN0dfWEFQUXM?oc=5",
       "source": "bloomberg.com",
@@ -1331,6 +1349,22 @@
       "stream": "news",
       "category": "반도체·컴퓨팅",
       "titleKo": "칩 제조를 위한 애리조나의 생명줄이 건조해지고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSExxeTJWdGJza0poTkd1UEJpX0lNYnlONGFWNnhmQXliUjJ1RDluVnB1UmxCbllydG5QVzdOS1lDTm5VbUFkU1lMYWg3XzlGcGlPX2poX056UG42U3JQYVFRRDYxSlBhVk9iSlFpRUhCWGlWX2wyUUtjRGdFSzRYWllDUzZiSDZXSzhwdHhNNnlHZE51WU1wdlJn?oc=5",
+      "source": "WIRED",
+      "date": "2026-09-11 09:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "많은 AI 연구원들이 기계가 모든 사람을 죽일 수 있다고 생각하는 이유 - 유선",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1662,6 +1696,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Anthropic disrupts bioweapons research efforts, Russian hacking, Chinese Claude misuse - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUlpORllxa2oyR0lQcWRNaXQwTXd5LThFQTQ3bXFJdlQzUWRBZ2RYMjlmWm55R0gtd255dzltb2dEa3hlaHlJc0hNVG1GaWhkSDBXa3hRbVNiVkZ3XzZsbzY5ZE8wQ1pfR0w4TERlczNHbm5YaVI0QmN5TnJLWmVNRmsxMkxmcnFlTDg1QVdhSHJ0Vm5SUWsyWHFCU0JpdXNYcFhpWjBuQWVFTTZ2V1J1Ym82aExqdGJmVE9VNm5zR0xrUmtkSkNn?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-10 20:23",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic disrupts bioweapons research efforts, Russian hacking, Chinese Claude misuse - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "AI Scan for pull request APIs in public preview",
       "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
       "source": "GitHub Changelog",
@@ -1931,64 +1983,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs/",
-      "source": "NVIDIA Blog",
-      "date": "2026-09-10 13:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "지상 부츠: ‘WARDOGS’, 얼리 액세스 런칭 시 지포스에서 전면 출시",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-      "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
-      "source": "Cloudflare Blog",
-      "date": "2026-09-10 13:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "1.1.1.1은 이제 모든 2,420바이트의 양자 후 DNSSEC를 지원합니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Release 5.17.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.17.0",
-      "source": "GitHub · Transformers",
-      "date": "2026-09-10 12:03",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "릴리스 5.17.0",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 10,
-    "checkedAt": "2026. 9. 12. AM 7:38",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 9,
+    "checkedAt": "2026. 9. 12. AM 8:02",
+    "mode": "하루 2회 전체 수집"
   }
 }
