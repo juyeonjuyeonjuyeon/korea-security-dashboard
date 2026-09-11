@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 11. AM 10:10",
+  "updatedAt": "2026. 9. 11. PM 3:04",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "Vercel Sandbox는 이제 64GB의 스토리지를 제공합니다.",
   "metrics": {
     "articleCount": 80,
     "recentCount": 60,
-    "sourceCount": 28,
+    "sourceCount": 29,
     "officialCount": 33,
     "opportunityCount": 0
   },
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
-      "summary": "GPT-6 아스트라: 차세대 인텔리전스 - openai.com",
-      "latest": "2026-09-10 21:29",
+      "count": 36,
+      "summary": "OpenDiscoveryTrace: AI 과학자 워크플로우 평가를 위한 프로세스 추적",
+      "latest": "2026-09-11 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T01:10:00.371Z",
+      "lastRefreshed": "2026-09-11T06:04:56.135Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 6,
+      "count": 5,
       "summary": "젠슨 황 (Jensen Huang) 이 내년에 엔비디아가 놀라운 70% 성장할 수 있는 이유를 설명합니다.",
       "latest": "2026-09-10 21:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T01:10:00.371Z",
+      "lastRefreshed": "2026-09-11T06:04:56.135Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -53,7 +53,7 @@
       "summary": "테라다인 로보틱스 (Teradyne Robotics), 유니버설 로봇 (Universal Robots) 특허 3건",
       "latest": "2026-09-10 22:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T01:10:00.371Z",
+      "lastRefreshed": "2026-09-11T06:04:56.135Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "PaperCut Attacker는 수백 개의 AI 에이전트를 사용하여 440개 이상의 인스턴스를 손상시킵니다.",
       "latest": "2026-09-10 11:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T01:10:00.371Z",
+      "lastRefreshed": "2026-09-11T06:04:56.135Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,13 +73,12 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 9,
-      "summary": "NASA, 지부티 아르테미스 협정 서명식에 미디어 초청",
-      "latest": "2026-09-10 21:11",
+      "count": 8,
+      "summary": "APOD: 2026년 9월 11일 – M83: 남쪽 바람개비",
+      "latest": "2026-09-11 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T01:10:00.371Z",
+      "lastRefreshed": "2026-09-11T06:04:56.135Z",
       "themes": [
-        "미술·디자인",
         "주요 기업"
       ]
     },
@@ -91,18 +90,18 @@
       "summary": "Jackery EnergyGuard Max가 대용량 가정용 배터리로 전환할 수 있을까요?",
       "latest": "2026-09-10 14:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-11T01:10:00.371Z",
+      "lastRefreshed": "2026-09-11T06:04:56.135Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 23,
+      "count": 24,
       "summary": "Vercel Sandbox는 이제 64GB의 스토리지를 제공합니다.",
       "latest": "2026-09-11 06:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T01:10:00.371Z",
+      "lastRefreshed": "2026-09-11T06:04:56.135Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -127,6 +126,38 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "APOD: 2026 September 11 – M83: The Southern Pinwheel",
+        "url": "https://science.nasa.gov/image-article/apod-2026-september-11-m83-the-southern-pinwheel/",
+        "source": "NASA",
+        "date": "2026-09-11 04:05",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "APOD: 2026년 9월 11일 – M83: 남쪽 바람개비",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Datasette 1.0a39 and 0.65.4 security releases",
+        "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+        "source": "Simon Willison",
+        "date": "2026-09-11 03:27",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "데이터세트 1.0a39 및 0.65.4 보안 릴리스",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "v16.4.0-canary.26",
@@ -275,40 +306,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v1.5.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0",
-        "source": "GitHub · Anthropic SDK",
-        "date": "2026-09-10 17:45",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v1.5.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "GitHub Copilot is now available in the AI SDK harness layer",
-        "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
-        "source": "Vercel Changelog",
-        "date": "2026-09-10 17:39",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub Copilot은 이제 AI SDK 하네스 계층에서 사용할 수 있습니다",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -387,24 +384,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
-        "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
-        "source": "Hacker News",
-        "date": "2026-09-10 15:29",
-        "categoryId": "space",
-        "confidence": "D",
-        "stream": "community",
-        "category": "우주·통신",
-        "titleKo": "위성 사진을 조작하는 기법, 이제 고대 이미지 공개 (2025)",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
         "title": "Xcode 27 runner image now runs on macOS 27",
         "url": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
         "source": "GitHub Changelog",
@@ -421,24 +400,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
-        "url": "https://arxiv.org/abs/2609.05505",
-        "source": "arXiv cs.AI",
-        "date": "2026-09-10 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "SciLitBench: LLM 기반 체계적 문헌 검토를 위한 벤치마크 및 설계 원칙",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [],
@@ -477,6 +438,118 @@
       }
     ],
     "analysis": [
+      {
+        "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+        "url": "https://arxiv.org/abs/2609.09203",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-11 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "OpenDiscoveryTrace: AI 과학자 워크플로우 평가를 위한 프로세스 추적",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+        "url": "https://arxiv.org/abs/2609.09233",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-11 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "하위 에이전트 vs 에이전트 기술: Long-Horizon Agentic 작업에 대한 재사용 가능한 지식 실행",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+        "url": "https://arxiv.org/abs/2609.09374",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-11 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "북극 생태 항해를 위한 GeoAI 자치 에이전트",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+        "url": "https://arxiv.org/abs/2609.09395",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-11 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "Menu is an Execution Prior: 온라인 상담원을 위한 상태 경로 도구 메뉴",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+        "url": "https://arxiv.org/abs/2609.09418",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-11 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "발레란트: 액션 컨디셔닝 월드 모델 탐험을 통한 자동 내비게이션 게임 맵 생성기",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+        "url": "https://arxiv.org/abs/2609.09448",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-11 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "상담원은 성공 시기를 알 수 있나요? 내부 진술을 통한 상담원 신뢰도 보정",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Datasette 1.0a39 and 0.65.4 security releases",
+        "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+        "source": "Simon Willison",
+        "date": "2026-09-11 03:27",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "데이터세트 1.0a39 및 0.65.4 보안 릴리스",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
         "url": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
@@ -562,129 +635,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Codeveloper of Ethernet Predecessor Dies at 91",
-        "url": "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies",
-        "source": "IEEE Spectrum",
-        "date": "2026-09-10 20:00",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "이더넷 전임자 코드개발자 91세로 사망",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
-        "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-        "source": "TechCrunch",
-        "date": "2026-09-10 19:50",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta의 AI 에이전트 Muse는 현재 미국 내 2위 앱입니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Amazon makes it easier to buy what you see on Prime Video",
-        "url": "https://techcrunch.com/2026/09/10/amazon-makes-it-easier-to-buy-what-you-see-on-prime-video/",
-        "source": "TechCrunch",
-        "date": "2026-09-10 18:10",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Amazon을 사용하면 Prime Video에서 보는 것을 쉽게 구입할 수 있습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
-        "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
-        "source": "TechCrunch",
-        "date": "2026-09-10 17:54",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 불량 AI 요원이 당신과 마찬가지로 캡챠를 싫어한다고 밝힙니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Universal Music is launching an AI music platform with ElevenLabs",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
-        "source": "The Verge",
-        "date": "2026-09-10 16:06",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "유니버설 뮤직 (Universal Music) 이 일레븐랩스 (ElevenLabs) 와 함께 인공지능 음악",
-        "type": "출시·업데이트",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The iPhone Duo’s hardware doesn’t look special, but its software might be",
-        "url": "https://www.theverge.com/tech/993300/iphone-duo-hardware-software-android-samsung-oppo",
-        "source": "The Verge",
-        "date": "2026-09-10 15:24",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "IPhone Duo의 하드웨어는 특별해 보이지 않지만 소프트웨어는",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta’s Muse AI works and creeps me out",
-        "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
-        "source": "The Verge",
-        "date": "2026-09-10 15:19",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta의 Muse AI가 작동하고 나를 소름 끼치게합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -720,6 +670,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Detecting and countering misuse of AI: September 2026",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "source": "Hacker News",
+        "date": "2026-09-10 17:23",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI 오용 탐지 및 대응: 2026년 9월",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -773,24 +739,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
-        "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
-        "source": "Hacker News",
-        "date": "2026-09-10 15:29",
-        "categoryId": "space",
-        "confidence": "D",
-        "stream": "community",
-        "category": "우주·통신",
-        "titleKo": "위성 사진을 조작하는 기법, 이제 고대 이미지 공개 (2025)",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -810,6 +758,134 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "APOD: 2026 September 11 – M83: The Southern Pinwheel",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-11-m83-the-southern-pinwheel/",
+      "source": "NASA",
+      "date": "2026-09-11 04:05",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "APOD: 2026년 9월 11일 – M83: 남쪽 바람개비",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-11 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "OpenDiscoveryTrace: AI 과학자 워크플로우 평가를 위한 프로세스 추적",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-11 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "하위 에이전트 vs 에이전트 기술: Long-Horizon Agentic 작업에 대한 재사용 가능한 지식 실행",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+      "url": "https://arxiv.org/abs/2609.09374",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-11 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "북극 생태 항해를 위한 GeoAI 자치 에이전트",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+      "url": "https://arxiv.org/abs/2609.09395",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-11 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "Menu is an Execution Prior: 온라인 상담원을 위한 상태 경로 도구 메뉴",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "url": "https://arxiv.org/abs/2609.09418",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-11 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "발레란트: 액션 컨디셔닝 월드 모델 탐험을 통한 자동 내비게이션 게임 맵 생성기",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "url": "https://arxiv.org/abs/2609.09448",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-11 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "상담원은 성공 시기를 알 수 있나요? 내부 진술을 통한 상담원 신뢰도 보정",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Datasette 1.0a39 and 0.65.4 security releases",
+      "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "source": "Simon Willison",
+      "date": "2026-09-11 03:27",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "데이터세트 1.0a39 및 0.65.4 보안 릴리스",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v16.4.0-canary.26",
@@ -1237,6 +1313,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "source": "Hacker News",
+      "date": "2026-09-10 17:23",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI 오용 탐지 및 대응: 2026년 9월",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Music Theory for the 21st-Century Classroom",
       "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
       "source": "Hacker News",
@@ -1385,24 +1477,6 @@
       "titleKo": "Cognition, 새로운 SWE-2 모델, Rivaling Fable 5.1 및 GPT-Astra 출시",
       "type": "출시·업데이트",
       "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
-      "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
-      "source": "Hacker News",
-      "date": "2026-09-10 15:29",
-      "categoryId": "space",
-      "confidence": "D",
-      "stream": "community",
-      "category": "우주·통신",
-      "titleKo": "위성 사진을 조작하는 기법, 이제 고대 이미지 공개 (2025)",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
@@ -1672,120 +1746,6 @@
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "APOD: 2026 September 10 – LDN 1295: The Giraffe Nebula",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-10-ldn-1295-the-giraffe-nebula/",
-      "source": "NASA",
-      "date": "2026-09-10 04:05",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "APOD: 2026년 9월 10일 – LDN 1295: 기린 성운",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
-      "url": "https://arxiv.org/abs/2609.05437",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-10 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "옳고 그름을 넘어서: 대규모 언어 모델에서 2차 사회적 추론 평가하기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
-      "url": "https://arxiv.org/abs/2609.05441",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-10 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "기억은 언제 도움이 됩니까? 도구 사용 LLM 에이전트에서 장기 메모리에 대한 비용 인식 평가",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
-      "url": "https://arxiv.org/abs/2609.05446",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-10 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "AutoFyn 기술 보고서: Long-Horizon 에이전트에 대한 비모수적 전문가 반복",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Compiling VGDL into Causal Models",
-      "url": "https://arxiv.org/abs/2609.05459",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-10 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "VGDL을 인과 모델로 컴파일",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "ARC-Bench: Closed-Loop Replanning Masks Broken Action Ranking in Frozen JEPA World Models",
-      "url": "https://arxiv.org/abs/2609.05461",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-10 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "ARC-Bench: Closed-Loop Replanning Masks Broken Action Ranking in Frozen JEPA World Models",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
-      "url": "https://arxiv.org/abs/2609.05505",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-10 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "SciLitBench: LLM 기반 체계적 문헌 검토를 위한 벤치마크 및 설계 원칙",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
       ],
       "official": false,
       "sourceLayer": "analysis",
@@ -2122,24 +2082,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Apple's iPhone 18 Pro adds variable camera aperture and a more powerful chip",
-      "url": "https://arstechnica.com/gadgets/2026/09/apples-iphone-18-pro-adds-variable-camera-aperture-and-a-more-powerful-chip/",
-      "source": "Ars Technica",
-      "date": "2026-09-09 17:38",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "애플의 아이폰 18 프로는 가변 카메라 조리개와 더 강력한 칩을 추가",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2147,7 +2089,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 12,
-    "checkedAt": "2026. 9. 11. AM 10:10",
+    "checkedAt": "2026. 9. 11. PM 3:04",
     "mode": "매시간 공식 레이더"
   }
 }
