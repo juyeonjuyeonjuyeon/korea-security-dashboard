@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 11. AM 7:58",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 9. 11. AM 10:10",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "Vercel Sandbox는 이제 64GB의 스토리지를 제공합니다.",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 67,
+    "recentCount": 60,
     "sourceCount": 28,
-    "officialCount": 32,
+    "officialCount": 33,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 37,
+      "count": 35,
       "summary": "GPT-6 아스트라: 차세대 인텔리전스 - openai.com",
       "latest": "2026-09-10 21:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-10T22:58:02.555Z",
+      "lastRefreshed": "2026-09-11T01:10:00.371Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -39,7 +39,7 @@
       "summary": "젠슨 황 (Jensen Huang) 이 내년에 엔비디아가 놀라운 70% 성장할 수 있는 이유를 설명합니다.",
       "latest": "2026-09-10 21:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-10T22:58:02.555Z",
+      "lastRefreshed": "2026-09-11T01:10:00.371Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -53,7 +53,7 @@
       "summary": "테라다인 로보틱스 (Teradyne Robotics), 유니버설 로봇 (Universal Robots) 특허 3건",
       "latest": "2026-09-10 22:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-10T22:58:02.555Z",
+      "lastRefreshed": "2026-09-11T01:10:00.371Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "PaperCut Attacker는 수백 개의 AI 에이전트를 사용하여 440개 이상의 인스턴스를 손상시킵니다.",
       "latest": "2026-09-10 11:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-10T22:58:02.555Z",
+      "lastRefreshed": "2026-09-11T01:10:00.371Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,12 +73,13 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 8,
+      "count": 9,
       "summary": "NASA, 지부티 아르테미스 협정 서명식에 미디어 초청",
       "latest": "2026-09-10 21:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-10T22:58:02.555Z",
+      "lastRefreshed": "2026-09-11T01:10:00.371Z",
       "themes": [
+        "미술·디자인",
         "주요 기업"
       ]
     },
@@ -90,18 +91,18 @@
       "summary": "Jackery EnergyGuard Max가 대용량 가정용 배터리로 전환할 수 있을까요?",
       "latest": "2026-09-10 14:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-10T22:58:02.555Z",
+      "lastRefreshed": "2026-09-11T01:10:00.371Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 22,
+      "count": 23,
       "summary": "Vercel Sandbox는 이제 64GB의 스토리지를 제공합니다.",
       "latest": "2026-09-11 06:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-10T22:58:02.555Z",
+      "lastRefreshed": "2026-09-11T01:10:00.371Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -128,6 +129,22 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "v16.4.0-canary.26",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.26",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-10 23:42",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.26",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "Refreshed repository pull requests page in public preview",
         "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
         "source": "GitHub Changelog",
@@ -142,6 +159,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+        "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+        "source": "Hacker News",
+        "date": "2026-09-10 21:22",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "OpenAI의 Navier-Stokes 릴리스에는 린 (Lean) 4 공식 증거가 포함되어 있습니다",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "v0.35.1",
@@ -274,40 +309,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.12.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.12.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-09-10 17:28",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.12.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA, NFL Team Up to Showcase Space, Aeronautics Innovation",
-        "url": "https://www.nasa.gov/news-release/nasa-nfl-team-up-to-showcase-space-aeronautics-innovation/",
-        "source": "NASA",
-        "date": "2026-09-10 17:28",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA, NFL과 협력하여 우주, 항공 혁신을 선보입니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -384,6 +385,24 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
+        "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+        "source": "Hacker News",
+        "date": "2026-09-10 15:29",
+        "categoryId": "space",
+        "confidence": "D",
+        "stream": "community",
+        "category": "우주·통신",
+        "titleKo": "위성 사진을 조작하는 기법, 이제 고대 이미지 공개 (2025)",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Xcode 27 runner image now runs on macOS 27",
@@ -670,6 +689,42 @@
     ],
     "community": [
       {
+        "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+        "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+        "source": "Hacker News",
+        "date": "2026-09-10 21:22",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "OpenAI의 Navier-Stokes 릴리스에는 린 (Lean) 4 공식 증거가 포함되어 있습니다",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "OpenAI Agents API",
+        "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+        "source": "Hacker News",
+        "date": "2026-09-10 19:43",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "OpenAI 에이전트 API",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Music Theory for the 21st-Century Classroom",
         "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
         "source": "Hacker News",
@@ -720,54 +775,18 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-        "url": "https://news.ycombinator.com/item?id=49643556",
+        "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
+        "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
         "source": "Hacker News",
-        "date": "2026-09-10 13:39",
-        "categoryId": "ai",
+        "date": "2026-09-10 15:29",
+        "categoryId": "space",
         "confidence": "D",
         "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Tell HN: OpenAI에서 '교육 허용' 설정을 계속 다시 활성화합니다.",
+        "category": "우주·통신",
+        "titleKo": "위성 사진을 조작하는 기법, 이제 고대 이미지 공개 (2025)",
         "type": "뉴스·분석",
         "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
-        "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
-        "source": "Hacker News",
-        "date": "2026-09-10 13:07",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "또 다른 연구자는 OpenAI가 대화에 대해 교육을 받은 후 돌파구를 마련했다고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "More questions about whether researchers can trust OpenAI with unpublished math",
-        "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-        "source": "Hacker News",
-        "date": "2026-09-10 06:49",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "연구원이 게시되지 않은 수학으로 OpenAI를 신뢰할 수 있는지 여부에 대한 추가 질문",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
+          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "community",
@@ -786,6 +805,22 @@
       "stream": "release",
       "category": "소프트웨어·개발",
       "titleKo": "Vercel Sandbox는 이제 64GB의 스토리지를 제공합니다.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "v16.4.0-canary.26",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.26",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-10 23:42",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.26",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -859,6 +894,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+      "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+      "source": "Hacker News",
+      "date": "2026-09-10 21:22",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "OpenAI의 Navier-Stokes 릴리스에는 린 (Lean) 4 공식 증거가 포함되어 있습니다",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v0.35.1",
@@ -1025,6 +1078,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "source": "Hacker News",
+      "date": "2026-09-10 19:43",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "OpenAI 에이전트 API",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v3.13.0",
@@ -1319,6 +1390,24 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
+      "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+      "source": "Hacker News",
+      "date": "2026-09-10 15:29",
+      "categoryId": "space",
+      "confidence": "D",
+      "stream": "community",
+      "category": "우주·통신",
+      "titleKo": "위성 사진을 조작하는 기법, 이제 고대 이미지 공개 (2025)",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "The iPhone Duo’s hardware doesn’t look special, but its software might be",
       "url": "https://www.theverge.com/tech/993300/iphone-duo-hardware-software-android-samsung-oppo",
       "source": "The Verge",
@@ -1385,42 +1474,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-      "url": "https://news.ycombinator.com/item?id=49643556",
-      "source": "Hacker News",
-      "date": "2026-09-10 13:39",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Tell HN: OpenAI에서 '교육 허용' 설정을 계속 다시 활성화합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
-      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
-      "source": "Hacker News",
-      "date": "2026-09-10 13:07",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "또 다른 연구자는 OpenAI가 대화에 대해 교육을 받은 후 돌파구를 마련했다고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
@@ -1623,24 +1676,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
-      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-      "source": "Hacker News",
-      "date": "2026-09-10 06:49",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "연구원이 게시되지 않은 수학으로 OpenAI를 신뢰할 수 있는지 여부에 대한 추가 질문",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "APOD: 2026 September 10 – LDN 1295: The Giraffe Nebula",
@@ -2105,32 +2140,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
-      "url": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/",
-      "source": "Ars Technica",
-      "date": "2026-09-09 16:59",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "인류 연구원은 경고와 함께 그만 둡니다: 자기 개선 인공 지능은 \"우리 모두를 죽일 수 있습니다\"",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 12,
-    "checkedAt": "2026. 9. 11. AM 7:58",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 11. AM 10:10",
+    "mode": "매시간 공식 레이더"
   }
 }
