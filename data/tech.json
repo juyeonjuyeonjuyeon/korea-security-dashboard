@@ -1,19 +1,19 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 11. PM 3:04",
+  "updatedAt": "2026. 9. 11. PM 8:29",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "Vercel Sandbox는 이제 64GB의 스토리지를 제공합니다.",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 60,
-    "sourceCount": 29,
+    "recentCount": 54,
+    "sourceCount": 30,
     "officialCount": 33,
     "opportunityCount": 0
   },
   "summary": [
     "새 출시: Vercel Sandbox는 이제 64GB의 스토리지를 제공합니다.",
-    "창작 기술: Amazon을 사용하면 Prime Video에서 보는 것을 쉽게 구입할 수 있습니다",
-    "인물 발언: Sam Altman은 AI 멸종 예측에 대해 조용히하지만 ‘젤다‘ 게임에 대한 작업을 건너 뛸 수 있습니다. - Forbes"
+    "창작 기술: NTSB, 마이애미에서 B-767 활주로 소풍 사고에 대한 조사 업데이트 발표",
+    "인물 발언: OpenAI의 Sam Altman이 AI 개발을 늦출 준비가 되었다고 말하는 이유 - Bloomberg.com"
   ],
   "categories": [
     {
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 36,
-      "summary": "OpenDiscoveryTrace: AI 과학자 워크플로우 평가를 위한 프로세스 추적",
-      "latest": "2026-09-11 04:00",
+      "summary": "OpenAI의 Sam Altman이 AI 개발을 늦출 준비가 되었다고 말하는 이유 - Bloomberg.com",
+      "latest": "2026-09-11 10:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T06:04:56.135Z",
+      "lastRefreshed": "2026-09-11T11:29:56.778Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -39,7 +39,7 @@
       "summary": "젠슨 황 (Jensen Huang) 이 내년에 엔비디아가 놀라운 70% 성장할 수 있는 이유를 설명합니다.",
       "latest": "2026-09-10 21:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T06:04:56.135Z",
+      "lastRefreshed": "2026-09-11T11:29:56.778Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -53,7 +53,7 @@
       "summary": "테라다인 로보틱스 (Teradyne Robotics), 유니버설 로봇 (Universal Robots) 특허 3건",
       "latest": "2026-09-10 22:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T06:04:56.135Z",
+      "lastRefreshed": "2026-09-11T11:29:56.778Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "PaperCut Attacker는 수백 개의 AI 에이전트를 사용하여 440개 이상의 인스턴스를 손상시킵니다.",
       "latest": "2026-09-10 11:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T06:04:56.135Z",
+      "lastRefreshed": "2026-09-11T11:29:56.778Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 9월 11일 – M83: 남쪽 바람개비",
       "latest": "2026-09-11 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T06:04:56.135Z",
+      "lastRefreshed": "2026-09-11T11:29:56.778Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +90,7 @@
       "summary": "Jackery EnergyGuard Max가 대용량 가정용 배터리로 전환할 수 있을까요?",
       "latest": "2026-09-10 14:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-11T06:04:56.135Z",
+      "lastRefreshed": "2026-09-11T11:29:56.778Z",
       "themes": []
     },
     {
@@ -101,7 +101,7 @@
       "summary": "Vercel Sandbox는 이제 64GB의 스토리지를 제공합니다.",
       "latest": "2026-09-11 06:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-11T06:04:56.135Z",
+      "lastRefreshed": "2026-09-11T11:29:56.778Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -174,6 +174,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NTSB issues investigative update on B-767 runway excursion accident in Miami",
+        "url": "https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx",
+        "source": "Hacker News",
+        "date": "2026-09-10 21:30",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "NTSB, 마이애미에서 B-767 활주로 소풍 사고에 대한 조사 업데이트 발표",
+        "type": "출시·업데이트",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Refreshed repository pull requests page in public preview",
@@ -288,27 +306,46 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.13.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.13.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-09-10 19:37",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.13.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "NTSB issues investigative update on B-767 runway excursion accident in Miami",
+        "url": "https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx",
+        "source": "Hacker News",
+        "date": "2026-09-10 21:30",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "NTSB, 마이애미에서 B-767 활주로 소풍 사고에 대한 조사 업데이트 발표",
+        "type": "출시·업데이트",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+        "url": "https://merybenavente.me/blog/proof-of-capture",
+        "source": "Hacker News",
+        "date": "2026-09-10 19:44",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "캡처 증명: Apple 참조 이미지, 하지만 오픈 소스 및 스테가노그래피 사용",
+        "type": "오픈소스",
+        "themes": [
+          "주요 기업",
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Amazon makes it easier to buy what you see on Prime Video",
         "url": "https://techcrunch.com/2026/09/10/amazon-makes-it-easier-to-buy-what-you-see-on-prime-video/",
@@ -327,24 +364,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Music Theory for the 21st-Century Classroom",
-        "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
-        "source": "Hacker News",
-        "date": "2026-09-10 17:14",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "21세기 교실을 위한 음악 이론",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
@@ -405,6 +424,24 @@
     "opportunities": [],
     "voices": [
       {
+        "title": "Why OpenAI’s Sam Altman Says He’s Ready to Slow AI Development - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRjlEMFJqU1BlRnJjclFudDF5aGFWZGFwNTAwZ1RDVll6V1JZaGNtQWU1RmdkQU1xYld3d0l0M0pDc0tlMmNxVU1hQmtGQnJPZkZzUGVGWlZTdmVKcDN4eDJ3VXItamd6NkVuSk9PNnhScGhZTUJRaTh1cFZPeEZQR3JCR0hKZW42S0oxaVd0VE9kVjZMNW5lNEFLUUotOUlKcTlTWlh3SGxWaE1uZ1daN0dfWEFQUXM?oc=5",
+        "source": "Bloomberg.com",
+        "date": "2026-09-11 10:40",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "people",
+        "category": "인공지능",
+        "titleKo": "OpenAI의 Sam Altman이 AI 개발을 늦출 준비가 되었다고 말하는 이유 - Bloomberg.com",
+        "type": "인물 발언",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Sam Altman Quiet On AI Extinction Prediction But Could Skip Work For ‘Zelda’ Game - Forbes",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSDBjTnRucVM2LXE4QnpoMm85MjdPeGFzc2VYdWxSNTZBMDN1TEx5R01VUGVMV1dlb1FtWEstX0NxXzlxX2tOVTE1NmoycFpnV0FsNHlGdW9lS3k4VEdnS05IWlh5RGl3b29YXzdzaGlKeU5WUExoQWthV3VaTERSN1VRRmdBT0k4X3lIbVdSSjQ5SU8zWTJoQ20xTGdYQ3NIcFFsTDFwc0E3Z0xMb3VIdlB3RDlraW5ra0ZKQ0lNNV9CWXpZMmYtZFN0UlpxdU1hTUZvUFZDU3pGUU5aaXFLQ1F4R1ZxcGFiWkE?oc=5",
         "source": "Forbes",
@@ -419,25 +456,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
+      }
+    ],
+    "analysis": [
       {
-        "title": "Sam Altman Suggests He’ll Skip Work For ‘Ocarina Of Time’ Remake, Stays Mum On AI Extinction Warning - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSDBjTnRucVM2LXE4QnpoMm85MjdPeGFzc2VYdWxSNTZBMDN1TEx5R01VUGVMV1dlb1FtWEstX0NxXzlxX2tOVTE1NmoycFpnV0FsNHlGdW9lS3k4VEdnS05IWlh5RGl3b29YXzdzaGlKeU5WUExoQWthV3VaTERSN1VRRmdBT0k4X3lIbVdSSjQ5SU8zWTJoQ20xTGdYQ3NIcFFsTDFwc0E3Z0xMb3VIdlB3RDlraW5ra0ZKQ0lNNV9CWXpZMmYtZFN0UlpxdU1hTUZvUFZDU3pGUU5aaXFLQ1F4R1ZxcGFiWkE?oc=5",
-        "source": "Forbes",
-        "date": "2026-09-09 18:20",
+        "title": "Why OpenAI’s Sam Altman Says He’s Ready to Slow AI Development - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRjlEMFJqU1BlRnJjclFudDF5aGFWZGFwNTAwZ1RDVll6V1JZaGNtQWU1RmdkQU1xYld3d0l0M0pDc0tlMmNxVU1hQmtGQnJPZkZzUGVGWlZTdmVKcDN4eDJ3VXItamd6NkVuSk9PNnhScGhZTUJRaTh1cFZPeEZQR3JCR0hKZW42S0oxaVd0VE9kVjZMNW5lNEFLUUotOUlKcTlTWlh3SGxWaE1uZ1daN0dfWEFQUXM?oc=5",
+        "source": "Bloomberg.com",
+        "date": "2026-09-11 10:40",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
         "category": "인공지능",
-        "titleKo": "Sam Altman Suggests He’ll Skip Work For ‘Ocarina Of Time’ Remake, Stays Mum On AI Extinction Warning - Forbes",
+        "titleKo": "OpenAI의 Sam Altman이 AI 개발을 늦출 준비가 되었다고 말하는 이유 - Bloomberg.com",
         "type": "인물 발언",
-        "themes": [],
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "analysis": [
+      },
       {
         "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
         "url": "https://arxiv.org/abs/2609.09203",
@@ -619,25 +658,43 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M",
-        "url": "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
-        "source": "The Robot Report",
-        "date": "2026-09-10 20:10",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "우크라이나 UGV 제조업체 Ratel Robotics를 최대 $ 224M에 인수",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+        "url": "https://system76.com/workstations/thelio-mira-ai",
+        "source": "Hacker News",
+        "date": "2026-09-10 23:10",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "NTSB issues investigative update on B-767 runway excursion accident in Miami",
+        "url": "https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx",
+        "source": "Hacker News",
+        "date": "2026-09-10 21:30",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "NTSB, 마이애미에서 B-767 활주로 소풍 사고에 대한 조사 업데이트 발표",
+        "type": "출시·업데이트",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
         "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
@@ -651,6 +708,25 @@
         "type": "출시·업데이트",
         "themes": [
           "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+        "url": "https://merybenavente.me/blog/proof-of-capture",
+        "source": "Hacker News",
+        "date": "2026-09-10 19:44",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "캡처 증명: Apple 참조 이미지, 하지만 오픈 소스 및 스테가노그래피 사용",
+        "type": "오픈소스",
+        "themes": [
+          "주요 기업",
+          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "community",
@@ -689,60 +765,28 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Music Theory for the 21st-Century Classroom",
-        "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
-        "source": "Hacker News",
-        "date": "2026-09-10 17:14",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "21세기 교실을 위한 음악 이론",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "I have a theory that software drives people insane",
-        "url": "https://graybeard.ing/software-drives-people-insane/",
-        "source": "Hacker News",
-        "date": "2026-09-10 16:13",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "나는 소프트웨어가 사람들을 미치게 만든다는 이론이 있다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-        "url": "https://cognition.com/blog/swe-2",
-        "source": "Hacker News",
-        "date": "2026-09-10 15:29",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Cognition, 새로운 SWE-2 모델, Rivaling Fable 5.1 및 GPT-Astra 출시",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Why OpenAI’s Sam Altman Says He’s Ready to Slow AI Development - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRjlEMFJqU1BlRnJjclFudDF5aGFWZGFwNTAwZ1RDVll6V1JZaGNtQWU1RmdkQU1xYld3d0l0M0pDc0tlMmNxVU1hQmtGQnJPZkZzUGVGWlZTdmVKcDN4eDJ3VXItamd6NkVuSk9PNnhScGhZTUJRaTh1cFZPeEZQR3JCR0hKZW42S0oxaVd0VE9kVjZMNW5lNEFLUUotOUlKcTlTWlh3SGxWaE1uZ1daN0dfWEFQUXM?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-09-11 10:40",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "people",
+      "category": "인공지능",
+      "titleKo": "OpenAI의 Sam Altman이 AI 개발을 늦출 준비가 되었다고 말하는 이유 - Bloomberg.com",
+      "type": "인물 발언",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Vercel Sandbox now provides 64 GB of storage",
       "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
@@ -904,6 +948,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+      "url": "https://system76.com/workstations/thelio-mira-ai",
+      "source": "Hacker News",
+      "date": "2026-09-10 23:10",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
       "url": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
       "source": "The Robot Report",
@@ -936,6 +996,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "NTSB issues investigative update on B-767 runway excursion accident in Miami",
+      "url": "https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx",
+      "source": "Hacker News",
+      "date": "2026-09-10 21:30",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "NTSB, 마이애미에서 B-767 활주로 소풍 사고에 대한 조사 업데이트 발표",
+      "type": "출시·업데이트",
+      "themes": [
+        "영상"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "GPT-6 Astra: A new generation of intelligence - openai.com",
@@ -1156,6 +1234,25 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+      "url": "https://merybenavente.me/blog/proof-of-capture",
+      "source": "Hacker News",
+      "date": "2026-09-10 19:44",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "캡처 증명: Apple 참조 이미지, 하지만 오픈 소스 및 스테가노그래피 사용",
+      "type": "오픈소스",
+      "themes": [
+        "주요 기업",
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "OpenAI Agents API",
       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "source": "Hacker News",
@@ -1329,24 +1426,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Music Theory for the 21st-Century Classroom",
-      "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
-      "source": "Hacker News",
-      "date": "2026-09-10 17:14",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "21세기 교실을 위한 음악 이론",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "FastAPI frontends and static files served from the CDN",
       "url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
       "source": "Vercel Changelog",
@@ -1414,22 +1493,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "I have a theory that software drives people insane",
-      "url": "https://graybeard.ing/software-drives-people-insane/",
-      "source": "Hacker News",
-      "date": "2026-09-10 16:13",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "나는 소프트웨어가 사람들을 미치게 만든다는 이론이 있다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Universal Music is launching an AI music platform with ElevenLabs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
       "source": "The Verge",
@@ -1464,22 +1527,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-      "url": "https://cognition.com/blog/swe-2",
-      "source": "Hacker News",
-      "date": "2026-09-10 15:29",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Cognition, 새로운 SWE-2 모델, Rivaling Fable 5.1 및 GPT-Astra 출시",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "The iPhone Duo’s hardware doesn’t look special, but its software might be",
@@ -2066,30 +2113,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Sam Altman Suggests He’ll Skip Work For ‘Ocarina Of Time’ Remake, Stays Mum On AI Extinction Warning - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSDBjTnRucVM2LXE4QnpoMm85MjdPeGFzc2VYdWxSNTZBMDN1TEx5R01VUGVMV1dlb1FtWEstX0NxXzlxX2tOVTE1NmoycFpnV0FsNHlGdW9lS3k4VEdnS05IWlh5RGl3b29YXzdzaGlKeU5WUExoQWthV3VaTERSN1VRRmdBT0k4X3lIbVdSSjQ5SU8zWTJoQ20xTGdYQ3NIcFFsTDFwc0E3Z0xMb3VIdlB3RDlraW5ra0ZKQ0lNNV9CWXpZMmYtZFN0UlpxdU1hTUZvUFZDU3pGUU5aaXFLQ1F4R1ZxcGFiWkE?oc=5",
-      "source": "Forbes",
-      "date": "2026-09-09 18:20",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "Sam Altman Suggests He’ll Skip Work For ‘Ocarina Of Time’ Remake, Stays Mum On AI Extinction Warning - Forbes",
-      "type": "인물 발언",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
+    "successful": 36,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 12,
-    "checkedAt": "2026. 9. 11. PM 3:04",
+    "checkedAt": "2026. 9. 11. PM 8:29",
     "mode": "매시간 공식 레이더"
   }
 }
