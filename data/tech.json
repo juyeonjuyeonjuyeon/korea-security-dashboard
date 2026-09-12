@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 12. PM 2:53",
+  "updatedAt": "2026. 9. 12. PM 7:53",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "유효성 검사가 학습을 중지하는 경우: 지속적인 체화된 에이전트에 대한 업데이트 입학 감사",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 54,
+    "recentCount": 50,
     "sourceCount": 26,
-    "officialCount": 28,
+    "officialCount": 27,
     "opportunityCount": 0
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "확산 모델 미세 조정에서 LoRA 순위 트레이드 오프 이해",
       "latest": "2026-09-12 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-12T05:53:25.938Z",
+      "lastRefreshed": "2026-09-12T10:53:58.162Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
+      "count": 2,
       "summary": "칩 제조를 위한 애리조나의 생명줄이 건조해지고 있습니다",
       "latest": "2026-09-11 09:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-12T05:53:25.938Z",
+      "lastRefreshed": "2026-09-12T10:53:58.162Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -52,7 +52,7 @@
       "summary": "한 번에 하나의 벽돌: Monumental이 로봇 공학을 사용하여 벽을 만드는 방법",
       "latest": "2026-09-11 21:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-12T05:53:25.938Z",
+      "lastRefreshed": "2026-09-12T10:53:58.162Z",
       "themes": [
         "주요 기업"
       ]
@@ -61,11 +61,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 3,
-      "summary": "Anthropic, 중국 기반 AI 연구소 7곳이 산업 규모의 클로드 증류 공격을 감행했다고 말하다",
-      "latest": "2026-09-11 16:15",
+      "count": 4,
+      "summary": "RubyDoc 서버에서 RCE를 획득한 RubyGems 캠페인에 연결된 OpenAI 에이전트",
+      "latest": "2026-09-12 09:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-12T05:53:25.938Z",
+      "lastRefreshed": "2026-09-12T10:53:58.162Z",
       "themes": [
         "주요 기업"
       ]
@@ -78,7 +78,7 @@
       "summary": "일부 위성 회사는 여전히 부티크 출시 서비스에 대한 욕구를 가지고 있습니다.",
       "latest": "2026-09-11 23:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-12T05:53:25.938Z",
+      "lastRefreshed": "2026-09-12T10:53:58.162Z",
       "themes": [
         "주요 기업"
       ]
@@ -91,7 +91,7 @@
       "summary": "BLUETTI, IFA 2026에서 일, 가정, 삶을 위한 새로운 에너지 솔루션 출시",
       "latest": "2026-09-11 13:49",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-12T05:53:25.938Z",
+      "lastRefreshed": "2026-09-12T10:53:58.162Z",
       "themes": []
     },
     {
@@ -102,7 +102,7 @@
       "summary": "Google은 작성자 (Artemis/Minitap) 에게 크레딧을 제공하지 않고 오픈 소스 코드를 훔쳤습니다.",
       "latest": "2026-09-12 02:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-12T05:53:25.938Z",
+      "lastRefreshed": "2026-09-12T10:53:58.162Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -371,6 +371,24 @@
     ],
     "analysis": [
       {
+        "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "source": "The Hacker News",
+        "date": "2026-09-12 09:07",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "RubyDoc 서버에서 RCE를 획득한 RubyGems 캠페인에 연결된 OpenAI 에이전트",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
         "url": "https://arxiv.org/abs/2609.10656",
         "source": "arXiv cs.AI",
@@ -547,22 +565,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too",
-        "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-        "source": "TechCrunch",
-        "date": "2026-09-11 20:59",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Y Combinator의 Garry Tan은 미국 오픈 웨이트 AI 연구소도 프론티어 모델을 ‘증류’ 하기를 원합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -599,6 +601,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "AI researchers debate how close we are to recursive self-improvement",
+        "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+        "source": "Hacker News",
+        "date": "2026-09-11 21:35",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI 연구자들은 우리가 재귀적 자기 개선에 얼마나 근접해 있는지에 대해 논쟁합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -652,26 +670,28 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Hacker News with reduced priority for AI driven content",
-        "url": "https://sprinklz.io/public/pdwt4dve5uai",
-        "source": "Hacker News",
-        "date": "2026-09-11 15:52",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI 기반 콘텐츠의 우선 순위가 낮아진 해커 뉴스",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "source": "The Hacker News",
+      "date": "2026-09-12 09:07",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "RubyDoc 서버에서 RCE를 획득한 RubyGems 캠페인에 연결된 OpenAI 에이전트",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
       "url": "https://arxiv.org/abs/2609.10656",
@@ -870,6 +890,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI researchers debate how close we are to recursive self-improvement",
+      "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "source": "Hacker News",
+      "date": "2026-09-11 21:35",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI 연구자들은 우리가 재귀적 자기 개선에 얼마나 근접해 있는지에 대해 논쟁합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Add VS Code Agents to Copilot usage metrics",
@@ -1296,22 +1332,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Hacker News with reduced priority for AI driven content",
-      "url": "https://sprinklz.io/public/pdwt4dve5uai",
-      "source": "Hacker News",
-      "date": "2026-09-11 15:52",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI 기반 콘텐츠의 우선 순위가 낮아진 해커 뉴스",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
@@ -1977,24 +1997,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-      "source": "NVIDIA Blog",
-      "date": "2026-09-10 16:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "물리적 AI가 주도한다: 세계 로봇 택시 리더들이 NVIDIA 기술로 구축하는 방법",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2002,7 +2004,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 9. 12. PM 2:53",
+    "checkedAt": "2026. 9. 12. PM 7:53",
     "mode": "매시간 공식 레이더"
   }
 }
