@@ -1,18 +1,19 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 14. PM 3:23",
+  "updatedAt": "2026. 9. 14. PM 11:10",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "APOD: 2026년 9월 14일 – 당신의 요소가 어디서 왔는지",
+  "headline": "v16.4.0-canary.29",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 22,
-    "sourceCount": 23,
-    "officialCount": 11,
-    "opportunityCount": 0
+    "recentCount": 24,
+    "sourceCount": 21,
+    "officialCount": 12,
+    "opportunityCount": 1
   },
   "summary": [
-    "새 출시: APOD: 2026년 9월 14일 – 당신의 요소가 어디서 왔는지",
-    "창작 기술: 오바마 대통령은 인공지능에 대한 주의를 표명하고, 민주당원들에게 이에 대처할 것을 촉구한다고 NYT는 말합니다 - CNBC",
+    "새 출시: v16.4.0-canary.29",
+    "창작 기술: 시부야의 비닐 바는 인공지능 없이 재미있는 음악 앱을 제공하는 스타트업입니다.",
+    "행사·무료: Universal Robots, IMTS에서 7세대 로봇 플랫폼 출시",
     "인물 발언: 다리오 아모데이 (Dario Amodei), AI 산업이 기술의 위험에 대해 ‘거짓말’ 했다고 말함 - 포브스"
   ],
   "categories": [
@@ -21,38 +22,37 @@
       "code": "AI",
       "label": "인공지능",
       "count": 45,
-      "summary": "다른 모든 사람들이 OpenAI 및 Anthropic에 농장을 베팅하는 동안 회사가 다각화되는 이유에 대한 Insight Partners의 Deven Parekh",
-      "latest": "2026-09-13 21:30",
+      "summary": "시부야의 비닐 바는 인공지능 없이 재미있는 음악 앱을 제공하는 스타트업입니다.",
+      "latest": "2026-09-14 13:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T06:23:51.582Z",
+      "lastRefreshed": "2026-09-14T14:10:34.060Z",
       "themes": [
-        "주요 기업",
-        "음악·음성"
+        "음악·음성",
+        "주요 기업"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 1,
-      "summary": "엔비디아는 \"순환 자금 조달\" 을 기각하고, 1달러를 투자할 때마다 100달러를 돌려준다고 말합니다.",
-      "latest": "2026-09-13 10:29",
+      "count": 0,
+      "summary": "새로운 주요 변화 확인 없음",
+      "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T06:23:51.582Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-09-14T14:10:34.060Z",
+      "themes": []
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
-      "summary": "TechCrunch Mobility: Lyft가 robotaxi 채팅에 참여했습니다",
-      "latest": "2026-09-13 16:04",
+      "count": 7,
+      "summary": "Universal Robots, IMTS에서 7세대 로봇 플랫폼 출시",
+      "latest": "2026-09-14 13:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T06:23:51.582Z",
+      "lastRefreshed": "2026-09-14T14:10:34.060Z",
       "themes": [
+        "기회",
         "주요 기업"
       ]
     },
@@ -61,10 +61,10 @@
       "code": "CYBER",
       "label": "사이버보안",
       "count": 6,
-      "summary": "Tesla, Inc. 의 사이버 공격을 받고 있습니다.",
-      "latest": "2026-09-13 18:03",
+      "summary": "AI가 노출 문제를 변경했습니다. 유효성 검사는 이에 따라 변경되어야 합니다.",
+      "latest": "2026-09-14 11:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T06:23:51.582Z",
+      "lastRefreshed": "2026-09-14T14:10:34.060Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 9월 14일 – 당신의 요소가 어디서 왔는지",
       "latest": "2026-09-14 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T06:23:51.582Z",
+      "lastRefreshed": "2026-09-14T14:10:34.060Z",
       "themes": [
         "주요 기업"
       ]
@@ -86,11 +86,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
+      "count": 3,
       "summary": "트럼프의 지열 에너지 시한폭탄이 터질 지경이다",
       "latest": "2026-09-13 18:06",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-14T06:23:51.582Z",
+      "lastRefreshed": "2026-09-14T14:10:34.060Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -100,11 +100,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 9,
-      "summary": "GPT-6 Astra 및 ChatGPT Work로 실행 경로 생성",
-      "latest": "2026-09-12 23:56",
+      "count": 10,
+      "summary": "v16.4.0-canary.29",
+      "latest": "2026-09-14 10:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T06:23:51.582Z",
+      "lastRefreshed": "2026-09-14T14:10:34.060Z",
       "themes": [
         "주요 기업"
       ]
@@ -112,6 +112,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.0-canary.29",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.29",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-14 10:40",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.29",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "APOD: 2026 September 14 – Where Your Elements Came From",
         "url": "https://science.nasa.gov/image-article/apod-2026-september-14-where-your-elements-came-from/",
@@ -143,6 +159,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Open-source AI and open models reading list",
+        "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+        "source": "Hacker News",
+        "date": "2026-09-14 00:22",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "오픈 소스 AI 및 오픈 모델 읽기 목록",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
@@ -271,41 +303,27 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
-        "url": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
-        "source": "NASA",
-        "date": "2026-09-11 19:48",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "Artifact InSPECtor로 우주 망원경의 데이터 정제 지원",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.3.5",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.5",
-        "source": "GitHub · Next.js",
-        "date": "2026-09-11 19:15",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.3.5",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "A Vinyl Bar in Shibuya is a startup offering fun music apps without any AI prompting",
+        "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting/",
+        "source": "TechCrunch",
+        "date": "2026-09-14 13:55",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "시부야의 비닐 바는 인공지능 없이 재미있는 음악 앱을 제공하는 스타트업입니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Obama voices caution on AI, urges Democrats to tackle it, NYT says - CNBC",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTU5nNTZCelg4VHpDOEQ4NkttTTBBbHVoNXUyV3Y2QlRnZlZ4anlsM1FmRzVPUGZValpRbWF6R0tHX2hTem5XSnpKRlJINVktOWU3V3RRS0tuTERaZ25oc1NuSVI5ZDF6UE1zbk9mQnJLLV85V2xHRE04VXpkcHJFRXlHRE1BbVVPZjZUbWhNZERsSXR0dTE1Y0ZRY2paaE9LMWlF0gGoAUFVX3lxTE5CZ1IzaW40RFZsdE5ONm96SjNLbnd1OGxHanlvelVIc3U2SmlkazFTRWZxZlVIWEVUOGFxaTNmdmNmNFRCRExiMFE1MkdHYWdrZUJaZWxnTWlsY21MWVJ0c2otVzRqQlRYQmpPclB5SE4wNmh5WXlPVjU0RXJJS0p4QkhyRG1odmhmeFdpdi0xQVJxNlN5eDgxaERtUHRVeGx3SW5Sb0Rlcg?oc=5",
@@ -344,7 +362,26 @@
         "layerLabel": "전문가·기술 분석"
       }
     ],
-    "opportunities": [],
+    "opportunities": [
+      {
+        "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+        "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
+        "source": "The Robot Report",
+        "date": "2026-09-14 13:25",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Universal Robots, IMTS에서 7세대 로봇 플랫폼 출시",
+        "type": "행사",
+        "themes": [
+          "기회"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      }
+    ],
     "voices": [
       {
         "title": "Dario Amodei Says AI Industry ‘Lied’ About Technology’s Risks - Forbes",
@@ -363,15 +400,15 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown - cnbc.com",
+        "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown - CNBC",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Ebm16S0djWjFGYTEyTkZEdFdFR3FjdjRMdE5DeVE1QllJOG1UNmE5bDNTSEVqdkVRcGdSckN1N0xyWVh2aEc1bm5FNHpvNFlIYnJQaEI4eFR4TnNnM0hKRkhaOUNCLXVjTGJUZlN0YmpHZmJTdkNwamNDTkLSAYIBQVVfeXFMTmJXdGZqZG1xWURORnhQc0FLRjN4VGxQSG4yTkhxRzNjWWFtZzNQamFPZ3Z1TS1pVm13bzdHaWU0d0FER1BQUnlHUnk4U00zbmU0aGdfd3YwMzBaaWpvNlBvRjA2NFVIWWY3ZGduU1U2SkdSQWMyUlRiM2UxdkpHVElpZw?oc=5",
-        "source": "cnbc.com",
+        "source": "CNBC",
         "date": "2026-09-13 15:46",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
         "category": "인공지능",
-        "titleKo": "Anthropic의 Amodei는 중국이 그의 AI 둔화 제안에 대해 '가장 힘든 딜레마' 를 제시한다고 말합니다 - cnbc.com",
+        "titleKo": "Anthropic의 Amodei는 중국이 그의 AI 둔화 제안에 대해 '가장 힘든 딜레마' 를 제시한다고 말합니다 - CNBC",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -399,24 +436,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - AP News",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUFdaU1djaC1FZjNRY0hrTVpVcWNmU0h0WXZjaTJNaEtZLTlMUDc1M3ZaRnVNcExhc3lVWEx4MXhqV2FuTElDTkN1SnFIUlB1QUdmdFJFbTlKYlY3S2xqZEtvb0Y4SmdYVDV2LWJIN2NOdEtWOWZscXowQmtzbVZENDVxTjdXZC03ZDVmNWJn?oc=5",
-        "source": "AP News",
-        "date": "2026-09-13 00:04",
-        "categoryId": "ai",
-        "confidence": "B",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "인류학 CEO 다리오 아모데이 (Dario Amodei) 는 AI 산업이 안전 조치를 따라잡을 시간을 제공해야 한다고 말합니다. - AP 뉴스",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "verified",
-        "layerLabel": "주요 언론 확인"
-      },
-      {
         "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeEdoQ2QteHUtOWkzSF9uZ0NTcHNiTk9MREpyX2NVbHdicXBYbnFEdXpaVVRxNmR0cTJMdXhPaVZ0QXl5ZmpobnZ4RlBkTU1CLUczWHZES0NfM3BlQngxT18wcjE2RUgzdHVuc2c3Y1A4SjI0emswb1FOejV0VVprTnNMZjEzUnZwdlR0RXhCUnlVdkZWbktWMWRWSQ?oc=5",
         "source": "The Guardian",
@@ -426,6 +445,24 @@
         "stream": "people",
         "category": "인공지능",
         "titleKo": "OpenAI IPO는 AI 안전에 대한 두려움 속에서 2026년에는 발생하지 않을 것이라고 Sam Altman은 말합니다. - The Guardian",
+        "type": "인물 발언",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’ - The Verge",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUsyRzdaaERCOXV2aTgtMllKLUZkUGdfczhvQTQxd2VORE9wUmktY2xQaDNoS1Z2NzZya0xZQ1FzeDJQRThKNDVrRXlCdVJnN3JCU3ZrTGluODhwZGlsVTF2NURhR2RWN042Vl9pRDFnS3daTXJfcU55ZW5lMW1MdDdqaFRTT3FjMy1mLWo1V3dZZTdCa1JRb3N4aw?oc=5",
+        "source": "The Verge",
+        "date": "2026-09-12 21:16",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "people",
+        "category": "인공지능",
+        "titleKo": "샘 알트먼 (Sam Altman) 은 2026년에 공개되는 OpenAI가 ‘부적절‘ 할 것이라고 말합니다 - The Verge",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -471,15 +508,15 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast - cnbc.com",
+        "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast - CNBC",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbWdEQ1p3VzJkd2E3ZmYwWmRkRWlwWEhFSm1PTjQ3Y1N1bGNPd1lXcjZncEhPVVNrd3dFT3oxd1FVbzVMZmZTVEJVZGJ6MHNxTUd0eVI5MkpuY191WG9CaUozc3AzWkhPQUlzUDh0dXFqQzlNd09CR0NrQ01NaVBERHhCUE9vcmR1UmlfMFVXdmFlcDNocnJkMkJOa0pWQ0p0SVhia1QwS3A4LVZjYXdfLWhiRTHSAboBQVVfeXFMUE44bkREVTl5S1B2R2RMNUlMSlZlT1N0RU5yeTJLaDhFd0dWZ2wwRmdaVUpWRGpYbTBtVVlITnRNLTJRcW43RlhKQzZFVTluc2E2dVhuSzNOWWtoVzFwRDFDX0wxVWszTDk5NkcxQjNaN3JCWGlpUnhTdGM4dzliVHFQam1IV2x6dW1jMkh4SkFNWjVRbzlSQVpaZEFvbE9QZHNiSWJMS3l4aDVMLVFRdk9FbGYxLXBZdjNB?oc=5",
-        "source": "cnbc.com",
+        "source": "CNBC",
         "date": "2026-09-12 16:22",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
         "category": "인공지능",
-        "titleKo": "Altman, Musk & Amodei가 AI가 너무 빨리 움직이고 있다고 경고함에 따라 OpenAI는 올해 IPO를 배제합니다 - cnbc.com",
+        "titleKo": "Altman, Musk & Amodei가 AI가 너무 빠르게 움직이고 있다고 경고함에 따라 OpenAI는 올해 IPO를 배제합니다. - CNBC",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -544,6 +581,92 @@
       }
     ],
     "analysis": [
+      {
+        "title": "A Vinyl Bar in Shibuya is a startup offering fun music apps without any AI prompting",
+        "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting/",
+        "source": "TechCrunch",
+        "date": "2026-09-14 13:55",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "시부야의 비닐 바는 인공지능 없이 재미있는 음악 앱을 제공하는 스타트업입니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+        "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+        "source": "The Verge",
+        "date": "2026-09-14 13:35",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Microsoft, 안전 우려에 따라 ‘AI보다 사람이 더 중요하다’ 고 말함",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+        "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
+        "source": "The Robot Report",
+        "date": "2026-09-14 13:25",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Universal Robots, IMTS에서 7세대 로봇 플랫폼 출시",
+        "type": "행사",
+        "themes": [
+          "기회"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
+        "url": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
+        "source": "MIT Technology Review",
+        "date": "2026-09-14 12:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "The Download: AI의 진정한 멸종 위협과 시력 감퇴 기술",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+        "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+        "source": "The Hacker News",
+        "date": "2026-09-14 11:58",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "AI가 노출 문제를 변경했습니다. 유효성 검사는 이에 따라 변경되어야 합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
         "url": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
@@ -661,91 +784,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Dario Amodei Says AI Industry ‘Lied’ About Technology’s Risks - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOay1kS3l4dFZvOE9GOHhTWmxIS2pybGxCQlJKLW5KemRoT3VIaWk2cEN4UFFuZzdCNHNhTmdkZlZBcm1RUzhqdmd2WUR5X1Z3SDlQRDlQVVRsbnlHY0w4OUN3RkxfcWhTdjBtVnNoQWZXdXJFSVVMcHltTEZCQXNDN2RHWnlmWm1LQzVXcWt0RmN1NURzRnhxRlpKRWI0UFMwamtSX0ZpOWtteGJBM0VlOA?oc=5",
-        "source": "Forbes",
-        "date": "2026-09-13 17:12",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "다리오 아모데이 (Dario Amodei), AI 산업이 기술의 위험에 대해 ‘거짓말’ 했다고 말함 - 포브스",
-        "type": "인물 발언",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-        "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-        "source": "TechCrunch",
-        "date": "2026-09-13 16:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "오바마는 민주당에게 인공지능 안전장치를 위한 ‘명확한 계획‘ 을 세울 것을 촉구한다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "TechCrunch Mobility: Lyft has entered the robotaxi chat",
-        "url": "https://techcrunch.com/2026/09/13/techcrunch-mobility-lyft-has-entered-the-robotaxi-chat/",
-        "source": "TechCrunch",
-        "date": "2026-09-13 16:04",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "TechCrunch Mobility: Lyft가 robotaxi 채팅에 참여했습니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown - cnbc.com",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Ebm16S0djWjFGYTEyTkZEdFdFR3FjdjRMdE5DeVE1QllJOG1UNmE5bDNTSEVqdkVRcGdSckN1N0xyWVh2aEc1bm5FNHpvNFlIYnJQaEI4eFR4TnNnM0hKRkhaOUNCLXVjTGJUZlN0YmpHZmJTdkNwamNDTkLSAYIBQVVfeXFMTmJXdGZqZG1xWURORnhQc0FLRjN4VGxQSG4yTkhxRzNjWWFtZzNQamFPZ3Z1TS1pVm13bzdHaWU0d0FER1BQUnlHUnk4U00zbmU0aGdfd3YwMzBaaWpvNlBvRjA2NFVIWWY3ZGduU1U2SkdSQWMyUlRiM2UxdkpHVElpZw?oc=5",
-        "source": "cnbc.com",
-        "date": "2026-09-13 15:46",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "Anthropic의 Amodei는 중국이 그의 AI 둔화 제안에 대해 '가장 힘든 딜레마' 를 제시한다고 말합니다 - cnbc.com",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI May Be on Verge of Causing Internet Chaos, Economic Catastrophe — Warning from Top AI CEO",
-        "url": "https://cleantechnica.com/2026/09/13/ai-may-be-on-verge-of-causing-internet-chaos-economic-catastrophe-warning-from-top-ai-ceo/",
-        "source": "CleanTechnica",
-        "date": "2026-09-13 13:28",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "AI가 인터넷 혼돈, 경제 재앙을 일으키기 직전일 수 있음 — 최고 AI CEO의 경고",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Open-source AI and open models reading list",
+        "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+        "source": "Hacker News",
+        "date": "2026-09-14 00:22",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "오픈 소스 AI 및 오픈 모델 읽기 목록",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Claude Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
         "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
@@ -829,28 +886,112 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100",
-        "url": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
-        "source": "Hacker News",
-        "date": "2026-09-13 10:29",
-        "categoryId": "chips",
-        "confidence": "D",
-        "stream": "community",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아는 \"순환 자금 조달\" 을 기각하고, 1달러를 투자할 때마다 100달러를 돌려준다고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "A Vinyl Bar in Shibuya is a startup offering fun music apps without any AI prompting",
+      "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting/",
+      "source": "TechCrunch",
+      "date": "2026-09-14 13:55",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "시부야의 비닐 바는 인공지능 없이 재미있는 음악 앱을 제공하는 스타트업입니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "source": "The Verge",
+      "date": "2026-09-14 13:35",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Microsoft, 안전 우려에 따라 ‘AI보다 사람이 더 중요하다’ 고 말함",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+      "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
+      "source": "The Robot Report",
+      "date": "2026-09-14 13:25",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Universal Robots, IMTS에서 7세대 로봇 플랫폼 출시",
+      "type": "행사",
+      "themes": [
+        "기회"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
+      "url": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
+      "source": "MIT Technology Review",
+      "date": "2026-09-14 12:10",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "The Download: AI의 진정한 멸종 위협과 시력 감퇴 기술",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+      "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+      "source": "The Hacker News",
+      "date": "2026-09-14 11:58",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "AI가 노출 문제를 변경했습니다. 유효성 검사는 이에 따라 변경되어야 합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.4.0-canary.29",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.29",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-14 10:40",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.29",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "APOD: 2026 September 14 – Where Your Elements Came From",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-14-where-your-elements-came-from/",
@@ -882,6 +1023,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Open-source AI and open models reading list",
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "source": "Hacker News",
+      "date": "2026-09-14 00:22",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "오픈 소스 AI 및 오픈 모델 읽기 목록",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
@@ -1102,15 +1259,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown - cnbc.com",
+      "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown - CNBC",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Ebm16S0djWjFGYTEyTkZEdFdFR3FjdjRMdE5DeVE1QllJOG1UNmE5bDNTSEVqdkVRcGdSckN1N0xyWVh2aEc1bm5FNHpvNFlIYnJQaEI4eFR4TnNnM0hKRkhaOUNCLXVjTGJUZlN0YmpHZmJTdkNwamNDTkLSAYIBQVVfeXFMTmJXdGZqZG1xWURORnhQc0FLRjN4VGxQSG4yTkhxRzNjWWFtZzNQamFPZ3Z1TS1pVm13bzdHaWU0d0FER1BQUnlHUnk4U00zbmU0aGdfd3YwMzBaaWpvNlBvRjA2NFVIWWY3ZGduU1U2SkdSQWMyUlRiM2UxdkpHVElpZw?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-09-13 15:46",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "people",
       "category": "인공지능",
-      "titleKo": "Anthropic의 Amodei는 중국이 그의 AI 둔화 제안에 대해 '가장 힘든 딜레마' 를 제시한다고 말합니다 - cnbc.com",
+      "titleKo": "Anthropic의 Amodei는 중국이 그의 AI 둔화 제안에 대해 '가장 힘든 딜레마' 를 제시한다고 말합니다 - CNBC",
       "type": "인물 발언",
       "themes": [
         "주요 기업"
@@ -1184,24 +1341,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100",
-      "url": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
-      "source": "Hacker News",
-      "date": "2026-09-13 10:29",
-      "categoryId": "chips",
-      "confidence": "D",
-      "stream": "community",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "엔비디아는 \"순환 자금 조달\" 을 기각하고, 1달러를 투자할 때마다 100달러를 돌려준다고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Obama voices caution on AI, urges Democrats to tackle it, NYT says - CNBC",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTU5nNTZCelg4VHpDOEQ4NkttTTBBbHVoNXUyV3Y2QlRnZlZ4anlsM1FmRzVPUGZValpRbWF6R0tHX2hTem5XSnpKRlJINVktOWU3V3RRS0tuTERaZ25oc1NuSVI5ZDF6UE1zbk9mQnJLLV85V2xHRE04VXpkcHJFRXlHRE1BbVVPZjZUbWhNZERsSXR0dTE1Y0ZRY2paaE9LMWlF0gGoAUFVX3lxTE5CZ1IzaW40RFZsdE5ONm96SjNLbnd1OGxHanlvelVIc3U2SmlkazFTRWZxZlVIWEVUOGFxaTNmdmNmNFRCRExiMFE1MkdHYWdrZUJaZWxnTWlsY21MWVJ0c2otVzRqQlRYQmpPclB5SE4wNmh5WXlPVjU0RXJJS0p4QkhyRG1odmhmeFdpdi0xQVJxNlN5eDgxaERtUHRVeGx3SW5Sb0Rlcg?oc=5",
       "source": "CNBC",
@@ -1273,24 +1412,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - AP News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUFdaU1djaC1FZjNRY0hrTVpVcWNmU0h0WXZjaTJNaEtZLTlMUDc1M3ZaRnVNcExhc3lVWEx4MXhqV2FuTElDTkN1SnFIUlB1QUdmdFJFbTlKYlY3S2xqZEtvb0Y4SmdYVDV2LWJIN2NOdEtWOWZscXowQmtzbVZENDVxTjdXZC03ZDVmNWJn?oc=5",
-      "source": "AP News",
-      "date": "2026-09-13 00:04",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "인류학 CEO 다리오 아모데이 (Dario Amodei) 는 AI 산업이 안전 조치를 따라잡을 시간을 제공해야 한다고 말합니다. - AP 뉴스",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
       "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
       "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
       "source": "Simon Willison",
@@ -1341,16 +1462,16 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’ - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUsyRzdaaERCOXV2aTgtMllKLUZkUGdfczhvQTQxd2VORE9wUmktY2xQaDNoS1Z2NzZya0xZQ1FzeDJQRThKNDVrRXlCdVJnN3JCU3ZrTGluODhwZGlsVTF2NURhR2RWN042Vl9pRDFnS3daTXJfcU55ZW5lMW1MdDdqaFRTT3FjMy1mLWo1V3dZZTdCa1JRb3N4aw?oc=5",
       "source": "The Verge",
       "date": "2026-09-12 21:16",
       "categoryId": "ai",
       "confidence": "C",
-      "stream": "news",
+      "stream": "people",
       "category": "인공지능",
-      "titleKo": "Sam Altman은 2026년에 공개되는 OpenAI가 ‘부적절‘ 할 것이라고 말합니다.",
-      "type": "뉴스·분석",
+      "titleKo": "샘 알트먼 (Sam Altman) 은 2026년에 공개되는 OpenAI가 ‘부적절‘ 할 것이라고 말합니다 - The Verge",
+      "type": "인물 발언",
       "themes": [
         "주요 기업"
       ],
@@ -1369,24 +1490,6 @@
       "category": "인공지능",
       "titleKo": "샘 알트먼 (Sam Altman) 은 2026년에 오픈AI를 공개하는 것이 ’잘못된 조언' 이 될 것이라고 말합니다 - 포브스",
       "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
-      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-      "source": "TechCrunch",
-      "date": "2026-09-12 20:19",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI의 샘 알트만 (Sam Altman) 은 2026년에 상장하는 것이 ‘부적절할 것' 이라고 말합니다.",
-      "type": "뉴스·분석",
       "themes": [
         "주요 기업"
       ],
@@ -1431,15 +1534,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast - cnbc.com",
+      "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast - CNBC",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbWdEQ1p3VzJkd2E3ZmYwWmRkRWlwWEhFSm1PTjQ3Y1N1bGNPd1lXcjZncEhPVVNrd3dFT3oxd1FVbzVMZmZTVEJVZGJ6MHNxTUd0eVI5MkpuY191WG9CaUozc3AzWkhPQUlzUDh0dXFqQzlNd09CR0NrQ01NaVBERHhCUE9vcmR1UmlfMFVXdmFlcDNocnJkMkJOa0pWQ0p0SVhia1QwS3A4LVZjYXdfLWhiRTHSAboBQVVfeXFMUE44bkREVTl5S1B2R2RMNUlMSlZlT1N0RU5yeTJLaDhFd0dWZ2wwRmdaVUpWRGpYbTBtVVlITnRNLTJRcW43RlhKQzZFVTluc2E2dVhuSzNOWWtoVzFwRDFDX0wxVWszTDk5NkcxQjNaN3JCWGlpUnhTdGM4dzliVHFQam1IV2x6dW1jMkh4SkFNWjVRbzlSQVpaZEFvbE9QZHNiSWJMS3l4aDVMLVFRdk9FbGYxLXBZdjNB?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-09-12 16:22",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "people",
       "category": "인공지능",
-      "titleKo": "Altman, Musk & Amodei가 AI가 너무 빨리 움직이고 있다고 경고함에 따라 OpenAI는 올해 IPO를 배제합니다 - cnbc.com",
+      "titleKo": "Altman, Musk & Amodei가 AI가 너무 빠르게 움직이고 있다고 경고함에 따라 OpenAI는 올해 IPO를 배제합니다. - CNBC",
       "type": "인물 발언",
       "themes": [
         "주요 기업"
@@ -1855,22 +1958,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
-      "source": "The Verge",
-      "date": "2026-09-11 20:44",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "변호사는 살인 사건에서 AI로 환각된 목격자에게 $ 5,000의 벌금을 부과했습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "US Senate negotiators consider requiring AI firms to mitigate known major risks - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTVJFRjl0M2NxU3YtVmplOGp5YkNqcllYY0R0Y2xPV0ZaTU5fNElVVXl1WDI4NjRRRGtSNXlwanRTUjRFY2ZCTUdLcE52QTZyTnN4WDdKNGE1bWM0SDBBdmdpSUw4YXZ1WDNnZ1hGTzl1RVhodnhBZzFEVHJ1VlJUd3Q1Z3gwTUVIMGR3X1g4Q0ZkUUFLdTc2dnAzZzZzaEREYjg5SGltUTJrelRKdjJwQ2RZbUJzY0NjMjI0SFUyUTF3X18wZ2ZjSw?oc=5",
       "source": "Reuters",
@@ -2147,64 +2234,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "source": "The Hacker News",
-      "date": "2026-09-11 14:10",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "러시아 정부가 후원하는 해커는 탐지 후 악성 코드를 재구축하기 위해 Claude를 사용합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "BLUETTI Launches New Energy Solutions for Work, Home, & Life on the Move at IFA 2026",
-      "url": "https://cleantechnica.com/2026/09/11/bluetti-launches-new-energy-solutions-for-work-home-life-on-the-move-at-ifa-2026/",
-      "source": "CleanTechnica",
-      "date": "2026-09-11 13:49",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "BLUETTI, IFA 2026에서 일, 가정, 삶을 위한 새로운 에너지 솔루션 출시",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
-      "source": "OpenAI",
-      "date": "2026-09-11 13:05",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "GPT-6 Astra: 차세대 인텔리전스 - OpenAI",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 38,
+    "successful": 37,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 3,
-    "checkedAt": "2026. 9. 14. PM 3:23",
+    "checkedAt": "2026. 9. 14. PM 11:10",
     "mode": "매시간 공식 레이더"
   }
 }
