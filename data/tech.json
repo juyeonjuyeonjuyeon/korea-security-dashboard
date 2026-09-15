@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 15. AM 8:42",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v3.14.0",
+  "updatedAt": "2026. 9. 15. AM 10:32",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v16.4.0-canary.31",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 61,
+    "recentCount": 58,
     "sourceCount": 29,
     "officialCount": 15,
     "opportunityCount": 2
   },
   "summary": [
-    "새 출시: v3.14.0",
+    "새 출시: v16.4.0-canary.31",
     "창작 기술: Amazon Prime Video는 짧은 형식의 뉴스 클립으로 TikTok을 사용합니다.",
     "행사·무료: 웨비나 9/23: NASA CSDA 프로그램 업데이트 2026",
     "인물 발언: 트럼프 대통령은 더 이상 AI 규제가 필요하지 않다고 말하며, 앤트로픽 CEO 다리오 아메데이 (Dario Amodei) 를 비난합니다. - CNBC"
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 46,
-      "summary": "Apple Home의 새로운 보안 카메라는 한 달에 $ 60의 비용이 듭니다.",
-      "latest": "2026-09-14 23:21",
+      "count": 47,
+      "summary": "빅 테크의 AI 둔화는 안전 협정인가, 아니면 카르텔인가?",
+      "latest": "2026-09-14 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T23:42:49.025Z",
+      "lastRefreshed": "2026-09-15T01:32:41.242Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -40,7 +40,7 @@
       "summary": "Perplexity 휴대용 컴퓨터는 이제 NVIDIA RTX로 구동되는 Windows에서 사용할 수 있습니다.",
       "latest": "2026-09-14 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T23:42:49.025Z",
+      "lastRefreshed": "2026-09-15T01:32:41.242Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "젠슨 황 (Jensen Huang) 이 트럼프를 스피커폰에 올려놓고 로봇이 세계를 장악하지 않을 것이라고 발표합니다.",
       "latest": "2026-09-14 22:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T23:42:49.025Z",
+      "lastRefreshed": "2026-09-15T01:32:41.242Z",
       "themes": [
         "기회"
       ]
@@ -66,7 +66,7 @@
       "summary": "⚡ 주간 요약: 로그 AI 에이전트, 위챗 웜, 페이퍼컷 공격, AI 스파이 활동, 루트킷",
       "latest": "2026-09-14 14:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T23:42:49.025Z",
+      "lastRefreshed": "2026-09-15T01:32:41.242Z",
       "themes": []
     },
     {
@@ -77,7 +77,7 @@
       "summary": "로켓 연구소는 화성 탐사선에 대한 NASA의 결정에 대해 빨간색으로 표시하고 있습니다.",
       "latest": "2026-09-14 21:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T23:42:49.025Z",
+      "lastRefreshed": "2026-09-15T01:32:41.242Z",
       "themes": [
         "기회",
         "주요 기업",
@@ -92,7 +92,7 @@
       "summary": "트럼프의 지열 에너지 시한폭탄이 터질 지경이다",
       "latest": "2026-09-13 18:06",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-14T23:42:49.025Z",
+      "lastRefreshed": "2026-09-15T01:32:41.242Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -102,19 +102,34 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 9,
-      "summary": "v3.14.0",
-      "latest": "2026-09-14 23:28",
+      "count": 8,
+      "summary": "v16.4.0-canary.31",
+      "latest": "2026-09-14 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-14T23:42:49.025Z",
+      "lastRefreshed": "2026-09-15T01:32:41.242Z",
       "themes": [
-        "주요 기업",
-        "미술·디자인"
+        "주요 기업"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.0-canary.31",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.31",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-14 23:44",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.31",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v3.14.0",
         "url": "https://github.com/openai/openai-python/releases/tag/v3.14.0",
@@ -129,22 +144,6 @@
         "themes": [
           "주요 기업"
         ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.4.0-canary.31",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.31",
-        "source": "GitHub · Next.js",
-        "date": "2026-09-14 23:21",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.4.0-canary.31",
-        "type": "출시·업데이트",
-        "themes": [],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -368,24 +367,6 @@
         "themes": [
           "주요 기업",
           "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "How to write an effective software design document",
-        "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
-        "source": "Hacker News",
-        "date": "2026-09-14 13:00",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "효과적인 소프트웨어 설계 문서를 작성하는 방법",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "community",
@@ -683,6 +664,22 @@
     ],
     "analysis": [
       {
+        "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+        "source": "The Verge",
+        "date": "2026-09-14 23:46",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "빅 테크의 AI 둔화는 안전 협정인가, 아니면 카르텔인가?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Apple Home’s new security camera features cost as much as $60 a month",
         "url": "https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription",
         "source": "The Verge",
@@ -696,22 +693,6 @@
         "themes": [
           "주요 기업"
         ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-        "source": "The Verge",
-        "date": "2026-09-14 22:59",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "빅 테크의 AI 둔화는 안전 협정인가, 아니면 카르텔인가?",
-        "type": "뉴스·분석",
-        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -885,6 +866,22 @@
     ],
     "community": [
       {
+        "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+        "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+        "source": "Hacker News",
+        "date": "2026-09-14 19:56",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "GPT-5.6 Luna vs. GPT-6 Astra: $ 1.20 모델이 코드 검토에 충분합니까?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Pion, an agent designed to run any company autonomously",
         "url": "https://andonlabs.com/blog/why-we-built-pion",
         "source": "Hacker News",
@@ -898,6 +895,22 @@
         "themes": [
           "미술·디자인"
         ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Why don't machine learning research agents overfit?",
+        "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+        "source": "Hacker News",
+        "date": "2026-09-14 16:32",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "기계 학습 리서치 에이전트가 과도하게 적합하지 않은 이유는 무엇입니까?",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -952,46 +965,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "How to write an effective software design document",
-        "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
-        "source": "Hacker News",
-        "date": "2026-09-14 13:00",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "효과적인 소프트웨어 설계 문서를 작성하는 방법",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-        "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-        "source": "Hacker News",
-        "date": "2026-09-14 12:40",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "OpenAI 봇은 RubyGems 캐싱 취약점에 대해 알고 있었습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "source": "The Verge",
+      "date": "2026-09-14 23:46",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "빅 테크의 AI 둔화는 안전 협정인가, 아니면 카르텔인가?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.4.0-canary.31",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.31",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-14 23:44",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.31",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "v3.14.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.14.0",
@@ -1024,38 +1033,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v16.4.0-canary.31",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.31",
-      "source": "GitHub · Next.js",
-      "date": "2026-09-14 23:21",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.0-canary.31",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-      "source": "The Verge",
-      "date": "2026-09-14 22:59",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "빅 테크의 AI 둔화는 안전 협정인가, 아니면 카르텔인가?",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1313,6 +1290,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "source": "Hacker News",
+      "date": "2026-09-14 19:56",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "GPT-5.6 Luna vs. GPT-6 Astra: $ 1.20 모델이 코드 검토에 충분합니까?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
       "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
       "source": "Ars Technica",
@@ -1514,6 +1507,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Why don't machine learning research agents overfit?",
+      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+      "source": "Hacker News",
+      "date": "2026-09-14 16:32",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "기계 학습 리서치 에이전트가 과도하게 적합하지 않은 이유는 무엇입니까?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
@@ -1835,24 +1844,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "How to write an effective software design document",
-      "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
-      "source": "Hacker News",
-      "date": "2026-09-14 13:00",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "효과적인 소프트웨어 설계 문서를 작성하는 방법",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Microsoft sets limits for future AI models as industry throttles frontier development - CNBC",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSlJYLXlYazNYam85R0djdHlHOENQdGhCZkdQY1l0LTdmYnNMS1ZocFBpUl9wS2ZqamZyWXQzcXYwaW9vdkRMbEJ0ZFFFb3dydHNIdFBfbXNBVjJrdlB2NlNVcVBKMEdTWjVzd1VUeGtXcnJqUS1vMTI1WVRlWnZFREsyMnhiZ9IBiwFBVV95cUxONVNwbzBjUWFaOXRVblJ1ejIyRVlObEdPNW16aEVPaG9VRWxydExnZ2dvSzROWGprTTdYaG0wbEJ3aDJUb1RuVENIVTdySDVvTTBCR19YakpPTG5JeHRiYmRPY1pub0lBTFBvV01vS3lUeFpSUUp6U3QxdW9uZjRQdTY0b2ZYNUszbGtZ?oc=5",
       "source": "CNBC",
@@ -1869,24 +1860,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-      "source": "Hacker News",
-      "date": "2026-09-14 12:40",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "OpenAI 봇은 RubyGems 캐싱 취약점에 대해 알고 있었습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
@@ -2349,11 +2322,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 9. 15. AM 8:42",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 15. AM 10:32",
+    "mode": "매시간 공식 레이더"
   }
 }
