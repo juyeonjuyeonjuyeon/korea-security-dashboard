@@ -1,30 +1,30 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 16. AM 6:30",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.36.0",
+  "updatedAt": "2026. 9. 16. AM 8:26",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.4.0-canary.32",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 65,
-    "sourceCount": 28,
-    "officialCount": 28,
+    "recentCount": 67,
+    "sourceCount": 26,
+    "officialCount": 27,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.36.0",
+    "새 출시: v16.4.0-canary.32",
     "창작 기술: 초보자를 위한 최고의 3D 프린터 중 하나는 거의 $ 100 할인입니다",
-    "인물 발언: 트럼프가 엔비디아의 젠슨 황에게 전화하는 것을 보고, AI 위험이 ‘사기‘ 라고 말하다 - Bloomberg.com"
+    "인물 발언: 젠슨 황 (Jensen Huang) 은 AI 혁신과 안전에 대한 투쟁은 ‘잘못된 선택’ 이라고 말합니다 - 파이낸셜 타임즈"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
+      "count": 39,
       "summary": "v0.36.0",
-      "latest": "2026-09-15 21:05",
+      "latest": "2026-09-15 22:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-15T21:30:15.898Z",
+      "lastRefreshed": "2026-09-15T23:26:54.328Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 5,
-      "summary": "메가와트에서 토큰까지: NVIDIA가 AI 공장 생산을 극대화하는 방법",
-      "latest": "2026-09-15 16:55",
+      "count": 6,
+      "summary": "젠슨 황 (Jensen Huang) 은 드림포스에서 ‘이제 우리는 모든 것을 알고 무엇이든 할 수 있다’ 고 말합니다.",
+      "latest": "2026-09-15 22:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-15T21:30:15.898Z",
+      "lastRefreshed": "2026-09-15T23:26:54.328Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,29 +51,29 @@
       "summary": "민첩성의 새로운 휴머노이드 로봇은 인간 동료에게 해를 끼치지 않도록 멈추고 쪼그리고 앉을 것입니다.",
       "latest": "2026-09-15 18:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-15T21:30:15.898Z",
+      "lastRefreshed": "2026-09-15T23:26:54.328Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 2,
-      "summary": "미국의 운전면허 위반은 국가 안보 재앙입니다",
-      "latest": "2026-09-15 15:58",
+      "count": 0,
+      "summary": "새로운 주요 변화 확인 없음",
+      "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-15T21:30:15.898Z",
+      "lastRefreshed": "2026-09-15T23:26:54.328Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
+      "count": 12,
       "summary": "NASA, 국제 달 밤 관측 행사에 미디어 초청",
       "latest": "2026-09-15 18:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-15T21:30:15.898Z",
+      "lastRefreshed": "2026-09-15T23:26:54.328Z",
       "themes": [
         "주요 기업"
       ]
@@ -86,31 +86,64 @@
       "summary": "스카니아, 720KM 배터리 전기 트럭 출시, 수소 이해 관계자 더블 다운",
       "latest": "2026-09-15 12:44",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-15T21:30:15.898Z",
+      "lastRefreshed": "2026-09-15T23:26:54.328Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
-      "summary": "GitHub 고급 보안 구성 적용",
-      "latest": "2026-09-15 19:31",
+      "count": 16,
+      "summary": "v16.4.0-canary.32",
+      "latest": "2026-09-15 23:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-15T21:30:15.898Z",
+      "lastRefreshed": "2026-09-15T23:26:54.328Z",
       "themes": [
-        "주요 기업",
-        "미술·디자인"
+        "주요 기업"
       ]
     }
   ],
   "radar": {
     "releases": [
       {
+        "title": "v16.4.0-canary.32",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.32",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-15 23:22",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.32",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v3.14.1",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.14.1",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-09-15 23:12",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.14.1",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v0.36.0",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.36.0",
         "source": "GitHub · ComfyUI",
-        "date": "2026-09-15 21:05",
+        "date": "2026-09-15 22:26",
         "categoryId": "ai",
         "confidence": "A",
         "stream": "release",
@@ -118,6 +151,24 @@
         "titleKo": "v0.36.0",
         "type": "출시·업데이트",
         "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+        "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+        "source": "NVIDIA Blog",
+        "date": "2026-09-15 22:24",
+        "categoryId": "chips",
+        "confidence": "A",
+        "stream": "release",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "젠슨 황 (Jensen Huang) 은 드림포스에서 ‘이제 우리는 모든 것을 알고 무엇이든 할 수 있다’ 고 말합니다.",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -237,22 +288,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "US military confirms it launched space weapons into Earth’s orbit",
-        "url": "https://techcrunch.com/2026/09/15/us-military-confirms-it-launched-space-weapons-into-earths-orbit/",
-        "source": "TechCrunch",
-        "date": "2026-09-15 17:09",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "미군, 지구 궤도에 우주 무기 발사 확인",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
         "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
         "source": "NVIDIA Blog",
@@ -266,40 +301,6 @@
         "themes": [
           "주요 기업"
         ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
-        "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
-        "source": "NVIDIA Blog",
-        "date": "2026-09-15 16:55",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "AI Infra Summit: 엔비디아 베라 루빈 (NVIDIA Vera Rubin) 과 DSX 플랫폼의 발전으로 AI 공장을 위한 와트당 토큰 최적화의 에너지 효율성 선보여",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "SHA-1 in HTTPS on GitHub sunset",
-        "url": "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset",
-        "source": "GitHub Changelog",
-        "date": "2026-09-15 16:47",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub 일몰 HTTPS의 SHA-1",
-        "type": "오픈소스",
-        "themes": [],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -323,56 +324,36 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "v5.2.2",
-        "url": "https://github.com/blender/blender/releases/tag/v5.2.2",
-        "source": "GitHub · Blender",
-        "date": "2026-09-14 15:14",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v5.2.2",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v4.5.14",
-        "url": "https://github.com/blender/blender/releases/tag/v4.5.14",
-        "source": "GitHub · Blender",
-        "date": "2026-09-14 14:54",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v4.5.14",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "opportunities": [],
     "voices": [
       {
-        "title": "Watch Trump Calls Nvidia’s Jensen Huang, Says AI Dangers Are a ‘Hoax’ - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEdHE4ZjlJSEMzZDVKcWd0Q3Jhck9jbU9OckZBbm02dmJkMmQ4eDN4ay1lR0dZc3ZPYU9rSXh6WEE1UFNkakhBUVktU2ZDQ3NidFBtVXVfX25zblYyMkRkTVJrRFFzYzZWQWhweWVLOGs1R2ozV2RTQ0hkUlo4Mmc?oc=5",
-        "source": "Bloomberg.com",
-        "date": "2026-09-15 11:16",
+        "title": "Jensen Huang says battle over AI innovation and safety is ‘false choice’ - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObG5VOF9FckVMY2o1eWJQVWRMU3ZDaGF4QVNnNDg1Q256UExlSVJnenkyV1luX0IxTTQtcGNvRWVQTEgweVhrQW5qSVJPYTRLRHZEZ1kxRGJqTnNNWnpIbnkyeWYxY3RIRDJUYXBPY21tR3JmcUNQdkZEU2tyOFdLWmgyZmc?oc=5",
+        "source": "Financial Times",
+        "date": "2026-09-15 20:55",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
         "category": "인공지능",
-        "titleKo": "트럼프가 엔비디아의 젠슨 황에게 전화하는 것을 보고, AI 위험이 ‘사기‘ 라고 말하다 - Bloomberg.com",
+        "titleKo": "젠슨 황 (Jensen Huang) 은 AI 혁신과 안전에 대한 투쟁은 ‘잘못된 선택’ 이라고 말합니다 - 파이낸셜 타임즈",
+        "type": "인물 발언",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Watch Trump Calls Nvidia’s Jensen Huang, Says AI Dangers Are a ‘Hoax’ - bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEdHE4ZjlJSEMzZDVKcWd0Q3Jhck9jbU9OckZBbm02dmJkMmQ4eDN4ay1lR0dZc3ZPYU9rSXh6WEE1UFNkakhBUVktU2ZDQ3NidFBtVXVfX25zblYyMkRkTVJrRFFzYzZWQWhweWVLOGs1R2ozV2RTQ0hkUlo4Mmc?oc=5",
+        "source": "bloomberg.com",
+        "date": "2026-09-15 00:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "people",
+        "category": "인공지능",
+        "titleKo": "Watch Trump Calls Nvidia’s Jensen Huang, Says AI Dangers Are a ‘Hoax’ - bloomberg.com",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -383,6 +364,70 @@
       }
     ],
     "analysis": [
+      {
+        "title": "AI models chatting in ‘surreal’ dialect mixing poetic language and tech bro jargon - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNekxRWVI4d3pDbGhDMnUtVlNRYXVzWHVzcEJ2dlBBNlBmZ2JGQWFkTFM2TWlYQW1GOXBuZWRWbndSR0doZFpXTTJjczIxd0hqUVhfVlZzakhfWnZFOFQxMGZCMkNEcnhWUDlhTGlkQ1hXaEpyN1Nta1A3YW81R3g1OUYtZEFaeHZVbG1JV2JTR0FlOVNKX0FyRHhmMjMtYTlvelNHVk11RXAyS2pEVE5TQVB3?oc=5",
+        "source": "The Guardian",
+        "date": "2026-09-15 21:48",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "시적 언어와 기술 브로 전문 용어를 혼합한 ‘초현실적’ 방언으로 채팅하는 인공지능 모델 - The Guardian",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The AI data center boom is colliding with cities scarred by big industry",
+        "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+        "source": "TechCrunch",
+        "date": "2026-09-15 21:47",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI 데이터 센터 붐은 거대 산업의 상처를 입은 도시와 충돌하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Jensen Huang says battle over AI innovation and safety is ‘false choice’ - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObG5VOF9FckVMY2o1eWJQVWRMU3ZDaGF4QVNnNDg1Q256UExlSVJnenkyV1luX0IxTTQtcGNvRWVQTEgweVhrQW5qSVJPYTRLRHZEZ1kxRGJqTnNNWnpIbnkyeWYxY3RIRDJUYXBPY21tR3JmcUNQdkZEU2tyOFdLWmgyZmc?oc=5",
+        "source": "Financial Times",
+        "date": "2026-09-15 20:55",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "people",
+        "category": "인공지능",
+        "titleKo": "젠슨 황 (Jensen Huang) 은 AI 혁신과 안전에 대한 투쟁은 ‘잘못된 선택’ 이라고 말합니다 - 파이낸셜 타임즈",
+        "type": "인물 발언",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Could AI really wipe out humanity – six experts spell out the risks - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa3puUXRFSE5YY01MaFJkQkNjYXh3QkJKMWVUdUJmcHNaeHRxWm5Nd3AwZzRwVTMxa2Iya1ZyX0ozV0hoNEtyVjJzWnFoN1dKZ2JRaDl6Nk54ZmNwQlZFRmE4MVZWSGx5R0F5bUZqczJPSDhSd19OZXhTbHNoek5XRGVuUVN0MHVCdV82VUhNZmQzcmNralltaEpvUnZ6NmNhVldqaVFtdXZENWc5?oc=5",
+        "source": "The Guardian",
+        "date": "2026-09-15 20:55",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "인공지능이 정말로 인류를 쓸어버릴 수 있을까요 – 6명의 전문가가 위험을 설명합니다 - 가디언",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
         "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
@@ -518,75 +563,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "US military says it has launched weapons into space",
-        "url": "https://techcrunch.com/2026/09/15/us-military-confirms-it-launched-space-weapons-into-earths-orbit/",
-        "source": "TechCrunch",
-        "date": "2026-09-15 17:09",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "미군은 우주로 무기를 발사했다고 밝혔습니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "US military confirms it launched space weapons into Earth’s orbit",
-        "url": "https://techcrunch.com/2026/09/15/us-military-confirms-it-launched-space-weapons-into-earths-orbit/",
-        "source": "TechCrunch",
-        "date": "2026-09-15 17:09",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "미군, 지구 궤도에 우주 무기 발사 확인",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "More satellites watch the battlefield, putting a premium on making sense of the data",
-        "url": "https://spacenews.com/more-satellites-watch-the-battlefield-putting-a-premium-on-making-sense-of-the-data/",
-        "source": "SpaceNews",
-        "date": "2026-09-15 15:49",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "더 많은 위성이 전장을 주시하고 데이터를 이해하는 데 프리미엄을 둡니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta’s new One subscriptions put a price on social media and AI",
-        "url": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
-        "source": "The Verge",
-        "date": "2026-09-15 14:45",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta의 새로운 One 구독은 소셜 미디어와 AI에 가격을 매깁니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+        "url": "https://codyho.dev/blog/gpu-driver/",
+        "source": "Hacker News",
+        "date": "2026-09-15 19:30",
+        "categoryId": "chips",
+        "confidence": "D",
+        "stream": "community",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "한 달 만에 M4 Mac Mini용 Linux GPU 드라이버 구축",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Introducing System One Models and Jev",
         "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
@@ -668,31 +663,49 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "America's Driver's License Breach Is a National Security Disaster",
-        "url": "https://www.lawfaremedia.org/article/america%27s-drivers-licence-breach-is-a-national-security-disaster",
-        "source": "Hacker News",
-        "date": "2026-09-15 15:58",
-        "categoryId": "cyber",
-        "confidence": "D",
-        "stream": "community",
-        "category": "사이버보안",
-        "titleKo": "미국의 운전면허 위반은 국가 안보 재앙입니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
     {
+      "title": "v16.4.0-canary.32",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.32",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-15 23:22",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.32",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "v3.14.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.14.1",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-09-15 23:12",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.14.1",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v0.36.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.36.0",
       "source": "GitHub · ComfyUI",
-      "date": "2026-09-15 21:05",
+      "date": "2026-09-15 22:26",
       "categoryId": "ai",
       "confidence": "A",
       "stream": "release",
@@ -703,6 +716,88 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "source": "NVIDIA Blog",
+      "date": "2026-09-15 22:24",
+      "categoryId": "chips",
+      "confidence": "A",
+      "stream": "release",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "젠슨 황 (Jensen Huang) 은 드림포스에서 ‘이제 우리는 모든 것을 알고 무엇이든 할 수 있다’ 고 말합니다.",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "AI models chatting in ‘surreal’ dialect mixing poetic language and tech bro jargon - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNekxRWVI4d3pDbGhDMnUtVlNRYXVzWHVzcEJ2dlBBNlBmZ2JGQWFkTFM2TWlYQW1GOXBuZWRWbndSR0doZFpXTTJjczIxd0hqUVhfVlZzakhfWnZFOFQxMGZCMkNEcnhWUDlhTGlkQ1hXaEpyN1Nta1A3YW81R3g1OUYtZEFaeHZVbG1JV2JTR0FlOVNKX0FyRHhmMjMtYTlvelNHVk11RXAyS2pEVE5TQVB3?oc=5",
+      "source": "The Guardian",
+      "date": "2026-09-15 21:48",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "시적 언어와 기술 브로 전문 용어를 혼합한 ‘초현실적’ 방언으로 채팅하는 인공지능 모델 - The Guardian",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The AI data center boom is colliding with cities scarred by big industry",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+      "source": "TechCrunch",
+      "date": "2026-09-15 21:47",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI 데이터 센터 붐은 거대 산업의 상처를 입은 도시와 충돌하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Jensen Huang says battle over AI innovation and safety is ‘false choice’ - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObG5VOF9FckVMY2o1eWJQVWRMU3ZDaGF4QVNnNDg1Q256UExlSVJnenkyV1luX0IxTTQtcGNvRWVQTEgweVhrQW5qSVJPYTRLRHZEZ1kxRGJqTnNNWnpIbnkyeWYxY3RIRDJUYXBPY21tR3JmcUNQdkZEU2tyOFdLWmgyZmc?oc=5",
+      "source": "Financial Times",
+      "date": "2026-09-15 20:55",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "people",
+      "category": "인공지능",
+      "titleKo": "젠슨 황 (Jensen Huang) 은 AI 혁신과 안전에 대한 투쟁은 ‘잘못된 선택’ 이라고 말합니다 - 파이낸셜 타임즈",
+      "type": "인물 발언",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Could AI really wipe out humanity – six experts spell out the risks - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa3puUXRFSE5YY01MaFJkQkNjYXh3QkJKMWVUdUJmcHNaeHRxWm5Nd3AwZzRwVTMxa2Iya1ZyX0ozV0hoNEtyVjJzWnFoN1dKZ2JRaDl6Nk54ZmNwQlZFRmE4MVZWSGx5R0F5bUZqczJPSDhSd19OZXhTbHNoek5XRGVuUVN0MHVCdV82VUhNZmQzcmNralltaEpvUnZ6NmNhVldqaVFtdXZENWc5?oc=5",
+      "source": "The Guardian",
+      "date": "2026-09-15 20:55",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인공지능이 정말로 인류를 쓸어버릴 수 있을까요 – 6명의 전문가가 위험을 설명합니다 - 가디언",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
@@ -737,6 +832,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+      "url": "https://codyho.dev/blog/gpu-driver/",
+      "source": "Hacker News",
+      "date": "2026-09-15 19:30",
+      "categoryId": "chips",
+      "confidence": "D",
+      "stream": "community",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "한 달 만에 M4 Mac Mini용 Linux GPU 드라이버 구축",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Introducing System One Models and Jev",
@@ -971,22 +1082,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "US military confirms it launched space weapons into Earth’s orbit",
-      "url": "https://techcrunch.com/2026/09/15/us-military-confirms-it-launched-space-weapons-into-earths-orbit/",
-      "source": "TechCrunch",
-      "date": "2026-09-15 17:09",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "미군, 지구 궤도에 우주 무기 발사 확인",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
       "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
       "source": "NVIDIA Blog",
@@ -1101,22 +1196,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "America's Driver's License Breach Is a National Security Disaster",
-      "url": "https://www.lawfaremedia.org/article/america%27s-drivers-licence-breach-is-a-national-security-disaster",
-      "source": "Hacker News",
-      "date": "2026-09-15 15:58",
-      "categoryId": "cyber",
-      "confidence": "D",
-      "stream": "community",
-      "category": "사이버보안",
-      "titleKo": "미국의 운전면허 위반은 국가 안보 재앙입니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "More satellites watch the battlefield, putting a premium on making sense of the data",
@@ -1383,24 +1462,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Watch Trump Calls Nvidia’s Jensen Huang, Says AI Dangers Are a ‘Hoax’ - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEdHE4ZjlJSEMzZDVKcWd0Q3Jhck9jbU9OckZBbm02dmJkMmQ4eDN4ay1lR0dZc3ZPYU9rSXh6WEE1UFNkakhBUVktU2ZDQ3NidFBtVXVfX25zblYyMkRkTVJrRFFzYzZWQWhweWVLOGs1R2ozV2RTQ0hkUlo4Mmc?oc=5",
-      "source": "Bloomberg.com",
-      "date": "2026-09-15 11:16",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "트럼프가 엔비디아의 젠슨 황에게 전화하는 것을 보고, AI 위험이 ‘사기‘ 라고 말하다 - Bloomberg.com",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "What’s at stake in AI’s trillion-dollar gamble",
       "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
       "source": "MIT Technology Review",
@@ -1435,15 +1496,15 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Why a decade of doomsday warnings failed to slow the AI race - theguardian.com",
+      "title": "Why a decade of doomsday warnings failed to slow the AI race - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92d2RPRE5TRkowQkN2bUQxdTAyZHlLUFYyTTI3RjFCZGEtaC1OZHNXWGFkR0dWR3BoLVN0T2VCMnR6Rm9tY1kwZ29yY0xGWmhfLUQ4aEJkWW83Uk1PdTB6SHNnTUxINy0xT0w5RTNCV2dYYnRBamx4ZmZqTQ?oc=5",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "date": "2026-09-15 08:01",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "10년간의 종말의 경고가 AI 경쟁을 늦추지 못한 이유 - theguardian.com",
+      "titleKo": "Why a decade of doomsday warnings failed to slow the AI race - The Guardian",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1629,15 +1690,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC - bbc.com",
+      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC - BBC",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LX1VWZndOZkpCRzh4M21BdnVxb0QwNGxiX3UxamJ6TlV4ZDZRZWlhY3RmMS14WjNDazU1YWpKMFF4THhWNFF3eDBndzBqdmRBcFl3dTBiTk1GaXM?oc=5",
-      "source": "bbc.com",
+      "source": "BBC",
       "date": "2026-09-15 00:32",
       "categoryId": "ai",
       "confidence": "B",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "Anthropic 공동 설립자는 BBC에 AI 'KILL SWITCH' 가 필수일 수 있다고 말합니다 - bbc.com",
+      "titleKo": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC - BBC",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1661,6 +1722,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Watch Trump Calls Nvidia’s Jensen Huang, Says AI Dangers Are a ‘Hoax’ - bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEdHE4ZjlJSEMzZDVKcWd0Q3Jhck9jbU9OckZBbm02dmJkMmQ4eDN4ay1lR0dZc3ZPYU9rSXh6WEE1UFNkakhBUVktU2ZDQ3NidFBtVXVfX25zblYyMkRkTVJrRFFzYzZWQWhweWVLOGs1R2ozV2RTQ0hkUlo4Mmc?oc=5",
+      "source": "bloomberg.com",
+      "date": "2026-09-15 00:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "people",
+      "category": "인공지능",
+      "titleKo": "Watch Trump Calls Nvidia’s Jensen Huang, Says AI Dangers Are a ‘Hoax’ - bloomberg.com",
+      "type": "인물 발언",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v16.4.0-canary.31",
@@ -1907,116 +1986,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Space’s growing billion-dollar club",
-      "url": "https://spacenews.com/spaces-growing-billion-dollar-club-spacenews-intelligence/",
-      "source": "SpaceNews",
-      "date": "2026-09-14 15:35",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "10억 달러 규모로 성장하는 우주의 클럽",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v5.2.2",
-      "url": "https://github.com/blender/blender/releases/tag/v5.2.2",
-      "source": "GitHub · Blender",
-      "date": "2026-09-14 15:14",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v5.2.2",
-      "type": "출시·업데이트",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-      "source": "NVIDIA Blog",
-      "date": "2026-09-14 15:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Perplexity 휴대용 컴퓨터는 이제 NVIDIA RTX로 구동되는 Windows에서 사용할 수 있습니다.",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.4.0-canary.30",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.30",
-      "source": "GitHub · Next.js",
-      "date": "2026-09-14 14:59",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.0-canary.30",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v4.5.14",
-      "url": "https://github.com/blender/blender/releases/tag/v4.5.14",
-      "source": "GitHub · Blender",
-      "date": "2026-09-14 14:54",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v4.5.14",
-      "type": "출시·업데이트",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
-      "source": "The Hacker News",
-      "date": "2026-09-14 14:40",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "⚡ 주간 요약: 로그 AI 에이전트, 위챗 웜, 페이퍼컷 공격, AI 스파이 활동, 루트킷",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 11,
-    "checkedAt": "2026. 9. 16. AM 6:30",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 10,
+    "checkedAt": "2026. 9. 16. AM 8:26",
+    "mode": "하루 2회 전체 수집"
   }
 }
