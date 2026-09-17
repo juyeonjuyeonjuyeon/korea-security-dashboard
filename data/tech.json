@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 17. AM 8:34",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 9. 17. AM 10:29",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.34",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 66,
+    "recentCount": 64,
     "sourceCount": 25,
     "officialCount": 28,
     "opportunityCount": 0
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 40,
-      "summary": "Anthropic 및 OpenAI는 안전 평가자를 포함하고자 합니다. 과연 그들은 독립할 수 있을까?",
-      "latest": "2026-09-16 21:07",
+      "count": 39,
+      "summary": "Al Gore는 AI 데이터 센터에 대한 반발을 놀라울 정도로 침착하게 받아들입니다.",
+      "latest": "2026-09-16 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-16T23:34:18.859Z",
+      "lastRefreshed": "2026-09-17T01:29:39.541Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 7,
+      "count": 6,
       "summary": "NVIDIA Vera Rubin NVL72, MLPerf 추론 v6.1 데뷔에서 최고의 성능 제공",
       "latest": "2026-09-16 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-16T23:34:18.859Z",
+      "lastRefreshed": "2026-09-17T01:29:39.541Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "로봇이 RoboBusiness에서 인간의 시연을 통해 학습할 수 있는 방법을 공유하는 OLogic",
       "latest": "2026-09-16 20:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-16T23:34:18.859Z",
+      "lastRefreshed": "2026-09-17T01:29:39.541Z",
       "themes": []
     },
     {
@@ -62,18 +62,18 @@
       "summary": "사이버 공격으로 인한 \"치명타\" 로 인한 유성우를 추적하는 비영리 단체",
       "latest": "2026-09-16 21:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-16T23:34:18.859Z",
+      "lastRefreshed": "2026-09-17T01:29:39.541Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 7,
-      "summary": "NASA의 비행 연구소에서 열정이 정밀함을 만나다",
-      "latest": "2026-09-16 21:06",
+      "count": 8,
+      "summary": "Musk의 오랜 후원자는 투자자들에게 SpaceX 주식을 주고 있습니다.",
+      "latest": "2026-09-16 23:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-16T23:34:18.859Z",
+      "lastRefreshed": "2026-09-17T01:29:39.541Z",
       "themes": [
         "주요 기업"
       ]
@@ -86,7 +86,7 @@
       "summary": "AI는 기후 기술의 최신 하이프 레이어입니다 — 상업적 문제는 더 오래되었습니다",
       "latest": "2026-09-16 16:44",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-16T23:34:18.859Z",
+      "lastRefreshed": "2026-09-17T01:29:39.541Z",
       "themes": [
         "영상"
       ]
@@ -95,11 +95,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
+      "count": 18,
       "summary": "v16.4.0-canary.34",
-      "latest": "2026-09-16 23:22",
+      "latest": "2026-09-16 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-16T23:34:18.859Z",
+      "lastRefreshed": "2026-09-17T01:29:39.541Z",
       "themes": [
         "기회",
         "주요 기업",
@@ -113,7 +113,7 @@
         "title": "v16.4.0-canary.34",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.34",
         "source": "GitHub · Next.js",
-        "date": "2026-09-16 23:22",
+        "date": "2026-09-16 23:46",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -188,6 +188,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+        "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+        "source": "The Verge",
+        "date": "2026-09-16 20:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Snap은 새로운 Specs AI 도구를 출시할 예정이며 iOS와 Mac에 출시될 예정입니다.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
@@ -281,22 +297,6 @@
         "stream": "release",
         "category": "우주·통신",
         "titleKo": "NASA, 태풍 마와르로 인해 손상된 괌 역 복원 기념",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
-        "url": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
-        "source": "NASA",
-        "date": "2026-09-16 16:08",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA, 지구의 무게를 관찰하고 질량의 중심을 찾다",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -413,27 +413,61 @@
         "official": false,
         "sourceLayer": "verified",
         "layerLabel": "주요 언론 확인"
-      },
+      }
+    ],
+    "analysis": [
       {
-        "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says - techcrunch.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW5yQnNCZkM1c1JRdjA5eFNnTnV4d0dfa2xPcWNrcGFwZ3Z0eTR1UUlWRFhtMlBKU0JfNVdnU1ZzV25Ea282aXhfZ3BkLXVnZ1pHbTIxQkI1enlyMmh6RldUNllKUkhGNUtDZVJMU3JFaVQzaGtVN29zQWZMOTMwYXc1bjFsNnJ5YVVadGtmN29RTENOSDdOcWREY3V3eTUxS1dIOEEtdXJjdw?oc=5",
-        "source": "techcrunch.com",
-        "date": "2026-09-16 00:20",
-        "categoryId": "ai",
+        "title": "Musk’s long-time backer is giving SpaceX stock to its investors",
+        "url": "https://techcrunch.com/2026/09/16/musks-long-time-backer-is-giving-spacex-stock-to-its-investors/",
+        "source": "TechCrunch",
+        "date": "2026-09-16 23:50",
+        "categoryId": "space",
         "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says - techcrunch.com",
-        "type": "인물 발언",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Musk의 오랜 후원자는 투자자들에게 SpaceX 주식을 주고 있습니다.",
+        "type": "뉴스·분석",
         "themes": [
           "주요 기업"
         ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "analysis": [
+      },
+      {
+        "title": "Al Gore has a surprisingly calm take on the AI data center backlash",
+        "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+        "source": "TechCrunch",
+        "date": "2026-09-16 23:43",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Al Gore는 AI 데이터 센터에 대한 반발을 놀라울 정도로 침착하게 받아들입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+        "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+        "source": "Ars Technica",
+        "date": "2026-09-16 22:02",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "애플은 인공지능을 위한 M-시리즈 울트라 칩으로 포장된 서버를 구축하고 있다고 한다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
         "url": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
@@ -517,6 +551,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+        "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+        "source": "The Verge",
+        "date": "2026-09-16 20:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Snap은 새로운 Specs AI 도구를 출시할 예정이며 iOS와 Mac에 출시될 예정입니다.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Google will now let any AI agent run your smart home",
         "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
         "source": "The Verge",
@@ -564,74 +614,6 @@
         "titleKo": "AI 연구소는 사내 감사를 원하지만 먼저 현관문을 닫아야 할 수도 있습니다.",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Claude Cowork and chat are now one Claude",
-        "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
-        "source": "Simon Willison",
-        "date": "2026-09-16 18:09",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "Claude Cowork와 채팅이 이제 하나의 Claude가 되었습니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5",
-        "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
-        "source": "The Robot Report",
-        "date": "2026-09-16 17:45",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Digit의 진화: Cassie에서 Digit 5로의 민첩성 로보틱스 여정",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Apple might make servers again to cash in on the AI rush",
-        "url": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
-        "source": "The Verge",
-        "date": "2026-09-16 17:41",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Apple이 서버를 다시 만들어 AI 러시에 현금화할 수도 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Your AI agents can now control your Google Home devices",
-        "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-        "source": "TechCrunch",
-        "date": "2026-09-16 17:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "이제 AI 상담원이 Google Home 기기를 제어할 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -740,10 +722,28 @@
   },
   "news": [
     {
+      "title": "Musk’s long-time backer is giving SpaceX stock to its investors",
+      "url": "https://techcrunch.com/2026/09/16/musks-long-time-backer-is-giving-spacex-stock-to-its-investors/",
+      "source": "TechCrunch",
+      "date": "2026-09-16 23:50",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Musk의 오랜 후원자는 투자자들에게 SpaceX 주식을 주고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.4.0-canary.34",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.34",
       "source": "GitHub · Next.js",
-      "date": "2026-09-16 23:22",
+      "date": "2026-09-16 23:46",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -754,6 +754,40 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Al Gore has a surprisingly calm take on the AI data center backlash",
+      "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "source": "TechCrunch",
+      "date": "2026-09-16 23:43",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Al Gore는 AI 데이터 센터에 대한 반발을 놀라울 정도로 침착하게 받아들입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+      "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+      "source": "Ars Technica",
+      "date": "2026-09-16 22:02",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "애플은 인공지능을 위한 M-시리즈 울트라 칩으로 포장된 서버를 구축하고 있다고 한다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
@@ -900,6 +934,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "source": "The Verge",
+      "date": "2026-09-16 20:10",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Snap은 새로운 Specs AI 도구를 출시할 예정이며 iOS와 Mac에 출시될 예정입니다.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
@@ -1218,22 +1268,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "How Fortell is using AI (and $163M) to crack a hearing aid monopoly",
-      "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/",
-      "source": "TechCrunch",
-      "date": "2026-09-16 16:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Fortell이 AI (및 $ 163M) 를 사용하여 보청기 독점을 해독하는 방법",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "The sexy AI-powered dating app scams are here",
       "url": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
       "source": "The Verge",
@@ -1264,22 +1298,6 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "A brief history of AI executives calling for regulation",
-      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
-      "source": "The Verge",
-      "date": "2026-09-16 15:27",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "규제를 요구하는 AI 경영진의 간략한 역사",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Indonesia’s Anak Krakatau",
@@ -1330,24 +1348,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "date": "2026-09-16 15:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "로봇이 채팅을 기다리고 있습니다. GPT 순간: 엔비디아의 Les Karpas가 TechCrunch Disrupt 2026에서 그 이유를 설명합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
@@ -1786,22 +1786,20 @@
       "layerLabel": "주요 언론 확인"
     },
     {
-      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says - techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW5yQnNCZkM1c1JRdjA5eFNnTnV4d0dfa2xPcWNrcGFwZ3Z0eTR1UUlWRFhtMlBKU0JfNVdnU1ZzV25Ea282aXhfZ3BkLXVnZ1pHbTIxQkI1enlyMmh6RldUNllKUkhGNUtDZVJMU3JFaVQzaGtVN29zQWZMOTMwYXc1bjFsNnJ5YVVadGtmN29RTENOSDdOcWREY3V3eTUxS1dIOEEtdXJjdw?oc=5",
-      "source": "techcrunch.com",
-      "date": "2026-09-16 00:20",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says - techcrunch.com",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "title": "TypeSafe AI's Jev now available on AI Gateway",
+      "url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-09-16 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "TypeSafe AI's Jev now available on AI Gateway",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Is Agentic now tailors its audit by site type",
@@ -2052,32 +2050,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
-      "source": "NVIDIA Blog",
-      "date": "2026-09-15 16:55",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "AI Infra Summit: 엔비디아 베라 루빈 (NVIDIA Vera Rubin) 과 DSX 플랫폼의 발전으로 AI 공장을 위한 와트당 토큰 최적화의 에너지 효율성 선보여",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 9. 17. AM 8:34",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 17. AM 10:29",
+    "mode": "매시간 공식 레이더"
   }
 }
