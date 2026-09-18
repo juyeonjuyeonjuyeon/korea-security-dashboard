@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 18. PM 8:24",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 18. PM 10:20",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "APOD: 2026년 9월 18일 – 메시에 33: 삼각 은하",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 64,
-    "sourceCount": 20,
-    "officialCount": 23,
+    "recentCount": 63,
+    "sourceCount": 19,
+    "officialCount": 21,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "인공지능이 가능한 생체무기의 유령은 생명공학에 대한 모닝콜입니다.",
-      "latest": "2026-09-18 09:00",
+      "count": 34,
+      "summary": "다운로드: AI의 멸종 위험 및 생화학 무기 위협",
+      "latest": "2026-09-18 12:10",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T11:24:18.340Z",
+      "lastRefreshed": "2026-09-18T13:20:01.792Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -39,7 +39,7 @@
       "summary": "젠슨 황 (Jensen Huang) 은 엔비디아 (Nvidia) 가 내년에 두 배 많은 칩을 판매할 것이라고 말했습니다 - CNBC",
       "latest": "2026-09-17 17:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T11:24:18.340Z",
+      "lastRefreshed": "2026-09-18T13:20:01.792Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "웨이모는 싱가포르가 차세대 국제 로봇 택시 도시가 될 것이라고 말했습니다.",
       "latest": "2026-09-18 09:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T11:24:18.340Z",
+      "lastRefreshed": "2026-09-18T13:20:01.792Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -66,7 +66,7 @@
       "summary": "ThreatsDay: 자체 재작성 에이전트, 800개 이상의 결함 패치, 내부자 SIM 스왑 및 22개의 새로운 스토리",
       "latest": "2026-09-17 17:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T11:24:18.340Z",
+      "lastRefreshed": "2026-09-18T13:20:01.792Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -76,11 +76,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 12,
+      "count": 11,
       "summary": "APOD: 2026년 9월 18일 – 메시에 33: 삼각 은하",
       "latest": "2026-09-18 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T11:24:18.340Z",
+      "lastRefreshed": "2026-09-18T13:20:01.792Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -94,7 +94,7 @@
       "summary": "PacWave가 해양 에너지를 위한 거대한 도약을 엽니다",
       "latest": "2026-09-18 03:58",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-18T11:24:18.340Z",
+      "lastRefreshed": "2026-09-18T13:20:01.792Z",
       "themes": [
         "주요 기업"
       ]
@@ -103,11 +103,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
+      "count": 15,
       "summary": "v3.15.0",
       "latest": "2026-09-18 00:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T11:24:18.340Z",
+      "lastRefreshed": "2026-09-18T13:20:01.792Z",
       "themes": [
         "주요 기업"
       ]
@@ -464,6 +464,38 @@
     ],
     "analysis": [
       {
+        "title": "The Download: AI’s extinction risk and bioweapons threat",
+        "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
+        "source": "MIT Technology Review",
+        "date": "2026-09-18 12:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "다운로드: AI의 멸종 위험 및 생화학 무기 위협",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Could AI really kill us all? Your questions, answered.",
+        "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+        "source": "MIT Technology Review",
+        "date": "2026-09-18 11:29",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "인공지능이 정말 우리 모두를 죽일 수 있을까? 질문에 답변해 드리겠습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Waymo says Singapore will be its next international robotaxi city",
         "url": "https://www.theverge.com/transportation/997091/waymo-singapore-robotaxi-launch-2027",
         "source": "The Verge",
@@ -626,41 +658,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Driven to Serve: How Taylor Searcy Turned Navy Service into Clean Energy Strategy at GM",
-        "url": "https://cleantechnica.com/2026/09/17/driven-to-serve-how-taylor-searcy-turned-navy-service-into-clean-energy-strategy-at-gm/",
-        "source": "CleanTechnica",
-        "date": "2026-09-18 02:41",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "Driven to Serve: Taylor Searcy가 GM에서 해군 서비스를 청정 에너지 전략으로 전환한 방법",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
-        "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
-        "source": "TechCrunch",
-        "date": "2026-09-18 00:02",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Khosla의 지원을 받는 Mazama Energy는 $ 135M를 모금하여 초고온 암석 지열에 더 깊이 파고들었습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "ZCode, the GLM coding agent, silently uploads your Git history",
+        "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+        "source": "Hacker News",
+        "date": "2026-09-18 10:35",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "GLM 코딩 에이전트인 ZCode는 Git 기록을 자동으로 업로드합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
         "url": "https://www.hacktron.ai/blog/hacking-openai",
@@ -744,26 +760,58 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Whoisinspace.com/",
-        "url": "https://whoisinspace.com",
-        "source": "Hacker News",
-        "date": "2026-09-17 15:59",
-        "categoryId": "space",
-        "confidence": "D",
-        "stream": "community",
-        "category": "우주·통신",
-        "titleKo": "Whoisinspace.com/",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "The Download: AI’s extinction risk and bioweapons threat",
+      "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
+      "source": "MIT Technology Review",
+      "date": "2026-09-18 12:10",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "다운로드: AI의 멸종 위험 및 생화학 무기 위협",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+      "source": "MIT Technology Review",
+      "date": "2026-09-18 11:29",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인공지능이 정말 우리 모두를 죽일 수 있을까? 질문에 답변해 드리겠습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "ZCode, the GLM coding agent, silently uploads your Git history",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "source": "Hacker News",
+      "date": "2026-09-18 10:35",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "GLM 코딩 에이전트인 ZCode는 Git 기록을 자동으로 업로드합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "Waymo says Singapore will be its next international robotaxi city",
       "url": "https://www.theverge.com/transportation/997091/waymo-singapore-robotaxi-launch-2027",
@@ -1013,6 +1061,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal",
+      "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
+      "source": "TechCrunch",
+      "date": "2026-09-18 00:02",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Khosla가 후원하는 Mazama Energy는 초고온 암석 지열에 더 깊이 파고들기 위해 $ 135M를 모금했습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
@@ -1311,22 +1375,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "The fix for rogue AI agents could be more AI",
-      "url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-      "source": "TechCrunch",
-      "date": "2026-09-17 20:34",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "The fix for rogue AI agents could be more AI",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Google announces new experimental \"CC\" AI agent for families",
       "url": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
       "source": "Ars Technica",
@@ -1579,22 +1627,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Whoisinspace.com/",
-      "url": "https://whoisinspace.com",
-      "source": "Hacker News",
-      "date": "2026-09-17 15:59",
-      "categoryId": "space",
-      "confidence": "D",
-      "stream": "community",
-      "category": "우주·통신",
-      "titleKo": "Whoisinspace.com/",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Workflow execution protections in GitHub Actions generally available",
@@ -2064,46 +2096,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "SCIM user responses now include a profileUrl attribute",
-      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
-      "source": "GitHub Changelog",
-      "date": "2026-09-16 20:19",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 SCIM 사용자 응답에 profileUrl 속성이 포함됩니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
-      "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
-      "source": "Cloudflare Blog",
-      "date": "2026-09-16 20:06",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "스캐너가 공격을 놓칠 때: Cloudflare Client-Side Security가 스토어 프론트를 보호하는 방법",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 33,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 7,
-    "checkedAt": "2026. 9. 18. PM 8:24",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 6,
+    "checkedAt": "2026. 9. 18. PM 10:20",
+    "mode": "하루 2회 전체 수집"
   }
 }
