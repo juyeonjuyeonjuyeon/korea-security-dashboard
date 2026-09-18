@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 19. AM 7:38",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 19. AM 8:05",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v3.16.2",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 68,
-    "sourceCount": 20,
+    "recentCount": 69,
+    "sourceCount": 21,
     "officialCount": 25,
     "opportunityCount": 0
   },
@@ -24,7 +24,7 @@
       "summary": "Anthropic의 첫 번째 임베디드 평가자는... Accenture입니까?",
       "latest": "2026-09-18 21:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T22:38:14.243Z",
+      "lastRefreshed": "2026-09-18T23:05:49.275Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 2,
+      "count": 3,
       "summary": "젠슨 황 (Jensen Huang) 은 엔비디아 (Nvidia) 가 내년에 두 배 많은 칩을 판매할 것이라고 말했습니다 - CNBC",
       "latest": "2026-09-17 17:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T22:38:14.243Z",
+      "lastRefreshed": "2026-09-18T23:05:49.275Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "로봇 붐을 이끄는 픽 앤 쇼블 전략",
       "latest": "2026-09-18 18:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T22:38:14.243Z",
+      "lastRefreshed": "2026-09-18T23:05:49.275Z",
       "themes": [
         "미술·디자인"
       ]
@@ -65,7 +65,7 @@
       "summary": "Transparent Tribe, C2용 개인 GitHub 저장소를 사용하여 새로운 Rust 백도어 배포",
       "latest": "2026-09-18 15:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T22:38:14.243Z",
+      "lastRefreshed": "2026-09-18T23:05:49.275Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
+      "count": 9,
       "summary": "NASA, 알바니아 아르테미스 협정 서명식에 미디어 초청",
       "latest": "2026-09-18 19:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T22:38:14.243Z",
+      "lastRefreshed": "2026-09-18T23:05:49.275Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -92,7 +92,7 @@
       "summary": "PacWave가 해양 에너지를 위한 거대한 도약을 엽니다",
       "latest": "2026-09-18 03:58",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-18T22:38:14.243Z",
+      "lastRefreshed": "2026-09-18T23:05:49.275Z",
       "themes": [
         "주요 기업"
       ]
@@ -105,7 +105,7 @@
       "summary": "v3.16.2",
       "latest": "2026-09-18 21:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-18T22:38:14.243Z",
+      "lastRefreshed": "2026-09-18T23:05:49.275Z",
       "themes": [
         "주요 기업"
       ]
@@ -1836,6 +1836,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Anthropic says Claude now leads a quarter of work building its next AI models - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-17 23:59",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic says Claude now leads a quarter of work building its next AI models - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "v16.4.0-canary.35",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.35",
       "source": "GitHub · Next.js",
@@ -1868,24 +1886,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic says Claude now leads a quarter of work building its next AI models - reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5",
-      "source": "reuters.com",
-      "date": "2026-09-17 22:17",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic은 Claude가 이제 다음 AI 모델을 구축하는 작업의 1/4을 이끌고 있다고 말합니다 - reuters.com",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Small AI models let drones autonomously identify and attack battlefield targets",
@@ -1990,6 +1990,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "France's CEA, Alice & Bob partner on quantum-supercomputing software - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRnpUcWU3U2NvdTlvRm1JdDZ4TEVhOXA3ZDQ4c0xnWnhGQ3QtYjlzeUg1SExBcGM1U2c3WE9RVjVMSmd1OE1OV01yRTAxVEVQWi0xVE5KWVVWMm55SFp0Zlh2VzI2STlWS0xoMDRsVXhtckxzSWJfRV9jZWhTTnJMNi1ia3hzS3M0MG1JOWREYWdITDF3a1FUeVM0ZXV5dlVPUU9EZ2hPRjJKV2tP?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-17 15:53",
+      "categoryId": "chips",
+      "confidence": "B",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "France's CEA, Alice & Bob partner on quantum-supercomputing software - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "France's CEA, Alice & Bob seek quantum software alternative to Nvidia's CUDA-Q - reuters.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRnpUcWU3U2NvdTlvRm1JdDZ4TEVhOXA3ZDQ4c0xnWnhGQ3QtYjlzeUg1SExBcGM1U2c3WE9RVjVMSmd1OE1OV01yRTAxVEVQWi0xVE5KWVVWMm55SFp0Zlh2VzI2STlWS0xoMDRsVXhtckxzSWJfRV9jZWhTTnJMNi1ia3hzS3M0MG1JOWREYWdITDF3a1FUeVM0ZXV5dlVPUU9EZ2hPRjJKV2tP?oc=5",
       "source": "reuters.com",
@@ -2040,30 +2056,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Inside Europe’s push for space autonomy with Josef Aschbacher",
-      "url": "https://spacenews.com/inside-europes-push-for-space-autonomy-with-josef-aschbacher/",
-      "source": "SpaceNews",
-      "date": "2026-09-17 14:37",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "요제프 아슈바허 (Josef Aschbacher) 와 함께 유럽의 우주 자율화 추진",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 9. 19. AM 7:38",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 9. 19. AM 8:05",
+    "mode": "하루 2회 전체 수집"
   }
 }
