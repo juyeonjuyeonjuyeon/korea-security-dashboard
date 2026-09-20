@@ -1,18 +1,19 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 21. AM 4:30",
+  "updatedAt": "2026. 9. 21. AM 7:30",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v0.37.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 21,
-    "sourceCount": 22,
+    "recentCount": 18,
+    "sourceCount": 23,
     "officialCount": 23,
     "opportunityCount": 0
   },
   "summary": [
     "새 출시: v0.37.0",
-    "창작 기술: 코지마 프로덕션 분쟁으로 인해 스튜디오가 곤경에 처했다고 신고"
+    "창작 기술: No Dogs in Space가 강박적인 음악 역사에 대한 필요를 충족시키기 위해 돌아왔습니다.",
+    "인물 발언: 보고서에 따르면 Anthropic은 $ 1,000억의 매출을 올렸습니다. - Axios"
   ],
   "categories": [
     {
@@ -20,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 36,
-      "summary": "인공지능 산업은 정말 둔화될 준비가 되어 있는가?",
-      "latest": "2026-09-20 18:56",
+      "summary": "세계 모델 회사들은 많은 비밀을 지키고 있습니다",
+      "latest": "2026-09-20 20:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T19:30:52.617Z",
+      "lastRefreshed": "2026-09-20T22:30:43.256Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -38,7 +39,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T19:30:52.617Z",
+      "lastRefreshed": "2026-09-20T22:30:43.256Z",
       "themes": []
     },
     {
@@ -49,7 +50,7 @@
       "summary": "휴머노이드 로봇이 고장 났을 때 어떻게 해야 할까요?",
       "latest": "2026-09-20 12:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T19:30:52.617Z",
+      "lastRefreshed": "2026-09-20T22:30:43.256Z",
       "themes": []
     },
     {
@@ -60,7 +61,7 @@
       "summary": "Claude Opus 5는 연쇄 결함을 통해 연구원이 OpenAI 직원 계정을 인수하는 데 도움을 주었습니다.",
       "latest": "2026-09-19 18:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T19:30:52.617Z",
+      "lastRefreshed": "2026-09-20T22:30:43.256Z",
       "themes": [
         "주요 기업"
       ]
@@ -69,12 +70,13 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 8,
-      "summary": "APOD: 2026년 9월 20일 – 칼라니시 스톤 위의 아날렘마",
-      "latest": "2026-09-20 04:05",
+      "count": 9,
+      "summary": "No Dogs in Space가 강박적인 음악 역사에 대한 필요를 충족시키기 위해 돌아왔습니다.",
+      "latest": "2026-09-20 21:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T19:30:52.617Z",
+      "lastRefreshed": "2026-09-20T22:30:43.256Z",
       "themes": [
+        "음악·음성",
         "주요 기업"
       ]
     },
@@ -82,11 +84,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
+      "count": 4,
       "summary": "Ziroth가 잘못되었습니다: Donut Lab의 배터리가 NMC가 아닙니다.",
       "latest": "2026-09-20 14:41",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-20T19:30:52.617Z",
+      "lastRefreshed": "2026-09-20T22:30:43.256Z",
       "themes": [
         "미술·디자인"
       ]
@@ -99,7 +101,7 @@
       "summary": "v16.4.0-canary.37",
       "latest": "2026-09-19 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T19:30:52.617Z",
+      "lastRefreshed": "2026-09-20T22:30:43.256Z",
       "themes": [
         "주요 기업"
       ]
@@ -304,6 +306,24 @@
     ],
     "creative": [
       {
+        "title": "No Dogs in Space is back to feed your need for obsessive music history",
+        "url": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast",
+        "source": "The Verge",
+        "date": "2026-09-20 21:12",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "No Dogs in Space가 강박적인 음악 역사에 대한 필요를 충족시키기 위해 돌아왔습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Kojima Productions disputes reports the studio is in trouble",
         "url": "https://www.theverge.com/games/997880/hideo-kojima-productions-physint-xbox-sony-playstation",
         "source": "The Verge",
@@ -449,8 +469,61 @@
       }
     ],
     "opportunities": [],
-    "voices": [],
+    "voices": [
+      {
+        "title": "Anthropic tops $100 billion revenue pace, report says - Axios",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5",
+        "source": "Axios",
+        "date": "2026-09-19 05:51",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "people",
+        "category": "인공지능",
+        "titleKo": "보고서에 따르면 Anthropic은 $ 1,000억의 매출을 올렸습니다. - Axios",
+        "type": "인물 발언",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      }
+    ],
     "analysis": [
+      {
+        "title": "No Dogs in Space is back to feed your need for obsessive music history",
+        "url": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast",
+        "source": "The Verge",
+        "date": "2026-09-20 21:12",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "No Dogs in Space가 강박적인 음악 역사에 대한 필요를 충족시키기 위해 돌아왔습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "World model companies are keeping a lot of secrets",
+        "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+        "source": "TechCrunch",
+        "date": "2026-09-20 20:29",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "세계 모델 회사들은 많은 비밀을 지키고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Is the AI industry really ready to slow down?",
         "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
@@ -616,40 +689,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "datasette-auth-github 1.0",
-        "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-        "source": "Simon Willison",
-        "date": "2026-09-19 19:52",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "datasette-auth-github 1.0",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-        "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-        "source": "The Hacker News",
-        "date": "2026-09-19 18:36",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "Claude Opus 5는 연쇄 결함을 통해 연구원이 OpenAI 직원 계정을 인수하는 데 도움을 주었습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -756,6 +795,40 @@
     ]
   },
   "news": [
+    {
+      "title": "No Dogs in Space is back to feed your need for obsessive music history",
+      "url": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast",
+      "source": "The Verge",
+      "date": "2026-09-20 21:12",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "No Dogs in Space가 강박적인 음악 역사에 대한 필요를 충족시키기 위해 돌아왔습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "World model companies are keeping a lot of secrets",
+      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "source": "TechCrunch",
+      "date": "2026-09-20 20:29",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "세계 모델 회사들은 많은 비밀을 지키고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Is the AI industry really ready to slow down?",
       "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
@@ -1139,24 +1212,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-      "source": "The Verge",
-      "date": "2026-09-19 16:18",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI와 Microsoft는 웹에 대한 ‘둠 루프‘ 를 시작하고 있음을 알고 있었습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
       "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
       "source": "TechCrunch",
@@ -1166,22 +1221,6 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "Petlibro의 새로운 AI 기반 피더는 멀티 고양이 집을 위한 게임 체인저입니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI safety conversations have gotten unbelievable",
-      "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
-      "source": "TechCrunch",
-      "date": "2026-09-19 15:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 안전 관련 대화가 믿을 수 없을 정도로 많이 이루어졌습니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1284,6 +1323,24 @@
       "titleKo": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
       "type": "오픈소스",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anthropic tops $100 billion revenue pace, report says - Axios",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5",
+      "source": "Axios",
+      "date": "2026-09-19 05:51",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "people",
+      "category": "인공지능",
+      "titleKo": "보고서에 따르면 Anthropic은 $ 1,000억의 매출을 올렸습니다. - Axios",
+      "type": "인물 발언",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2065,22 +2122,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NLR Campus To Host US Department of Energy Geothermal Center of Excellence",
-      "url": "https://cleantechnica.com/2026/09/17/nlr-campus-to-host-us-department-of-energy-geothermal-center-of-excellence/",
-      "source": "CleanTechnica",
-      "date": "2026-09-18 03:57",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "NLR 캠퍼스, 미국 에너지부 (Department of Energy) 지열 우수기관 (Geothermal Center of Excellence) 개최",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2088,7 +2129,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 9. 21. AM 4:30",
+    "checkedAt": "2026. 9. 21. AM 7:30",
     "mode": "매시간 공식 레이더"
   }
 }
