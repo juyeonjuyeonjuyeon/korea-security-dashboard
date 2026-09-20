@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 20. PM 9:27",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 20. PM 10:25",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "APOD: 2026년 9월 20일 – 칼라니시 스톤 위의 아날렘마",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 19,
+    "recentCount": 20,
     "sourceCount": 21,
-    "officialCount": 24,
+    "officialCount": 23,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 34,
-      "summary": "인공지능의 진로를 바꾼 열흘 - reuters.com",
-      "latest": "2026-09-19 21:11",
+      "summary": "AI와 크리에이티브 커먼즈의 파괴",
+      "latest": "2026-09-20 10:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T12:27:10.960Z",
+      "lastRefreshed": "2026-09-20T13:25:15.546Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -38,18 +38,18 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T12:27:10.960Z",
+      "lastRefreshed": "2026-09-20T13:25:15.547Z",
       "themes": []
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 5,
-      "summary": "로봇 붐을 이끄는 픽 앤 쇼블 전략",
-      "latest": "2026-09-18 18:57",
+      "count": 6,
+      "summary": "휴머노이드 로봇이 고장 났을 때 어떻게 해야 할까요?",
+      "latest": "2026-09-20 12:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T12:27:10.960Z",
+      "lastRefreshed": "2026-09-20T13:25:15.547Z",
       "themes": []
     },
     {
@@ -60,7 +60,7 @@
       "summary": "Claude Opus 5는 연쇄 결함을 통해 연구원이 OpenAI 직원 계정을 인수하는 데 도움을 주었습니다.",
       "latest": "2026-09-19 18:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T12:27:10.960Z",
+      "lastRefreshed": "2026-09-20T13:25:15.547Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,7 +73,7 @@
       "summary": "APOD: 2026년 9월 20일 – 칼라니시 스톤 위의 아날렘마",
       "latest": "2026-09-20 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T12:27:10.960Z",
+      "lastRefreshed": "2026-09-20T13:25:15.547Z",
       "themes": [
         "주요 기업"
       ]
@@ -86,7 +86,7 @@
       "summary": "해양 에너지가 하이브리드 전력 시스템을 만나는 곳, 이 실험실은 통합의 위험을 제거합니다",
       "latest": "2026-09-19 00:36",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-20T12:27:10.960Z",
+      "lastRefreshed": "2026-09-20T13:25:15.547Z",
       "themes": [
         "미술·디자인"
       ]
@@ -95,11 +95,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 22,
+      "count": 21,
       "summary": "v16.4.0-canary.37",
       "latest": "2026-09-19 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T12:27:10.960Z",
+      "lastRefreshed": "2026-09-20T13:25:15.547Z",
       "themes": [
         "주요 기업"
       ]
@@ -380,6 +380,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "What do you do with a humanoid robot when it breaks down?",
+        "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+        "source": "The Robot Report",
+        "date": "2026-09-20 12:45",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "휴머노이드 로봇이 고장 났을 때 어떻게 해야 할까요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
         "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
         "source": "The Verge",
@@ -562,25 +578,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
-        "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
-        "source": "TechCrunch",
-        "date": "2026-09-19 13:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Andreessen Horowitz가 후원하는 VALS는 AI 벤치마킹의 황금 표준이 되고자 합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "AI and the Destruction of the Creative Commons",
+        "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+        "source": "Hacker News",
+        "date": "2026-09-20 10:07",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI와 크리에이티브 커먼즈의 파괴",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
         "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
@@ -662,26 +678,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "AI-generated posters don’t have to be horrible",
-        "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-        "source": "Hacker News",
-        "date": "2026-09-19 09:20",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI로 제작된 포스터는 끔찍할 필요가 없습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "What do you do with a humanoid robot when it breaks down?",
+      "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+      "source": "The Robot Report",
+      "date": "2026-09-20 12:45",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "휴머노이드 로봇이 고장 났을 때 어떻게 해야 할까요?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI and the Destruction of the Creative Commons",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+      "source": "Hacker News",
+      "date": "2026-09-20 10:07",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI와 크리에이티브 커먼즈의 파괴",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
@@ -715,15 +747,15 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Ten days that changed the course of AI - reuters.com",
+      "title": "Ten days that changed the course of AI - Reuters",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON2xmamNtUmNHeDRtbGtQS0FQWnJSZF9uWG1MVHNQRTBkMmt0Q3dkN1A1N1ZoSWo1MHBKQVhJZFB3aEhUQ3MtYmVfaTRPZ09DZzBKVWpUMjFTVktCNGxoSEFhbnhCb3lyclgxS2RfM3BpQjVCaVBPNzBOdkxEU1JCOWhpMnVjeE1MbXhRczNDNldCeXp2?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-09-19 21:11",
       "categoryId": "ai",
       "confidence": "B",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "인공지능의 진로를 바꾼 열흘 - reuters.com",
+      "titleKo": "AI의 진로를 바꾼 열흘 - 로이터",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1061,22 +1093,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI-generated posters don’t have to be horrible",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "source": "Hacker News",
-      "date": "2026-09-19 09:20",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI로 제작된 포스터는 끔찍할 필요가 없습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
@@ -1987,30 +2003,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
-      "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-      "source": "Vercel Changelog",
-      "date": "2026-09-18 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 9. 20. PM 9:27",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 9. 20. PM 10:25",
+    "mode": "하루 2회 전체 수집"
   }
 }
