@@ -1,33 +1,33 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 20. PM 10:25",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "APOD: 2026년 9월 20일 – 칼라니시 스톤 위의 아날렘마",
+  "updatedAt": "2026. 9. 21. AM 1:51",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v0.37.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 20,
-    "sourceCount": 21,
+    "recentCount": 19,
+    "sourceCount": 22,
     "officialCount": 23,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: APOD: 2026년 9월 20일 – 칼라니시 스톤 위의 아날렘마",
-    "창작 기술: 에너지 지구 컵에서 캠퍼스 에너지의 미래를 디자인하세요"
+    "새 출시: v0.37.0",
+    "창작 기술: 멋진 새 비디오 게임 영화"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
-      "summary": "AI와 크리에이티브 커먼즈의 파괴",
-      "latest": "2026-09-20 10:07",
+      "count": 36,
+      "summary": "트럼프는 이제 ‘AI 부대‘ 를 구성하고 싶다고 말한다.",
+      "latest": "2026-09-20 15:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T13:25:15.546Z",
+      "lastRefreshed": "2026-09-20T16:51:27.747Z",
       "themes": [
-        "주요 기업",
         "영상",
-        "미술·디자인"
+        "미술·디자인",
+        "주요 기업"
       ]
     },
     {
@@ -38,7 +38,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T13:25:15.547Z",
+      "lastRefreshed": "2026-09-20T16:51:27.747Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "휴머노이드 로봇이 고장 났을 때 어떻게 해야 할까요?",
       "latest": "2026-09-20 12:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T13:25:15.547Z",
+      "lastRefreshed": "2026-09-20T16:51:27.747Z",
       "themes": []
     },
     {
@@ -60,7 +60,7 @@
       "summary": "Claude Opus 5는 연쇄 결함을 통해 연구원이 OpenAI 직원 계정을 인수하는 데 도움을 주었습니다.",
       "latest": "2026-09-19 18:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T13:25:15.547Z",
+      "lastRefreshed": "2026-09-20T16:51:27.747Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,7 +73,7 @@
       "summary": "APOD: 2026년 9월 20일 – 칼라니시 스톤 위의 아날렘마",
       "latest": "2026-09-20 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T13:25:15.547Z",
+      "lastRefreshed": "2026-09-20T16:51:27.747Z",
       "themes": [
         "주요 기업"
       ]
@@ -83,10 +83,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 5,
-      "summary": "해양 에너지가 하이브리드 전력 시스템을 만나는 곳, 이 실험실은 통합의 위험을 제거합니다",
-      "latest": "2026-09-19 00:36",
+      "summary": "Ziroth가 잘못되었습니다: Donut Lab의 배터리가 NMC가 아닙니다.",
+      "latest": "2026-09-20 14:41",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-20T13:25:15.547Z",
+      "lastRefreshed": "2026-09-20T16:51:27.747Z",
       "themes": [
         "미술·디자인"
       ]
@@ -95,11 +95,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
+      "count": 19,
       "summary": "v16.4.0-canary.37",
       "latest": "2026-09-19 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-20T13:25:15.547Z",
+      "lastRefreshed": "2026-09-20T16:51:27.747Z",
       "themes": [
         "주요 기업"
       ]
@@ -107,6 +107,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.37.0",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-09-20 15:27",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.37.0",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
         "url": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
@@ -154,22 +170,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Laya the open source version of Jev",
-        "url": "https://laya.convaiinnovations.com/",
-        "source": "Hacker News",
-        "date": "2026-09-19 10:46",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "JEV의 오픈 소스 버전 Laya",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Rocket Lab continues high Electron cadence with Synspective launch - SpaceNews",
@@ -304,6 +304,60 @@
     ],
     "creative": [
       {
+        "title": "A great new video game movie",
+        "url": "https://www.theverge.com/tech/997322/resident-evil-steam-frame-fire-emblem-fortunes-weave",
+        "source": "The Verge",
+        "date": "2026-09-20 14:37",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "멋진 새 비디오 게임 영화",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
+        "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+        "source": "Hacker News",
+        "date": "2026-09-20 13:09",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Qwen-Image-2.1: 컴팩트하고 효율적이며 통합된 이미지 생성",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Can you tell which images are AI-generated?",
+        "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+        "source": "Hacker News",
+        "date": "2026-09-19 23:02",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "어떤 이미지가 AI로 생성되는지 알 수 있나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Design the Future of Campus Energy in the Energy District Cup",
         "url": "https://cleantechnica.com/2026/09/18/design-the-future-of-campus-energy-in-the-energy-district-cup/",
         "source": "CleanTechnica",
@@ -379,6 +433,56 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Trump now says he wants to form an ‘AI Force’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+        "source": "The Verge",
+        "date": "2026-09-20 15:39",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "트럼프는 이제 ‘AI 부대‘ 를 구성하고 싶다고 말한다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Ziroth is Wrong: Donut Lab’s Battery Is Not NMC",
+        "url": "https://cleantechnica.com/2026/09/20/ziroth-is-wrong-donut-labs-battery-is-not-nmc/",
+        "source": "CleanTechnica",
+        "date": "2026-09-20 14:41",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Ziroth가 잘못되었습니다: Donut Lab의 배터리가 NMC가 아닙니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "A great new video game movie",
+        "url": "https://www.theverge.com/tech/997322/resident-evil-steam-frame-fire-emblem-fortunes-weave",
+        "source": "The Verge",
+        "date": "2026-09-20 14:37",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "멋진 새 비디오 게임 영화",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "What do you do with a humanoid robot when it breaks down?",
         "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
@@ -530,57 +634,43 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
-        "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
-        "source": "TechCrunch",
-        "date": "2026-09-19 15:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Petlibro의 새로운 AI 기반 피더는 멀티 고양이 집을 위한 게임 체인저입니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI safety conversations have gotten unbelievable",
-        "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
-        "source": "TechCrunch",
-        "date": "2026-09-19 15:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 안전 관련 대화가 믿을 수 없을 정도로 많이 이루어졌습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-        "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-        "source": "The Hacker News",
-        "date": "2026-09-19 13:28",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "2026년 ID 가시성: ID 보안의 기초",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
+        "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+        "source": "Hacker News",
+        "date": "2026-09-20 13:09",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Qwen-Image-2.1: 컴팩트하고 효율적이며 통합된 이미지 생성",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
+        "url": "https://softwarecrisis.dev/letters/llmentalist/",
+        "source": "Hacker News",
+        "date": "2026-09-20 12:20",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "채팅 기반 대형 언어 모델은 심령술사의 사기 메커니즘을 복제합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "AI and the Destruction of the Creative Commons",
         "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
@@ -593,6 +683,24 @@
         "titleKo": "AI와 크리에이티브 커먼즈의 파괴",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Can you tell which images are AI-generated?",
+        "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+        "source": "Hacker News",
+        "date": "2026-09-19 23:02",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "어떤 이미지가 AI로 생성되는지 알 수 있나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -630,58 +738,94 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Almost Never Use AI to Write Anything Substantive",
-        "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-        "source": "Hacker News",
-        "date": "2026-09-19 16:35",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "인공 지능을 사용하여 실질적인 것을 쓰지 마십시오.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "I built non-autoregressive decision models with RL a year ago",
-        "url": "https://laya.convaiinnovations.com/",
-        "source": "Hacker News",
-        "date": "2026-09-19 10:46",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "저는 1년 전에 RL과 함께 비회귀적 의사 결정 모델을 구축했습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Laya the open source version of Jev",
-        "url": "https://laya.convaiinnovations.com/",
-        "source": "Hacker News",
-        "date": "2026-09-19 10:46",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "JEV의 오픈 소스 버전 Laya",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Trump now says he wants to form an ‘AI Force’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+      "source": "The Verge",
+      "date": "2026-09-20 15:39",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "트럼프는 이제 ‘AI 부대‘ 를 구성하고 싶다고 말한다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.37.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-09-20 15:27",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.37.0",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Ziroth is Wrong: Donut Lab’s Battery Is Not NMC",
+      "url": "https://cleantechnica.com/2026/09/20/ziroth-is-wrong-donut-labs-battery-is-not-nmc/",
+      "source": "CleanTechnica",
+      "date": "2026-09-20 14:41",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Ziroth가 잘못되었습니다: Donut Lab의 배터리가 NMC가 아닙니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "A great new video game movie",
+      "url": "https://www.theverge.com/tech/997322/resident-evil-steam-frame-fire-emblem-fortunes-weave",
+      "source": "The Verge",
+      "date": "2026-09-20 14:37",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "멋진 새 비디오 게임 영화",
+      "type": "뉴스·분석",
+      "themes": [
+        "영상"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "source": "Hacker News",
+      "date": "2026-09-20 13:09",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Qwen-Image-2.1: 컴팩트하고 효율적이며 통합된 이미지 생성",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "What do you do with a humanoid robot when it breaks down?",
       "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
@@ -697,6 +841,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
+      "url": "https://softwarecrisis.dev/letters/llmentalist/",
+      "source": "Hacker News",
+      "date": "2026-09-20 12:20",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "채팅 기반 대형 언어 모델은 심령술사의 사기 메커니즘을 복제합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "AI and the Destruction of the Creative Commons",
@@ -745,6 +905,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Can you tell which images are AI-generated?",
+      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+      "source": "Hacker News",
+      "date": "2026-09-19 23:02",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "어떤 이미지가 AI로 생성되는지 알 수 있나요?",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Ten days that changed the course of AI - Reuters",
@@ -897,22 +1075,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Almost Never Use AI to Write Anything Substantive",
-      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-      "source": "Hacker News",
-      "date": "2026-09-19 16:35",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "인공 지능을 사용하여 실질적인 것을 쓰지 마십시오.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
       "source": "The Verge",
@@ -1029,38 +1191,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "I built non-autoregressive decision models with RL a year ago",
-      "url": "https://laya.convaiinnovations.com/",
-      "source": "Hacker News",
-      "date": "2026-09-19 10:46",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "저는 1년 전에 RL과 함께 비회귀적 의사 결정 모델을 구축했습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Laya the open source version of Jev",
-      "url": "https://laya.convaiinnovations.com/",
-      "source": "Hacker News",
-      "date": "2026-09-19 10:46",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "JEV의 오픈 소스 버전 Laya",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "China bogeyman looms large over American firms’ AI doomsday scenario - theguardian.com",
@@ -1229,22 +1359,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Gavin Newsom is pushing for an AI kill switch",
-      "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
-      "source": "The Verge",
-      "date": "2026-09-18 21:28",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "개빈 뉴섬 (Gavin Newsom) 이 AI 킬 스위치를 추진하고 있다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v3.16.2",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.16.2",
       "source": "GitHub · OpenAI Python",
@@ -1325,22 +1439,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
-      "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
-      "source": "The Verge",
-      "date": "2026-09-18 19:30",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI가 모든 사람을 죽이지 않기 위해 반독점 면제가 필요합니까????",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Manage the code coverage ruleset condition with the REST API",
@@ -1969,48 +2067,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Driven to Serve: How Taylor Searcy Turned Navy Service into Clean Energy Strategy at GM",
-      "url": "https://cleantechnica.com/2026/09/17/driven-to-serve-how-taylor-searcy-turned-navy-service-into-clean-energy-strategy-at-gm/",
-      "source": "CleanTechnica",
-      "date": "2026-09-18 02:41",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Driven to Serve: Taylor Searcy가 GM에서 해군 서비스를 청정 에너지 전략으로 전환한 방법",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v3.15.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.15.0",
-      "source": "GitHub · OpenAI Python",
-      "date": "2026-09-18 00:52",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v3.15.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
-    "officialSources": 7,
-    "checkedAt": "2026. 9. 20. PM 10:25",
-    "mode": "하루 2회 전체 수집"
+    "officialSources": 8,
+    "checkedAt": "2026. 9. 21. AM 1:51",
+    "mode": "매시간 공식 레이더"
   }
 }
