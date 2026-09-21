@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 22. AM 8:22",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 22. AM 8:54",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "Jev introduces a new shape of LLM - System One, aka Decision Models",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 53,
-    "sourceCount": 25,
-    "officialCount": 26,
+    "recentCount": 57,
+    "sourceCount": 26,
+    "officialCount": 24,
     "opportunityCount": 1
   },
   "summary": [
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 37,
-      "summary": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-      "latest": "2026-09-21 22:24",
+      "count": 39,
+      "summary": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "latest": "2026-09-21 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:22:10.655Z",
+      "lastRefreshed": "2026-09-21T23:54:44.426Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -40,7 +40,7 @@
       "summary": "NVIDIA, AI 공장을 위한 전력 및 냉각 제품 검증 준비 완료 DSX 출시",
       "latest": "2026-09-21 18:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:22:10.655Z",
+      "lastRefreshed": "2026-09-21T23:54:44.426Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "IAC, 라구나 세카 (Laguna Seca) 에서 자율주행 레이싱 이벤트 완료",
       "latest": "2026-09-21 18:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:22:10.655Z",
+      "lastRefreshed": "2026-09-21T23:54:44.426Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -67,7 +67,7 @@
       "summary": "⚡ 주간 요약: Cisco 0-Day, AI Agent RCE, ClickFix 공격, ClickFix Surge 및 브라우저 가로채기",
       "latest": "2026-09-21 14:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:22:10.655Z",
+      "lastRefreshed": "2026-09-21T23:54:44.426Z",
       "themes": [
         "주요 기업"
       ]
@@ -80,7 +80,7 @@
       "summary": "Embracing the Equinox",
       "latest": "2026-09-21 21:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:22:10.655Z",
+      "lastRefreshed": "2026-09-21T23:54:44.426Z",
       "themes": [
         "음악·음성"
       ]
@@ -93,7 +93,7 @@
       "summary": "Ziroth가 잘못되었습니다: Donut Lab의 배터리가 NMC가 아닙니다.",
       "latest": "2026-09-20 14:41",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-21T23:22:10.655Z",
+      "lastRefreshed": "2026-09-21T23:54:44.426Z",
       "themes": [
         "미술·디자인"
       ]
@@ -102,11 +102,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
+      "count": 14,
       "summary": "Jev introduces a new shape of LLM - System One, aka Decision Models",
       "latest": "2026-09-21 23:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:22:10.655Z",
+      "lastRefreshed": "2026-09-21T23:54:44.426Z",
       "themes": [
         "주요 기업"
       ]
@@ -467,6 +467,40 @@
     ],
     "analysis": [
       {
+        "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+        "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+        "source": "TechCrunch",
+        "date": "2026-09-21 23:44",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "California tightens rules on AI data center energy and water use",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+        "source": "The Verge",
+        "date": "2026-09-21 23:09",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "California tightens rules on AI data center energy and water use",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
         "url": "https://simonwillison.net/2026/Sep/21/jev/",
         "source": "Simon Willison",
@@ -501,17 +535,19 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "California tightens rules on AI data center energy and water use",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
-        "source": "The Verge",
-        "date": "2026-09-21 20:29",
+        "title": "Good News for Meta AI Boosts Chipmakers - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNnBBU0F6TmIxVklsa29fNmlFal9mRjJxQUZOV2Jsc0tyOG1rWHlMQk01NDlwWHFjUkxaUjZPN1FZMnc3WjlTTi1nYXo0NVFCX2ltWWFzTno1XzEzZmF2U3F1UHpQOHRHdmkzQnlrMEJ5T19FUW5qNURJWlpJOGJRUzY0OGJIZk5vRHVVQU4wa2VxR3RyWUpwODdQUUNBQkZHVlRwYTBhVUwzNzUwZlBsOEZB?oc=5",
+        "source": "Bloomberg.com",
+        "date": "2026-09-21 21:56",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
         "category": "인공지능",
-        "titleKo": "California tightens rules on AI data center energy and water use",
+        "titleKo": "Good News for Meta AI Boosts Chipmakers - Bloomberg.com",
         "type": "뉴스·분석",
-        "themes": [],
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -589,15 +625,15 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Google confirms Gemini models hacked three companies in May 2026",
-        "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-        "source": "Ars Technica",
-        "date": "2026-09-21 16:57",
+        "title": "Meta’s New Muse AI App Tops Charts, Draws Strong Reviews - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc0pWbDJJdHB2NjY5UHRWOU1OVU1BaHBMT00yUzctMkJiWThOWmtXVk1SM09EQjJ6U1VZRFNudmJuOFd5aTl4N0U5QkdwcHhELUV4NEhud0l1T1RuWTlxZTViS09ybGo5UVh1NVQ4VHlNUml6SkZsc01GM0taQUNETmltLTVwVFVIYnlxUk1IVHVEMzAxdnBNT0ptMlIteUk5WkxBNmxBd3ctVmhRWDE5WDhn?oc=5",
+        "source": "Bloomberg.com",
+        "date": "2026-09-21 17:44",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
         "category": "인공지능",
-        "titleKo": "구글, 2026년 5월 쌍둥이자리 모델 해킹 3사 확인",
+        "titleKo": "Meta’s New Muse AI App Tops Charts, Draws Strong Reviews - Bloomberg.com",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -607,63 +643,33 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "With Tabby, a former accountant is using AI to make accountants obsolete",
-        "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
-        "source": "TechCrunch",
-        "date": "2026-09-21 16:38",
+        "title": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50TVpFbHFkWkJyVkNRV1l3T0VTb3V4YmFhOWZsd19nNEYwV0ZsVURHeElOMG8zYVNRc0NEYUxMYkNua3ozeXBGTTdoRlY5amo1b3dIU3o3TkxUQ0VHRnZ1STYta0FkM3NxZ0dob2Npdw?oc=5",
+        "source": "OpenAI",
+        "date": "2026-09-21 17:32",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
         "category": "인공지능",
-        "titleKo": "Tabby를 사용하면 전 회계사가 AI를 사용하여 회계사를 쓸모 없게 만듭니다.",
+        "titleKo": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
         "type": "뉴스·분석",
-        "themes": [],
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
-        "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/",
+        "title": "Google confirms Gemini models hacked three companies in May 2026",
+        "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
         "source": "Ars Technica",
-        "date": "2026-09-21 15:37",
+        "date": "2026-09-21 16:57",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
         "category": "인공지능",
-        "titleKo": "트럼프는 AI 속도 저하 통화를 거부하고 대신 \"AI Force\" 를 시작합니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Commercial Space Federation (CSF) Welcomes Two New Members",
-        "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-members/",
-        "source": "SpaceNews",
-        "date": "2026-09-21 15:00",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "CSF (Commercial Space Federation) 가 두 명의 신규 회원을 맞이합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
-        "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
-        "source": "TechCrunch",
-        "date": "2026-09-21 14:39",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google의 $ 899 Googlebook은 Gemini용 새 노트북을 구입할 수 있는 베팅입니다.",
+        "titleKo": "구글, 2026년 5월 쌍둥이자리 모델 해킹 3사 확인",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -778,6 +784,40 @@
   },
   "news": [
     {
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+      "source": "TechCrunch",
+      "date": "2026-09-21 23:44",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "California tightens rules on AI data center energy and water use",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "source": "The Verge",
+      "date": "2026-09-21 23:09",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "California tightens rules on AI data center energy and water use",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
       "url": "https://simonwillison.net/2026/Sep/21/jev/",
       "source": "Simon Willison",
@@ -803,6 +843,24 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Good News for Meta AI Boosts Chipmakers - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNnBBU0F6TmIxVklsa29fNmlFal9mRjJxQUZOV2Jsc0tyOG1rWHlMQk01NDlwWHFjUkxaUjZPN1FZMnc3WjlTTi1nYXo0NVFCX2ltWWFzTno1XzEzZmF2U3F1UHpQOHRHdmkzQnlrMEJ5T19FUW5qNURJWlpJOGJRUzY0OGJIZk5vRHVVQU4wa2VxR3RyWUpwODdQUUNBQkZHVlRwYTBhVUwzNzUwZlBsOEZB?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-09-21 21:56",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Good News for Meta AI Boosts Chipmakers - Bloomberg.com",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -874,22 +932,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "California tightens rules on AI data center energy and water use",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
-      "source": "The Verge",
-      "date": "2026-09-21 20:29",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "California tightens rules on AI data center energy and water use",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
@@ -1021,6 +1063,42 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "Meta의 AI 에이전트가 Amazon.com을 사용할 수 없도록 차단되었습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Meta’s New Muse AI App Tops Charts, Draws Strong Reviews - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc0pWbDJJdHB2NjY5UHRWOU1OVU1BaHBMT00yUzctMkJiWThOWmtXVk1SM09EQjJ6U1VZRFNudmJuOFd5aTl4N0U5QkdwcHhELUV4NEhud0l1T1RuWTlxZTViS09ybGo5UVh1NVQ4VHlNUml6SkZsc01GM0taQUNETmltLTVwVFVIYnlxUk1IVHVEMzAxdnBNT0ptMlIteUk5WkxBNmxBd3ctVmhRWDE5WDhn?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-09-21 17:44",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Meta’s New Muse AI App Tops Charts, Draws Strong Reviews - Bloomberg.com",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50TVpFbHFkWkJyVkNRV1l3T0VTb3V4YmFhOWZsd19nNEYwV0ZsVURHeElOMG8zYVNRc0NEYUxMYkNua3ozeXBGTTdoRlY5amo1b3dIU3o3TkxUQ0VHRnZ1STYta0FkM3NxZ0dob2Npdw?oc=5",
+      "source": "OpenAI",
+      "date": "2026-09-21 17:32",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1422,15 +1500,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "For Ohio space nerds, the sky might be the limit - axios.com",
+      "title": "For Ohio space nerds, the sky might be the limit - Axios",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT1hxalVoc1drOGpjRkxVSk56bXVVTE1McnA0NDhIWXVaVXprQ25uVm41Y1NSU3EyaHBpVkJYbjRrUHBpa3BVOUlERTJTMWVUSVFPRmVna1FSTHowN3BwQ1Bqc2otZ3Y2ZTljRGF2aDNOQkFScEtCU1hQbzRFd3U5Z1ZJcFc?oc=5",
-      "source": "axios.com",
+      "source": "Axios",
       "date": "2026-09-21 10:25",
       "categoryId": "space",
       "confidence": "C",
       "stream": "news",
       "category": "우주·통신",
-      "titleKo": "오하이오 우주 괴짜들에게는 하늘이 한계일 수 있습니다 - axios.com",
+      "titleKo": "For Ohio space nerds, the sky might be the limit - Axios",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1688,22 +1766,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "World model companies are keeping a lot of secrets",
-      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
-      "source": "TechCrunch",
-      "date": "2026-09-20 20:29",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "세계 모델 회사들은 많은 비밀을 지키고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
       "source": "The Verge",
@@ -1786,15 +1848,15 @@
       "layerLabel": "주요 언론 확인"
     },
     {
-      "title": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow - theguardian.com",
+      "title": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yVXE5YTI5dDR5YjNpVHIzYnhMQ3huclFnajVuczZBaU40U2RqQkFXMFVOVXJJTWo5SzlVN0tQMkhvdm84bDJMa2lkc2NKbDlHWVFlX2c4VzFyVmFqdFdzbkdqMDNBSXE0N3ZHR3BKdVBzcG44emoxcA?oc=5",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "date": "2026-09-19 19:58",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "트럼프, 통제 불능 요원에 대한 두려움이 커짐에 따라 기술을 모니터링하는 ‘AI Force’ 창설 - theguardian.com",
+      "titleKo": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow - The Guardian",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -2072,62 +2134,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
-      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
-      "source": "Ars Technica",
-      "date": "2026-09-18 20:26",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "중국 핵 부품에 대한 AI 환각은 미군의 공격으로 이어질 뻔했다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Copilot code review: An improved review experience",
-      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-      "source": "GitHub Changelog",
-      "date": "2026-09-18 20:17",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "코파일럿 코드 검토: 개선된 리뷰 경험",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Spend Management expands to Enterprise Flexible Commitment plans",
-      "url": "https://vercel.com/changelog/spend-management-enterprise-flex",
-      "source": "Vercel Changelog",
-      "date": "2026-09-18 20:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "지출 관리, 엔터프라이즈 유연한 약속 계획으로 확장",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 9. 22. AM 8:22",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 9. 22. AM 8:54",
+    "mode": "하루 2회 전체 수집"
   }
 }
