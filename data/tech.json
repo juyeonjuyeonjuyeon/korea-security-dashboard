@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 22. PM 2:06",
+  "updatedAt": "2026. 9. 22. PM 7:03",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v3.17.0",
+  "headline": "사용 중단 알림: 모든 플랫폼 CodeQL 번들",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 56,
+    "recentCount": 58,
     "sourceCount": 26,
-    "officialCount": 25,
+    "officialCount": 28,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v3.17.0",
-    "창작 기술: 상담원이 더 높은 수준의 추상화로 더 나은 칩을 설계할 수 있나요?",
+    "새 출시: 사용 중단 알림: 모든 플랫폼 CodeQL 번들",
+    "창작 기술: 애플 최초의 라이브 음악 공연장이 영국 본사 아래 문을 엽니다.",
     "행사·무료: IAC, 라구나 세카 (Laguna Seca) 에서 자율주행 레이싱 이벤트 완료",
     "인물 발언: 엔비디아 보스는 2030년까지 AI가 세계를 파괴할 ‘0% 확률’ 이 있다고 말합니다 | AI (인공지능) - The Guardian"
   ],
@@ -22,14 +22,14 @@
       "code": "AI",
       "label": "인공지능",
       "count": 39,
-      "summary": "RBS-Attention: 긴 문맥의 대용량 언어 모델에 대한 반경 한정 스파스 프리필",
-      "latest": "2026-09-22 04:00",
+      "summary": "애플 최초의 라이브 음악 공연장이 영국 본사 아래 문을 엽니다.",
+      "latest": "2026-09-22 09:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T05:06:17.742Z",
+      "lastRefreshed": "2026-09-22T10:03:36.229Z",
       "themes": [
-        "미술·디자인",
         "주요 기업",
-        "음악·음성"
+        "음악·음성",
+        "미술·디자인"
       ]
     },
     {
@@ -40,7 +40,7 @@
       "summary": "NVIDIA, AI 공장을 위한 전력 및 냉각 제품 검증 준비 완료 DSX 출시",
       "latest": "2026-09-21 18:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T05:06:17.742Z",
+      "lastRefreshed": "2026-09-22T10:03:36.229Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "IAC, 라구나 세카 (Laguna Seca) 에서 자율주행 레이싱 이벤트 완료",
       "latest": "2026-09-21 18:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T05:06:17.742Z",
+      "lastRefreshed": "2026-09-22T10:03:36.229Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -64,10 +64,10 @@
       "code": "CYBER",
       "label": "사이버보안",
       "count": 5,
-      "summary": "⚡ 주간 요약: Cisco 0-Day, AI Agent RCE, ClickFix 공격, ClickFix Surge 및 브라우저 가로채기",
-      "latest": "2026-09-21 14:24",
+      "summary": "한 가지 숨겨진 메타 뮤즈 설정으로 공격자가 AI 어시스턴트를 백도어로 전환할 수 있습니다",
+      "latest": "2026-09-22 06:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T05:06:17.742Z",
+      "lastRefreshed": "2026-09-22T10:03:36.229Z",
       "themes": [
         "주요 기업"
       ]
@@ -80,7 +80,7 @@
       "summary": "Embracing the Equinox",
       "latest": "2026-09-21 21:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T05:06:17.742Z",
+      "lastRefreshed": "2026-09-22T10:03:36.229Z",
       "themes": [
         "음악·음성"
       ]
@@ -89,24 +89,22 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
+      "count": 2,
       "summary": "도널드 트럼프, 법정에서 패소, 태양 에너지 기금 복원 예정",
       "latest": "2026-09-22 00:48",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-22T05:06:17.742Z",
-      "themes": [
-        "미술·디자인"
-      ]
+      "lastRefreshed": "2026-09-22T10:03:36.229Z",
+      "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 14,
-      "summary": "v3.17.0",
-      "latest": "2026-09-22 02:36",
+      "count": 16,
+      "summary": "사용 중단 알림: 모든 플랫폼 CodeQL 번들",
+      "latest": "2026-09-22 09:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T05:06:17.742Z",
+      "lastRefreshed": "2026-09-22T10:03:36.229Z",
       "themes": [
         "주요 기업"
       ]
@@ -114,6 +112,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "Deprecation notice: All-platform CodeQL bundle",
+        "url": "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle",
+        "source": "GitHub Changelog",
+        "date": "2026-09-22 09:21",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "사용 중단 알림: 모든 플랫폼 CodeQL 번들",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v16.4.0-canary.38",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.38",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-22 08:53",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.38",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v3.17.0",
         "url": "https://github.com/openai/openai-python/releases/tag/v3.17.0",
@@ -142,6 +172,22 @@
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "일반적으로 사용 가능한 새로 고침된 저장소 끌어오기 요청 페이지",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+        "url": "https://huggingface.co/blog/omlx",
+        "source": "Hugging Face Blog",
+        "date": "2026-09-22 00:00",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "MLX 제작자 겸 운영자인 Jun Kim이 MLX 커뮤니티를 지원하기 위해 Hugging Face에 합류했습니다.",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -261,61 +307,28 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA Astronaut Reid Wiseman Attends Ravens vs. Saints Game",
-        "url": "https://www.nasa.gov/image-article/nasa-astronaut-reid-wiseman-attends-ravens-vs-saints-game/",
-        "source": "NASA",
-        "date": "2026-09-21 18:43",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "레이븐스 vs. 세인츠 게임에 참석한 NASA 우주비행사 리드 와이즈먼",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
-        "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-        "source": "NVIDIA Blog",
-        "date": "2026-09-21 18:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "NVIDIA, AI 공장을 위한 전력 및 냉각 제품 검증 준비 완료 DSX 출시",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Vercel Connect now supports Microsoft Teams",
-        "url": "https://vercel.com/changelog/vercel-connect-microsoft-teams",
-        "source": "Vercel Changelog",
-        "date": "2026-09-21 17:10",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 Vercel Connect가 Microsoft Teams를 지원합니다",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "Apple’s first live music venue is opening beneath its UK headquarters",
+        "url": "https://www.theverge.com/tech/998581/apple-music-hall-london-venue-battersea",
+        "source": "The Verge",
+        "date": "2026-09-22 09:56",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "애플 최초의 라이브 음악 공연장이 영국 본사 아래 문을 엽니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
         "url": "https://arxiv.org/abs/2609.21157",
@@ -333,24 +346,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "HERMES radio enables voice and data communication over vast distances",
-        "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
-        "source": "Hacker News",
-        "date": "2026-09-21 16:14",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "HERMES radio enables voice and data communication over vast distances",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "The M5 Ultra Mac Studio tears through our benchmark tests",
@@ -383,24 +378,6 @@
         "type": "뉴스·분석",
         "themes": [
           "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Design the Future of Campus Energy in the Energy District Cup",
-        "url": "https://cleantechnica.com/2026/09/18/design-the-future-of-campus-energy-in-the-energy-district-cup/",
-        "source": "CleanTechnica",
-        "date": "2026-09-19 00:22",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "에너지 지구 컵에서 캠퍼스 에너지의 미래를 디자인하세요",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -445,27 +422,46 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
+      }
+    ],
+    "analysis": [
       {
-        "title": "Anthropic tops $100 billion revenue pace, report says - Axios",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5",
-        "source": "Axios",
-        "date": "2026-09-19 05:51",
+        "title": "Apple’s first live music venue is opening beneath its UK headquarters",
+        "url": "https://www.theverge.com/tech/998581/apple-music-hall-london-venue-battersea",
+        "source": "The Verge",
+        "date": "2026-09-22 09:56",
         "categoryId": "ai",
         "confidence": "C",
-        "stream": "people",
+        "stream": "news",
         "category": "인공지능",
-        "titleKo": "보고서에 따르면 Anthropic은 $ 1,000억의 매출을 올렸습니다. - Axios",
-        "type": "인물 발언",
+        "titleKo": "애플 최초의 라이브 음악 공연장이 영국 본사 아래 문을 엽니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+        "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+        "source": "The Hacker News",
+        "date": "2026-09-22 06:33",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "한 가지 숨겨진 메타 뮤즈 설정으로 공격자가 AI 어시스턴트를 백도어로 전환할 수 있습니다",
+        "type": "뉴스·분석",
         "themes": [
           "주요 기업"
         ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "analysis": [
+      },
       {
         "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
         "url": "https://arxiv.org/abs/2609.20971",
@@ -629,45 +625,41 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-        "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-        "source": "Ars Technica",
-        "date": "2026-09-21 22:24",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Good News for Meta AI Boosts Chipmakers - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNnBBU0F6TmIxVklsa29fNmlFal9mRjJxQUZOV2Jsc0tyOG1rWHlMQk01NDlwWHFjUkxaUjZPN1FZMnc3WjlTTi1nYXo0NVFCX2ltWWFzTno1XzEzZmF2U3F1UHpQOHRHdmkzQnlrMEJ5T19FUW5qNURJWlpJOGJRUzY0OGJIZk5vRHVVQU4wa2VxR3RyWUpwODdQUUNBQkZHVlRwYTBhVUwzNzUwZlBsOEZB?oc=5",
-        "source": "Bloomberg.com",
-        "date": "2026-09-21 21:56",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Good News for Meta AI Boosts Chipmakers - Bloomberg.com",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Can gzip be a language model?",
+        "url": "https://nathan.rs/posts/gzip-lm/",
+        "source": "Hacker News",
+        "date": "2026-09-22 06:08",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Gzip이 언어 모델이 될 수 있나요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Claude Status – Elevated errors for multiple models",
+        "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+        "source": "Hacker News",
+        "date": "2026-09-22 01:05",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Claude 상태 – 여러 모델에 대한 오류 상승",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
         "url": "https://linear.app/now/ci-bottleneck-reworked",
@@ -735,44 +727,95 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "HERMES radio enables voice and data communication over vast distances",
-        "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
-        "source": "Hacker News",
-        "date": "2026-09-21 16:14",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "HERMES radio enables voice and data communication over vast distances",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
-        "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-        "source": "Hacker News",
-        "date": "2026-09-21 14:10",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "macOS 27: AI 모델을 다운로드하지 않고 저장 공간을 절약하기 위한 해결 방법",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Apple’s first live music venue is opening beneath its UK headquarters",
+      "url": "https://www.theverge.com/tech/998581/apple-music-hall-london-venue-battersea",
+      "source": "The Verge",
+      "date": "2026-09-22 09:56",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "애플 최초의 라이브 음악 공연장이 영국 본사 아래 문을 엽니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업",
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Deprecation notice: All-platform CodeQL bundle",
+      "url": "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle",
+      "source": "GitHub Changelog",
+      "date": "2026-09-22 09:21",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "사용 중단 알림: 모든 플랫폼 CodeQL 번들",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "v16.4.0-canary.38",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.38",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-22 08:53",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.38",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "source": "The Hacker News",
+      "date": "2026-09-22 06:33",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "한 가지 숨겨진 메타 뮤즈 설정으로 공격자가 AI 어시스턴트를 백도어로 전환할 수 있습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Can gzip be a language model?",
+      "url": "https://nathan.rs/posts/gzip-lm/",
+      "source": "Hacker News",
+      "date": "2026-09-22 06:08",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Gzip이 언어 모델이 될 수 있나요?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
       "url": "https://arxiv.org/abs/2609.20971",
@@ -906,6 +949,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Claude Status – Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "source": "Hacker News",
+      "date": "2026-09-22 01:05",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Claude 상태 – 여러 모델에 대한 오류 상승",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Donald Trump Loses in Court, Solar Energy Funds to be Reinstated",
       "url": "https://cleantechnica.com/2026/09/21/donald-trump-loses-in-court-solar-energy-funds-to-be-reinstated/",
       "source": "CleanTechnica",
@@ -920,6 +979,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "source": "Hugging Face Blog",
+      "date": "2026-09-22 00:00",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "MLX 제작자 겸 운영자인 Jun Kim이 MLX 커뮤니티를 지원하기 위해 Hugging Face에 합류했습니다.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
@@ -1366,24 +1441,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "HERMES radio enables voice and data communication over vast distances",
-      "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
-      "source": "Hacker News",
-      "date": "2026-09-21 16:14",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "HERMES radio enables voice and data communication over vast distances",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
       "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
       "source": "NVIDIA Blog",
@@ -1534,22 +1591,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
-      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-      "source": "Hacker News",
-      "date": "2026-09-21 14:10",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "macOS 27: AI 모델을 다운로드하지 않고 저장 공간을 절약하기 위한 해결 방법",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
@@ -1824,24 +1865,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
-      "source": "The Verge",
-      "date": "2026-09-20 18:50",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "엔비디아의 젠슨 황 (Jensen Huang) 이 인공지능에 대한 두려움이 지나치게 커졌다고 생각한다는 사실에 아무도 놀라지 않습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Ziroth is Wrong: Donut Lab’s Battery Is Not NMC",
       "url": "https://cleantechnica.com/2026/09/20/ziroth-is-wrong-donut-labs-battery-is-not-nmc/",
       "source": "CleanTechnica",
@@ -2054,74 +2077,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-      "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-      "source": "The Hacker News",
-      "date": "2026-09-19 07:14",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic tops $100 billion revenue pace, report says - Axios",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5",
-      "source": "Axios",
-      "date": "2026-09-19 05:51",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "보고서에 따르면 Anthropic은 $ 1,000억의 매출을 올렸습니다. - Axios",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Where Marine Energy Meets Hybrid Power Systems, This Laboratory De-Risks Integration",
-      "url": "https://cleantechnica.com/2026/09/18/where-marine-energy-meets-hybrid-power-systems-this-laboratory-de-risks-integration/",
-      "source": "CleanTechnica",
-      "date": "2026-09-19 00:36",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "해양 에너지가 하이브리드 전력 시스템을 만나는 곳, 이 실험실은 통합의 위험을 제거합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Design the Future of Campus Energy in the Energy District Cup",
-      "url": "https://cleantechnica.com/2026/09/18/design-the-future-of-campus-energy-in-the-energy-district-cup/",
-      "source": "CleanTechnica",
-      "date": "2026-09-19 00:22",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "에너지 지구 컵에서 캠퍼스 에너지의 미래를 디자인하세요",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2129,7 +2084,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 9. 22. PM 2:06",
+    "checkedAt": "2026. 9. 22. PM 7:03",
     "mode": "매시간 공식 레이더"
   }
 }
