@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 22. AM 8:54",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+  "updatedAt": "2026. 9. 22. PM 2:06",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v3.17.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 57,
+    "recentCount": 56,
     "sourceCount": 26,
-    "officialCount": 24,
+    "officialCount": 25,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: Jev introduces a new shape of LLM - System One, aka Decision Models",
-    "창작 기술: M5 울트라 맥 스튜디오 리뷰",
+    "새 출시: v3.17.0",
+    "창작 기술: 상담원이 더 높은 수준의 추상화로 더 나은 칩을 설계할 수 있나요?",
     "행사·무료: IAC, 라구나 세카 (Laguna Seca) 에서 자율주행 레이싱 이벤트 완료",
     "인물 발언: 엔비디아 보스는 2030년까지 AI가 세계를 파괴할 ‘0% 확률’ 이 있다고 말합니다 | AI (인공지능) - The Guardian"
   ],
@@ -22,25 +22,25 @@
       "code": "AI",
       "label": "인공지능",
       "count": 39,
-      "summary": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
-      "latest": "2026-09-21 23:44",
+      "summary": "RBS-Attention: 긴 문맥의 대용량 언어 모델에 대한 반경 한정 스파스 프리필",
+      "latest": "2026-09-22 04:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:54:44.426Z",
+      "lastRefreshed": "2026-09-22T05:06:17.742Z",
       "themes": [
+        "미술·디자인",
         "주요 기업",
-        "음악·음성",
-        "미술·디자인"
+        "음악·음성"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 6,
+      "count": 5,
       "summary": "NVIDIA, AI 공장을 위한 전력 및 냉각 제품 검증 준비 완료 DSX 출시",
       "latest": "2026-09-21 18:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:54:44.426Z",
+      "lastRefreshed": "2026-09-22T05:06:17.742Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "IAC, 라구나 세카 (Laguna Seca) 에서 자율주행 레이싱 이벤트 완료",
       "latest": "2026-09-21 18:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:54:44.426Z",
+      "lastRefreshed": "2026-09-22T05:06:17.742Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -67,7 +67,7 @@
       "summary": "⚡ 주간 요약: Cisco 0-Day, AI Agent RCE, ClickFix 공격, ClickFix Surge 및 브라우저 가로채기",
       "latest": "2026-09-21 14:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:54:44.426Z",
+      "lastRefreshed": "2026-09-22T05:06:17.742Z",
       "themes": [
         "주요 기업"
       ]
@@ -80,7 +80,7 @@
       "summary": "Embracing the Equinox",
       "latest": "2026-09-21 21:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:54:44.426Z",
+      "lastRefreshed": "2026-09-22T05:06:17.742Z",
       "themes": [
         "음악·음성"
       ]
@@ -89,11 +89,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 3,
-      "summary": "Ziroth가 잘못되었습니다: Donut Lab의 배터리가 NMC가 아닙니다.",
-      "latest": "2026-09-20 14:41",
+      "count": 4,
+      "summary": "도널드 트럼프, 법정에서 패소, 태양 에너지 기금 복원 예정",
+      "latest": "2026-09-22 00:48",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-21T23:54:44.426Z",
+      "lastRefreshed": "2026-09-22T05:06:17.742Z",
       "themes": [
         "미술·디자인"
       ]
@@ -103,10 +103,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 14,
-      "summary": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "latest": "2026-09-21 23:09",
+      "summary": "v3.17.0",
+      "latest": "2026-09-22 02:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-21T23:54:44.426Z",
+      "lastRefreshed": "2026-09-22T05:06:17.742Z",
       "themes": [
         "주요 기업"
       ]
@@ -114,6 +114,40 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.17.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.17.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-09-22 02:36",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.17.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Refreshed repository pull requests page generally available",
+        "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
+        "source": "GitHub Changelog",
+        "date": "2026-09-22 01:25",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "일반적으로 사용 가능한 새로 고침된 저장소 끌어오기 요청 페이지",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
         "url": "https://simonwillison.net/2026/Sep/21/jev/",
@@ -279,53 +313,37 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA Discovery Reveals Complex Water Systems on Early Mars",
-        "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
-        "source": "NASA",
-        "date": "2026-09-21 16:54",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA 디스커버리, 화성 초기에 복잡한 수계 발견",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-        "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-        "source": "NVIDIA Blog",
-        "date": "2026-09-21 16:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "대규모로 물리적 AI를 배포하는 것이 모든 계층에서 안전을 요구하는 이유",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
       {
-        "title": "M5 Ultra Mac Studio Review",
-        "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+        "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+        "url": "https://arxiv.org/abs/2609.21157",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-22 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "상담원이 더 높은 수준의 추상화로 더 나은 칩을 설계할 수 있나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "HERMES radio enables voice and data communication over vast distances",
+        "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
         "source": "Hacker News",
-        "date": "2026-09-21 13:53",
+        "date": "2026-09-21 16:14",
         "categoryId": "ai",
         "confidence": "D",
         "stream": "community",
         "category": "인공지능",
-        "titleKo": "M5 울트라 맥 스튜디오 리뷰",
+        "titleKo": "HERMES radio enables voice and data communication over vast distances",
         "type": "뉴스·분석",
         "themes": [
           "음악·음성"
@@ -347,24 +365,6 @@
         "type": "뉴스·분석",
         "themes": [
           "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
-        "url": "https://arxiv.org/abs/2609.21157",
-        "source": "arXiv cs.AI",
-        "date": "2026-09-21 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "상담원이 더 높은 수준의 추상화로 더 나은 칩을 설계할 수 있나요?",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -467,6 +467,120 @@
     ],
     "analysis": [
       {
+        "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+        "url": "https://arxiv.org/abs/2609.20971",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-22 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "RBS-Attention: 긴 문맥의 대용량 언어 모델에 대한 반경 한정 스파스 프리필",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+        "url": "https://arxiv.org/abs/2609.21113",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-22 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "미세 조정된 대형 언어 모델의 내부 표현 변경 및 인과적 중요성 분리",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+        "url": "https://arxiv.org/abs/2609.21149",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-22 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "AI 지원 정신과적 섭취를 위한 임상의 기반 품질 보증",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+        "url": "https://arxiv.org/abs/2609.21157",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-22 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "상담원이 더 높은 수준의 추상화로 더 나은 칩을 설계할 수 있나요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
+        "url": "https://arxiv.org/abs/2609.21165",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-22 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "SpecOpt: 결합 특이성을 향한 에이전트 분자 최적화에 대한 Contact-Diff 추론",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives and Obligations to Deployment Capabilities and Architecture",
+        "url": "https://arxiv.org/abs/2609.21192",
+        "source": "arXiv cs.AI",
+        "date": "2026-09-22 04:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "AI-GRACE: 에이전트 AI를 위한 사용 사례 운영 프레임워크: 조직 목표 및 의무에서 배포 기능 및 아키텍처에 이르기까지",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Donald Trump Loses in Court, Solar Energy Funds to be Reinstated",
+        "url": "https://cleantechnica.com/2026/09/21/donald-trump-loses-in-court-solar-energy-funds-to-be-reinstated/",
+        "source": "CleanTechnica",
+        "date": "2026-09-22 00:48",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "도널드 트럼프, 법정에서 패소, 태양 에너지 기금 복원 예정",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
         "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
         "source": "TechCrunch",
@@ -551,132 +665,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-        "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-        "source": "TechCrunch",
-        "date": "2026-09-21 20:15",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
-        "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-        "source": "TechCrunch",
-        "date": "2026-09-21 19:19",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "메타의 뮤즈가 ChatGPT의 초기 모바일 출시를 앞지르고 있습니다",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "IAC completes autonomous racing event at Laguna Seca",
-        "url": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
-        "source": "The Robot Report",
-        "date": "2026-09-21 18:02",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "IAC, 라구나 세카 (Laguna Seca) 에서 자율주행 레이싱 이벤트 완료",
-        "type": "행사",
-        "themes": [
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta’s AI agent has been blocked from using Amazon.com",
-        "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-        "source": "TechCrunch",
-        "date": "2026-09-21 17:55",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta의 AI 에이전트가 Amazon.com을 사용할 수 없도록 차단되었습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta’s New Muse AI App Tops Charts, Draws Strong Reviews - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc0pWbDJJdHB2NjY5UHRWOU1OVU1BaHBMT00yUzctMkJiWThOWmtXVk1SM09EQjJ6U1VZRFNudmJuOFd5aTl4N0U5QkdwcHhELUV4NEhud0l1T1RuWTlxZTViS09ybGo5UVh1NVQ4VHlNUml6SkZsc01GM0taQUNETmltLTVwVFVIYnlxUk1IVHVEMzAxdnBNT0ptMlIteUk5WkxBNmxBd3ctVmhRWDE5WDhn?oc=5",
-        "source": "Bloomberg.com",
-        "date": "2026-09-21 17:44",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta’s New Muse AI App Tops Charts, Draws Strong Reviews - Bloomberg.com",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50TVpFbHFkWkJyVkNRV1l3T0VTb3V4YmFhOWZsd19nNEYwV0ZsVURHeElOMG8zYVNRc0NEYUxMYkNua3ozeXBGTTdoRlY5amo1b3dIU3o3TkxUQ0VHRnZ1STYta0FkM3NxZ0dob2Npdw?oc=5",
-        "source": "OpenAI",
-        "date": "2026-09-21 17:32",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google confirms Gemini models hacked three companies in May 2026",
-        "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-        "source": "Ars Technica",
-        "date": "2026-09-21 16:57",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "구글, 2026년 5월 쌍둥이자리 모델 해킹 3사 확인",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -690,6 +678,40 @@
         "stream": "community",
         "category": "인공지능",
         "titleKo": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "The Advisory Group on Mathematics and Artificial Intelligence",
+        "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
+        "source": "Hacker News",
+        "date": "2026-09-21 19:17",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "The Advisory Group on Mathematics and Artificial Intelligence",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Frontier AI on Your Own Hardware",
+        "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+        "source": "Hacker News",
+        "date": "2026-09-21 18:53",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "나만의 하드웨어로 즐기는 프론티어 AI",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -715,6 +737,24 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "HERMES radio enables voice and data communication over vast distances",
+        "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+        "source": "Hacker News",
+        "date": "2026-09-21 16:14",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "HERMES radio enables voice and data communication over vast distances",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
         "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
         "source": "Hacker News",
@@ -729,60 +769,158 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "M5 Ultra Mac Studio Review",
-        "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
-        "source": "Hacker News",
-        "date": "2026-09-21 13:53",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "M5 울트라 맥 스튜디오 리뷰",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Raspberry Pi blocks changing RAM chips",
-        "url": "https://forums.raspberrypi.com/viewtopic.php?p=2380887#p2380888",
-        "source": "Hacker News",
-        "date": "2026-09-21 12:54",
-        "categoryId": "chips",
-        "confidence": "D",
-        "stream": "community",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Raspberry Pi는 RAM 칩을 변경하는 것을 차단합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Don't Use AI to Write",
-        "url": "https://paulbakker.io/writing/no-ai-for-writing/",
-        "source": "Hacker News",
-        "date": "2026-09-21 08:54",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI를 사용하여 글을 쓰지 마세요.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-22 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "RBS-Attention: 긴 문맥의 대용량 언어 모델에 대한 반경 한정 스파스 프리필",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "url": "https://arxiv.org/abs/2609.21113",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-22 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "미세 조정된 대형 언어 모델의 내부 표현 변경 및 인과적 중요성 분리",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+      "url": "https://arxiv.org/abs/2609.21149",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-22 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "AI 지원 정신과적 섭취를 위한 임상의 기반 품질 보증",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+      "url": "https://arxiv.org/abs/2609.21157",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-22 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "상담원이 더 높은 수준의 추상화로 더 나은 칩을 설계할 수 있나요?",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
+      "url": "https://arxiv.org/abs/2609.21165",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-22 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "SpecOpt: 결합 특이성을 향한 에이전트 분자 최적화에 대한 Contact-Diff 추론",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives and Obligations to Deployment Capabilities and Architecture",
+      "url": "https://arxiv.org/abs/2609.21192",
+      "source": "arXiv cs.AI",
+      "date": "2026-09-22 04:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "AI-GRACE: 에이전트 AI를 위한 사용 사례 운영 프레임워크: 조직 목표 및 의무에서 배포 기능 및 아키텍처에 이르기까지",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v3.17.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.17.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-09-22 02:36",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.17.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Refreshed repository pull requests page generally available",
+      "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
+      "source": "GitHub Changelog",
+      "date": "2026-09-22 01:25",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "일반적으로 사용 가능한 새로 고침된 저장소 끌어오기 요청 페이지",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Donald Trump Loses in Court, Solar Energy Funds to be Reinstated",
+      "url": "https://cleantechnica.com/2026/09/21/donald-trump-loses-in-court-solar-energy-funds-to-be-reinstated/",
+      "source": "CleanTechnica",
+      "date": "2026-09-22 00:48",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "도널드 트럼프, 법정에서 패소, 태양 에너지 기금 복원 예정",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
       "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
@@ -1002,6 +1140,40 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "The Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
+      "source": "Hacker News",
+      "date": "2026-09-21 19:17",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "The Advisory Group on Mathematics and Artificial Intelligence",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Frontier AI on Your Own Hardware",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+      "source": "Hacker News",
+      "date": "2026-09-21 18:53",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "나만의 하드웨어로 즐기는 프론티어 AI",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "NASA Astronaut Reid Wiseman Attends Ravens vs. Saints Game",
       "url": "https://www.nasa.gov/image-article/nasa-astronaut-reid-wiseman-attends-ravens-vs-saints-game/",
       "source": "NASA",
@@ -1194,6 +1366,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "HERMES radio enables voice and data communication over vast distances",
+      "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+      "source": "Hacker News",
+      "date": "2026-09-21 16:14",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "HERMES radio enables voice and data communication over vast distances",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
       "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
       "source": "NVIDIA Blog",
@@ -1380,24 +1570,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "M5 Ultra Mac Studio Review",
-      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
-      "source": "Hacker News",
-      "date": "2026-09-21 13:53",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "M5 울트라 맥 스튜디오 리뷰",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
       "source": "Hugging Face Blog",
@@ -1466,22 +1638,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Raspberry Pi blocks changing RAM chips",
-      "url": "https://forums.raspberrypi.com/viewtopic.php?p=2380887#p2380888",
-      "source": "Hacker News",
-      "date": "2026-09-21 12:54",
-      "categoryId": "chips",
-      "confidence": "D",
-      "stream": "community",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Raspberry Pi는 RAM 칩을 변경하는 것을 차단합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Apple’s clever software solution lets iPhone batteries skirt shipping limits",
       "url": "https://www.theverge.com/tech/998144/apple-iphone-18-pro-max-battery-firmware-limit",
       "source": "The Verge",
@@ -1532,22 +1688,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Don't Use AI to Write",
-      "url": "https://paulbakker.io/writing/no-ai-for-writing/",
-      "source": "Hacker News",
-      "date": "2026-09-21 08:54",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI를 사용하여 글을 쓰지 마세요.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v0.37.0",
@@ -1602,104 +1742,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "url": "https://arxiv.org/abs/2609.20971",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-21 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "RBS-Attention: 긴 문맥의 대용량 언어 모델에 대한 반경 한정 스파스 프리필",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
-      "url": "https://arxiv.org/abs/2609.21113",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-21 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "미세 조정된 대형 언어 모델의 내부 표현 변경 및 인과적 중요성 분리",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
-      "url": "https://arxiv.org/abs/2609.21149",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-21 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "AI 지원 정신과적 섭취를 위한 임상의 기반 품질 보증",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
-      "url": "https://arxiv.org/abs/2609.21157",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-21 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "상담원이 더 높은 수준의 추상화로 더 나은 칩을 설계할 수 있나요?",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
-      "url": "https://arxiv.org/abs/2609.21165",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-21 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "SpecOpt: 결합 특이성을 향한 에이전트 분자 최적화에 대한 Contact-Diff 추론",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives and Obligations to Deployment Capabilities and Architecture",
-      "url": "https://arxiv.org/abs/2609.21192",
-      "source": "arXiv cs.AI",
-      "date": "2026-09-21 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "AI-GRACE: 에이전트 AI를 위한 사용 사례 운영 프레임워크: 조직 목표 및 의무에서 배포 기능 및 아키텍처에 이르기까지",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "tokenizers v1: encode, decode and scaling, measured",
       "url": "https://huggingface.co/blog/tokenizers-v1",
       "source": "Hugging Face Blog",
@@ -1709,6 +1751,22 @@
       "stream": "release",
       "category": "인공지능",
       "titleKo": "tokenizers v1: 인코딩, 디코딩 및 스케일링, 측정",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "MiMo V2.6 models now available on AI Gateway",
+      "url": "https://vercel.com/changelog/mimo-v2-6-models-now-available-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-09-21 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "MiMo V2.6 models now available on AI Gateway",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -2064,84 +2122,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhNb1VBaVJWRXQwZGlnTGk1N1B2UjFyNkltbzJUOGhxZThUdXhNN1BWSGxwNkRsMWVmTjFqSlZ6eFpLY3dkZ0VVVHdIN2NTTFNURVBPd3JZM0lQS1FVQUJ3UUJ0c3RmZXNwamkzV1pkXzduU1pVSFN6bjdON1JoQlFRMzJlNFdKTndsS2tJdzhxVG12cTBfbGREUjkwQTdIdDlhYzE3czdEMU5xMHc?oc=5",
-      "source": "Reuters",
-      "date": "2026-09-19 00:05",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "독점: Anthropic은 IPO에 앞서 새로운 AI 모델을 출시하는 것을 고려하고 있다고 소식통은 말합니다. - Reuters",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-      "source": "Simon Willison",
-      "date": "2026-09-18 23:57",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "소프트웨어·개발",
-      "titleKo": "Gemini가 Google의 AI에 의해 처음으로 알려진 브레이크 아웃에서 세 회사를 해킹했습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v16.4.0-canary.36",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.36",
-      "source": "GitHub · Next.js",
-      "date": "2026-09-18 23:47",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.0-canary.36",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v3.16.2",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.16.2",
-      "source": "GitHub · OpenAI Python",
-      "date": "2026-09-18 21:26",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v3.16.2",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 9. 22. AM 8:54",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 22. PM 2:06",
+    "mode": "매시간 공식 레이더"
   }
 }
