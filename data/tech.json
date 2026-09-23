@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 23. AM 8:31",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v16.4.0-canary.39",
+  "updatedAt": "2026. 9. 23. AM 9:42",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v3.19.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 73,
-    "sourceCount": 25,
+    "recentCount": 70,
+    "sourceCount": 24,
     "officialCount": 30,
-    "opportunityCount": 2
+    "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v16.4.0-canary.39",
+    "새 출시: v3.19.0",
     "창작 기술: Adobe Premiere는 마침내 Android에 강력한 비디오 편집 기능을 제공하며 무료입니다.",
     "행사·무료: Drives for Vercel Sandbox are now in public beta"
   ],
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 38,
-      "summary": "TechCrunch 창립자 서밋 일정 공개: 11월 4일 보스턴에서 기금 모금, 채용, AI 통찰력 발휘",
-      "latest": "2026-09-22 23:21",
+      "count": 37,
+      "summary": "OpenAI는 다시 펌블링하지 않는 방법에 대해 엘리트 수학자와 상담하고자 합니다.",
+      "latest": "2026-09-23 00:18",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T23:31:31.550Z",
+      "lastRefreshed": "2026-09-23T00:42:41.126Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -39,7 +39,7 @@
       "summary": "모토로라의 야생처럼 보이는 Signature 27은 Qualcomm의 새로운 Extreme 칩셋을 실행합니다.",
       "latest": "2026-09-22 16:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T23:31:31.550Z",
+      "lastRefreshed": "2026-09-23T00:42:41.126Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,14 +48,13 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 6,
       "summary": "RoboBusiness에서 물리적 AI를 확장하는 데 필요한 인프라를 논의하기 위한 인텔",
       "latest": "2026-09-22 21:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T23:31:31.550Z",
+      "lastRefreshed": "2026-09-23T00:42:41.126Z",
       "themes": [
-        "주요 기업",
-        "기회"
+        "주요 기업"
       ]
     },
     {
@@ -66,7 +65,7 @@
       "summary": "사우디아라비아의 새로운 Exobot EV는 Cybertruck을 정상적으로 보이게 합니다.",
       "latest": "2026-09-22 20:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T23:31:31.550Z",
+      "lastRefreshed": "2026-09-23T00:42:41.126Z",
       "themes": [
         "주요 기업"
       ]
@@ -79,7 +78,7 @@
       "summary": "우주비행 중 감압성 질환 및 정맥 혈전색전증의 위험 및 타원형 암시 특허",
       "latest": "2026-09-22 19:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T23:31:31.550Z",
+      "lastRefreshed": "2026-09-23T00:42:41.126Z",
       "themes": []
     },
     {
@@ -90,21 +89,20 @@
       "summary": "도널드 트럼프, 법정에서 패소, 태양 에너지 기금 복원 예정",
       "latest": "2026-09-22 00:48",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-22T23:31:31.550Z",
+      "lastRefreshed": "2026-09-23T00:42:41.126Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
-      "summary": "v16.4.0-canary.39",
-      "latest": "2026-09-22 23:22",
+      "count": 23,
+      "summary": "v3.19.0",
+      "latest": "2026-09-23 00:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-22T23:31:31.550Z",
+      "lastRefreshed": "2026-09-23T00:42:41.126Z",
       "themes": [
         "주요 기업",
-        "음악·음성",
         "기회"
       ]
     }
@@ -112,10 +110,28 @@
   "radar": {
     "releases": [
       {
+        "title": "v3.19.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.19.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-09-23 00:08",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.19.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v16.4.0-canary.39",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.39",
         "source": "GitHub · Next.js",
-        "date": "2026-09-22 23:22",
+        "date": "2026-09-22 23:51",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -294,22 +310,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Claude Opus 5.5 is now available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
-        "source": "GitHub Changelog",
-        "date": "2026-09-22 17:10",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Claude Opus 5.5는 이제 GitHub Copilot에서 사용할 수 있습니다",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -352,24 +352,6 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "Xbox is merging its Forza developers into a single studio",
-        "url": "https://www.theverge.com/news/998592/xbox-is-merging-its-forza-developers-into-a-single-studio",
-        "source": "The Verge",
-        "date": "2026-09-22 15:47",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "Xbox는 Forza 개발자를 단일 스튜디오로 통합하고 있습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
         "url": "https://arxiv.org/abs/2609.21157",
         "source": "arXiv cs.AI",
@@ -406,28 +388,44 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "IAC completes autonomous racing event at Laguna Seca",
-        "url": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
-        "source": "The Robot Report",
-        "date": "2026-09-21 18:02",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "IAC, 라구나 세카 (Laguna Seca) 에서 자율주행 레이싱 이벤트 완료",
-        "type": "행사",
-        "themes": [
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+        "source": "The Verge",
+        "date": "2026-09-23 00:18",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI는 다시 펌블링하지 않는 방법에 대해 엘리트 수학자와 상담하고자 합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+        "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+        "source": "Simon Willison",
+        "date": "2026-09-22 23:46",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna 및 새로운 가격 전쟁",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
         "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
@@ -599,40 +597,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
-        "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
-        "source": "TechCrunch",
-        "date": "2026-09-22 18:40",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "해킹 그룹 샤이니헌터스 (ShinyHunters) 는 FBI, 훔친 요원 및 지원자의 데이터를 위반했다고 주장합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
-        "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-        "source": "TechCrunch",
-        "date": "2026-09-22 18:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI, GPT-6 Sol 및 Luna 출시, 저렴한 비용과 적은 실수 자랑",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -721,15 +685,15 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "OpenAI is well positioned to fast-follow Jev",
-        "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+        "title": "16-bit Intel 8088 chip (c. 1985)",
+        "url": "https://allpoetry.com/16-bit-Intel-8088-chip",
         "source": "Hacker News",
-        "date": "2026-09-22 14:42",
-        "categoryId": "ai",
+        "date": "2026-09-22 16:11",
+        "categoryId": "chips",
         "confidence": "D",
         "stream": "community",
-        "category": "인공지능",
-        "titleKo": "OpenAI는 JEV를 빠르게 따라갈 수 있는 위치에 있습니다.",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "16비트 인텔 8088 칩 (c. 1985)",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -742,10 +706,46 @@
   },
   "news": [
     {
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "source": "The Verge",
+      "date": "2026-09-23 00:18",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 다시 펌블링하지 않는 방법에 대해 엘리트 수학자와 상담하고자 합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v3.19.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.19.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-09-23 00:08",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.19.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v16.4.0-canary.39",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.39",
       "source": "GitHub · Next.js",
-      "date": "2026-09-22 23:22",
+      "date": "2026-09-22 23:51",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -756,6 +756,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "source": "Simon Willison",
+      "date": "2026-09-22 23:46",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna 및 새로운 가격 전쟁",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
@@ -1252,6 +1268,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "source": "Simon Willison",
+      "date": "2026-09-22 17:14",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "llm-anthropic 0.29",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Claude Opus 5.5 is now available in GitHub Copilot",
       "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
       "source": "GitHub Changelog",
@@ -1404,22 +1438,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Xbox is merging its Forza developers into a single studio",
-      "url": "https://www.theverge.com/news/998592/xbox-is-merging-its-forza-developers-into-a-single-studio",
-      "source": "The Verge",
-      "date": "2026-09-22 15:47",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "Xbox는 Forza 개발자를 단일 스튜디오로 통합하고 있습니다",
+      "title": "16-bit Intel 8088 chip (c. 1985)",
+      "url": "https://allpoetry.com/16-bit-Intel-8088-chip",
+      "source": "Hacker News",
+      "date": "2026-09-22 16:11",
+      "categoryId": "chips",
+      "confidence": "D",
+      "stream": "community",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "16비트 인텔 8088 칩 (c. 1985)",
       "type": "뉴스·분석",
       "themes": [
-        "음악·음성"
+        "주요 기업"
       ],
       "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NASA’s Chandra Finds Unusual Objects in Pinwheel Galaxy",
@@ -1436,24 +1470,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "OpenAI is well positioned to fast-follow Jev",
-      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-      "source": "Hacker News",
-      "date": "2026-09-22 14:42",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "OpenAI는 JEV를 빠르게 따라갈 수 있는 위치에 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Security improvements for SSH",
@@ -2030,68 +2046,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "IAC completes autonomous racing event at Laguna Seca",
-      "url": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
-      "source": "The Robot Report",
-      "date": "2026-09-21 18:02",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "IAC, 라구나 세카 (Laguna Seca) 에서 자율주행 레이싱 이벤트 완료",
-      "type": "행사",
-      "themes": [
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-      "source": "NVIDIA Blog",
-      "date": "2026-09-21 18:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "NVIDIA, AI 공장을 위한 전력 및 냉각 제품 검증 준비 완료 DSX 출시",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50TVpFbHFkWkJyVkNRV1l3T0VTb3V4YmFhOWZsd19nNEYwV0ZsVURHeElOMG8zYVNRc0NEYUxMYkNua3ozeXBGTTdoRlY5amo1b3dIU3o3TkxUQ0VHRnZ1STYta0FkM3NxZ0dob2Npdw?oc=5",
-      "source": "OpenAI",
-      "date": "2026-09-21 17:32",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 9. 23. AM 8:31",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 23. AM 9:42",
+    "mode": "매시간 공식 레이더"
   }
 }
