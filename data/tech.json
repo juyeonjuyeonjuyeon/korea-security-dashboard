@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 26. AM 7:26",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.37.4",
+  "updatedAt": "2026. 9. 26. AM 8:52",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.4.0-canary.48",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 57,
-    "sourceCount": 24,
+    "recentCount": 59,
+    "sourceCount": 23,
     "officialCount": 27,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.37.4",
+    "새 출시: v16.4.0-canary.48",
     "창작 기술: 보안되지 않은 OpenAI 에이전트가 실험실에서 모르는 사이에 53개의 사용자 이미지를 인터넷에 게시했습니다."
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "보안되지 않은 OpenAI 에이전트가 실험실에서 모르는 사이에 53개의 사용자 이미지를 인터넷에 게시했습니다.",
-      "latest": "2026-09-25 22:20",
+      "count": 34,
+      "summary": "Crusoe, AI 데이터 센터에서 Boom 터빈을 사용하기 위해 $ 12억 5천만 계획 포기",
+      "latest": "2026-09-25 23:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T22:26:59.827Z",
+      "lastRefreshed": "2026-09-25T23:52:46.633Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,7 +38,7 @@
       "summary": "Qualcomm의 새로운 ‘Elite’ 사운드 칩이 마침내 Wi-Fi 이어버드의 꿈을 이룰지도 모릅니다.",
       "latest": "2026-09-24 23:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T22:26:59.827Z",
+      "lastRefreshed": "2026-09-25T23:52:46.633Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "일반 로봇 공학은 하나의 로봇 두뇌가 아닌 모듈식 지능에 베팅합니다",
       "latest": "2026-09-25 18:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T22:26:59.827Z",
+      "lastRefreshed": "2026-09-25T23:52:46.633Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -61,11 +61,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
+      "count": 3,
       "summary": "손상된 GitHub 작업이 온라인 상태로 돌아와 Mini Shai-Hulud 멀웨어 실행을 재개했습니다.",
       "latest": "2026-09-25 14:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T22:26:59.827Z",
+      "lastRefreshed": "2026-09-25T23:52:46.633Z",
       "themes": [
         "미술·디자인"
       ]
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 12,
-      "summary": "2026-2027 DWU: 중학교 디자인 챌린지",
-      "latest": "2026-09-25 17:20",
+      "count": 11,
+      "summary": "NASA, 보잉, 스타라이너 개발 업데이트 제공",
+      "latest": "2026-09-25 22:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T22:26:59.827Z",
+      "lastRefreshed": "2026-09-25T23:52:46.633Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -92,7 +92,7 @@
       "summary": "청정에너지 전도사가 되는 방법",
       "latest": "2026-09-25 02:46",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-25T22:26:59.827Z",
+      "lastRefreshed": "2026-09-25T23:52:46.633Z",
       "themes": []
     },
     {
@@ -100,18 +100,49 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 16,
-      "summary": "저장소 문제에 대한 비공개 저장된 보기 및 \"관련\" 문제 관계를 일반적으로 사용할 수 있습니다.",
-      "latest": "2026-09-25 19:05",
+      "summary": "v16.4.0-canary.48",
+      "latest": "2026-09-25 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T22:26:59.827Z",
+      "lastRefreshed": "2026-09-25T23:52:46.633Z",
       "themes": [
-        "주요 기업",
         "미술·디자인"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.0-canary.48",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.48",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-25 23:43",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.48",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Enterprise managed settings in-product validator",
+        "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+        "source": "GitHub Changelog",
+        "date": "2026-09-25 23:24",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "엔터프라이즈 관리 설정 제품 내 유효성 검사기",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.37.4",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.4",
@@ -129,6 +160,38 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "NASA, Boeing to Provide Update on Starliner Development",
+        "url": "https://www.nasa.gov/news-release/nasa-boeing-to-provide-update-on-starliner-development/",
+        "source": "NASA",
+        "date": "2026-09-25 22:06",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA, 보잉, 스타라이너 개발 업데이트 제공",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Usage metrics API adds pull request review stages",
+        "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+        "source": "GitHub Changelog",
+        "date": "2026-09-25 21:09",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "사용 지표 API는 끌어오기 요청 검토 단계를 추가합니다",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v0.37.3",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3",
         "source": "GitHub · ComfyUI",
@@ -138,6 +201,38 @@
         "stream": "release",
         "category": "인공지능",
         "titleKo": "v0.37.3",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NASA Welcomes San Marino Signing the Artemis Accords",
+        "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/",
+        "source": "NASA",
+        "date": "2026-09-25 19:53",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA는 산마리노가 아르테미스 조약에 서명하는 것을 환영합니다",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NASA Tests Dual Mode Propulsion CubeSat Ahead of Launch",
+        "url": "https://www.nasa.gov/directorates/rtmd/nasa-tests-dual-mode-propulsion-cubesat-ahead-of-launch/",
+        "source": "NASA",
+        "date": "2026-09-25 19:36",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA, 출시를 앞두고 듀얼 모드 추진 큐브샛 테스트",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -202,106 +297,6 @@
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "Agentic 자동 수정은 이제 Copilot 메모리를 사용합니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "2026-2027 DWU: Middle School Design Challenge",
-        "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-middle-school-design-challenge/",
-        "source": "NASA",
-        "date": "2026-09-25 17:20",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "2026-2027 DWU: 중학교 디자인 챌린지",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "2026-2027 DWU: High School Engineering Challenge",
-        "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
-        "source": "NASA",
-        "date": "2026-09-25 17:19",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "2026-2027 DWU: 고등학교 공학 챌린지",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "GitHub Copilot weekly releases — September 21",
-        "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
-        "source": "GitHub Changelog",
-        "date": "2026-09-25 16:42",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub Copilot 주간 릴리스 — 9월 21일",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-        "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-        "source": "GitHub Changelog",
-        "date": "2026-09-25 16:33",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Slack 및 Microsoft Teams용 GitHub Copilot 업데이트",
-        "type": "오픈소스",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.4.0-canary.47",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.47",
-        "source": "GitHub · Next.js",
-        "date": "2026-09-25 16:16",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.4.0-canary.47",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Hubble Spots Chaotic Secret in Galaxy",
-        "url": "https://www.nasa.gov/image-article/hubble-spots-chaotic-secret-in-galaxy/",
-        "source": "NASA",
-        "date": "2026-09-25 15:54",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "은하계의 혼돈스러운 비밀을 찾아가는 허블 투어",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -439,24 +434,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Opus 5.5 is good at explainer videos",
-        "url": "https://launchvideo.io",
-        "source": "Hacker News",
-        "date": "2026-09-24 20:28",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Opus 5.5는 설명 동영상에 능숙합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
         "title": "Epson introduces AX6 cobot with compact design, no-code programming",
         "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
         "source": "The Robot Report",
@@ -478,6 +455,22 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+        "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+        "source": "TechCrunch",
+        "date": "2026-09-25 23:11",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Crusoe, AI 데이터 센터에서 Boom 터빈을 사용하기 위해 $ 12억 5천만 계획 포기",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
         "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
@@ -650,33 +643,15 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-        "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-        "source": "TechCrunch",
-        "date": "2026-09-25 16:16",
-        "categoryId": "ai",
+        "title": "Who Wouldn't Want a Little Goose Robot Help Around the House? - IEEE Spectrum",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FSjBPQmZwMXpSVHdMRlAyb0NhOGtUYWYtdGg5VWdkZ1dja0lZU3ZfeVYyT2xrbXJjeWRDYmk2am9GRmZDYXdGY1lock1WSEppdExQdWE4dXVWTjFRVGxJQkI5Q3hSX1BhblV2U1VR?oc=5",
+        "source": "IEEE Spectrum",
+        "date": "2026-09-25 16:01",
+        "categoryId": "robotics",
         "confidence": "C",
         "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인공지능 앱이 이륙할 때 메타가 뮤즈 뒤에 근육을 넣고 있습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "After seven years, a spacecraft company is releasing its Otters into the wild",
-        "url": "https://arstechnica.com/space/2026/09/after-seven-years-a-spacecraft-company-is-releasing-its-otters-into-the-wild/",
-        "source": "Ars Technica",
-        "date": "2026-09-25 15:35",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "7년 후, 한 우주선 회사가 수달을 야생으로 방출합니다.",
+        "category": "로봇·모빌리티",
+        "titleKo": "누가 집 주변에서 작은 거위 로봇의 도움을 원하지 않을까요? - IEEE 스펙트럼",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -685,6 +660,22 @@
       }
     ],
     "community": [
+      {
+        "title": "Too AI; Didn't Read",
+        "url": "https://www.tai-dr.com/",
+        "source": "Hacker News",
+        "date": "2026-09-25 20:37",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Too AI; Didn 't Read",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
         "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
@@ -769,28 +760,58 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Opus 5.5 is good at explainer videos",
-        "url": "https://launchvideo.io",
-        "source": "Hacker News",
-        "date": "2026-09-24 20:28",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Opus 5.5는 설명 동영상에 능숙합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v16.4.0-canary.48",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.48",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-25 23:43",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.48",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Enterprise managed settings in-product validator",
+      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+      "source": "GitHub Changelog",
+      "date": "2026-09-25 23:24",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "엔터프라이즈 관리 설정 제품 내 유효성 검사기",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+      "source": "TechCrunch",
+      "date": "2026-09-25 23:11",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Crusoe, AI 데이터 센터에서 Boom 터빈을 사용하기 위해 $ 12억 5천만 계획 포기",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
       "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
@@ -827,6 +848,72 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "NASA, Boeing to Provide Update on Starliner Development",
+      "url": "https://www.nasa.gov/news-release/nasa-boeing-to-provide-update-on-starliner-development/",
+      "source": "NASA",
+      "date": "2026-09-25 22:06",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA, 보잉, 스타라이너 개발 업데이트 제공",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Usage metrics API adds pull request review stages",
+      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+      "source": "GitHub Changelog",
+      "date": "2026-09-25 21:09",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "사용 지표 API는 끌어오기 요청 검토 단계를 추가합니다",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-25 20:44",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "예외: OpenAI는 사용자 데이터 유출이 발생함에 따라 상담원 활동의 전체 범위를 이해하기 위해 노력합니다. - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
+      "title": "Too AI; Didn't Read",
+      "url": "https://www.tai-dr.com/",
+      "source": "Hacker News",
+      "date": "2026-09-25 20:37",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Too AI; Didn 't Read",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "v0.37.3",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3",
       "source": "GitHub · ComfyUI",
@@ -836,6 +923,38 @@
       "stream": "release",
       "category": "인공지능",
       "titleKo": "v0.37.3",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "NASA Welcomes San Marino Signing the Artemis Accords",
+      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/",
+      "source": "NASA",
+      "date": "2026-09-25 19:53",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA는 산마리노가 아르테미스 조약에 서명하는 것을 환영합니다",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "NASA Tests Dual Mode Propulsion CubeSat Ahead of Launch",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-tests-dual-mode-propulsion-cubesat-ahead-of-launch/",
+      "source": "NASA",
+      "date": "2026-09-25 19:36",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA, 출시를 앞두고 듀얼 모드 추진 큐브샛 테스트",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -909,6 +1028,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anthropic investor Lonsdale says AI firms stoking fear to sway policy - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY0pITmhQTFBGY3ZXalk4UWRpNWp4ejNIMTBNZlNFd1hOSDgyMFNxeGl3ZEFjOGxHX0k3RVdscS1VNzF2elA5bW9BZGd2UDZhc3BFNkJpRTFTd3BBVVdfM2ZIQi1IeWs2Nk5PYWNKRHpFOUhEa3JkRGMzNWlUaS1KTFRuMzRxeTdVZGNlYnFiSUN1V0Z6NDJPVkY2Z0JOaXhIRXYzTVNiVGxNUzRrcklpZU1qcE5jWjFMbFl1Y1B5UEJoaHc?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-25 18:55",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인류 투자자 론스데일 (Lonsdale) 은 AI 기업이 정책을 흔들기 위해 두려움을 일으키고 있다고 말합니다. - 로이터",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "General Robotics is betting on modular intelligence, not one robot brain",
@@ -1143,42 +1280,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-      "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-      "source": "GitHub Changelog",
-      "date": "2026-09-25 16:33",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Slack 및 Microsoft Teams용 GitHub Copilot 업데이트",
-      "type": "오픈소스",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-      "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-      "source": "TechCrunch",
-      "date": "2026-09-25 16:16",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "인공지능 앱이 이륙할 때 메타가 뮤즈 뒤에 근육을 넣고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v16.4.0-canary.47",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.47",
       "source": "GitHub · Next.js",
@@ -1193,6 +1294,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Who Wouldn't Want a Little Goose Robot Help Around the House? - IEEE Spectrum",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FSjBPQmZwMXpSVHdMRlAyb0NhOGtUYWYtdGg5VWdkZ1dja0lZU3ZfeVYyT2xrbXJjeWRDYmk2am9GRmZDYXdGY1lock1WSEppdExQdWE4dXVWTjFRVGxJQkI5Q3hSX1BhblV2U1VR?oc=5",
+      "source": "IEEE Spectrum",
+      "date": "2026-09-25 16:01",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "누가 집 주변에서 작은 거위 로봇의 도움을 원하지 않을까요? - IEEE 스펙트럼",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Hubble Spots Chaotic Secret in Galaxy",
@@ -1260,22 +1377,6 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "TB 26-07 Aluminum Alloy 2219 Material Guidance",
-      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-07-aluminum-alloy-2219-material-guidance/",
-      "source": "NASA",
-      "date": "2026-09-25 14:45",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "TB 26-07 알루미늄 합금 2219 재료 지침",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
@@ -1424,22 +1525,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "CodeQL 2.27.1 adds C and C++ query and Kotlin 2.4.20 support",
-      "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
-      "source": "GitHub Changelog",
-      "date": "2026-09-25 09:55",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "CodeQL 2.27.1은 C 및 C + + 쿼리와 Kotlin 2.4.20 지원을 추가합니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
       "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
       "source": "MIT Technology Review",
@@ -1506,38 +1591,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "APOD: 2026 September 25 – Globular Star Cluster Omega Centauri",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-25-globular-star-cluster-omega-centauri/",
-      "source": "NASA",
-      "date": "2026-09-25 04:05",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "APOD: 2026년 9월 25일 – 구상성단 오메가 센타우리",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Explosive Intensification for Hurricane Polo",
-      "url": "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/",
-      "source": "NASA",
-      "date": "2026-09-25 04:01",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "허리케인 '폴로' 의 폭발적 증가",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
@@ -1732,38 +1785,20 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - axios.com",
+      "title": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeE92UElhcnhBT3RsRTloWkFsdnJtVE1FSndUbUgwaVFteU5ZU1hwMlBMZ0d1al9lc3VZWV9ROXp0emdLX0RWRkN5Nkw3MWQ1LV83dzBrWmI0TEZLQV9ERVZGS1RUaEdjYTdpSmlheG9kMlVhVHYzSk4taXFGc0xzeHlhd3lhclFKOVllWThmOVktTW8wZHNfQzdsSER1dlp6QzlMRHVKQWx6c3JES1R4Rzd0V1g3Q3JNMWc?oc=5",
-      "source": "axios.com",
+      "source": "Axios",
       "date": "2026-09-24 21:10",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "S.A.R.A.H. 를 만나보세요: 콜로라도 스프링스에서 긴급하지 않은 전화를 받는 인공지능 봇 - axios.com",
+      "titleKo": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Opus 5.5 is good at explainer videos",
-      "url": "https://launchvideo.io",
-      "source": "Hacker News",
-      "date": "2026-09-24 20:28",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Opus 5.5는 설명 동영상에 능숙합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "영상"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "5 million robots are now at work in factories worldwide, reports the IFR",
@@ -2052,78 +2087,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "SUPARCO to celebrate World Space Week 2026 across Pakistan - | Associated Press Of Pakistan",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcmZwYlMtYlgtamIyUjQyZEQyMGQ2YjVhTTRpaUdHcV8xQTRSMHZrWUdKSmdfUW5vU1hXaXBHQ1dOMTBJNGI3a1NIbjFuNXVKbmYzdnRBMEFLdkpsbnlMYTJrYU1lZW5qb01iRWxOQ3pwakw0N0YzaWRDZnNaS2oxUHNmNkF5bHdyNVNXem9rTFNCVGVIWEZNSw?oc=5",
-      "source": "| Associated Press Of Pakistan",
-      "date": "2026-09-24 11:50",
-      "categoryId": "space",
-      "confidence": "B",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "파키스탄 전역에서 2026년 세계 우주 주간을 기념하는 SUPARCO - | 파키스탄 연합 언론",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
-      "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
-      "source": "The Hacker News",
-      "date": "2026-09-24 11:00",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "무분별한 비밀 유출은 AI가 무시할 수 없게 만든 정체성 문제입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v16.4.0-canary.43",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.43",
-      "source": "GitHub · Next.js",
-      "date": "2026-09-24 10:48",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.0-canary.43",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "IFR Counts 7,000 Humanoid Robot Sales as Workplace Pilots Stay Small - TechRepublic",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSmM5MEFYbWNvUHZKVHE3ZlZUcExvdHpPRU5qQWJpSjFubFdWTVdJb1ZfaEpvUkVVb0w0WXdka2FaUGstMWpWR2JOSl9RcGI4ZXpPeXpFWF9ZTklPaWtiaHpBTmlRS1FMeF9ETG9OeEFRekdSSTRidHBZamZRNk13M3RfQzMwS0E5dDJ1M21B?oc=5",
-      "source": "TechRepublic",
-      "date": "2026-09-24 10:18",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "IFR, 직장 조종사가 작게 머물면서 휴머노이드 로봇 판매 7,000대 돌파 - TechRepublic",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 9. 26. AM 7:26",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 9. 26. AM 8:52",
+    "mode": "하루 2회 전체 수집"
   }
 }
