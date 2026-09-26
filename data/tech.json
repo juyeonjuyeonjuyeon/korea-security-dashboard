@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 27. AM 4:56",
+  "updatedAt": "2026. 9. 27. AM 7:56",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
+  "headline": "v16.4.0-canary.49",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 30,
+    "recentCount": 19,
     "sourceCount": 21,
     "officialCount": 24,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
+    "새 출시: v16.4.0-canary.49",
     "창작 기술: 보안되지 않은 OpenAI 에이전트가 실험실에서 모르는 사이에 53개의 사용자 이미지를 인터넷에 게시했습니다."
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "OpenAI는 ‘가장 유능한 모델‘ 에 대한 교육을 일시 중지합니다",
-      "latest": "2026-09-26 16:34",
+      "count": 34,
+      "summary": "보험사들은 AI가 이미 의료 비용을 증가시키고 있다고 주장합니다.",
+      "latest": "2026-09-26 21:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T19:56:46.016Z",
+      "lastRefreshed": "2026-09-26T22:56:39.657Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,18 +38,18 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T19:56:46.016Z",
+      "lastRefreshed": "2026-09-26T22:56:39.657Z",
       "themes": []
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 9,
+      "count": 8,
       "summary": "14개 도시에서 15,000개까지: 로봇 택시 확장을 위해 무엇이 필요할까요?",
       "latest": "2026-09-26 12:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T19:56:46.016Z",
+      "lastRefreshed": "2026-09-26T22:56:39.657Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,7 +62,7 @@
       "summary": "Lunex Stealer는 AMD 드라이버를 악용하여 보안 모니터링을 비활성화하고 브라우저 자격 증명을 훔칩니다",
       "latest": "2026-09-26 18:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T19:56:46.016Z",
+      "lastRefreshed": "2026-09-26T22:56:39.657Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -76,7 +76,7 @@
       "summary": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
       "latest": "2026-09-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T19:56:46.016Z",
+      "lastRefreshed": "2026-09-26T22:56:39.657Z",
       "themes": [
         "미술·디자인"
       ]
@@ -89,7 +89,7 @@
       "summary": "지열 에너지 와일드 카드가 점점 더 와일드해지고 있습니다",
       "latest": "2026-09-26 15:35",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-26T19:56:46.016Z",
+      "lastRefreshed": "2026-09-26T22:56:39.657Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,10 +99,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 16,
-      "summary": "v16.4.0-canary.48",
-      "latest": "2026-09-25 23:43",
+      "summary": "v16.4.0-canary.49",
+      "latest": "2026-09-26 21:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T19:56:46.016Z",
+      "lastRefreshed": "2026-09-26T22:56:39.657Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -111,6 +111,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.0-canary.49",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.49",
+        "source": "GitHub · Next.js",
+        "date": "2026-09-26 21:04",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.49",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
         "url": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
@@ -286,22 +302,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-        "url": "https://ollaya.dev/",
-        "source": "Hacker News",
-        "date": "2026-09-25 18:33",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Ollaya – 오픈 소스, Jev 스타일 의사 결정 모델을 위한 Ollama",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ],
     "creative": [
@@ -418,6 +418,22 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Insurers claim AI is already increasing healthcare costs",
+        "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+        "source": "TechCrunch",
+        "date": "2026-09-26 21:02",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "보험사들은 AI가 이미 의료 비용을 증가시키고 있다고 주장합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
         "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
@@ -599,25 +615,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-        "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-        "source": "TechCrunch",
-        "date": "2026-09-25 22:20",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "보안되지 않은 OpenAI 에이전트가 실험실에서 모르는 사이에 53개의 사용자 이미지를 인터넷에 게시했습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -724,6 +721,38 @@
     ]
   },
   "news": [
+    {
+      "title": "v16.4.0-canary.49",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.49",
+      "source": "GitHub · Next.js",
+      "date": "2026-09-26 21:04",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.49",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "source": "TechCrunch",
+      "date": "2026-09-26 21:02",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "보험사들은 AI가 이미 의료 비용을 증가시키고 있다고 주장합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
       "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
@@ -1442,22 +1471,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "The Aeropod automates soil aeration without robotics — see it at TechCrunch Disrupt",
-      "url": "https://techcrunch.com/2026/09/25/the-aeropod-automates-soil-aeration-without-robotics-see-it-at-techcrunch-disrupt/",
-      "source": "TechCrunch",
-      "date": "2026-09-25 17:30",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Aeropod는 로봇 공학 없이 토양 폭기를 자동화합니다. TechCrunch Disrupt에서 확인하세요.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Agentic autofix now uses Copilot Memory",
       "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
       "source": "GitHub Changelog",
@@ -2030,22 +2043,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v16.4.0-canary.44",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.44",
-      "source": "GitHub · Next.js",
-      "date": "2026-09-24 17:05",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.0-canary.44",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2053,7 +2050,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 9. 27. AM 4:56",
+    "checkedAt": "2026. 9. 27. AM 7:56",
     "mode": "매시간 공식 레이더"
   }
 }
