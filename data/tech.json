@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 26. AM 8:52",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 9. 26. AM 10:39",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.48",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 59,
+    "recentCount": 58,
     "sourceCount": 23,
     "officialCount": 27,
     "opportunityCount": 0
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
+      "count": 33,
       "summary": "Crusoe, AI 데이터 센터에서 Boom 터빈을 사용하기 위해 $ 12억 5천만 계획 포기",
       "latest": "2026-09-25 23:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T23:52:46.633Z",
+      "lastRefreshed": "2026-09-26T01:39:02.487Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
+      "count": 2,
       "summary": "Qualcomm의 새로운 ‘Elite’ 사운드 칩이 마침내 Wi-Fi 이어버드의 꿈을 이룰지도 모릅니다.",
       "latest": "2026-09-24 23:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T23:52:46.633Z",
+      "lastRefreshed": "2026-09-26T01:39:02.487Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "일반 로봇 공학은 하나의 로봇 두뇌가 아닌 모듈식 지능에 베팅합니다",
       "latest": "2026-09-25 18:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T23:52:46.633Z",
+      "lastRefreshed": "2026-09-26T01:39:02.487Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -65,7 +65,7 @@
       "summary": "손상된 GitHub 작업이 온라인 상태로 돌아와 Mini Shai-Hulud 멀웨어 실행을 재개했습니다.",
       "latest": "2026-09-25 14:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T23:52:46.633Z",
+      "lastRefreshed": "2026-09-26T01:39:02.487Z",
       "themes": [
         "미술·디자인"
       ]
@@ -78,7 +78,7 @@
       "summary": "NASA, 보잉, 스타라이너 개발 업데이트 제공",
       "latest": "2026-09-25 22:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T23:52:46.633Z",
+      "lastRefreshed": "2026-09-26T01:39:02.487Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -88,24 +88,25 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 3,
-      "summary": "청정에너지 전도사가 되는 방법",
-      "latest": "2026-09-25 02:46",
+      "count": 4,
+      "summary": "NV Energy의 Sierra Pacific Power Company가 가장 낮은 등급을 받았음을 보여주는 Sierra Club의 유틸리티 보고서 카드",
+      "latest": "2026-09-26 00:18",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-25T23:52:46.633Z",
+      "lastRefreshed": "2026-09-26T01:39:02.487Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
+      "count": 17,
       "summary": "v16.4.0-canary.48",
       "latest": "2026-09-25 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-25T23:52:46.633Z",
+      "lastRefreshed": "2026-09-26T01:39:02.487Z",
       "themes": [
-        "미술·디자인"
+        "미술·디자인",
+        "기회"
       ]
     }
   ],
@@ -379,25 +380,6 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
-        "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-        "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-        "source": "Hacker News",
-        "date": "2026-09-25 15:29",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "미국 항소 법원은 Anthropic을 공급망 위험으로 지정하는 것을 지지합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
         "title": "Push images to Vercel Container Registry from GitHub Actions",
         "url": "https://vercel.com/changelog/vcr-login-github-action",
         "source": "Vercel Changelog",
@@ -455,6 +437,22 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Sierra Club’s Utility Report Card Shows NV Energy’s Sierra Pacific Power Company Receives Lowest Grade Yet",
+        "url": "https://cleantechnica.com/2026/09/25/sierra-clubs-utility-report-card-shows-nv-energys-sierra-pacific-power-company-receives-lowest-grade-yet/",
+        "source": "CleanTechnica",
+        "date": "2026-09-26 00:18",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "NV Energy의 Sierra Pacific Power Company가 가장 낮은 등급을 받았음을 보여주는 Sierra Club의 유틸리티 보고서 카드",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
         "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
@@ -641,25 +639,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Who Wouldn't Want a Little Goose Robot Help Around the House? - IEEE Spectrum",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FSjBPQmZwMXpSVHdMRlAyb0NhOGtUYWYtdGg5VWdkZ1dja0lZU3ZfeVYyT2xrbXJjeWRDYmk2am9GRmZDYXdGY1lock1WSEppdExQdWE4dXVWTjFRVGxJQkI5Q3hSX1BhblV2U1VR?oc=5",
-        "source": "IEEE Spectrum",
-        "date": "2026-09-25 16:01",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "누가 집 주변에서 작은 거위 로봇의 도움을 원하지 않을까요? - IEEE 스펙트럼",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+        "url": "https://swarmtraces.org/",
+        "source": "Hacker News",
+        "date": "2026-09-25 21:09",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "OpenAI 에이전트가 Hugging Face를 해킹한 방법에 대한 세부 정보 공개",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Too AI; Didn't Read",
         "url": "https://www.tai-dr.com/",
@@ -711,6 +711,24 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
+        "url": "https://mouse.dev/blog/muse-special/",
+        "source": "Hacker News",
+        "date": "2026-09-25 18:18",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Meta의 Muse는 muse-special이라는 OpenAI 모델을 사용하는 것으로 보입니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Yes, Claude can do nine loops",
         "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
         "source": "Hacker News",
@@ -725,45 +743,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-        "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-        "source": "Hacker News",
-        "date": "2026-09-25 15:29",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "미국 항소 법원은 Anthropic을 공급망 위험으로 지정하는 것을 지지합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Classified estimates show the NSA is paying billions to test AI models",
-        "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
-        "source": "Hacker News",
-        "date": "2026-09-25 15:27",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "기밀 추정에 따르면 NSA는 AI 모델을 테스트하기 위해 수십억 달러를 지불하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Sierra Club’s Utility Report Card Shows NV Energy’s Sierra Pacific Power Company Receives Lowest Grade Yet",
+      "url": "https://cleantechnica.com/2026/09/25/sierra-clubs-utility-report-card-shows-nv-energys-sierra-pacific-power-company-receives-lowest-grade-yet/",
+      "source": "CleanTechnica",
+      "date": "2026-09-26 00:18",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "NV Energy의 Sierra Pacific Power Company가 가장 낮은 등급을 받았음을 보여주는 Sierra Club의 유틸리티 보고서 카드",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.4.0-canary.48",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.48",
@@ -878,6 +877,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "source": "Hacker News",
+      "date": "2026-09-25 21:09",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "OpenAI 에이전트가 Hugging Face를 해킹한 방법에 대한 세부 정보 공개",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges - Reuters",
@@ -1132,6 +1149,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
+      "url": "https://mouse.dev/blog/muse-special/",
+      "source": "Hacker News",
+      "date": "2026-09-25 18:18",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Meta의 Muse는 muse-special이라는 OpenAI 모델을 사용하는 것으로 보입니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Changes to query results in the GitHub Actions API and UI",
       "url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
       "source": "GitHub Changelog",
@@ -1342,41 +1377,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "source": "Hacker News",
-      "date": "2026-09-25 15:29",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "미국 항소 법원은 Anthropic을 공급망 위험으로 지정하는 것을 지지합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Classified estimates show the NSA is paying billions to test AI models",
-      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
-      "source": "Hacker News",
-      "date": "2026-09-25 15:27",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "기밀 추정에 따르면 NSA는 AI 모델을 테스트하기 위해 수십억 달러를 지불하고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
@@ -1721,6 +1721,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Pixel Canary is now available in stealth for free on AI Gateway",
+      "url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-09-25 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Pixel Canary is now available in stealth for free on AI Gateway",
+      "type": "출시·업데이트",
+      "themes": [
+        "기회"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Vercel Sandbox now supports memory observability",
       "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
       "source": "Vercel Changelog",
@@ -2053,48 +2071,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-      "source": "NVIDIA Blog",
-      "date": "2026-09-24 13:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "카오스 포함: ‘CONTROL RESONANT’ 지금 GeForce에서 시작",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
-      "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
-      "source": "MIT Technology Review",
-      "date": "2026-09-24 12:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "다운로드: 가상 벽을 허물고 인공지능이 기후 주간을 강타하는 입찰",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 9. 26. AM 8:52",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 26. AM 10:39",
+    "mode": "매시간 공식 레이더"
   }
 }
