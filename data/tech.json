@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 27. AM 2:14",
+  "updatedAt": "2026. 9. 27. AM 4:56",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 46,
-    "sourceCount": 22,
+    "recentCount": 30,
+    "sourceCount": 21,
     "officialCount": 24,
     "opportunityCount": 0
   },
@@ -23,7 +23,7 @@
       "summary": "OpenAI는 ‘가장 유능한 모델‘ 에 대한 교육을 일시 중지합니다",
       "latest": "2026-09-26 16:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T17:14:43.574Z",
+      "lastRefreshed": "2026-09-26T19:56:46.016Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,7 +38,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T17:14:43.574Z",
+      "lastRefreshed": "2026-09-26T19:56:46.016Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "14개 도시에서 15,000개까지: 로봇 택시 확장을 위해 무엇이 필요할까요?",
       "latest": "2026-09-26 12:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T17:14:43.574Z",
+      "lastRefreshed": "2026-09-26T19:56:46.016Z",
       "themes": [
         "주요 기업"
       ]
@@ -58,12 +58,13 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
-      "summary": "AI 상담원을 위한 제로 트러스트는 제로 가시성 수정에서 시작됩니다.",
-      "latest": "2026-09-26 10:30",
+      "count": 7,
+      "summary": "Lunex Stealer는 AMD 드라이버를 악용하여 보안 모니터링을 비활성화하고 브라우저 자격 증명을 훔칩니다",
+      "latest": "2026-09-26 18:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T17:14:43.574Z",
+      "lastRefreshed": "2026-09-26T19:56:46.016Z",
       "themes": [
+        "주요 기업",
         "미술·디자인"
       ]
     },
@@ -71,11 +72,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
+      "count": 9,
       "summary": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
       "latest": "2026-09-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T17:14:43.574Z",
+      "lastRefreshed": "2026-09-26T19:56:46.016Z",
       "themes": [
         "미술·디자인"
       ]
@@ -88,7 +89,7 @@
       "summary": "지열 에너지 와일드 카드가 점점 더 와일드해지고 있습니다",
       "latest": "2026-09-26 15:35",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-26T17:14:43.574Z",
+      "lastRefreshed": "2026-09-26T19:56:46.016Z",
       "themes": [
         "주요 기업"
       ]
@@ -101,7 +102,7 @@
       "summary": "v16.4.0-canary.48",
       "latest": "2026-09-25 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T17:14:43.574Z",
+      "lastRefreshed": "2026-09-26T19:56:46.016Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -418,6 +419,24 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+        "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+        "source": "The Hacker News",
+        "date": "2026-09-26 18:22",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "Lunex Stealer는 AMD 드라이버를 악용하여 보안 모니터링을 비활성화하고 브라우저 자격 증명을 훔칩니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "OpenAI pauses training of its ‘most capable models’",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
         "source": "The Verge",
@@ -599,22 +618,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
-        "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
-        "source": "The Verge",
-        "date": "2026-09-25 22:13",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Cloudflare CEO Matthew Prince는 AI로부터 웹을 구할 수 있습니까?",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -721,6 +724,24 @@
     ]
   },
   "news": [
+    {
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "source": "The Hacker News",
+      "date": "2026-09-26 18:22",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "Lunex Stealer는 AMD 드라이버를 악용하여 보안 모니터링을 비활성화하고 브라우저 자격 증명을 훔칩니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "OpenAI pauses training of its ‘most capable models’",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
@@ -2025,22 +2046,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "True or false on space industry trends with Pacôme Révillon",
-      "url": "https://spacenews.com/true-or-false-on-space-industry-trends-with-pacome-revillon/",
-      "source": "SpaceNews",
-      "date": "2026-09-24 15:51",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Pacôme Révillon의 우주 산업 동향에 대한 진실 또는 거짓",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2048,7 +2053,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 9. 27. AM 2:14",
+    "checkedAt": "2026. 9. 27. AM 4:56",
     "mode": "매시간 공식 레이더"
   }
 }
