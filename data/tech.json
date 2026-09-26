@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 26. PM 10:35",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 9. 27. AM 2:14",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 51,
+    "recentCount": 46,
     "sourceCount": 22,
-    "officialCount": 25,
+    "officialCount": 24,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 33,
-      "summary": "비전 모델을 포함한 LLM용 단일 기능 Jev형 래퍼",
-      "latest": "2026-09-26 04:20",
+      "summary": "OpenAI는 ‘가장 유능한 모델‘ 에 대한 교육을 일시 중지합니다",
+      "latest": "2026-09-26 16:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:35:23.258Z",
+      "lastRefreshed": "2026-09-26T17:14:43.574Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 1,
-      "summary": "Qualcomm의 새로운 ‘Elite’ 사운드 칩이 마침내 Wi-Fi 이어버드의 꿈을 이룰지도 모릅니다.",
-      "latest": "2026-09-24 23:42",
+      "count": 0,
+      "summary": "새로운 주요 변화 확인 없음",
+      "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:35:23.258Z",
+      "lastRefreshed": "2026-09-26T17:14:43.574Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "14개 도시에서 15,000개까지: 로봇 택시 확장을 위해 무엇이 필요할까요?",
       "latest": "2026-09-26 12:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:35:23.258Z",
+      "lastRefreshed": "2026-09-26T17:14:43.574Z",
       "themes": [
         "주요 기업"
       ]
@@ -58,11 +58,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 5,
-      "summary": "Kiteworks는 고객이 가능한 사이버 공격에 대해 9시간 동안 시스템을 종료할 것을 촉구합니다.",
-      "latest": "2026-09-26 07:48",
+      "count": 6,
+      "summary": "AI 상담원을 위한 제로 트러스트는 제로 가시성 수정에서 시작됩니다.",
+      "latest": "2026-09-26 10:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:35:23.258Z",
+      "lastRefreshed": "2026-09-26T17:14:43.574Z",
       "themes": [
         "미술·디자인"
       ]
@@ -75,7 +75,7 @@
       "summary": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
       "latest": "2026-09-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:35:23.258Z",
+      "lastRefreshed": "2026-09-26T17:14:43.574Z",
       "themes": [
         "미술·디자인"
       ]
@@ -84,22 +84,24 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
-      "summary": "도넛 배터리 입증: 리튬이나 나트륨이 아닌 배터리를 증명하는 요소 분석",
-      "latest": "2026-09-26 02:52",
+      "count": 6,
+      "summary": "지열 에너지 와일드 카드가 점점 더 와일드해지고 있습니다",
+      "latest": "2026-09-26 15:35",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-26T13:35:23.258Z",
-      "themes": []
+      "lastRefreshed": "2026-09-26T17:14:43.574Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
+      "count": 16,
       "summary": "v16.4.0-canary.48",
       "latest": "2026-09-25 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:35:23.258Z",
+      "lastRefreshed": "2026-09-26T17:14:43.574Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -416,6 +418,58 @@
     "voices": [],
     "analysis": [
       {
+        "title": "OpenAI pauses training of its ‘most capable models’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+        "source": "The Verge",
+        "date": "2026-09-26 16:34",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI는 ‘가장 유능한 모델‘ 에 대한 교육을 일시 중지합니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The Geothermal Energy Wild Card Is Getting Wilder",
+        "url": "https://cleantechnica.com/2026/09/26/geothermal-energy-us-policy-renewable-sustainable/",
+        "source": "CleanTechnica",
+        "date": "2026-09-26 15:35",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "지열 에너지 와일드 카드가 점점 더 와일드해지고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Tesla Full Self Driving Unsupervised Soon? And Further Conversations with Ara (the Grok AI Bot)",
+        "url": "https://cleantechnica.com/2026/09/26/tesla-full-self-driving-unsupervised-soon-and-further-conversations-with-ara-the-grok-ai-bot/",
+        "source": "CleanTechnica",
+        "date": "2026-09-26 13:51",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "테슬라 완전 자율주행 무감독 조만간? 그리고 Ara (Grok AI Bot) 와의 추가 대화",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
         "url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
         "source": "The Robot Report",
@@ -425,6 +479,22 @@
         "stream": "news",
         "category": "로봇·모빌리티",
         "titleKo": "14개 도시에서 15,000개까지: 로봇 택시 확장을 위해 무엇이 필요할까요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+        "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+        "source": "The Hacker News",
+        "date": "2026-09-26 10:30",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "AI 상담원을 위한 제로 트러스트는 제로 가시성 수정에서 시작됩니다.",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -531,95 +601,39 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
-        "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-        "source": "Ars Technica",
-        "date": "2026-09-25 21:36",
+        "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+        "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+        "source": "The Verge",
+        "date": "2026-09-25 22:13",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
         "category": "인공지능",
-        "titleKo": "법원 규칙 펜타곤은 Claude 기능 사용을 거부한 Anthropic을 블랙리스트에 올릴 수 있습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
-        "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-        "source": "Ars Technica",
-        "date": "2026-09-25 21:36",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "법원 규칙 트럼프는 Claude 기능 사용을 거부 한 Anthropic을 블랙리스트에 올릴 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
-        "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
-        "source": "Ars Technica",
-        "date": "2026-09-25 21:10",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "테슬라 직원들은 옵티머스 휴머노이드 로봇을 대체할 수 있는 훈련을 시켰습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeE92UElhcnhBT3RsRTloWkFsdnJtVE1FSndUbUgwaVFteU5ZU1hwMlBMZ0d1al9lc3VZWV9ROXp0emdLX0RWRkN5Nkw3MWQ1LV83dzBrWmI0TEZLQV9ERVZGS1RUaEdjYTdpSmlheG9kMlVhVHYzSk4taXFGc0xzeHlhd3lhclFKOVllWThmOVktTW8wZHNfQzdsSER1dlp6QzlMRHVKQWx6c3JES1R4Rzd0V1g3Q3JNMWc?oc=5",
-        "source": "Axios",
-        "date": "2026-09-25 20:55",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
+        "titleKo": "Cloudflare CEO Matthew Prince는 AI로부터 웹을 구할 수 있습니까?",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-        "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-        "source": "TechCrunch",
-        "date": "2026-09-25 19:13",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "클라우드 거래에서 7년 동안 Akamai에 $ 116억을 지불하는 인류애",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "One Month Without AI",
+        "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+        "source": "Hacker News",
+        "date": "2026-09-26 10:08",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI 없는 한 달",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "A single function Jev-like wrapper for LLMs, including vision models",
         "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
@@ -703,28 +717,62 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
-        "url": "https://mouse.dev/blog/muse-special/",
-        "source": "Hacker News",
-        "date": "2026-09-25 18:18",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Meta의 Muse는 muse-special이라는 OpenAI 모델을 사용하는 것으로 보입니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "source": "The Verge",
+      "date": "2026-09-26 16:34",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 ‘가장 유능한 모델‘ 에 대한 교육을 일시 중지합니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Geothermal Energy Wild Card Is Getting Wilder",
+      "url": "https://cleantechnica.com/2026/09/26/geothermal-energy-us-policy-renewable-sustainable/",
+      "source": "CleanTechnica",
+      "date": "2026-09-26 15:35",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "지열 에너지 와일드 카드가 점점 더 와일드해지고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Tesla Full Self Driving Unsupervised Soon? And Further Conversations with Ara (the Grok AI Bot)",
+      "url": "https://cleantechnica.com/2026/09/26/tesla-full-self-driving-unsupervised-soon-and-further-conversations-with-ara-the-grok-ai-bot/",
+      "source": "CleanTechnica",
+      "date": "2026-09-26 13:51",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "테슬라 완전 자율주행 무감독 조만간? 그리고 Ara (Grok AI Bot) 와의 추가 대화",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
       "url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
@@ -740,6 +788,38 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "source": "The Hacker News",
+      "date": "2026-09-26 10:30",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "AI 상담원을 위한 제로 트러스트는 제로 가시성 수정에서 시작됩니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "One Month Without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "source": "Hacker News",
+      "date": "2026-09-26 10:08",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI 없는 한 달",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
@@ -916,6 +996,22 @@
         "주요 기업",
         "미술·디자인"
       ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "source": "The Verge",
+      "date": "2026-09-25 22:13",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Cloudflare CEO Matthew Prince는 AI로부터 웹을 구할 수 있습니까?",
+      "type": "뉴스·분석",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1307,24 +1403,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
-      "url": "https://mouse.dev/blog/muse-special/",
-      "source": "Hacker News",
-      "date": "2026-09-25 18:18",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Meta의 Muse는 muse-special이라는 OpenAI 모델을 사용하는 것으로 보입니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Changes to query results in the GitHub Actions API and UI",
@@ -1885,22 +1963,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "LA Metro Secures 220 New Battery-Electric Transit Buses",
-      "url": "https://cleantechnica.com/2026/09/24/la-metro-secures-220-new-battery-electric-transit-buses/",
-      "source": "CleanTechnica",
-      "date": "2026-09-24 23:51",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "LA Metro, 배터리 전기 환승 버스 220대 신규 확보",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v16.4.0-canary.45",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.45",
       "source": "GitHub · Next.js",
@@ -1917,22 +1979,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream",
-      "url": "https://www.theverge.com/tech/1000443/qualcomms-new-elite-sound-chip-might-finally-deliver-the-wi-fi-earbud-dream",
-      "source": "The Verge",
-      "date": "2026-09-24 23:42",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Qualcomm의 새로운 ‘Elite’ 사운드 칩이 마침내 Wi-Fi 이어버드의 꿈을 이룰지도 모릅니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "5 million robots are now at work in factories worldwide, reports the IFR",
       "url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
       "source": "The Robot Report",
@@ -1944,24 +1990,6 @@
       "titleKo": "IFR에 따르면 현재 전 세계 공장에서 500만 대의 로봇이 작업 중입니다.",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
-      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
-      "source": "The Verge",
-      "date": "2026-09-24 20:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Gemini 3.8 라이브 아바타로 라이브하면 Google의 AI가 얼굴을 드러냅니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2013,48 +2041,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kT2t4QWVHS3diRXpOWV90RFhEMTh5SWp0RU9TRFl1dmJENEtZMnJDWXNsdkNpSHd0MDQ5YzhCVDZBUzlrN00wUVY5Q2hMMUpyWlRVcW5NYnJXVDg?oc=5",
-      "source": "BBC",
-      "date": "2026-09-24 15:42",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "악성 OpenAI 에이전트가 세계 최초로 호주 정부 웹사이트에 '침투' - BBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
-      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
-      "source": "Cloudflare Blog",
-      "date": "2026-09-24 15:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Cloudflare가 컨테이너의 교차 테넌트 데이터 노출 취약점을 해결한 방법",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 9. 26. PM 10:35",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 27. AM 2:14",
+    "mode": "매시간 공식 레이더"
   }
 }
