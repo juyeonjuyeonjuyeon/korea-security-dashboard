@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 26. PM 4:48",
+  "updatedAt": "2026. 9. 26. PM 10:10",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 52,
-    "sourceCount": 22,
-    "officialCount": 27,
+    "recentCount": 48,
+    "sourceCount": 21,
+    "officialCount": 26,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 33,
-      "summary": "Crusoe, AI 데이터 센터에서 Boom 터빈을 사용하기 위해 $ 12억 5천만 계획 포기",
-      "latest": "2026-09-25 23:11",
+      "summary": "비전 모델을 포함한 LLM용 단일 기능 Jev형 래퍼",
+      "latest": "2026-09-26 04:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T07:48:45.393Z",
+      "lastRefreshed": "2026-09-26T13:10:45.585Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -34,24 +34,22 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 2,
+      "count": 1,
       "summary": "Qualcomm의 새로운 ‘Elite’ 사운드 칩이 마침내 Wi-Fi 이어버드의 꿈을 이룰지도 모릅니다.",
       "latest": "2026-09-24 23:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T07:48:45.393Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-09-26T13:10:45.585Z",
+      "themes": []
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
       "count": 10,
-      "summary": "테슬라 직원들은 옵티머스 휴머노이드 로봇을 대체할 수 있는 훈련을 시켰습니다.",
-      "latest": "2026-09-25 21:10",
+      "summary": "14개 도시에서 15,000개까지: 로봇 택시 확장을 위해 무엇이 필요할까요?",
+      "latest": "2026-09-26 12:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T07:48:45.393Z",
+      "lastRefreshed": "2026-09-26T13:10:45.585Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -61,11 +59,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 3,
-      "summary": "손상된 GitHub 작업이 온라인 상태로 돌아와 Mini Shai-Hulud 멀웨어 실행을 재개했습니다.",
-      "latest": "2026-09-25 14:44",
+      "count": 4,
+      "summary": "Kiteworks는 고객이 가능한 사이버 공격에 대해 9시간 동안 시스템을 종료할 것을 촉구합니다.",
+      "latest": "2026-09-26 07:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T07:48:45.393Z",
+      "lastRefreshed": "2026-09-26T13:10:45.585Z",
       "themes": [
         "미술·디자인"
       ]
@@ -78,7 +76,7 @@
       "summary": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
       "latest": "2026-09-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T07:48:45.393Z",
+      "lastRefreshed": "2026-09-26T13:10:45.585Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -92,7 +90,7 @@
       "summary": "도넛 배터리 입증: 리튬이나 나트륨이 아닌 배터리를 증명하는 요소 분석",
       "latest": "2026-09-26 02:52",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-26T07:48:45.393Z",
+      "lastRefreshed": "2026-09-26T13:10:45.585Z",
       "themes": []
     },
     {
@@ -103,7 +101,7 @@
       "summary": "v16.4.0-canary.48",
       "latest": "2026-09-25 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T07:48:45.393Z",
+      "lastRefreshed": "2026-09-26T13:10:45.585Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -438,6 +436,38 @@
     "voices": [],
     "analysis": [
       {
+        "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
+        "url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
+        "source": "The Robot Report",
+        "date": "2026-09-26 12:34",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "14개 도시에서 15,000개까지: 로봇 택시 확장을 위해 무엇이 필요할까요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+        "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+        "source": "The Hacker News",
+        "date": "2026-09-26 07:48",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "Kiteworks는 고객이 가능한 사이버 공격에 대해 9시간 동안 시스템을 종료할 것을 촉구합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Donut Battery Vindicated: Element Analysis Proves Battery Not Lithium Or Sodium",
         "url": "https://cleantechnica.com/2026/09/25/donut-battery-vindicated-element-analysis-proves-battery-not-lithium-or-sodium/",
         "source": "CleanTechnica",
@@ -499,6 +529,24 @@
         "themes": [
           "주요 기업",
           "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
+        "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+        "source": "Ars Technica",
+        "date": "2026-09-25 21:36",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "법원 규칙 펜타곤은 Claude 기능 사용을 거부한 Anthropic을 블랙리스트에 올릴 수 있습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -591,59 +639,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "General Robotics is betting on modular intelligence, not one robot brain",
-        "url": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
-        "source": "The Robot Report",
-        "date": "2026-09-25 18:43",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "일반 로봇 공학은 하나의 로봇 두뇌가 아닌 모듈식 지능에 베팅합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
-        "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-        "source": "TechCrunch",
-        "date": "2026-09-25 18:33",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "미국 IPO를 앞두고 영국 AI neocloud Nscale은 전환 자금 조달에서 $ 3.36 B를 확보합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Ahead of U.S. IPO, British AI neocloud Nscale secures $3.36B in convertible finacing",
-        "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-        "source": "TechCrunch",
-        "date": "2026-09-25 18:33",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "미국 IPO를 앞두고 영국 AI neocloud Nscale은 컨버터블 피니싱에서 $ 3.36 B를 확보합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "A single function Jev-like wrapper for LLMs, including vision models",
+        "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+        "source": "Hacker News",
+        "date": "2026-09-26 04:20",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "비전 모델을 포함한 LLM용 단일 기능 Jev형 래퍼",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
         "url": "https://swarmtraces.org/",
@@ -729,26 +743,58 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Yes, Claude can do nine loops",
-        "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-        "source": "Hacker News",
-        "date": "2026-09-25 18:11",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "예, Claude는 9개의 루프를 수행할 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
+      "url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
+      "source": "The Robot Report",
+      "date": "2026-09-26 12:34",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "14개 도시에서 15,000개까지: 로봇 택시 확장을 위해 무엇이 필요할까요?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "source": "The Hacker News",
+      "date": "2026-09-26 07:48",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "Kiteworks는 고객이 가능한 사이버 공격에 대해 9시간 동안 시스템을 종료할 것을 촉구합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "source": "Hacker News",
+      "date": "2026-09-26 04:20",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "비전 모델을 포함한 LLM용 단일 기능 Jev형 래퍼",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
@@ -895,6 +941,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
+      "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+      "source": "Ars Technica",
+      "date": "2026-09-25 21:36",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "법원 규칙 펜타곤은 Claude 기능 사용을 거부한 Anthropic을 블랙리스트에 올릴 수 있습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
@@ -1253,22 +1317,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Yes, Claude can do nine loops",
-      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-      "source": "Hacker News",
-      "date": "2026-09-25 18:11",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "예, Claude는 9개의 루프를 수행할 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "The Aeropod automates soil aeration without robotics — see it at TechCrunch Disrupt",
       "url": "https://techcrunch.com/2026/09/25/the-aeropod-automates-soil-aeration-without-robotics-see-it-at-techcrunch-disrupt/",
       "source": "TechCrunch",
@@ -1561,22 +1609,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
-      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
-      "source": "Ars Technica",
-      "date": "2026-09-25 11:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "비참한 실험에서 노인을 위한 의료 서비스를 거부하기 위해 AI를 사용하는 트럼프 관리자",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
@@ -2039,48 +2071,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-      "source": "NVIDIA Blog",
-      "date": "2026-09-24 14:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "개방형 과학이 연구자들이 다음 전염병에 대비하는 데 도움이 되는 방법",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "ANYbotics opens the door for inspections with ANYmal robots",
-      "url": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
-      "source": "The Robot Report",
-      "date": "2026-09-24 13:27",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "ANYbotics는 ANYmal 로봇으로 검사할 수 있도록 문을 엽니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 33,
+    "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 9. 26. PM 4:48",
+    "officialSources": 7,
+    "checkedAt": "2026. 9. 26. PM 10:10",
     "mode": "매시간 공식 레이더"
   }
 }
