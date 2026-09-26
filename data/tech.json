@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 26. PM 10:10",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 9. 26. PM 10:35",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 48,
-    "sourceCount": 21,
-    "officialCount": 26,
+    "recentCount": 51,
+    "sourceCount": 22,
+    "officialCount": 25,
     "opportunityCount": 0
   },
   "summary": [
@@ -23,7 +23,7 @@
       "summary": "비전 모델을 포함한 LLM용 단일 기능 Jev형 래퍼",
       "latest": "2026-09-26 04:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:10:45.585Z",
+      "lastRefreshed": "2026-09-26T13:35:23.258Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,32 +38,31 @@
       "summary": "Qualcomm의 새로운 ‘Elite’ 사운드 칩이 마침내 Wi-Fi 이어버드의 꿈을 이룰지도 모릅니다.",
       "latest": "2026-09-24 23:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:10:45.585Z",
+      "lastRefreshed": "2026-09-26T13:35:23.258Z",
       "themes": []
     },
     {
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 10,
+      "count": 9,
       "summary": "14개 도시에서 15,000개까지: 로봇 택시 확장을 위해 무엇이 필요할까요?",
       "latest": "2026-09-26 12:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:10:45.585Z",
+      "lastRefreshed": "2026-09-26T13:35:23.258Z",
       "themes": [
-        "주요 기업",
-        "미술·디자인"
+        "주요 기업"
       ]
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
+      "count": 5,
       "summary": "Kiteworks는 고객이 가능한 사이버 공격에 대해 9시간 동안 시스템을 종료할 것을 촉구합니다.",
       "latest": "2026-09-26 07:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:10:45.585Z",
+      "lastRefreshed": "2026-09-26T13:35:23.258Z",
       "themes": [
         "미술·디자인"
       ]
@@ -76,10 +75,9 @@
       "summary": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
       "latest": "2026-09-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:10:45.585Z",
+      "lastRefreshed": "2026-09-26T13:35:23.258Z",
       "themes": [
-        "미술·디자인",
-        "주요 기업"
+        "미술·디자인"
       ]
     },
     {
@@ -90,7 +88,7 @@
       "summary": "도넛 배터리 입증: 리튬이나 나트륨이 아닌 배터리를 증명하는 요소 분석",
       "latest": "2026-09-26 02:52",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-26T13:10:45.585Z",
+      "lastRefreshed": "2026-09-26T13:35:23.258Z",
       "themes": []
     },
     {
@@ -101,7 +99,7 @@
       "summary": "v16.4.0-canary.48",
       "latest": "2026-09-25 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T13:10:45.585Z",
+      "lastRefreshed": "2026-09-26T13:35:23.258Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -125,6 +123,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "EU turns to Norway and Canada for space launch sites - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNU5fUzhMSjVoU0Q3VUtMLTBhUzEzenlwbHk5QTA4SFBrVUJTT3lvU0w3RUFITzBndmxrWHBmN1lZTU9WT0FpZFpkU1hEeG83YWhRNXd4dmUyeUc0R3JDckE2enpnelo4R0F4NjVETllBZm45akk3aXpjdGtMcmtMbFlvS2E?oc=5",
+        "source": "Financial Times",
+        "date": "2026-09-26 04:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "EU, 우주 발사 장소를 위해 노르웨이와 캐나다로 전환 - 파이낸셜 타임스",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "v16.4.0-canary.48",
@@ -285,22 +299,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Changes to query results in the GitHub Actions API and UI",
-        "url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
-        "source": "GitHub Changelog",
-        "date": "2026-09-25 18:17",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub Actions API 및 UI의 쿼리 결과 변경",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -412,24 +410,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Epson introduces AX6 cobot with compact design, no-code programming",
-        "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
-        "source": "The Robot Report",
-        "date": "2026-09-24 14:51",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "엡손, 컴팩트한 디자인, 노코드 프로그래밍을 갖춘 AX6 코봇 출시",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [],
@@ -462,6 +442,22 @@
         "category": "사이버보안",
         "titleKo": "Kiteworks는 고객이 가능한 사이버 공격에 대해 9시간 동안 시스템을 종료할 것을 촉구합니다.",
         "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "EU turns to Norway and Canada for space launch sites - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNU5fUzhMSjVoU0Q3VUtMLTBhUzEzenlwbHk5QTA4SFBrVUJTT3lvU0w3RUFITzBndmxrWHBmN1lZTU9WT0FpZFpkU1hEeG83YWhRNXd4dmUyeUc0R3JDckE2enpnelo4R0F4NjVETllBZm45akk3aXpjdGtMcmtMbFlvS2E?oc=5",
+        "source": "Financial Times",
+        "date": "2026-09-26 04:00",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "EU, 우주 발사 장소를 위해 노르웨이와 캐나다로 전환 - 파이낸셜 타임스",
+        "type": "출시·업데이트",
         "themes": [],
         "official": false,
         "sourceLayer": "analysis",
@@ -589,6 +585,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeE92UElhcnhBT3RsRTloWkFsdnJtVE1FSndUbUgwaVFteU5ZU1hwMlBMZ0d1al9lc3VZWV9ROXp0emdLX0RWRkN5Nkw3MWQ1LV83dzBrWmI0TEZLQV9ERVZGS1RUaEdjYTdpSmlheG9kMlVhVHYzSk4taXFGc0xzeHlhd3lhclFKOVllWThmOVktTW8wZHNfQzdsSER1dlp6QzlMRHVKQWx6c3JES1R4Rzd0V1g3Q3JNMWc?oc=5",
+        "source": "Axios",
+        "date": "2026-09-25 20:55",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
         "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
         "source": "TechCrunch",
@@ -601,40 +613,6 @@
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
-        "url": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
-        "source": "Ars Technica",
-        "date": "2026-09-25 19:11",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인공지능은 새로운 졸업생들에게 큰 타격을 주기로 되어 있었다. 지금까지 실업률 데이터에는 그렇지 않다고 나와 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Sony and UMG are suing Suno again",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
-        "source": "The Verge",
-        "date": "2026-09-25 19:09",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Sony와 UMG가 Suno를 다시 고소합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -812,6 +790,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "EU turns to Norway and Canada for space launch sites - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNU5fUzhMSjVoU0Q3VUtMLTBhUzEzenlwbHk5QTA4SFBrVUJTT3lvU0w3RUFITzBndmxrWHBmN1lZTU9WT0FpZFpkU1hEeG83YWhRNXd4dmUyeUc0R3JDckE2enpnelo4R0F4NjVETllBZm45akk3aXpjdGtMcmtMbFlvS2E?oc=5",
+      "source": "Financial Times",
+      "date": "2026-09-26 04:00",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "EU, 우주 발사 장소를 위해 노르웨이와 캐나다로 전환 - 파이낸셜 타임스",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Donut Battery Vindicated: Element Analysis Proves Battery Not Lithium Or Sodium",
       "url": "https://cleantechnica.com/2026/09/25/donut-battery-vindicated-element-analysis-proves-battery-not-lithium-or-sodium/",
       "source": "CleanTechnica",
@@ -890,6 +884,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54bWQzZnNOSEoycjVzbWZaU0NVbF9HSFVPeEJJcVd2SEgxNjREcXAxajhiVjNJUTFJWFQ4QndJdnNqSEhkeDhUOVkta21aQjJ5eXlJSHVaSGhzX2c?oc=5",
+      "source": "BBC",
+      "date": "2026-09-25 23:05",
+      "categoryId": "cyber",
+      "confidence": "B",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "FBI 해킹 내부: '위험한' 데이터 유출 후 두려워하고 분노하는 요원 - BBC",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
@@ -1031,22 +1041,20 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
-      "source": "Reuters",
-      "date": "2026-09-25 20:44",
+      "title": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeE92UElhcnhBT3RsRTloWkFsdnJtVE1FSndUbUgwaVFteU5ZU1hwMlBMZ0d1al9lc3VZWV9ROXp0emdLX0RWRkN5Nkw3MWQ1LV83dzBrWmI0TEZLQV9ERVZGS1RUaEdjYTdpSmlheG9kMlVhVHYzSk4taXFGc0xzeHlhd3lhclFKOVllWThmOVktTW8wZHNfQzdsSER1dlp6QzlMRHVKQWx6c3JES1R4Rzd0V1g3Q3JNMWc?oc=5",
+      "source": "Axios",
+      "date": "2026-09-25 20:55",
       "categoryId": "ai",
-      "confidence": "B",
+      "confidence": "C",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "예외: OpenAI는 사용자 데이터 유출이 발생함에 따라 상담원 활동의 전체 범위를 이해하기 위해 노력합니다. - Reuters",
+      "titleKo": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
       "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
+      "themes": [],
       "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Too AI; Didn't Read",
@@ -1063,6 +1071,24 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-25 20:37",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "예외: OpenAI는 사용자 데이터 유출이 발생함에 따라 상담원 활동의 전체 범위를 이해하기 위해 노력합니다. - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "v0.37.3",
@@ -1481,6 +1507,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWjc1MXpFT0FUZjc5REh1eVVhWVNRd3NQLUc1Nzd0TkF1ZmFSNTVJSHRNUkFjYW5IZVZqdnRqOXFZaTZXWjQtb1g2RFVJOThUR1EwTE4zck5yS3MwbmROU1pmYk5UWDlqWnlscWFULTF3d05XMzA1MFB3WjVsY255dDZBcktUcDdQeTNjNW0yWUM0STRpZUptbUdvMHJ1aXgzUzBHaVM5ZHJyLXZDTDFzZjktYko4b3YxVk0ta3ZFNy00M2plTEZFNVRBZw?oc=5",
+      "source": "The Guardian",
+      "date": "2026-09-25 15:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma - The Guardian",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
       "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
       "source": "The Hacker News",
@@ -1889,22 +1933,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeE92UElhcnhBT3RsRTloWkFsdnJtVE1FSndUbUgwaVFteU5ZU1hwMlBMZ0d1al9lc3VZWV9ROXp0emdLX0RWRkN5Nkw3MWQ1LV83dzBrWmI0TEZLQV9ERVZGS1RUaEdjYTdpSmlheG9kMlVhVHYzSk4taXFGc0xzeHlhd3lhclFKOVllWThmOVktTW8wZHNfQzdsSER1dlp6QzlMRHVKQWx6c3JES1R4Rzd0V1g3Q3JNMWc?oc=5",
-      "source": "Axios",
-      "date": "2026-09-24 21:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Meet S.A.R.A.H.: The AI bot answering non-emergency calls in Colorado Springs - Axios",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "5 million robots are now at work in factories worldwide, reports the IFR",
       "url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
       "source": "The Robot Report",
@@ -2019,66 +2047,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Epson introduces AX6 cobot with compact design, no-code programming",
-      "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
-      "source": "The Robot Report",
-      "date": "2026-09-24 14:51",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "엡손, 컴팩트한 디자인, 노코드 프로그래밍을 갖춘 AX6 코봇 출시",
-      "type": "출시·업데이트",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Google plans first test of AI chips in space under Project Suncatcher - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZmNaNWFQQUxEalIzZUJfLUMwcTFVUmw3c0hGMDJ5NllYa0RuZ0VyeFhiV0JWOTVvMk54ZmVXLWNjcFhhby1DM0g0U3gzc0VFRlJzTG13WmN3U2VZMTdDU3BhMkk2MDJGWHExQk5nQ1Z3YjJNdXRkcktQb1A2QXduMDJQcDZ1ZFhlT2VySzBrMEpDQVFJTE9GY0l5VHNVemoySU83Tm5Ma3pfNG5vNlY0MjBzUUFEaFoxaVJDWmRTbw?oc=5",
-      "source": "Reuters",
-      "date": "2026-09-24 14:11",
-      "categoryId": "space",
-      "confidence": "B",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Google은 Project Suncatcher - Reuters 하에서 우주에서 AI 칩의 첫 번째 테스트를 계획합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "source": "Hugging Face Blog",
-      "date": "2026-09-24 14:08",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "LFM2.5-VL-DSpark로 비전 언어 모델 가속화",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 7,
-    "checkedAt": "2026. 9. 26. PM 10:10",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 6,
+    "checkedAt": "2026. 9. 26. PM 10:35",
+    "mode": "하루 2회 전체 수집"
   }
 }
