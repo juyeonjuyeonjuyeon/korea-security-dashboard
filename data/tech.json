@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 27. AM 8:24",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 9. 27. AM 10:32",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.4.0-canary.50",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 18,
+    "recentCount": 19,
     "sourceCount": 21,
     "officialCount": 25,
     "opportunityCount": 0
   },
   "summary": [
     "새 출시: v16.4.0-canary.50",
-    "창작 기술: 보안되지 않은 OpenAI 에이전트가 실험실에서 모르는 사이에 53개의 사용자 이미지를 인터넷에 게시했습니다."
+    "창작 기술: 드로젠트: 라이브 엑스칼리드로우 캔버스의 코딩 에이전트"
   ],
   "categories": [
     {
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 33,
-      "summary": "보험사들은 AI가 이미 의료 비용을 증가시키고 있다고 주장합니다.",
-      "latest": "2026-09-26 21:02",
+      "summary": "Google은 인도의 Gemini 및 AI 모드를 통해 Walmart 소유의 Flipkart에서 구매를 테스트합니다.",
+      "latest": "2026-09-27 01:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T23:24:13.388Z",
+      "lastRefreshed": "2026-09-27T01:32:25.795Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -38,7 +38,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T23:24:13.388Z",
+      "lastRefreshed": "2026-09-27T01:32:25.795Z",
       "themes": []
     },
     {
@@ -49,7 +49,7 @@
       "summary": "지구 동기 궤도로 수리 로봇을 보내는 DARPA의 사명 - IEEE 스펙트럼 내부",
       "latest": "2026-09-26 15:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T23:24:13.388Z",
+      "lastRefreshed": "2026-09-27T01:32:25.795Z",
       "themes": [
         "주요 기업"
       ]
@@ -62,7 +62,7 @@
       "summary": "Lunex Stealer는 AMD 드라이버를 악용하여 보안 모니터링을 비활성화하고 브라우저 자격 증명을 훔칩니다",
       "latest": "2026-09-26 18:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T23:24:13.388Z",
+      "lastRefreshed": "2026-09-27T01:32:25.795Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -76,7 +76,7 @@
       "summary": "APOD: 2026년 9월 26일 – 미러링된 유성 및 은하수",
       "latest": "2026-09-26 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T23:24:13.388Z",
+      "lastRefreshed": "2026-09-27T01:32:25.795Z",
       "themes": [
         "미술·디자인"
       ]
@@ -89,7 +89,7 @@
       "summary": "지열 에너지 와일드 카드가 점점 더 와일드해지고 있습니다",
       "latest": "2026-09-26 15:35",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-26T23:24:13.388Z",
+      "lastRefreshed": "2026-09-27T01:32:25.795Z",
       "themes": [
         "주요 기업"
       ]
@@ -100,9 +100,9 @@
       "label": "소프트웨어·개발",
       "count": 17,
       "summary": "v16.4.0-canary.50",
-      "latest": "2026-09-26 23:22",
+      "latest": "2026-09-26 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-26T23:24:13.388Z",
+      "lastRefreshed": "2026-09-27T01:32:25.795Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -115,7 +115,7 @@
         "title": "v16.4.0-canary.50",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.50",
         "source": "GitHub · Next.js",
-        "date": "2026-09-26 23:22",
+        "date": "2026-09-26 23:44",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -306,6 +306,24 @@
     ],
     "creative": [
       {
+        "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+        "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+        "source": "Hacker News",
+        "date": "2026-09-26 15:56",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "드로젠트: 라이브 엑스칼리드로우 캔버스의 코딩 에이전트",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
         "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
         "source": "TechCrunch",
@@ -341,24 +359,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
-        "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
-        "source": "Hacker News",
-        "date": "2026-09-25 18:37",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "앨런 케이: 섀넌이 시끄러운 채널을 다루는 방법을 알려줬어요 [동영상]",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "2026-2027 DWU: Middle School Design Challenge",
@@ -418,6 +418,24 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+        "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+        "source": "TechCrunch",
+        "date": "2026-09-27 01:30",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Google은 인도의 Gemini 및 AI 모드를 통해 Walmart 소유의 Flipkart에서 구매를 테스트합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Insurers claim AI is already increasing healthcare costs",
         "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
@@ -599,25 +617,45 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Sierra Club’s Utility Report Card Shows NV Energy’s Sierra Pacific Power Company Receives Lowest Grade Yet",
-        "url": "https://cleantechnica.com/2026/09/25/sierra-clubs-utility-report-card-shows-nv-energys-sierra-pacific-power-company-receives-lowest-grade-yet/",
-        "source": "CleanTechnica",
-        "date": "2026-09-26 00:18",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "NV Energy의 Sierra Pacific Power Company가 가장 낮은 등급을 받았음을 보여주는 Sierra Club의 유틸리티 보고서 카드",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+        "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+        "source": "Hacker News",
+        "date": "2026-09-26 15:56",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "드로젠트: 라이브 엑스칼리드로우 캔버스의 코딩 에이전트",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "OpenAI bots meddled with multiple US Government agency sites",
+        "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+        "source": "Hacker News",
+        "date": "2026-09-26 14:03",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "OpenAI 봇이 여러 미국 정부 기관 사이트에 개입",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "One Month Without AI",
         "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
@@ -683,49 +721,33 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
-        "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
-        "source": "Hacker News",
-        "date": "2026-09-25 18:37",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "앨런 케이: 섀넌이 시끄러운 채널을 다루는 방법을 알려줬어요 [동영상]",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-        "url": "https://ollaya.dev/",
-        "source": "Hacker News",
-        "date": "2026-09-25 18:33",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Ollaya – 오픈 소스, Jev 스타일 의사 결정 모델을 위한 Ollama",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
     {
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "source": "TechCrunch",
+      "date": "2026-09-27 01:30",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google은 인도의 Gemini 및 AI 모드를 통해 Walmart 소유의 Flipkart에서 구매를 테스트합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.4.0-canary.50",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.50",
       "source": "GitHub · Next.js",
-      "date": "2026-09-26 23:22",
+      "date": "2026-09-26 23:44",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -806,6 +828,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "source": "Hacker News",
+      "date": "2026-09-26 15:56",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "드로젠트: 라이브 엑스칼리드로우 캔버스의 코딩 에이전트",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "The Geothermal Energy Wild Card Is Getting Wilder",
       "url": "https://cleantechnica.com/2026/09/26/geothermal-energy-us-policy-renewable-sustainable/",
       "source": "CleanTechnica",
@@ -836,6 +876,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI bots meddled with multiple US Government agency sites",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "source": "Hacker News",
+      "date": "2026-09-26 14:03",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "OpenAI 봇이 여러 미국 정부 기관 사이트에 개입",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Tesla Full Self Driving Unsupervised Soon? And Further Conversations with Ara (the Grok AI Bot)",
@@ -1403,24 +1461,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
-      "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
-      "source": "Hacker News",
-      "date": "2026-09-25 18:37",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "앨런 케이: 섀넌이 시끄러운 채널을 다루는 방법을 알려줬어요 [동영상]",
-      "type": "뉴스·분석",
-      "themes": [
-        "영상"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
       "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
       "source": "TechCrunch",
@@ -1430,38 +1470,6 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "미국 IPO를 앞두고 영국 AI neocloud Nscale은 전환 자금 조달에서 $ 3.36 B를 확보합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-      "url": "https://ollaya.dev/",
-      "source": "Hacker News",
-      "date": "2026-09-25 18:33",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Ollaya – 오픈 소스, Jev 스타일 의사 결정 모델을 위한 Ollama",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Ahead of U.S. IPO, British AI neocloud Nscale secures $3.36B in convertible finacing",
-      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-      "source": "TechCrunch",
-      "date": "2026-09-25 18:33",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "미국 IPO를 앞두고 영국 AI neocloud Nscale은 컨버터블 피니싱에서 $ 3.36 B를 확보합니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -2044,11 +2052,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 6,
-    "checkedAt": "2026. 9. 27. AM 8:24",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 27. AM 10:32",
+    "mode": "매시간 공식 레이더"
   }
 }
