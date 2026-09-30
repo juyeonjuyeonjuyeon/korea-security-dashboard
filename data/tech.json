@@ -1,18 +1,19 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 9. 30. AM 9:06",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v16.4.0-canary.53",
+  "updatedAt": "2026. 9. 30. AM 9:32",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v3.22.1",
   "metrics": {
     "articleCount": 80,
     "recentCount": 79,
-    "sourceCount": 28,
-    "officialCount": 23,
-    "opportunityCount": 0
+    "sourceCount": 26,
+    "officialCount": 25,
+    "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v16.4.0-canary.53",
+    "새 출시: v3.22.1",
     "창작 기술: AI 연구원은 슈퍼 인텔리전스가 ‘정확히 말처럼 위험하다‘ 고 말하는 동영상을 내놓았습니다.",
+    "행사·무료: NASA는 국제 우주 컨퍼런스에서 탐사, 과학을 특징으로합니다.",
     "인물 발언: OpenAI가 계속 가격을 낮추는 것을 보세요, Sam Altman이 말합니다 - Bloomberg"
   ],
   "categories": [
@@ -20,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 47,
-      "summary": "트럼프는 미국 정부에 AI를 ‘슈퍼 인텔리전스 (Super Intelligence)‘ 라고 부르",
-      "latest": "2026-09-29 23:34",
+      "count": 46,
+      "summary": "Sam Altman은 OpenAI의 모델이 안전할 때까지 공개하지 않을 것이라고 말합니다.",
+      "latest": "2026-09-30 00:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T00:06:19.013Z",
+      "lastRefreshed": "2026-09-30T00:32:33.753Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -39,7 +40,7 @@
       "summary": "칩 스타트업 Efficient Computer, $ 6억 5천만 밸류에이션으로 $ 9700만 모금 - Reuters",
       "latest": "2026-09-29 15:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T00:06:19.013Z",
+      "lastRefreshed": "2026-09-30T00:32:33.753Z",
       "themes": []
     },
     {
@@ -50,7 +51,7 @@
       "summary": "제조업에 종사하는 로봇의 상태",
       "latest": "2026-09-29 13:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T00:06:19.013Z",
+      "lastRefreshed": "2026-09-30T00:32:33.753Z",
       "themes": []
     },
     {
@@ -61,7 +62,7 @@
       "summary": "Tesla는 Cybercab, Optimus를 확장하기 위해 새로운 신용 라인에서 $ 30B를 확보합니다.",
       "latest": "2026-09-29 21:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T00:06:19.013Z",
+      "lastRefreshed": "2026-09-30T00:32:33.753Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -72,10 +73,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 7,
-      "summary": "NASA, 서비스 계약 시작에 Blue Origin New Glenn 9 × 4 추가",
-      "latest": "2026-09-29 20:08",
+      "summary": "NASA, 달 통신을 위한 2027년 인간 착륙선 챌린지 개막",
+      "latest": "2026-09-29 21:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T00:06:19.013Z",
+      "lastRefreshed": "2026-09-30T00:32:33.753Z",
       "themes": []
     },
     {
@@ -86,7 +87,7 @@
       "summary": "VLA 2.0 vs. FSD in Amsterdam — Part 2: Tesla Model 3",
       "latest": "2026-09-29 05:10",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-30T00:06:19.013Z",
+      "lastRefreshed": "2026-09-30T00:32:33.753Z",
       "themes": [
         "주요 기업"
       ]
@@ -95,11 +96,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
-      "summary": "v16.4.0-canary.53",
-      "latest": "2026-09-29 23:51",
+      "count": 19,
+      "summary": "v3.22.1",
+      "latest": "2026-09-30 00:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T00:06:19.013Z",
+      "lastRefreshed": "2026-09-30T00:32:33.753Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -108,6 +109,24 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.22.1",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.22.1",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-09-30 00:25",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.22.1",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.4.0-canary.53",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.53",
@@ -159,6 +178,22 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
+        "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
+        "source": "NASA",
+        "date": "2026-09-29 21:27",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA, 달 통신을 위한 2027년 인간 착륙선 챌린지 개막",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjJKXy1xWWNFX3hLZktkaW5tZ2Q3cHoyZ3FnTDRHM2hQSlFjRVJ5X253RUNmZTg5VjJtOUFnMlhpZHN5VU5meVFGTWRFbWprUnBrb3pnMjl1bjJIUWdjQ2ZXa0w5V2g0X3E4ODloa0FmTXc3MTlHMDBQZFh6LXpYbTUwbVBYcTZSMEh1MXRQbFdyRFdBbzhPbmFn?oc=5",
         "source": "The Guardian",
@@ -175,6 +210,22 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
+        "url": "https://www.nasa.gov/news-release/nasa-awards-orbital-safety-analysis-support-services-contract/",
+        "source": "NASA",
+        "date": "2026-09-29 21:00",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA 시상식 궤도 안전 분석 지원 서비스 계약",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       },
       {
         "title": "OpenAI launches Dots, its Muse competitor",
@@ -259,58 +310,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Bring business context with external custom properties",
-        "url": "https://github.blog/changelog/2026-09-29-bring-business-context-with-external-custom-properties",
-        "source": "GitHub Changelog",
-        "date": "2026-09-29 18:40",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "외부 사용자 지정 속성을 사용하여 비즈니스 컨텍스트 가져오기",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "OpenAI DevDay 2026: The biggest news and announcements",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-        "source": "The Verge",
-        "date": "2026-09-29 18:16",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI DevDay 2026: 가장 큰 뉴스 및 발표",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-        "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-        "source": "TechCrunch",
-        "date": "2026-09-29 17:45",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI는 ChatGPT의 자체 오피스 제품군과 같은 느낌의 출시와 함께 Microsoft를 인수합니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -352,7 +351,24 @@
         "layerLabel": "전문가·기술 분석"
       }
     ],
-    "opportunities": [],
+    "opportunities": [
+      {
+        "title": "NASA Features Exploration, Science at International Space Conference",
+        "url": "https://www.nasa.gov/news-release/nasa-features-exploration-science-at-international-space-conference/",
+        "source": "NASA",
+        "date": "2026-09-29 20:55",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA는 국제 우주 컨퍼런스에서 탐사, 과학을 특징으로합니다.",
+        "type": "행사",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      }
+    ],
     "voices": [
       {
         "title": "Watch OpenAI Will Keep Driving Down Prices, Sam Altman Says - Bloomberg",
@@ -391,24 +407,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Sam Altman says OpenAI will delay its IPO until it overcomes safety concerns - Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaUViY1R6MFNqS1dEYnRjVTVELVRjdENjUFpUOEdPazJZTU4yNWt1TjlCOFBndjJFUFdWQTMwMkJQUF9pb2dnWTBSdU5aOFRsandmbUI1UWJ2eHdaMkxtZGw5NkgyUzFGWkl4aHB4UjFRMkRVSXZZUlA5TTVKWkhPQzd3VWk?oc=5",
-        "source": "Financial Times",
-        "date": "2026-09-29 17:15",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "샘 알트먼 (Sam Altman) 은 OpenAI가 안전 문제를 극복할 때까지 IPO를 연기할 것이라고 말했습니다. - 파이낸셜 타임즈",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "Watch CNBC's full interview with OpenAI CEO Sam Altman - CNBC",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVUhlc09BTU1ZQjZUOERvN1lXN2pLejhzM1FSUDZ3VVh3eUV5Tkk1aDJwOTVhUVBlQWVTVE1Jbm14Y2J4ZDRyMFFmeVhTbk1fN2ZiU1R1T043T0duU1U3aWEySVg4MVJSNnFtaEZhdmNRV2VwQmR6SWkxQVNxM0ZURk1lX05XejAxanQyeVpFQWtLbGE3anYtSlJpZHk?oc=5",
         "source": "CNBC",
@@ -428,6 +426,24 @@
       }
     ],
     "analysis": [
+      {
+        "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+        "source": "The Verge",
+        "date": "2026-09-30 00:26",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Sam Altman은 OpenAI의 모델이 안전할 때까지 공개하지 않을 것이라고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Trump orders US government to call AI ‘Super Intelligence’",
         "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
@@ -622,24 +638,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
-        "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-        "source": "TechCrunch",
-        "date": "2026-09-29 19:52",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI는 $ 1.4T 밸류에이션에서 $ 30B 라운드를 모금하기 위해 회담에서 재현되었습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -742,6 +740,42 @@
     ]
   },
   "news": [
+    {
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "source": "The Verge",
+      "date": "2026-09-30 00:26",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Sam Altman은 OpenAI의 모델이 안전할 때까지 공개하지 않을 것이라고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v3.22.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.22.1",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-09-30 00:25",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.22.1",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "v16.4.0-canary.53",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.53",
@@ -897,6 +931,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
+      "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
+      "source": "NASA",
+      "date": "2026-09-29 21:27",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA, 달 통신을 위한 2027년 인간 착륙선 챌린지 개막",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjJKXy1xWWNFX3hLZktkaW5tZ2Q3cHoyZ3FnTDRHM2hQSlFjRVJ5X253RUNmZTg5VjJtOUFnMlhpZHN5VU5meVFGTWRFbWprUnBrb3pnMjl1bjJIUWdjQ2ZXa0w5V2g0X3E4ODloa0FmTXc3MTlHMDBQZFh6LXpYbTUwbVBYcTZSMEh1MXRQbFdyRFdBbzhPbmFn?oc=5",
       "source": "The Guardian",
@@ -952,6 +1002,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-orbital-safety-analysis-support-services-contract/",
+      "source": "NASA",
+      "date": "2026-09-29 21:00",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA 시상식 궤도 안전 분석 지원 서비스 계약",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "OpenAI launches Dots, its Muse competitor",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
       "source": "The Verge",
@@ -968,6 +1034,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "NASA Features Exploration, Science at International Space Conference",
+      "url": "https://www.nasa.gov/news-release/nasa-features-exploration-science-at-international-space-conference/",
+      "source": "NASA",
+      "date": "2026-09-29 20:55",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA는 국제 우주 컨퍼런스에서 탐사, 과학을 특징으로합니다.",
+      "type": "행사",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "OpenAI’s latest features take direct aim at the app store model",
@@ -1002,6 +1084,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+      "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "source": "TechCrunch",
+      "date": "2026-09-29 19:52",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 $ 1.4T 밸류에이션으로 $ 30B 라운드 조달을 위한 간담회에서 보고된 바 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
@@ -1213,24 +1313,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-      "source": "TechCrunch",
-      "date": "2026-09-29 17:45",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI는 ChatGPT의 자체 오피스 제품군과 같은 느낌의 출시와 함께 Microsoft를 인수합니다.",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v3.21.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.21.0",
       "source": "GitHub · OpenAI Python",
@@ -1265,24 +1347,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Protesters gather at OpenAI’s DevDay",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
-      "source": "The Verge",
-      "date": "2026-09-29 17:30",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI의 DevDay에 시위대가 모입니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "ChatGPT Pro 500",
       "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
       "source": "Hacker News",
@@ -1297,24 +1361,6 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Sam Altman says OpenAI will delay its IPO until it overcomes safety concerns - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaUViY1R6MFNqS1dEYnRjVTVELVRjdENjUFpUOEdPazJZTU4yNWt1TjlCOFBndjJFUFdWQTMwMkJQUF9pb2dnWTBSdU5aOFRsandmbUI1UWJ2eHdaMkxtZGw5NkgyUzFGWkl4aHB4UjFRMkRVSXZZUlA5TTVKWkhPQzd3VWk?oc=5",
-      "source": "Financial Times",
-      "date": "2026-09-29 17:15",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "샘 알트먼 (Sam Altman) 은 OpenAI가 안전 문제를 극복할 때까지 IPO를 연기할 것이라고 말했습니다. - 파이낸셜 타임즈",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Dots: Always-on agents",
@@ -1399,22 +1445,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Crew-13 Rocket and Spacecraft at Launch Pad - NASA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNLVEwRmc3Rlg0a0xWeWtLY25sUFRZdHFKTGpiS3YwaVRMVVIzMFlXT3M5dXFHRVlnc2FtUVZWSUw5UDdGYU5Lamoxb1pPVW4xY2FLV0hHdWtoMERLNzhiQ1JqVHZUOVdjWVB5MmlId2Y3djFlZVpBUGVfUE8wVFd3X0xoMEJEQQ?oc=5",
-      "source": "NASA (.gov)",
-      "date": "2026-09-29 16:18",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "발사대의 크루-13 로켓 및 우주선 - NASA (.gov)",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "OpenAI DevDay 2026 live blog",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
       "source": "Simon Willison",
@@ -1431,6 +1461,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Crew-13 Rocket and Spacecraft at Launch Pad",
+      "url": "https://www.nasa.gov/image-article/crew-13-rocket-and-spacecraft-at-launch-pad/",
+      "source": "NASA",
+      "date": "2026-09-29 15:31",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "발사대의 크루-13 로켓과 우주선",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
@@ -1465,22 +1511,6 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "NASA Opens Applications for Second Season of ORBIT Student Challenge",
-      "url": "https://www.nasa.gov/learning-resources/research-program-for-students/",
-      "source": "NASA",
-      "date": "2026-09-29 15:11",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA, ORBIT Student Challenge 두 번째 시즌 신청 열기",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Developer policy update: Transparency, state policy, and what’s ahead - The GitHub Blog",
@@ -1533,22 +1563,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "NSTGRO 2026",
-      "url": "https://www.nasa.gov/directorates/stmd/space-tech-research-grants/nstgro/nstgro-2026/",
-      "source": "NASA",
-      "date": "2026-09-29 14:20",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NSTGRO 2026",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Anthropic’s IPO pitch includes a warning about human extinction",
       "url": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
       "source": "Ars Technica",
@@ -1565,22 +1579,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Under the Microscope: NASA-Made Material for Moon Manufacturing",
-      "url": "https://www.nasa.gov/image-article/nasa-made-material-moon-manufacturing/",
-      "source": "NASA",
-      "date": "2026-09-29 14:00",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "현미경 아래: NASA-달 제조용 재료 제작",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
@@ -2103,11 +2101,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 42,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 9. 30. AM 9:06",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 9. 30. AM 9:32",
+    "mode": "매시간 공식 레이더"
   }
 }
