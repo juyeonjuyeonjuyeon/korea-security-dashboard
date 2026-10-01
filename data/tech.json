@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 1. 오전 8:55",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 10. 1. AM 9:24",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v16.4.0-canary.54",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 74,
-    "sourceCount": 26,
-    "officialCount": 35,
+    "recentCount": 75,
+    "sourceCount": 27,
+    "officialCount": 34,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 38,
+      "count": 36,
       "summary": "Google은 가장 강력한 모델이라고 불리는 Gemini 4 Argon을 출시합니다.",
       "latest": "2026-09-30 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T23:55:31.231Z",
+      "lastRefreshed": "2026-10-01T00:24:37.490Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
-      "summary": "NVIDIA, 최대 $ 60,000의 상금을 수여하는 2027-2028 대학원 펠로우십 신청서 개설",
-      "latest": "2026-09-30 17:00",
+      "count": 4,
+      "summary": "AI와 Quantum TechWill, 의료 및 의학 연구 혁신 - Forbes",
+      "latest": "2026-09-30 20:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T23:55:31.231Z",
+      "lastRefreshed": "2026-10-01T00:24:37.490Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "로봇 보고서 상위 Arrowfly는 AI를 탐색하는 엔지니어를 위한 이벤트인 AI for Engineers 플랫폼을 출시합니다.",
       "latest": "2026-09-30 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T23:55:31.231Z",
+      "lastRefreshed": "2026-10-01T00:24:37.490Z",
       "themes": [
         "기회"
       ]
@@ -65,7 +65,7 @@
       "summary": "공격자는 ChatGPT 사용자 지정 GPT를 악용하여 ClickFix Lures를 통해 RAT를 전달합니다.",
       "latest": "2026-09-30 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T23:55:31.231Z",
+      "lastRefreshed": "2026-10-01T00:24:37.490Z",
       "themes": [
         "미술·디자인"
       ]
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 9,
-      "summary": "동물원이 우주 먼지를 드러내도록 도와주세요",
-      "latest": "2026-09-30 21:19",
+      "count": 11,
+      "summary": "갈릴레오 스페이스는 궤도에서 신호를 응답으로 전환하는 위성을 구축하고 있습니다.",
+      "latest": "2026-10-01 00:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T23:55:31.231Z",
+      "lastRefreshed": "2026-10-01T00:24:37.490Z",
       "themes": []
     },
     {
@@ -89,18 +89,18 @@
       "summary": "노르웨이는 실제 버스 사이버 위험을 발견했습니다. 중국어로 표시되지 않았습니다.",
       "latest": "2026-09-30 15:54",
       "cadence": "격주",
-      "lastRefreshed": "2026-09-30T23:55:31.231Z",
+      "lastRefreshed": "2026-10-01T00:24:37.490Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 25,
+      "count": 24,
       "summary": "v16.4.0-canary.54",
       "latest": "2026-09-30 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-09-30T23:55:31.231Z",
+      "lastRefreshed": "2026-10-01T00:24:37.490Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -144,6 +144,38 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Curiosity Blog, Sols 5016–5021: Fantastic Minerals and How To Detect Them",
+        "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5016-5021-fantastic-minerals-and-how-to-detect-them/",
+        "source": "NASA",
+        "date": "2026-09-30 23:37",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "호기심 블로그, Sols 5016–5021: 환상적인 미네랄 및 미네랄 검출 방법",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Vercel Agent now installs private packages from npm and custom registries",
+        "url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries",
+        "source": "Vercel Changelog",
+        "date": "2026-09-30 23:22",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "이제 Vercel Agent가 npm 및 사용자 지정 레지스트리에서 개인 패키지를 설치합니다.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v1.11.0",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.11.0",
         "source": "GitHub · Anthropic SDK",
@@ -160,6 +192,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Google announces Gemini 4 flagship AI model after months of delays - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5",
+        "source": "Reuters",
+        "date": "2026-09-30 22:16",
+        "categoryId": "ai",
+        "confidence": "B",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Google, 수개월의 지연 끝에 Gemini 4 플래그십 AI 모델 발표 - Reuters",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "verified",
+        "layerLabel": "주요 언론 확인"
       },
       {
         "title": "Help Overlap Zoo Reveal Cosmic Dust",
@@ -258,56 +308,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Neon sticks it to A24 by announcing a Creative Commons SCP Foundation movie",
-        "url": "https://www.theverge.com/entertainment/1002958/neon-a24-creative-commons-scp-foundation-movie",
-        "source": "The Verge",
-        "date": "2026-09-30 20:24",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "네온은 크리에이티브 커먼즈 SCP 재단 영화를 발표하여 A24에 고정시킵니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "v0.38.1",
-        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.1",
-        "source": "GitHub · ComfyUI",
-        "date": "2026-09-30 20:19",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "v0.38.1",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
-        "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-        "source": "Ars Technica",
-        "date": "2026-09-30 20:11",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google에서 Gemini 4 Argon AI 모델을 발표했지만 아직 사용할 수 없습니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -400,24 +400,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "How our vibe coded website looks like a designer made it",
-        "url": "https://railcode.dev/blog/vibe-coded-website",
-        "source": "Hacker News",
-        "date": "2026-09-29 22:59",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "바이브 코딩 웹사이트가 디자이너가 만든 것처럼 보이는 방식",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ],
     "opportunities": [
@@ -442,6 +424,22 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Galileo Space Is Building Satellites That Turn Signals Into Answers in Orbit",
+        "url": "https://spacenews.com/galileo-space-is-building-satellites-that-turn-signals-into-answers-in-orbit/",
+        "source": "SpaceNews",
+        "date": "2026-10-01 00:24",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "갈릴레오 스페이스는 궤도에서 신호를 응답으로 전환하는 위성을 구축하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
         "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
@@ -490,6 +488,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI And Quantum TechWill Transform Healthcare And Medical Research - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeExJcWZlOGhILWhaYTNXRUdoUnI5MVJlWDBCRGpoVDB0Vjk3SW5CMktvWGFXM1hKMkFIVUx0REc5ZkI4RVNHQ1ZBNXVxejdGSzdSX2hIWFF4UEd4QVZ5dzRNMnJzN1gzbUE0d2VOUE04R2FmRDBEMVBxWlM2N3YtS2FVWVZXaU04V2FIU085ZldLcnZ2a1oyTEtWQ1lfSlZEa2pSeks2eURRN2hsUUthUDZHUUZYSG12TUE?oc=5",
+        "source": "Forbes",
+        "date": "2026-09-30 20:27",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "AI와 Quantum TechWill, 의료 및 의학 연구 혁신 - Forbes",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -597,55 +611,17 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
-        "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-        "source": "Ars Technica",
-        "date": "2026-09-30 18:25",
-        "categoryId": "ai",
+        "title": "Planet Labs CEO on satellite launch: The first time we're launching TPUs into space - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEpHcV9FTWd0YTNLblpoSi10Qm1MVkl6Q1ZfYmJoanpFWEJ3Rnc2c09PVzdjcXNURVlGNUVkTS1nSzJFWXVPT1FZZUJ4dndocUNVVWdOTlVkT3hyS3FEYzFGNVJBZTZlT0RfWi04a094eFlIQWRKaTlLZ2FKdkdmc3lPYmRSSDdZcTdVUmpQSXBKUWg3YlNRX09LS04tWElYMkU1Q2w2N3I1OFZaeEVaU2NwWmE3cTVRLXVtMVZOTUdsUQ?oc=5",
+        "source": "CNBC",
+        "date": "2026-09-30 18:47",
+        "categoryId": "space",
         "confidence": "C",
         "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Hugging Face 해킹에 대해 OpenAI를 고소하는 비영리 단체는 \"AI가 해냈습니다\" 라고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Lawsuit demands OpenAI halt unsafe development that caused Hugging Face hack",
-        "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-        "source": "Ars Technica",
-        "date": "2026-09-30 18:25",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "소송, OpenAI에 Hugging Face 해킹의 원인이 된 안전하지 않은 개발 중단 요구",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI voice startup ElevenLabs doubles valuation to $22B",
-        "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
-        "source": "TechCrunch",
-        "date": "2026-09-30 18:23",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 음성 스타트업 ElevenLabs, $ 22B로 밸류에이션 2배 증가",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
+        "category": "우주·통신",
+        "titleKo": "Planet Labs의 위성 발사 CEO: 우주로 TPU를 발사하는 첫 번째 시간 - CNBC",
+        "type": "출시·업데이트",
+        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -715,28 +691,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "How our vibe coded website looks like a designer made it",
-        "url": "https://railcode.dev/blog/vibe-coded-website",
-        "source": "Hacker News",
-        "date": "2026-09-29 22:59",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "바이브 코딩 웹사이트가 디자이너가 만든 것처럼 보이는 방식",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Galileo Space Is Building Satellites That Turn Signals Into Answers in Orbit",
+      "url": "https://spacenews.com/galileo-space-is-building-satellites-that-turn-signals-into-answers-in-orbit/",
+      "source": "SpaceNews",
+      "date": "2026-10-01 00:24",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "갈릴레오 스페이스는 궤도에서 신호를 응답으로 전환하는 위성을 구축하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v16.4.0-canary.54",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.54",
@@ -772,6 +746,38 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Curiosity Blog, Sols 5016–5021: Fantastic Minerals and How To Detect Them",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5016-5021-fantastic-minerals-and-how-to-detect-them/",
+      "source": "NASA",
+      "date": "2026-09-30 23:37",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "호기심 블로그, Sols 5016–5021: 환상적인 미네랄 및 미네랄 검출 방법",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Vercel Agent now installs private packages from npm and custom registries",
+      "url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries",
+      "source": "Vercel Changelog",
+      "date": "2026-09-30 23:22",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "이제 Vercel Agent가 npm 및 사용자 지정 레지스트리에서 개인 패키지를 설치합니다.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v1.11.0",
       "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.11.0",
       "source": "GitHub · Anthropic SDK",
@@ -788,6 +794,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Google announces Gemini 4 flagship AI model after months of delays - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5",
+      "source": "Reuters",
+      "date": "2026-09-30 22:16",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google, 수개월의 지연 끝에 Gemini 4 플래그십 AI 모델 발표 - Reuters",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Help Overlap Zoo Reveal Cosmic Dust",
@@ -902,6 +926,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "AI And Quantum TechWill Transform Healthcare And Medical Research - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeExJcWZlOGhILWhaYTNXRUdoUnI5MVJlWDBCRGpoVDB0Vjk3SW5CMktvWGFXM1hKMkFIVUx0REc5ZkI4RVNHQ1ZBNXVxejdGSzdSX2hIWFF4UEd4QVZ5dzRNMnJzN1gzbUE0d2VOUE04R2FmRDBEMVBxWlM2N3YtS2FVWVZXaU04V2FIU085ZldLcnZ2a1oyTEtWQ1lfSlZEa2pSeks2eURRN2hsUUthUDZHUUZYSG12TUE?oc=5",
+      "source": "Forbes",
+      "date": "2026-09-30 20:27",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "AI와 Quantum TechWill, 의료 및 의학 연구 혁신 - Forbes",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Neon sticks it to A24 by announcing a Creative Commons SCP Foundation movie",
@@ -1048,6 +1088,22 @@
       "category": "인공지능",
       "titleKo": "트럼프는 인공지능 위험에 대처하기 위해 빅 테크 친구들이 스스로를 치안하는 것에 의존할 계획입니다.",
       "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Planet Labs CEO on satellite launch: The first time we're launching TPUs into space - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEpHcV9FTWd0YTNLblpoSi10Qm1MVkl6Q1ZfYmJoanpFWEJ3Rnc2c09PVzdjcXNURVlGNUVkTS1nSzJFWXVPT1FZZUJ4dndocUNVVWdOTlVkT3hyS3FEYzFGNVJBZTZlT0RfWi04a094eFlIQWRKaTlLZ2FKdkdmc3lPYmRSSDdZcTdVUmpQSXBKUWg3YlNRX09LS04tWElYMkU1Q2w2N3I1OFZaeEVaU2NwWmE3cTVRLXVtMVZOTUdsUQ?oc=5",
+      "source": "CNBC",
+      "date": "2026-09-30 18:47",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Planet Labs의 위성 발사 CEO: 우주로 TPU를 발사하는 첫 번째 시간 - CNBC",
+      "type": "출시·업데이트",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1381,6 +1437,22 @@
       "themes": [
         "주요 기업"
       ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI Agent Authorization Beyond Authentication: A Look At AWS Dogwood - GitGuardian Blog",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vYWRJSmJ6WXkyeUFaMjFTSXRaWnItRUxobm5GcW13SkhpVjg2akxjclJCSEdmTDJRSHRMa3RJMjY4TmJaVGs0MDNrb1d1ZzBDRUFubkp4QUZBZHdVVkl1Sg?oc=5",
+      "source": "GitGuardian Blog",
+      "date": "2026-09-30 15:05",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI Agent Authorization Beyond Authentication: A Look At AWS Dogwood - GitGuardian Blog",
+      "type": "뉴스·분석",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1736,22 +1808,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "APOD: 2026 September 30 – Arp 78: Peculiar Galaxy in Aries",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/",
-      "source": "NASA",
-      "date": "2026-09-30 04:05",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "APOD: 2026년 9월 30일 – Arp 78: 양자리의 특이한 은하",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
       "url": "https://arxiv.org/abs/2609.35799",
       "source": "arXiv cs.AI",
@@ -1854,15 +1910,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia - reuters.com",
+      "title": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia - Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-09-30 03:03",
       "categoryId": "software",
       "confidence": "B",
       "stream": "news",
       "category": "소프트웨어·개발",
-      "titleKo": "DeepSeek는 Huawei와 파트너십을 맺고 칩 프로그래밍 도구를 개발하여 Nvidia에 대한 의존도를 줄입니다 - reuters.com",
+      "titleKo": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia - Reuters",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1870,24 +1926,6 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjJKXy1xWWNFX3hLZktkaW5tZ2Q3cHoyZ3FnTDRHM2hQSlFjRVJ5X253RUNmZTg5VjJtOUFnMlhpZHN5VU5meVFGTWRFbWprUnBrb3pnMjl1bjJIUWdjQ2ZXa0w5V2g0X3E4ODloa0FmTXc3MTlHMDBQZFh6LXpYbTUwbVBYcTZSMEh1MXRQbFdyRFdBbzhPbmFn?oc=5",
-      "source": "The Guardian",
-      "date": "2026-09-30 01:53",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI, 안전 문제보다 새로운 AI 모델 출시 폐기 후 ‘점’ 에이전트 발표 - 가디언",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v3.22.1",
@@ -1988,100 +2026,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Trump AI deal rebrands ‘artificial intelligence’ as ‘superintelligence’ - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOFVZQVZWMk1XVVREWXRWcVZaWGZrb0dGSURLVkl4MUg0ZHFoTHNWckY5WU9hWXJuOXhnU21xY1NHM0hMM2FiQkRKdUtmWlpRcHdGbEg1MmphUXFWaEE1VC1YSGgwTlJIVlhwX0tOcl9HV2F1UnhMOHZPV3hQMkEwdWI3c2N6TGxYOWVJS052Q3E3UmM?oc=5",
-      "source": "The Guardian",
-      "date": "2026-09-29 23:21",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Trump AI deal rebrands ‘artificial intelligence’ as ‘superintelligence’ - The Guardian",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "How our vibe coded website looks like a designer made it",
-      "url": "https://railcode.dev/blog/vibe-coded-website",
-      "source": "Hacker News",
-      "date": "2026-09-29 22:59",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "바이브 코딩 웹사이트가 디자이너가 만든 것처럼 보이는 방식",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Quoting Anthropic Frontier Red Team",
-      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "source": "Simon Willison",
-      "date": "2026-09-29 22:20",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "소프트웨어·개발",
-      "titleKo": "Anthropic Frontier Red 팀 인용",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Vercel Connect now accepts service submissions",
-      "url": "https://vercel.com/changelog/vercel-connect-service-submissions",
-      "source": "Vercel Changelog",
-      "date": "2026-09-29 22:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 Vercel Connect에서 서비스 제출을 수락합니다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v0.38.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.0",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-09-29 21:46",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.38.0",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 11,
-    "checkedAt": "2026. 10. 1. 오전 8:55",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 1. AM 9:24",
+    "mode": "하루 2회 전체 수집"
   }
 }
