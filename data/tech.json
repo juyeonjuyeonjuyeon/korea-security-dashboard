@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 3. 오후 5:14",
+  "updatedAt": "2026. 10. 3. 오후 10:29",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 10월 3일 – 베라 루빈 리지에서 셀카 찍기",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 54,
+    "recentCount": 44,
     "sourceCount": 21,
     "officialCount": 31,
     "opportunityCount": 0
@@ -23,7 +23,7 @@
       "summary": "Newgrounds.com – 게임, 음악, 예술 커뮤니티",
       "latest": "2026-10-03 00:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T08:14:04.201Z",
+      "lastRefreshed": "2026-10-03T13:29:43.174Z",
       "themes": [
         "음악·음성",
         "주요 기업",
@@ -38,7 +38,7 @@
       "summary": "미국, 엔비디아 칩 $ 300M를 중국으로 밀반입한 혐의로 기술 CEO 체포",
       "latest": "2026-10-02 18:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T08:14:04.201Z",
+      "lastRefreshed": "2026-10-03T13:29:43.174Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "오므론의 차세대 LD 모바일 로봇 속으로",
       "latest": "2026-10-02 23:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T08:14:04.201Z",
+      "lastRefreshed": "2026-10-03T13:29:43.174Z",
       "themes": [
         "영상"
       ]
@@ -60,11 +60,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
-      "summary": "GitLab 패치 중요 9.9 AI 게이트웨이 결함 자체 호스팅 서버에서 명령 실행 허용",
-      "latest": "2026-10-02 17:33",
+      "count": 5,
+      "summary": "2026년 사이버 보안 현황: 주요 부문, 통찰력 및 혁신",
+      "latest": "2026-10-03 11:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T08:14:04.201Z",
+      "lastRefreshed": "2026-10-03T13:29:43.174Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
+      "count": 9,
       "summary": "APOD: 2026년 10월 3일 – 베라 루빈 리지에서 셀카 찍기",
       "latest": "2026-10-03 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T08:14:04.201Z",
+      "lastRefreshed": "2026-10-03T13:29:43.174Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -92,7 +92,7 @@
       "summary": "청정에너지 법안에 대한 뉴섬 주지사의 조치에 대한 세이아 성명서",
       "latest": "2026-10-03 00:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-03T08:14:04.201Z",
+      "lastRefreshed": "2026-10-03T13:29:43.174Z",
       "themes": [
         "기회",
         "미술·디자인"
@@ -106,7 +106,7 @@
       "summary": "v16.4.0-canary.58",
       "latest": "2026-10-02 23:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T08:14:04.201Z",
+      "lastRefreshed": "2026-10-03T13:29:43.174Z",
       "themes": [
         "영상",
         "주요 기업"
@@ -410,6 +410,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "3D movies are finally worth watching",
+        "url": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
+        "source": "The Verge",
+        "date": "2026-10-02 18:02",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "드디어 3D 영화를 볼 가치가 생겼습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
         "url": "https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller",
         "source": "The Verge",
@@ -480,30 +498,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
-        "url": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
-        "source": "The Verge",
-        "date": "2026-10-01 22:51",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Apple은 비디오를 녹화하지 않는 스마트 홈 카메라를 개발하고 있다고 합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+        "url": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+        "source": "The Hacker News",
+        "date": "2026-10-03 11:00",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "2026년 사이버 보안 현황: 주요 부문, 통찰력 및 혁신",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "SEIA Statement on Governor Newsom’s Actions on Clean Energy Bills",
         "url": "https://cleantechnica.com/2026/10/02/seia-statement-on-governor-newsoms-actions-on-clean-energy-bills/",
@@ -694,24 +709,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
-        "source": "The Verge",
-        "date": "2026-10-02 17:56",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI의 Dot 에이전트는 저녁 식사도 주문할 수 있는 엔터프라이즈 소프트웨어입니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -819,6 +816,22 @@
     ]
   },
   "news": [
+    {
+      "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+      "url": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+      "source": "The Hacker News",
+      "date": "2026-10-03 11:00",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "2026년 사이버 보안 현황: 주요 부문, 통찰력 및 혁신",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
@@ -1206,6 +1219,24 @@
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "3D movies are finally worth watching",
+      "url": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
+      "source": "The Verge",
+      "date": "2026-10-02 18:02",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "드디어 3D 영화를 볼 가치가 생겼습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
       ],
       "official": false,
       "sourceLayer": "analysis",
@@ -2029,25 +2060,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
-      "url": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
-      "source": "The Verge",
-      "date": "2026-10-01 22:51",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Apple은 비디오를 녹화하지 않는 스마트 홈 카메라를 개발하고 있다고 합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "영상"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Top 10 robotics stories of September 2026",
       "url": "https://www.therobotreport.com/top-10-robotics-stories-of-september-2026/",
       "source": "The Robot Report",
@@ -2144,22 +2156,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Rethinking risk with electronics for space",
-      "url": "https://spacenews.com/rethinking-risk-with-electronics-for-space/",
-      "source": "SpaceNews",
-      "date": "2026-10-01 14:51",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "공간에 대한 전자 장치로 위험에 대해 다시 생각하기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
@@ -2167,7 +2163,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 10. 3. 오후 5:14",
+    "checkedAt": "2026. 10. 3. 오후 10:29",
     "mode": "매시간 공식 레이더"
   }
 }
