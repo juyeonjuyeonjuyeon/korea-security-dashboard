@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 4. 오전 3:00",
+  "updatedAt": "2026. 10. 4. 오전 6:23",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 10월 3일 – 베라 루빈 리지에서 셀카 찍기",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 31,
+    "recentCount": 17,
     "sourceCount": 21,
     "officialCount": 30,
     "opportunityCount": 0
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
+      "count": 31,
       "summary": "캡콤은 ‘인공지능과 함께 게임을 만드는 미래‘ 를 준비하고 있습니다.",
       "latest": "2026-10-03 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T18:00:18.643Z",
+      "lastRefreshed": "2026-10-03T21:23:57.060Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -38,7 +38,7 @@
       "summary": "미국, 엔비디아 칩 $ 300M를 중국으로 밀반입한 혐의로 기술 CEO 체포",
       "latest": "2026-10-02 18:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T18:00:18.643Z",
+      "lastRefreshed": "2026-10-03T21:23:57.060Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "실제 AI 레이스는 특허청에서 승리합니다.",
       "latest": "2026-10-03 14:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T18:00:18.643Z",
+      "lastRefreshed": "2026-10-03T21:23:57.060Z",
       "themes": [
         "영상"
       ]
@@ -60,11 +60,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
+      "count": 5,
       "summary": "Warlock은 SharePoint 결함을 이용하여 보안 도구를 비활성화하고 랜섬웨어를 배포합니다",
       "latest": "2026-10-03 14:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T18:00:18.643Z",
+      "lastRefreshed": "2026-10-03T21:23:57.060Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 8,
-      "summary": "APOD: 2026년 10월 3일 – 베라 루빈 리지에서 셀카 찍기",
-      "latest": "2026-10-03 04:05",
+      "count": 9,
+      "summary": "홀 펀치: 중력장 주변에서 우주선 슬링",
+      "latest": "2026-10-03 18:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T18:00:18.643Z",
+      "lastRefreshed": "2026-10-03T21:23:57.060Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -88,11 +88,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 6,
-      "summary": "청정에너지 법안에 대한 뉴섬 주지사의 조치에 대한 세이아 성명서",
-      "latest": "2026-10-03 00:08",
+      "count": 7,
+      "summary": "호주 정부, 재생 에너지 전환 가속화",
+      "latest": "2026-10-03 20:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-03T18:00:18.643Z",
+      "lastRefreshed": "2026-10-03T21:23:57.060Z",
       "themes": [
         "기회",
         "미술·디자인"
@@ -106,7 +106,7 @@
       "summary": "v16.4.0-canary.58",
       "latest": "2026-10-02 23:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-03T18:00:18.643Z",
+      "lastRefreshed": "2026-10-03T21:23:57.060Z",
       "themes": [
         "영상",
         "주요 기업"
@@ -468,6 +468,22 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Australian Government Accelerates Renewable Energy Transition",
+        "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
+        "source": "CleanTechnica",
+        "date": "2026-10-03 20:08",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "호주 정부, 재생 에너지 전환 가속화",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Capcom is preparing for a ‘future where we create games together with AI’",
         "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
         "source": "The Verge",
@@ -648,28 +664,41 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Sean Parker is rebuilding Stability AI around music",
-        "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-        "source": "TechCrunch",
-        "date": "2026-10-02 21:09",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Sean Parker는 음악을 중심으로 안정성 AI를 재구축하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Hole Punch: Sling your spaceship around gravitational fields",
+        "url": "https://notoriousbfg.com/hole-punch/",
+        "source": "Hacker News",
+        "date": "2026-10-03 18:06",
+        "categoryId": "space",
+        "confidence": "D",
+        "stream": "community",
+        "category": "우주·통신",
+        "titleKo": "홀 펀치: 중력장 주변에서 우주선 슬링",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Kolibri: A Sovereign Open-Weight Model",
+        "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+        "source": "Hacker News",
+        "date": "2026-10-03 09:36",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Kolibri: 주권적 개방형 중량 모델",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Newgrounds.com – A community of games, music, and art",
         "url": "https://www.newgrounds.com/",
@@ -738,42 +767,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "The Four Horsemen of Agentic Coding",
-        "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
-        "source": "Hacker News",
-        "date": "2026-10-02 15:19",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "에이전트 코딩의 네 가지 기수",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "AI Makes Me Sad",
-        "url": "https://mondobe.com/ai-makes-me-sad",
-        "source": "Hacker News",
-        "date": "2026-10-02 15:18",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI가 나를 슬프게 한다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Australian Government Accelerates Renewable Energy Transition",
+      "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
+      "source": "CleanTechnica",
+      "date": "2026-10-03 20:08",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "호주 정부, 재생 에너지 전환 가속화",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "source": "Hacker News",
+      "date": "2026-10-03 18:06",
+      "categoryId": "space",
+      "confidence": "D",
+      "stream": "community",
+      "category": "우주·통신",
+      "titleKo": "홀 펀치: 중력장 주변에서 우주선 슬링",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "Capcom is preparing for a ‘future where we create games together with AI’",
       "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
@@ -889,6 +918,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "source": "Hacker News",
+      "date": "2026-10-03 09:36",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Kolibri: 주권적 개방형 중량 모델",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
@@ -1508,38 +1553,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "The Four Horsemen of Agentic Coding",
-      "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
-      "source": "Hacker News",
-      "date": "2026-10-02 15:19",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "에이전트 코딩의 네 가지 기수",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "AI Makes Me Sad",
-      "url": "https://mondobe.com/ai-makes-me-sad",
-      "source": "Hacker News",
-      "date": "2026-10-02 15:18",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI가 나를 슬프게 한다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
       "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
       "source": "Ars Technica",
@@ -2100,30 +2113,14 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-      "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-      "source": "The Hacker News",
-      "date": "2026-10-01 16:45",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "ThreatsDay: AI 기반 제로데이 체인, 543K 라이브 시크릿, 모델 검사 RCE 등 13가지 스토리",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
+    "successful": 37,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 10. 4. 오전 3:00",
+    "checkedAt": "2026. 10. 4. 오전 6:23",
     "mode": "매시간 공식 레이더"
   }
 }
