@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026. 10. 4. 오전 8:34",
+  "updatedAt": "2026. 10. 4. 오후 11:34",
   "risk": {
     "score": 0,
     "level": "평상시",
@@ -9,8 +9,8 @@
       0,
       0,
       0,
-      0,
       5,
+      0,
       0
     ],
     "reason": "공식 발표 또는 독립 원정보 2개로 확인된 위험신호가 없습니다.",
@@ -19,14 +19,13 @@
     "riseLimited": false,
     "deescalationReason": "하향 보류 조건 없음"
   },
-  "dailyChange": "새 위험신호 0 · 해제 1",
+  "dailyChange": "새 위험신호 0 · 해제 0",
   "urgentChange": "현재 공식 긴급경보 없음",
   "summary": {
     "added": 0,
-    "cleared": 1,
-    "statusChange": "하락",
+    "cleared": 0,
+    "statusChange": "동일",
     "items": [
-      "미사일 시험 해제",
       "미사일 관련 보도 확인 · 교차검증 기준 적용",
       "대사관·주한미군 변화는 공식 확인 시에만 반영"
     ]
@@ -71,7 +70,7 @@
   "officialAlert": {
     "status": "현재 공식 긴급 경보 없음",
     "level": "normal",
-    "checkedAt": "2026. 10. 4. 오전 8:34"
+    "checkedAt": "2026. 10. 4. 오후 11:34"
   },
   "signals": [
     {
@@ -88,48 +87,48 @@
       "detectability": "높음",
       "informationGap": "공개 공식자료 범위 밖의 정보는 확인할 수 없습니다.",
       "opposingEvidence": [],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [
         {
-          "label": "북한, '전략미사일 발사훈련' 실시; 김정은 \"핵 억제력 강화\" 다짐 - news.sbs.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUdm84UzA1N0t2R0NMM1VTUnAwTFBVU0VqUXJwZG9Wc3NZZjhGNmp6eVk3QThFcElQTUs0a1E5X0Rfc0k4ZUN5UEo3TTl3bmVaX0NpWkFfQVV4ZjY1MzdkaVltMnF5TGw2ZG8tRUF3?oc=5",
+          "label": "북 \"극초음속 미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782537&plink=RSSLINK&cooper=RSSREADER",
           "grade": "B",
-          "source": "news.sbs.co.kr",
+          "source": "SBS 뉴스",
           "sourceType": "언론·전문보도",
-          "originKey": "news-sbs-co-kr",
-          "publishedAt": "2026-10-03 22:46",
-          "checkedAt": "2026. 10. 4. 오전 8:33",
+          "originKey": "sbs-뉴스",
+          "publishedAt": "2026-10-04 03:45",
+          "checkedAt": "2026. 10. 4. 오후 11:34",
           "claim": "미사일 시험 관련 근거",
           "directReport": true
         },
         {
-          "label": "북 \"전략미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
+          "label": "김정은, 주애와 전략미사일 발사 참관…\"핵억제력 고도화\"",
           "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782342&plink=RSSLINK&cooper=RSSREADER",
           "grade": "B",
           "source": "SBS 뉴스",
           "sourceType": "언론·전문보도",
           "originKey": "sbs-뉴스",
-          "publishedAt": "2026-10-03 22:45",
-          "checkedAt": "2026. 10. 4. 오전 8:33",
+          "publishedAt": "2026-10-04 01:11",
+          "checkedAt": "2026. 10. 4. 오후 11:34",
           "claim": "미사일 시험 관련 근거",
           "directReport": true
         },
         {
-          "label": "북한 \"중거리 전략미사일 발사…적들 목표 소실\"",
-          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782107&plink=RSSLINK&cooper=RSSREADER",
+          "label": "북한, '전략미사일 발사훈련' 실시; 김정은 \"핵 억제력 강화\" 다짐 - news.sbs.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mYXIwZnd6VGkxR3ZHa0xaRDBBMS1tZ3oyQjZPOHZkSlh5VFBPRXNQOGtWaGVKN1d2VDdZc1VUelRNMlp5ZHpSNXI1WV9ESHhMdXEwSVRBZllaS0pjV1JBa2RJVmoxZw?oc=5",
           "grade": "B",
-          "source": "SBS 뉴스",
+          "source": "news.sbs.co.kr",
           "sourceType": "언론·전문보도",
-          "originKey": "sbs-뉴스",
-          "publishedAt": "2026-10-03 13:30",
-          "checkedAt": "2026. 10. 4. 오전 8:33",
+          "originKey": "news-sbs-co-kr",
+          "publishedAt": "2026-10-03 22:46",
+          "checkedAt": "2026. 10. 4. 오후 11:34",
           "claim": "미사일 시험 관련 근거",
           "directReport": true
         }
       ],
       "change": "확인됨 → 일부 확인",
       "collectionStatus": "신규 확인",
-      "lastNewInformation": "2026-10-03 22:46",
+      "lastNewInformation": "2026-10-04 03:45",
       "lastDirectObservation": "직접 관측 부족",
       "sourceReliability": "언론·전문보도",
       "stateReason": "관련 공개자료는 있으나 독립 교차검증 기준 미충족"
@@ -150,7 +149,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -175,7 +174,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -200,7 +199,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -225,7 +224,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -250,7 +249,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -275,7 +274,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -300,7 +299,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -325,7 +324,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -350,7 +349,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -375,7 +374,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -400,7 +399,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -425,7 +424,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -450,7 +449,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -475,7 +474,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -500,7 +499,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -525,7 +524,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -672,8 +671,136 @@
   ],
   "news": [
     {
+      "title": "North Korea says hypersonic missile flew 1,000km, exceeding Seoul, Tokyo reports - NK News",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Dd3JrSFMwcVhIYVM3TXdKT0E4MlZINnZqYkpUMThSX0c4aUlnVi01UHRQLWtwck5kdFkwZ0Q5S1dkVzhsRjZF?oc=5",
+      "source": "NK News",
+      "date": "2026-10-04 09:35",
+      "titleKo": "북한이 초음속 미사일이 1,000km를 날아 서울을 넘어섰다고 도쿄 통신이 보도했습니다. - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "전문·단일 확인",
+      "riskRelevant": true
+    },
+    {
+      "title": "이 대통령 \"한반도 평화 여정 쉽지 않을 것…그래도 가야할 길\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782690&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-10-04 09:16",
+      "titleKo": "이 대통령 \"한반도 평화 여정 쉽지 않을 것…그래도 가야할 길\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "[일요와이드] 北, 미사일 쏘며 강경…트럼프, 김정은 친분 강조",
+      "url": "https://www.yonhapnewstv.co.kr/news/MYH20261004180259LGc",
+      "source": "연합뉴스TV",
+      "date": "2026-10-04 09:03",
+      "titleKo": "[일요와이드] 北, 미사일 쏘며 강경…트럼프, 김정은 친분 강조",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "연합뉴스tv",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "연합뉴스tv",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": true
+    },
+    {
+      "title": "이 대통령 \"평화와 번영의 10·4 남북정상선언 정신으로 돌아가야\"",
+      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261004173855ijA",
+      "source": "연합뉴스TV",
+      "date": "2026-10-04 08:38",
+      "titleKo": "이 대통령 \"평화와 번영의 10·4 남북정상선언 정신으로 돌아가야\"",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "연합뉴스tv",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "연합뉴스tv",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "North Korea mocks Seoul, Tokyo over alleged failure to track missile - NK News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWtqMHhuVmQxY25sLTdQNXNOVlRRenpXSloxUWEydnhucHFSeGItd2RsMGxSbk41MmZvcDFaQVRfQ0NpOWRaNUd3OF9tZkcxdUp5S2R2X1k0TkM5cWpzSW5ySG85dllBYW4xQWFqdFZPVzBoZHk5QkZrdGpyQWNCN1U1dEw1R3ZGemozZnNPMks2ZnFubXZkcGZ2U3FPdjJH?oc=5",
+      "source": "NK News",
+      "date": "2026-10-04 05:19",
+      "titleKo": "북한이 미사일 추적 실패 혐의에 대해 서울, 도쿄를 조롱합니다 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "전문·단일 확인",
+      "riskRelevant": true
+    },
+    {
+      "title": "북 \"극초음속 미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782537&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-10-04 03:45",
+      "titleKo": "북 \"극초음속 미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": true
+    },
+    {
+      "title": "민주당 \"10·4 남북정상선언 19주년…멈춰 선 대화 다시 시작해야\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782460&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-10-04 01:43",
+      "titleKo": "민주당 \"10·4 남북정상선언 19주년…멈춰 선 대화 다시 시작해야\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "김정은, 주애와 전략미사일 발사 참관…\"핵억제력 고도화\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782342&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-10-04 01:11",
+      "titleKo": "김정은, 주애와 전략미사일 발사 참관…\"핵억제력 고도화\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": true
+    },
+    {
       "title": "North Korea Conducts \"Strategic Missile Launch Drill\"; Kim Jong-un Vows to \"Advance Nuclear Deterrent\" - news.sbs.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUdm84UzA1N0t2R0NMM1VTUnAwTFBVU0VqUXJwZG9Wc3NZZjhGNmp6eVk3QThFcElQTUs0a1E5X0Rfc0k4ZUN5UEo3TTl3bmVaX0NpWkFfQVV4ZjY1MzdkaVltMnF5TGw2ZG8tRUF3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mYXIwZnd6VGkxR3ZHa0xaRDBBMS1tZ3oyQjZPOHZkSlh5VFBPRXNQOGtWaGVKN1d2VDdZc1VUelRNMlp5ZHpSNXI1WV9ESHhMdXEwSVRBZllaS0pjV1JBa2RJVmoxZw?oc=5",
       "source": "news.sbs.co.kr",
       "date": "2026-10-03 22:46",
       "titleKo": "북한, '전략미사일 발사훈련' 실시; 김정은 \"핵 억제력 강화\" 다짐 - news.sbs.co.kr",
@@ -683,56 +810,8 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "news-sbs-co-kr",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": true
-    },
-    {
-      "title": "북 \"전략미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782342&plink=RSSLINK&cooper=RSSREADER",
-      "source": "SBS 뉴스",
-      "date": "2026-10-03 22:45",
-      "titleKo": "북 \"전략미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "sbs-뉴스",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "sbs-뉴스",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": true
-    },
-    {
-      "title": "북한 김정은 \"핵전쟁억제력 고도화\"…딸 주애도 참관",
-      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261004074004tZ0",
-      "source": "연합뉴스TV",
-      "date": "2026-10-03 22:40",
-      "titleKo": "북한 김정은 \"핵전쟁억제력 고도화\"…딸 주애도 참관",
-      "confidence": "B",
-      "sourceType": "주요 통신사 취재",
-      "originKey": "연합뉴스tv",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "연합뉴스tv",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": true
-    },
-    {
-      "title": "North Korea mocks Seoul, Tokyo over alleged failure to track missile - NK News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWtqMHhuVmQxY25sLTdQNXNOVlRRenpXSloxUWEydnhucHFSeGItd2RsMGxSbk41MmZvcDFaQVRfQ0NpOWRaNUd3OF9tZkcxdUp5S2R2X1k0TkM5cWpzSW5ySG85dllBYW4xQWFqdFZPVzBoZHk5QkZrdGpyQWNCN1U1dEw1R3ZGemozZnNPMks2ZnFubXZkcGZ2U3FPdjJH?oc=5",
-      "source": "NK News",
-      "date": "2026-10-03 20:37",
-      "titleKo": "북한이 미사일 추적 실패 혐의에 대해 서울, 도쿄를 조롱합니다 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "전문·단일 확인",
       "riskRelevant": true
     },
     {
@@ -747,25 +826,9 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "sbs-뉴스",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
-    },
-    {
-      "title": "\"김정은 시찰했던 북한 원산만 해군기지 공사 본격화\"",
-      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261003211251aqN",
-      "source": "연합뉴스TV",
-      "date": "2026-10-03 12:12",
-      "titleKo": "\"김정은 시찰했던 북한 원산만 해군기지 공사 본격화\"",
-      "confidence": "B",
-      "sourceType": "주요 통신사 취재",
-      "originKey": "연합뉴스tv",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "연합뉴스tv",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false
     },
     {
       "title": "38 North: Construction Underway at North Korea's Wonsan Bay Naval Base Visited by Kim Jong-un - news.sbs.co.kr",
@@ -779,7 +842,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "news-sbs-co-kr",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -795,23 +858,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": true
-    },
-    {
-      "title": "청와대, '북한 탄도미사일 발사'에 긴급 회의…\"즉각 중단 촉구\"",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781720&plink=RSSLINK&cooper=RSSREADER",
-      "source": "SBS 뉴스",
-      "date": "2026-10-03 05:40",
-      "titleKo": "청와대, '북한 탄도미사일 발사'에 긴급 회의…\"즉각 중단 촉구\"",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "sbs-뉴스",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "sbs-뉴스",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
     },
@@ -827,7 +874,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "the-guardian",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": true
     },
@@ -843,24 +890,8 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
-      "riskRelevant": true
-    },
-    {
-      "title": "북한, 탄도미사일 1발 발사…700㎞ 이상 비행",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781742&plink=RSSLINK&cooper=RSSREADER",
-      "source": "SBS 뉴스",
-      "date": "2026-10-03 01:00",
-      "titleKo": "북한, 탄도미사일 1발 발사…700㎞ 이상 비행",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "sbs-뉴스",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "sbs-뉴스",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
     },
     {
@@ -875,7 +906,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -891,7 +922,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -907,7 +938,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -923,7 +954,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -939,24 +970,8 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "북한 김여정, 군 사과 요구·이 대통령 긴장완화 발언에 \"자작 광대극 2부\"",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781119&plink=RSSLINK&cooper=RSSREADER",
-      "source": "SBS 뉴스",
-      "date": "2026-10-02 08:58",
-      "titleKo": "북한 김여정, 군 사과 요구·이 대통령 긴장완화 발언에 \"자작 광대극 2부\"",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "sbs-뉴스",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "sbs-뉴스",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
     {
@@ -971,25 +986,9 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "news-sbs-co-kr",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
-    },
-    {
-      "title": "Why North Korea could build a new bridge linking key port city to southern area - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5qVi02RWxrWEtPRy03aFBxclB2ZTlkbERiem1tZC16X0Y0OVFTVHNBWDZGaDM2TTEtVFhaSUhGTUUwYVh4LWU0?oc=5",
-      "source": "NK News",
-      "date": "2026-10-02 07:48",
-      "titleKo": "북한이 주요 항구 도시와 남부 지역을 연결하는 새로운 다리를 건설할 수 있는 이유 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
     },
     {
       "title": "Korean Peninsula A to Z - KBS WORLD Radio",
@@ -1003,7 +1002,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -1019,7 +1018,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -1035,7 +1034,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -1051,7 +1050,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -1067,23 +1066,23 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "news-sbs-co-kr",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
     },
     {
-      "title": "The Dangers of North Korea’s Nuclear Status Quo - 38 North",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkNSQmN6djV2cVBoX3RSV2VaRmRCSDRjS0hDNm5OYXFPaXRROU8weFhmOG1VSlFuNjFMVk1nZFpCMDBTdExadnJwUTdsMFZCNzZTMm5obFM4UVlwSXNDUndPZy1HV2NNSTVVRWRGSFBKNURGWFR5cjc3M2pyOFlSNU8tYUxSQQ?oc=5",
+      "title": "The Dangers of North Korea’s Nuclear Status Quo",
+      "url": "https://www.38north.org/2026/10/the-dangers-of-north-koreas-nuclear-status-quo/",
       "source": "38 North",
-      "date": "2026-10-01 13:56",
-      "titleKo": "북한 핵보유국 지위의 위험성 - 38노스",
+      "date": "2026-10-01 13:52",
+      "titleKo": "북한 핵보유국 지위의 위험성",
       "confidence": "C",
       "sourceType": "전문기관 분석",
       "originKey": "38-north",
       "claimNature": "직접 발표·관측",
       "originalSource": "38-north",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": true
     },
@@ -1099,7 +1098,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "news-sbs-co-kr",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -1115,7 +1114,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "institute-for-the-study-of-war",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -1131,7 +1130,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "the-guardian",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -1147,7 +1146,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "bbc",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     }
@@ -1155,24 +1154,24 @@
   "sourceHealth": {
     "successful": 27,
     "total": 28,
-    "directSuccessful": 6,
+    "directSuccessful": 4,
     "directTotal": 14,
     "directSources": [
       {
         "name": "합동참모본부",
         "url": "https://www.jcs.mil.kr/",
         "kind": "공식 발표 원문",
-        "ok": true,
+        "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "대한민국 국방부",
         "url": "https://www.mnd.go.kr/mnd/167/subview.do",
         "kind": "공식 발표 원문",
-        "ok": true,
+        "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "IAEA DPRK",
@@ -1180,7 +1179,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "미 국방부",
@@ -1188,7 +1187,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "미 국무부",
@@ -1196,7 +1195,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 3,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "미 인도태평양사령부",
@@ -1204,7 +1203,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "주한미군",
@@ -1212,7 +1211,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "유엔군사령부",
@@ -1220,7 +1219,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "일본 방위성",
@@ -1228,7 +1227,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "영국 FCDO",
@@ -1236,7 +1235,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "ICAO",
@@ -1244,7 +1243,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "IMO",
@@ -1252,7 +1251,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "CTBTO",
@@ -1260,7 +1259,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "USGS 지진 관측",
@@ -1268,7 +1267,7 @@
         "kind": "지진 관측 데이터",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       }
     ],
     "embassyMonitors": [
@@ -1279,7 +1278,7 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "영국 FCDO 한국 여행안내",
@@ -1288,7 +1287,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "일본 외무성 한국 안전정보",
@@ -1297,7 +1296,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "프랑스 외교부 한국 안전정보",
@@ -1306,7 +1305,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "독일 외무부 한국 안전정보",
@@ -1315,7 +1314,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "호주 Smartraveller 한국 여행안내",
@@ -1324,7 +1323,7 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "캐나다 한국 여행안내",
@@ -1333,7 +1332,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       },
       {
         "name": "주한미군 공식 발표",
@@ -1342,16 +1341,18 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 10. 4. 오전 8:33"
+        "checkedAt": "2026. 10. 4. 오후 11:34"
       }
     ],
     "uniqueSources": 11,
-    "topSource": "news.sbs.co.kr",
+    "topSource": "NK News",
     "topSourceShare": 17,
     "concentrationWarning": false,
     "articleCount": 30,
-    "checkedAt": "2026. 10. 4. 오전 8:34",
+    "checkedAt": "2026. 10. 4. 오후 11:34",
     "failedSources": [
+      "합동참모본부",
+      "대한민국 국방부",
       "IAEA DPRK",
       "미 국방부",
       "미 인도태평양사령부",
@@ -1364,21 +1365,57 @@
   },
   "relatedInfo": [
     {
-      "title": "\"김정은 시찰했던 북한 원산만 해군기지 공사 본격화\"",
-      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261003211251aqN",
+      "title": "이 대통령 \"한반도 평화 여정 쉽지 않을 것…그래도 가야할 길\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782690&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-10-04 09:16",
+      "titleKo": "이 대통령 \"한반도 평화 여정 쉽지 않을 것…그래도 가야할 길\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "이 대통령 \"평화와 번영의 10·4 남북정상선언 정신으로 돌아가야\"",
+      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261004173855ijA",
       "source": "연합뉴스TV",
-      "date": "2026-10-03 12:12",
-      "titleKo": "\"김정은 시찰했던 북한 원산만 해군기지 공사 본격화\"",
+      "date": "2026-10-04 08:38",
+      "titleKo": "이 대통령 \"평화와 번영의 10·4 남북정상선언 정신으로 돌아가야\"",
       "confidence": "B",
       "sourceType": "주요 통신사 취재",
       "originKey": "연합뉴스tv",
       "claimNature": "직접 발표·관측",
       "originalSource": "연합뉴스tv",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
-      "topic": "북한 정치",
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "민주당 \"10·4 남북정상선언 19주년…멈춰 선 대화 다시 시작해야\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782460&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-10-04 01:43",
+      "titleKo": "민주당 \"10·4 남북정상선언 19주년…멈춰 선 대화 다시 시작해야\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 10. 4. 오후 11:34",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
     },
     {
@@ -1393,7 +1430,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "news-sbs-co-kr",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 정치",
@@ -1411,7 +1448,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1429,7 +1466,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1447,7 +1484,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1465,7 +1502,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "접경·생활안전",
@@ -1483,43 +1520,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "북한 김여정, 군 사과 요구·이 대통령 긴장완화 발언에 \"자작 광대극 2부\"",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781119&plink=RSSLINK&cooper=RSSREADER",
-      "source": "SBS 뉴스",
-      "date": "2026-10-02 08:58",
-      "titleKo": "북한 김여정, 군 사과 요구·이 대통령 긴장완화 발언에 \"자작 광대극 2부\"",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "sbs-뉴스",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "sbs-뉴스",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Why North Korea could build a new bridge linking key port city to southern area - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5qVi02RWxrWEtPRy03aFBxclB2ZTlkbERiem1tZC16X0Y0OVFTVHNBWDZGaDM2TTEtVFhaSUhGTUUwYVh4LWU0?oc=5",
-      "source": "NK News",
-      "date": "2026-10-02 07:48",
-      "titleKo": "북한이 주요 항구 도시와 남부 지역을 연결하는 새로운 다리를 건설할 수 있는 이유 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1537,7 +1538,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1555,7 +1556,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1573,7 +1574,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1591,7 +1592,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "dailynk",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관영 발표",
@@ -1609,7 +1610,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "news-sbs-co-kr",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "접경·생활안전",
@@ -1627,7 +1628,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "institute-for-the-study-of-war",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1645,7 +1646,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "the-guardian",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "접경·생활안전",
@@ -1663,7 +1664,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "bbc",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "접경·생활안전",
@@ -1677,7 +1678,7 @@
         "titleKo": "미국: 연결 실패",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
         "source": "미국 국무부 한국 여행경보",
-        "date": "2026. 10. 4. 오전 8:33",
+        "date": "2026. 10. 4. 오후 11:34",
         "confidence": "D"
       },
       {
@@ -1685,7 +1686,7 @@
         "titleKo": "영국: 공식 대피 문구 없음",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
         "source": "영국 FCDO 한국 여행안내",
-        "date": "2026. 10. 4. 오전 8:33",
+        "date": "2026. 10. 4. 오후 11:34",
         "confidence": "A"
       },
       {
@@ -1693,7 +1694,7 @@
         "titleKo": "일본: 공식 대피 문구 없음",
         "url": "https://www.anzen.mofa.go.jp/m/mbtravelspecificinfo_003.html",
         "source": "일본 외무성 한국 안전정보",
-        "date": "2026. 10. 4. 오전 8:33",
+        "date": "2026. 10. 4. 오후 11:34",
         "confidence": "A"
       },
       {
@@ -1701,7 +1702,7 @@
         "titleKo": "프랑스: 공식 대피 문구 없음",
         "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-sud/conseils-aux-voyageurs-securite",
         "source": "프랑스 외교부 한국 안전정보",
-        "date": "2026. 10. 4. 오전 8:33",
+        "date": "2026. 10. 4. 오후 11:34",
         "confidence": "A"
       },
       {
@@ -1709,7 +1710,7 @@
         "titleKo": "독일: 공식 대피 문구 없음",
         "url": "https://www.auswaertiges-amt.de/de/service/laender/korearepublik-node/korearepubliksicherheit-216132",
         "source": "독일 외무부 한국 안전정보",
-        "date": "2026. 10. 4. 오전 8:33",
+        "date": "2026. 10. 4. 오후 11:34",
         "confidence": "A"
       },
       {
@@ -1717,7 +1718,7 @@
         "titleKo": "호주: 연결 실패",
         "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
         "source": "호주 Smartraveller 한국 여행안내",
-        "date": "2026. 10. 4. 오전 8:33",
+        "date": "2026. 10. 4. 오후 11:34",
         "confidence": "D"
       },
       {
@@ -1725,7 +1726,7 @@
         "titleKo": "캐나다: 공식 대피 문구 없음",
         "url": "https://travel.gc.ca/destinations/south-korea",
         "source": "캐나다 한국 여행안내",
-        "date": "2026. 10. 4. 오전 8:33",
+        "date": "2026. 10. 4. 오후 11:34",
         "confidence": "A"
       },
       {
@@ -1733,7 +1734,7 @@
         "titleKo": "주한미군: 연결 실패",
         "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/",
         "source": "주한미군 공식 발표",
-        "date": "2026. 10. 4. 오전 8:33",
+        "date": "2026. 10. 4. 오후 11:34",
         "confidence": "D"
       }
     ]
@@ -1748,7 +1749,7 @@
         "label": "군사 이동",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:34",
+        "checkedAt": "2026. 10. 4. 오후 11:34",
         "evidence": []
       },
       {
@@ -1756,7 +1757,7 @@
         "label": "외교·대피",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:34",
+        "checkedAt": "2026. 10. 4. 오후 11:34",
         "evidence": []
       },
       {
@@ -1764,7 +1765,7 @@
         "label": "국경·교통",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:34",
+        "checkedAt": "2026. 10. 4. 오후 11:34",
         "evidence": []
       },
       {
@@ -1772,7 +1773,7 @@
         "label": "지휘·주민",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 10. 4. 오전 8:34",
+        "checkedAt": "2026. 10. 4. 오후 11:34",
         "evidence": []
       },
       {
@@ -1780,41 +1781,41 @@
         "label": "전략 활동",
         "score": 1,
         "status": "관찰",
-        "checkedAt": "2026. 10. 4. 오전 8:34",
+        "checkedAt": "2026. 10. 4. 오후 11:34",
         "evidence": [
           {
-            "label": "북한, '전략미사일 발사훈련' 실시; 김정은 \"핵 억제력 강화\" 다짐 - news.sbs.co.kr",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUdm84UzA1N0t2R0NMM1VTUnAwTFBVU0VqUXJwZG9Wc3NZZjhGNmp6eVk3QThFcElQTUs0a1E5X0Rfc0k4ZUN5UEo3TTl3bmVaX0NpWkFfQVV4ZjY1MzdkaVltMnF5TGw2ZG8tRUF3?oc=5",
+            "label": "북 \"극초음속 미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782537&plink=RSSLINK&cooper=RSSREADER",
             "grade": "B",
-            "source": "news.sbs.co.kr",
+            "source": "SBS 뉴스",
             "sourceType": "언론·전문보도",
-            "originKey": "news-sbs-co-kr",
-            "publishedAt": "2026-10-03 22:46",
-            "checkedAt": "2026. 10. 4. 오전 8:33",
+            "originKey": "sbs-뉴스",
+            "publishedAt": "2026-10-04 03:45",
+            "checkedAt": "2026. 10. 4. 오후 11:34",
             "claim": "미사일 시험 관련 근거",
             "directReport": true
           },
           {
-            "label": "북 \"전략미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
+            "label": "김정은, 주애와 전략미사일 발사 참관…\"핵억제력 고도화\"",
             "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782342&plink=RSSLINK&cooper=RSSREADER",
             "grade": "B",
             "source": "SBS 뉴스",
             "sourceType": "언론·전문보도",
             "originKey": "sbs-뉴스",
-            "publishedAt": "2026-10-03 22:45",
-            "checkedAt": "2026. 10. 4. 오전 8:33",
+            "publishedAt": "2026-10-04 01:11",
+            "checkedAt": "2026. 10. 4. 오후 11:34",
             "claim": "미사일 시험 관련 근거",
             "directReport": true
           },
           {
-            "label": "북한 \"중거리 전략미사일 발사…적들 목표 소실\"",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782107&plink=RSSLINK&cooper=RSSREADER",
+            "label": "북한, '전략미사일 발사훈련' 실시; 김정은 \"핵 억제력 강화\" 다짐 - news.sbs.co.kr",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mYXIwZnd6VGkxR3ZHa0xaRDBBMS1tZ3oyQjZPOHZkSlh5VFBPRXNQOGtWaGVKN1d2VDdZc1VUelRNMlp5ZHpSNXI1WV9ESHhMdXEwSVRBZllaS0pjV1JBa2RJVmoxZw?oc=5",
             "grade": "B",
-            "source": "SBS 뉴스",
+            "source": "news.sbs.co.kr",
             "sourceType": "언론·전문보도",
-            "originKey": "sbs-뉴스",
-            "publishedAt": "2026-10-03 13:30",
-            "checkedAt": "2026. 10. 4. 오전 8:33",
+            "originKey": "news-sbs-co-kr",
+            "publishedAt": "2026-10-03 22:46",
+            "checkedAt": "2026. 10. 4. 오후 11:34",
             "claim": "미사일 시험 관련 근거",
             "directReport": true
           }
@@ -2090,7 +2091,7 @@
         "score": 1
       }
     ],
-    "checkedAt": "2026. 10. 4. 오전 8:34",
+    "checkedAt": "2026. 10. 4. 오후 11:34",
     "note": "공개자료의 이상 패턴을 보여주는 보조 지수이며 종합 위험점수에는 반영하지 않습니다."
   },
   "osintWatch": [
@@ -2106,25 +2107,25 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "news-sbs-co-kr",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "전문 분석·OSINT",
       "scoreImpact": "종합 위험점수 미반영"
     },
     {
-      "title": "The Dangers of North Korea’s Nuclear Status Quo - 38 North",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkNSQmN6djV2cVBoX3RSV2VaRmRCSDRjS0hDNm5OYXFPaXRROU8weFhmOG1VSlFuNjFMVk1nZFpCMDBTdExadnJwUTdsMFZCNzZTMm5obFM4UVlwSXNDUndPZy1HV2NNSTVVRWRGSFBKNURGWFR5cjc3M2pyOFlSNU8tYUxSQQ?oc=5",
+      "title": "The Dangers of North Korea’s Nuclear Status Quo",
+      "url": "https://www.38north.org/2026/10/the-dangers-of-north-koreas-nuclear-status-quo/",
       "source": "38 North",
-      "date": "2026-10-01 13:56",
-      "titleKo": "북한 핵보유국 지위의 위험성 - 38노스",
+      "date": "2026-10-01 13:52",
+      "titleKo": "북한 핵보유국 지위의 위험성",
       "confidence": "C",
       "sourceType": "전문기관 분석",
       "originKey": "38-north",
       "claimNature": "직접 발표·관측",
       "originalSource": "38-north",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": true,
       "topic": "전문 분석·OSINT",
@@ -2142,17 +2143,17 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "institute-for-the-study-of-war",
       "directReport": true,
-      "checkedAt": "2026. 10. 4. 오전 8:33",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "전문 분석·OSINT",
       "scoreImpact": "종합 위험점수 미반영"
     }
   ],
-  "generatedAt": "2026-10-03T23:34:00.529Z",
+  "generatedAt": "2026-10-04T14:34:30.325Z",
   "judgment": {
     "confidence": "낮음",
-    "completeness": 22,
+    "completeness": 18,
     "largestGaps": [
       "대규모 병력 이동은 공개정보로 직접 탐지하기 어렵습니다.",
       "포병·미사일 부대 이동은 공개정보로 직접 탐지하기 어렵습니다.",
@@ -2161,9 +2162,7 @@
     ],
     "support": [],
     "upwardContributors": [],
-    "downwardContributors": [
-      "미사일 시험 해제"
-    ],
+    "downwardContributors": [],
     "opposingEvidence": [
       "공개 검색 범위에서 신규 근거가 발견되지 않음",
       "공개 검색 범위에서 신규 근거가 발견되지 않음",
@@ -2186,17 +2185,17 @@
     "disclaimer": "이 평가는 공개적으로 검증 가능한 자료를 기반으로 한다. 공개자료에서 확인되지 않았다는 것이 실제로 존재하지 않는다는 의미는 아니다. 공식 재난경보나 정부 지시가 발령되면 대시보드 판단보다 해당 지시를 우선한다."
   },
   "dataQuality": {
-    "completeness": 22,
+    "completeness": 18,
     "successfulIndicators": 7,
     "retainedIndicators": 16,
-    "failedIndicators": 11,
+    "failedIndicators": 13,
     "staleIndicators": 16,
     "latestDirectObservation": "최신 직접 관측자료 없음",
-    "checkedAt": "2026. 10. 4. 오전 8:34",
+    "checkedAt": "2026. 10. 4. 오후 11:34",
     "collectionScope": {
       "targets": 50,
       "period": "최근 7일",
-      "lastSearch": "2026. 10. 4. 오전 8:34",
+      "lastSearch": "2026. 10. 4. 오후 11:34",
       "inaccessible": [
         "북한 내부 비공개 군사통신",
         "유료 상업위성 전체 영상",
@@ -2206,9 +2205,9 @@
     }
   },
   "ingestion": {
-    "collected": 632,
+    "collected": 638,
     "retained": 30,
-    "duplicatesAndReprints": 584,
+    "duplicatesAndReprints": 591,
     "commentaryExcluded": 17,
     "riskRelevant": 13,
     "newIndependentInformation": 2
@@ -2258,48 +2257,48 @@
       "detectability": "높음",
       "informationGap": "공개 공식자료 범위 밖의 정보는 확인할 수 없습니다.",
       "opposingEvidence": [],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [
         {
-          "label": "북한, '전략미사일 발사훈련' 실시; 김정은 \"핵 억제력 강화\" 다짐 - news.sbs.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUdm84UzA1N0t2R0NMM1VTUnAwTFBVU0VqUXJwZG9Wc3NZZjhGNmp6eVk3QThFcElQTUs0a1E5X0Rfc0k4ZUN5UEo3TTl3bmVaX0NpWkFfQVV4ZjY1MzdkaVltMnF5TGw2ZG8tRUF3?oc=5",
+          "label": "북 \"극초음속 미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782537&plink=RSSLINK&cooper=RSSREADER",
           "grade": "B",
-          "source": "news.sbs.co.kr",
+          "source": "SBS 뉴스",
           "sourceType": "언론·전문보도",
-          "originKey": "news-sbs-co-kr",
-          "publishedAt": "2026-10-03 22:46",
-          "checkedAt": "2026. 10. 4. 오전 8:33",
+          "originKey": "sbs-뉴스",
+          "publishedAt": "2026-10-04 03:45",
+          "checkedAt": "2026. 10. 4. 오후 11:34",
           "claim": "미사일 시험 관련 근거",
           "directReport": true
         },
         {
-          "label": "북 \"전략미사일 발사 훈련\"…김정은 \"핵억제력 고도화\"",
+          "label": "김정은, 주애와 전략미사일 발사 참관…\"핵억제력 고도화\"",
           "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782342&plink=RSSLINK&cooper=RSSREADER",
           "grade": "B",
           "source": "SBS 뉴스",
           "sourceType": "언론·전문보도",
           "originKey": "sbs-뉴스",
-          "publishedAt": "2026-10-03 22:45",
-          "checkedAt": "2026. 10. 4. 오전 8:33",
+          "publishedAt": "2026-10-04 01:11",
+          "checkedAt": "2026. 10. 4. 오후 11:34",
           "claim": "미사일 시험 관련 근거",
           "directReport": true
         },
         {
-          "label": "북한 \"중거리 전략미사일 발사…적들 목표 소실\"",
-          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008782107&plink=RSSLINK&cooper=RSSREADER",
+          "label": "북한, '전략미사일 발사훈련' 실시; 김정은 \"핵 억제력 강화\" 다짐 - news.sbs.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mYXIwZnd6VGkxR3ZHa0xaRDBBMS1tZ3oyQjZPOHZkSlh5VFBPRXNQOGtWaGVKN1d2VDdZc1VUelRNMlp5ZHpSNXI1WV9ESHhMdXEwSVRBZllaS0pjV1JBa2RJVmoxZw?oc=5",
           "grade": "B",
-          "source": "SBS 뉴스",
+          "source": "news.sbs.co.kr",
           "sourceType": "언론·전문보도",
-          "originKey": "sbs-뉴스",
-          "publishedAt": "2026-10-03 13:30",
-          "checkedAt": "2026. 10. 4. 오전 8:33",
+          "originKey": "news-sbs-co-kr",
+          "publishedAt": "2026-10-03 22:46",
+          "checkedAt": "2026. 10. 4. 오후 11:34",
           "claim": "미사일 시험 관련 근거",
           "directReport": true
         }
       ],
       "change": "확인됨 → 일부 확인",
       "collectionStatus": "신규 확인",
-      "lastNewInformation": "2026-10-03 22:46",
+      "lastNewInformation": "2026-10-04 03:45",
       "lastDirectObservation": "직접 관측 부족",
       "sourceReliability": "언론·전문보도",
       "stateReason": "관련 공개자료는 있으나 독립 교차검증 기준 미충족"
@@ -2320,7 +2319,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2345,7 +2344,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2370,7 +2369,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2395,7 +2394,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2420,7 +2419,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2445,7 +2444,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2470,7 +2469,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2495,7 +2494,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2520,7 +2519,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2545,7 +2544,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2570,7 +2569,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2595,7 +2594,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2620,7 +2619,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2645,7 +2644,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2670,7 +2669,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2695,7 +2694,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 10. 4. 오전 8:34",
+      "checkedAt": "2026. 10. 4. 오후 11:34",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2715,7 +2714,7 @@
     "officialGuidance": {
       "name": "국민안전24 비상시 국민행동요령",
       "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?actsHeaderTitle=%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&category=stateOfEmergency&menuSn=4",
-      "checkedAt": "2026. 10. 4. 오전 8:34"
+      "checkedAt": "2026. 10. 4. 오후 11:34"
     }
   }
 }
