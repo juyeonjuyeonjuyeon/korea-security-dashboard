@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 6. 오전 7:43",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.39.0",
+  "updatedAt": "2026. 10. 6. 오전 10:41",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.4.0-canary.61",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 54,
+    "recentCount": 58,
     "sourceCount": 23,
     "officialCount": 20,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.39.0",
+    "새 출시: v16.4.0-canary.61",
     "창작 기술: 리버스 엔지니어링 게임: 비디오 게임 디컴프, 리컴프, VR, 웹 및 3D 포트에 대한 모든 뉴스",
     "인물 발언: Sam Altman - The Guardian은 AI의 이점에 대한 대가로 ‘나쁜 일’ 을 받아들이라고 말합니다."
   ],
@@ -20,26 +20,26 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 40,
-      "summary": "위키백과 운영자는 OpenAI의 ‘불량‘ 봇이 5월 중단과 연결될 수 있다고 말합니다.",
-      "latest": "2026-10-05 22:22",
+      "count": 42,
+      "summary": "Gemini Call for Me는 엄마에게 늦었다고 말할 수 있습니다.",
+      "latest": "2026-10-05 23:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-05T22:43:26.429Z",
+      "lastRefreshed": "2026-10-06T01:41:10.738Z",
       "themes": [
-        "주요 기업",
         "영상",
-        "미술·디자인"
+        "미술·디자인",
+        "주요 기업"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 2,
+      "count": 1,
       "summary": "스캔에서 치료 계획까지, AI는 유방암의 가장 치명적인 격차를 줄이는 데 도움이 됩니다",
       "latest": "2026-10-05 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-05T22:43:26.429Z",
+      "lastRefreshed": "2026-10-06T01:41:10.739Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,13 +49,11 @@
       "code": "ROBOT",
       "label": "로봇·모빌리티",
       "count": 8,
-      "summary": "FCC 로봇 제한은 지역 AI로의 전환을 가속화할 수 있습니다",
-      "latest": "2026-10-05 17:30",
+      "summary": "Teradyne은 AI 인프라 제조에 로봇 공학을 도입하기 위해 Bright Machines에 투자합니다.",
+      "latest": "2026-10-05 23:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-05T22:43:26.429Z",
-      "themes": [
-        "영상"
-      ]
+      "lastRefreshed": "2026-10-06T01:41:10.739Z",
+      "themes": []
     },
     {
       "id": "cyber",
@@ -65,7 +63,7 @@
       "summary": "⚡ 주간 요약: NetScaler 및 FortiMail 0일, AI 코딩 유출, Spectre v2 및 랜섬웨어 체포",
       "latest": "2026-10-05 14:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-05T22:43:26.429Z",
+      "lastRefreshed": "2026-10-06T01:41:10.739Z",
       "themes": [
         "주요 기업"
       ]
@@ -78,7 +76,7 @@
       "summary": "NASA to Stream SpaceX Crew-12 귀환, 스플래시다운 라이브",
       "latest": "2026-10-05 21:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-05T22:43:26.429Z",
+      "lastRefreshed": "2026-10-06T01:41:10.739Z",
       "themes": [
         "주요 기업"
       ]
@@ -91,7 +89,7 @@
       "summary": "저렴한 전기 자동차의 물결은 소비자의 선택을 높이고 있습니다: 7 배로 상승할 하위 € 25,000 모델의 판매",
       "latest": "2026-10-05 14:03",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-05T22:43:26.429Z",
+      "lastRefreshed": "2026-10-06T01:41:10.739Z",
       "themes": [
         "주요 기업"
       ]
@@ -100,26 +98,58 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 13,
-      "summary": "바레인의 F1... 말레이시아: 경주를 시작하려면 소프트웨어 업데이트가 필요했습니다.",
-      "latest": "2026-10-05 16:09",
+      "count": 12,
+      "summary": "v16.4.0-canary.61",
+      "latest": "2026-10-05 23:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-05T22:43:26.429Z",
+      "lastRefreshed": "2026-10-06T01:41:10.739Z",
       "themes": []
     }
   ],
   "radar": {
     "releases": [
       {
+        "title": "v16.4.0-canary.61",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.61",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-05 23:47",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.61",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v0.39.0",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
         "source": "GitHub · ComfyUI",
-        "date": "2026-10-05 22:08",
+        "date": "2026-10-05 22:49",
         "categoryId": "ai",
         "confidence": "A",
         "stream": "release",
         "category": "인공지능",
         "titleKo": "v0.39.0",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
+        "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
+        "source": "GitHub Changelog",
+        "date": "2026-10-05 22:42",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "비밀 검색은 Lovable, Supabase 등을 위한 감지기를 추가합니다",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -273,38 +303,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "APOD: 2026 October 5 – M104: The Sombrero Galaxy’s Tidal Streams",
-        "url": "https://science.nasa.gov/image-article/apod-2026-october-5-m104-the-sombrero-galaxys-tidal-streams/",
-        "source": "NASA",
-        "date": "2026-10-05 04:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "APOD: 2026년 10월 5일 – M104: 솜브레로 은하의 해류",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.4.0-canary.60",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.60",
-        "source": "GitHub · Next.js",
-        "date": "2026-10-04 23:45",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.4.0-canary.60",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -312,7 +310,7 @@
         "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
         "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
         "source": "The Verge",
-        "date": "2026-10-05 21:17",
+        "date": "2026-10-05 22:50",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
@@ -340,60 +338,6 @@
         "type": "뉴스·분석",
         "themes": [
           "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
-        "url": "https://getartcraft.com/apps",
-        "source": "Hacker News",
-        "date": "2026-10-04 23:02",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "ArtCraft Apps – Rust로 작성된 오픈 소스 Adobe 호환 제품군",
-        "type": "오픈소스",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "In the wake of Tippett Studios’ closure, a digital archive appears online",
-        "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
-        "source": "Hacker News",
-        "date": "2026-10-04 21:01",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "In the wake of Tippett Studios’ closure, a digital archive appears online",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Runway introduces Praxis-1 world action model for robotics",
-        "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/",
-        "source": "The Robot Report",
-        "date": "2026-10-02 18:32",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "활주로, 로봇 공학을 위한 Praxis-1 세계 행동 모델 도입",
-        "type": "출시·업데이트",
-        "themes": [
-          "영상"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -475,6 +419,73 @@
     ],
     "analysis": [
       {
+        "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
+        "url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+        "source": "The Robot Report",
+        "date": "2026-10-05 23:34",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Teradyne은 AI 인프라 제조에 로봇 공학을 도입하기 위해 Bright Machines에 투자합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Gemini Call for Me might tell your mom you’re running late",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+        "source": "The Verge",
+        "date": "2026-10-05 23:09",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Gemini Call for Me는 엄마에게 늦었다고 말할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+        "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
+        "source": "The Verge",
+        "date": "2026-10-05 22:50",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "리버스 엔지니어링 게임: 비디오 게임 디컴프, 리컴프, VR, 웹 및 3D 포트에 대한 모든 뉴스",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상",
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+        "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+        "source": "Ars Technica",
+        "date": "2026-10-05 22:26",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "상담원 간 커뮤니케이션을 위한 MCP는 지금까지 들어본 적이 없는 가장 위험한 프로토콜일 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
         "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
         "source": "The Verge",
@@ -487,25 +498,6 @@
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
-        "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
-        "source": "The Verge",
-        "date": "2026-10-05 21:17",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "리버스 엔지니어링 게임: 비디오 게임 디컴프, 리컴프, VR, 웹 및 3D 포트에 대한 모든 뉴스",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상",
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -626,57 +618,75 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI",
-        "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
-        "source": "TechCrunch",
-        "date": "2026-10-05 18:07",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "19살에 창업자는 개인용 AI를 위한 $ 3,499 컴퓨터를 만드는 Ghost를 위해 $ 1,100만 달러를 모금합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "6 Guidelines for Governing AI",
-        "url": "https://spectrum.ieee.org/6-guidelines-governing-ai",
-        "source": "IEEE Spectrum",
-        "date": "2026-10-05 18:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 통치를 위한 6가지 지침",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
-        "source": "The Verge",
-        "date": "2026-10-05 17:54",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Sam Altman은 ‘몇 가지 나쁜 일’ 이 일어날 것이라고 말하지만 AI는 그만한 가치가 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+        "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+        "source": "Hacker News",
+        "date": "2026-10-05 22:46",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "ChatGPT는 가짜 뉴요커 만화에 실제 만화가들의 서명을 추가하고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+        "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+        "source": "Hacker News",
+        "date": "2026-10-05 21:00",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "OPUS 5.5 에이전트는 두 개의 실온 자기 반도체 후보를 발견합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Beam: Reflection's 501B open-weight model",
+        "url": "https://reflection.ai/blog/introducing-beam",
+        "source": "Hacker News",
+        "date": "2026-10-05 19:16",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "빔: Reflection의 501B 개방 중량 모델",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+        "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+        "source": "Hacker News",
+        "date": "2026-10-05 17:53",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "위키미디어 프로젝트에서 발견된 OpenAI \"불량\" 에이전트 활동",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
         "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
@@ -708,80 +718,141 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Anthropic reported diary entry to police, woman faces felony charge",
-        "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-        "source": "Hacker News",
-        "date": "2026-10-05 05:37",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "인류가 일기장을 경찰에 신고했고, 여성은 중범죄 혐의에 직면했다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
-        "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-        "source": "Hacker News",
-        "date": "2026-10-05 01:54",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "바레인 F1 소프트웨어 결함에 좌절하는 무력한 F1 드라이버",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
-        "url": "https://getartcraft.com/apps",
-        "source": "Hacker News",
-        "date": "2026-10-04 23:02",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "ArtCraft Apps – Rust로 작성된 오픈 소스 Adobe 호환 제품군",
-        "type": "오픈소스",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "In the wake of Tippett Studios’ closure, a digital archive appears online",
-        "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
-        "source": "Hacker News",
-        "date": "2026-10-04 21:01",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "In the wake of Tippett Studios’ closure, a digital archive appears online",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v16.4.0-canary.61",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.61",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-05 23:47",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.61",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
+      "url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+      "source": "The Robot Report",
+      "date": "2026-10-05 23:34",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Teradyne은 AI 인프라 제조에 로봇 공학을 도입하기 위해 Bright Machines에 투자합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Gemini Call for Me might tell your mom you’re running late",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "source": "The Verge",
+      "date": "2026-10-05 23:09",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Gemini Call for Me는 엄마에게 늦었다고 말할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+      "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
+      "source": "The Verge",
+      "date": "2026-10-05 22:50",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "리버스 엔지니어링 게임: 비디오 게임 디컴프, 리컴프, VR, 웹 및 3D 포트에 대한 모든 뉴스",
+      "type": "뉴스·분석",
+      "themes": [
+        "영상",
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.39.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-10-05 22:49",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.39.0",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "source": "Hacker News",
+      "date": "2026-10-05 22:46",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "ChatGPT는 가짜 뉴요커 만화에 실제 만화가들의 서명을 추가하고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
+      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
+      "source": "GitHub Changelog",
+      "date": "2026-10-05 22:42",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "비밀 검색은 Lovable, Supabase 등을 위한 감지기를 추가합니다",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+      "source": "Ars Technica",
+      "date": "2026-10-05 22:26",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "상담원 간 커뮤니케이션을 위한 MCP는 지금까지 들어본 적이 없는 가장 위험한 프로토콜일 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
       "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
@@ -799,22 +870,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v0.39.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-10-05 22:08",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.39.0",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "NASA to Stream SpaceX Crew-12 Return, Splashdown Live",
@@ -835,23 +890,20 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
-      "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
-      "source": "The Verge",
-      "date": "2026-10-05 21:17",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "source": "Hacker News",
+      "date": "2026-10-05 21:00",
       "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
+      "confidence": "D",
+      "stream": "community",
       "category": "인공지능",
-      "titleKo": "리버스 엔지니어링 게임: 비디오 게임 디컴프, 리컴프, VR, 웹 및 3D 포트에 대한 모든 뉴스",
+      "titleKo": "OPUS 5.5 에이전트는 두 개의 실온 자기 반도체 후보를 발견합니다",
       "type": "뉴스·분석",
-      "themes": [
-        "영상",
-        "미술·디자인"
-      ],
+      "themes": [],
       "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
@@ -918,6 +970,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Beam: Reflection's 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "source": "Hacker News",
+      "date": "2026-10-05 19:16",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "빔: Reflection의 501B 개방 중량 모델",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Instinct brings its AI agent to group chats, even for friends without an account",
@@ -1002,20 +1070,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
-      "source": "The Verge",
-      "date": "2026-10-05 17:54",
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "source": "Hacker News",
+      "date": "2026-10-05 17:53",
       "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
+      "confidence": "D",
+      "stream": "community",
       "category": "인공지능",
-      "titleKo": "Sam Altman은 ‘몇 가지 나쁜 일’ 이 일어날 것이라고 말하지만 AI는 그만한 가치가 있습니다.",
+      "titleKo": "위키미디어 프로젝트에서 발견된 OpenAI \"불량\" 에이전트 활동",
       "type": "뉴스·분석",
-      "themes": [],
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NASA Astronaut Christina Koch at Eagles vs. Rams",
@@ -1408,15 +1478,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Trump chooses top spy boss to run new AI taskforce - bbc.com",
+      "title": "Trump chooses top spy boss to run new AI taskforce - BBC",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiajN5MEpXZFFWUFJuUFlhNDJLV29waVA1OGlrVU1jZVdtRU1reERmdlRTSUprbWNGQ21EaHFXdFhrdWlMMzZaXy01ZmRBQWo5ekZiRlZiMmNtaTA?oc=5",
-      "source": "bbc.com",
+      "source": "BBC",
       "date": "2026-10-05 10:03",
       "categoryId": "ai",
       "confidence": "B",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "트럼프, 새로운 AI 태스크포스 운영을 위해 최고 스파이 보스 선택 - bbc.com",
+      "titleKo": "Trump chooses top spy boss to run new AI taskforce - BBC",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1438,24 +1508,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic reported diary entry to police, woman faces felony charge",
-      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "source": "Hacker News",
-      "date": "2026-10-05 05:37",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "인류가 일기장을 경찰에 신고했고, 여성은 중범죄 혐의에 직면했다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "APOD: 2026 October 5 – M104: The Sombrero Galaxy’s Tidal Streams",
@@ -1624,22 +1676,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
-      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-      "source": "Hacker News",
-      "date": "2026-10-05 01:54",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "바레인 F1 소프트웨어 결함에 좌절하는 무력한 F1 드라이버",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v16.4.0-canary.60",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.60",
       "source": "GitHub · Next.js",
@@ -1654,24 +1690,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
-      "url": "https://getartcraft.com/apps",
-      "source": "Hacker News",
-      "date": "2026-10-04 23:02",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "ArtCraft Apps – Rust로 작성된 오픈 소스 Adobe 호환 제품군",
-      "type": "오픈소스",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "OpenAI's Altman says AI benefits warrant accepting some risks - Reuters",
@@ -1690,24 +1708,6 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "In the wake of Tippett Studios’ closure, a digital archive appears online",
-      "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
-      "source": "Hacker News",
-      "date": "2026-10-04 21:01",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "In the wake of Tippett Studios’ closure, a digital archive appears online",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "How robotics and physical AI can responsibly tackle key physical security challenges",
@@ -2034,82 +2034,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
-      "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
-      "source": "Ars Technica",
-      "date": "2026-10-02 18:39",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "미국, 엔비디아 칩 $ 300M를 중국으로 밀반입한 혐의로 기술 CEO 체포",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Runway introduces Praxis-1 world action model for robotics",
-      "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/",
-      "source": "The Robot Report",
-      "date": "2026-10-02 18:32",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "활주로, 로봇 공학을 위한 Praxis-1 세계 행동 모델 도입",
-      "type": "출시·업데이트",
-      "themes": [
-        "영상"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Selected models in GitHub Copilot deprecated",
-      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
-      "source": "GitHub Changelog",
-      "date": "2026-10-02 18:24",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "GitHub Copilot에서 선택한 모델 더 이상 사용되지 않음",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "8 major updates to Cloudflare Observability",
-      "url": "https://blog.cloudflare.com/one-observability-platform/",
-      "source": "Cloudflare Blog",
-      "date": "2026-10-02 18:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Cloudflare 관측 가능성에 대한 8가지 주요 업데이트",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 35,
-    "total": 41,
+    "successful": 42,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 10. 6. 오전 7:43",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 6. 오전 10:41",
+    "mode": "하루 2회 전체 수집"
   }
 }
