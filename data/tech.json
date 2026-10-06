@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 7. 오전 12:39",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v16.4.0-canary.62",
+  "updatedAt": "2026. 10. 7. 오전 2:15",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v16.4.0-canary.63",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 47,
-    "sourceCount": 24,
-    "officialCount": 20,
+    "recentCount": 51,
+    "sourceCount": 25,
+    "officialCount": 22,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.4.0-canary.62",
-    "창작 기술: Emmys는 2027년에 브로드캐스트 TV에서 프라임 비디오로 전환할 예정입니다.",
+    "새 출시: v16.4.0-canary.63",
+    "창작 기술: Arturia는 AstroLab 신디사이저에 적절한 사운드 디자인 도구를 추가합니다",
     "인물 발언: 억만장자 샘 알트먼은 인공지능에 대해 걱정하지 말라고 말합니다. 그래서 우리는 위험을 감수하고 그는 돈을 보관합니다. - 가디언"
   ],
   "categories": [
@@ -20,15 +20,15 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 47,
+      "count": 46,
       "summary": "억만장자 샘 알트먼은 인공지능에 대해 걱정하지 말라고 말합니다. 그래서 우리는 위험을 감수하고 그는 돈을 보관합니다. - 가디언",
-      "latest": "2026-10-06 15:35",
+      "latest": "2026-10-06 16:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T15:39:40.284Z",
+      "lastRefreshed": "2026-10-06T17:15:39.956Z",
       "themes": [
-        "영상",
         "주요 기업",
-        "기회"
+        "기회",
+        "미술·디자인"
       ]
     },
     {
@@ -39,7 +39,7 @@
       "summary": "통신 사업자가 개방형 모델을 기반으로 AI 전략을 수립하는 이유",
       "latest": "2026-10-06 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T15:39:40.284Z",
+      "lastRefreshed": "2026-10-06T17:15:39.956Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,22 +48,22 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 4,
-      "summary": "Teradyne은 AI 인프라 제조에 로봇 공학을 도입하기 위해 Bright Machines에 투자합니다.",
-      "latest": "2026-10-05 23:34",
+      "count": 5,
+      "summary": "FireDome은 산불 방어를 위한 자율적인 ‘포병’ 을 구축합니다.",
+      "latest": "2026-10-06 16:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T15:39:40.284Z",
+      "lastRefreshed": "2026-10-06T17:15:39.956Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
+      "count": 5,
       "summary": "위키미디어는 OpenAI 에이전트가 Etherpad를 손상시키고 위키 도구를 프록시로 사용하려고 했다고 말합니다.",
       "latest": "2026-10-06 11:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T15:39:40.284Z",
+      "lastRefreshed": "2026-10-06T17:15:39.956Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "성운의 항성 제트기에서 소란을 포착한 NASA의 거미줄",
       "latest": "2026-10-06 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T15:39:40.284Z",
+      "lastRefreshed": "2026-10-06T17:15:39.956Z",
       "themes": [
         "주요 기업"
       ]
@@ -85,11 +85,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
+      "count": 3,
       "summary": "X-에너지와 헬륨 냉각 원자로",
       "latest": "2026-10-06 10:35",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-06T15:39:40.284Z",
+      "lastRefreshed": "2026-10-06T17:15:39.956Z",
       "themes": [
         "주요 기업"
       ]
@@ -98,16 +98,48 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 10,
-      "summary": "v16.4.0-canary.62",
-      "latest": "2026-10-06 15:22",
+      "count": 12,
+      "summary": "v16.4.0-canary.63",
+      "latest": "2026-10-06 17:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T15:39:40.284Z",
+      "lastRefreshed": "2026-10-06T17:15:39.956Z",
       "themes": []
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.0-canary.63",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.63",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-06 17:05",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.0-canary.63",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Release v5.19.0",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
+        "source": "GitHub · Transformers",
+        "date": "2026-10-06 16:39",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "릴리스 v5.19.0",
+        "type": "오픈소스",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.4.0-canary.62",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.62",
@@ -139,6 +171,22 @@
         "official": false,
         "sourceLayer": "verified",
         "layerLabel": "주요 언론 확인"
+      },
+      {
+        "title": "Overview AI launches OV Spark line of AI inspection cameras",
+        "url": "https://www.therobotreport.com/overview-ai-launches-ov-spark-line-ai-inspection-cameras/",
+        "source": "The Robot Report",
+        "date": "2026-10-06 14:51",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "개요 AI, AI 검사 카메라 OV Spark 제품군 출시",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
@@ -253,57 +301,27 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "A Journey to the Depths of Ancient Mars?",
-        "url": "https://science.nasa.gov/blog/a-journey-to-the-depths-of-ancient-mars/",
-        "source": "NASA",
-        "date": "2026-10-06 00:48",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "고대 화성의 깊이로 떠나는 여행?",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Mistral Large 4 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
-        "source": "Vercel Changelog",
-        "date": "2026-10-06 00:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 AI 게이트웨이에서 Mistral Large 4를 사용할 수 있습니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.4.0-canary.61",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.61",
-        "source": "GitHub · Next.js",
-        "date": "2026-10-05 23:47",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.4.0-canary.61",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "Arturia adds proper sound design tools to its AstroLab synths",
+        "url": "https://www.theverge.com/gadgets/1005671/arturia-astrolab-synth-firmware-update",
+        "source": "The Verge",
+        "date": "2026-10-06 15:35",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Arturia는 AstroLab 신디사이저에 적절한 사운드 디자인 도구를 추가합니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Emmys will move from broadcast TV to Prime Video in 2027",
         "url": "https://techcrunch.com/2026/10/06/emmys-will-move-from-broadcast-tv-to-prime-video-in-2027/",
@@ -384,7 +402,7 @@
         "title": "Stop worrying about my AI, says multibillionaire Sam Altman. So we bear the risks and he keeps the money - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa0RwMGVweERiX0xMUHhtS0dGVkdCRGhQY1g5YWl5V090Q1FkZzNVTmxrdy1ZLU8wcXotbnplNkZtbGd1eG8zWXUxM1VONWhjdHV1aU9jOURfelBYdFZyRExJUVlEaHlhZElBUHI3VXl6dFVCMVljczVudzhLSXIwbUtBTEZ4LWVLSWo2S1BxdDlIYk5ucHJJ?oc=5",
         "source": "The Guardian",
-        "date": "2026-10-06 15:35",
+        "date": "2026-10-06 16:49",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
@@ -472,7 +490,7 @@
         "title": "Stop worrying about my AI, says multibillionaire Sam Altman. So we bear the risks and he keeps the money - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa0RwMGVweERiX0xMUHhtS0dGVkdCRGhQY1g5YWl5V090Q1FkZzNVTmxrdy1ZLU8wcXotbnplNkZtbGd1eG8zWXUxM1VONWhjdHV1aU9jOURfelBYdFZyRExJUVlEaHlhZElBUHI3VXl6dFVCMVljczVudzhLSXIwbUtBTEZ4LWVLSWo2S1BxdDlIYk5ucHJJ?oc=5",
         "source": "The Guardian",
-        "date": "2026-10-06 15:35",
+        "date": "2026-10-06 16:49",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
@@ -480,6 +498,75 @@
         "titleKo": "억만장자 샘 알트먼은 인공지능에 대해 걱정하지 말라고 말합니다. 그래서 우리는 위험을 감수하고 그는 돈을 보관합니다. - 가디언",
         "type": "인물 발언",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Mirror Particle is building a ‘world model’ of human behavior",
+        "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+        "source": "TechCrunch",
+        "date": "2026-10-06 16:35",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "미러 파티클은 인간 행동의 ‘세계 모델’ 을 구축하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+        "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+        "source": "TechCrunch",
+        "date": "2026-10-06 16:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Anthropic은 스타트업에게 Claude Team과 $ 1,000 크레딧을 무료로 제공합니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "기회"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "FireDome builds autonomous ‘artillery’ for wildfire defense",
+        "url": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
+        "source": "The Robot Report",
+        "date": "2026-10-06 16:00",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "FireDome은 산불 방어를 위한 자율적인 ‘포병’ 을 구축합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Arturia adds proper sound design tools to its AstroLab synths",
+        "url": "https://www.theverge.com/gadgets/1005671/arturia-astrolab-synth-firmware-update",
+        "source": "The Verge",
+        "date": "2026-10-06 15:35",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Arturia는 AstroLab 신디사이저에 적절한 사운드 디자인 도구를 추가합니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -511,6 +598,22 @@
         "category": "인공지능",
         "titleKo": "Vinod Khosla는 전 DeepMind 엔지니어의 Wajo가 신뢰를 바탕으로 에이전트 시장을 석권할 것이라고 믿습니다.",
         "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Overview AI launches OV Spark line of AI inspection cameras",
+        "url": "https://www.therobotreport.com/overview-ai-launches-ov-spark-line-ai-inspection-cameras/",
+        "source": "The Robot Report",
+        "date": "2026-10-06 14:51",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "개요 AI, AI 검사 카메라 OV Spark 제품군 출시",
+        "type": "출시·업데이트",
         "themes": [],
         "official": false,
         "sourceLayer": "analysis",
@@ -551,22 +654,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Pinterest’s AI now turns beauty Pins into action plans",
-        "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
-        "source": "TechCrunch",
-        "date": "2026-10-06 14:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "이제 Pinterest의 AI가 뷰티 핀을 실행 계획으로 전환합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "Trump makes it clear his power is becoming entwined with AI - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVWJVc1I1ZnRhQnVpS1Bpbk5mc3pNeDM3Z3JGd3JzRDFNT0Etc3E0NVRnbVpDT3c5V0VXOVJIVkFkeVdnaFZyb2d3Y0R1Vk5xLUYwY2FGR2RGMGJrMFBOR0NGWmJYWWE1RGt5WFRQQmxER2s1bi0xaGFLM2FzSWR5Ug?oc=5",
         "source": "The Guardian",
@@ -596,76 +683,6 @@
         "themes": [
           "주요 기업",
           "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Flai’s AI dealership software is booking 50,000 appointments per month",
-        "url": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/",
-        "source": "TechCrunch",
-        "date": "2026-10-06 13:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Flai의 AI 대리점 소프트웨어는 매월 50,000건의 예약을 예약하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
-        "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
-        "source": "Ars Technica",
-        "date": "2026-10-06 12:21",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenAI 에이전트가 위키백과 도구를 해킹하여 트래픽으로 넘쳤습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-        "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-        "source": "The Hacker News",
-        "date": "2026-10-06 11:26",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "위키미디어는 OpenAI 에이전트가 Etherpad를 손상시키고 위키 도구를 프록시로 사용하려고 했다고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta Muse gives AMD a boost as AI momentum shifts to personal agents - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ3VMeWo4NUtvcHd0NU92ME10aTdvaDU5YTB3ZHVHTkNBMkJYUDREWUk0ZWhhYnZfZXpYdVhzSnFPZUZRa09yM1I3Rk9vNnoyYW5FU3dhb3VSaDNYMHRRZEtRZUU5Z3NCS1NvcG56YVE5TFBCSXJYblM0S1RwM3lUQVhNdzAtN2NZb2V2ajNldklrVVo4RGtNR0pieW9hdFduak9fckdRSHpnZ9IBrwFBVV95cUxNWUpNX1d2MXNZb0Z4cGR6WjZHZHBXbW5PdHNCNUU1VFNTZ2dTSERqa2tScmVHUnFCVzRoSllQT2s0a3BwcktYSFFVd0tLUC0xWWJMVmlRR3psb00zd3drTjVhd1RfT3ZVeGdxNlU1ZC0xa2IyX1RwOWNEMXh2blFQcDNRR015YW4zZUpJc0VJSlFrcGxkQjFrWW9VRmoyUXFQaWh6MTM1SEpFZXRtNVlN?oc=5",
-        "source": "CNBC",
-        "date": "2026-10-06 11:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta Muse는 AI 모멘텀이 개인 에이전트로 이동함에 따라 AMD에 활력을 불어넣습니다 - CNBC",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -779,10 +796,26 @@
   },
   "news": [
     {
+      "title": "v16.4.0-canary.63",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.63",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-06 17:05",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.0-canary.63",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Stop worrying about my AI, says multibillionaire Sam Altman. So we bear the risks and he keeps the money - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa0RwMGVweERiX0xMUHhtS0dGVkdCRGhQY1g5YWl5V090Q1FkZzNVTmxrdy1ZLU8wcXotbnplNkZtbGd1eG8zWXUxM1VONWhjdHV1aU9jOURfelBYdFZyRExJUVlEaHlhZElBUHI3VXl6dFVCMVljczVudzhLSXIwbUtBTEZ4LWVLSWo2S1BxdDlIYk5ucHJJ?oc=5",
       "source": "The Guardian",
-      "date": "2026-10-06 15:35",
+      "date": "2026-10-06 16:49",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "people",
@@ -790,6 +823,91 @@
       "titleKo": "억만장자 샘 알트먼은 인공지능에 대해 걱정하지 말라고 말합니다. 그래서 우리는 위험을 감수하고 그는 돈을 보관합니다. - 가디언",
       "type": "인물 발언",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Release v5.19.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
+      "source": "GitHub · Transformers",
+      "date": "2026-10-06 16:39",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "릴리스 v5.19.0",
+      "type": "오픈소스",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Mirror Particle is building a ‘world model’ of human behavior",
+      "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+      "source": "TechCrunch",
+      "date": "2026-10-06 16:35",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "미러 파티클은 인간 행동의 ‘세계 모델’ 을 구축하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "source": "TechCrunch",
+      "date": "2026-10-06 16:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic은 스타트업에게 Claude Team과 $ 1,000 크레딧을 무료로 제공합니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업",
+        "기회"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "FireDome builds autonomous ‘artillery’ for wildfire defense",
+      "url": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
+      "source": "The Robot Report",
+      "date": "2026-10-06 16:00",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "FireDome은 산불 방어를 위한 자율적인 ‘포병’ 을 구축합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Arturia adds proper sound design tools to its AstroLab synths",
+      "url": "https://www.theverge.com/gadgets/1005671/arturia-astrolab-synth-firmware-update",
+      "source": "The Verge",
+      "date": "2026-10-06 15:35",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Arturia는 AstroLab 신디사이저에 적절한 사운드 디자인 도구를 추가합니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -859,6 +977,22 @@
       "layerLabel": "주요 언론 확인"
     },
     {
+      "title": "Overview AI launches OV Spark line of AI inspection cameras",
+      "url": "https://www.therobotreport.com/overview-ai-launches-ov-spark-line-ai-inspection-cameras/",
+      "source": "The Robot Report",
+      "date": "2026-10-06 14:51",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "개요 AI, AI 검사 카메라 OV Spark 제품군 출시",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Emmys will move from broadcast TV to Prime Video in 2027",
       "url": "https://techcrunch.com/2026/10/06/emmys-will-move-from-broadcast-tv-to-prime-video-in-2027/",
       "source": "TechCrunch",
@@ -886,22 +1020,6 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "미스트랄의 새로운 1T 모델은 폐쇄적이고 개방적인 경쟁자를 뛰어넘는 것을 목표로 합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Pinterest’s AI now turns beauty Pins into action plans",
-      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
-      "source": "TechCrunch",
-      "date": "2026-10-06 14:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "이제 Pinterest의 AI가 뷰티 핀을 실행 계획으로 전환합니다",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -960,22 +1078,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Flai’s AI dealership software is booking 50,000 appointments per month",
-      "url": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/",
-      "source": "TechCrunch",
-      "date": "2026-10-06 13:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Flai의 AI 대리점 소프트웨어는 매월 50,000건의 예약을 예약하고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "NASA’s Webb Captures Commotion From Nebula’s Stellar Jets",
@@ -1226,6 +1328,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Nano Banana 2.1 now available on AI Gateway",
+      "url": "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-10-06 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "이제 나노 바나나 2.1을 AI 게이트웨이에서 사용할 수 있습니다",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Mistral Large 4 now available on AI Gateway",
       "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
       "source": "Vercel Changelog",
@@ -1452,22 +1570,6 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "이 스타트업은 AI로 생성된 여드름 처방전을 발행하고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "All the drama around AI’s takeover of mathematics",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
-      "source": "The Verge",
-      "date": "2026-10-05 19:42",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI의 수학 장악을 둘러싼 모든 드라마",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -2019,96 +2121,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Trump taps Director of National Intelligence Jay Clayton as AI czar - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyV1MxWG1LdmgzcE1VSVphU3V2NFFnU1E5MXhZM0FUMEE4MjhXOTMzMDlrSTZJdXR5Q3VnV3RWVXRRMGZaLXB3N183V0d4d0ZBcjZFdVRRWnRVWmltUnlPYlVXbllHaUtiS0o2NnQ1WdIBdEFVX3lxTFBuSmprcGRObk1JU2R0SERzdV9hNGtQallVbGhTd21LbXdVUWpzOWFsTWFxT3ZuaXBJbzA4d0I3bWdzYTNRblJzMDB0QlJSOVRBSTllWW5scUVXLWNlQXhHMkZ2SnJTY3ZhZnhlUm5XdzliYm0w?oc=5",
-      "source": "CNBC",
-      "date": "2026-10-03 23:37",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "트럼프, AI 차르로 국가정보국장 제이 클레이튼 두드리다 - CNBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "source": "Hugging Face Blog",
-      "date": "2026-10-03 22:56",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "요원은 이미 끝났다고 했다. 데이터베이스가 동의하지 않습니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Australian Government Accelerates Renewable Energy Transition",
-      "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
-      "source": "CleanTechnica",
-      "date": "2026-10-03 20:08",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "호주 정부, 재생 에너지 전환 가속화",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-      "source": "The Hacker News",
-      "date": "2026-10-03 14:36",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "Warlock은 SharePoint 결함을 이용하여 보안 도구를 비활성화하고 랜섬웨어를 배포합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The physical AI race will be won in the patent office",
-      "url": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
-      "source": "The Robot Report",
-      "date": "2026-10-03 14:30",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "실제 AI 레이스는 특허청에서 승리합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 42,
-    "total": 47,
+    "successful": 35,
+    "total": 41,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 10. 7. 오전 12:39",
-    "mode": "하루 2회 전체 수집"
+    "officialSources": 9,
+    "checkedAt": "2026. 10. 7. 오전 2:15",
+    "mode": "매시간 공식 레이더"
   }
 }
