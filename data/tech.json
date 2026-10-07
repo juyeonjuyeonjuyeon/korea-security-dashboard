@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 7. 오전 6:43",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v3.26.0",
+  "updatedAt": "2026. 10. 7. 오전 9:24",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.5.0-canary.1",
   "metrics": {
     "articleCount": 80,
     "recentCount": 61,
-    "sourceCount": 25,
-    "officialCount": 28,
+    "sourceCount": 26,
+    "officialCount": 29,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v3.26.0",
+    "새 출시: v16.5.0-canary.1",
     "창작 기술: TwelveLabs는 Pegasus 1.6이 물리적 AI에 대한 비디오 이해를 제공한다고 말합니다.",
     "인물 발언: 억만장자 샘 알트먼은 인공지능에 대해 걱정하지 말라고 말합니다. 그래서 우리는 위험을 감수하고 그는 돈을 보관합니다. - 가디언"
   ],
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 37,
-      "summary": "실리콘 밸리의 AI wunderkind, 가장 사적인 본능/뮤즈 경쟁자 인 Underdog 출시",
-      "latest": "2026-10-06 20:47",
+      "count": 36,
+      "summary": "수학에서 AI 진행 상황 공유",
+      "latest": "2026-10-06 22:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T21:43:48.634Z",
+      "lastRefreshed": "2026-10-07T00:24:37.313Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "통신 사업자가 개방형 모델을 기반으로 AI 전략을 수립하는 이유",
       "latest": "2026-10-06 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T21:43:48.634Z",
+      "lastRefreshed": "2026-10-07T00:24:37.313Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +48,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
-      "summary": "TwelveLabs는 Pegasus 1.6이 물리적 AI에 대한 비디오 이해를 제공한다고 말합니다.",
-      "latest": "2026-10-06 20:07",
+      "count": 7,
+      "summary": "10월 프라임데이 최고의 로봇 진공청소기 및 물걸레 특가",
+      "latest": "2026-10-06 20:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T21:43:48.634Z",
+      "lastRefreshed": "2026-10-07T00:24:37.314Z",
       "themes": [
         "영상"
       ]
@@ -61,11 +61,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
-      "summary": "가짜 채팅GPT, Gemini 및 Claude Ad Portals 캡처 자격 증명 및 MFA 코드",
-      "latest": "2026-10-06 18:38",
+      "count": 5,
+      "summary": "삼성의 10월 업데이트 패치, 갤럭시 장치 전반에 걸친 9가지 치명적인 보안 결함 - TechRepublic",
+      "latest": "2026-10-06 20:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T21:43:48.634Z",
+      "lastRefreshed": "2026-10-07T00:24:37.314Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 7,
+      "count": 6,
       "summary": "NASA, Northrop Grumman CRS-24 우주선 출발 지원 예정",
       "latest": "2026-10-06 18:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T21:43:48.634Z",
+      "lastRefreshed": "2026-10-07T00:24:37.314Z",
       "themes": []
     },
     {
@@ -89,7 +89,7 @@
       "summary": "전력 수요가 많은 Google의 데이터 센터는 원자력 에너지를 갈망합니다.",
       "latest": "2026-10-06 20:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-06T21:43:48.634Z",
+      "lastRefreshed": "2026-10-07T00:24:37.314Z",
       "themes": [
         "주요 기업"
       ]
@@ -98,11 +98,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
-      "summary": "v3.26.0",
-      "latest": "2026-10-06 21:29",
+      "count": 20,
+      "summary": "위키미디어 프로젝트에서 발견된 OpenAI \"불량\" 에이전트 활동",
+      "latest": "2026-10-07 00:16",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-06T21:43:48.634Z",
+      "lastRefreshed": "2026-10-07T00:24:37.314Z",
       "themes": [
         "주요 기업"
       ]
@@ -110,6 +110,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.5.0-canary.1",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.1",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-06 23:52",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.1",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Update your IDE to restore agent activity in Copilot usage metrics",
+        "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+        "source": "GitHub Changelog",
+        "date": "2026-10-06 23:43",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Copilot 사용 지표에서 상담원 활동을 복원하려면 IDE를 업데이트하세요.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v3.26.0",
         "url": "https://github.com/openai/openai-python/releases/tag/v3.26.0",
@@ -159,6 +191,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Samsung’s October Update Patches 9 Critical Security Flaws Across Galaxy Devices - TechRepublic",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOazdrMUQ2Tld3ZjFmWU1EdmNraHU0dkdXa2ZVTmE5cHlRMkYwM2h4bEIxbzhXVVNhVk8zdFlIWGhBVHZTWjY0TFQzS2JsamRCR3g1T3RpdXRlUjl2Si1zLVhpNk9RQXVGX041UVN5VDNzeDVjOWxWM3hRa3p1bURXbzdyQXlLQQ?oc=5",
+        "source": "TechRepublic",
+        "date": "2026-10-06 20:15",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "삼성의 10월 업데이트 패치, 갤럭시 장치 전반에 걸친 9가지 치명적인 보안 결함 - TechRepublic",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "v16.5.0-canary.0",
@@ -255,56 +305,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.4.0",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0",
-        "source": "GitHub · Next.js",
-        "date": "2026-10-06 17:57",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.4.0",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.25.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.25.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-10-06 17:56",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.25.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA Glenn Invites Phase 1 Proposals for Aerospace Power Systems Laboratory",
-        "url": "https://www.nasa.gov/news-release/nasa-glenn-invites-phase-1-proposals-for-aerospace-power-systems-laboratory/",
-        "source": "NASA",
-        "date": "2026-10-06 17:55",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA 글렌, 항공우주 전력 시스템 연구소 1단계 제안 초청",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -362,43 +362,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Example.com just launched the biggest redesign in decades",
-        "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
-        "source": "Hacker News",
-        "date": "2026-10-05 22:55",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Example.com은 수십 년 만에 가장 큰 재디자인을 시작했습니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
-        "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
-        "source": "The Verge",
-        "date": "2026-10-05 22:50",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "리버스 엔지니어링 게임: 비디오 게임 디컴프, 리컴프, VR, 웹 및 3D 포트에 대한 모든 뉴스",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [],
@@ -418,25 +381,45 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Accept ‘bad things’ in return for benefits of AI, says Sam Altman - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdllLLU13dGI0Z1I5Q3dod3JORXF1b1JfVTJ4TnBYNFpLT0RHNDU0b1hTWUZzbEdueWN4YXphb3B4OVlxQmw5MEFuVkZQa3FHcDhtU25ZVTM3YlFjVHFSRUk3bFZqblBhM0E5WjU1ZHdYVHRpWV9ZRk96bmxkMG9BNWxCZVVlWjNIV0ZGZ0lCQUg4clozcVlV?oc=5",
-        "source": "The Guardian",
-        "date": "2026-10-05 12:13",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "Sam Altman - The Guardian은 AI의 이점에 대한 대가로 ‘나쁜 일’ 을 받아들이라고 말합니다.",
-        "type": "인물 발언",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "analysis": [
+      {
+        "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+        "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+        "source": "Simon Willison",
+        "date": "2026-10-07 00:16",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "위키미디어 프로젝트에서 발견된 OpenAI \"불량\" 에이전트 활동",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+        "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+        "source": "Ars Technica",
+        "date": "2026-10-06 20:50",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI는 기본적으로 ChatGPT 출력을 워터마킹하지만 EU에서만",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Silicon Valley’s AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet",
         "url": "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/",
@@ -448,6 +431,22 @@
         "category": "인공지능",
         "titleKo": "실리콘 밸리의 AI wunderkind, 가장 사적인 본능/뮤즈 경쟁자 인 Underdog 출시",
         "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The best robot vacuum and mop deals during October Prime Day",
+        "url": "https://www.theverge.com/gadgets/1006059/robot-vacuum-mop-roborock-qrevo-prime-day-deal-sale",
+        "source": "The Verge",
+        "date": "2026-10-06 20:43",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "10월 프라임데이 최고의 로봇 진공청소기 및 물걸레 특가",
+        "type": "뉴스·분석",
         "themes": [],
         "official": false,
         "sourceLayer": "analysis",
@@ -498,6 +497,24 @@
         "category": "에너지·기후기술",
         "titleKo": "전력 수요가 많은 Google의 데이터 센터는 원자력 에너지를 갈망합니다.",
         "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Samsung’s October Update Patches 9 Critical Security Flaws Across Galaxy Devices - TechRepublic",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOazdrMUQ2Tld3ZjFmWU1EdmNraHU0dkdXa2ZVTmE5cHlRMkYwM2h4bEIxbzhXVVNhVk8zdFlIWGhBVHZTWjY0TFQzS2JsamRCR3g1T3RpdXRlUjl2Si1zLVhpNk9RQXVGX041UVN5VDNzeDVjOWxWM3hRa3p1bURXbzdyQXlLQQ?oc=5",
+        "source": "TechRepublic",
+        "date": "2026-10-06 20:15",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "삼성의 10월 업데이트 패치, 갤럭시 장치 전반에 걸친 9가지 치명적인 보안 결함 - TechRepublic",
+        "type": "출시·업데이트",
         "themes": [
           "주요 기업"
         ],
@@ -570,73 +587,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-        "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-        "source": "The Hacker News",
-        "date": "2026-10-06 18:24",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "Linux 백도어는 한국과 대만에서 탐지를 회피하기 위해 이메일 보안 도구를 사칭합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Hark releases an AI personal assistant with a focus on privacy",
-        "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
-        "source": "TechCrunch",
-        "date": "2026-10-06 18:22",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Hark는 개인 정보 보호에 중점을 둔 AI 개인 비서를 공개합니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Sovereign AI, same landlord — thoughts on the physical AI race",
-        "url": "https://www.therobotreport.com/sovereign-ai-same-landlord-thoughts-physical-ai-race/",
-        "source": "The Robot Report",
-        "date": "2026-10-06 17:47",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "주권 AI, 같은 집주인 — 물리적 AI 인종에 대한 생각",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Stop worrying about my AI, says multibillionaire Sam Altman. So we bear the risks and he keeps the money - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa0RwMGVweERiX0xMUHhtS0dGVkdCRGhQY1g5YWl5V090Q1FkZzNVTmxrdy1ZLU8wcXotbnplNkZtbGd1eG8zWXUxM1VONWhjdHV1aU9jOURfelBYdFZyRExJUVlEaHlhZElBUHI3VXl6dFVCMVljczVudzhLSXIwbUtBTEZ4LWVLSWo2S1BxdDlIYk5ucHJJ?oc=5",
-        "source": "The Guardian",
-        "date": "2026-10-06 16:49",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "억만장자 샘 알트먼은 인공지능에 대해 걱정하지 말라고 말합니다. 그래서 우리는 위험을 감수하고 그는 돈을 보관합니다. - 가디언",
-        "type": "인물 발언",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Sharing AI progress in mathematics",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "source": "Hacker News",
+        "date": "2026-10-06 22:17",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "수학에서 AI 진행 상황 공유",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "OpenTPU – An open-source AI accelerator, developed by AI",
         "url": "https://github.com/FeSens/openTPU",
@@ -648,6 +617,22 @@
         "category": "인공지능",
         "titleKo": "OpenTPU – AI가 개발한 오픈 소스 AI 가속기",
         "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+        "source": "Hacker News",
+        "date": "2026-10-06 16:03",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "EmbeddingGemma 2: 개방형 경량 멀티 모달 임베딩 모델",
+        "type": "뉴스·분석",
         "themes": [],
         "official": false,
         "sourceLayer": "community",
@@ -705,44 +690,76 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Example.com just launched the biggest redesign in decades",
-        "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
-        "source": "Hacker News",
-        "date": "2026-10-05 22:55",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Example.com은 수십 년 만에 가장 큰 재디자인을 시작했습니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-        "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-        "source": "Hacker News",
-        "date": "2026-10-05 22:46",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "ChatGPT는 가짜 뉴요커 만화에 실제 만화가들의 서명을 추가하고 있습니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "source": "Simon Willison",
+      "date": "2026-10-07 00:16",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "위키미디어 프로젝트에서 발견된 OpenAI \"불량\" 에이전트 활동",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.5.0-canary.1",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.1",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-06 23:52",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.5.0-canary.1",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Update your IDE to restore agent activity in Copilot usage metrics",
+      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+      "source": "GitHub Changelog",
+      "date": "2026-10-06 23:43",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Copilot 사용 지표에서 상담원 활동을 복원하려면 IDE를 업데이트하세요.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "source": "Hacker News",
+      "date": "2026-10-06 22:17",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "수학에서 AI 진행 상황 공유",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "v3.26.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.26.0",
@@ -762,6 +779,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+      "source": "Ars Technica",
+      "date": "2026-10-06 20:50",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 기본적으로 ChatGPT 출력을 워터마킹하지만 EU에서만",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Silicon Valley’s AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet",
       "url": "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/",
       "source": "TechCrunch",
@@ -772,6 +807,22 @@
       "category": "인공지능",
       "titleKo": "실리콘 밸리의 AI wunderkind, 가장 사적인 본능/뮤즈 경쟁자 인 Underdog 출시",
       "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The best robot vacuum and mop deals during October Prime Day",
+      "url": "https://www.theverge.com/gadgets/1006059/robot-vacuum-mop-roborock-qrevo-prime-day-deal-sale",
+      "source": "The Verge",
+      "date": "2026-10-06 20:43",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "10월 프라임데이 최고의 로봇 진공청소기 및 물걸레 특가",
+      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -844,6 +895,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Samsung’s October Update Patches 9 Critical Security Flaws Across Galaxy Devices - TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOazdrMUQ2Tld3ZjFmWU1EdmNraHU0dkdXa2ZVTmE5cHlRMkYwM2h4bEIxbzhXVVNhVk8zdFlIWGhBVHZTWjY0TFQzS2JsamRCR3g1T3RpdXRlUjl2Si1zLVhpNk9RQXVGX041UVN5VDNzeDVjOWxWM3hRa3p1bURXbzdyQXlLQQ?oc=5",
+      "source": "TechRepublic",
+      "date": "2026-10-06 20:15",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "삼성의 10월 업데이트 패치, 갤럭시 장치 전반에 걸친 9가지 치명적인 보안 결함 - TechRepublic",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Pegasus 1.6 brings video understanding to physical AI, says TwelveLabs",
@@ -1202,6 +1271,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Startup Hark Debuts AI Agent Ahead of 2027 Hardware Launch - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYklpRDlBREdYMmNhZ09VUjM4TGUzR0NwUklfNmtsS3FPaE9hRExwdmJ2NnJ3S1E5alBleFh6ZlJYaTU5N01jY0hHallvdFU3TndudXNBNFdtdTB4NFE2QnBrRkQ5dFFHVEFfVGM5SV85bmdlWmhzTy1YQjZibmxqbHBaNVdYdENEaUdySl9wZFhxU0l1STdiQXZIdmh1MTVraG4wdUUyZHhZRFZlbVlWNGRpSUNPQXpfZEwtS3BPQVJaZTNo?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-10-06 16:15",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "스타트업 하크, 2027년 하드웨어 출시를 앞두고 AI 에이전트 데뷔 - Bloomberg.com",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Astronomers Solve Cosmic Cold Case with NASA Hubble Data",
       "url": "https://www.nasa.gov/image-article/astronomers-solve-cosmic-cold-case-with-nasa-hubble-data/",
       "source": "NASA",
@@ -1218,6 +1303,38 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "source": "Hacker News",
+      "date": "2026-10-06 16:03",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "EmbeddingGemma 2: 개방형 경량 멀티 모달 임베딩 모델",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Tell us: do you use AI agents to manage your finances? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY0U1NTJ5QWpSM0FfNUNnZHk2R1NqYTMxMV82ZU1UanZacldXZG9hTl92Q2ZsVndVNm91ZWdzaUlkdVpuUnlYMUJPbXNVV2I3TTRTTy1WcnJIUVBWNFg1T1RGR3dmejR6MjhwSlI1SlZsdkJmUHRLN1Bnc1ZLSlZoa1dUdVNqTzJaMHd6dDNHb1UzaGVkLXNHQ2U4RFliSTdrNU84RVRn?oc=5",
+      "source": "The Guardian",
+      "date": "2026-10-06 16:03",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "알려주세요. 재정 관리를 위해 AI 상담원을 이용하시나요? - 가디언",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "FireDome builds autonomous ‘artillery’ for wildfire defense",
       "url": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
       "source": "The Robot Report",
@@ -1232,6 +1349,40 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "China's DeepSeek, peers launch 16 AI models in month despite Anthropic warning - Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVldrdGtGWkJhdVllNEY3TVhPNnFfWGpnajlCamhOdU91MF9KYTN4NW1uS21iak0ySmFQemI3dUJFRFRHclZBQlNWaVRKazJxZkZCbGJ5b2NITlA5eHlIREt0dkxkSFdBRU0tZ2kzVWIzLTNRM3ZyaUtURmRHbExTeGJhQTBLQmVNakk2RmlHaGtieE1WdWhqY3BOUUx3UnQ4a1BqZGhCZ3E3X3lBRHJmSElUd1pvY3RHUk5IZGtYT1BkTHlwTU1vNmJiLXZkZHBGbXdHd0xSeERvaWVFZmc?oc=5",
+      "source": "Nikkei Asia",
+      "date": "2026-10-06 15:55",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "중국의 DeepSeek, Anthropic 경고에도 불구하고 매월 16개의 AI 모델 출시 - Nikkei Asia",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-06 15:44",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "프랑스의 미스트랄 (Mistral) 이 일부 중국 라이벌을 능가하는 AI 모델을 출시했다. - 로이터",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Arturia adds proper sound design tools to its AstroLab synths",
@@ -1282,22 +1433,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
-      "source": "Reuters",
-      "date": "2026-10-06 15:10",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "프랑스의 미스트랄 (Mistral) 이 일부 중국 라이벌을 능가하는 AI 모델을 출시했다. - 로이터",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Overview AI launches OV Spark line of AI inspection cameras",
@@ -1424,7 +1559,7 @@
     },
     {
       "title": "Meta Muse gives AMD a boost as AI momentum shifts to personal agents - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ3VMeWo4NUtvcHd0NU92ME10aTdvaDU5YTB3ZHVHTkNBMkJYUDREWUk0ZWhhYnZfZXpYdVhzSnFPZUZRa09yM1I3Rk9vNnoyYW5FU3dhb3VSaDNYMHRRZEtRZUU5Z3NCS1NvcG56YVE5TFBCSXJYblM0S1RwM3lUQVhNdzAtN2NZb2V2ajNldklrVVo4RGtNR0pieW9hdFduak9fckdRSHpnZ9IBrwFBVV95cUxNWUpNX1d2MXNZb0Z4cGR6WjZHZHBXbW5PdHNCNUU1VFNTZ2dTSERqa2tScmVHUnFCVzRoSllQT2s0a3BwcktYSFFVd0tLUC0xWWJMVmlRR3psb00zd3drTjVhd1RfT3ZVeGdxNlU1ZC0xa2IyX1RwOWNEMXh2blFQcDNRR015YW4zZUpJc0VJSlFrcGxkQjFrWW9VRmoyUXFQaWh6MTM1SEpFZXRtNVlN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWUpNX1d2MXNZb0Z4cGR6WjZHZHBXbW5PdHNCNUU1VFNTZ2dTSERqa2tScmVHUnFCVzRoSllQT2s0a3BwcktYSFFVd0tLUC0xWWJMVmlRR3psb00zd3drTjVhd1RfT3ZVeGdxNlU1ZC0xa2IyX1RwOWNEMXh2blFQcDNRR015YW4zZUpJc0VJSlFrcGxkQjFrWW9VRmoyUXFQaWh6MTM1SEpFZXRtNVlN0gGvAUFVX3lxTE1ZSk1fV3Yxc1lvRnhwZHpaNkdkcFdtbk90c0I1RTVUU1NnZ1NIRGpra1JyZUdScUJXNGhKWVBPazRrcHByS1hIUVV3S0tQLTFZYkxWaVFHemxvTTN3d2tONWF3VF9PdlV4Z3E2VTVkLTFrYjJfVHA5Y0QxeHZuUVBwM1FHTXlhbjNlSklzRUlKUWtwbGRCMWtZb1VGajJRcVBpaHoxMzVISkVldG01WU0?oc=5",
       "source": "CNBC",
       "date": "2026-10-06 11:00",
       "categoryId": "ai",
@@ -1652,43 +1787,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Example.com just launched the biggest redesign in decades",
-      "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
-      "source": "Hacker News",
-      "date": "2026-10-05 22:55",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Example.com은 수십 년 만에 가장 큰 재디자인을 시작했습니다.",
-      "type": "출시·업데이트",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
-      "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
-      "source": "The Verge",
-      "date": "2026-10-05 22:50",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "리버스 엔지니어링 게임: 비디오 게임 디컴프, 리컴프, VR, 웹 및 3D 포트에 대한 모든 뉴스",
-      "type": "뉴스·분석",
-      "themes": [
-        "영상",
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v0.39.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
       "source": "GitHub · ComfyUI",
@@ -1703,22 +1801,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-      "source": "Hacker News",
-      "date": "2026-10-05 22:46",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "ChatGPT는 가짜 뉴요커 만화에 실제 만화가들의 서명을 추가하고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
@@ -1795,6 +1877,22 @@
       "category": "소프트웨어·개발",
       "titleKo": "바레인의 F1... 말레이시아: 경주를 시작하려면 소프트웨어 업데이트가 필요했습니다.",
       "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Connecting AI agents to enterprise knowledge - MIT Technology Review",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxON0ZxZVNnZjZpNGgtVnd5WjUzdVBnaWwtZ29nVnJDaDJiOGtPVXdwVHBSMVd4RmdRMF9McGV1cGNIajgyVzRSUklRU08tdktmN2N1aFcxTVBpMnpVbzluUDdmb3lyV1Z6ZTFreDBqNzg4UDhYZEs5djNWS1RieG1TbVRPc3VSdEpMSWRtekFQek14TmxlN0laVTBNLXpoQdIBowFBVV95cUxOSG9lYUYxTGg4Y2RDcE0tUHFDcmxhckt3YW9SbHZIdkRpeXVWb2tLWTFXU1lPNnV1SGNoOHdDaXJFdE9BaExjYkliLTRYU2JRcjBUOVhjY1Fza3JSSUNOS0dPQ0cxdVdkYWRRT3ZfUzM5ZGlrYlhTZF93bEpZZm9oS3MwMlZpXzRHWTRxeDhzTExuTlZzaks0dHFYUVRqX2lYX1FF?oc=5",
+      "source": "MIT Technology Review",
+      "date": "2026-10-05 15:47",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Connecting AI agents to enterprise knowledge - MIT Technology Review",
+      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1915,160 +2013,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source": "Cloudflare Blog",
-      "date": "2026-10-05 13:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "1년 후: 1.1.1.1 인턴의 힘",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Accept ‘bad things’ in return for benefits of AI, says Sam Altman - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdllLLU13dGI0Z1I5Q3dod3JORXF1b1JfVTJ4TnBYNFpLT0RHNDU0b1hTWUZzbEdueWN4YXphb3B4OVlxQmw5MEFuVkZQa3FHcDhtU25ZVTM3YlFjVHFSRUk3bFZqblBhM0E5WjU1ZHdYVHRpWV9ZRk96bmxkMG9BNWxCZVVlWjNIV0ZGZ0lCQUg4clozcVlV?oc=5",
-      "source": "The Guardian",
-      "date": "2026-10-05 12:13",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "Sam Altman - The Guardian은 AI의 이점에 대한 대가로 ‘나쁜 일’ 을 받아들이라고 말합니다.",
-      "type": "인물 발언",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Download: AI’s popularity paradox and EmTech Future 2026",
-      "url": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
-      "source": "MIT Technology Review",
-      "date": "2026-10-05 12:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "다운로드: 인공지능의 인기 패러독스와 엠테크 퓨처 2026",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Agile Space Industries Strengthens Board and Corporate Development to Support Continued Growth",
-      "url": "https://spacenews.com/agile-space-industries-strengthens-board-and-corporate-development-to-support-continued-growth/",
-      "source": "SpaceNews",
-      "date": "2026-10-05 12:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Agile Space Industries는 지속적인 성장을 지원하기 위해 이사회 및 기업 개발을 강화합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
-      "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
-      "source": "The Hacker News",
-      "date": "2026-10-05 11:55",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "보안 팀이 볼 수 있는 것보다 더 빠르게 자격 증명 계층이 확장되고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZUIydzZYNjQ4a2RSMEROU0N4RC1NM2JPdXp3RTdtRWVqSjc0Zk5YTU9EWGd2ZEtWSk1JTkZacVkwejgyajZIRlRvMnNsSkkzMFhFbzczNGM4eVVRLXktR19kYjNybkdpVzl4bkpIdHFzRVdYSmlUTjkwR2Z2VjR5cnpSMlRLcEVFSnVlVUN0MTdRLXZERzI1eURTaGxTNllCTndqbtIBqgFBVV95cUxPcVFrM05qVE9lTUtNUUdYV0ZtZ0xNSy1NdGQ2aURSQU1pd3g3ZnA1YlMwbUxPaFZhWlh4bWVwQ3NvalBSajNFZk5DNlA0NjVERUZiLXZ0cmZhMHdRQXo0dVg5elgyTjZsbDR5Sl9KWVJvaVVNZGRKZGFrWlpzak1veGN0Yy1PX3FIWEJCYXl3YlpFMXhnaFg4ZHpkcVMxblp4NTRWM2pRT2FPdw?oc=5",
-      "source": "CNBC",
-      "date": "2026-10-05 10:41",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 연구원은 NYC 청문회에서 '우리는 우리 자신의 적을 만들고 성장시키기 위해 경주하고 있습니다' 라고 경고합니다. - CNBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-      "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-      "source": "The Hacker News",
-      "date": "2026-10-05 10:38",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "Apple, AI Agent 데이터 액세스에 대한 더 엄격한 macOS 전체 디스크 액세스 제어 계획",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Trump chooses top spy boss to run new AI taskforce - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiajN5MEpXZFFWUFJuUFlhNDJLV29waVA1OGlrVU1jZVdtRU1reERmdlRTSUprbWNGQ21EaHFXdFhrdWlMMzZaXy01ZmRBQWo5ekZiRlZiMmNtaTA?oc=5",
-      "source": "BBC",
-      "date": "2026-10-05 10:03",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Trump chooses top spy boss to run new AI taskforce - BBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
-      "url": "https://arxiv.org/abs/2610.02267",
-      "source": "arXiv cs.AI",
-      "date": "2026-10-05 04:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "FAST 모델, 느린 증거: LLM 에이전트 하네스에 대한 System-1 의사 결정 모델의 쌍 및 자체 감사 평가",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
-    "total": 41,
+    "successful": 42,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 7. 오전 6:43",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 7. 오전 9:24",
+    "mode": "하루 2회 전체 수집"
   }
 }
