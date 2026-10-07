@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 7. 오전 9:24",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 10. 7. 오전 10:37",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 61,
+    "recentCount": 63,
     "sourceCount": 26,
-    "officialCount": 29,
+    "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
-      "summary": "수학에서 AI 진행 상황 공유",
-      "latest": "2026-10-06 22:17",
+      "count": 37,
+      "summary": "OpenAI는 또 다른 수학 혁신 배치를 삭제합니다",
+      "latest": "2026-10-06 23:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T00:24:37.313Z",
+      "lastRefreshed": "2026-10-07T01:37:24.564Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "통신 사업자가 개방형 모델을 기반으로 AI 전략을 수립하는 이유",
       "latest": "2026-10-06 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T00:24:37.313Z",
+      "lastRefreshed": "2026-10-07T01:37:24.564Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "10월 프라임데이 최고의 로봇 진공청소기 및 물걸레 특가",
       "latest": "2026-10-06 20:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T00:24:37.314Z",
+      "lastRefreshed": "2026-10-07T01:37:24.564Z",
       "themes": [
         "영상"
       ]
@@ -65,7 +65,7 @@
       "summary": "삼성의 10월 업데이트 패치, 갤럭시 장치 전반에 걸친 9가지 치명적인 보안 결함 - TechRepublic",
       "latest": "2026-10-06 20:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T00:24:37.314Z",
+      "lastRefreshed": "2026-10-07T01:37:24.564Z",
       "themes": [
         "주요 기업"
       ]
@@ -78,7 +78,7 @@
       "summary": "NASA, Northrop Grumman CRS-24 우주선 출발 지원 예정",
       "latest": "2026-10-06 18:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T00:24:37.314Z",
+      "lastRefreshed": "2026-10-07T01:37:24.564Z",
       "themes": []
     },
     {
@@ -89,7 +89,7 @@
       "summary": "전력 수요가 많은 Google의 데이터 센터는 원자력 에너지를 갈망합니다.",
       "latest": "2026-10-06 20:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-07T00:24:37.314Z",
+      "lastRefreshed": "2026-10-07T01:37:24.564Z",
       "themes": [
         "주요 기업"
       ]
@@ -98,11 +98,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
+      "count": 19,
       "summary": "위키미디어 프로젝트에서 발견된 OpenAI \"불량\" 에이전트 활동",
       "latest": "2026-10-07 00:16",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T00:24:37.314Z",
+      "lastRefreshed": "2026-10-07T01:37:24.564Z",
       "themes": [
         "주요 기업"
       ]
@@ -327,6 +327,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Adobe Creative Suite Cleanroom Port to Rust",
+        "url": "https://github.com/storytold/photocraft",
+        "source": "Hacker News",
+        "date": "2026-10-06 17:20",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Adobe Creative Suite 클린룸 포트에서 녹까지",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Arturia adds proper sound design tools to its AstroLab synths",
         "url": "https://www.theverge.com/gadgets/1005671/arturia-astrolab-synth-firmware-update",
         "source": "The Verge",
@@ -394,6 +412,42 @@
         "stream": "analysis",
         "category": "소프트웨어·개발",
         "titleKo": "위키미디어 프로젝트에서 발견된 OpenAI \"불량\" 에이전트 활동",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI drops another batch of mathematical breakthroughs",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+        "source": "The Verge",
+        "date": "2026-10-06 23:26",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI는 또 다른 수학 혁신 배치를 삭제합니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "llm-openai-decisions 0.1a0",
+        "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+        "source": "Simon Willison",
+        "date": "2026-10-06 23:04",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "llm-openai-decisions 0.1a0",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -555,38 +609,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The next hurdle for AI agents: getting websites to let them in",
-        "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
-        "source": "TechCrunch",
-        "date": "2026-10-06 19:56",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 상담원의 다음 장애물: 웹사이트를 들여보내기",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-        "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-        "source": "The Hacker News",
-        "date": "2026-10-06 18:38",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "가짜 채팅GPT, Gemini 및 Claude Ad Portals 캡처 자격 증명 및 MFA 코드",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -602,6 +624,24 @@
         "titleKo": "수학에서 AI 진행 상황 공유",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Adobe Creative Suite Cleanroom Port to Rust",
+        "url": "https://github.com/storytold/photocraft",
+        "source": "Hacker News",
+        "date": "2026-10-06 17:20",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Adobe Creative Suite 클린룸 포트에서 녹까지",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -674,22 +714,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Open Source as We Know It Is Dead",
-        "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
-        "source": "Hacker News",
-        "date": "2026-10-06 03:31",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "Open Source as We Know It Is Dead",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -743,6 +767,42 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "source": "The Verge",
+      "date": "2026-10-06 23:26",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 또 다른 수학 혁신 배치를 삭제합니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "source": "Simon Willison",
+      "date": "2026-10-06 23:04",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "llm-openai-decisions 0.1a0",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Sharing AI progress in mathematics",
@@ -1189,6 +1249,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Adobe Creative Suite Cleanroom Port to Rust",
+      "url": "https://github.com/storytold/photocraft",
+      "source": "Hacker News",
+      "date": "2026-10-06 17:20",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Adobe Creative Suite 클린룸 포트에서 녹까지",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "AI Gateway adds confidence-based decision fallbacks",
@@ -1691,22 +1769,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Open Source as We Know It Is Dead",
-      "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
-      "source": "Hacker News",
-      "date": "2026-10-06 03:31",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "Open Source as We Know It Is Dead",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Nano Banana 2.1 now available on AI Gateway",
       "url": "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway",
       "source": "Vercel Changelog",
@@ -1764,22 +1826,6 @@
       "stream": "news",
       "category": "로봇·모빌리티",
       "titleKo": "Teradyne은 AI 인프라 제조에 로봇 공학을 도입하기 위해 Bright Machines에 투자합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Gemini Call for Me might tell your mom you’re running late",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-      "source": "The Verge",
-      "date": "2026-10-05 23:09",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Gemini Call for Me는 엄마에게 늦었다고 말할 수 있습니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1997,30 +2043,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Everything we launched during Birthday Week 2026",
-      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-      "source": "Cloudflare Blog",
-      "date": "2026-10-05 13:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "2026년 생일 주간에 출시한 모든 제품",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 42,
-    "total": 47,
+    "successful": 36,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 7. 오전 9:24",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 7. 오전 10:37",
+    "mode": "매시간 공식 레이더"
   }
 }
