@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 8. 오전 7:03",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.39.2",
+  "updatedAt": "2026. 10. 8. 오전 9:45",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.5.0-canary.3",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 68,
-    "sourceCount": 24,
-    "officialCount": 31,
+    "recentCount": 62,
+    "sourceCount": 27,
+    "officialCount": 29,
     "opportunityCount": 2
   },
   "summary": [
-    "새 출시: v0.39.2",
-    "창작 기술: Show HN: 위키피디아에서 제작한 도보 가능한 3D 미술사 박물관",
+    "새 출시: v16.5.0-canary.3",
+    "창작 기술: \"소프트웨어는 끝났습니다\": 대담한 AI 개발자가 오픈 소스 복제본으로 Adobe를 겨냥합니다.",
     "행사·무료: 제작 중인 AI: 어떤 브레이크가 발생하고, 어떤 기능이 작동하며, 누가 승인하나요? | InfoQ 웨비나 - infoq.com"
   ],
   "categories": [
@@ -20,26 +20,26 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "v0.39.2",
-      "latest": "2026-10-07 21:58",
+      "count": 34,
+      "summary": "로봇 데이터 스타트업 메카 AI, 세쿼이아에서 $ 60M 인수",
+      "latest": "2026-10-07 23:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T22:03:31.422Z",
+      "lastRefreshed": "2026-10-08T00:45:18.617Z",
       "themes": [
+        "미술·디자인",
         "주요 기업",
-        "기회",
-        "미술·디자인"
+        "기회"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 4,
+      "count": 5,
       "summary": "최초의 Nvidia RTX Spark 노트북의 가격은 최대 $ 7,000입니다.",
       "latest": "2026-10-07 19:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T22:03:31.422Z",
+      "lastRefreshed": "2026-10-08T00:45:18.617Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Teradyne Robotics, Elite Robots 코봇 분쟁 해결",
       "latest": "2026-10-07 16:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T22:03:31.422Z",
+      "lastRefreshed": "2026-10-08T00:45:18.617Z",
       "themes": [
         "영상"
       ]
@@ -61,14 +61,14 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
-      "summary": "CISO 데이터의 여섯 번째 목소리는 사이버 위험이 워크플로우 내부로 이동했음을 보여줍니다.",
-      "latest": "2026-10-07 11:57",
+      "count": 5,
+      "summary": "프론티어 AI 취약점 연구의 3가지 교훈 - Microsoft",
+      "latest": "2026-10-07 16:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T22:03:31.422Z",
+      "lastRefreshed": "2026-10-08T00:45:18.617Z",
       "themes": [
-        "음악·음성",
-        "주요 기업"
+        "주요 기업",
+        "음악·음성"
       ]
     },
     {
@@ -79,7 +79,7 @@
       "summary": "NASA, SpaceX 35번째 스테이션 재보급 발사, 도착에 대한 적용 범위 설정",
       "latest": "2026-10-07 21:16",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T22:03:31.422Z",
+      "lastRefreshed": "2026-10-08T00:45:18.617Z",
       "themes": [
         "주요 기업"
       ]
@@ -92,18 +92,18 @@
       "summary": "Ring’s first smart lock can be charged by turning a dial when the battery unexpectedly dies",
       "latest": "2026-10-06 21:17",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-07T22:03:31.422Z",
+      "lastRefreshed": "2026-10-08T00:45:18.617Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 25,
-      "summary": "클로드 하이쿠 5.5",
-      "latest": "2026-10-07 20:56",
+      "count": 24,
+      "summary": "v16.5.0-canary.3",
+      "latest": "2026-10-07 23:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-07T22:03:31.422Z",
+      "lastRefreshed": "2026-10-08T00:45:18.617Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -112,6 +112,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.5.0-canary.3",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.3",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-07 23:50",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.3",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.39.2",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.2",
@@ -127,6 +143,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+        "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+        "source": "Ars Technica",
+        "date": "2026-10-07 21:56",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "\"소프트웨어는 끝났습니다\": 대담한 AI 개발자가 오픈 소스 복제본으로 Adobe를 겨냥합니다.",
+        "type": "오픈소스",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
@@ -281,43 +315,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "v1.12.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.0",
-        "source": "GitHub · Anthropic SDK",
-        "date": "2026-10-07 17:57",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v1.12.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
-        "url": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
-        "source": "NASA",
-        "date": "2026-10-07 17:00",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA의 호기심은 고도 이정표에 도달 한 후 다시 보입니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+        "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+        "source": "Ars Technica",
+        "date": "2026-10-07 21:56",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "\"소프트웨어는 끝났습니다\": 대담한 AI 개발자가 오픈 소스 복제본으로 Adobe를 겨냥합니다.",
+        "type": "오픈소스",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Show HN: A walkable 3D art history museum built from Wikipedia",
         "url": "https://artmuseum.artfrompixels.com/",
@@ -414,6 +432,40 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
+        "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+        "source": "TechCrunch",
+        "date": "2026-10-07 23:36",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "로봇 데이터 스타트업 메카 AI, 세쿼이아에서 $ 60M 인수",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+        "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+        "source": "Ars Technica",
+        "date": "2026-10-07 21:56",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "\"소프트웨어는 끝났습니다\": 대담한 AI 개발자가 오픈 소스 복제본으로 Adobe를 겨냥합니다.",
+        "type": "오픈소스",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Claude Haiku 5.5",
         "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
@@ -517,6 +569,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3RwVEx5UDFWcFpvRFBFR2hFR3pUUjRuOVE2MUNQVElscTdfNlZZZzNOQzZIRndNcUNKZzFCOVVRbXh2MklhT1NfaHlTTXdIS3Rma29DU3ZRMWtHQWlGdExBYm9oR1M3Wk1kU09LYWNNVDNTNFFBazhNWnQ3X0NOT0FhNXRWTVlHdDloek9GX1dvSFRucjB4U3kxTEpPTkhMNHfSAacBQVVfeXFMUGtjTngzVGppRjdrNnB2OElDaXhfWXRRWnRKTFFXZm04Rkx6U28tZ1loNjJMYms1VnRLZzY2d2hubmVLdGU0WWtlaHBCNGlfcXQ0VzNJVFhFS0NRMzdJdXJwc2Y3Z1RHMlNpLXJPTUEyTTFRVUt1UWJfc3dtdXFyaGpSMlY4bnpLSWdXLTBRaERvN1BPamJhdUd5c1ZpRlFXS21fSEZYZTg?oc=5",
+        "source": "CNBC",
+        "date": "2026-10-07 18:30",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "Microsoft, Nvidia AI 칩이 포함된 $ 2,599 Surface Laptop Ultra 판매 - CNBC",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
         "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
         "source": "TechCrunch",
@@ -558,56 +628,6 @@
         "stream": "news",
         "category": "인공지능",
         "titleKo": "테일러 스위프트 (Taylor Swift) 를 능가하기 위해 10K 봇과 AI 노래를 사용한 사기범이 투옥되었습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
-        "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
-        "source": "TechCrunch",
-        "date": "2026-10-07 16:53",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta는 몰래 아동 성학대 자료로 이어지는 광고를 탐지하는 새로운 AI 도구를 출시합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Teradyne Robotics, Elite Robots settle cobot dispute",
-        "url": "https://www.therobotreport.com/terayne-robotics-elite-robots-settle-cobot-dispute/",
-        "source": "The Robot Report",
-        "date": "2026-10-07 16:20",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "Teradyne Robotics, Elite Robots 코봇 분쟁 해결",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-        "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-        "source": "TechCrunch",
-        "date": "2026-10-07 15:07",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Healthleap은 자세히 살펴봐야 할 수도 있는 병원 환자에게 플래그를 표시하는 AI로 $ 38M를 모금합니다.",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -667,6 +687,22 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "AI-assisted proof of optimal packing for 11 squares",
+        "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+        "source": "Hacker News",
+        "date": "2026-10-07 14:10",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "11개의 사각형에 대한 최적의 패킹에 대한 AI 지원 증명",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Show HN: A walkable 3D art history museum built from Wikipedia",
         "url": "https://artmuseum.artfrompixels.com/",
         "source": "Hacker News",
@@ -699,26 +735,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Sharing AI progress in mathematics",
-        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-        "source": "Hacker News",
-        "date": "2026-10-06 22:17",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "수학에서 AI 진행 상황 공유",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v16.5.0-canary.3",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.3",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-07 23:50",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.5.0-canary.3",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
+      "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+      "source": "TechCrunch",
+      "date": "2026-10-07 23:36",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "로봇 데이터 스타트업 메카 AI, 세쿼이아에서 $ 60M 인수",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v0.39.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.2",
@@ -734,6 +786,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+      "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+      "source": "Ars Technica",
+      "date": "2026-10-07 21:56",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "\"소프트웨어는 끝났습니다\": 대담한 AI 개발자가 오픈 소스 복제본으로 Adobe를 겨냥합니다.",
+      "type": "오픈소스",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
@@ -752,6 +822,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Microsoft brings more AI to PCs as it challenges Apple - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZkNrUEtoYUtLa3FYRlVtVnBCblY5Tmx2aHp5MFJwTldqSndfVUdmWDNTemFjb3l2YW5OaExPOXRyWTlTaUc1MUN2cW1tNVA4VUNJczRwMDVQZTJMTmhjT1hScHVYTklXNjJrOVpNamE3bVBGalo3RVFLbURIUkpFTGxEMEtjU01SaDVMOWM4OThPSWtmMEI0b0RtVDlvc1YwUWx5R2V3MHVIdm8?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-07 21:11",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Microsoft는 Apple에 도전하면서 PC에 더 많은 AI를 제공합니다. - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Claude Haiku 5.5",
@@ -940,6 +1028,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3RwVEx5UDFWcFpvRFBFR2hFR3pUUjRuOVE2MUNQVElscTdfNlZZZzNOQzZIRndNcUNKZzFCOVVRbXh2MklhT1NfaHlTTXdIS3Rma29DU3ZRMWtHQWlGdExBYm9oR1M3Wk1kU09LYWNNVDNTNFFBazhNWnQ3X0NOT0FhNXRWTVlHdDloek9GX1dvSFRucjB4U3kxTEpPTkhMNHfSAacBQVVfeXFMUGtjTngzVGppRjdrNnB2OElDaXhfWXRRWnRKTFFXZm04Rkx6U28tZ1loNjJMYms1VnRLZzY2d2hubmVLdGU0WWtlaHBCNGlfcXQ0VzNJVFhFS0NRMzdJdXJwc2Y3Z1RHMlNpLXJPTUEyTTFRVUt1UWJfc3dtdXFyaGpSMlY4bnpLSWdXLTBRaERvN1BPamJhdUd5c1ZpRlFXS21fSEZYZTg?oc=5",
+      "source": "CNBC",
+      "date": "2026-10-07 18:30",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Microsoft, Nvidia AI 칩이 포함된 $ 2,599 Surface Laptop Ultra 판매 - CNBC",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
@@ -1138,6 +1244,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "3 lessons from frontier AI vulnerability research - Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX3gyZHZKWTV5UWVFbU5YaDlwdkxtV0t6bTJWWTVSM2laaG11NU1sNnNIX1NNZ0dwTFJRRTltWmtVcnhzWW9ZbXU4YWZYekdzRUdfbTNIUWhVc1JMaUxaQ0JXNldaNkhQQ1FvQk9JaHpkWktyS2w1Ujlkc0RQcEhnU2Exd0Yyay1qYVM1dnM2VUdmQkFZcWFReFBBSElDYU9sM3k0a0RPQVFkZDQ?oc=5",
+      "source": "Microsoft",
+      "date": "2026-10-07 16:00",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "프론티어 AI 취약점 연구의 3가지 교훈 - Microsoft",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Local sandboxing for GitHub Copilot now generally available",
       "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
       "source": "GitHub Changelog",
@@ -1202,22 +1326,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-      "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-      "source": "TechCrunch",
-      "date": "2026-10-07 15:07",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Healthleap은 자세히 살펴봐야 할 수도 있는 병원 환자에게 플래그를 표시하는 AI로 $ 38M를 모금합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Anti-Patterns in Software Blogging",
       "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
       "source": "Simon Willison",
@@ -1264,6 +1372,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI-assisted proof of optimal packing for 11 squares",
+      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "source": "Hacker News",
+      "date": "2026-10-07 14:10",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "11개의 사각형에 대한 최적의 패킹에 대한 AI 지원 증명",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "AI in Production: What Breaks, What Works, and Who Approves It? | InfoQ Webinar - infoq.com",
@@ -1839,20 +1963,22 @@
       "layerLabel": "주요 언론 확인"
     },
     {
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "source": "Hacker News",
-      "date": "2026-10-06 22:17",
+      "title": "Sharing AI progress in mathematics - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HRmFiYm1mWTNPVTVGTk9faFRwRVZyTjhmejJwa0U3QjU3djh5SlpXT3ZhUlF2M0lXcV9jNkNka1kzY3RKNkRTTnpJVW16ZG1QdmdPU3owRXdCYzFLSkdTb3pIZWdJV0k1R3o3dw?oc=5",
+      "source": "OpenAI",
+      "date": "2026-10-06 22:21",
       "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
+      "confidence": "C",
+      "stream": "news",
       "category": "인공지능",
-      "titleKo": "수학에서 AI 진행 상황 공유",
+      "titleKo": "Sharing AI progress in mathematics - OpenAI",
       "type": "뉴스·분석",
-      "themes": [],
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v3.26.0",
@@ -1884,24 +2010,6 @@
       "titleKo": "Ring’s first smart lock can be charged by turning a dial when the battery unexpectedly dies",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
-      "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-      "source": "Ars Technica",
-      "date": "2026-10-06 20:50",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "OpenAI는 기본적으로 ChatGPT 출력을 워터마킹하지만 EU에서만",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1973,96 +2081,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v0.39.1",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.1",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-10-06 18:49",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.39.1",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-      "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-      "source": "The Hacker News",
-      "date": "2026-10-06 18:38",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "가짜 채팅GPT, Gemini 및 Claude Ad Portals 캡처 자격 증명 및 MFA 코드",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-      "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-      "source": "The Hacker News",
-      "date": "2026-10-06 18:24",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "Linux 백도어는 한국과 대만에서 탐지를 회피하기 위해 이메일 보안 도구를 사칭합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v3.25.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.25.0",
-      "source": "GitHub · OpenAI Python",
-      "date": "2026-10-06 17:56",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v3.25.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The keys to the Internet change on October 11. Are you ready?",
-      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
-      "source": "Cloudflare Blog",
-      "date": "2026-10-06 17:50",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "10월 11일 인터넷 변화의 열쇠. 준비되셨나요?",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
-    "total": 41,
+    "successful": 42,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 8. 오전 7:03",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 8. 오전 9:45",
+    "mode": "하루 2회 전체 수집"
   }
 }
