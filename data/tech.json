@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 12. 오전 12:17",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "APOD: 2026년 10월 11일 – 우주 중성미자를 위한 얼음 낚시",
+  "updatedAt": "2026. 10. 12. 오전 3:08",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v3.29.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 17,
-    "sourceCount": 24,
+    "recentCount": 18,
+    "sourceCount": 23,
     "officialCount": 26,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: APOD: 2026년 10월 11일 – 우주 중성미자를 위한 얼음 낚시",
-    "창작 기술: 이 임원들은 음성 AI가 아직 ChatGPT 순간에 도달하지 않았다고 생각합니다.",
+    "새 출시: v3.29.0",
+    "창작 기술: 프라임 비디오, NYCC에서 블레이드 러너 2099 풀 트레일러 공개",
     "인물 발언: 마이크로소프트의 나델라 (Nadella) 는 인공지능이 인간이 제어하는 ‘비상 브레이크’ 가 필요하다고 말한다 - CNBC"
   ],
   "categories": [
@@ -20,14 +20,14 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 37,
-      "summary": "이 임원들은 음성 AI가 아직 ChatGPT 순간에 도달하지 않았다고 생각합니다.",
-      "latest": "2026-10-11 14:00",
+      "count": 38,
+      "summary": "AI 산업은 NDA를 제거하여 데이터 센터 상대를 설득할 수 있습니까?",
+      "latest": "2026-10-11 16:52",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T15:17:54.177Z",
+      "lastRefreshed": "2026-10-11T18:08:17.875Z",
       "themes": [
-        "음악·음성",
         "영상",
+        "음악·음성",
         "주요 기업"
       ]
     },
@@ -35,14 +35,12 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 1,
-      "summary": "엔비디아는 미국의 과학 컴퓨팅 지배력을 확보하기 위해 소파 밑에서 $ 10억을 발견했습니다 - The Register",
-      "latest": "2026-10-08 21:44",
+      "count": 0,
+      "summary": "새로운 주요 변화 확인 없음",
+      "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T15:17:54.178Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-10-11T18:08:17.876Z",
+      "themes": []
     },
     {
       "id": "robotics",
@@ -52,7 +50,7 @@
       "summary": "‘지루한’ 로봇이 현실 세계에서 승리할 수 있을까요? 로봇 양식이 워크플로우를 따라야 하는 이유",
       "latest": "2026-10-11 12:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T15:17:54.178Z",
+      "lastRefreshed": "2026-10-11T18:08:17.876Z",
       "themes": [
         "미술·디자인"
       ]
@@ -65,7 +63,7 @@
       "summary": "제3자 에이전트 문제: 선택한 AI를 위해 구축된 보안이 하지 않은 에이전트를 놓치는 이유",
       "latest": "2026-10-10 11:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T15:17:54.178Z",
+      "lastRefreshed": "2026-10-11T18:08:17.876Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -79,7 +77,7 @@
       "summary": "APOD: 2026년 10월 11일 – 우주 중성미자를 위한 얼음 낚시",
       "latest": "2026-10-11 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T15:17:54.178Z",
+      "lastRefreshed": "2026-10-11T18:08:17.876Z",
       "themes": [
         "주요 기업"
       ]
@@ -92,7 +90,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-11T15:17:54.178Z",
+      "lastRefreshed": "2026-10-11T18:08:17.876Z",
       "themes": []
     },
     {
@@ -100,10 +98,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 21,
-      "summary": "인공지능은 코딩을 자동화하고 있습니다. 그렇다면 왜 소프트웨어 개발자 채용 공고가 증가하고 있습니까? - CNBC",
-      "latest": "2026-10-11 13:30",
+      "summary": "v3.29.0",
+      "latest": "2026-10-11 17:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T15:17:54.178Z",
+      "lastRefreshed": "2026-10-11T18:08:17.876Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -112,6 +110,24 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.29.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-10-11 17:38",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.29.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "APOD: 2026 October 11 – Ice Fishing for Cosmic Neutrinos",
         "url": "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos/",
@@ -289,25 +305,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-        "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
-        "source": "Cloudflare Blog",
-        "date": "2026-10-09 18:27",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "완전한 다중 양상을 갖춘 Clef-omni와 더 빠른 Clef 및 더 저렴한 Clef-플래시 소개",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+        "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+        "source": "Ars Technica",
+        "date": "2026-10-11 14:50",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "프라임 비디오, NYCC에서 블레이드 러너 2099 풀 트레일러 공개",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
         "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
@@ -457,6 +475,40 @@
       }
     ],
     "analysis": [
+      {
+        "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+        "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+        "source": "TechCrunch",
+        "date": "2026-10-11 16:52",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI 산업은 NDA를 제거하여 데이터 센터 상대를 설득할 수 있습니까?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+        "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+        "source": "Ars Technica",
+        "date": "2026-10-11 14:50",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "프라임 비디오, NYCC에서 블레이드 러너 2099 풀 트레일러 공개",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
         "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
@@ -624,40 +676,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic is cutting off its internal evaluations from the internet",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-        "source": "The Verge",
-        "date": "2026-10-10 14:41",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 인터넷에서 내부 평가를 차단하고 있습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Here are the top AI agents that can live in your text messages",
-        "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-        "source": "TechCrunch",
-        "date": "2026-10-10 14:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "다음은 문자 메시지에 포함될 수 있는 최고의 AI 상담원입니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -766,6 +784,58 @@
     ]
   },
   "news": [
+    {
+      "title": "v3.29.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-10-11 17:38",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.29.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "source": "TechCrunch",
+      "date": "2026-10-11 16:52",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI 산업은 NDA를 제거하여 데이터 센터 상대를 설득할 수 있습니까?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+      "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+      "source": "Ars Technica",
+      "date": "2026-10-11 14:50",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "프라임 비디오, NYCC에서 블레이드 러너 2099 풀 트레일러 공개",
+      "type": "뉴스·분석",
+      "themes": [
+        "영상"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
       "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
@@ -1233,24 +1303,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "source": "TechCrunch",
-      "date": "2026-10-10 00:18",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic은 AI 에이전트를 안정적으로 제어할 수 없습니다. 대신 실시간 인터넷에서 내부 Evals를 차단하고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v16.5.0-canary.7",
@@ -2064,48 +2116,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.5.0-canary.5",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.5",
-      "source": "GitHub · Next.js",
-      "date": "2026-10-08 23:55",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.5.0-canary.5",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Nvidia found $1B under the couch to help secure American scientific computing dominance - The Register",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTDFuVkg1NVZTNVc2OGtXMWk0MjdyN2QtVGpoeE9SSGkwTF9GRHM2VEV2S3JTbDJNRlg0WnlsNjY3VHJKVVVXR3QzcDZrbWNQSzMwQzVSbW1vam9QNmZNSU56bGZqTzREcWhubGhZWjM1ZDhQSV9vQk9kbGx0eUtYQXBKaXdyNXQ2WS1NLXlwTXdTa000bWZ4aXo4cTRCQXBnTkh3TDMtMUhld3pVRkhOUlEyUzJnTmY3S0dTRW4wUVlNTWtXclBtTFM2MlJjQlB1ZWlJ?oc=5",
-      "source": "The Register",
-      "date": "2026-10-08 21:44",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "엔비디아는 미국의 과학 컴퓨팅 지배력을 확보하기 위해 소파 밑에서 $ 10억을 발견했습니다 - The Register",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 42,
-    "total": 47,
+    "successful": 36,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 10. 12. 오전 12:17",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 12. 오전 3:08",
+    "mode": "매시간 공식 레이더"
   }
 }
