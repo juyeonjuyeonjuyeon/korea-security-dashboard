@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 11. 오전 8:37",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 10. 11. 오전 9:08",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v16.5.0-canary.8",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 22,
-    "sourceCount": 25,
-    "officialCount": 27,
+    "recentCount": 21,
+    "sourceCount": 24,
+    "officialCount": 26,
     "opportunityCount": 1
   },
   "summary": [
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
+      "count": 36,
       "summary": "Satya Nadella는 모든 AI 모델이 ‘손상‘ 되었다고 가정해야 한다고 말합니다.",
       "latest": "2026-10-10 22:10",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-10T23:37:38.238Z",
+      "lastRefreshed": "2026-10-11T00:08:30.436Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -36,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
+      "count": 2,
       "summary": "엔비디아의 $ 10억 연구 계획은 AI, 양자 컴퓨팅 및 의학을 목표로 합니다 - TechRepublic",
       "latest": "2026-10-09 16:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-10T23:37:38.238Z",
+      "lastRefreshed": "2026-10-11T00:08:30.436Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "손재주가 AI의 실제 병목 현상인 이유",
       "latest": "2026-10-10 12:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-10T23:37:38.238Z",
+      "lastRefreshed": "2026-10-11T00:08:30.436Z",
       "themes": [
         "미술·디자인"
       ]
@@ -66,7 +66,7 @@
       "summary": "제3자 에이전트 문제: 선택한 AI를 위해 구축된 보안이 하지 않은 에이전트를 놓치는 이유",
       "latest": "2026-10-10 11:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-10T23:37:38.238Z",
+      "lastRefreshed": "2026-10-11T00:08:30.436Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -80,7 +80,7 @@
       "summary": "Tom Brown은 GOP 관계를 사용하여 월 $ 1.25 B의 SpaceX 컴퓨팅 거래를 중개했습니다.",
       "latest": "2026-10-10 15:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-10T23:37:38.238Z",
+      "lastRefreshed": "2026-10-11T00:08:30.436Z",
       "themes": [
         "주요 기업"
       ]
@@ -93,7 +93,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-10T23:37:38.238Z",
+      "lastRefreshed": "2026-10-11T00:08:30.436Z",
       "themes": []
     },
     {
@@ -102,9 +102,9 @@
       "label": "소프트웨어·개발",
       "count": 20,
       "summary": "v16.5.0-canary.8",
-      "latest": "2026-10-10 23:24",
+      "latest": "2026-10-10 23:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-10T23:37:38.238Z",
+      "lastRefreshed": "2026-10-11T00:08:30.436Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -117,7 +117,7 @@
         "title": "v16.5.0-canary.8",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.8",
         "source": "GitHub · Next.js",
-        "date": "2026-10-10 23:24",
+        "date": "2026-10-10 23:47",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -628,6 +628,24 @@
     ],
     "community": [
       {
+        "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+        "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+        "source": "Hacker News",
+        "date": "2026-10-10 18:48",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "엔비디아, 미국 '개방형' 모델 스타트업 Reflection AI 인수 협약",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
         "url": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
         "source": "Hacker News",
@@ -714,22 +732,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-        "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-        "source": "Hacker News",
-        "date": "2026-10-09 17:42",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Lean Theorem Prover에 대해 수학자들이 알아야 할 사항: 신뢰성 및 AI",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -738,7 +740,7 @@
       "title": "v16.5.0-canary.8",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.8",
       "source": "GitHub · Next.js",
-      "date": "2026-10-10 23:24",
+      "date": "2026-10-10 23:47",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -817,6 +819,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source": "Hacker News",
+      "date": "2026-10-10 18:48",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "엔비디아, 미국 '개방형' 모델 스타트업 Reflection AI 인수 협약",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Petra Power looks to modernize energy for data centers and defense vehicles",
@@ -1437,22 +1457,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-      "source": "Hacker News",
-      "date": "2026-10-09 17:42",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Lean Theorem Prover에 대해 수학자들이 알아야 할 사항: 신뢰성 및 AI",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Boston Dynamics gives more insight into its redesigned humanoid hand",
       "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
       "source": "The Robot Report",
@@ -1685,6 +1689,24 @@
       "titleKo": "중국 AI 개발자들은 모델 출시의 3.6% 에 불과한 안전성 테스트를 발표했다고 보고서는 밝혔습니다. - Reuters",
       "type": "출시·업데이트",
       "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
+      "title": "Anthropic bans users from being 'cruel' to its AI systems - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ramZhSWMyQlZTRHhlTjVYOXNuNkw0Ty1RYkF4dTQ5aVZtSUgtRjQ5SWpkTllONG5VYlVHaS1Mb1VsRXpTT2dvUUZ0RmxYczVWT0E0c0VvN3h3WW8?oc=5",
+      "source": "BBC",
+      "date": "2026-10-09 12:34",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic bans users from being 'cruel' to its AI systems - BBC",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
@@ -2050,32 +2072,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "source": "NVIDIA Blog",
-      "date": "2026-10-08 21:06",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Into the Omniverse: Frontier AI 에이전트를 통해 개발자가 아이디어를 시뮬레이션으로 전환하는 방법",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
-    "total": 41,
+    "successful": 42,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 10. 11. 오전 8:37",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 8,
+    "checkedAt": "2026. 10. 11. 오전 9:08",
+    "mode": "하루 2회 전체 수집"
   }
 }
