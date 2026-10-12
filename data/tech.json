@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 12. 오전 7:04",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 10. 12. 오전 9:16",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v3.29.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 15,
-    "sourceCount": 23,
-    "officialCount": 26,
+    "recentCount": 13,
+    "sourceCount": 24,
+    "officialCount": 24,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 38,
+      "count": 37,
       "summary": "실리콘 밸리는 AI의 이름을 바꾸려는 트럼프의 시도에 따라 추락하고 있습니다.",
       "latest": "2026-10-11 18:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T22:04:30.486Z",
+      "lastRefreshed": "2026-10-12T00:16:10.978Z",
       "themes": [
         "영상",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T22:04:30.486Z",
+      "lastRefreshed": "2026-10-12T00:16:10.978Z",
       "themes": []
     },
     {
@@ -50,7 +50,7 @@
       "summary": "‘지루한’ 로봇이 현실 세계에서 승리할 수 있을까요? 로봇 양식이 워크플로우를 따라야 하는 이유",
       "latest": "2026-10-11 12:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T22:04:30.486Z",
+      "lastRefreshed": "2026-10-12T00:16:10.978Z",
       "themes": [
         "미술·디자인"
       ]
@@ -63,7 +63,7 @@
       "summary": "제3자 에이전트 문제: 선택한 AI를 위해 구축된 보안이 하지 않은 에이전트를 놓치는 이유",
       "latest": "2026-10-10 11:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T22:04:30.486Z",
+      "lastRefreshed": "2026-10-12T00:16:10.978Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 10월 11일 – 우주 중성미자를 위한 얼음 낚시",
       "latest": "2026-10-11 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T22:04:30.486Z",
+      "lastRefreshed": "2026-10-12T00:16:10.978Z",
       "themes": [
         "주요 기업"
       ]
@@ -86,22 +86,22 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 0,
-      "summary": "새로운 주요 변화 확인 없음",
-      "latest": "—",
+      "count": 3,
+      "summary": "배터리 교환은 생각보다 적은 배터리를 사용합니다",
+      "latest": "2026-10-11 01:41",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-11T22:04:30.486Z",
+      "lastRefreshed": "2026-10-12T00:16:10.978Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
+      "count": 19,
       "summary": "v3.29.0",
       "latest": "2026-10-11 17:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-11T22:04:30.486Z",
+      "lastRefreshed": "2026-10-12T00:16:10.978Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -209,6 +209,22 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "XPENG Launches “YOYO” Robotaxi",
+        "url": "https://cleantechnica.com/2026/10/09/xpeng-launches-yoyo-robotaxi/",
+        "source": "CleanTechnica",
+        "date": "2026-10-10 03:44",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "XPENG, “YOYO” Robotaxi 출시",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "v16.5.0-canary.7",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.7",
         "source": "GitHub · Next.js",
@@ -289,22 +305,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-        "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-        "source": "The Hacker News",
-        "date": "2026-10-09 19:14",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "수만 개의 저장소에 심어진 자격 증명-스틸링 GitHub 작업 워크플로",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -429,24 +429,6 @@
         "type": "출시·업데이트",
         "themes": [
           "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-        "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-        "source": "MIT Technology Review",
-        "date": "2026-10-09 00:08",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "라운드테이블: 인공지능이 설계한 바이러스 제작자와의 대화",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -626,6 +608,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Battery Swap Uses Fewer Batteries Than You Think",
+        "url": "https://cleantechnica.com/2026/10/10/battery-swap-uses-fewer-batteries-than-you-think/",
+        "source": "CleanTechnica",
+        "date": "2026-10-11 01:41",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "배터리 교환은 생각보다 적은 배터리를 사용합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Satya Nadella says we should assume all AI models are ‘compromised’ - The Verge",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb0xoOE5UOXhHNHFtQmRaTUVrOFdCQl9iV2k5SmcxblNucGJadERtY19lQ21iS21Fa3hhd0hCOTFhaFhLc2tHRHJ4WTVzYUx5THdyZllxcEF6d0E5RkhVMVFyNi0zX2d2T09DNk9uYmU5dFV2QUxBYXhwY0dpNmF5VlZJSDBvX0t3LXFaTGN1cTFxeXZabWIzbGZmMUg5eFo5OVNkSE1QcWhyNUZZVUxlOU1lTU9HcThyTU9ZdURYQ2dVcjg?oc=5",
         "source": "The Verge",
@@ -673,22 +671,6 @@
         "themes": [
           "주요 기업"
         ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Petra Power looks to modernize energy for data centers and defense vehicles",
-        "url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
-        "source": "TechCrunch",
-        "date": "2026-10-10 17:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Petra Power, 데이터 센터 및 방어 차량용 에너지 현대화 모색",
-        "type": "뉴스·분석",
-        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -1003,6 +985,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Battery Swap Uses Fewer Batteries Than You Think",
+      "url": "https://cleantechnica.com/2026/10/10/battery-swap-uses-fewer-batteries-than-you-think/",
+      "source": "CleanTechnica",
+      "date": "2026-10-11 01:41",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "배터리 교환은 생각보다 적은 배터리를 사용합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.5.0-canary.8",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.8",
       "source": "GitHub · Next.js",
@@ -1237,6 +1235,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "NIO Performs 1.2 Million Battery Swaps in Just 7 Days",
+      "url": "https://cleantechnica.com/2026/10/10/nio-performs-1-2-million-battery-swaps-in-just-7-days/",
+      "source": "CleanTechnica",
+      "date": "2026-10-10 13:59",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "NIO는 단 7일 만에 120만 개의 배터리 스왑을 수행합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Why dexterity is physical AI’s real bottleneck",
       "url": "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/",
       "source": "The Robot Report",
@@ -1335,6 +1349,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "XPENG Launches “YOYO” Robotaxi",
+      "url": "https://cleantechnica.com/2026/10/09/xpeng-launches-yoyo-robotaxi/",
+      "source": "CleanTechnica",
+      "date": "2026-10-10 03:44",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "XPENG, “YOYO” Robotaxi 출시",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v16.5.0-canary.7",
@@ -2078,66 +2108,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "source": "MIT Technology Review",
-      "date": "2026-10-09 00:08",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "라운드테이블: 인공지능이 설계한 바이러스 제작자와의 대화",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Microsoft Decision-1 now available on AI Gateway",
-      "url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-10-09 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Microsoft Decision-1 now available on AI Gateway",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Liquid AI's d1 is available on AI Gateway",
-      "url": "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-10-09 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Liquid AI's d1 is available on AI Gateway",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 35,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 10. 12. 오전 7:04",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 12. 오전 9:16",
+    "mode": "하루 2회 전체 수집"
   }
 }
