@@ -1,31 +1,30 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 16. 오전 7:25",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.4.2",
+  "updatedAt": "2026. 10. 16. 오전 8:34",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.5.0-canary.15",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 73,
-    "sourceCount": 22,
-    "officialCount": 40,
+    "recentCount": 79,
+    "sourceCount": 24,
+    "officialCount": 39,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v16.4.2",
+    "새 출시: v16.5.0-canary.15",
     "창작 기술: ThreatsDay: Adobe RCE, DNS 지갑 도난, NVIDIA 컨테이너 탈출, 자가 치료 백도어 + 23개 이상",
-    "행사·무료: 저장소 푸시 이벤트에 대한 이메일 알림이 종료되었습니다",
-    "인물 발언: 엔비디아 CEO, 안전하지 않은 AI를 구축하는 구매자를 차단하겠다고 말하다 - Bloomberg.com"
+    "행사·무료: 저장소 푸시 이벤트에 대한 이메일 알림이 종료되었습니다"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "트럼프는 백악관 복원 작업에 대해 자랑하기 위해 AI 편집 사진을 게시합니다.",
-      "latest": "2026-10-15 21:32",
+      "count": 32,
+      "summary": "v0.41.0",
+      "latest": "2026-10-15 22:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T22:25:15.020Z",
+      "lastRefreshed": "2026-10-15T23:34:08.451Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -36,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 10,
+      "count": 9,
       "summary": "엔비디아의 RTX 스파크에 관심을 갖는 가장 좋은 이유: ‘모든 것’ 은 Arm에서 실행됩니다.",
       "latest": "2026-10-15 17:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T22:25:15.020Z",
+      "lastRefreshed": "2026-10-15T23:34:08.451Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -54,7 +53,7 @@
       "summary": "ADI가 로봇 스타트업의 성장을 돕는 방법",
       "latest": "2026-10-15 16:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T22:25:15.020Z",
+      "lastRefreshed": "2026-10-15T23:34:08.451Z",
       "themes": []
     },
     {
@@ -65,7 +64,7 @@
       "summary": "ThreatsDay: Adobe RCE, DNS 지갑 도난, NVIDIA 컨테이너 탈출, 자가 치료 백도어 + 23개 이상",
       "latest": "2026-10-15 18:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T22:25:15.020Z",
+      "lastRefreshed": "2026-10-15T23:34:08.451Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -75,14 +74,12 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
+      "count": 9,
       "summary": "10월 29일: GEOINT 미션에 AI 적용",
       "latest": "2026-10-15 20:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T22:25:15.020Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-10-15T23:34:08.451Z",
+      "themes": []
     },
     {
       "id": "energy",
@@ -92,27 +89,58 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-15T22:25:15.020Z",
+      "lastRefreshed": "2026-10-15T23:34:08.451Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 24,
-      "summary": "v16.4.2",
-      "latest": "2026-10-15 20:44",
+      "count": 25,
+      "summary": "v16.5.0-canary.15",
+      "latest": "2026-10-15 23:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T22:25:15.020Z",
+      "lastRefreshed": "2026-10-15T23:34:08.451Z",
       "themes": [
         "주요 기업",
-        "기회",
-        "미술·디자인"
+        "기회"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.5.0-canary.15",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-15 23:20",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.15",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v0.41.0",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-10-15 22:57",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.41.0",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.4.2",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2",
@@ -144,6 +172,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Give him a hand: Dev publishes 25-year-old Palm OS tools to GitHub - The Register",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUFEwTjhUcjR3LUNWcm5oZEM4dEl4RVpoT1VjM3k3SE95b29KMTBiZFd6UGZNOXBmU0ZxM3ZGZkQ2X1pGbU9tYzItTGh6R2NTSGVYci0yaVRsMV9hWk92U0VqYkRaTC1nOXFKR1NMZzFETXV0WVFWUWxBT0RJVEFlWUhRNG9fLUVITjhaeDg2RFR4M1NmU1BwOWUwcU1lQndRT2JRdTVqZDNqNG5sT2h4Qy1NbTFob2FLWlF2Wg?oc=5",
+        "source": "The Register",
+        "date": "2026-10-15 20:28",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "news",
+        "category": "소프트웨어·개발",
+        "titleKo": "도움을 주세요: Dev는 25년 된 Palm OS 도구를 GitHub에 게시합니다 - The Register",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "Download GitHub Code Quality license usage as a CSV",
@@ -214,6 +258,24 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "The next developer interface is ambient intelligence - The GitHub Blog",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQWRfVHNPWHhMMVRYSXZHQ1lMTDBMOWZnNnRHTXBWaUNOWWdOdEh3bUp4TmxxcFVGSDhwOWFGVVVrVkVfTWo5dTZnZ180UUFEOUd1NTZPT21aX0FFekEtQkRRTTdMTEJ6M3prRXNmWWVoRnotZGptQVBreG15LUNRWDhla05Ic3paZEFkOURhVEtBUm9WRWd0VjFjZnplSm5Pa3c?oc=5",
+        "source": "The GitHub Blog",
+        "date": "2026-10-15 19:41",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "news",
+        "category": "소프트웨어·개발",
+        "titleKo": "다음 개발자 인터페이스는 앰비언트 인텔리전스입니다 - GitHub 블로그",
+        "type": "오픈소스",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
         "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
         "source": "GitHub Changelog",
@@ -241,72 +303,6 @@
         "titleKo": "릴리스 v5.20.0",
         "type": "오픈소스",
         "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA Satellites Observe Historic 2026 El Niño",
-        "url": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/",
-        "source": "NASA",
-        "date": "2026-10-15 17:59",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA 인공위성 관측 역사적인 2026년 엘니뇨",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
-        "url": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
-        "source": "NASA",
-        "date": "2026-10-15 17:30",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "전원 켜기: 태양열 어레이 롤아웃 우주 정거장 전원 공급 장치 부스트",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "A fully programmable secure web gateway",
-        "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
-        "source": "Cloudflare Blog",
-        "date": "2026-10-15 17:11",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "완벽하게 프로그래밍 가능한 안전한 웹 게이트웨이",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-        "source": "NVIDIA Blog",
-        "date": "2026-10-15 17:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Be There for the Beginning: NVIDIA RTX Spark 출시 기념 이벤트",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -421,24 +417,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Software development and rules stability: Prototype racing in 2030",
-        "url": "https://arstechnica.com/cars/2026/10/software-development-and-rules-stability-prototype-racing-in-2030/",
-        "source": "Ars Technica",
-        "date": "2026-10-14 19:44",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "소프트웨어 개발 및 규칙 안정성: 2030년 프로토타입 레이싱",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [
@@ -461,27 +439,24 @@
         "layerLabel": "공식 발표·제품 원문"
       }
     ],
-    "voices": [
+    "voices": [],
+    "analysis": [
       {
-        "title": "Nvidia CEO Says He Would Cut Off Buyers Who Build Unsafe AI - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnhxakNaMklvT25NQjFreTNHYVhMME45SHh4QkhBSGhVNFlPUFFCTmNyaGhYWFJobXZSMFZSUGtlUE5JNkxicGNhOVIzUkowVFo1UjlfZmliN2lFVmlJVDN6UGNUMFhDN0twbnJ6ejdpU19xQ01jSUR5Y3lnWnkxM0pUdGVDQnNiNFdkenE2dG9Zcm1DakdFUUdnbFZqTXc4TVR1c2hHX0hWV2I3aGFFcmhTcw?oc=5",
-        "source": "Bloomberg.com",
-        "date": "2026-10-14 21:29",
+        "title": "ChatGPT can peek at your Chrome tabs now",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+        "source": "The Verge",
+        "date": "2026-10-15 22:43",
         "categoryId": "ai",
         "confidence": "C",
-        "stream": "people",
+        "stream": "news",
         "category": "인공지능",
-        "titleKo": "엔비디아 CEO, 안전하지 않은 AI를 구축하는 구매자를 차단하겠다고 말하다 - Bloomberg.com",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
+        "titleKo": "ChatGPT는 이제 Chrome 탭을 엿볼 수 있습니다",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "analysis": [
+      },
       {
         "title": "Trump posts AI-edited photo to brag about White House restoration work",
         "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
@@ -509,6 +484,22 @@
         "category": "우주·통신",
         "titleKo": "10월 29일: GEOINT 미션에 AI 적용",
         "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Give him a hand: Dev publishes 25-year-old Palm OS tools to GitHub - The Register",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUFEwTjhUcjR3LUNWcm5oZEM4dEl4RVpoT1VjM3k3SE95b29KMTBiZFd6UGZNOXBmU0ZxM3ZGZkQ2X1pGbU9tYzItTGh6R2NTSGVYci0yaVRsMV9hWk92U0VqYkRaTC1nOXFKR1NMZzFETXV0WVFWUWxBT0RJVEFlWUhRNG9fLUVITjhaeDg2RFR4M1NmU1BwOWUwcU1lQndRT2JRdTVqZDNqNG5sT2h4Qy1NbTFob2FLWlF2Wg?oc=5",
+        "source": "The Register",
+        "date": "2026-10-15 20:28",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "news",
+        "category": "소프트웨어·개발",
+        "titleKo": "도움을 주세요: Dev는 25년 된 Palm OS 도구를 GitHub에 게시합니다 - The Register",
+        "type": "오픈소스",
         "themes": [],
         "official": false,
         "sourceLayer": "analysis",
@@ -559,6 +550,24 @@
         "category": "인공지능",
         "titleKo": "Amazon 장치 책임자 Panos Panay는 AI 장치가 앱 사용의 필요성을 대체하는 미래를 봅니다.",
         "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The next developer interface is ambient intelligence - The GitHub Blog",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQWRfVHNPWHhMMVRYSXZHQ1lMTDBMOWZnNnRHTXBWaUNOWWdOdEh3bUp4TmxxcFVGSDhwOWFGVVVrVkVfTWo5dTZnZ180UUFEOUd1NTZPT21aX0FFekEtQkRRTTdMTEJ6M3prRXNmWWVoRnotZGptQVBreG15LUNRWDhla05Ic3paZEFkOURhVEtBUm9WRWd0VjFjZnplSm5Pa3c?oc=5",
+        "source": "The GitHub Blog",
+        "date": "2026-10-15 19:41",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "news",
+        "category": "소프트웨어·개발",
+        "titleKo": "다음 개발자 인터페이스는 앰비언트 인텔리전스입니다 - GitHub 블로그",
+        "type": "오픈소스",
         "themes": [
           "주요 기업"
         ],
@@ -632,61 +641,6 @@
         "themes": [
           "주요 기업",
           "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta and Apple team up to make Muse AI models run better on Macs",
-        "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-        "source": "The Verge",
-        "date": "2026-10-15 18:15",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Muse AI 모델을 Mac에서 더 잘 실행하기 위해 메타와 Apple이 협력합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The best reason to care about Nvidia’s RTX Spark: ‘everything’ will run on Arm",
-        "url": "https://www.theverge.com/tech/1011705/nvidia-rtx-spark-everything-runs-on-arm",
-        "source": "The Verge",
-        "date": "2026-10-15 17:51",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아의 RTX 스파크에 관심을 갖는 가장 좋은 이유: ‘모든 것’ 은 Arm에서 실행됩니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Volvo makes a bigger bet on Nvidia for hands-free automated driving",
-        "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
-        "source": "TechCrunch",
-        "date": "2026-10-15 17:34",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "볼보는 핸즈프리 자동 주행을 위해 엔비디아에 더 큰 베팅을 합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "기회"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -802,6 +756,54 @@
   },
   "news": [
     {
+      "title": "v16.5.0-canary.15",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-15 23:20",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.5.0-canary.15",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "v0.41.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-10-15 22:57",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.41.0",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "source": "The Verge",
+      "date": "2026-10-15 22:43",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "ChatGPT는 이제 Chrome 탭을 엿볼 수 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Trump posts AI-edited photo to brag about White House restoration work",
       "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
       "source": "The Verge",
@@ -864,6 +866,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Give him a hand: Dev publishes 25-year-old Palm OS tools to GitHub - The Register",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUFEwTjhUcjR3LUNWcm5oZEM4dEl4RVpoT1VjM3k3SE95b29KMTBiZFd6UGZNOXBmU0ZxM3ZGZkQ2X1pGbU9tYzItTGh6R2NTSGVYci0yaVRsMV9hWk92U0VqYkRaTC1nOXFKR1NMZzFETXV0WVFWUWxBT0RJVEFlWUhRNG9fLUVITjhaeDg2RFR4M1NmU1BwOWUwcU1lQndRT2JRdTVqZDNqNG5sT2h4Qy1NbTFob2FLWlF2Wg?oc=5",
+      "source": "The Register",
+      "date": "2026-10-15 20:28",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "news",
+      "category": "소프트웨어·개발",
+      "titleKo": "도움을 주세요: Dev는 25년 된 Palm OS 도구를 GitHub에 게시합니다 - The Register",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Download GitHub Code Quality license usage as a CSV",
@@ -966,6 +984,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "The next developer interface is ambient intelligence - The GitHub Blog",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQWRfVHNPWHhMMVRYSXZHQ1lMTDBMOWZnNnRHTXBWaUNOWWdOdEh3bUp4TmxxcFVGSDhwOWFGVVVrVkVfTWo5dTZnZ180UUFEOUd1NTZPT21aX0FFekEtQkRRTTdMTEJ6M3prRXNmWWVoRnotZGptQVBreG15LUNRWDhla05Ic3paZEFkOURhVEtBUm9WRWd0VjFjZnplSm5Pa3c?oc=5",
+      "source": "The GitHub Blog",
+      "date": "2026-10-15 19:41",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "news",
+      "category": "소프트웨어·개발",
+      "titleKo": "다음 개발자 인터페이스는 앰비언트 인텔리전스입니다 - GitHub 블로그",
+      "type": "오픈소스",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
@@ -1103,6 +1139,25 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Nvidia Run Is Now Open Source: What’s Free and Paid - TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWG1Jc3RINWxEMHNKdEhZRzc5elJpMjJLa3FvSDMxYTJYX2dWcHpJeDBmbWRNTEdTYVZuZEQyQ2ZYbUtSYmhwQXd6Mm9veWNsX2VzdWhZYVZZZ2hNbDk0dnhpc0syeXNBN2x5eU5tR1RYY0QtdG5xSmlFSlBmT3ZuVHR2NA?oc=5",
+      "source": "TechRepublic",
+      "date": "2026-10-15 18:05",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "news",
+      "category": "소프트웨어·개발",
+      "titleKo": "Nvidia Run은 이제 오픈 소스입니다: 무료 및 유료 기능 - TechRepublic",
+      "type": "오픈소스",
+      "themes": [
+        "주요 기업",
+        "기회"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -1260,25 +1315,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Volvo will use Nvidia’s tech for hands-free, point-to-point driving",
-      "url": "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
-      "source": "The Verge",
-      "date": "2026-10-15 16:39",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Volvo는 핸즈프리 지점 간 주행을 위해 Nvidia의 기술을 사용합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "How ADI is helping robotics startups scale",
       "url": "https://www.therobotreport.com/how-adi-is-helping-robotics-startups-scale-2/",
       "source": "The Robot Report",
@@ -1361,22 +1397,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "v0.41.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-10-15 15:56",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.41.0",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "I designed a nose guard for my dog and gave it away. Now 500 dogs wear one",
       "url": "https://snoutcover.com/one-year",
       "source": "Hacker News",
@@ -1447,6 +1467,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning | NVIDIA Technical Blog - NVIDIA Developer",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSW82SDRIOTB3UElVN0NhamZVakJWcEF2ZHg4aWhfODdHYTVmRTFlQzdaR005SXV4U2d0d0FJUnAtenRibGNLUHMxUmM1N24tdS04a3phX1E2ZzEySVZsMFZKQmVoVU9yMk50b2t5bG0wN3BCeUoxaGg5ai1ndzZKNk9XUzY3SUlXNHo3bkprYUU2SmY5TGFJNUEyYUxJVmlwbExoRW5QSE9mQmx4c2FmbXRSbFFWQQ?oc=5",
+      "source": "NVIDIA Developer",
+      "date": "2026-10-15 15:01",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "NVIDIA Nemotron 3.5 Super VL, 멀티모달 추론으로 전문 상담원 지원 | NVIDIA 기술 블로그 - NVIDIA 개발자",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
       "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
       "source": "NVIDIA Blog",
@@ -1479,6 +1517,22 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "US chip stocks set to wipe out $2 trillion after latest selloff - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDZEYU5ySFdLYUlmY29XeGxBbzZ1Nk92dHprTE44dzd5V19Yd09NdmUxUFpXMHhxdzYwenJiUjJQRFhPOXhBcHptTW9rY2J2Y01kM1loR3VQMVBXRG9mR2hQbkdWVnNGQVpCN01KelozT1h4aGx0RjRYeUZHRVRCYnlLWlpXWmpwbFRmRG4tSFR1RkNpRHNTb0lueU1VdWlpSjVFVGljZw?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-15 14:02",
+      "categoryId": "chips",
+      "confidence": "B",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "US chip stocks set to wipe out $2 trillion after latest selloff - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Deploy with Void",
@@ -2029,130 +2083,28 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
-      "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
-      "source": "Ars Technica",
-      "date": "2026-10-14 21:35",
+      "title": "NEWSLETTER: The rise and fall of an AI chatbot darling - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaWRWTElzWnNXaXMtQ0tlWW5MSEYtZEFpbG5SbUl0dTdaWWEtby1yTnNHZFgyUjdoWkVQWENNMTJMZVNJcjYta1ltWFViYmRBMlFUcFlvaFVFbkpjOW1WcFhyY1E2Y1VRaFVHdUR5RHVITkdNWWZkWGR0blljZGJ2UnlqSkxzSWhfTmtfVTlHQzdZVmlObDRyMjZJZEZPTFJDaWNhSA?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-14 21:43",
       "categoryId": "ai",
-      "confidence": "C",
+      "confidence": "B",
       "stream": "news",
       "category": "인공지능",
-      "titleKo": "수백만 달러가 드는 냉장고 해킹과 불꽃 튀는 화재는 보안 불량에서 비롯되었습니다.",
+      "titleKo": "NEWSLETTER: The rise and fall of an AI chatbot darling - Reuters",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Nvidia CEO Says He Would Cut Off Buyers Who Build Unsafe AI - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnhxakNaMklvT25NQjFreTNHYVhMME45SHh4QkhBSGhVNFlPUFFCTmNyaGhYWFJobXZSMFZSUGtlUE5JNkxicGNhOVIzUkowVFo1UjlfZmliN2lFVmlJVDN6UGNUMFhDN0twbnJ6ejdpU19xQ01jSUR5Y3lnWnkxM0pUdGVDQnNiNFdkenE2dG9Zcm1DakdFUUdnbFZqTXc4TVR1c2hHX0hWV2I3aGFFcmhTcw?oc=5",
-      "source": "Bloomberg.com",
-      "date": "2026-10-14 21:29",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "엔비디아 CEO, 안전하지 않은 AI를 구축하는 구매자를 차단하겠다고 말하다 - Bloomberg.com",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "SpaceX rocket launch causes stunning ‘jellyfish cloud’ visible off US east coast - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzg5WF95OVh5dmpfZ1RfTl95Q2w1eUd3dDQtVEhNZF9CS29NbDB1S21GTVQ0RmVWZVIwWHItaDVCM2ZDRVgyVnVtOEFGaHQ1em9vNHFmd2lWSlF2aG1NSjg4WFEtSWRfQkU0YWQ2MVVITmV6enhHZWoxT2FTQ2ZOWUR6MzZWOGwxWGxvbw?oc=5",
-      "source": "The Guardian",
-      "date": "2026-10-14 20:39",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "스페이스X 로켓 발사로 미국 동부 해안에서 볼 수 있는 놀라운 ‘해파리 구름’ - 가디언",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
-      "url": "https://blog.cloudflare.com/yandex-outage/",
-      "source": "Cloudflare Blog",
-      "date": "2026-10-14 20:24",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Yandex 서비스 중단: 데이터에 따르면 어둡게 진행되는 대신 악성 봇이 이동한 것으로 나타났습니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "HydraFusion updates and new Max option",
-      "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
-      "source": "GitHub Changelog",
-      "date": "2026-10-14 20:01",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "HydraFusion 업데이트 및 새로운 Max 옵션",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "GlobalFoundries to open two new chip plants in New York with US$21 billion in financing from Japan - BNN Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZ1pOWjU5S3lOcVdiczR1S3pIN09PM0JKUjNnSVpfSjNnWTBfd3YwQlhBYjNyNEROY1BCcG1LT0lNQS1LeTNocExfeHVpT0l0RE4tUERPZXZyT1dacUdDc2Y2eTlQUWdkMVVoel85bDN3MDE4WHZkWm9DOGo0dW5wV1BfUVZ4a3hDUVR1cG1wME9QTzdXRTdETmZ3SGtnLVBGNmZWanBueE42VzU3NkNCbGgybnNHTkw5dzJZVWVZaUxvcG1UV2dVd1ljc0VIYmxJT2dGU2hKWUpVaFdfZTU1SmJJT2o4OUNUSHVpbHd3d2M?oc=5",
-      "source": "BNN Bloomberg",
-      "date": "2026-10-14 19:50",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "GLOBALFOUNDRIES, 일본으로부터 $ 210억의 자금을 조달받아 뉴욕에 두 개의 새로운 칩 공장 개설 - BNN Bloomberg",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Software development and rules stability: Prototype racing in 2030",
-      "url": "https://arstechnica.com/cars/2026/10/software-development-and-rules-stability-prototype-racing-in-2030/",
-      "source": "Ars Technica",
-      "date": "2026-10-14 19:44",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "소프트웨어 개발 및 규칙 안정성: 2030년 프로토타입 레이싱",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 16. 오전 7:25",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 16. 오전 8:34",
+    "mode": "하루 2회 전체 수집"
   }
 }
