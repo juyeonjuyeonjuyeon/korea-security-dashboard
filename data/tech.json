@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 16. 오전 8:34",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 10. 16. 오전 10:26",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.15",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 79,
+    "recentCount": 76,
     "sourceCount": 24,
     "officialCount": 39,
     "opportunityCount": 1
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "v0.41.0",
-      "latest": "2026-10-15 22:57",
+      "count": 33,
+      "summary": "Cal AI의 바이러스 성 성공에 관해서는 소수의 인플루언서 군대가 성과를 거두었습니다.",
+      "latest": "2026-10-15 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T23:34:08.451Z",
+      "lastRefreshed": "2026-10-16T01:26:44.940Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -35,14 +35,13 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 9,
+      "count": 7,
       "summary": "엔비디아의 RTX 스파크에 관심을 갖는 가장 좋은 이유: ‘모든 것’ 은 Arm에서 실행됩니다.",
       "latest": "2026-10-15 17:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T23:34:08.451Z",
+      "lastRefreshed": "2026-10-16T01:26:44.940Z",
       "themes": [
-        "주요 기업",
-        "기회"
+        "주요 기업"
       ]
     },
     {
@@ -53,7 +52,7 @@
       "summary": "ADI가 로봇 스타트업의 성장을 돕는 방법",
       "latest": "2026-10-15 16:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T23:34:08.451Z",
+      "lastRefreshed": "2026-10-16T01:26:44.940Z",
       "themes": []
     },
     {
@@ -64,7 +63,7 @@
       "summary": "ThreatsDay: Adobe RCE, DNS 지갑 도난, NVIDIA 컨테이너 탈출, 자가 치료 백도어 + 23개 이상",
       "latest": "2026-10-15 18:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T23:34:08.451Z",
+      "lastRefreshed": "2026-10-16T01:26:44.940Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -74,12 +73,14 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 9,
-      "summary": "10월 29일: GEOINT 미션에 AI 적용",
-      "latest": "2026-10-15 20:41",
+      "count": 10,
+      "summary": "테슬라, 스타일리시하게 비행하고 추락하는 스페이스X 구동 로드스터 공개",
+      "latest": "2026-10-16 01:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T23:34:08.451Z",
-      "themes": []
+      "lastRefreshed": "2026-10-16T01:26:44.940Z",
+      "themes": [
+        "주요 기업"
+      ]
     },
     {
       "id": "energy",
@@ -89,7 +90,7 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-15T23:34:08.451Z",
+      "lastRefreshed": "2026-10-16T01:26:44.940Z",
       "themes": []
     },
     {
@@ -98,9 +99,9 @@
       "label": "소프트웨어·개발",
       "count": 25,
       "summary": "v16.5.0-canary.15",
-      "latest": "2026-10-15 23:20",
+      "latest": "2026-10-15 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-15T23:34:08.451Z",
+      "lastRefreshed": "2026-10-16T01:26:44.940Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -113,7 +114,7 @@
         "title": "v16.5.0-canary.15",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
         "source": "GitHub · Next.js",
-        "date": "2026-10-15 23:20",
+        "date": "2026-10-15 23:44",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -383,24 +384,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Wayland desktop for Linux with skeuomorphic design",
-        "url": "https://github.com/fyzugx/DEsk",
-        "source": "Hacker News",
-        "date": "2026-10-15 13:23",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "스큐어모픽 디자인의 리눅스용 웨이랜드 데스크톱",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
         "title": "Welcome FLUX.3 Image Klein in Diffusers",
         "url": "https://huggingface.co/blog/flux-3",
         "source": "Hugging Face Blog",
@@ -441,6 +424,40 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+        "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+        "source": "TechCrunch",
+        "date": "2026-10-16 01:17",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "테슬라, 스타일리시하게 비행하고 추락하는 스페이스X 구동 로드스터 공개",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+        "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+        "source": "TechCrunch",
+        "date": "2026-10-15 23:44",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Cal AI의 바이러스 성 성공에 관해서는 소수의 인플루언서 군대가 성과를 거두었습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "ChatGPT can peek at your Chrome tabs now",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
@@ -610,41 +627,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-        "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-        "source": "TechCrunch",
-        "date": "2026-10-15 18:56",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Bluesky는 누구나 웹사이트, 게임 등을 만들 수 있도록 AI 기반 Attie 앱을 확장합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-        "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-        "source": "The Hacker News",
-        "date": "2026-10-15 18:49",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "ThreatsDay: Adobe RCE, DNS 지갑 도난, NVIDIA 컨테이너 탈출, 자가 치료 백도어 + 23개 이상",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -735,19 +717,17 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "Wayland desktop for Linux with skeuomorphic design",
-        "url": "https://github.com/fyzugx/DEsk",
+        "title": "Using AI to reverse engineer hardware",
+        "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
         "source": "Hacker News",
-        "date": "2026-10-15 13:23",
+        "date": "2026-10-15 14:35",
         "categoryId": "ai",
         "confidence": "D",
         "stream": "community",
         "category": "인공지능",
-        "titleKo": "스큐어모픽 디자인의 리눅스용 웨이랜드 데스크톱",
+        "titleKo": "Using AI to reverse engineer hardware",
         "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
+        "themes": [],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -756,10 +736,44 @@
   },
   "news": [
     {
+      "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+      "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+      "source": "TechCrunch",
+      "date": "2026-10-16 01:17",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "테슬라, 스타일리시하게 비행하고 추락하는 스페이스X 구동 로드스터 공개",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "source": "TechCrunch",
+      "date": "2026-10-15 23:44",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Cal AI의 바이러스 성 성공에 관해서는 소수의 인플루언서 군대가 성과를 거두었습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.5.0-canary.15",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
       "source": "GitHub · Next.js",
-      "date": "2026-10-15 23:20",
+      "date": "2026-10-15 23:44",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -1194,43 +1208,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Volvo makes a bigger bet on Nvidia for hands-free automated driving",
-      "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
-      "source": "TechCrunch",
-      "date": "2026-10-15 17:34",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "볼보는 핸즈프리 자동 주행을 위해 엔비디아에 더 큰 베팅을 합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Volvo makes a bigger bet on Nvidia",
-      "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
-      "source": "TechCrunch",
-      "date": "2026-10-15 17:34",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "볼보는 엔비디아에 더 큰 베팅을 합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
       "url": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
       "source": "NASA",
@@ -1519,6 +1496,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Using AI to reverse engineer hardware",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "source": "Hacker News",
+      "date": "2026-10-15 14:35",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Using AI to reverse engineer hardware",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "US chip stocks set to wipe out $2 trillion after latest selloff - Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDZEYU5ySFdLYUlmY29XeGxBbzZ1Nk92dHprTE44dzd5V19Yd09NdmUxUFpXMHhxdzYwenJiUjJQRFhPOXhBcHptTW9rY2J2Y01kM1loR3VQMVBXRG9mR2hQbkdWVnNGQVpCN01KelozT1h4aGx0RjRYeUZHRVRCYnlLWlpXWmpwbFRmRG4tSFR1RkNpRHNTb0lueU1VdWlpSjVFVGljZw?oc=5",
       "source": "Reuters",
@@ -1599,24 +1592,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Wayland desktop for Linux with skeuomorphic design",
-      "url": "https://github.com/fyzugx/DEsk",
-      "source": "Hacker News",
-      "date": "2026-10-15 13:23",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "스큐어모픽 디자인의 리눅스용 웨이랜드 데스크톱",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
@@ -2100,11 +2075,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 16. 오전 8:34",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 16. 오전 10:26",
+    "mode": "매시간 공식 레이더"
   }
 }
