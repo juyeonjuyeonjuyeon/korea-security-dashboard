@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 16. 오후 9:33",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.41.2",
+  "updatedAt": "2026. 10. 16. 오후 10:42",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "릴리스 v5.20.1",
   "metrics": {
     "articleCount": 80,
     "recentCount": 67,
     "sourceCount": 25,
-    "officialCount": 38,
+    "officialCount": 36,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v0.41.2",
+    "새 출시: 릴리스 v5.20.1",
     "창작 기술: ThreatsDay: Adobe RCE, DNS 지갑 도난, NVIDIA 컨테이너 탈출, 자가 치료 백도어 + 23개 이상",
     "행사·무료: 저장소 푸시 이벤트에 대한 이메일 알림이 종료되었습니다",
     "인물 발언: 엔비디아 황 CEO, CoreWeave 개선, 백스톱 불필요 - Bloomberg.com"
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "벤치마크조차도 AI가 후발 경쟁자에 대한 벤처 협정을 침식하고 있다고 생각합니다.",
-      "latest": "2026-10-16 05:16",
+      "count": 34,
+      "summary": "릴리스 v5.20.1",
+      "latest": "2026-10-16 13:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-16T12:33:25.340Z",
+      "lastRefreshed": "2026-10-16T13:42:46.189Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -40,7 +40,7 @@
       "summary": "엔비디아 황 CEO, CoreWeave 개선, 백스톱 불필요 - Bloomberg.com",
       "latest": "2026-10-15 20:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-16T12:33:25.340Z",
+      "lastRefreshed": "2026-10-16T13:42:46.189Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 1,
+      "count": 2,
       "summary": "ADI가 로봇 스타트업의 성장을 돕는 방법",
       "latest": "2026-10-15 16:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-16T12:33:25.340Z",
+      "lastRefreshed": "2026-10-16T13:42:46.189Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "AI 의사 결정 모델 및 AI SOC 플랫폼에 미치는 영향",
       "latest": "2026-10-16 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-16T12:33:25.340Z",
+      "lastRefreshed": "2026-10-16T13:42:46.189Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 9,
+      "count": 10,
       "summary": "APOD: 2026년 10월 16일 – 국제 우주 정거장 추격",
       "latest": "2026-10-16 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-16T12:33:25.340Z",
+      "lastRefreshed": "2026-10-16T13:42:46.189Z",
       "themes": [
         "주요 기업"
       ]
@@ -91,18 +91,18 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-16T12:33:25.340Z",
+      "lastRefreshed": "2026-10-16T13:42:46.189Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 25,
-      "summary": "Slack 및 Microsoft Teams의 GitHub Copilot에 대한 다중 재배포 지원 및 기타 개선 사항",
-      "latest": "2026-10-16 02:16",
+      "count": 21,
+      "summary": "검증된 봇에 대한 지속적인 책임",
+      "latest": "2026-10-16 13:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-16T12:33:25.340Z",
+      "lastRefreshed": "2026-10-16T13:42:46.189Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -111,6 +111,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "Release v5.20.1",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
+        "source": "GitHub · Transformers",
+        "date": "2026-10-16 13:02",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "릴리스 v5.20.1",
+        "type": "오픈소스",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Continuous accountability for Verified bots",
+        "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+        "source": "Cloudflare Blog",
+        "date": "2026-10-16 13:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "검증된 봇에 대한 지속적인 책임",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.41.2",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.2",
@@ -194,6 +226,22 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
+        "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+        "url": "https://huggingface.co/blog/reflection-beam",
+        "source": "Hugging Face Blog",
+        "date": "2026-10-16 00:00",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "웰컴 빔: 소유, 사용자 정의 및 확장할 수 있는 501B 개방형 모델",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v16.5.0-canary.15",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
         "source": "GitHub · Next.js",
@@ -256,56 +304,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Give him a hand: Dev publishes 25-year-old Palm OS tools to GitHub - The Register",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUFEwTjhUcjR3LUNWcm5oZEM4dEl4RVpoT1VjM3k3SE95b29KMTBiZFd6UGZNOXBmU0ZxM3ZGZkQ2X1pGbU9tYzItTGh6R2NTSGVYci0yaVRsMV9hWk92U0VqYkRaTC1nOXFKR1NMZzFETXV0WVFWUWxBT0RJVEFlWUhRNG9fLUVITjhaeDg2RFR4M1NmU1BwOWUwcU1lQndRT2JRdTVqZDNqNG5sT2h4Qy1NbTFob2FLWlF2Wg?oc=5",
-        "source": "The Register",
-        "date": "2026-10-15 20:28",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "도움을 주세요: Dev는 25년 된 Palm OS 도구를 GitHub에 게시합니다 - The Register",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Download GitHub Code Quality license usage as a CSV",
-        "url": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv",
-        "source": "GitHub Changelog",
-        "date": "2026-10-15 20:11",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "CSV로 GitHub Code Quality 라이선스 사용법 다운로드",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Meta launches an open-weight AI model that runs on Macs",
-        "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-        "source": "TechCrunch",
-        "date": "2026-10-15 20:04",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Meta, Mac에서 실행되는 개방형 AI 모델 출시",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -726,6 +724,38 @@
   },
   "news": [
     {
+      "title": "Release v5.20.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
+      "source": "GitHub · Transformers",
+      "date": "2026-10-16 13:02",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "릴리스 v5.20.1",
+      "type": "오픈소스",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Continuous accountability for Verified bots",
+      "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+      "source": "Cloudflare Blog",
+      "date": "2026-10-16 13:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "검증된 봇에 대한 지속적인 책임",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "AI Decision Models and Their Impact on AI SOC Platforms",
       "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
       "source": "The Hacker News",
@@ -970,6 +1000,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": "Hugging Face Blog",
+      "date": "2026-10-16 00:00",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "웰컴 빔: 소유, 사용자 정의 및 확장할 수 있는 501B 개방형 모델",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
       "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
       "source": "TechCrunch",
@@ -1114,6 +1160,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Rocket startup LEAP targets 2028 orbital launch - SpaceNews",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE13MFJodkcxaGV2NzcycFBMcWUxbk1IWUJkRk0zYnVuWGZ5VDBqYnhvX0J1a2xLNnhPYnZhbGRjRmlWZ2J4N0FFelhRd0w0QXZzNTV6MlVBTExzcUlBN0FDa0JzVDhqbjQ0N2xLS3NDbUhVelhOajhPbHln?oc=5",
+      "source": "SpaceNews",
+      "date": "2026-10-15 20:33",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "로켓 스타트업 도약, 2028년 궤도 발사 목표 - SpaceNews",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Give him a hand: Dev publishes 25-year-old Palm OS tools to GitHub - The Register",
@@ -1982,92 +2044,28 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Open weight takes 71.5% of tokens and 23% of spend",
-      "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
-      "source": "Vercel Changelog",
-      "date": "2026-10-15 07:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Open weight takes 71.5% of tokens and 23% of spend",
-      "type": "출시·업데이트",
+      "title": "Chinese startup DexForce trains humanoid robots using virtual data to slash costs - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY3RWbl9HdXVzVGdQMGl2SFFKU05DYW5TbXBHOGF3WDFnQWJOa2NHalNlc3JjeXB6b1FMbmgzY1RPOTI3b3hNUU8xb0lDb0pEeVdpQjBRaEl6aWZfSERLbUNHLUc5U0NkTkJTMjJtY3Bab2NnNWo1MDh4WXpOMWNnc3lZdHlmUjNyZmlSaVNjeHJqMHd1aXNFaVZkdGVTOXdyc3UybE5RVDg2ZWVYdnNFSC15WFVRNldielZzRFJ5Yk01OFU?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-15 07:47",
+      "categoryId": "robotics",
+      "confidence": "B",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Chinese startup DexForce trains humanoid robots using virtual data to slash costs - Reuters",
+      "type": "뉴스·분석",
       "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Vercel for Enterprise",
-      "url": "https://vercel.com/blog/vercel-for-enterprise",
-      "source": "Vercel Changelog",
-      "date": "2026-10-15 07:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Vercel for Enterprise",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Introducing Vercel Drives: persistent storage for agents",
-      "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
-      "source": "Vercel Changelog",
-      "date": "2026-10-15 07:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Introducing Vercel Drives: persistent storage for agents",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Backends on Vercel: Python, containers, and Daemons",
-      "url": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
-      "source": "Vercel Changelog",
-      "date": "2026-10-15 07:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Backends on Vercel: Python, containers, and Daemons",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Python on Vercel is now generally available",
-      "url": "https://vercel.com/blog/python-on-vercel-is-now-generally-available",
-      "source": "Vercel Changelog",
-      "date": "2026-10-15 07:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Python on Vercel is now generally available",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 16. 오후 9:33",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 16. 오후 10:42",
+    "mode": "하루 2회 전체 수집"
   }
 }
