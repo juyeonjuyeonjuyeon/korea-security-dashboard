@@ -1,19 +1,19 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 18. 오전 2:18",
+  "updatedAt": "2026. 10. 18. 오전 5:41",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.41.3",
+  "headline": "v3.34.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 27,
+    "recentCount": 19,
     "sourceCount": 26,
     "officialCount": 33,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.41.3",
+    "새 출시: v3.34.0",
     "창작 기술: APOD: 2026년 10월 17일 – 3D 67P",
-    "인물 발언: 엔비디아 황 CEO, CoreWeave 개선, 백스톱 불필요 - Bloomberg.com"
+    "인물 발언: CoreWeave, Jensen Huang이 AI 회사에 대해 '낙관적‘ 이라고 말한 후 슬라이드 공유 - Forbes"
   ],
   "categories": [
     {
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 35,
-      "summary": "v0.41.3",
-      "latest": "2026-10-17 04:26",
+      "summary": "Anthropic은 인력이 점점 줄어들었고 회의에 더 많은 시간을 할애하고 있다고 말합니다.",
+      "latest": "2026-10-17 20:21",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T17:18:11.140Z",
+      "lastRefreshed": "2026-10-17T20:41:30.849Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "RTX Spark를 사용한 일주일: 엔비디아의 새로운 노트북을 사용하여 배운 모든 것",
       "latest": "2026-10-16 15:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T17:18:11.140Z",
+      "lastRefreshed": "2026-10-17T20:41:30.849Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "기계의 부상은 취소됩니다: 인공지능을 가진 휴머노이드가 적이 아닌 도우미인 이유",
       "latest": "2026-10-17 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T17:18:11.140Z",
+      "lastRefreshed": "2026-10-17T20:41:30.849Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "OpenAI 리서치 모델이 스마트 컨트랙트 배포 허가 없이 제3자 테스트 ETH를 사용함",
       "latest": "2026-10-16 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T17:18:11.140Z",
+      "lastRefreshed": "2026-10-17T20:41:30.849Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 10월 17일 – 3D 67P",
       "latest": "2026-10-17 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T17:18:11.140Z",
+      "lastRefreshed": "2026-10-17T20:41:30.849Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "사이버 택시가 호주에 상륙했습니다 — 운송 노조는 싸울 준비를 합니다",
       "latest": "2026-10-17 14:51",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-17T17:18:11.140Z",
+      "lastRefreshed": "2026-10-17T20:41:30.849Z",
       "themes": [
         "미술·디자인"
       ]
@@ -101,10 +101,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 22,
-      "summary": "v3.33.0",
-      "latest": "2026-10-17 00:29",
+      "summary": "v3.34.0",
+      "latest": "2026-10-17 20:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T17:18:11.140Z",
+      "lastRefreshed": "2026-10-17T20:41:30.849Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -114,6 +114,40 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.34.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-10-17 20:34",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.34.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "AI Gateway logs now show session affinity",
+        "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+        "source": "Vercel Changelog",
+        "date": "2026-10-17 20:03",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "이제 AI 게이트웨이 로그에 세션 선호도가 표시됩니다.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.41.3",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3",
@@ -281,38 +315,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Open source license compliance generally available",
-        "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
-        "source": "GitHub Changelog",
-        "date": "2026-10-16 14:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "일반적으로 이용 가능한 오픈 소스 라이선스 준수",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Release v5.20.1",
-        "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
-        "source": "GitHub · Transformers",
-        "date": "2026-10-16 13:02",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "릴리스 v5.20.1",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -387,24 +389,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Designing more efficient quantum circuits with Claude",
-        "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-        "source": "Hacker News",
-        "date": "2026-10-16 18:00",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude와 함께 보다 효율적인 양자 회로 설계",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Simulation App Speeds Up Electric Truck Battery Design",
@@ -520,6 +504,22 @@
     "opportunities": [],
     "voices": [
       {
+        "title": "CoreWeave Shares Slide After Jensen Huang Says He Is ‘Optimistic’ About AI Firm - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTFFkV1ptalh5M3dpUjZROExWRnhDblBnQ2N0V1RLX1pxblBWOUthMEVYc2FkUkRCeDBITURZU185LXg5aVNJNng0SnAtRFdXZHpTUlVBR0owcy1SSGwwYi00RC1ZdGR0Z1pIcnJzWWcyUlJ2WlQtSkN5dmF4TVJCc013bGI1SThYQzg4bm51a1Q3MHR6UE05NERHM2Y1c1RYTGlnenYxdHlwdi1MMk55eFR0RnhabTZLc052RDlmcUtJcnI1Qjdxd2tFWGZZSG5x?oc=5",
+        "source": "Forbes",
+        "date": "2026-10-16 16:52",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "people",
+        "category": "인공지능",
+        "titleKo": "CoreWeave, Jensen Huang이 AI 회사에 대해 '낙관적‘ 이라고 말한 후 슬라이드 공유 - Forbes",
+        "type": "인물 발언",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Nvidia CEO Huang Says CoreWeave Improving, No Backstop Needed - Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTDQyZF9hQzg5YmxhM2ZBQmZfYjhQdkhWSG5IdEdfQXJFU3NTbWdJVllGR3lCcm1FMUdHLUxxNWl0VGoydU5wZlE3dEVMaUN4c3VGa29VU01Ga1NYa0pvRS1NU05xSHVUTExqdE5yZVVXWmRlWnBtdUlGcWtVVDd5dE8xbDQxYjNWVjVZb2tEeVZGaU41dHFMSENORWY3Y01ZSzVmenpMQTczWVc5V1FMNA?oc=5",
         "source": "Bloomberg.com",
@@ -539,6 +539,42 @@
       }
     ],
     "analysis": [
+      {
+        "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+        "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+        "source": "TechCrunch",
+        "date": "2026-10-17 20:21",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Anthropic은 인력이 점점 줄어들었고 회의에 더 많은 시간을 할애하고 있다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Replit is no longer working with Anthropic, CEO says",
+        "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+        "source": "TechCrunch",
+        "date": "2026-10-17 18:48",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "CEO는 Replit이 Anthropic과 더 이상 협력하지 않는다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "The Cybercab Has Landed In Australia — Transport Unions Gear Up To Fight",
         "url": "https://cleantechnica.com/2026/10/17/the-cybercab-has-landed-in-australia-transport-unions-gear-up-to-fight/",
@@ -656,24 +692,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Replit is no longer working with Anthropic, CEO says",
-        "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-        "source": "TechCrunch",
-        "date": "2026-10-16 21:22",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "CEO는 Replit이 Anthropic과 더 이상 협력하지 않는다고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "OpenAI models hacked a crypto wallet and breached more websites",
         "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
         "source": "Ars Technica",
@@ -724,27 +742,45 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-        "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-        "source": "MIT Technology Review",
-        "date": "2026-10-16 18:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "라운드테이블: 인공지능이 설계한 바이러스 제작자와의 대화",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "OpenAI discloses four more rogue incidents",
+        "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+        "source": "Hacker News",
+        "date": "2026-10-17 16:31",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "OpenAI, 악성 사건 4건 추가 공개",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Amazon uses AI to monitor union risk in UK warehouses",
+        "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+        "source": "Hacker News",
+        "date": "2026-10-17 16:04",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Amazon은 AI를 사용하여 영국 창고의 노조 위험을 모니터링합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "FLUX 3 Image Klein",
         "url": "https://bfl.ai/blog/flux-3-image-klein",
@@ -810,47 +846,116 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Anthropic assigned highest junk credit rating in June",
-        "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-        "source": "Hacker News",
-        "date": "2026-10-16 18:11",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "6월에 인류가 지정한 가장 높은 정크 신용 등급",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Designing more efficient quantum circuits with Claude",
-        "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-        "source": "Hacker News",
-        "date": "2026-10-16 18:00",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude와 함께 보다 효율적인 양자 회로 설계",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v3.34.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-10-17 20:34",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.34.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "TechCrunch",
+      "date": "2026-10-17 20:21",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic은 인력이 점점 줄어들었고 회의에 더 많은 시간을 할애하고 있다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI Gateway logs now show session affinity",
+      "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+      "source": "Vercel Changelog",
+      "date": "2026-10-17 20:03",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "이제 AI 게이트웨이 로그에 세션 선호도가 표시됩니다.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "TechCrunch",
+      "date": "2026-10-17 18:48",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "CEO는 Replit이 Anthropic과 더 이상 협력하지 않는다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI discloses four more rogue incidents",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "source": "Hacker News",
+      "date": "2026-10-17 16:31",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "OpenAI, 악성 사건 4건 추가 공개",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "source": "Hacker News",
+      "date": "2026-10-17 16:04",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Amazon은 AI를 사용하여 영국 창고의 노조 위험을 모니터링합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "The Cybercab Has Landed In Australia — Transport Unions Gear Up To Fight",
       "url": "https://cleantechnica.com/2026/10/17/the-cybercab-has-landed-in-australia-transport-unions-gear-up-to-fight/",
@@ -1052,24 +1157,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "source": "TechCrunch",
-      "date": "2026-10-16 21:22",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "CEO는 Replit이 Anthropic과 더 이상 협력하지 않는다고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "OpenAI models hacked a crypto wallet and breached more websites",
       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
       "source": "Ars Technica",
@@ -1222,25 +1309,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Anthropic assigned highest junk credit rating in June",
-      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-      "source": "Hacker News",
-      "date": "2026-10-16 18:11",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "6월에 인류가 지정한 가장 높은 정크 신용 등급",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "source": "MIT Technology Review",
@@ -1257,24 +1325,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Designing more efficient quantum circuits with Claude",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-      "source": "Hacker News",
-      "date": "2026-10-16 18:00",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Claude와 함께 보다 효율적인 양자 회로 설계",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "MassRobotics opens applications for Healthcare Robotics Startup Catalyst Program",
@@ -1303,6 +1353,22 @@
       "category": "인공지능",
       "titleKo": "인도는 가짜 AI 상담원 활동을 신고하는 최신 국가가 되었습니다.",
       "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "CoreWeave Shares Slide After Jensen Huang Says He Is ‘Optimistic’ About AI Firm - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTFFkV1ptalh5M3dpUjZROExWRnhDblBnQ2N0V1RLX1pxblBWOUthMEVYc2FkUkRCeDBITURZU185LXg5aVNJNng0SnAtRFdXZHpTUlVBR0owcy1SSGwwYi00RC1ZdGR0Z1pIcnJzWWcyUlJ2WlQtSkN5dmF4TVJCc013bGI1SThYQzg4bm51a1Q3MHR6UE05NERHM2Y1c1RYTGlnenYxdHlwdi1MMk55eFR0RnhabTZLc052RDlmcUtJcnI1Qjdxd2tFWGZZSG5x?oc=5",
+      "source": "Forbes",
+      "date": "2026-10-16 16:52",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "people",
+      "category": "인공지능",
+      "titleKo": "CoreWeave, Jensen Huang이 AI 회사에 대해 '낙관적‘ 이라고 말한 후 슬라이드 공유 - Forbes",
+      "type": "인물 발언",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1408,22 +1474,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Jev is Vercel’s fastest-adopted AI model ever",
-      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "source": "TechCrunch",
-      "date": "2026-10-16 15:33",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Jev는 Vercel에서 가장 빠르게 채택된 AI 모델입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2142,57 +2192,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Release v5.20.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
-      "source": "GitHub · Transformers",
-      "date": "2026-10-15 18:05",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "릴리스 v5.20.0",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Nvidia Run Is Now Open Source: What’s Free and Paid - TechRepublic",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWG1Jc3RINWxEMHNKdEhZRzc5elJpMjJLa3FvSDMxYTJYX2dWcHpJeDBmbWRNTEdTYVZuZEQyQ2ZYbUtSYmhwQXd6Mm9veWNsX2VzdWhZYVZZZ2hNbDk0dnhpc0syeXNBN2x5eU5tR1RYY0QtdG5xSmlFSlBmT3ZuVHR2NA?oc=5",
-      "source": "TechRepublic",
-      "date": "2026-10-15 18:05",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "Nvidia Run은 이제 오픈 소스입니다: 무료 및 유료 기능 - TechRepublic",
-      "type": "오픈소스",
-      "themes": [
-        "주요 기업",
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "A fully programmable secure web gateway",
-      "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
-      "source": "Cloudflare Blog",
-      "date": "2026-10-15 17:11",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "완벽하게 프로그래밍 가능한 안전한 웹 게이트웨이",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2200,7 +2199,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 18. 오전 2:18",
+    "checkedAt": "2026. 10. 18. 오전 5:41",
     "mode": "매시간 공식 레이더"
   }
 }
