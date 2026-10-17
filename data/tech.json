@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 17. 오전 9:32",
+  "updatedAt": "2026. 10. 17. 오후 2:38",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v3.33.0",
+  "headline": "v0.41.3",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 55,
-    "sourceCount": 28,
-    "officialCount": 33,
+    "recentCount": 42,
+    "sourceCount": 27,
+    "officialCount": 34,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v3.33.0",
-    "창작 기술: US Rep는 비디오 게임 구매자에게 \"라이선스\" 가 아닌 \"소유권\" 을 부여하는 법안을 제안합니다.",
+    "새 출시: v0.41.3",
+    "창작 기술: APOD: 2026년 10월 17일 – 3D 67P",
     "인물 발언: 엔비디아 황 CEO, CoreWeave 개선, 백스톱 불필요 - Bloomberg.com"
   ],
   "categories": [
@@ -20,29 +20,28 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
-      "summary": "Apple의 업데이트된 App Store 규칙은 인공지능 앱을 ‘나체화’ 한 후",
-      "latest": "2026-10-16 23:00",
+      "count": 37,
+      "summary": "v0.41.3",
+      "latest": "2026-10-17 04:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T00:32:45.182Z",
+      "lastRefreshed": "2026-10-17T05:38:52.286Z",
       "themes": [
         "주요 기업",
-        "영상",
-        "기회"
+        "미술·디자인",
+        "영상"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 4,
-      "summary": "Claude - Anthropic으로 보다 효율적인 양자 회로 설계",
-      "latest": "2026-10-16 17:29",
+      "count": 3,
+      "summary": "RTX Spark를 사용한 일주일: 엔비디아의 새로운 노트북을 사용하여 배운 모든 것",
+      "latest": "2026-10-16 15:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T00:32:45.182Z",
+      "lastRefreshed": "2026-10-17T05:38:52.286Z",
       "themes": [
-        "주요 기업",
-        "미술·디자인"
+        "주요 기업"
       ]
     },
     {
@@ -53,7 +52,7 @@
       "summary": "기회 충전이 로봇 함대 규모로 성공하는 이유",
       "latest": "2026-10-16 23:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T00:32:45.182Z",
+      "lastRefreshed": "2026-10-17T05:38:52.286Z",
       "themes": []
     },
     {
@@ -64,7 +63,7 @@
       "summary": "OpenAI 리서치 모델이 스마트 컨트랙트 배포 허가 없이 제3자 테스트 ETH를 사용함",
       "latest": "2026-10-16 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T00:32:45.182Z",
+      "lastRefreshed": "2026-10-17T05:38:52.286Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -75,10 +74,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 9,
-      "summary": "NASA 이름 Stephen Cash Marshall 우주 비행 센터장",
-      "latest": "2026-10-16 20:14",
+      "summary": "APOD: 2026년 10월 17일 – 3D 67P",
+      "latest": "2026-10-17 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T00:32:45.182Z",
+      "lastRefreshed": "2026-10-17T05:38:52.286Z",
       "themes": [
         "미술·디자인"
       ]
@@ -91,7 +90,7 @@
       "summary": "ETS2 지연은 다음 에너지 위기로부터 가구를 보호하지 못합니다.",
       "latest": "2026-10-16 23:48",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-17T00:32:45.182Z",
+      "lastRefreshed": "2026-10-17T05:38:52.286Z",
       "themes": [
         "미술·디자인"
       ]
@@ -100,11 +99,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 22,
+      "count": 21,
       "summary": "v3.33.0",
       "latest": "2026-10-17 00:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T00:32:45.182Z",
+      "lastRefreshed": "2026-10-17T05:38:52.286Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -114,6 +113,40 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.41.3",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-10-17 04:26",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.41.3",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "APOD: 2026 October 17 – 3D 67P",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+        "source": "NASA",
+        "date": "2026-10-17 04:05",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "APOD: 2026년 10월 17일 – 3D 67P",
+        "type": "출시·업데이트",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v3.33.0",
         "url": "https://github.com/openai/openai-python/releases/tag/v3.33.0",
@@ -279,43 +312,45 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
+      }
+    ],
+    "creative": [
       {
-        "title": "NASA’s Hubble Spies Spiral’s Edge",
-        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+        "title": "APOD: 2026 October 17 – 3D 67P",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
         "source": "NASA",
-        "date": "2026-10-16 12:42",
+        "date": "2026-10-17 04:05",
         "categoryId": "space",
         "confidence": "A",
         "stream": "release",
         "category": "우주·통신",
-        "titleKo": "NASA의 Hubble Spies Spiral's Edge",
+        "titleKo": "APOD: 2026년 10월 17일 – 3D 67P",
         "type": "출시·업데이트",
-        "themes": [],
+        "themes": [
+          "미술·디자인"
+        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
       },
       {
-        "title": "Three Chinese reusable launch startups emerge with diverse rocket designs and funding - SpaceNews",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa29FNExhNE1Mcldtby15SzBaZjlBQk9lQ1lzeTN4TTFpWER3cVlodlpUMWphaG9LdDRiaUhzS091c2RPTkRpZ0k4RE1HYko4SUFSNm1Da3JVM1BnRHo2M0swZzBiY1ZVTmRTdlhwM2pCQ0laelBhQmJuWEMxVERuRE1lTEVFLWI3OG5CLVhrQnphNjYxNjA2Ym1KSzk5TTFFcl95NUx1dHRRdHFJ?oc=5",
-        "source": "SpaceNews",
-        "date": "2026-10-16 11:03",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "중국의 재사용 가능한 발사 스타트업 3곳이 다양한 로켓 설계와 자금 지원을 통해 등장하다 - SpaceNews",
-        "type": "출시·업데이트",
+        "title": "FLUX 3 Image Klein",
+        "url": "https://bfl.ai/blog/flux-3-image-klein",
+        "source": "Hacker News",
+        "date": "2026-10-16 19:47",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "플럭스 3 이미지 클라인",
+        "type": "뉴스·분석",
         "themes": [
           "미술·디자인"
         ],
         "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "creative": [
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
         "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
@@ -353,23 +388,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Designing more efficient quantum circuits with Claude - Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mdmhqUzNHN09EMF9VUnNTcmlMTlpDVnlnTmxNa0tVY3h1bjJ4bmVDSWROR3JoRTgxb0dQcWYzNGF4dE9YYlNpRDlKVEx6OEVyM3RnY0R6WVRiZERYRVRtcnJ4WF9ZNWZFWVQ2a1Q5UFRnM2xYM0U5akZzOA?oc=5",
-        "source": "Anthropic",
-        "date": "2026-10-16 17:29",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Claude - Anthropic으로 보다 효율적인 양자 회로 설계",
+        "title": "Designing more efficient quantum circuits with Claude",
+        "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+        "source": "Hacker News",
+        "date": "2026-10-16 18:00",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Claude와 함께 보다 효율적인 양자 회로 설계",
         "type": "뉴스·분석",
         "themes": [
-          "주요 기업",
           "미술·디자인"
         ],
         "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Simulation App Speeds Up Electric Truck Battery Design",
@@ -675,25 +709,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Designing more efficient quantum circuits with Claude - Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mdmhqUzNHN09EMF9VUnNTcmlMTlpDVnlnTmxNa0tVY3h1bjJ4bmVDSWROR3JoRTgxb0dQcWYzNGF4dE9YYlNpRDlKVEx6OEVyM3RnY0R6WVRiZERYRVRtcnJ4WF9ZNWZFWVQ2a1Q5UFRnM2xYM0U5akZzOA?oc=5",
-        "source": "Anthropic",
-        "date": "2026-10-16 17:29",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Claude - Anthropic으로 보다 효율적인 양자 회로 설계",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "Simulation App Speeds Up Electric Truck Battery Design",
         "url": "https://spectrum.ieee.org/electric-truck-battery-design-simulation",
         "source": "IEEE Spectrum",
@@ -710,9 +725,45 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+        "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+        "source": "TechCrunch",
+        "date": "2026-10-16 16:30",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "로봇공학이 아직 ChatGPT 순간을 맞추지 못한 이유에 대한 엔비디아 내부자 전환 VC",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "FLUX 3 Image Klein",
+        "url": "https://bfl.ai/blog/flux-3-image-klein",
+        "source": "Hacker News",
+        "date": "2026-10-16 19:47",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "플럭스 3 이미지 클라인",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "How the Claude Code team does code review",
         "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
@@ -781,33 +832,19 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-        "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+        "title": "Designing more efficient quantum circuits with Claude",
+        "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
         "source": "Hacker News",
-        "date": "2026-10-16 17:08",
+        "date": "2026-10-16 18:00",
         "categoryId": "ai",
         "confidence": "D",
         "stream": "community",
         "category": "인공지능",
-        "titleKo": "미국 근무 시간의 90% 는 AI 벤치 마크가 잘 다루지 않는 작업에 사용됩니다.",
+        "titleKo": "Claude와 함께 보다 효율적인 양자 회로 설계",
         "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "/dev/null: social network for developers",
-        "url": "https://dev-null.sh",
-        "source": "Hacker News",
-        "date": "2026-10-16 16:57",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "/dev/null: 개발자를 위한 소셜 네트워크",
-        "type": "뉴스·분석",
-        "themes": [],
+        "themes": [
+          "미술·디자인"
+        ],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -815,6 +852,40 @@
     ]
   },
   "news": [
+    {
+      "title": "v0.41.3",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-10-17 04:26",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.41.3",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "APOD: 2026 October 17 – 3D 67P",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+      "source": "NASA",
+      "date": "2026-10-17 04:05",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "APOD: 2026년 10월 17일 – 3D 67P",
+      "type": "출시·업데이트",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "v3.33.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.33.0",
@@ -986,6 +1057,24 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "FLUX 3 Image Klein",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "source": "Hacker News",
+      "date": "2026-10-16 19:47",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "플럭스 3 이미지 클라인",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
       "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
       "source": "Ars Technica",
@@ -1089,6 +1178,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "Hacker News",
+      "date": "2026-10-16 18:00",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Claude와 함께 보다 효율적인 양자 회로 설계",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "MassRobotics opens applications for Healthcare Robotics Startup Catalyst Program",
       "url": "https://www.therobotreport.com/massrobotics-opens-applications-healthcare-robotics-startup-catalyst-program/",
       "source": "The Robot Report",
@@ -1119,57 +1226,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Designing more efficient quantum circuits with Claude - Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mdmhqUzNHN09EMF9VUnNTcmlMTlpDVnlnTmxNa0tVY3h1bjJ4bmVDSWROR3JoRTgxb0dQcWYzNGF4dE9YYlNpRDlKVEx6OEVyM3RnY0R6WVRiZERYRVRtcnJ4WF9ZNWZFWVQ2a1Q5UFRnM2xYM0U5akZzOA?oc=5",
-      "source": "Anthropic",
-      "date": "2026-10-16 17:29",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Claude - Anthropic으로 보다 효율적인 양자 회로 설계",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "source": "Hacker News",
-      "date": "2026-10-16 17:08",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "미국 근무 시간의 90% 는 AI 벤치 마크가 잘 다루지 않는 작업에 사용됩니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "/dev/null: social network for developers",
-      "url": "https://dev-null.sh",
-      "source": "Hacker News",
-      "date": "2026-10-16 16:57",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "/dev/null: 개발자를 위한 소셜 네트워크",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Simulation App Speeds Up Electric Truck Battery Design",
@@ -1656,22 +1712,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Isaias Dims the Gulf Coast",
-      "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
-      "source": "NASA",
-      "date": "2026-10-16 04:00",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "아이사이아스 딤스 더 걸프 코스트",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Multi-repository support and other improvements for GitHub in Slack and Teams",
@@ -2161,7 +2201,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 11,
-    "checkedAt": "2026. 10. 17. 오전 9:32",
+    "checkedAt": "2026. 10. 17. 오후 2:38",
     "mode": "매시간 공식 레이더"
   }
 }
