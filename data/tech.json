@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 17. 오후 9:39",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 10. 17. 오후 11:14",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v0.41.3",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 38,
+    "recentCount": 36,
     "sourceCount": 27,
     "officialCount": 34,
     "opportunityCount": 0
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
+      "count": 35,
       "summary": "v0.41.3",
       "latest": "2026-10-17 04:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T12:39:04.975Z",
+      "lastRefreshed": "2026-10-17T14:14:35.688Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "RTX Spark를 사용한 일주일: 엔비디아의 새로운 노트북을 사용하여 배운 모든 것",
       "latest": "2026-10-16 15:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T12:39:04.975Z",
+      "lastRefreshed": "2026-10-17T14:14:35.688Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,10 +49,10 @@
       "code": "ROBOT",
       "label": "로봇·모빌리티",
       "count": 4,
-      "summary": "기회 충전이 로봇 함대 규모로 성공하는 이유",
-      "latest": "2026-10-16 23:39",
+      "summary": "기계의 부상은 취소됩니다: 인공지능을 가진 휴머노이드가 적이 아닌 도우미인 이유",
+      "latest": "2026-10-17 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T12:39:04.975Z",
+      "lastRefreshed": "2026-10-17T14:14:35.688Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "OpenAI 리서치 모델이 스마트 컨트랙트 배포 허가 없이 제3자 테스트 ETH를 사용함",
       "latest": "2026-10-16 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T12:39:04.975Z",
+      "lastRefreshed": "2026-10-17T14:14:35.688Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -73,13 +73,14 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 9,
+      "count": 10,
       "summary": "APOD: 2026년 10월 17일 – 3D 67P",
       "latest": "2026-10-17 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T12:39:04.975Z",
+      "lastRefreshed": "2026-10-17T14:14:35.688Z",
       "themes": [
-        "미술·디자인"
+        "미술·디자인",
+        "주요 기업"
       ]
     },
     {
@@ -90,7 +91,7 @@
       "summary": "ETS2 지연은 다음 에너지 위기로부터 가구를 보호하지 못합니다.",
       "latest": "2026-10-16 23:48",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-17T12:39:04.975Z",
+      "lastRefreshed": "2026-10-17T14:14:35.688Z",
       "themes": [
         "미술·디자인"
       ]
@@ -103,7 +104,7 @@
       "summary": "v3.33.0",
       "latest": "2026-10-17 00:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T12:39:04.975Z",
+      "lastRefreshed": "2026-10-17T14:14:35.688Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -539,6 +540,40 @@
     ],
     "analysis": [
       {
+        "title": "The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies",
+        "url": "https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/",
+        "source": "The Robot Report",
+        "date": "2026-10-17 12:30",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "기계의 부상은 취소됩니다: 인공지능을 가진 휴머노이드가 적이 아닌 도우미인 이유",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "SpaceX’s ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon",
+        "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
+        "source": "The Verge",
+        "date": "2026-10-17 03:13",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "AT&T, T-Mobile, Verizon을 대체하기 위한 SpaceX의 야심차고 값비싼 도박",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Delaying ETS2 Will Not Protect Households from the Next Energy Crisis",
         "url": "https://cleantechnica.com/2026/10/16/delaying-ets2-will-not-protect-households-from-the-next-energy-crisis/",
         "source": "CleanTechnica",
@@ -584,6 +619,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Websites are closing their doors to AI agents",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+        "source": "The Verge",
+        "date": "2026-10-16 22:31",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "웹사이트가 AI 상담원에게 문을 닫고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -688,58 +739,6 @@
         "titleKo": "MassRobotics, 헬스케어 로봇 스타트업 촉매 프로그램 신청 개시",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "India becomes the latest country to report rogue AI agent activity",
-        "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-        "source": "TechCrunch",
-        "date": "2026-10-16 17:52",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인도는 가짜 AI 상담원 활동을 신고하는 최신 국가가 되었습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Simulation App Speeds Up Electric Truck Battery Design",
-        "url": "https://spectrum.ieee.org/electric-truck-battery-design-simulation",
-        "source": "IEEE Spectrum",
-        "date": "2026-10-16 16:49",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "시뮬레이션 앱, 전기 트럭 배터리 설계 속도 향상",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-        "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-        "source": "TechCrunch",
-        "date": "2026-10-16 16:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "로봇공학이 아직 ChatGPT 순간을 맞추지 못한 이유에 대한 엔비디아 내부자 전환 VC",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -853,6 +852,22 @@
   },
   "news": [
     {
+      "title": "The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies",
+      "url": "https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/",
+      "source": "The Robot Report",
+      "date": "2026-10-17 12:30",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "기계의 부상은 취소됩니다: 인공지능을 가진 휴머노이드가 적이 아닌 도우미인 이유",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v0.41.3",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3",
       "source": "GitHub · ComfyUI",
@@ -885,6 +900,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "SpaceX’s ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon",
+      "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
+      "source": "The Verge",
+      "date": "2026-10-17 03:13",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "AT&T, T-Mobile, Verizon을 대체하기 위한 SpaceX의 야심차고 값비싼 도박",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v3.33.0",
@@ -982,6 +1015,22 @@
       "themes": [
         "주요 기업"
       ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "The Verge",
+      "date": "2026-10-16 22:31",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "웹사이트가 AI 상담원에게 문을 닫고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1910,22 +1959,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Trump posts AI-edited photo to brag about White House restoration work",
-      "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
-      "source": "The Verge",
-      "date": "2026-10-15 21:32",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "트럼프는 백악관 복원 작업에 대해 자랑하기 위해 AI 편집 사진을 게시합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v16.4.2",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2",
       "source": "GitHub · Next.js",
@@ -2038,22 +2071,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
-      "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
-      "source": "The Verge",
-      "date": "2026-10-15 19:57",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "이제 Bluesky의 AI 도구를 사용하여 소셜 미디어에서 공유할 게임과 앱을 만들 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v1.15.0",
@@ -2178,30 +2195,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "How ADI is helping robotics startups scale",
-      "url": "https://www.therobotreport.com/how-adi-is-helping-robotics-startups-scale-2/",
-      "source": "The Robot Report",
-      "date": "2026-10-15 16:39",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "ADI가 로봇 스타트업의 성장을 돕는 방법",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 11,
-    "checkedAt": "2026. 10. 17. 오후 9:39",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 17. 오후 11:14",
+    "mode": "매시간 공식 레이더"
   }
 }
