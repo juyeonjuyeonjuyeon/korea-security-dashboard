@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 17. 오후 11:14",
+  "updatedAt": "2026. 10. 18. 오전 2:18",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v0.41.3",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 36,
-    "sourceCount": 27,
-    "officialCount": 34,
+    "recentCount": 27,
+    "sourceCount": 26,
+    "officialCount": 33,
     "opportunityCount": 0
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "v0.41.3",
       "latest": "2026-10-17 04:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T14:14:35.688Z",
+      "lastRefreshed": "2026-10-17T17:18:11.140Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
+      "count": 2,
       "summary": "RTX Spark를 사용한 일주일: 엔비디아의 새로운 노트북을 사용하여 배운 모든 것",
       "latest": "2026-10-16 15:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T14:14:35.688Z",
+      "lastRefreshed": "2026-10-17T17:18:11.140Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "기계의 부상은 취소됩니다: 인공지능을 가진 휴머노이드가 적이 아닌 도우미인 이유",
       "latest": "2026-10-17 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T14:14:35.688Z",
+      "lastRefreshed": "2026-10-17T17:18:11.140Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "OpenAI 리서치 모델이 스마트 컨트랙트 배포 허가 없이 제3자 테스트 ETH를 사용함",
       "latest": "2026-10-16 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T14:14:35.688Z",
+      "lastRefreshed": "2026-10-17T17:18:11.140Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 10월 17일 – 3D 67P",
       "latest": "2026-10-17 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T14:14:35.688Z",
+      "lastRefreshed": "2026-10-17T17:18:11.140Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -87,11 +87,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 2,
-      "summary": "ETS2 지연은 다음 에너지 위기로부터 가구를 보호하지 못합니다.",
-      "latest": "2026-10-16 23:48",
+      "count": 3,
+      "summary": "사이버 택시가 호주에 상륙했습니다 — 운송 노조는 싸울 준비를 합니다",
+      "latest": "2026-10-17 14:51",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-17T14:14:35.688Z",
+      "lastRefreshed": "2026-10-17T17:18:11.140Z",
       "themes": [
         "미술·디자인"
       ]
@@ -104,7 +104,7 @@
       "summary": "v3.33.0",
       "latest": "2026-10-17 00:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-17T14:14:35.688Z",
+      "lastRefreshed": "2026-10-17T17:18:11.140Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -540,6 +540,22 @@
     ],
     "analysis": [
       {
+        "title": "The Cybercab Has Landed In Australia — Transport Unions Gear Up To Fight",
+        "url": "https://cleantechnica.com/2026/10/17/the-cybercab-has-landed-in-australia-transport-unions-gear-up-to-fight/",
+        "source": "CleanTechnica",
+        "date": "2026-10-17 14:51",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "사이버 택시가 호주에 상륙했습니다 — 운송 노조는 싸울 준비를 합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies",
         "url": "https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/",
         "source": "The Robot Report",
@@ -726,22 +742,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "MassRobotics opens applications for Healthcare Robotics Startup Catalyst Program",
-        "url": "https://www.therobotreport.com/massrobotics-opens-applications-healthcare-robotics-startup-catalyst-program/",
-        "source": "The Robot Report",
-        "date": "2026-10-16 17:57",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "MassRobotics, 헬스케어 로봇 스타트업 촉매 프로그램 신청 개시",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -851,6 +851,22 @@
     ]
   },
   "news": [
+    {
+      "title": "The Cybercab Has Landed In Australia — Transport Unions Gear Up To Fight",
+      "url": "https://cleantechnica.com/2026/10/17/the-cybercab-has-landed-in-australia-transport-unions-gear-up-to-fight/",
+      "source": "CleanTechnica",
+      "date": "2026-10-17 14:51",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "사이버 택시가 호주에 상륙했습니다 — 운송 노조는 싸울 준비를 합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies",
       "url": "https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/",
@@ -2177,32 +2193,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-      "source": "NVIDIA Blog",
-      "date": "2026-10-15 17:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Be There for the Beginning: NVIDIA RTX Spark 출시 기념 이벤트",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 11,
-    "checkedAt": "2026. 10. 17. 오후 11:14",
+    "officialSources": 10,
+    "checkedAt": "2026. 10. 18. 오전 2:18",
     "mode": "매시간 공식 레이더"
   }
 }
