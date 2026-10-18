@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 19. 오전 6:32",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 10. 19. 오전 7:50",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v0.42.0",
   "metrics": {
     "articleCount": 80,
     "recentCount": 20,
     "sourceCount": 24,
-    "officialCount": 34,
+    "officialCount": 33,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
-      "summary": "v0.42.0",
-      "latest": "2026-10-18 21:13",
+      "count": 35,
+      "summary": "사바나 경찰이 그녀의 얼음 요원 남편에게 Flock 로그인을 제공했습니다.",
+      "latest": "2026-10-18 22:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T21:32:53.827Z",
+      "lastRefreshed": "2026-10-18T22:50:21.574Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
+      "count": 2,
       "summary": "새로운 Windows PC가 출시됨에 따라 RTX Spark가 글로벌 축하 행사를 점화합니다.",
       "latest": "2026-10-17 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T21:32:53.827Z",
+      "lastRefreshed": "2026-10-18T22:50:21.574Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -53,7 +53,7 @@
       "summary": "배달 로봇을 차단한 혐의로 필라델피아에서 체포된 여성",
       "latest": "2026-10-18 18:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T21:32:53.827Z",
+      "lastRefreshed": "2026-10-18T22:50:21.574Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "OpenAI 리서치 모델이 스마트 컨트랙트 배포 허가 없이 제3자 테스트 ETH를 사용함",
       "latest": "2026-10-16 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T21:32:53.827Z",
+      "lastRefreshed": "2026-10-18T22:50:21.574Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 10월 18일 – Sonified: Eagle Nebula Pillars",
       "latest": "2026-10-18 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T21:32:53.827Z",
+      "lastRefreshed": "2026-10-18T22:50:21.574Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "에너지 안보가 의미하는 전기화 변화",
       "latest": "2026-10-18 15:59",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-18T21:32:53.827Z",
+      "lastRefreshed": "2026-10-18T22:50:21.574Z",
       "themes": [
         "미술·디자인"
       ]
@@ -104,7 +104,7 @@
       "summary": "이제 AI 게이트웨이 로그에 세션 선호도가 표시됩니다.",
       "latest": "2026-10-18 20:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T21:32:53.827Z",
+      "lastRefreshed": "2026-10-18T22:50:21.574Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -118,7 +118,7 @@
         "title": "v0.42.0",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0",
         "source": "GitHub · ComfyUI",
-        "date": "2026-10-18 21:13",
+        "date": "2026-10-18 22:10",
         "categoryId": "ai",
         "confidence": "A",
         "stream": "release",
@@ -526,6 +526,22 @@
     ],
     "analysis": [
       {
+        "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
+        "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
+        "source": "The Verge",
+        "date": "2026-10-18 22:20",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "사바나 경찰이 그녀의 얼음 요원 남편에게 Flock 로그인을 제공했습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
         "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
         "source": "TechCrunch",
@@ -712,27 +728,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Replit is no longer working with Anthropic, CEO says",
-        "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-        "source": "TechCrunch",
-        "date": "2026-10-17 18:48",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "CEO는 Replit이 Anthropic과 더 이상 협력하지 않는다고 말합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+        "url": "https://arxiv.org/abs/2610.18861",
+        "source": "Hacker News",
+        "date": "2026-10-18 20:48",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "하이브리드 추리 에이전트: 잠재된 공간에서 생각하고 텍스트를 통해 행동하는 LLM 에이전트",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Someone behind the software",
         "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
@@ -818,31 +832,31 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-        "url": "https://sphinx-six-theta.vercel.app/",
-        "source": "Hacker News",
-        "date": "2026-10-18 04:33",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Show HN: Sphinx – 배송 전에 AI 코드에 대해 퀴즈를 내는 훅",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
     {
+      "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
+      "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
+      "source": "The Verge",
+      "date": "2026-10-18 22:20",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "사바나 경찰이 그녀의 얼음 요원 남편에게 Flock 로그인을 제공했습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v0.42.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0",
       "source": "GitHub · ComfyUI",
-      "date": "2026-10-18 21:13",
+      "date": "2026-10-18 22:10",
       "categoryId": "ai",
       "confidence": "A",
       "stream": "release",
@@ -853,6 +867,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "source": "Hacker News",
+      "date": "2026-10-18 20:48",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "하이브리드 추리 에이전트: 잠재된 공간에서 생각하고 텍스트를 통해 행동하는 LLM 에이전트",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
@@ -1075,22 +1105,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "source": "Hacker News",
-      "date": "2026-10-18 04:33",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Show HN: Sphinx – 배송 전에 AI 코드에 대해 퀴즈를 내는 훅",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
       "source": "NASA",
@@ -1308,6 +1322,22 @@
       "stream": "news",
       "category": "로봇·모빌리티",
       "titleKo": "기계의 부상은 취소됩니다: 인공지능을 가진 휴머노이드가 적이 아닌 도우미인 이유",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Some companies give AI to everyone. This CEO is doing the opposite - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrS2Y3dEp1SVBOMy1Bb290M19VN2JWVS04V2xENXdHU2dPTUY1cnExOUM3UUlJUHJjSkpXOXpIWmlvVFlkUVMxWHpCeUlVV2JWeGFuOEoxUE1aS043VjZkMklWVjZ3cjE3bFNJampEc2NMSWVaWlpJbmhB0gF_QVVfeXFMT1ZnT21FTW1GYU1MQkdmS3JYb1ptTDRJZnpkQ3NPMUdhMWhIN3RzandNbEhpcFNnZHpoOTZnbHdqWUNXRUpTeVQ1NVg0WENwM2hPNXhhWkZLeUtYVzB2UzlZYjdUVFAwek4zNjVPamtKS3VXUnZRMC1JZ3dCb19DZw?oc=5",
+      "source": "CNBC",
+      "date": "2026-10-17 05:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "일부 기업은 모든 사람에게 AI를 제공합니다. 이 CEO는 그 반대를 하고 있습니다 - CNBC",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1681,24 +1711,6 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "메타는 수백만 건의 AI 라이선스 수수료를 피하기 위해 광범위하고 새로운 상용 약관을 사용할 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-      "source": "The Verge",
-      "date": "2026-10-16 15:26",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "RTX Spark를 사용한 일주일: 엔비디아의 새로운 노트북을 사용하여 배운 모든 것",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -2167,30 +2179,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v0.41.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-10-15 22:57",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.41.0",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 19. 오전 6:32",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 19. 오전 7:50",
+    "mode": "하루 2회 전체 수집"
   }
 }
