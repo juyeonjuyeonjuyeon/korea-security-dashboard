@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 19. 오전 3:40",
+  "updatedAt": "2026. 10. 19. 오전 6:32",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "이제 AI 게이트웨이 로그에 세션 선호도가 표시됩니다.",
+  "headline": "v0.42.0",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 22,
+    "recentCount": 20,
     "sourceCount": 24,
     "officialCount": 34,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: 이제 AI 게이트웨이 로그에 세션 선호도가 표시됩니다.",
+    "새 출시: v0.42.0",
     "창작 기술: 의회에서 도입된 비디오 게임 소유권 법안",
     "인물 발언: CoreWeave, Jensen Huang이 AI 회사에 대해 '낙관적‘ 이라고 말한 후 슬라이드 공유 - Forbes"
   ],
@@ -21,13 +21,13 @@
       "code": "AI",
       "label": "인공지능",
       "count": 34,
-      "summary": "디즈니는 Character.AI 인력의 대부분을 고용하는 데 동의합니다.",
-      "latest": "2026-10-18 16:30",
+      "summary": "v0.42.0",
+      "latest": "2026-10-18 21:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T18:40:47.863Z",
+      "lastRefreshed": "2026-10-18T21:32:53.827Z",
       "themes": [
-        "영상",
         "주요 기업",
+        "영상",
         "미술·디자인"
       ]
     },
@@ -39,7 +39,7 @@
       "summary": "새로운 Windows PC가 출시됨에 따라 RTX Spark가 글로벌 축하 행사를 점화합니다.",
       "latest": "2026-10-17 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T18:40:47.863Z",
+      "lastRefreshed": "2026-10-18T21:32:53.827Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -53,7 +53,7 @@
       "summary": "배달 로봇을 차단한 혐의로 필라델피아에서 체포된 여성",
       "latest": "2026-10-18 18:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T18:40:47.863Z",
+      "lastRefreshed": "2026-10-18T21:32:53.827Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "OpenAI 리서치 모델이 스마트 컨트랙트 배포 허가 없이 제3자 테스트 ETH를 사용함",
       "latest": "2026-10-16 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T18:40:47.863Z",
+      "lastRefreshed": "2026-10-18T21:32:53.827Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 10월 18일 – Sonified: Eagle Nebula Pillars",
       "latest": "2026-10-18 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T18:40:47.863Z",
+      "lastRefreshed": "2026-10-18T21:32:53.827Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "에너지 안보가 의미하는 전기화 변화",
       "latest": "2026-10-18 15:59",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-18T18:40:47.863Z",
+      "lastRefreshed": "2026-10-18T21:32:53.827Z",
       "themes": [
         "미술·디자인"
       ]
@@ -104,7 +104,7 @@
       "summary": "이제 AI 게이트웨이 로그에 세션 선호도가 표시됩니다.",
       "latest": "2026-10-18 20:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T18:40:47.863Z",
+      "lastRefreshed": "2026-10-18T21:32:53.827Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -114,6 +114,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.42.0",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-10-18 21:13",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.42.0",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "AI Gateway logs now show session affinity",
         "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
@@ -300,22 +316,6 @@
         "themes": [
           "주요 기업"
         ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
-        "source": "Vercel Changelog",
-        "date": "2026-10-17 00:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 AI 게이트웨이에서 DeepSeek V4.1 Flash 1017을 사용할 수 있습니다.",
-        "type": "출시·업데이트",
-        "themes": [],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -526,6 +526,24 @@
     ],
     "analysis": [
       {
+        "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+        "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+        "source": "TechCrunch",
+        "date": "2026-10-18 20:37",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Anthropic은 지분 5% 를 ‘공익 기금‘ 에 투입하고 있다고 밝혔습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "A woman was arrested in Philly for blocking a delivery robot",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
         "source": "The Verge",
@@ -712,25 +730,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Cybercab Has Landed In Australia — Transport Unions Gear Up To Fight",
-        "url": "https://cleantechnica.com/2026/10/17/the-cybercab-has-landed-in-australia-transport-unions-gear-up-to-fight/",
-        "source": "CleanTechnica",
-        "date": "2026-10-17 14:51",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "사이버 택시가 호주에 상륙했습니다 — 운송 노조는 싸울 준비를 합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Someone behind the software",
+        "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+        "source": "Hacker News",
+        "date": "2026-10-18 16:32",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "소프트웨어의 배후에 있는 사람",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Websites are closing their doors to AI agents",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
@@ -784,6 +802,24 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "How employment is changing at Anthropic",
+        "url": "https://www.anthropic.com/research/employment-at-anthropic",
+        "source": "Hacker News",
+        "date": "2026-10-18 10:49",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Anthropic에서 고용이 어떻게 변화하고 있는지",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
         "url": "https://sphinx-six-theta.vercel.app/",
         "source": "Hacker News",
@@ -798,46 +834,44 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "OpenAI discloses four more rogue incidents",
-        "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-        "source": "Hacker News",
-        "date": "2026-10-17 16:31",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "OpenAI, 악성 사건 4건 추가 공개",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Amazon uses AI to monitor union risk in UK warehouses",
-        "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-        "source": "Hacker News",
-        "date": "2026-10-17 16:04",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Amazon은 AI를 사용하여 영국 창고의 노조 위험을 모니터링합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v0.42.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-10-18 21:13",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.42.0",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source": "TechCrunch",
+      "date": "2026-10-18 20:37",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic은 지분 5% 를 ‘공익 기금‘ 에 투입하고 있다고 밝혔습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "AI Gateway logs now show session affinity",
       "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
@@ -869,6 +903,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "source": "Hacker News",
+      "date": "2026-10-18 16:32",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "소프트웨어의 배후에 있는 사람",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Disney agrees to hire the majority of Character.AI’s workforce",
@@ -1001,6 +1051,24 @@
       "type": "뉴스·분석",
       "themes": [
         "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "Hacker News",
+      "date": "2026-10-18 10:49",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Anthropic에서 고용이 어떻게 변화하고 있는지",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
       ],
       "official": false,
       "sourceLayer": "community",
@@ -1213,42 +1281,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "OpenAI discloses four more rogue incidents",
-      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-      "source": "Hacker News",
-      "date": "2026-10-17 16:31",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "OpenAI, 악성 사건 4건 추가 공개",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Amazon uses AI to monitor union risk in UK warehouses",
-      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-      "source": "Hacker News",
-      "date": "2026-10-17 16:04",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Amazon은 AI를 사용하여 영국 창고의 노조 위험을 모니터링합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "The Cybercab Has Landed In Australia — Transport Unions Gear Up To Fight",
@@ -1564,22 +1596,6 @@
       "stream": "news",
       "category": "로봇·모빌리티",
       "titleKo": "MassRobotics, 헬스케어 로봇 스타트업 촉매 프로그램 신청 개시",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "source": "TechCrunch",
-      "date": "2026-10-16 17:52",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "인도는 가짜 AI 상담원 활동을 신고하는 최신 국가가 되었습니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -2167,22 +2183,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.4.2",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2",
-      "source": "GitHub · Next.js",
-      "date": "2026-10-15 20:44",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.2",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2190,7 +2190,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 19. 오전 3:40",
+    "checkedAt": "2026. 10. 19. 오전 6:32",
     "mode": "매시간 공식 레이더"
   }
 }
