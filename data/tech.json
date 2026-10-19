@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 19. 오전 7:50",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v0.42.0",
+  "updatedAt": "2026. 10. 19. 오전 9:13",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v0.42.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 20,
+    "recentCount": 19,
     "sourceCount": 24,
     "officialCount": 33,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.42.0",
+    "새 출시: v0.42.1",
     "창작 기술: 의회에서 도입된 비디오 게임 소유권 법안",
     "인물 발언: CoreWeave, Jensen Huang이 AI 회사에 대해 '낙관적‘ 이라고 말한 후 슬라이드 공유 - Forbes"
   ],
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 35,
-      "summary": "사바나 경찰이 그녀의 얼음 요원 남편에게 Flock 로그인을 제공했습니다.",
-      "latest": "2026-10-18 22:20",
+      "count": 36,
+      "summary": "v0.42.1",
+      "latest": "2026-10-18 22:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T22:50:21.574Z",
+      "lastRefreshed": "2026-10-19T00:13:32.075Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -39,7 +39,7 @@
       "summary": "새로운 Windows PC가 출시됨에 따라 RTX Spark가 글로벌 축하 행사를 점화합니다.",
       "latest": "2026-10-17 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T22:50:21.574Z",
+      "lastRefreshed": "2026-10-19T00:13:32.075Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -53,7 +53,7 @@
       "summary": "배달 로봇을 차단한 혐의로 필라델피아에서 체포된 여성",
       "latest": "2026-10-18 18:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T22:50:21.574Z",
+      "lastRefreshed": "2026-10-19T00:13:32.075Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "OpenAI 리서치 모델이 스마트 컨트랙트 배포 허가 없이 제3자 테스트 ETH를 사용함",
       "latest": "2026-10-16 14:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T22:50:21.574Z",
+      "lastRefreshed": "2026-10-19T00:13:32.075Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "APOD: 2026년 10월 18일 – Sonified: Eagle Nebula Pillars",
       "latest": "2026-10-18 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T22:50:21.574Z",
+      "lastRefreshed": "2026-10-19T00:13:32.075Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "에너지 안보가 의미하는 전기화 변화",
       "latest": "2026-10-18 15:59",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-18T22:50:21.574Z",
+      "lastRefreshed": "2026-10-19T00:13:32.075Z",
       "themes": [
         "미술·디자인"
       ]
@@ -100,11 +100,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
+      "count": 20,
       "summary": "이제 AI 게이트웨이 로그에 세션 선호도가 표시됩니다.",
       "latest": "2026-10-18 20:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-18T22:50:21.574Z",
+      "lastRefreshed": "2026-10-19T00:13:32.076Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -114,6 +114,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.42.1",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-10-18 22:58",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.42.1",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.42.0",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0",
@@ -297,24 +313,6 @@
         "type": "출시·업데이트",
         "themes": [
           "미술·디자인"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.33.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.33.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-10-17 00:29",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.33.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
         ],
         "official": true,
         "sourceLayer": "official",
@@ -836,6 +834,22 @@
     ]
   },
   "news": [
+    {
+      "title": "v0.42.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-10-18 22:58",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.42.1",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
       "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
@@ -2163,30 +2177,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.5.0-canary.15",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
-      "source": "GitHub · Next.js",
-      "date": "2026-10-15 23:44",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.5.0-canary.15",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 19. 오전 7:50",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 19. 오전 9:13",
+    "mode": "매시간 공식 레이더"
   }
 }
