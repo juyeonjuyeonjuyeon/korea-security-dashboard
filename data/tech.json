@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 19. 오후 1:52",
+  "updatedAt": "2026. 10. 19. 오후 7:52",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.42.1",
+  "headline": "MacOS 27, Xcode 27 및 Swift 6.4용 CodeQL 변경 사항",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 23,
+    "recentCount": 29,
     "sourceCount": 24,
-    "officialCount": 33,
+    "officialCount": 30,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.42.1",
+    "새 출시: MacOS 27, Xcode 27 및 Swift 6.4용 CodeQL 변경 사항",
     "창작 기술: 에코: 재귀 이력 압축 및 특권 온 폴리시 증류를 통해 현재 이미지 너머 보기",
     "인물 발언: CoreWeave, Jensen Huang이 AI 회사에 대해 '낙관적‘ 이라고 말한 후 슬라이드 공유 - Forbes"
   ],
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 35,
-      "summary": "구조화된 권한 주입: 유형화된 MCP 재정의를 통한 LLM 에이전트에 대한 지속적인 인적 통제",
-      "latest": "2026-10-19 04:00",
+      "summary": "스마트 시티를 위한 에지 AI: 통찰력에서 인지 행동까지",
+      "latest": "2026-10-19 10:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-19T04:52:27.304Z",
+      "lastRefreshed": "2026-10-19T10:52:01.757Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 2,
-      "summary": "새로운 Windows PC가 출시됨에 따라 RTX Spark가 글로벌 축하 행사를 점화합니다.",
-      "latest": "2026-10-17 21:00",
+      "count": 3,
+      "summary": "인텔 8087 칩: 부동 소수점 덧셈 및 뺄셈",
+      "latest": "2026-10-18 16:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-19T04:52:27.304Z",
+      "lastRefreshed": "2026-10-19T10:52:01.757Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -53,18 +53,18 @@
       "summary": "배달 로봇을 차단한 혐의로 필라델피아에서 체포된 여성",
       "latest": "2026-10-18 18:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-19T04:52:27.304Z",
+      "lastRefreshed": "2026-10-19T10:52:01.757Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
-      "summary": "윌리엄 깁슨과 사이버 공간의 상표권",
-      "latest": "2026-10-18 23:37",
+      "count": 5,
+      "summary": "OpenCode 콘솔 침해로 인해 OpenAI, Anthropic 및 Google API 키가 노출되었을 수 있음",
+      "latest": "2026-10-19 06:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-19T04:52:27.304Z",
+      "lastRefreshed": "2026-10-19T10:52:01.757Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,10 +74,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 8,
-      "summary": "APOD: 2026년 10월 18일 – Sonified: Eagle Nebula Pillars",
-      "latest": "2026-10-18 04:05",
+      "summary": "APOD: 2026년 10월 19일 – 트레블 클레프: 특이한 X선 핫 라디오 소스",
+      "latest": "2026-10-19 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-19T04:52:27.304Z",
+      "lastRefreshed": "2026-10-19T10:52:01.757Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "에너지 안보가 의미하는 전기화 변화",
       "latest": "2026-10-18 15:59",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-19T04:52:27.304Z",
+      "lastRefreshed": "2026-10-19T10:52:01.757Z",
       "themes": [
         "미술·디자인"
       ]
@@ -100,20 +100,67 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
-      "summary": "이제 AI 게이트웨이 로그에 세션 선호도가 표시됩니다.",
-      "latest": "2026-10-18 20:03",
+      "count": 18,
+      "summary": "MacOS 27, Xcode 27 및 Swift 6.4용 CodeQL 변경 사항",
+      "latest": "2026-10-19 10:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-19T04:52:27.304Z",
+      "lastRefreshed": "2026-10-19T10:52:01.757Z",
       "themes": [
         "주요 기업",
-        "미술·디자인",
-        "기회"
+        "미술·디자인"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
+        "url": "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4",
+        "source": "GitHub Changelog",
+        "date": "2026-10-19 10:29",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "MacOS 27, Xcode 27 및 Swift 6.4용 CodeQL 변경 사항",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
+        "source": "NASA",
+        "date": "2026-10-19 04:05",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "APOD: 2026년 10월 19일 – 트레블 클레프: 특이한 X선 핫 라디오 소스",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Autumn Paints Poland’s Bieszczady Mountains",
+        "url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/",
+        "source": "NASA",
+        "date": "2026-10-19 04:01",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "폴란드 비에슈차디 산맥에서 가을 그림 그리기",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.42.1",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1",
@@ -265,58 +312,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.34.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-10-17 20:34",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.34.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v0.41.3",
-        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3",
-        "source": "GitHub · ComfyUI",
-        "date": "2026-10-17 04:26",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "v0.41.3",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "APOD: 2026 October 17 – 3D 67P",
-        "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
-        "source": "NASA",
-        "date": "2026-10-17 04:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "APOD: 2026년 10월 17일 – 3D 67P",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -355,24 +350,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
-        "url": "https://github.com/0x23/MicroManipulatorStepper",
-        "source": "Hacker News",
-        "date": "2026-10-18 11:16",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Open MicroManipulator – 서브 마이크로미터 3D 모션 제어 플래트폼",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "APOD: 2026 October 17 – 3D 67P",
@@ -542,6 +519,56 @@
     ],
     "analysis": [
       {
+        "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
+        "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/?utm_source=IEEE",
+        "source": "IEEE Spectrum",
+        "date": "2026-10-19 10:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "스마트 시티를 위한 에지 AI: 통찰력에서 인지 행동까지",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+        "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+        "source": "MIT Technology Review",
+        "date": "2026-10-19 09:08",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "인공지능 연구원들은 가상 사막 섬에 끌로드를 좌초시켰다. 그것은 \"놀기\" 시작했습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+        "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+        "source": "The Hacker News",
+        "date": "2026-10-19 06:07",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "OpenCode 콘솔 침해로 인해 OpenAI, Anthropic 및 Google API 키가 노출되었을 수 있음",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
         "url": "https://arxiv.org/abs/2610.22373",
         "source": "arXiv cs.AI",
@@ -688,58 +715,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-        "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-        "source": "TechCrunch",
-        "date": "2026-10-18 16:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "디즈니는 Character.AI 인력의 대부분을 고용하는 데 동의합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Video game ownership bill introduced in Congress",
-        "url": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
-        "source": "The Verge",
-        "date": "2026-10-18 16:27",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "의회에서 도입된 비디오 게임 소유권 법안",
-        "type": "출시·업데이트",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic gives outside AI watchdog “employee-like” access",
-        "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-        "source": "Ars Technica",
-        "date": "2026-10-18 16:25",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 외부 AI 감시자에게 \"직원과 같은\" 액세스 권한을 부여합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -792,6 +767,24 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "The Intel 8087 chip: floating-point addition and subtraction",
+        "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+        "source": "Hacker News",
+        "date": "2026-10-18 16:20",
+        "categoryId": "chips",
+        "confidence": "D",
+        "stream": "community",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "인텔 8087 칩: 부동 소수점 덧셈 및 뺄셈",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Websites are closing their doors to AI agents",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
         "source": "Hacker News",
@@ -824,28 +817,108 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
-        "url": "https://github.com/0x23/MicroManipulatorStepper",
-        "source": "Hacker News",
-        "date": "2026-10-18 11:16",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Open MicroManipulator – 서브 마이크로미터 3D 모션 제어 플래트폼",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
+      "url": "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4",
+      "source": "GitHub Changelog",
+      "date": "2026-10-19 10:29",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "MacOS 27, Xcode 27 및 Swift 6.4용 CodeQL 변경 사항",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
+      "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/?utm_source=IEEE",
+      "source": "IEEE Spectrum",
+      "date": "2026-10-19 10:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "스마트 시티를 위한 에지 AI: 통찰력에서 인지 행동까지",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source": "MIT Technology Review",
+      "date": "2026-10-19 09:08",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인공지능 연구원들은 가상 사막 섬에 끌로드를 좌초시켰다. 그것은 \"놀기\" 시작했습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "source": "The Hacker News",
+      "date": "2026-10-19 06:07",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "OpenCode 콘솔 침해로 인해 OpenAI, Anthropic 및 Google API 키가 노출되었을 수 있음",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
+      "source": "NASA",
+      "date": "2026-10-19 04:05",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "APOD: 2026년 10월 19일 – 트레블 클레프: 특이한 X선 핫 라디오 소스",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Autumn Paints Poland’s Bieszczady Mountains",
+      "url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/",
+      "source": "NASA",
+      "date": "2026-10-19 04:01",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "폴란드 비에슈차디 산맥에서 가을 그림 그리기",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
       "url": "https://arxiv.org/abs/2610.22373",
@@ -1143,6 +1216,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "The Intel 8087 chip: floating-point addition and subtraction",
+      "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+      "source": "Hacker News",
+      "date": "2026-10-18 16:20",
+      "categoryId": "chips",
+      "confidence": "D",
+      "stream": "community",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "인텔 8087 칩: 부동 소수점 덧셈 및 뺄셈",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Electrification Changes What Energy Security Means",
       "url": "https://cleantechnica.com/2026/10/18/globalization-electrification-energy-security/",
       "source": "CleanTechnica",
@@ -1207,24 +1298,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
-      "url": "https://github.com/0x23/MicroManipulatorStepper",
-      "source": "Hacker News",
-      "date": "2026-10-18 11:16",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Open MicroManipulator – 서브 마이크로미터 3D 모션 제어 플래트폼",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
@@ -1842,22 +1915,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "I Am Artemis: Allison Mjoen",
-      "url": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
-      "source": "NASA",
-      "date": "2026-10-16 14:24",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "I Am Artemis: Allison Mjoen",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
       "source": "The Hacker News",
@@ -1917,22 +1974,6 @@
       "stream": "release",
       "category": "소프트웨어·개발",
       "titleKo": "검증된 봇에 대한 지속적인 책임",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "NASA’s Hubble Spies Spiral’s Edge",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
-      "source": "NASA",
-      "date": "2026-10-16 12:42",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA의 Hubble Spies Spiral's Edge",
       "type": "출시·업데이트",
       "themes": [],
       "official": true,
@@ -2123,72 +2164,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "source": "Hugging Face Blog",
-      "date": "2026-10-16 00:00",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "웰컴 빔: 소유, 사용자 정의 및 확장할 수 있는 501B 개방형 모델",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Elorian AI's Glimpse now available on AI Gateway",
-      "url": "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-10-16 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Elorian AI's Glimpse now available on AI Gateway",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Perplexity's Decider V1.2 models now available on AI Gateway",
-      "url": "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-10-16 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Perplexity's Decider V1.2 models now available on AI Gateway",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Reflection AI's Beam now available on AI Gateway for free",
-      "url": "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free",
-      "source": "Vercel Changelog",
-      "date": "2026-10-16 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "리플렉션 AI의 빔을 이제 AI 게이트웨이에서 무료로 사용할 수 있습니다",
-      "type": "출시·업데이트",
-      "themes": [
-        "기회"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
@@ -2196,7 +2171,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 19. 오후 1:52",
+    "checkedAt": "2026. 10. 19. 오후 7:52",
     "mode": "매시간 공식 레이더"
   }
 }
