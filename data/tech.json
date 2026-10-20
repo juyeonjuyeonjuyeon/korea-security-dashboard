@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 20. 오전 9:08",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 10. 20. 오전 10:53",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.19",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 71,
+    "recentCount": 70,
     "sourceCount": 24,
     "officialCount": 26,
     "opportunityCount": 0
@@ -20,10 +20,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 36,
-      "summary": "Nscale과 Anthropic은 또 다른 450억 $ 컴퓨팅 거래를 위한 회담에 있다고 합니다.",
-      "latest": "2026-10-19 23:39",
+      "summary": "맘다니는 연맹이 AI로 퇴출되었다고 말하며, 뉴요커들에게 반발할 것을 촉구합니다.",
+      "latest": "2026-10-20 01:27",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T00:08:32.887Z",
+      "lastRefreshed": "2026-10-20T01:53:11.600Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -38,7 +38,7 @@
       "summary": "Amazon은 새로운 TorchNeuron 개발 도구를 사용하여 Nvidia에서 가장 큰 사진을 찍고 있습니다.",
       "latest": "2026-10-19 20:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T00:08:32.887Z",
+      "lastRefreshed": "2026-10-20T01:53:11.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition은 PNY에서 제공하는 GPU를 통해 AI 혁신을 실현합니다.",
       "latest": "2026-10-19 17:38",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T00:08:32.887Z",
+      "lastRefreshed": "2026-10-20T01:53:11.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -64,7 +64,7 @@
       "summary": "⚡ 주간 요약: 98 Zero-Days, Rogue AI Agents, $ 100M Crypto Theft, 700 Supermarkets Hit 등",
       "latest": "2026-10-19 14:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T00:08:32.887Z",
+      "lastRefreshed": "2026-10-20T01:53:11.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "Elon Musk가 제안한 SpaceX 주식 경품은 ‘Trump Accounts‘ 에 포함됩니다.",
       "latest": "2026-10-19 22:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T00:08:32.887Z",
+      "lastRefreshed": "2026-10-20T01:53:11.600Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +90,7 @@
       "summary": "하이브리드 판매는 상승하는 반면 배터리 전기 판매는 세액 공제 만료 후 더 낮게 유지됩니다.",
       "latest": "2026-10-19 22:56",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-20T00:08:32.887Z",
+      "lastRefreshed": "2026-10-20T01:53:11.600Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -104,7 +104,7 @@
       "summary": "v16.5.0-canary.19",
       "latest": "2026-10-19 23:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T00:08:32.887Z",
+      "lastRefreshed": "2026-10-20T01:53:11.600Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -350,6 +350,42 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+        "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+        "source": "TechCrunch",
+        "date": "2026-10-20 01:27",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "맘다니는 연맹이 AI로 퇴출되었다고 말하며, 뉴요커들에게 반발할 것을 촉구합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+        "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+        "source": "TechCrunch",
+        "date": "2026-10-19 23:39",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Nscale과 Anthropic은 또 다른 $ 45B 컴퓨팅 거래를 위해 회담에 참여하고 있는 것으로 알려졌습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
         "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
         "source": "TechCrunch",
@@ -520,38 +556,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-        "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-        "source": "TechCrunch",
-        "date": "2026-10-19 19:28",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "해커가 AI 코딩 도구 OpenCode를 공격하여 사용자의 AI 계정에 요금이 청구되었습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
-        "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
-        "source": "Ars Technica",
-        "date": "2026-10-19 19:27",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "\"프루프 포인트\" 테스트에서 스타트업이 수중 화산을 에너지원으로 활용",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -657,6 +661,24 @@
   },
   "news": [
     {
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "source": "TechCrunch",
+      "date": "2026-10-20 01:27",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "맘다니는 연맹이 AI로 퇴출되었다고 말하며, 뉴요커들에게 반발할 것을 촉구합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.5.0-canary.19",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.19",
       "source": "GitHub · Next.js",
@@ -671,6 +693,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "source": "TechCrunch",
+      "date": "2026-10-19 23:39",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Nscale과 Anthropic은 또 다른 $ 45B 컴퓨팅 거래를 위해 회담에 참여하고 있는 것으로 알려졌습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
@@ -893,22 +933,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "source": "TechCrunch",
-      "date": "2026-10-19 19:28",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "해커가 AI 코딩 도구 OpenCode를 공격하여 사용자의 AI 계정에 요금이 청구되었습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "NASA Improves Shock, Vibration Analysis",
       "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
       "source": "NASA",
@@ -973,22 +997,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-      "source": "TechCrunch",
-      "date": "2026-10-19 19:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Tolan은 사용자가 삶을 탐색하는 데 도움이 되는 AI 동반자를 위해 $ 30M에 도달했습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Elon Musk promises to give one SpaceX share to every child in the US",
@@ -1978,11 +1986,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 20. 오전 9:08",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 20. 오전 10:53",
+    "mode": "매시간 공식 레이더"
   }
 }
