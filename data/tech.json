@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 21. 오전 7:21",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "8개의 eMudhra 인증서가 손상되었습니다. 알아두어야 할 사항",
+  "updatedAt": "2026. 10. 21. 오전 8:39",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.5.0-canary.21",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 68,
+    "recentCount": 70,
     "sourceCount": 21,
     "officialCount": 32,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: 8개의 eMudhra 인증서가 손상되었습니다. 알아두어야 할 사항",
+    "새 출시: v16.5.0-canary.21",
     "창작 기술: 배틀 드론 - 오디오 기반 멀티플레이어가 있는 분위기로 코드화된 RTS"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 31,
-      "summary": "Google의 더욱 개인화된 Gemini AI가 차량으로 향하고 있습니다.",
-      "latest": "2026-10-20 22:11",
+      "count": 30,
+      "summary": "Anthropic은 50명 이상이 사망할 수 있는 경우 모델을 차단할 수 있는 AI 안전 법안을 제시합니다.",
+      "latest": "2026-10-20 23:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T22:21:58.469Z",
+      "lastRefreshed": "2026-10-20T23:39:42.984Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -35,9 +35,9 @@
       "label": "반도체·컴퓨팅",
       "count": 4,
       "summary": "독점: ByteDance, Alibaba, Tencent, $ 350억 상당의 Nvidia 칩 주문 - Reuters",
-      "latest": "2026-10-20 09:19",
+      "latest": "2026-10-20 15:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T22:21:58.469Z",
+      "lastRefreshed": "2026-10-20T23:39:42.984Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "뇌졸중 환자를 위한 로봇 요법",
       "latest": "2026-10-20 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T22:21:58.469Z",
+      "lastRefreshed": "2026-10-20T23:39:42.984Z",
       "themes": []
     },
     {
@@ -61,18 +61,18 @@
       "summary": "브라우저 및 소프트웨어 전반에 걸친 8개의 eMudhra CA 키 손상, 트리거링 긴급 수정",
       "latest": "2026-10-20 17:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T22:21:58.469Z",
+      "lastRefreshed": "2026-10-20T23:39:42.984Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 11,
-      "summary": "머스크는 테슬라와 스페이스X가 합병 가능성을 논의하고 있다고 말한다.",
-      "latest": "2026-10-20 22:01",
+      "count": 14,
+      "summary": "SpaceX와 Tesla 이사회는 합병을 검토하기 위해 특별 위원회를 구성합니다.",
+      "latest": "2026-10-20 22:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T22:21:58.469Z",
+      "lastRefreshed": "2026-10-20T23:39:42.984Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -83,11 +83,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
-      "summary": "GM이 디트로이트 배터리 조립 공장을 폐쇄할 예정이지만, 여러분이 생각할 수 있는 이유는 아닙니다.",
-      "latest": "2026-10-20 19:32",
+      "count": 3,
+      "summary": "상위 투자자는 SpaceX가 다가오는 주에 Tesla를 $ 420/Share에 매수할 것으로 예측합니다.",
+      "latest": "2026-10-20 03:55",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-20T22:21:58.469Z",
+      "lastRefreshed": "2026-10-20T23:39:42.984Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -97,11 +97,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
-      "summary": "8개의 eMudhra 인증서가 손상되었습니다. 알아두어야 할 사항",
-      "latest": "2026-10-20 22:20",
+      "count": 17,
+      "summary": "v16.5.0-canary.21",
+      "latest": "2026-10-20 23:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T22:21:58.469Z",
+      "lastRefreshed": "2026-10-20T23:39:42.984Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -110,6 +110,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.5.0-canary.21",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-20 23:23",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.21",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v0.42.3",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.3",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-10-20 22:44",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.42.3",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "8 eMudhra certificates are compromised. Here's what you need to know",
         "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
@@ -275,40 +307,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Updates to GitHub secret scanning",
-        "url": "https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning",
-        "source": "GitHub Changelog",
-        "date": "2026-10-20 18:03",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub 비밀 검색 업데이트",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v1.16.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.16.0",
-        "source": "GitHub · Anthropic SDK",
-        "date": "2026-10-20 17:49",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v1.16.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -371,15 +369,87 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+        "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+        "source": "TechCrunch",
+        "date": "2026-10-20 23:01",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Anthropic은 50명 이상이 사망할 수 있는 경우 모델을 차단할 수 있는 AI 안전 법안을 제시합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "SpaceX and Tesla boards form special committees to review merger",
+        "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+        "source": "TechCrunch",
+        "date": "2026-10-20 22:57",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "SpaceX와 Tesla 이사회는 합병을 검토하기 위해 특별 위원회를 구성합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Google’s more personalized Gemini AI is heading to your car",
         "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
         "source": "The Verge",
-        "date": "2026-10-20 22:11",
+        "date": "2026-10-20 22:42",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
         "category": "인공지능",
         "titleKo": "Google의 더욱 개인화된 Gemini AI가 차량으로 향하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+        "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+        "source": "TechCrunch",
+        "date": "2026-10-20 22:24",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "허깅 페이스 CEO, 넷플릭스의 OpenAI 해킹 다큐멘터리가 정확하지 않다고 경고",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+        "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
+        "source": "Ars Technica",
+        "date": "2026-10-20 22:04",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "머스크는 SpaceX와 Tesla를 병합하는 것은 \"좋은 생각\" 이라고 말합니다.",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -511,76 +581,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-        "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-        "source": "Ars Technica",
-        "date": "2026-10-20 20:07",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "메타는 AI 반발 후 상업적 TOS에서 \"기차\" 라는 단어를 삭제합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Gemini's Personal Intelligence is coming to cars",
-        "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
-        "source": "Ars Technica",
-        "date": "2026-10-20 20:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "쌍둥이 자리의 개인 인텔리전스가 자동차에 등장합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Google is bringing a more personal version of its Gemini AI assistant to your car",
-        "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
-        "source": "TechCrunch",
-        "date": "2026-10-20 20:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Google은 Gemini AI 어시스턴트의 개인용 버전을 차량에 제공합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "OpenBSD 8.0 arrives with security record still intact",
-        "url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
-        "source": "Ars Technica",
-        "date": "2026-10-20 19:57",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "OpenBSD 8.0은 보안 레코드를 그대로 유지한 상태로 도착합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -675,6 +675,110 @@
   },
   "news": [
     {
+      "title": "v16.5.0-canary.21",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-20 23:23",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.5.0-canary.21",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "source": "TechCrunch",
+      "date": "2026-10-20 23:01",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic은 50명 이상이 사망할 수 있는 경우 모델을 차단할 수 있는 AI 안전 법안을 제시합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "SpaceX and Tesla boards form special committees to review merger",
+      "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+      "source": "TechCrunch",
+      "date": "2026-10-20 22:57",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "SpaceX와 Tesla 이사회는 합병을 검토하기 위해 특별 위원회를 구성합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.42.3",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.3",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-10-20 22:44",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.42.3",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "source": "The Verge",
+      "date": "2026-10-20 22:42",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google의 더욱 개인화된 Gemini AI가 차량으로 향하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "source": "TechCrunch",
+      "date": "2026-10-20 22:24",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "허깅 페이스 CEO, 넷플릭스의 OpenAI 해킹 다큐멘터리가 정확하지 않다고 경고",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "8 eMudhra certificates are compromised. Here's what you need to know",
       "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
       "source": "Cloudflare Blog",
@@ -709,15 +813,15 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Google’s more personalized Gemini AI is heading to your car",
-      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-      "source": "The Verge",
-      "date": "2026-10-20 22:11",
-      "categoryId": "ai",
+      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+      "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
+      "source": "Ars Technica",
+      "date": "2026-10-20 22:04",
+      "categoryId": "space",
       "confidence": "C",
       "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google의 더욱 개인화된 Gemini AI가 차량으로 향하고 있습니다.",
+      "category": "우주·통신",
+      "titleKo": "머스크는 SpaceX와 Tesla를 병합하는 것은 \"좋은 생각\" 이라고 말합니다.",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -919,24 +1023,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Google is bringing a more personal version of its Gemini AI assistant to your car",
-      "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
-      "source": "TechCrunch",
-      "date": "2026-10-20 20:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google은 Gemini AI 어시스턴트의 개인용 버전을 차량에 제공합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "WebSocket support is now generally available",
       "url": "https://vercel.com/changelog/websocket-support-is-now-generally-available",
       "source": "Vercel Changelog",
@@ -997,40 +1083,6 @@
       "type": "뉴스·분석",
       "themes": [
         "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "GM to close Detroit battery assembly plant, but not for reasons you might think",
-      "url": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think/",
-      "source": "TechCrunch",
-      "date": "2026-10-20 19:32",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "GM이 디트로이트 배터리 조립 공장을 폐쇄할 예정이지만, 여러분이 생각할 수 있는 이유는 아닙니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-      "source": "TechCrunch",
-      "date": "2026-10-20 18:38",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google은 Amazon과 함께 AI 앱 개발자와 함께 Nvidia의 거점을 공격했습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
       ],
       "official": false,
       "sourceLayer": "analysis",
@@ -1281,6 +1333,40 @@
       "category": "인공지능",
       "titleKo": "Spotify는 권장 사항에서 5천만 개의 AI 슬롭 및 스팸 트랙을 가져왔습니다.",
       "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-20 15:51",
+      "categoryId": "chips",
+      "confidence": "B",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "독점: ByteDance, Alibaba, Tencent, $ 350억 상당의 Nvidia 칩 주문 - Reuters",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
+      "title": "Two NASA Commercial Satellite Communication Demonstrations Launch - NASA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenJ6S2ZEZzYyMVVFenFRMHktbDVIQUFTN3hvUGNXblNIQ2x1Z0ZQajRJSjVNS2pJcUJOME4wNU9wSnBBdUJCLVBxenhOVmplejhadnVZdUdWa05VWVRmckhscVhrblllVWJFazhQOXhxT0xvT244STFyTVJEMnZyRXVaMHpGbkg3bWo1MTctQmx0R3BMM0pVeUxkYlBBN0ZSV2F1OGFUZXRrLTZVSnZJcUkwZ1haZ1dyQWFRWQ?oc=5",
+      "source": "NASA (.gov)",
+      "date": "2026-10-20 15:49",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "NASA 상용 위성 통신 시연 2회 발사 - NASA (.gov)",
+      "type": "출시·업데이트",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1593,24 +1679,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5",
-      "source": "Reuters",
-      "date": "2026-10-20 09:19",
-      "categoryId": "chips",
-      "confidence": "B",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "독점: ByteDance, Alibaba, Tencent, $ 350억 상당의 Nvidia 칩 주문 - Reuters",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
       "title": "A visit to Samsung’s massive new semiconductor hub",
       "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
       "source": "MIT Technology Review",
@@ -1682,6 +1750,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "South Korean firm's debut plunge adds to investor concerns about AI spending - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1JYM3hYdDlsc1JuLWVCVHlKcld3Skc0Y1M0WWgzbk1JNFVJbzhsNU13eVVmSUNTX0hPX1ZGUXotNzVkV3UxTi1yMTlhNm04S2lzODk4NlRhOXFDMUFfb1cxbXd3TzZoZVl3QS00aldHcmNieDZSZ0x1eDlEYjZ5NmRCbWVEeTQwQ2RreWdkb2ljUXB5cDlKalhpTWZ3SnN5ek5pVzlBRWNEQ0d1SVdOREpqMUE1LUZf?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-20 00:17",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "South Korean firm's debut plunge adds to investor concerns about AI spending - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "DeepSeek V4.1 Flash is now available in Token Pass",
@@ -1932,94 +2016,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
-      "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
-      "source": "Ars Technica",
-      "date": "2026-10-19 19:27",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "\"프루프 포인트\" 테스트에서 스타트업이 수중 화산을 에너지원으로 활용",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-      "source": "Cloudflare Blog",
-      "date": "2026-10-19 19:12",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "최적화에 집착하여 추론 청구서 68% 삭감",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Updates to Hobby and Pro Terms of Service",
-      "url": "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service",
-      "source": "Vercel Changelog",
-      "date": "2026-10-19 18:39",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "취미 및 전문 서비스 약관 업데이트",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Making the internet better for AI agents might make it worse for everyone else",
-      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-      "source": "MIT Technology Review",
-      "date": "2026-10-19 18:22",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 상담원을 위해 인터넷을 개선하면 다른 모든 사람에게 악화될 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "US bans China's DeepSeek from government in race for AI dominance - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pUFg0N3NNbGhmNmp4THlOVFFSOFdudlVRSzEzc2lzQzNMZldMOUFSbHhtd1l0X3JqZF90dnpBSUh1TFBUTHdUUXRLTlF0SThVN3huUFhJX0swMnc?oc=5",
-      "source": "BBC",
-      "date": "2026-10-19 18:21",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "US bans China's DeepSeek from government in race for AI dominance - BBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 10. 21. 오전 7:21",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 21. 오전 8:39",
+    "mode": "하루 2회 전체 수집"
   }
 }
