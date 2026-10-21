@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 21. 오후 10:53",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "Commerce.com과 Cloudflare가 AI 에이전트를 위해 스토어 프론트를 준비하는 방법",
+  "updatedAt": "2026. 10. 21. 오후 11:18",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "Cloudflare WAF에 대한 전체 트랜잭션 탐지 소개",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 74,
-    "sourceCount": 22,
-    "officialCount": 32,
+    "recentCount": 76,
+    "sourceCount": 24,
+    "officialCount": 33,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: Commerce.com과 Cloudflare가 AI 에이전트를 위해 스토어 프론트를 준비하는 방법",
+    "새 출시: Cloudflare WAF에 대한 전체 트랜잭션 탐지 소개",
     "창작 기술: NASA의 CASALS Instrument Bridges 지구 표면의 3D 지도의 틈새"
   ],
   "categories": [
@@ -20,24 +20,23 @@
       "code": "AI",
       "label": "인공지능",
       "count": 30,
-      "summary": "Mach9, AI CAD 소프트웨어로 전환한 후 $ 34M 모금",
-      "latest": "2026-10-21 13:00",
+      "summary": "AI는 생산성을 약속하지만, 관리자에게는 지금은 대부분 두통입니다.",
+      "latest": "2026-10-21 14:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T13:53:35.353Z",
+      "lastRefreshed": "2026-10-21T14:18:34.357Z",
       "themes": [
-        "주요 기업",
-        "미술·디자인"
+        "주요 기업"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 9,
+      "count": 8,
       "summary": "엔비디아의 최신 GPU 드라이버는 PC 게임 속도를 높이는 새로운 방법을 제공합니다",
       "latest": "2026-10-21 13:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T13:53:35.353Z",
+      "lastRefreshed": "2026-10-21T14:18:34.357Z",
       "themes": [
         "주요 기업"
       ]
@@ -46,33 +45,33 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 5,
+      "count": 4,
       "summary": "뇌졸중 환자를 위한 로봇 요법",
       "latest": "2026-10-20 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T13:53:35.353Z",
+      "lastRefreshed": "2026-10-21T14:18:34.357Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
-      "summary": "네덜란드 국립 사이버 보안 센터는 PHP를 사용하기 때문에 오프라인 상태입니다",
-      "latest": "2026-10-21 12:31",
+      "count": 7,
+      "summary": "중요한 PHP 안전 업데이트를 설치하거나 오프라인으로 전환하면 사이버 책임자가 웹 사이트에 알립니다. - BBC",
+      "latest": "2026-10-21 12:35",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T13:53:35.353Z",
+      "lastRefreshed": "2026-10-21T14:18:34.357Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
+      "count": 12,
       "summary": "NASA의 CASALS Instrument Bridges 지구 표면의 3D 지도의 틈새",
       "latest": "2026-10-21 12:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T13:53:35.353Z",
+      "lastRefreshed": "2026-10-21T14:18:34.357Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -87,7 +86,7 @@
       "summary": "Tesla-SpaceX 합병에 대한 생각 — Readers Chime In",
       "latest": "2026-10-21 03:57",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-21T13:53:35.353Z",
+      "lastRefreshed": "2026-10-21T14:18:34.357Z",
       "themes": [
         "주요 기업"
       ]
@@ -96,11 +95,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 15,
-      "summary": "Commerce.com과 Cloudflare가 AI 에이전트를 위해 스토어 프론트를 준비하는 방법",
-      "latest": "2026-10-21 13:00",
+      "count": 18,
+      "summary": "Cloudflare WAF에 대한 전체 트랜잭션 탐지 소개",
+      "latest": "2026-10-21 14:10",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T13:53:35.353Z",
+      "lastRefreshed": "2026-10-21T14:18:34.357Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -109,6 +108,54 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "Introducing full transaction detection for Cloudflare WAF",
+        "url": "https://blog.cloudflare.com/full-transaction-waf/",
+        "source": "Cloudflare Blog",
+        "date": "2026-10-21 14:10",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Cloudflare WAF에 대한 전체 트랜잭션 탐지 소개",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Cloudflare deploys protections against php2shell vulnerability",
+        "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+        "source": "Cloudflare Blog",
+        "date": "2026-10-21 13:56",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Cloudflare는 php2shell 취약점에 대한 보호 기능을 배포합니다",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Updated PHP version released to GitHub",
+        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+        "source": "Hacker News",
+        "date": "2026-10-21 13:45",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub에 릴리스된 업데이트된 PHP 버전",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
         "url": "https://blog.cloudflare.com/webmcp-commerce/",
@@ -142,6 +189,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Install critical PHP safety update or go offline, cyber chiefs tell websites - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yYkJ1a0hkTXBMWUxzUGRNam81RzlXVTd0THJ2cWlvbVd4VmlNQ0ZzeHV0b21aR21mazJNTXAwSjRqN3VoNzgydHplRmRUamltaFJSUmZvcXBUZDg?oc=5",
+        "source": "BBC",
+        "date": "2026-10-21 12:35",
+        "categoryId": "cyber",
+        "confidence": "B",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "중요한 PHP 안전 업데이트를 설치하거나 오프라인으로 전환하면 사이버 책임자가 웹 사이트에 알립니다. - BBC",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "verified",
+        "layerLabel": "주요 언론 확인"
       },
       {
         "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
@@ -178,6 +241,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NVIDIA GTC Berlin: Live Updates on What’s Next in AI - NVIDIA Blog",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4M3FmV0ljcFlSbm5UNGpFNlFFU01jc2MwbmtaUGFtNnExMVVMejNyV2tBX0xoaC1xajZmeFVDU3JVMGNsWnhzMnpWRmZvSjdSb3o1MF9ud3Y2Zw?oc=5",
+        "source": "NVIDIA Blog",
+        "date": "2026-10-21 10:50",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "NVIDIA GTC Berlin: AI의 다음 단계에 대한 실시간 업데이트 - NVIDIA 블로그",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
@@ -232,90 +313,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-        "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-        "source": "NVIDIA Blog",
-        "date": "2026-10-21 10:30",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "엔지니어링 및 과학 시뮬레이션을 가속화할 수 있는 NVIDIA CUDSS",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-        "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-        "source": "NVIDIA Blog",
-        "date": "2026-10-21 10:30",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "NVIDIA 기밀 컴퓨팅 확장, 프론티어 모델 빌더가 글로벌 인프라 전반에 걸쳐 안전하게 확장 가능",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "APOD: 2026 October 21 – New Ghosts Revealed in Cassiopeia",
-        "url": "https://science.nasa.gov/image-article/apod-2026-october-21-new-ghosts-revealed-in-cassiopeia/",
-        "source": "NASA",
-        "date": "2026-10-21 04:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "APOD: 2026년 10월 21일 – 카시오페이아에서 새로운 유령 발견",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Extratropical Cyclone Whips Past Iceland",
-        "url": "https://science.nasa.gov/earth/earth-observatory/extratropical-cyclone-whips-past-iceland/",
-        "source": "NASA",
-        "date": "2026-10-21 04:01",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "아이슬란드 과거의 열대성 태풍 채찍",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
-        "url": "https://arxiv.org/abs/2610.26899",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-21 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "대규모 언어 모델 및 강화 학습 기반 자율 구성 및 진행 상황 업데이트",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
@@ -356,24 +353,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Claude designed protein binders against scorpion neurotoxins",
-        "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-        "source": "Hacker News",
-        "date": "2026-10-20 17:48",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude는 전갈 신경독에 대한 단백질 바인더를 설계했습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
         "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
         "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
         "source": "NASA",
@@ -395,6 +374,40 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+        "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+        "source": "TechCrunch",
+        "date": "2026-10-21 14:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI는 생산성을 약속하지만, 관리자에게는 지금은 대부분 두통입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+        "source": "The Verge",
+        "date": "2026-10-21 13:57",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI는 AI 에이전트가 안전 모니터링 시스템을 비활성화하는 것에 대해 거짓말을 했다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Nvidia’s latest GPU driver brings a new way to speed up PC games",
         "url": "https://www.theverge.com/news/1015299/nvidia-driver-microsoft-advanced-shader-delivery-support",
@@ -430,6 +443,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Blink brings 4K to its low-cost security camera lineup",
+        "url": "https://www.theverge.com/tech/1015238/amazon-blink-4k-trail-security-camera-launch",
+        "source": "The Verge",
+        "date": "2026-10-21 12:03",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Blink는 저렴한 보안 카메라 라인업에 4K를 제공합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Summer of Quantum: Building momentum for space-based QKD",
         "url": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
         "source": "SpaceNews",
@@ -457,6 +486,24 @@
         "titleKo": "생성 AI는 행동 텔링 지우기, 행동 전용 탐지 약화, 프루프포인트 보고서",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "NVIDIA GTC Berlin: Live Updates on What’s Next in AI - NVIDIA Blog",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4M3FmV0ljcFlSbm5UNGpFNlFFU01jc2MwbmtaUGFtNnExMVVMejNyV2tBX0xoaC1xajZmeFVDU3JVMGNsWnhzMnpWRmZvSjdSb3o1MF9ud3Y2Zw?oc=5",
+        "source": "NVIDIA Blog",
+        "date": "2026-10-21 10:50",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "NVIDIA GTC Berlin: AI의 다음 단계에 대한 실시간 업데이트 - NVIDIA 블로그",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -524,73 +571,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
-        "url": "https://arxiv.org/abs/2610.26899",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-21 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "대규모 언어 모델 및 강화 학습 기반 자율 구성 및 진행 상황 업데이트",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
-        "url": "https://arxiv.org/abs/2610.26904",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-21 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "대규모 언어 모델을 사용한 다목적 강화 학습을 통한 파레토 옵티멀 RTL 코드 생성",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
-        "url": "https://arxiv.org/abs/2610.26913",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-21 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
-        "url": "https://arxiv.org/abs/2610.26924",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-21 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "DataPraxis: 검증된 작업 영역 진화를 통해 분석 작업 확장",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Updated PHP version released to GitHub",
+        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+        "source": "Hacker News",
+        "date": "2026-10-21 13:45",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub에 릴리스된 업데이트된 PHP 버전",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
         "url": "https://www.ncsc.nl/actueel",
@@ -672,28 +671,92 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Claude designed protein binders against scorpion neurotoxins",
-        "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-        "source": "Hacker News",
-        "date": "2026-10-20 17:48",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude는 전갈 신경독에 대한 단백질 바인더를 설계했습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Introducing full transaction detection for Cloudflare WAF",
+      "url": "https://blog.cloudflare.com/full-transaction-waf/",
+      "source": "Cloudflare Blog",
+      "date": "2026-10-21 14:10",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Cloudflare WAF에 대한 전체 트랜잭션 탐지 소개",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "source": "TechCrunch",
+      "date": "2026-10-21 14:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI는 생산성을 약속하지만, 관리자에게는 지금은 대부분 두통입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "source": "The Verge",
+      "date": "2026-10-21 13:57",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 AI 에이전트가 안전 모니터링 시스템을 비활성화하는 것에 대해 거짓말을 했다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Cloudflare deploys protections against php2shell vulnerability",
+      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+      "source": "Cloudflare Blog",
+      "date": "2026-10-21 13:56",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Cloudflare는 php2shell 취약점에 대한 보호 기능을 배포합니다",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Updated PHP version released to GitHub",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "source": "Hacker News",
+      "date": "2026-10-21 13:45",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub에 릴리스된 업데이트된 PHP 버전",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "Nvidia’s latest GPU driver brings a new way to speed up PC games",
       "url": "https://www.theverge.com/news/1015299/nvidia-driver-microsoft-advanced-shader-delivery-support",
@@ -763,6 +826,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Install critical PHP safety update or go offline, cyber chiefs tell websites - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yYkJ1a0hkTXBMWUxzUGRNam81RzlXVTd0THJ2cWlvbVd4VmlNQ0ZzeHV0b21aR21mazJNTXAwSjRqN3VoNzgydHplRmRUamltaFJSUmZvcXBUZDg?oc=5",
+      "source": "BBC",
+      "date": "2026-10-21 12:35",
+      "categoryId": "cyber",
+      "confidence": "B",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "중요한 PHP 안전 업데이트를 설치하거나 오프라인으로 전환하면 사이버 책임자가 웹 사이트에 알립니다. - BBC",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
       "url": "https://www.ncsc.nl/actueel",
       "source": "Hacker News",
@@ -795,6 +874,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Blink brings 4K to its low-cost security camera lineup",
+      "url": "https://www.theverge.com/tech/1015238/amazon-blink-4k-trail-security-camera-launch",
+      "source": "The Verge",
+      "date": "2026-10-21 12:03",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Blink는 저렴한 보안 카메라 라인업에 4K를 제공합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Summer of Quantum: Building momentum for space-based QKD",
@@ -845,6 +940,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "NVIDIA GTC Berlin: Live Updates on What’s Next in AI - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4M3FmV0ljcFlSbm5UNGpFNlFFU01jc2MwbmtaUGFtNnExMVVMejNyV2tBX0xoaC1xajZmeFVDU3JVMGNsWnhzMnpWRmZvSjdSb3o1MF9ud3Y2Zw?oc=5",
+      "source": "NVIDIA Blog",
+      "date": "2026-10-21 10:50",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "NVIDIA GTC Berlin: AI의 다음 단계에 대한 실시간 업데이트 - NVIDIA 블로그",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
@@ -926,24 +1039,6 @@
       "stream": "release",
       "category": "반도체·컴퓨팅",
       "titleKo": "엔지니어링 및 과학 시뮬레이션을 가속화할 수 있는 NVIDIA CUDSS",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-      "source": "NVIDIA Blog",
-      "date": "2026-10-21 10:30",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "NVIDIA 기밀 컴퓨팅 확장, 프론티어 모델 빌더가 글로벌 인프라 전반에 걸쳐 안전하게 확장 가능",
       "type": "출시·업데이트",
       "themes": [
         "주요 기업"
@@ -1355,24 +1450,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "SpaceX will try catching Starship and its booster for first time, Musk says",
-      "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
-      "source": "The Verge",
-      "date": "2026-10-20 21:29",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "머스크는 SpaceX가 Starship과 그 부스터를 처음으로 잡을 것이라고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Anthropic’s cloud partnerships are getting messy",
       "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
       "source": "TechCrunch",
@@ -1402,24 +1479,6 @@
       "titleKo": "뇌졸중 환자를 위한 로봇 요법",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "SpaceX’s AI business is beating expectations",
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "source": "TechCrunch",
-      "date": "2026-10-20 20:40",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "SpaceX의 AI 비즈니스가 기대를 뛰어넘고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1645,24 +1704,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-      "source": "The Verge",
-      "date": "2026-10-20 18:07",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "연구원이 웹에서 AI 채팅을 찾은 후 메타가 뮤즈 공유를 일시 중지합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Bulk migrate branch protections to rulesets for a repository",
       "url": "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository",
       "source": "GitHub Changelog",
@@ -1727,24 +1768,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Claude designed protein binders against scorpion neurotoxins",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-      "source": "Hacker News",
-      "date": "2026-10-20 17:48",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Claude는 전갈 신경독에 대한 단백질 바인더를 설계했습니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Dependabot alerts REST API now includes dependency versions",
@@ -1959,6 +1982,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "US bans use of China’s DeepSeek AI tools by government agencies - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUV9DaHpRUTR2dzh2cG9RTHdpa3VReVdBSzNfbkJlUm1wX3VXdWREbmMtRkpGOE5SZE0waTJYVmMya2F2NUxCTHRXaXBmaHhpczFZN2JMbG50VEM1cmNWVVpHWVg1ell2ZG9qM013bHpGX3NwbkRLamN3QU04a2pER1FRQXlxb253cDR2aHlvSEZ5V3JxSVZaVDdheDdFMkpj?oc=5",
+      "source": "The Guardian",
+      "date": "2026-10-20 13:03",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "US bans use of China’s DeepSeek AI tools by government agencies - The Guardian",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Introducing tsrs: A port of TypeScript to Rust",
       "url": "https://blog.cloudflare.com/typescript-rust-port/",
       "source": "Cloudflare Blog",
@@ -1973,78 +2012,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
-      "url": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
-      "source": "SpaceNews",
-      "date": "2026-10-20 13:00",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "세 가지 반사 궤도 임무에 대한 우주 대 지구 통신을 제공하는 AnySignal",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Avenda Health expands Unfold AI platform to support intraoperative prostate cancer care",
-      "url": "https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/",
-      "source": "The Robot Report",
-      "date": "2026-10-20 12:59",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Avenda Health, 수술 중 전립선암 치료를 지원하는 Unfold AI 플랫폼 확장",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Download: the claim shaking up AI and the internet’s agent problem",
-      "url": "https://www.technologyreview.com/2026/10/20/1147355/the-download-claim-shaking-up-ai-internet-agent-problem/",
-      "source": "MIT Technology Review",
-      "date": "2026-10-20 12:10",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "다운로드: AI를 뒤흔드는 주장과 인터넷 에이전트 문제",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI adoption by industry shows what other sectors can learn",
-      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
-      "source": "MIT Technology Review",
-      "date": "2026-10-20 12:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "산업별 AI 채택은 다른 분야가 배울 수 있는 것을 보여줍니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 10. 21. 오후 10:53",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 21. 오후 11:18",
+    "mode": "하루 2회 전체 수집"
   }
 }
