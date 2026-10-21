@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 22. 오전 7:25",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v2.1.0",
+  "updatedAt": "2026. 10. 22. 오전 8:55",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v0.42.4",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 70,
-    "sourceCount": 22,
-    "officialCount": 35,
+    "recentCount": 75,
+    "sourceCount": 24,
+    "officialCount": 32,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v2.1.0",
+    "새 출시: v0.42.4",
     "창작 기술: 인간이 만든 새로운 Apple Music 브랜드는 인공지능 세계에서 중요합니다."
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "Walmart에서 AI 상담원을 초대합니다",
-      "latest": "2026-10-21 21:36",
+      "count": 36,
+      "summary": "v0.42.4",
+      "latest": "2026-10-21 23:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T22:25:27.731Z",
+      "lastRefreshed": "2026-10-21T23:55:39.116Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "유럽에 불꽃을 가져 오기: 지역 정보 기관이 요원의 다음 물결을 주도합니다.",
       "latest": "2026-10-21 10:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T22:25:27.731Z",
+      "lastRefreshed": "2026-10-21T23:55:39.116Z",
       "themes": [
         "주요 기업"
       ]
@@ -47,10 +47,10 @@
       "code": "ROBOT",
       "label": "로봇·모빌리티",
       "count": 4,
-      "summary": "테슬라는 이익이 43% 하락함에 따라 캘리포니아에서 옵티머스 로봇 생산을 시작합니다.",
-      "latest": "2026-10-21 20:33",
+      "summary": "Tesla는 고객이 내년에 robotaxi 차량단에 자신의 차량을 추가할 수 있다고 말합니다. 그렇게 될까요?",
+      "latest": "2026-10-21 23:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T22:25:27.731Z",
+      "lastRefreshed": "2026-10-21T23:55:39.116Z",
       "themes": [
         "주요 기업"
       ]
@@ -60,10 +60,10 @@
       "code": "CYBER",
       "label": "사이버보안",
       "count": 6,
-      "summary": "인터넷은 매우 나쁜 사이버 보안의 날을 보내고 있습니다.",
-      "latest": "2026-10-21 19:03",
+      "summary": "중요한 PHP 사이버 보안 업데이트로 전 세계적으로 삭제된 웹사이트 - BBC",
+      "latest": "2026-10-21 19:54",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T22:25:27.731Z",
+      "lastRefreshed": "2026-10-21T23:55:39.116Z",
       "themes": [
         "주요 기업"
       ]
@@ -76,7 +76,7 @@
       "summary": "NASA, 미래 아르테미스 임무를 지원하기 위해 RS-25 엔진 테스트 실시",
       "latest": "2026-10-21 20:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T22:25:27.731Z",
+      "lastRefreshed": "2026-10-21T23:55:39.116Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -90,7 +90,7 @@
       "summary": "잠재적인 SpaceX-Tesla 합병에 대한 배신의 구름 정착",
       "latest": "2026-10-21 16:38",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-21T22:25:27.731Z",
+      "lastRefreshed": "2026-10-21T23:55:39.116Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,20 +99,51 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
-      "summary": "v2.1.0",
-      "latest": "2026-10-21 22:00",
+      "count": 17,
+      "summary": "v16.5.0-canary.22",
+      "latest": "2026-10-21 23:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T22:25:27.731Z",
+      "lastRefreshed": "2026-10-21T23:55:39.116Z",
       "themes": [
         "주요 기업",
-        "기회",
-        "음악·음성"
+        "기회"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.42.4",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.4",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-10-21 23:31",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.42.4",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v16.5.0-canary.22",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.22",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-21 23:23",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.22",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v2.1.0",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
@@ -130,6 +161,24 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Anthropic announces preview of Claude Duet, a personal AI agent to take on Muse, Dots - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSFZYTW81ai1KaU91ZGZUV1VlUkFrRkVfWVpraWlRMl9rWXJnUXV2cnZ3dlFBUUtCeldidHR0MVhJdmY3MGVzSzZDYnYxODNQNXdxS1Z5ZVNIcHd4bklybjBOR3hQeEhwUkFBVW1WdVA1Q0V2WTZfbFAwSVdPcVRKdG5jc3dhYzZiYm01X1hqbDR2ZlVtblF6NmZUWVV0TFlVSkZJWHJUeG_SAa4BQVVfeXFMUDZ1eGN2Uncyczl3by1yNFAxQlJfd2JmSDBaX05QaEpFb0tGY3FJWGY4R2RzcXBRMXRYdzFhTWFIVEluT0I5MExZZG9hX3U0MXliVFJYS3hxN0FtME5obUdWOW9CZTBYdkpsVXFHN2d1VXp2VVI2NG5BNFF4MkEwLTlmZkVWZ016RkRtRHNsUi1RSEVERG1SNzB2aFlVLXFNSF80dEtDUnNZN05RSlh3?oc=5",
+        "source": "CNBC",
+        "date": "2026-10-21 21:42",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Anthropic, Muse, Dots를 맡을 개인 AI 에이전트 Claude Duet의 프리뷰 발표 - CNBC",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
@@ -162,6 +211,22 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Websites taken down worldwide as critical PHP cyber-security update issued - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yYkJ1a0hkTXBMWUxzUGRNam81RzlXVTd0THJ2cWlvbVd4VmlNQ0ZzeHV0b21aR21mazJNTXAwSjRqN3VoNzgydHplRmRUamltaFJSUmZvcXBUZDg?oc=5",
+        "source": "BBC",
+        "date": "2026-10-21 19:54",
+        "categoryId": "cyber",
+        "confidence": "B",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "중요한 PHP 사이버 보안 업데이트로 전 세계적으로 삭제된 웹사이트 - BBC",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "verified",
+        "layerLabel": "주요 언론 확인"
       },
       {
         "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
@@ -244,70 +309,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Routing Middleware now supports Python",
-        "url": "https://vercel.com/changelog/routing-middleware-now-supports-python",
-        "source": "Vercel Changelog",
-        "date": "2026-10-21 17:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "라우팅 미들웨어는 이제 Python을 지원합니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
-        "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
-        "source": "GitHub Changelog",
-        "date": "2026-10-21 16:43",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub CLI: 만료되는 자동 새로 고침 OAuth 토큰 사용",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA to Conduct NCAA Flyover, Engage Fans at University of Alabama",
-        "url": "https://www.nasa.gov/news-release/nasa-to-conduct-ncaa-flyover-engage-fans-at-university-of-alabama/",
-        "source": "NASA",
-        "date": "2026-10-21 16:31",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA, NCAA 플라이오버 수행, 앨라배마 대학교 팬 참여",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-        "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-        "source": "Hugging Face Blog",
-        "date": "2026-10-21 16:04",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "Profiling TorchNeuron (Part 1): AWS Trainium의 시스템 레벨 프로파일링.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -367,25 +368,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Apple Music has a new logo",
-        "url": "https://www.theverge.com/tech/1015533/apple-music-new-logo",
-        "source": "The Verge",
-        "date": "2026-10-21 15:48",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Apple Music에 새로운 로고가 추가되었습니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
         "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
         "source": "NASA",
@@ -402,29 +384,63 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-        "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
-        "source": "Simon Willison",
-        "date": "2026-10-20 19:34",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "배틀 드론 - 오디오 기반 멀티플레이어가 있는 분위기로 코드화된 RTS",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
+        "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings",
+        "source": "The Verge",
+        "date": "2026-10-21 23:36",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Tesla는 고객이 내년에 robotaxi 차량단에 자신의 차량을 추가할 수 있다고 말합니다. 그렇게 될까요?",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+        "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+        "source": "TechCrunch",
+        "date": "2026-10-21 22:51",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "블랙스톤의 자스 카이라 (Jas Khaira) 는 AI 구축 부채에 대한 두려움이 과도하다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+        "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+        "source": "TechCrunch",
+        "date": "2026-10-21 22:45",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Meta는 새로 생성된 주식 클래스로 광범위한 AI 빌드아웃에 대한 비용을 지불하고자 합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
         "url": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
@@ -437,6 +453,24 @@
         "titleKo": "기업은 IT가 상황을 악화시킬 것으로 생각하는 소프트웨어 업그레이드를 계속 구매합니다.",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Anthropic announces preview of Claude Duet, a personal AI agent to take on Muse, Dots - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSFZYTW81ai1KaU91ZGZUV1VlUkFrRkVfWVpraWlRMl9rWXJnUXV2cnZ3dlFBUUtCeldidHR0MVhJdmY3MGVzSzZDYnYxODNQNXdxS1Z5ZVNIcHd4bklybjBOR3hQeEhwUkFBVW1WdVA1Q0V2WTZfbFAwSVdPcVRKdG5jc3dhYzZiYm01X1hqbDR2ZlVtblF6NmZUWVV0TFlVSkZJWHJUeG_SAa4BQVVfeXFMUDZ1eGN2Uncyczl3by1yNFAxQlJfd2JmSDBaX05QaEpFb0tGY3FJWGY4R2RzcXBRMXRYdzFhTWFIVEluT0I5MExZZG9hX3U0MXliVFJYS3hxN0FtME5obUdWOW9CZTBYdkpsVXFHN2d1VXp2VVI2NG5BNFF4MkEwLTlmZkVWZ016RkRtRHNsUi1RSEVERG1SNzB2aFlVLXFNSF80dEtDUnNZN05RSlh3?oc=5",
+        "source": "CNBC",
+        "date": "2026-10-21 21:42",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Anthropic, Muse, Dots를 맡을 개인 AI 에이전트 Claude Duet의 프리뷰 발표 - CNBC",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -558,80 +592,43 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
+      }
+    ],
+    "community": [
       {
-        "title": "The new human-crafted Apple Music brand matters in an AI world",
-        "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
-        "source": "Ars Technica",
-        "date": "2026-10-21 19:44",
+        "title": "Railway Security Disclosure",
+        "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+        "source": "Hacker News",
+        "date": "2026-10-21 21:58",
         "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
+        "confidence": "D",
+        "stream": "community",
         "category": "인공지능",
-        "titleKo": "인간이 만든 새로운 Apple Music 브랜드는 인공지능 세계에서 중요합니다.",
+        "titleKo": "철도 보안 정보 공개",
         "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
-          "음악·음성"
-        ],
+        "themes": [],
         "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-        "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-        "source": "TechCrunch",
-        "date": "2026-10-21 19:30",
+        "title": "Google staff resign in backlash over its AI contracts with military",
+        "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+        "source": "Hacker News",
+        "date": "2026-10-21 19:14",
         "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
+        "confidence": "D",
+        "stream": "community",
         "category": "인공지능",
-        "titleKo": "Amazon이 AI 상담원을 차단하는 동안 Walmart는 웰컴 매트를 출시합니다.",
+        "titleKo": "Google 직원이 군대와의 AI 계약에 대한 반발로 사임",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
         ],
         "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
-      {
-        "title": "RIP BioWare: EA shuts down storied RPG studio after over three decades",
-        "url": "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/",
-        "source": "Ars Technica",
-        "date": "2026-10-21 19:12",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "RIP BioWare: EA, 30여 년 만에 RPG 스튜디오 폐쇄",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The internet is having a very bad cybersecurity day",
-        "url": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
-        "source": "TechCrunch",
-        "date": "2026-10-21 19:03",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "인터넷은 매우 나쁜 사이버 보안의 날을 보내고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "community": [
       {
         "title": "Claude Duet",
         "url": "https://claude.com/product/claude-duet",
@@ -695,42 +692,94 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "PHP2Shell: AI uncovers critical RCE in PHP",
-        "url": "https://www.wiz.io/blog/php2shell-php-rce",
-        "source": "Hacker News",
-        "date": "2026-10-21 13:43",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "PHP2Shell: PHP에서 중요한 RCE를 발견하는 AI",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Using thousands of AI agents to uncover new leads in biological data",
-        "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-        "source": "Hacker News",
-        "date": "2026-10-21 13:37",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "수천 명의 AI 에이전트를 사용하여 생물학적 데이터의 새로운 잠재 고객 발굴",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
+      "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings",
+      "source": "The Verge",
+      "date": "2026-10-21 23:36",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Tesla는 고객이 내년에 robotaxi 차량단에 자신의 차량을 추가할 수 있다고 말합니다. 그렇게 될까요?",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.42.4",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.4",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-10-21 23:31",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.42.4",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "v16.5.0-canary.22",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.22",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-21 23:23",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.5.0-canary.22",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "source": "TechCrunch",
+      "date": "2026-10-21 22:51",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "블랙스톤의 자스 카이라 (Jas Khaira) 는 AI 구축 부채에 대한 두려움이 과도하다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+      "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+      "source": "TechCrunch",
+      "date": "2026-10-21 22:45",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Meta는 새로 생성된 주식 클래스로 광범위한 AI 빌드아웃에 대한 비용을 지불하고자 합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "v2.1.0",
       "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
@@ -750,6 +799,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Railway Security Disclosure",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "source": "Hacker News",
+      "date": "2026-10-21 21:58",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "철도 보안 정보 공개",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
       "url": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
       "source": "Ars Technica",
@@ -761,6 +826,24 @@
       "titleKo": "기업은 IT가 상황을 악화시킬 것으로 생각하는 소프트웨어 업그레이드를 계속 구매합니다.",
       "type": "뉴스·분석",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anthropic announces preview of Claude Duet, a personal AI agent to take on Muse, Dots - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSFZYTW81ai1KaU91ZGZUV1VlUkFrRkVfWVpraWlRMl9rWXJnUXV2cnZ3dlFBUUtCeldidHR0MVhJdmY3MGVzSzZDYnYxODNQNXdxS1Z5ZVNIcHd4bklybjBOR3hQeEhwUkFBVW1WdVA1Q0V2WTZfbFAwSVdPcVRKdG5jc3dhYzZiYm01X1hqbDR2ZlVtblF6NmZUWVV0TFlVSkZJWHJUeG_SAa4BQVVfeXFMUDZ1eGN2Uncyczl3by1yNFAxQlJfd2JmSDBaX05QaEpFb0tGY3FJWGY4R2RzcXBRMXRYdzFhTWFIVEluT0I5MExZZG9hX3U0MXliVFJYS3hxN0FtME5obUdWOW9CZTBYdkpsVXFHN2d1VXp2VVI2NG5BNFF4MkEwLTlmZkVWZ016RkRtRHNsUi1RSEVERG1SNzB2aFlVLXFNSF80dEtDUnNZN05RSlh3?oc=5",
+      "source": "CNBC",
+      "date": "2026-10-21 21:42",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic, Muse, Dots를 맡을 개인 AI 에이전트 Claude Duet의 프리뷰 발표 - CNBC",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -832,6 +915,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Government websites go dark after AI-discovered flaw sparks security scramble - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNemhoUnNZdUg4Sk9JMjJQU25mTUZSX2lHc1JTNTFpNGlTcWxRRDctcFNCcVZiTUhYQ211YnNjSnRvYTYyS29VNFFKcHE4VGFMcHMxTGNwa3NmVUFNamNnektGaU9BbURibzdIY2hHUlpMbEwtNWhrOG9BenJvYkllVnNfakVVRU5yRzRjdDBjQXc2OEwtS1RwZVZhaWhoRWtlalVmU0xOQm5SbmUyeGVGeGgzUkE2XzRtbFBKdTJnUTJoRWdV?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-21 20:46",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI가 발견한 결함이 보안 스크램블을 촉발한 후 정부 웹사이트가 어두워집니다. - 로이터",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "Tesla starts Optimus robot production in California as profit falls 43%",
       "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
       "source": "TechCrunch",
@@ -864,6 +963,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Websites taken down worldwide as critical PHP cyber-security update issued - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yYkJ1a0hkTXBMWUxzUGRNam81RzlXVTd0THJ2cWlvbVd4VmlNQ0ZzeHV0b21aR21mazJNTXAwSjRqN3VoNzgydHplRmRUamltaFJSUmZvcXBUZDg?oc=5",
+      "source": "BBC",
+      "date": "2026-10-21 19:54",
+      "categoryId": "cyber",
+      "confidence": "B",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "중요한 PHP 사이버 보안 업데이트로 전 세계적으로 삭제된 웹사이트 - BBC",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
@@ -919,22 +1034,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-      "source": "TechCrunch",
-      "date": "2026-10-21 19:30",
+      "title": "Google staff resign in backlash over its AI contracts with military",
+      "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+      "source": "Hacker News",
+      "date": "2026-10-21 19:14",
       "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
+      "confidence": "D",
+      "stream": "community",
       "category": "인공지능",
-      "titleKo": "Amazon이 AI 상담원을 차단하는 동안 Walmart는 웰컴 매트를 출시합니다.",
+      "titleKo": "Google 직원이 군대와의 AI 계약에 대한 반발로 사임",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
       ],
       "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Claude Duet",
@@ -966,22 +1081,6 @@
       "themes": [
         "음악·음성"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The internet is having a very bad cybersecurity day",
-      "url": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
-      "source": "TechCrunch",
-      "date": "2026-10-21 19:03",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "인터넷은 매우 나쁜 사이버 보안의 날을 보내고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1055,6 +1154,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "GM aims to develop vehicles in as little as two years with AI, software push - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zZHBsWGlxdmVTbHJRV2VPTktvTnlJNm1hRmZXbDBScmRENVV2UVhjcFZLWVRhZm1Bb3BWa0ZoWTNqeC1MVU9YTmpKbTRkOHJjX01vOUJTdHI2R2JUSkszMld1UVJ1Y19TNE4xWW5CVUk5ZG5IRjdvSkVsUdIBgAFBVV95cUxOVnZYd0dsUTk5azZ0Y1dDdzRsai0wT0dPdXpSNEVVdU5OZnBwQUt0cnYxZjRRaWoyOFlCeG1UeHlVSlFuSjhkSEpaYVFNSU5kSG00dmo1NGw5LUtRN0tYRURLTkZyb1FYRWV4RFVmX0dtWS1Fb0RvUEc5Y0NfN2NOWg?oc=5",
+      "source": "CNBC",
+      "date": "2026-10-21 18:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "GM, AI, 소프트웨어 푸시로 2년 안에 차량 개발 목표 - CNBC",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "GM promises smarter cars, faster updates, and autonomous dry-cleaning runs",
       "url": "https://www.theverge.com/transportation/1014322/gm-onward-ai-ev-battery-compute-av",
       "source": "The Verge",
@@ -1101,6 +1216,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWlMcFlyb091cURKSTdxWlZobXVRVVlpSlhQbFUxejRzYmQyVk9FX1ZGT2FlYU5GN2xGc2M3dVFnN292YkNRX3IzbERKUl9BYWlDVGMtU29RcmZ5UHZwRjROUWJneHpzajVHQTNYazhrYlM1SDZMZU1kRzRldTA3TVBNa05DbFJsYldTOVo0R0hOdFdwbmhXYWQ2dFQyWVlXd3RubmlDR0U0ZkZSczdmOVhUNU9DeTJVMUE?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-10-21 17:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI 리서치 스타트업 플랩핑 비행기, 라운드당 $ 60억 가치 - Bloomberg.com",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "SpaceX to attempt Starship catch on next flight, with eye on rapid cadence increase",
@@ -1291,25 +1422,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Apple Music has a new logo",
-      "url": "https://www.theverge.com/tech/1015533/apple-music-new-logo",
-      "source": "The Verge",
-      "date": "2026-10-21 15:48",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Apple Music에 새로운 로고가 추가되었습니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "The $15 billion ad-powered AI startup your doctor may already be using",
       "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
       "source": "Ars Technica",
@@ -1432,38 +1544,6 @@
       "category": "소프트웨어·개발",
       "titleKo": "GitHub에 릴리스된 업데이트된 PHP 버전",
       "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
-      "url": "https://www.wiz.io/blog/php2shell-php-rce",
-      "source": "Hacker News",
-      "date": "2026-10-21 13:43",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "PHP2Shell: PHP에서 중요한 RCE를 발견하는 AI",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-      "source": "Hacker News",
-      "date": "2026-10-21 13:37",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "수천 명의 AI 에이전트를 사용하여 생물학적 데이터의 새로운 잠재 고객 발굴",
-      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "community",
@@ -1954,130 +2034,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v0.42.2",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.2",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-10-20 20:34",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.42.2",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "WebSocket support is now generally available",
-      "url": "https://vercel.com/changelog/websocket-support-is-now-generally-available",
-      "source": "Vercel Changelog",
-      "date": "2026-10-20 20:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "이제 웹소켓 지원이 일반에 제공됩니다.",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Reservoir launches new agricultural robotics incubator for Washington growers",
-      "url": "https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers/",
-      "source": "The Robot Report",
-      "date": "2026-10-20 19:40",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "저수지, 워싱턴 재배자를 위한 새로운 농업용 로봇 인큐베이터 출시",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
-      "source": "Simon Willison",
-      "date": "2026-10-20 19:34",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "소프트웨어·개발",
-      "titleKo": "배틀 드론 - 오디오 기반 멀티플레이어가 있는 분위기로 코드화된 RTS",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "source": "Hugging Face Blog",
-      "date": "2026-10-20 18:17",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "NVIDIA Cosmos3-H-Dreams: 생성 시뮬레이션을 통한 생생한 임상 수술",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Bulk migrate branch protections to rulesets for a repository",
-      "url": "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository",
-      "source": "GitHub Changelog",
-      "date": "2026-10-20 18:06",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "브랜치 보호를 저장소의 규칙 세트로 일괄 마이그레이션",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v16.5.0-canary.20",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.20",
-      "source": "GitHub · Next.js",
-      "date": "2026-10-20 18:05",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.5.0-canary.20",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 22. 오전 7:25",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 22. 오전 8:55",
+    "mode": "하루 2회 전체 수집"
   }
 }
