@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 21. 오전 8:39",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 10. 21. 오전 10:39",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.21",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 70,
+    "recentCount": 65,
     "sourceCount": 21,
-    "officialCount": 32,
+    "officialCount": 31,
     "opportunityCount": 0
   },
   "summary": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
+      "count": 31,
       "summary": "Anthropic은 50명 이상이 사망할 수 있는 경우 모델을 차단할 수 있는 AI 안전 법안을 제시합니다.",
       "latest": "2026-10-20 23:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T23:39:42.984Z",
+      "lastRefreshed": "2026-10-21T01:39:54.510Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -33,11 +33,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 4,
+      "count": 3,
       "summary": "독점: ByteDance, Alibaba, Tencent, $ 350억 상당의 Nvidia 칩 주문 - Reuters",
       "latest": "2026-10-20 15:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T23:39:42.984Z",
+      "lastRefreshed": "2026-10-21T01:39:54.511Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "뇌졸중 환자를 위한 로봇 요법",
       "latest": "2026-10-20 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T23:39:42.984Z",
+      "lastRefreshed": "2026-10-21T01:39:54.511Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "브라우저 및 소프트웨어 전반에 걸친 8개의 eMudhra CA 키 손상, 트리거링 긴급 수정",
       "latest": "2026-10-20 17:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T23:39:42.984Z",
+      "lastRefreshed": "2026-10-21T01:39:54.511Z",
       "themes": []
     },
     {
@@ -72,7 +72,7 @@
       "summary": "SpaceX와 Tesla 이사회는 합병을 검토하기 위해 특별 위원회를 구성합니다.",
       "latest": "2026-10-20 22:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T23:39:42.984Z",
+      "lastRefreshed": "2026-10-21T01:39:54.511Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -87,7 +87,7 @@
       "summary": "상위 투자자는 SpaceX가 다가오는 주에 Tesla를 $ 420/Share에 매수할 것으로 예측합니다.",
       "latest": "2026-10-20 03:55",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-20T23:39:42.984Z",
+      "lastRefreshed": "2026-10-21T01:39:54.511Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -99,9 +99,9 @@
       "label": "소프트웨어·개발",
       "count": 17,
       "summary": "v16.5.0-canary.21",
-      "latest": "2026-10-20 23:23",
+      "latest": "2026-10-20 23:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-20T23:39:42.984Z",
+      "lastRefreshed": "2026-10-21T01:39:54.511Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -114,7 +114,7 @@
         "title": "v16.5.0-canary.21",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
         "source": "GitHub · Next.js",
-        "date": "2026-10-20 23:23",
+        "date": "2026-10-20 23:51",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -585,6 +585,24 @@
     ],
     "community": [
       {
+        "title": "Anthropic logged net loss of over $80B in first half of 2026",
+        "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+        "source": "Hacker News",
+        "date": "2026-10-20 20:09",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "2026년 상반기에 $ 80B 이상의 인류 기록 순손실",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
         "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
         "source": "Hacker News",
@@ -678,7 +696,7 @@
       "title": "v16.5.0-canary.21",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
       "source": "GitHub · Next.js",
-      "date": "2026-10-20 23:23",
+      "date": "2026-10-20 23:51",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -985,6 +1003,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anthropic logged net loss of over $80B in first half of 2026",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+      "source": "Hacker News",
+      "date": "2026-10-20 20:09",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "2026년 상반기에 $ 80B 이상의 인류 기록 순손실",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
@@ -1998,32 +2034,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-      "source": "NVIDIA Blog",
-      "date": "2026-10-19 19:27",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "독일은 산업용 AI에서 세계를 이끌고자 합니다: NVIDIA가 돕는 방법",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 10. 21. 오전 8:39",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 21. 오전 10:39",
+    "mode": "매시간 공식 레이더"
   }
 }
