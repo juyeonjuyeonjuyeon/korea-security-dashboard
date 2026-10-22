@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 22. 오전 8:55",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v0.42.4",
+  "updatedAt": "2026. 10. 22. 오전 10:34",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "과학에 더 빨리: 과학 커뮤니티에 보내는 편지",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 75,
+    "recentCount": 73,
     "sourceCount": 24,
     "officialCount": 32,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v0.42.4",
+    "새 출시: 과학에 더 빨리: 과학 커뮤니티에 보내는 편지",
     "창작 기술: 인간이 만든 새로운 Apple Music 브랜드는 인공지능 세계에서 중요합니다."
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
+      "count": 35,
       "summary": "v0.42.4",
       "latest": "2026-10-21 23:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T23:55:39.116Z",
+      "lastRefreshed": "2026-10-22T01:34:53.316Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -37,7 +37,7 @@
       "summary": "유럽에 불꽃을 가져 오기: 지역 정보 기관이 요원의 다음 물결을 주도합니다.",
       "latest": "2026-10-21 10:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T23:55:39.116Z",
+      "lastRefreshed": "2026-10-22T01:34:53.316Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "Tesla는 고객이 내년에 robotaxi 차량단에 자신의 차량을 추가할 수 있다고 말합니다. 그렇게 될까요?",
       "latest": "2026-10-21 23:36",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T23:55:39.116Z",
+      "lastRefreshed": "2026-10-22T01:34:53.316Z",
       "themes": [
         "주요 기업"
       ]
@@ -59,11 +59,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
-      "summary": "중요한 PHP 사이버 보안 업데이트로 전 세계적으로 삭제된 웹사이트 - BBC",
-      "latest": "2026-10-21 19:54",
+      "count": 7,
+      "summary": "테슬라는 연말까지 사이버 택시 판매를 시작할 것이라고 밝혔습니다.",
+      "latest": "2026-10-22 00:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T23:55:39.116Z",
+      "lastRefreshed": "2026-10-22T01:34:53.316Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,13 +73,12 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 10,
-      "summary": "NASA, 미래 아르테미스 임무를 지원하기 위해 RS-25 엔진 테스트 실시",
-      "latest": "2026-10-21 20:51",
+      "summary": "과학에 더 빨리: 과학 커뮤니티에 보내는 편지",
+      "latest": "2026-10-22 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T23:55:39.116Z",
+      "lastRefreshed": "2026-10-22T01:34:53.316Z",
       "themes": [
-        "주요 기업",
-        "미술·디자인"
+        "주요 기업"
       ]
     },
     {
@@ -90,7 +89,7 @@
       "summary": "잠재적인 SpaceX-Tesla 합병에 대한 배신의 구름 정착",
       "latest": "2026-10-21 16:38",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-21T23:55:39.116Z",
+      "lastRefreshed": "2026-10-22T01:34:53.316Z",
       "themes": [
         "주요 기업"
       ]
@@ -103,7 +102,7 @@
       "summary": "v16.5.0-canary.22",
       "latest": "2026-10-21 23:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-21T23:55:39.116Z",
+      "lastRefreshed": "2026-10-22T01:34:53.316Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -112,6 +111,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "Faster to Science: A Letter to the Science Community",
+        "url": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
+        "source": "NASA",
+        "date": "2026-10-22 00:00",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "과학에 더 빨리: 과학 커뮤니티에 보내는 편지",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v0.42.4",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.4",
@@ -293,22 +308,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-        "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-        "source": "Hugging Face Blog",
-        "date": "2026-10-21 17:35",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "SLM의 어휘를 전문화하면 실제 응용 프로그램에서 추론 비용을 77% 절감할 수 있는 방법",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -366,29 +365,29 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-        "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-        "source": "NASA",
-        "date": "2026-10-21 12:17",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA의 CASALS Instrument Bridges 지구 표면의 3D 지도의 틈새",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Tesla says it will start selling Cybercabs by end of year",
+        "url": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+        "source": "TechCrunch",
+        "date": "2026-10-22 00:17",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "테슬라는 연말까지 사이버 택시 판매를 시작할 것이라고 밝혔습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
         "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings",
@@ -576,22 +575,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "GM is betting compute and AI will help it compete with Chinese automakers",
-        "url": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
-        "source": "TechCrunch",
-        "date": "2026-10-21 19:52",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "GM은 컴퓨팅에 베팅하고 있으며 AI는 중국 자동차 업체와 경쟁하는 데 도움이 될 것입니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -696,6 +679,40 @@
     ]
   },
   "news": [
+    {
+      "title": "Tesla says it will start selling Cybercabs by end of year",
+      "url": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+      "source": "TechCrunch",
+      "date": "2026-10-22 00:17",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "테슬라는 연말까지 사이버 택시 판매를 시작할 것이라고 밝혔습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Faster to Science: A Letter to the Science Community",
+      "url": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
+      "source": "NASA",
+      "date": "2026-10-22 00:00",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "과학에 더 빨리: 과학 커뮤니티에 보내는 편지",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
       "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings",
@@ -994,22 +1011,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "GM is betting compute and AI will help it compete with Chinese automakers",
-      "url": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
-      "source": "TechCrunch",
-      "date": "2026-10-21 19:52",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "GM은 컴퓨팅에 베팅하고 있으며 AI는 중국 자동차 업체와 경쟁하는 데 도움이 될 것입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1600,24 +1601,6 @@
       "layerLabel": "주요 언론 확인"
     },
     {
-      "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-      "source": "NASA",
-      "date": "2026-10-21 12:17",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA의 CASALS Instrument Bridges 지구 표면의 3D 지도의 틈새",
-      "type": "출시·업데이트",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Summer of Quantum: Building momentum for space-based QKD",
       "url": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
       "source": "SpaceNews",
@@ -2037,11 +2020,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 22. 오전 8:55",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 22. 오전 10:34",
+    "mode": "매시간 공식 레이더"
   }
 }
