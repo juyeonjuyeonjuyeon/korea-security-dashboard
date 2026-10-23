@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 23. 오후 10:32",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v2.2.0",
+  "updatedAt": "2026. 10. 23. 오후 11:01",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.4.3",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 65,
-    "sourceCount": 23,
-    "officialCount": 29,
+    "recentCount": 66,
+    "sourceCount": 26,
+    "officialCount": 28,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v2.2.0",
-    "창작 기술: Brick의 새로운 앱 차단기는 취침 둠스크롤을 위해 설계되었습니다",
+    "새 출시: v16.4.3",
+    "창작 기술: Apple은 원래 iPod을 Apple Music 부활절 달걀로 부활시킵니다.",
     "행사·무료: 아무도 소유하지 않은 AI 에이전트: 최신 내부자 위협에 대한 전문가 웨비나 시청",
     "인물 발언: 엔비디아의 젠슨 황 (Jensen Huang) 은 '언제든지 더 많이 사용할 수 있습니다' - CNBC"
   ],
@@ -21,25 +21,26 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "복고풍 게임이 AI로 뒤덮이고 있습니다",
-      "latest": "2026-10-23 13:05",
+      "count": 35,
+      "summary": "Apple은 원래 iPod을 Apple Music 부활절 달걀로 부활시킵니다.",
+      "latest": "2026-10-23 13:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-23T13:32:21.056Z",
+      "lastRefreshed": "2026-10-23T14:01:28.618Z",
       "themes": [
-        "미술·디자인",
-        "주요 기업"
+        "주요 기업",
+        "음악·음성",
+        "미술·디자인"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 9,
+      "count": 8,
       "summary": "카자흐스탄, AI 미래를 위한 컴퓨팅 확장",
       "latest": "2026-10-23 02:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-23T13:32:21.056Z",
+      "lastRefreshed": "2026-10-23T14:01:28.618Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,18 +53,18 @@
       "summary": "새로운 주요 변화 확인 없음",
       "latest": "—",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-23T13:32:21.056Z",
+      "lastRefreshed": "2026-10-23T14:01:28.618Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 10,
+      "count": 8,
       "summary": "이것이 새로운 사이버 정상인가요?",
       "latest": "2026-10-23 11:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-23T13:32:21.056Z",
+      "lastRefreshed": "2026-10-23T14:01:28.618Z",
       "themes": [
         "미술·디자인",
         "기회"
@@ -77,7 +78,7 @@
       "summary": "머스크가 위성을 가지고 정치를 펼치면서 우크라이나는 스타링크 없이 싸우는 법을 배웁니다.",
       "latest": "2026-10-23 11:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-23T13:32:21.056Z",
+      "lastRefreshed": "2026-10-23T14:01:28.618Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +91,7 @@
       "summary": "배터리 쇼가 전기화의 다음 장에 대해 알려준 것",
       "latest": "2026-10-23 03:57",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-23T13:32:21.056Z",
+      "lastRefreshed": "2026-10-23T14:01:28.618Z",
       "themes": [
         "미술·디자인"
       ]
@@ -100,10 +101,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 17,
-      "summary": "v2.2.0",
-      "latest": "2026-10-23 13:10",
+      "summary": "v16.4.3",
+      "latest": "2026-10-23 13:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-23T13:32:21.056Z",
+      "lastRefreshed": "2026-10-23T14:01:28.618Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -113,6 +114,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.4.3",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-23 13:32",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.4.3",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v2.2.0",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0",
@@ -127,22 +144,6 @@
         "themes": [
           "주요 기업"
         ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.4.3",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
-        "source": "GitHub · Next.js",
-        "date": "2026-10-23 12:43",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.4.3",
-        "type": "출시·업데이트",
-        "themes": [],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -317,6 +318,25 @@
       }
     ],
     "creative": [
+      {
+        "title": "Apple revives the original iPod as an Apple Music easter egg",
+        "url": "https://www.theverge.com/entertainment/1017413/apple-music-ipod-404-page",
+        "source": "The Verge",
+        "date": "2026-10-23 13:58",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Apple은 원래 iPod을 Apple Music 부활절 달걀로 부활시킵니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Brick’s new app blocker is designed for bedtime doomscrolling",
         "url": "https://www.theverge.com/gadgets/1017383/brick-night-app-blocker-gadget-bluetooth-launch",
@@ -560,10 +580,29 @@
     ],
     "analysis": [
       {
+        "title": "Apple revives the original iPod as an Apple Music easter egg",
+        "url": "https://www.theverge.com/entertainment/1017413/apple-music-ipod-404-page",
+        "source": "The Verge",
+        "date": "2026-10-23 13:58",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Apple은 원래 iPod을 Apple Music 부활절 달걀로 부활시킵니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Retro gaming is being overrun with AI",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
         "source": "The Verge",
-        "date": "2026-10-23 13:05",
+        "date": "2026-10-23 13:52",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
@@ -589,6 +628,22 @@
         "themes": [
           "미술·디자인"
         ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "To Shape AI, Use AI - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWm9wUFFJVmxycDdjam5sRnlUaEw1Rkk5cmgzXzBQUEgzalB1S2c2YXNiXzJua1FxbmxLUVVGVTFQeGVTcVdNTk1mNWdTMlFHV1dxUFp4U2w2NTUwLXNkQ0QtTlhVOC1oNnBjQkZnVlNwMWVtbjVuR0ItZU1iTkpZRk1qUXdIZ2wxSWQxMjNITi1UaWo4WlRCODZlUVUzTW9mdFpHc1IxYzJraHRoV21QNC01V2RRTGt0RFBfczFXYw?oc=5",
+        "source": "Bloomberg.com",
+        "date": "2026-10-23 12:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI를 형성하려면 AI를 사용하세요 - Bloomberg.com",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -662,6 +717,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "OpenAI and Poland’s NASK partner to advance AI safety and security - OpenAI",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RYWs0QVF6WTJBcXgyLUdwRndIbUhWZjNjTXRsc0xLOE9LMkZXNXZVQnlPaTU1ZF9lYUxuV2g3cjFjV1ZlNWcxeUFIajR3MVZXb0E1S2FvWVJXb0lWSHY1STdwUENWVUpXNmVKc3pUVWE2NzJSQWh3?oc=5",
+        "source": "OpenAI",
+        "date": "2026-10-23 05:11",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI와 폴란드의 NASK 파트너, AI 안전 및 보안 강화 - OpenAI",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
         "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
         "source": "TechCrunch",
@@ -705,54 +778,6 @@
         "stream": "analysis",
         "category": "인공지능",
         "titleKo": "게임의 확장: 다양한 가상 세계에서 체화된 에이전트를 위한 지속적인 사전 교육",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
-        "url": "https://arxiv.org/abs/2610.28706",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-23 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "SpecEvo: 비용 효율적인 과학적 발견을 위한 대규모 언어 모델을 통한 투기적 진화",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
-        "url": "https://arxiv.org/abs/2610.28763",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-23 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "과학을위한 ML 자동화: 프론티어 에이전트가 야생의 과학적 언덕을 오를 수 있습니까?",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
-        "url": "https://arxiv.org/abs/2610.28815",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-23 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "더 많은 작업을 더 나은 하네스로 단조: 연속적인 스케일 레이싱을 통한 에이전트 하네스 진화",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -865,6 +890,57 @@
   },
   "news": [
     {
+      "title": "Apple revives the original iPod as an Apple Music easter egg",
+      "url": "https://www.theverge.com/entertainment/1017413/apple-music-ipod-404-page",
+      "source": "The Verge",
+      "date": "2026-10-23 13:58",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Apple은 원래 iPod을 Apple Music 부활절 달걀로 부활시킵니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업",
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Retro gaming is being overrun with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "source": "The Verge",
+      "date": "2026-10-23 13:52",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "복고풍 게임이 AI로 뒤덮이고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.4.3",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-23 13:32",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.4.3",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v2.2.0",
       "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0",
       "source": "GitHub · Anthropic SDK",
@@ -881,22 +957,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Retro gaming is being overrun with AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
-      "source": "The Verge",
-      "date": "2026-10-23 13:05",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "복고풍 게임이 AI로 뒤덮이고 있습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Brick’s new app blocker is designed for bedtime doomscrolling",
@@ -917,20 +977,20 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "v16.4.3",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
-      "source": "GitHub · Next.js",
-      "date": "2026-10-23 12:43",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.4.3",
-      "type": "출시·업데이트",
+      "title": "To Shape AI, Use AI - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWm9wUFFJVmxycDdjam5sRnlUaEw1Rkk5cmgzXzBQUEgzalB1S2c2YXNiXzJua1FxbmxLUVVGVTFQeGVTcVdNTk1mNWdTMlFHV1dxUFp4U2w2NTUwLXNkQ0QtTlhVOC1oNnBjQkZnVlNwMWVtbjVuR0ItZU1iTkpZRk1qUXdIZ2wxSWQxMjNITi1UaWo4WlRCODZlUVUzTW9mdFpHc1IxYzJraHRoV21QNC01V2RRTGt0RFBfczFXYw?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-10-23 12:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI를 형성하려면 AI를 사용하세요 - Bloomberg.com",
+      "type": "뉴스·분석",
       "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Swedish government offices to ban ChatGPT and Claude",
@@ -1063,6 +1123,24 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RYWs0QVF6WTJBcXgyLUdwRndIbUhWZjNjTXRsc0xLOE9LMkZXNXZVQnlPaTU1ZF9lYUxuV2g3cjFjV1ZlNWcxeUFIajR3MVZXb0E1S2FvWVJXb0lWSHY1STdwUENWVUpXNmVKc3pUVWE2NzJSQWh3?oc=5",
+      "source": "OpenAI",
+      "date": "2026-10-23 05:11",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI와 폴란드의 NASK 파트너, AI 안전 및 보안 강화 - OpenAI",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "APOD: 2026 October 23 – Andromeda in Southern Spring",
@@ -1633,24 +1711,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Meta’s AI could still scrape news sites, legal experts say",
-      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "source": "The Verge",
-      "date": "2026-10-22 20:32",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "법률 전문가들은 메타의 인공지능이 여전히 뉴스 사이트를 긁을 수 있다고 말한다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v3.37.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.37.0",
       "source": "GitHub · OpenAI Python",
@@ -1951,6 +2011,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Government websites go dark after AI-discovered flaw sparks security scramble - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNemhoUnNZdUg4Sk9JMjJQU25mTUZSX2lHc1JTNTFpNGlTcWxRRDctcFNCcVZiTUhYQ211YnNjSnRvYTYyS29VNFFKcHE4VGFMcHMxTGNwa3NmVUFNamNnektGaU9BbURibzdIY2hHUlpMbEwtNWhrOG9BenJvYkllVnNfakVVRU5yRzRjdDBjQXc2OEwtS1RwZVZhaWhoRWtlalVmU0xOQm5SbmUyeGVGeGgzUkE2XzRtbFBKdTJnUTJoRWdV?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-22 13:24",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Government websites go dark after AI-discovered flaw sparks security scramble - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more' - CNBC",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT2F6ekhMbjE1SFdLRUhlWE5xVnlBVE80VmVCaldMMXhhQzB3dGxuTDdGbXNhakQ3cUhCWFpidWdkdUFxcDE2WDlwVlFlWFpOOUY1Vk5OMDdFRGdNbTM4NkhSRm93bE9rQW1RVEQzSXB6LVRMM0QtdmJxWDhxVFVqV0Zkay1EMFXSAYwBQVVfeXFMT2ZPbWM0aDdnNUxPTFRhSGxBTkFCQlI1c3R2MGtlQWdCdWRvTEZ4amw3MW40NTVIQU5JRVRGSDlsbTRTaW1wc1dZQWgwLUl4MVd4THZxTVk5Z1Zzd1lhbFFtSjYzbXF6RzEyTkxVRV9mTzQ4LUlsbDJnQ0E5dFJHMW1mNVZWc1VMeWJTT1Y?oc=5",
       "source": "CNBC",
@@ -2017,22 +2093,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "PHP: What is it and why did it spark a global cyber security scramble? - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1V0VTbm4wQ3BmN1hGMnNiSFRrU3FMTlNGcEV4Nzl4RVgzRk9NNjZIWXVkaWdFVElIZVRQUGdjbWZ6Wk1CUHM5djJJMGxqZVFlVjJqQ2tjUWRoZTg?oc=5",
-      "source": "BBC",
-      "date": "2026-10-22 11:15",
-      "categoryId": "cyber",
-      "confidence": "B",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "PHP: 이것은 무엇이며 왜 전 세계적인 사이버 보안 문제를 일으켰습니까? - BBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Nvidia's Jensen Huang says demand for neoclouds is 'off the charts' - CNBC",
@@ -2137,22 +2197,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "UK working to identify exposure after global cyber-security warning - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0waVRXcDhra0xOQVlCTXAyZ0JlM0pyaUZva3N4bml6R2ZzZzZaYUk0UXNWM1A4TldQM1hsbU9qT0FJYmtnV2d4TWJVc2RPTWtnekJhR29tVzRhX00?oc=5",
-      "source": "BBC",
-      "date": "2026-10-22 08:23",
-      "categoryId": "cyber",
-      "confidence": "B",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "글로벌 사이버 보안 경고 후 노출을 식별하기 위해 노력하는 영국 - BBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
       "title": "Ensemble forecasting with IBM Granite time-series models",
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "source": "Hugging Face Blog",
@@ -2185,32 +2229,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-      "source": "NVIDIA Blog",
-      "date": "2026-10-22 05:00",
-      "categoryId": "chips",
-      "confidence": "A",
-      "stream": "release",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "NVIDIA Cosmos, 세계 모델 훈련, 평가 및 배포를 위한 새로운 도구 오픈",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 23. 오후 10:32",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 23. 오후 11:01",
+    "mode": "하루 2회 전체 수집"
   }
 }
