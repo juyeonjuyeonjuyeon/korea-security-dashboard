@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 26. 오전 1:30",
+  "updatedAt": "2026. 10. 26. 오전 4:42",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 10월 25일 – 시뮬레이션된 우주의 암흑 물질",
   "metrics": {
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 27,
-      "summary": "알아두어야 할 가장 인기 있는 인공지능 웨어러블 및 기기",
-      "latest": "2026-10-25 14:10",
+      "count": 28,
+      "summary": "아폴로 이코노미스트는 AI가 대부분의 기업에 ‘제로 금융 성과’ 를 제공한다고 말합니다.",
+      "latest": "2026-10-25 16:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T16:30:53.435Z",
+      "lastRefreshed": "2026-10-25T19:42:43.071Z",
       "themes": [
         "주요 기업",
         "미술·디자인",
@@ -39,7 +39,7 @@
       "summary": "칩 랩에서 센터 스테이지까지",
       "latest": "2026-10-23 18:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T16:30:53.435Z",
+      "lastRefreshed": "2026-10-25T19:42:43.071Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Teradyne Robotics는 Sereact와 파트너십을 맺고 소매 및 물류 분야에서 물리적 AI를 확장합니다.",
       "latest": "2026-10-25 12:35",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T16:30:53.435Z",
+      "lastRefreshed": "2026-10-25T19:42:43.071Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -63,13 +63,12 @@
       "code": "CYBER",
       "label": "사이버보안",
       "count": 9,
-      "summary": "OpenAI AI 에이전트, VM 이스케이프 및 비밀 샌드박스 간 통신 시연",
-      "latest": "2026-10-25 06:54",
+      "summary": "PHP2Shell 취약점은 글로벌 스캐닝 및 AI 지원 해킹의 징후 가운데 정부 기관을 공격합니다.",
+      "latest": "2026-10-25 17:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T16:30:53.435Z",
+      "lastRefreshed": "2026-10-25T19:42:43.071Z",
       "themes": [
-        "주요 기업",
-        "미술·디자인"
+        "주요 기업"
       ]
     },
     {
@@ -80,7 +79,7 @@
       "summary": "APOD: 2026년 10월 25일 – 시뮬레이션된 우주의 암흑 물질",
       "latest": "2026-10-25 08:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T16:30:53.435Z",
+      "lastRefreshed": "2026-10-25T19:42:43.071Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,10 +89,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 6,
-      "summary": "테슬라의 로보택시 마일리지가 일주일에 20% 로 계속 합산된다면, 수학은 흥미로워질 것입니다.",
-      "latest": "2026-10-24 19:47",
+      "summary": "트럼프의 DOE 예산 요청은 약한 베팅과 유용한 에너지 연구를 함께 줄입니다",
+      "latest": "2026-10-25 17:17",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-25T16:30:53.435Z",
+      "lastRefreshed": "2026-10-25T19:42:43.071Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -104,11 +103,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 21,
+      "count": 20,
       "summary": "v16.5.0-canary.27",
       "latest": "2026-10-24 23:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T16:30:53.435Z",
+      "lastRefreshed": "2026-10-25T19:42:43.071Z",
       "themes": [
         "주요 기업"
       ]
@@ -366,24 +365,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-        "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-        "source": "The Hacker News",
-        "date": "2026-10-23 09:36",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "파이썬의 인기 있는 베개 이미지 라이브러리의 치명적인 결함은 조작된 이미지를 통해 코드 실행을 허용합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [
@@ -408,6 +389,54 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "source": "The Hacker News",
+        "date": "2026-10-25 17:19",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "PHP2Shell 취약점은 글로벌 스캐닝 및 AI 지원 해킹의 징후 가운데 정부 기관을 공격합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Trump’s DOE Budget Request Cuts Weak Bets And Useful Energy Research Together",
+        "url": "https://cleantechnica.com/2026/10/25/trump-doe-budget-cuts-energy-research/",
+        "source": "CleanTechnica",
+        "date": "2026-10-25 17:17",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "트럼프의 DOE 예산 요청은 약한 베팅과 유용한 에너지 연구를 함께 줄입니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+        "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+        "source": "TechCrunch",
+        "date": "2026-10-25 16:57",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "아폴로 이코노미스트는 AI가 대부분의 기업에 ‘제로 금융 성과’ 를 제공한다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "The hottest AI wearables and gadgets you should know about",
         "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
@@ -555,63 +584,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Energy Transition Plans Keep Freezing Today’s Demand Into Tomorrow",
-        "url": "https://cleantechnica.com/2026/10/24/energy-transition-assumptions-future-demand/",
-        "source": "CleanTechnica",
-        "date": "2026-10-24 16:53",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "에너지 전환 계획은 오늘날의 수요를 내일로 계속 동결시킵니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Block’s new voice model sounds eerily human",
-        "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-        "source": "TechCrunch",
-        "date": "2026-10-24 16:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "블록의 새로운 음성 모델은 소름끼치게 인간적으로 들린다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-        "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-        "source": "TechCrunch",
-        "date": "2026-10-24 15:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "그록의 인공지능 모델은 공화당을 선택하도록 강요받습니다. OpenAI는 민주당을 뽑습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+        "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+        "source": "Hacker News",
+        "date": "2026-10-25 16:28",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI는 UC 버클리 수학 교수를 리드하여 숙제를 채점하는 데 '무의미함' 을 봅니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
         "url": "https://twitter.com/mike64_t/status/2114150399406202896",
@@ -627,6 +618,22 @@
           "주요 기업",
           "미술·디자인"
         ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+        "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+        "source": "Hacker News",
+        "date": "2026-10-25 09:51",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "니콘 사진 콘테스트 우승자는 과학자들이 AI의 징후를 발견 한 후 타이틀을 잃습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -678,42 +685,74 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "We should be more ambitious with the software we build",
-        "url": "https://danluu.com/ambitious/",
-        "source": "Hacker News",
-        "date": "2026-10-24 21:47",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "우리는 우리가 구축한 소프트웨어에 대해 더 야심차게 생각해야 합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "No signs of AI payoff outside the tech sector",
-        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-        "source": "Hacker News",
-        "date": "2026-10-24 19:47",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "기술 부문 외부에서 AI 성과에 대한 징후가 없음",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "source": "The Hacker News",
+      "date": "2026-10-25 17:19",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "PHP2Shell 취약점은 글로벌 스캐닝 및 AI 지원 해킹의 징후 가운데 정부 기관을 공격합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Trump’s DOE Budget Request Cuts Weak Bets And Useful Energy Research Together",
+      "url": "https://cleantechnica.com/2026/10/25/trump-doe-budget-cuts-energy-research/",
+      "source": "CleanTechnica",
+      "date": "2026-10-25 17:17",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "트럼프의 DOE 예산 요청은 약한 베팅과 유용한 에너지 연구를 함께 줄입니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "TechCrunch",
+      "date": "2026-10-25 16:57",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "아폴로 이코노미스트는 AI가 대부분의 기업에 ‘제로 금융 성과’ 를 제공한다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "source": "Hacker News",
+      "date": "2026-10-25 16:28",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI는 UC 버클리 수학 교수를 리드하여 숙제를 채점하는 데 '무의미함' 을 봅니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "The hottest AI wearables and gadgets you should know about",
       "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
@@ -777,6 +816,22 @@
         "주요 기업",
         "미술·디자인"
       ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "source": "Hacker News",
+      "date": "2026-10-25 09:51",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "니콘 사진 콘테스트 우승자는 과학자들이 AI의 징후를 발견 한 후 타이틀을 잃습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
@@ -880,22 +935,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "We should be more ambitious with the software we build",
-      "url": "https://danluu.com/ambitious/",
-      "source": "Hacker News",
-      "date": "2026-10-24 21:47",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "우리는 우리가 구축한 소프트웨어에 대해 더 야심차게 생각해야 합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Blue Planet III is keeping the rough edges in the age of AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
       "source": "The Verge",
@@ -944,22 +983,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "No signs of AI payoff outside the tech sector",
-      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-      "source": "Hacker News",
-      "date": "2026-10-24 19:47",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "기술 부문 외부에서 AI 성과에 대한 징후가 없음",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
@@ -1043,22 +1066,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "source": "TechCrunch",
-      "date": "2026-10-24 14:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "다음은 문자 메시지에 포함될 수 있는 최고의 AI 상담원입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1822,24 +1829,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "source": "The Hacker News",
-      "date": "2026-10-23 09:36",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "파이썬의 인기 있는 베개 이미지 라이브러리의 치명적인 결함은 조작된 이미지를 통해 코드 실행을 허용합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v16.5.0-canary.25",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.25",
       "source": "GitHub · Next.js",
@@ -1986,22 +1975,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "What The Battery Show Told Us About the Next Chapter of Electrification",
-      "url": "https://cleantechnica.com/2026/10/22/what-the-battery-show-told-us-about-the-next-chapter-of-electrification/",
-      "source": "CleanTechnica",
-      "date": "2026-10-23 03:57",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "배터리 쇼가 전기화의 다음 장에 대해 알려준 것",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Kazakhstan Expands Compute for Its AI Future",
       "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
       "source": "NVIDIA Blog",
@@ -2043,7 +2016,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 10. 26. 오전 1:30",
+    "checkedAt": "2026. 10. 26. 오전 4:42",
     "mode": "매시간 공식 레이더"
   }
 }
