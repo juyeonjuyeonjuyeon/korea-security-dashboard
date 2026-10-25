@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 26. 오전 7:37",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 10. 26. 오전 8:03",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "Grok은 AI로 생성된 ‘Odyssey‘ 의 첫 7분을 공개합니다.",
   "metrics": {
     "articleCount": 80,
     "recentCount": 17,
-    "sourceCount": 24,
-    "officialCount": 27,
+    "sourceCount": 23,
+    "officialCount": 28,
     "opportunityCount": 1
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "Grok은 AI로 생성된 ‘Odyssey‘ 의 첫 7분을 공개합니다.",
       "latest": "2026-10-25 21:31",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T22:37:18.247Z",
+      "lastRefreshed": "2026-10-25T23:03:04.175Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -38,7 +38,7 @@
       "summary": "칩 랩에서 센터 스테이지까지",
       "latest": "2026-10-23 18:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T22:37:18.247Z",
+      "lastRefreshed": "2026-10-25T23:03:04.176Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "Teradyne Robotics는 Sereact와 파트너십을 맺고 소매 및 물류 분야에서 물리적 AI를 확장합니다.",
       "latest": "2026-10-25 12:35",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T22:37:18.247Z",
+      "lastRefreshed": "2026-10-25T23:03:04.176Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -61,11 +61,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 10,
+      "count": 9,
       "summary": "‘사이버 셀피시’ 저자는 자신의 책이 죽음에서 돌아올 때 테크노 자유지상주의를 목표로 삼습니다.",
       "latest": "2026-10-25 20:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T22:37:18.247Z",
+      "lastRefreshed": "2026-10-25T23:03:04.176Z",
       "themes": [
         "주요 기업"
       ]
@@ -78,7 +78,7 @@
       "summary": "APOD: 2026년 10월 25일 – 시뮬레이션된 우주의 암흑 물질",
       "latest": "2026-10-25 08:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T22:37:18.247Z",
+      "lastRefreshed": "2026-10-25T23:03:04.176Z",
       "themes": [
         "주요 기업"
       ]
@@ -91,7 +91,7 @@
       "summary": "트럼프의 DOE 예산 요청은 약한 베팅과 유용한 에너지 연구를 함께 줄입니다",
       "latest": "2026-10-25 17:17",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-25T22:37:18.247Z",
+      "lastRefreshed": "2026-10-25T23:03:04.176Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -102,13 +102,14 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 20,
+      "count": 21,
       "summary": "v16.5.0-canary.27",
       "latest": "2026-10-24 23:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T22:37:18.247Z",
+      "lastRefreshed": "2026-10-25T23:03:04.176Z",
       "themes": [
-        "주요 기업"
+        "주요 기업",
+        "음악·음성"
       ]
     }
   ],
@@ -346,6 +347,24 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "GitHub Copilot in Visual Studio — September update",
+        "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+        "source": "GitHub Changelog",
+        "date": "2026-10-23 00:17",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub Copilot in Visual Studio — September update",
+        "type": "오픈소스",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "opportunities": [
@@ -1740,22 +1759,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "PHP: What is it and why did it spark a global cyber security scramble? - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1V0VTbm4wQ3BmN1hGMnNiSFRrU3FMTlNGcEV4Nzl4RVgzRk9NNjZIWXVkaWdFVElIZVRQUGdjbWZ6Wk1CUHM5djJJMGxqZVFlVjJqQ2tjUWRoZTg?oc=5",
-      "source": "BBC",
-      "date": "2026-10-23 12:24",
-      "categoryId": "cyber",
-      "confidence": "B",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "PHP: What is it and why did it spark a global cyber security scramble? - BBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
       "title": "To Shape AI, Use AI - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWm9wUFFJVmxycDdjam5sRnlUaEw1Rkk5cmgzXzBQUEgzalB1S2c2YXNiXzJua1FxbmxLUVVGVTFQeGVTcVdNTk1mNWdTMlFHV1dxUFp4U2w2NTUwLXNkQ0QtTlhVOC1oNnBjQkZnVlNwMWVtbjVuR0ItZU1iTkpZRk1qUXdIZ2wxSWQxMjNITi1UaWo4WlRCODZlUVUzTW9mdFpHc1IxYzJraHRoV21QNC01V2RRTGt0RFBfczFXYw?oc=5",
       "source": "Bloomberg.com",
@@ -1986,14 +1989,32 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "GitHub Copilot in Visual Studio — September update",
+      "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+      "source": "GitHub Changelog",
+      "date": "2026-10-23 00:17",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub Copilot in Visual Studio — September update",
+      "type": "오픈소스",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 42,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 10. 26. 오전 7:37",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 26. 오전 8:03",
+    "mode": "하루 2회 전체 수집"
   }
 }
