@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 25. 오전 10:15",
+  "updatedAt": "2026. 10. 25. 오후 3:16",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.27",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 22,
+    "recentCount": 20,
     "sourceCount": 24,
     "officialCount": 28,
     "opportunityCount": 1
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 23,
-      "summary": "미국은 미디어, 영화 및 예술 분야에서 20만 개의 일자리를 잃었습니다. AI는 얼마입니까?",
-      "latest": "2026-10-24 23:11",
+      "count": 24,
+      "summary": "GVS5H 하네스를 사용하여 우화 5와 일치하는 Qwen3.8-27B 모델 5개",
+      "latest": "2026-10-25 03:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T01:15:20.246Z",
+      "lastRefreshed": "2026-10-25T06:16:37.548Z",
       "themes": [
         "음악·음성",
         "주요 기업"
@@ -34,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
-      "summary": "GPU 잠금 해제: Nvidia 3000 카드의 FP/BF16 명령 발행 속도",
-      "latest": "2026-10-24 09:58",
+      "count": 2,
+      "summary": "칩 랩에서 센터 스테이지까지",
+      "latest": "2026-10-23 18:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T01:15:20.246Z",
+      "lastRefreshed": "2026-10-25T06:16:37.548Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "EKA Robotics는 로봇을 위한 비전-포스-액션 모델을 확장하기 위해 $ 150M를 모금합니다",
       "latest": "2026-10-24 12:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T01:15:20.246Z",
+      "lastRefreshed": "2026-10-25T06:16:37.548Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -65,7 +65,7 @@
       "summary": "Node.js RCE 뒤의 Brotli 디코더 결함은 BUN, Python 및 기타 널리 사용되는 소프트웨어에도 영향을 미칩니다.",
       "latest": "2026-10-24 11:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T01:15:20.246Z",
+      "lastRefreshed": "2026-10-25T06:16:37.548Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -79,7 +79,7 @@
       "summary": "APOD: 2026년 10월 24일 – 로제타의 셀카",
       "latest": "2026-10-24 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T01:15:20.246Z",
+      "lastRefreshed": "2026-10-25T06:16:37.548Z",
       "themes": [
         "주요 기업"
       ]
@@ -92,7 +92,7 @@
       "summary": "테슬라의 로보택시 마일리지가 일주일에 20% 로 계속 합산된다면, 수학은 흥미로워질 것입니다.",
       "latest": "2026-10-24 19:47",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-25T01:15:20.246Z",
+      "lastRefreshed": "2026-10-25T06:16:37.548Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -107,7 +107,7 @@
       "summary": "v16.5.0-canary.27",
       "latest": "2026-10-24 23:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-25T01:15:20.246Z",
+      "lastRefreshed": "2026-10-25T06:16:37.548Z",
       "themes": [
         "주요 기업",
         "음악·음성"
@@ -610,7 +610,23 @@
     ],
     "community": [
       {
-        "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+        "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+        "url": "https://github.com/slee-persis/GVS5H",
+        "source": "Hacker News",
+        "date": "2026-10-25 03:56",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "GVS5H 하네스를 사용하여 우화 5와 일치하는 Qwen3.8-27B 모델 5개",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
         "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
         "source": "Hacker News",
         "date": "2026-10-24 23:11",
@@ -688,28 +704,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-        "url": "https://github.com/Zagitta/gpu-unlock",
-        "source": "Hacker News",
-        "date": "2026-10-24 09:58",
-        "categoryId": "chips",
-        "confidence": "D",
-        "stream": "community",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "GPU 잠금 해제: Nvidia 3000 카드의 FP/BF16 명령 발행 속도",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "source": "Hacker News",
+      "date": "2026-10-25 03:56",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "GVS5H 하네스를 사용하여 우화 5와 일치하는 Qwen3.8-27B 모델 5개",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "v16.5.0-canary.27",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.27",
@@ -727,7 +741,7 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
       "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
       "source": "Hacker News",
       "date": "2026-10-24 23:11",
@@ -1023,24 +1037,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-      "url": "https://github.com/Zagitta/gpu-unlock",
-      "source": "Hacker News",
-      "date": "2026-10-24 09:58",
-      "categoryId": "chips",
-      "confidence": "D",
-      "stream": "community",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "GPU 잠금 해제: Nvidia 3000 카드의 FP/BF16 명령 발행 속도",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
@@ -2038,7 +2034,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 10. 25. 오전 10:15",
+    "checkedAt": "2026. 10. 25. 오후 3:16",
     "mode": "매시간 공식 레이더"
   }
 }
