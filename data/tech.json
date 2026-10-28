@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 28. 오전 8:49",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 10. 28. 오전 9:16",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v16.5.0-canary.29",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 65,
-    "sourceCount": 22,
+    "recentCount": 62,
+    "sourceCount": 25,
     "officialCount": 27,
     "opportunityCount": 0
   },
@@ -24,7 +24,7 @@
       "summary": "부모는 GPT-4가 딸에게 발작 치료제를 코칭했다고 주장하며 OpenAI를 고소합니다.",
       "latest": "2026-10-27 23:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-27T23:49:47.505Z",
+      "lastRefreshed": "2026-10-28T00:16:49.715Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -39,7 +39,7 @@
       "summary": "Apple은 M6 칩으로 iMac, 엔트리 레벨 MacBook Pro를 새로 고칩니다.",
       "latest": "2026-10-27 22:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-27T23:49:47.505Z",
+      "lastRefreshed": "2026-10-28T00:16:49.715Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,18 +52,18 @@
       "summary": "로봇의 안전 기능이 이미 작동합니다. 입력이 거짓말을 하면 어떻게 되나요?",
       "latest": "2026-10-27 16:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-27T23:49:47.505Z",
+      "lastRefreshed": "2026-10-28T00:16:49.715Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
+      "count": 5,
       "summary": "CyberStrikeAI는 44개의 AI 에이전트를 사용하여 일본 대상에 대한 해킹 작업을 자동화합니다.",
       "latest": "2026-10-27 18:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-27T23:49:47.505Z",
+      "lastRefreshed": "2026-10-28T00:16:49.715Z",
       "themes": [
         "주요 기업"
       ]
@@ -72,11 +72,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
+      "count": 11,
       "summary": "중국의 일급 비밀 우주 비행기는 지구 저궤도에 숨을 수 없습니다",
       "latest": "2026-10-27 22:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-27T23:49:47.505Z",
+      "lastRefreshed": "2026-10-28T00:16:49.715Z",
       "themes": []
     },
     {
@@ -87,7 +87,7 @@
       "summary": "Ford는 $ 30K Fathom으로 EV를 가정용 배터리로 사용하여 단순화합니다.",
       "latest": "2026-10-27 16:17",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-27T23:49:47.505Z",
+      "lastRefreshed": "2026-10-28T00:16:49.715Z",
       "themes": []
     },
     {
@@ -98,7 +98,7 @@
       "summary": "v16.5.0-canary.29",
       "latest": "2026-10-27 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-27T23:49:47.505Z",
+      "lastRefreshed": "2026-10-28T00:16:49.715Z",
       "themes": [
         "미술·디자인",
         "주요 기업",
@@ -1305,6 +1305,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbzM2ekpCRDItOWdneU1qVVdIMlpNeVJLLWpUZDYtc2FPclJCM0JLTEVGc2JGS0NDbFpldXlaZlBFclJwTnFfSmFQUU0tLWRXaFI1NlFXRW1Bd1ZkbkwxdHQzcDJQOTIzOVFOZzFXLTNXVWI1T1pRd0hrQVRFdVplV3ZGb2xrYW84SXN2cUM1eWVXZEdPQVZN?oc=5",
+      "source": "The Guardian",
+      "date": "2026-10-27 14:09",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "미국과의 AI 패권 경쟁이 치열해지면서 중국 시장은 수조 달러의 손실을 입습니다. - 가디언",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Is my data used for model training?",
       "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
       "source": "Hacker News",
@@ -1465,6 +1481,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "DeepSeek AI model shows safety gaps in independent tests - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-27 10:51",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "DeepSeek AI model shows safety gaps in independent tests - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "How solid-state transformers could help power the AI boom",
@@ -1667,6 +1699,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Cowboy Space debuts new 'Big Iron' rocket - Axios",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpQW10d1ZEdHZMNHNqQnhHLW1MWk5mUUZFQXpJUmhEZGkxLVY1NV9sV0FMUmtJMURiZlpxNElJVEo5d1pzeTlDN3dydEh2YUplTk9FT2xfamF4VVhOWF80aWZjWVhRczFGNlphMm9R?oc=5",
+      "source": "Axios",
+      "date": "2026-10-27 03:32",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Cowboy Space debuts new 'Big Iron' rocket - Axios",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "From Barrel to Battery: What Will Europe’s Clean Car Debate Decide",
@@ -2007,64 +2055,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "IEEE Xplore Digital Library Adds AI Assistant",
-      "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-      "source": "IEEE Spectrum",
-      "date": "2026-10-26 18:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "IEEE Xplore 디지털 라이브러리, AI 어시스턴트 추가",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Will the real Anthropic please stand up",
-      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "source": "MIT Technology Review",
-      "date": "2026-10-26 17:45",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "진짜 인류학자가 일어서 주시겠습니까?",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "source": "The Hacker News",
-      "date": "2026-10-26 17:45",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "PHP 문제 Brotli 코드 실행 결함을 수정하기 위해 5 일 만에 두 번째 Windows 보안 업데이트",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 10. 28. 오전 8:49",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 10. 28. 오전 9:16",
+    "mode": "하루 2회 전체 수집"
   }
 }
