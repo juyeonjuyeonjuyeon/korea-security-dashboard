@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 30. 오전 9:39",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v16.5.0-canary.32",
+  "updatedAt": "2026. 10. 30. 오전 10:59",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v0.43.2",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 64,
-    "sourceCount": 25,
-    "officialCount": 26,
+    "recentCount": 65,
+    "sourceCount": 26,
+    "officialCount": 27,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v16.5.0-canary.32",
+    "새 출시: v0.43.2",
     "창작 기술: Andy Jassy는 프라임 비디오가 '수백억 달러‘ 의 수입을 올릴 수 있다고 말합니다.",
     "행사·무료: 웨비나: 보안 운영에 AI 위협 대비 태세를 구축하는 방법",
     "인물 발언: 엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - Bloomberg.com"
@@ -21,26 +21,25 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "Andy Jassy는 프라임 비디오가 '수백억 달러‘ 의 수입을 올릴 수 있다고 말합니다.",
-      "latest": "2026-10-29 23:44",
+      "count": 34,
+      "summary": "v0.43.2",
+      "latest": "2026-10-30 01:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T00:39:31.668Z",
+      "lastRefreshed": "2026-10-30T01:59:52.619Z",
       "themes": [
         "영상",
-        "주요 기업",
-        "음악·음성"
+        "주요 기업"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 8,
+      "count": 7,
       "summary": "인텔은 제조할 수 있는 모든 저렴한 노트북 칩을 판매하고 있다고 말합니다.",
       "latest": "2026-10-29 23:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T00:39:31.668Z",
+      "lastRefreshed": "2026-10-30T01:59:52.619Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +52,7 @@
       "summary": "백악관은 외국산 로봇에 관한 섹션 232 결정을 내립니다.",
       "latest": "2026-10-29 20:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T00:39:31.668Z",
+      "lastRefreshed": "2026-10-30T01:59:52.619Z",
       "themes": [
         "미술·디자인"
       ]
@@ -66,7 +65,7 @@
       "summary": "Fake ChatGPT 및 Claude Apps는 서명된 실행 파일을 악용하여 암호화 마이너를 배포합니다",
       "latest": "2026-10-29 15:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T00:39:31.668Z",
+      "lastRefreshed": "2026-10-30T01:59:52.619Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -78,10 +77,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 10,
-      "summary": "화성 운석 조각 테가자 001",
-      "latest": "2026-10-29 23:32",
+      "summary": "화성 운석 테가자 001의 잠재적 기원을 보여주는 지도",
+      "latest": "2026-10-30 00:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T00:39:31.668Z",
+      "lastRefreshed": "2026-10-30T01:59:52.619Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -91,22 +90,22 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 2,
+      "count": 1,
       "summary": "순환 경제법을 통한 유럽 배터리 재활용 확대",
       "latest": "2026-10-29 14:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-30T00:39:31.668Z",
+      "lastRefreshed": "2026-10-30T01:59:52.619Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 15,
+      "count": 16,
       "summary": "v16.5.0-canary.32",
       "latest": "2026-10-29 23:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T00:39:31.668Z",
+      "lastRefreshed": "2026-10-30T01:59:52.619Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -115,6 +114,38 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.43.2",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-10-30 01:24",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.43.2",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+        "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+        "source": "NASA",
+        "date": "2026-10-30 00:07",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "화성 운석 테가자 001의 잠재적 기원을 보여주는 지도",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.5.0-canary.32",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.32",
@@ -278,40 +309,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "IP geolocation now covers more visitors at higher resolution",
-        "url": "https://vercel.com/changelog/improved-ip-geolocation-data",
-        "source": "Vercel Changelog",
-        "date": "2026-10-29 17:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "IP 지리적 위치는 이제 더 높은 해상도로 더 많은 방문자를 커버합니다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-        "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-        "source": "NVIDIA Blog",
-        "date": "2026-10-29 16:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Into the Omniverse: Frontier AI 에이전트를 통해 개발자가 아이디어를 시뮬레이션으로 전환하는 방법",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -350,24 +347,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "LLM Voice",
-        "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-        "source": "Hacker News",
-        "date": "2026-10-29 14:57",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "LLM 보이스",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
@@ -483,6 +462,22 @@
       }
     ],
     "analysis": [
+      {
+        "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+        "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+        "source": "TechCrunch",
+        "date": "2026-10-30 01:20",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "직장에서 AI 사용에 대한 종교적 면제를 받기 위해 신을 믿을 필요는 없습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Intel says it’s selling every affordable laptop chip it can make",
         "url": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
@@ -672,24 +667,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc3VKTXloUlU1N0RqSjNHVnNRUEp2NldSVnlLVGNlenNDWTlqdy1Kc0VieWJmaUNTTElnaGJQRnpmX29oYmhnQTdxWmZuTG9RS1QwREhGVVp5djVRUVhBX2cwRnlYY21peFg2NDhaTE9uVFNTLVdpNXRIakhUT3Bnc0haYzNkVjJad2puMEMxclZGWm82QVFNZw?oc=5",
-        "source": "Bloomberg.com",
-        "date": "2026-10-29 18:50",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - Bloomberg.com",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -703,6 +680,38 @@
         "stream": "community",
         "category": "인공지능",
         "titleKo": "우리는 Minecraft와 Mindustry에서 AI 에이전트 떼를 운영했습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+        "url": "https://github.com/SheepSeb/tinyworldformer",
+        "source": "Hacker News",
+        "date": "2026-10-29 20:32",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Raspberry Pi Pico 2 W에서 게임을 실행하는 초소형 세계 모델",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "The importance of communities around software",
+        "url": "https://lumi.codeberg.page/blog/software-community.html",
+        "source": "Hacker News",
+        "date": "2026-10-29 19:27",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "소프트웨어를 둘러싼 커뮤니티의 중요성",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -728,6 +737,22 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+        "url": "https://fig.blue/posts/duet-is-the-future/",
+        "source": "Hacker News",
+        "date": "2026-10-29 17:24",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "클로드 듀엣 (Claude Duet) 은 유용하다고 느끼는 최초의 개인 비서형 하네스입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
         "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
         "source": "Hacker News",
@@ -742,60 +767,58 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Zombie stats: Where the numbers AI quotes come from",
-        "url": "https://trakkr.ai/trakkr-research/zombie-stats",
-        "source": "Hacker News",
-        "date": "2026-10-29 15:06",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "좀비 통계: 인공지능 따옴표의 출처",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "LLM Voice",
-        "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-        "source": "Hacker News",
-        "date": "2026-10-29 14:57",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "LLM 보이스",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-        "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
-        "source": "Hacker News",
-        "date": "2026-10-29 14:29",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "선언문, 두려움, '패배자 사고': 양성자의 AI 계산법 속으로",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v0.43.2",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-10-30 01:24",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.43.2",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "source": "TechCrunch",
+      "date": "2026-10-30 01:20",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "직장에서 AI 사용에 대한 종교적 면제를 받기 위해 신을 믿을 필요는 없습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+      "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+      "source": "NASA",
+      "date": "2026-10-30 00:07",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "화성 운석 테가자 001의 잠재적 기원을 보여주는 지도",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Intel says it’s selling every affordable laptop chip it can make",
       "url": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
@@ -949,6 +972,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "source": "Hacker News",
+      "date": "2026-10-29 20:32",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Raspberry Pi Pico 2 W에서 게임을 실행하는 초소형 세계 모델",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Rivian expands joint venture with VW to include AI assistant",
       "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
       "source": "TechCrunch",
@@ -999,6 +1038,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The importance of communities around software",
+      "url": "https://lumi.codeberg.page/blog/software-community.html",
+      "source": "Hacker News",
+      "date": "2026-10-29 19:27",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "소프트웨어를 둘러싼 커뮤니티의 중요성",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Consumer Appetite for Personal AI Goes Mainstream",
@@ -1187,6 +1242,22 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+      "url": "https://fig.blue/posts/duet-is-the-future/",
+      "source": "Hacker News",
+      "date": "2026-10-29 17:24",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "클로드 듀엣 (Claude Duet) 은 유용하다고 느끼는 최초의 개인 비서형 하네스입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "Webhook IP ranges added to the Meta API",
       "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
       "source": "GitHub Changelog",
@@ -1262,24 +1333,6 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "Microsoft의 AI 미래는 일자리가 적습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-      "source": "TechCrunch",
-      "date": "2026-10-29 16:42",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "미국, 엔비디아 CEO를 겨냥한 중국 스파이 음모 조사",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1391,22 +1444,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
-      "url": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
-      "source": "NASA",
-      "date": "2026-10-29 15:21",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
       "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
       "source": "The Hacker News",
@@ -1423,22 +1460,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Zombie stats: Where the numbers AI quotes come from",
-      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
-      "source": "Hacker News",
-      "date": "2026-10-29 15:06",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "좀비 통계: 인공지능 따옴표의 출처",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Advice for optimizing the space industry with Laura Crabtree",
       "url": "https://spacenews.com/advice-for-optimizing-the-space-industry-with-laura-crabtree/",
       "source": "SpaceNews",
@@ -1453,40 +1474,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "LLM Voice",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "source": "Hacker News",
-      "date": "2026-10-29 14:57",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "LLM 보이스",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
-      "source": "Hacker News",
-      "date": "2026-10-29 14:29",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "선언문, 두려움, '패배자 사고': 양성자의 AI 계산법 속으로",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
@@ -2115,30 +2102,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Boston Dynamics Workers Protest Use Of Robot Dogs By ICE",
-      "url": "https://cleantechnica.com/2026/10/28/boston-dynamics-workers-protest-use-of-robot-dogs-by-ice/",
-      "source": "CleanTechnica",
-      "date": "2026-10-28 16:40",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "보스턴 다이내믹스 (Boston Dynamics) 노동자들은 얼음에 의한 로봇 개 사용에 항의합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 10. 30. 오전 9:39",
-    "mode": "하루 2회 전체 수집"
+    "officialSources": 10,
+    "checkedAt": "2026. 10. 30. 오전 10:59",
+    "mode": "매시간 공식 레이더"
   }
 }
