@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 31. 오전 12:29",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 10. 31. 오전 12:59",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "밤에 비프는 것들: 에이전트 AI, 외계 신호 검색에 합류",
   "metrics": {
     "articleCount": 80,
@@ -14,18 +14,18 @@
     "새 출시: 밤에 비프는 것들: 에이전트 AI, 외계 신호 검색에 합류",
     "창작 기술: Andy Jassy는 프라임 비디오가 '수백억 달러‘ 의 수입을 올릴 수 있다고 말합니다.",
     "행사·무료: 웨비나: 보안 운영에 AI 위협 대비 태세를 구축하는 방법",
-    "인물 발언: 엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - 블룸버그"
+    "인물 발언: 엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - Bloomberg.com"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
+      "count": 33,
       "summary": "교황 레오는 인공지능의 무장해제를 촉구한다: ‘기계는 도구이지 사람이 아니다’",
       "latest": "2026-10-30 15:14",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T15:29:37.193Z",
+      "lastRefreshed": "2026-10-30T15:59:26.409Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -39,7 +39,7 @@
       "summary": "밤에 비프는 것들: 에이전트 AI, 외계 신호 검색에 합류",
       "latest": "2026-10-30 15:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T15:29:37.193Z",
+      "lastRefreshed": "2026-10-30T15:59:26.409Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "Waymo의 다음 로봇 택시는 특별히 제작된 Toyota bZ4X입니다.",
       "latest": "2026-10-30 14:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T15:29:37.193Z",
+      "lastRefreshed": "2026-10-30T15:59:26.409Z",
       "themes": [
         "미술·디자인"
       ]
@@ -65,7 +65,7 @@
       "summary": "긴급 보안 수정이 해결되지 않는 이유 관찰하고, 증명하고, 행동하고, 확인하여 움직이게 합니다.",
       "latest": "2026-10-30 11:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T15:29:37.193Z",
+      "lastRefreshed": "2026-10-30T15:59:26.409Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -76,10 +76,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 9,
-      "summary": "로켓 보고서: 테미스의 겨울이 다가오고 있습니다. 카우보이 스페이스가 철을 불에 태웁니다",
-      "latest": "2026-10-30 11:00",
+      "summary": "NASA, 허블 망원경의 잠재적 상용 서비스 탐색",
+      "latest": "2026-10-30 14:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T15:29:37.193Z",
+      "lastRefreshed": "2026-10-30T15:59:26.409Z",
       "themes": [
         "주요 기업"
       ]
@@ -92,18 +92,18 @@
       "summary": "유진, 오리건주 5번째로 주택 에너지 점수 요건 채택",
       "latest": "2026-10-30 03:22",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-30T15:29:37.193Z",
+      "lastRefreshed": "2026-10-30T15:59:26.409Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 14,
+      "count": 15,
       "summary": "이제 개인 기원을 위한 클라우드플레어 서비스를 일반적으로 사용할 수 있습니다.",
       "latest": "2026-10-30 14:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-30T15:29:37.193Z",
+      "lastRefreshed": "2026-10-30T15:59:26.409Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -126,6 +126,22 @@
         "themes": [
           "주요 기업"
         ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+        "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+        "source": "NASA",
+        "date": "2026-10-30 14:51",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA, 허블 망원경의 잠재적 상용 서비스 탐색",
+        "type": "출시·업데이트",
+        "themes": [],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -289,22 +305,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v0.43.2",
-        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2",
-        "source": "GitHub · ComfyUI",
-        "date": "2026-10-30 01:24",
-        "categoryId": "ai",
-        "confidence": "A",
-        "stream": "release",
-        "category": "인공지능",
-        "titleKo": "v0.43.2",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -367,15 +367,15 @@
     ],
     "voices": [
       {
-        "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg",
+        "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc3VKTXloUlU1N0RqSjNHVnNRUEp2NldSVnlLVGNlenNDWTlqdy1Kc0VieWJmaUNTTElnaGJQRnpmX29oYmhnQTdxWmZuTG9RS1QwREhGVVp5djVRUVhBX2cwRnlYY21peFg2NDhaTE9uVFNTLVdpNXRIakhUT3Bnc0haYzNkVjJad2puMEMxclZGWm82QVFNZw?oc=5",
-        "source": "Bloomberg",
+        "source": "Bloomberg.com",
         "date": "2026-10-30 07:41",
         "categoryId": "chips",
         "confidence": "C",
         "stream": "people",
         "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - 블룸버그",
+        "titleKo": "엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - Bloomberg.com",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -569,15 +569,15 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg",
+        "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc3VKTXloUlU1N0RqSjNHVnNRUEp2NldSVnlLVGNlenNDWTlqdy1Kc0VieWJmaUNTTElnaGJQRnpmX29oYmhnQTdxWmZuTG9RS1QwREhGVVp5djVRUVhBX2cwRnlYY21peFg2NDhaTE9uVFNTLVdpNXRIakhUT3Bnc0haYzNkVjJad2puMEMxclZGWm82QVFNZw?oc=5",
-        "source": "Bloomberg",
+        "source": "Bloomberg.com",
         "date": "2026-10-30 07:41",
         "categoryId": "chips",
         "confidence": "C",
         "stream": "people",
         "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - 블룸버그",
+        "titleKo": "엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - Bloomberg.com",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -749,6 +749,22 @@
       "themes": [
         "주요 기업"
       ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+      "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+      "source": "NASA",
+      "date": "2026-10-30 14:51",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA, 허블 망원경의 잠재적 상용 서비스 탐색",
+      "type": "출시·업데이트",
+      "themes": [],
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
@@ -1046,15 +1062,15 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg",
+      "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc3VKTXloUlU1N0RqSjNHVnNRUEp2NldSVnlLVGNlenNDWTlqdy1Kc0VieWJmaUNTTElnaGJQRnpmX29oYmhnQTdxWmZuTG9RS1QwREhGVVp5djVRUVhBX2cwRnlYY21peFg2NDhaTE9uVFNTLVdpNXRIakhUT3Bnc0haYzNkVjJad2puMEMxclZGWm82QVFNZw?oc=5",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "date": "2026-10-30 07:41",
       "categoryId": "chips",
       "confidence": "C",
       "stream": "people",
       "category": "반도체·컴퓨팅",
-      "titleKo": "엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - 블룸버그",
+      "titleKo": "엔비디아 CEO, 스파이 탐사선 아래 회사와 유대 관계가 '정상‘ 이었다고 말하다 - Bloomberg.com",
       "type": "인물 발언",
       "themes": [
         "주요 기업"
@@ -1224,6 +1240,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Add liveness checks to your Daemons",
+      "url": "https://vercel.com/changelog/add-liveness-checks-to-your-daemons",
+      "source": "Vercel Changelog",
+      "date": "2026-10-30 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "데몬에 생동감 확인 추가",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Ottawa investing up to $1.6B in Canadian AI company Cohere - BNN Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdVdnN2p3YXB3UFNpLVZ5VnhMSFRnOHZZMHliZWxzaTFpbV9NN0dqTGNqQ3VIdXNwOFFhTHI5XzNzc2RmNmZtUFBmX0NvTURTRDJUWnpXVlMtUGFqYi1fRG1ndmdMNXhGMG01NUs4ZTdOSXNGc1JhQzlQQ0h4VUNIUHUyb0hYM0pzSW5CZkt1UUU4eWlpX1lTbldrUU5Wb0RXbUVTWU55LW5mTzA4aE55am5NSDZ4cUwyUkx6LVVOSU04NktKeXllLQ?oc=5",
       "source": "BNN Bloomberg",
@@ -1358,22 +1390,6 @@
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Halloween Aboard the International Space Station",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
-      "source": "NASA",
-      "date": "2026-10-29 21:44",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "국제 우주 정거장에 탑승한 할로윈",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "We ran AI agent swarms in Minecraft and Mindustry",
@@ -2022,32 +2038,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "url": "https://huggingface.co/blog/anydecisionmodel",
-      "source": "Hugging Face Blog",
-      "date": "2026-10-29 00:00",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "AnySpeechRecognizer 및 AnyDecisionModel 소개: Apple 플랫폼에서 음성 및 의사 결정을 위한 개방형 모델",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 10. 31. 오전 12:29",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 10. 31. 오전 12:59",
+    "mode": "매시간 공식 레이더"
   }
 }
