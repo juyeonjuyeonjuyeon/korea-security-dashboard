@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 1. 오전 7:33",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.5.0-canary.35",
+  "updatedAt": "2026. 11. 1. 오전 8:57",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.5.0-canary.36",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 24,
+    "recentCount": 25,
     "sourceCount": 24,
-    "officialCount": 24,
+    "officialCount": 25,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v16.5.0-canary.35",
+    "새 출시: v16.5.0-canary.36",
     "창작 기술: HackerTube: HN이 추천한 동영상으로 제작된 YouTube",
     "행사·무료: NASA, 미디어, 참가자를 위한 최대 전력 주요 이벤트 발표",
     "인물 발언: Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg.com"
@@ -25,7 +25,7 @@
       "summary": "애플 CEO는 회사가 ‘AI를 위해 AI를 배송하고 싶지 않다’ 고 말합니다.",
       "latest": "2026-10-31 21:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T22:33:41.057Z",
+      "lastRefreshed": "2026-10-31T23:57:59.869Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -36,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 4,
+      "count": 3,
       "summary": "최악의 날을 맞아 인텔이 글로벌 칩 라우트를 트리거합니다 - 로이터",
       "latest": "2026-10-30 20:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T22:33:41.057Z",
+      "lastRefreshed": "2026-10-31T23:57:59.869Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,14 +49,12 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 7,
+      "count": 6,
       "summary": "특이한 로봇 동물은 그 유용성을 증명할 수 있습니다",
       "latest": "2026-10-31 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T22:33:41.057Z",
-      "themes": [
-        "미술·디자인"
-      ]
+      "lastRefreshed": "2026-10-31T23:57:59.869Z",
+      "themes": []
     },
     {
       "id": "cyber",
@@ -66,7 +64,7 @@
       "summary": "공유 채팅GPT 링크는 세션에서 공격자 코드를 실행하고 비공개 채팅을 읽을 수 있습니다",
       "latest": "2026-10-31 05:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T22:33:41.057Z",
+      "lastRefreshed": "2026-10-31T23:57:59.869Z",
       "themes": []
     },
     {
@@ -77,7 +75,7 @@
       "summary": "APOD: 2026년 10월 31일 – 으스스한 행성의 밤",
       "latest": "2026-10-31 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T22:33:41.057Z",
+      "lastRefreshed": "2026-10-31T23:57:59.869Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -91,7 +89,7 @@
       "summary": "더 안전한 거리와 모두를 위한 이동의 자유를 위한 토요타 & 웨이모 어드밴스드 자율주행 협업",
       "latest": "2026-10-31 03:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-31T22:33:41.057Z",
+      "lastRefreshed": "2026-10-31T23:57:59.869Z",
       "themes": [
         "기회"
       ]
@@ -100,11 +98,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 14,
-      "summary": "v16.5.0-canary.35",
-      "latest": "2026-10-31 08:01",
+      "count": 16,
+      "summary": "v16.5.0-canary.36",
+      "latest": "2026-10-31 23:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T22:33:41.057Z",
+      "lastRefreshed": "2026-10-31T23:57:59.869Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -113,6 +111,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.5.0-canary.36",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.36",
+        "source": "GitHub · Next.js",
+        "date": "2026-10-31 23:42",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.36",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.5.0-canary.35",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.35",
@@ -292,22 +306,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Cloudflare services for private origins is now generally available",
-        "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-        "source": "Cloudflare Blog",
-        "date": "2026-10-30 14:23",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 개인 기원을 위한 클라우드플레어 서비스를 일반적으로 사용할 수 있습니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -342,24 +340,6 @@
         "type": "뉴스·분석",
         "themes": [
           "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "2026 Robotics Handbook looks at humanoids, AI, and design choices",
-        "url": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
-        "source": "The Robot Report",
-        "date": "2026-10-29 19:36",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "2026 로봇 핸드북은 휴머노이드, AI 및 디자인 선택을 살펴봅니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -423,6 +403,22 @@
       }
     ],
     "analysis": [
+      {
+        "title": "How We Took Over ChatGPT Accounts",
+        "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+        "source": "Simon Willison",
+        "date": "2026-10-31 23:15",
+        "categoryId": "software",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "소프트웨어·개발",
+        "titleKo": "ChatGPT 계정을 인수한 방법",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
         "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
@@ -604,24 +600,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Toyota & Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
-        "url": "https://cleantechnica.com/2026/10/30/toyota-waymo-advance-autonomous-driving-collaboration-for-safer-streets-and-freedom-of-movement-for-all/",
-        "source": "CleanTechnica",
-        "date": "2026-10-31 03:08",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "더 안전한 거리와 모두를 위한 이동의 자유를 위한 토요타 & 웨이모 어드밴스드 자율주행 협업",
-        "type": "뉴스·분석",
-        "themes": [
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -638,6 +616,24 @@
         "type": "뉴스·분석",
         "themes": [
           "영상"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Anthropic blocks users for anything touching training larger models",
+        "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+        "source": "Hacker News",
+        "date": "2026-10-31 19:39",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Anthropic은 사용자에게 감동적인 모든 것을 차단하여 더 큰 모델을 교육합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
         ],
         "official": false,
         "sourceLayer": "community",
@@ -708,26 +704,42 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Bunny CDN Security Incident",
-        "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
-        "source": "Hacker News",
-        "date": "2026-10-30 19:05",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Bunny CDN 보안 사고",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "v16.5.0-canary.36",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.36",
+      "source": "GitHub · Next.js",
+      "date": "2026-10-31 23:42",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.5.0-canary.36",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "source": "Simon Willison",
+      "date": "2026-10-31 23:15",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "ChatGPT 계정을 인수한 방법",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
       "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
@@ -759,6 +771,24 @@
       "type": "뉴스·분석",
       "themes": [
         "영상"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "source": "Hacker News",
+      "date": "2026-10-31 19:39",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Anthropic은 사용자에게 감동적인 모든 것을 차단하여 더 큰 모델을 교육합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
       ],
       "official": false,
       "sourceLayer": "community",
@@ -1328,22 +1358,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Bunny CDN Security Incident",
-      "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
-      "source": "Hacker News",
-      "date": "2026-10-30 19:05",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Bunny CDN 보안 사고",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Indian Space Agency’s Rocket Launches Navigation Satellite - Bloomberg.com",
@@ -2016,50 +2030,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Intel shares tumble after hours, hit by chip supply constraints, big cash burn - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbEgxampOc0U5RENJWVd0a09uQjlFSkxueGxGVzVPX2NwdElzNDN3WXdjVFpvelNULXVObnMzTTJzb0ZfeFBtN1ZOQ0FVNXRuN0ZINkF0dWZkZlR6ZlkzUE5wQWpPTWg3dGtDLURwRl9OU0ZEb1UtejNBbC1KMnVWbmJ5OHQxWTBoU1I3cFduaXAyOHFBVkFIYjhCNXR1c0EyM2xlZFZNWFM?oc=5",
-      "source": "Reuters",
-      "date": "2026-10-29 20:02",
-      "categoryId": "chips",
-      "confidence": "B",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "인텔은 시간 후 공전, 칩 공급 제약, 큰 현금 소진으로 타격을 입습니다. - Reuters",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "2026 Robotics Handbook looks at humanoids, AI, and design choices",
-      "url": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
-      "source": "The Robot Report",
-      "date": "2026-10-29 19:36",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "2026 로봇 핸드북은 휴머노이드, AI 및 디자인 선택을 살펴봅니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 1. 오전 7:33",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 11. 1. 오전 8:57",
+    "mode": "하루 2회 전체 수집"
   }
 }
