@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 10. 31. 오후 11:58",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 1. 오전 3:37",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.35",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 51,
+    "recentCount": 38,
     "sourceCount": 25,
     "officialCount": 24,
     "opportunityCount": 1
@@ -14,18 +14,18 @@
     "새 출시: v16.5.0-canary.35",
     "창작 기술: 프랑스 디지털 세금으로 인해 VideoLan 비영리 단체가 사망할 수 있음",
     "행사·무료: NASA, 미디어, 참가자를 위한 최대 전력 주요 이벤트 발표",
-    "인물 발언: Hon Hai 회장은 Sam Altman을 만난 후 AI 수요가 현실이라고 말합니다 - Bloomberg.com"
+    "인물 발언: Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 34,
-      "summary": "ChatGPT 계정을 인수했습니다.",
-      "latest": "2026-10-31 10:30",
+      "count": 36,
+      "summary": "OpenAI가 새로운 라운드에 대한 자금 조달 목표를 낮춘다고 합니다.",
+      "latest": "2026-10-31 16:12",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T14:58:05.332Z",
+      "lastRefreshed": "2026-10-31T18:37:34.238Z",
       "themes": [
         "주요 기업",
         "기회",
@@ -36,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 4,
+      "count": 3,
       "summary": "최악의 날을 맞아 인텔이 글로벌 칩 라우트를 트리거합니다 - 로이터",
       "latest": "2026-10-30 20:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T14:58:05.332Z",
+      "lastRefreshed": "2026-10-31T18:37:34.238Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "특이한 로봇 동물은 그 유용성을 증명할 수 있습니다",
       "latest": "2026-10-31 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T14:58:05.332Z",
+      "lastRefreshed": "2026-10-31T18:37:34.238Z",
       "themes": [
         "미술·디자인"
       ]
@@ -66,18 +66,18 @@
       "summary": "공유 채팅GPT 링크는 세션에서 공격자 코드를 실행하고 비공개 채팅을 읽을 수 있습니다",
       "latest": "2026-10-31 05:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T14:58:05.332Z",
+      "lastRefreshed": "2026-10-31T18:37:34.238Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 11,
+      "count": 10,
       "summary": "APOD: 2026년 10월 31일 – 으스스한 행성의 밤",
       "latest": "2026-10-31 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T14:58:05.332Z",
+      "lastRefreshed": "2026-10-31T18:37:34.238Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -91,7 +91,7 @@
       "summary": "더 안전한 거리와 모두를 위한 이동의 자유를 위한 토요타 & 웨이모 어드밴스드 자율주행 협업",
       "latest": "2026-10-31 03:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-31T14:58:05.332Z",
+      "lastRefreshed": "2026-10-31T18:37:34.238Z",
       "themes": [
         "기회"
       ]
@@ -104,7 +104,7 @@
       "summary": "v16.5.0-canary.35",
       "latest": "2026-10-31 08:01",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T14:58:05.332Z",
+      "lastRefreshed": "2026-10-31T18:37:34.238Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -330,6 +330,24 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "Vic Mensa can’t live without the Voice Memos app",
+        "url": "https://www.theverge.com/entertainment/1023477/vic-mensa-voice-memos-app-interview",
+        "source": "The Verge",
+        "date": "2026-10-30 17:54",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Vic Mensa는 음성 메모 앱 없이는 살 수 없습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "2026 Robotics Handbook looks at humanoids, AI, and design choices",
         "url": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
         "source": "The Robot Report",
@@ -370,41 +388,59 @@
     ],
     "voices": [
       {
-        "title": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2tGSGdNbnJ2NXMyZkYweVRkOXhVa3ZUejhqOXdGdnNTZXF6ZHh2ZnVzLXk5Q3ZHX01tVXg5UVM1TmhEaU9rZlNTSE40NXVIU1BZelJYY0VvZmpZYWNYa3BpMzc5azEtcmhNcnhobG5NUWZiRnp4cnRRUzN1Q21hY3FTZ3NDSGQ1blR5OVJHOG9RMGd6SzI1cFlyM0R4cTNKbERpTFpLLTVCMC10YXVFZS02anZZUkctWklqdzhmU05DYTJKQ0lvdkx2TQ?oc=5",
-        "source": "Bloomberg.com",
+        "title": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWE5jdWc5ZVRoeTA3TlJmN0FZTjNhZG9FU3d1S0hLRlVKcG1iaWNEYmdpcWRwUFFIVTk3NkpuZENzOUpRajUzaVdsM0RqM0RUb2k4a29qVWRGb1ctcTJSQzVSV3dOb1BsT0JiQmppbDdSYUN3VVhrN01nRHJMcHBFZHFqNWcyMnVZdDZUbGwzWm1MSXk0cFE1b21TXzd3clg5ZTVmVWVtZlAxSGxTZXJOenRRcnNYb0J6Wng4?oc=5",
+        "source": "Bloomberg",
         "date": "2026-10-30 11:02",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
         "category": "인공지능",
-        "titleKo": "Hon Hai 회장은 Sam Altman을 만난 후 AI 수요가 현실이라고 말합니다 - Bloomberg.com",
+        "titleKo": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg",
         "type": "인물 발언",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc3VKTXloUlU1N0RqSjNHVnNRUEp2NldSVnlLVGNlenNDWTlqdy1Kc0VieWJmaUNTTElnaGJQRnpmX29oYmhnQTdxWmZuTG9RS1QwREhGVVp5djVRUVhBX2cwRnlYY21peFg2NDhaTE9uVFNTLVdpNXRIakhUT3Bnc0haYzNkVjJad2puMEMxclZGWm82QVFNZw?oc=5",
-        "source": "Bloomberg",
-        "date": "2026-10-30 07:41",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
       }
     ],
     "analysis": [
+      {
+        "title": "OpenAI reportedly lowers funding target for new round",
+        "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+        "source": "TechCrunch",
+        "date": "2026-10-31 16:12",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI가 새로운 라운드에 대한 자금 조달 목표를 낮춘다고 합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "I built an AI Tamagotchi before Meta could",
+        "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+        "source": "The Verge",
+        "date": "2026-10-31 16:09",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "메타가 나오기 전에 인공지능 다마고치를 만들었어요",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Unusual robotic animals can prove their utility",
         "url": "https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/",
@@ -566,40 +602,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-        "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-        "source": "TechCrunch",
-        "date": "2026-10-31 01:20",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "엔비디아는 웨스트버지니아에 있는 엔스케일의 AI 데이터 센터에서 코시그너 역할을 맡고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Think you can save the Hubble Space Telescope? NASA wants to know.",
-        "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
-        "source": "Ars Technica",
-        "date": "2026-10-31 00:07",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "허블 우주 망원경을 살릴 수 있을까요? NASA가 알고 싶어합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -706,6 +708,42 @@
     ]
   },
   "news": [
+    {
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "TechCrunch",
+      "date": "2026-10-31 16:12",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI가 새로운 라운드에 대한 자금 조달 목표를 낮춘다고 합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "source": "The Verge",
+      "date": "2026-10-31 16:09",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "메타가 나오기 전에 인공지능 다마고치를 만들었어요",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Unusual robotic animals can prove their utility",
       "url": "https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/",
@@ -1320,22 +1358,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Satlyt takes another step toward turning satellites into space data centers",
-      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
-      "source": "TechCrunch",
-      "date": "2026-10-30 18:01",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "Satlyt는 위성을 우주 데이터 센터로 전환하기 위한 또 다른 단계를 밟습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "nemotron-halloween",
       "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
       "source": "Hugging Face Blog",
@@ -1368,6 +1390,24 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
+      "title": "Vic Mensa can’t live without the Voice Memos app",
+      "url": "https://www.theverge.com/entertainment/1023477/vic-mensa-voice-memos-app-interview",
+      "source": "The Verge",
+      "date": "2026-10-30 17:54",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Vic Mensa는 음성 메모 앱 없이는 살 수 없습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
       "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
       "source": "Ars Technica",
@@ -1377,22 +1417,6 @@
       "stream": "news",
       "category": "인공지능",
       "titleKo": "후지필름, AI로 아카이빙 수요 증가에 따라 테이프 생산량 5배 증가",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
-      "source": "The Verge",
-      "date": "2026-10-30 17:38",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Starbucks는 AI를 사용하여 드라이브 스루에서 ‘맞춤형 디지털 메뉴’ 를 보여주고자 합니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1414,6 +1438,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "source": "The Verge",
+      "date": "2026-10-30 17:38",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Starbucks는 AI를 사용하여 드라이브 스루에서 ‘맞춤형 디지털 메뉴’ 를 보여주고자 합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "We’ve received our first response from the Project Suncatcher prototype satellite. - blog.google",
@@ -1514,22 +1554,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
-      "source": "The Verge",
-      "date": "2026-10-30 15:14",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "교황 레오는 인공지능의 무장해제를 촉구한다: ‘기계는 도구이지 사람이 아니다’",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
       "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
       "source": "NVIDIA Blog",
@@ -1578,22 +1602,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "This electric screwdriver uses a camera and AI to figure out what bit you need",
-      "url": "https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter",
-      "source": "The Verge",
-      "date": "2026-10-30 14:23",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "이 전동 드라이버는 카메라와 AI를 사용하여 필요한 비트를 파악합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Introducing Geist Serif",
@@ -1662,15 +1670,15 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2tGSGdNbnJ2NXMyZkYweVRkOXhVa3ZUejhqOXdGdnNTZXF6ZHh2ZnVzLXk5Q3ZHX01tVXg5UVM1TmhEaU9rZlNTSE40NXVIU1BZelJYY0VvZmpZYWNYa3BpMzc5azEtcmhNcnhobG5NUWZiRnp4cnRRUzN1Q21hY3FTZ3NDSGQ1blR5OVJHOG9RMGd6SzI1cFlyM0R4cTNKbERpTFpLLTVCMC10YXVFZS02anZZUkctWklqdzhmU05DYTJKQ0lvdkx2TQ?oc=5",
-      "source": "Bloomberg.com",
+      "title": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWE5jdWc5ZVRoeTA3TlJmN0FZTjNhZG9FU3d1S0hLRlVKcG1iaWNEYmdpcWRwUFFIVTk3NkpuZENzOUpRajUzaVdsM0RqM0RUb2k4a29qVWRGb1ctcTJSQzVSV3dOb1BsT0JiQmppbDdSYUN3VVhrN01nRHJMcHBFZHFqNWcyMnVZdDZUbGwzWm1MSXk0cFE1b21TXzd3clg5ZTVmVWVtZlAxSGxTZXJOenRRcnNYb0J6Wng4?oc=5",
+      "source": "Bloomberg",
       "date": "2026-10-30 11:02",
       "categoryId": "ai",
       "confidence": "C",
       "stream": "people",
       "category": "인공지능",
-      "titleKo": "Hon Hai 회장은 Sam Altman을 만난 후 AI 수요가 현실이라고 말합니다 - Bloomberg.com",
+      "titleKo": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg",
       "type": "인물 발언",
       "themes": [],
       "official": false,
@@ -1737,24 +1745,6 @@
       "titleKo": "지속적인 SSH 백도어로 트로이 목마 처리된 커서 마켓플레이스의 공식 Claude 코드 확장",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc3VKTXloUlU1N0RqSjNHVnNRUEp2NldSVnlLVGNlenNDWTlqdy1Kc0VieWJmaUNTTElnaGJQRnpmX29oYmhnQTdxWmZuTG9RS1QwREhGVVp5djVRUVhBX2cwRnlYY21peFg2NDhaTE9uVFNTLVdpNXRIakhUT3Bnc0haYzNkVjJad2puMEMxclZGWm82QVFNZw?oc=5",
-      "source": "Bloomberg",
-      "date": "2026-10-30 07:41",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "people",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2022,14 +2012,30 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Consumer Appetite for Personal AI Goes Mainstream",
+      "url": "https://spectrum.ieee.org/ai-personal-assistant-intelligent-wearables",
+      "source": "IEEE Spectrum",
+      "date": "2026-10-29 19:18",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Consumer Appetite for Personal AI Goes Mainstream",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 10. 31. 오후 11:58",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 1. 오전 3:37",
+    "mode": "매시간 공식 레이더"
   }
 }
