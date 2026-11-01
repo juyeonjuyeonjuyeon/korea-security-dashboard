@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 2. 오전 2:09",
+  "updatedAt": "2026. 11. 2. 오전 6:14",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "APOD: 2026년 11월 1일 – 달의 색깔",
+  "headline": "v3.42.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 15,
-    "sourceCount": 24,
+    "recentCount": 19,
+    "sourceCount": 23,
     "officialCount": 21,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: APOD: 2026년 11월 1일 – 달의 색깔",
+    "새 출시: v3.42.1",
     "창작 기술: Anthropic은 Claude가 비디오 게임을 리버스 엔지니어링하는 것을 차단하기 위한 조치를 취합니다",
     "행사·무료: NASA, 미디어, 참가자를 위한 최대 전력 주요 이벤트 발표",
     "인물 발언: Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg.com"
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 36,
-      "summary": "자바스크립트 프레임워크의 AI 비용",
-      "latest": "2026-11-01 06:06",
+      "count": 35,
+      "summary": "AI는 기술 CEO의 삶을 더 쉽게 만들 수 있습니다. 다른 사람들은 어떻습니까?",
+      "latest": "2026-11-01 20:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T17:09:29.057Z",
+      "lastRefreshed": "2026-11-01T21:14:05.577Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -40,7 +40,7 @@
       "summary": "최악의 날을 맞아 인텔이 글로벌 칩 라우트를 트리거합니다 - 로이터",
       "latest": "2026-10-30 20:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T17:09:29.057Z",
+      "lastRefreshed": "2026-11-01T21:14:05.577Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 8,
+      "count": 7,
       "summary": "28 이틀 이내의 제로 데이 조사 결과: AI 속도 발견이 로봇 공학에 미치는 의미",
       "latest": "2026-11-01 14:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T17:09:29.057Z",
+      "lastRefreshed": "2026-11-01T21:14:05.577Z",
       "themes": []
     },
     {
@@ -64,18 +64,18 @@
       "summary": "공유 채팅GPT 링크는 세션에서 공격자 코드를 실행하고 비공개 채팅을 읽을 수 있습니다",
       "latest": "2026-10-31 05:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T17:09:29.057Z",
+      "lastRefreshed": "2026-11-01T21:14:05.577Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
-      "summary": "APOD: 2026년 11월 1일 – 달의 색깔",
-      "latest": "2026-11-01 04:05",
+      "count": 11,
+      "summary": "NASA는 상업용 우주 산업이 허블을 구하는 데 도움이 될 수 있기를 희망합니다.",
+      "latest": "2026-11-01 21:09",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T17:09:29.057Z",
+      "lastRefreshed": "2026-11-01T21:14:05.577Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -86,10 +86,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 6,
-      "summary": "웨스트워드 호! 새로운 2026 테슬라 모델 Y와 풀 셀프 드라이빙 V14로 첫 크로스 컨트리 여행",
-      "latest": "2026-11-01 17:02",
+      "summary": "배터리는 노르웨이의 수소 벌크 캐리어를 두 가지 모델 경로로 비용 절감",
+      "latest": "2026-11-01 20:52",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-01T17:09:29.057Z",
+      "lastRefreshed": "2026-11-01T21:14:05.577Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -99,11 +99,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 11,
-      "summary": "v16.5.0-canary.36",
-      "latest": "2026-10-31 23:42",
+      "count": 12,
+      "summary": "v3.42.1",
+      "latest": "2026-11-01 20:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T17:09:29.057Z",
+      "lastRefreshed": "2026-11-01T21:14:05.577Z",
       "themes": [
         "주요 기업"
       ]
@@ -111,6 +111,24 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v3.42.1",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.42.1",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-11-01 20:56",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.42.1",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "APOD: 2026 November 1 – Colors of the Moon",
         "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
@@ -288,24 +306,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-        "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-        "source": "NVIDIA Blog",
-        "date": "2026-10-30 15:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "밤에 비프는 것들: 에이전트 AI, 외계 신호 검색에 합류",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -322,24 +322,6 @@
         "type": "뉴스·분석",
         "themes": [
           "주요 기업",
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "HackerTube: YouTube built from videos recommended by HN",
-        "url": "https://karpathy.bearblog.dev/hacker-tube/",
-        "source": "Hacker News",
-        "date": "2026-10-31 19:56",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "HackerTube: HN이 추천한 동영상으로 제작된 YouTube",
-        "type": "뉴스·분석",
-        "themes": [
           "영상"
         ],
         "official": false,
@@ -440,6 +422,72 @@
       }
     ],
     "analysis": [
+      {
+        "title": "NASA hopes the commercial space industry can help save Hubble",
+        "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
+        "source": "The Verge",
+        "date": "2026-11-01 21:09",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "NASA는 상업용 우주 산업이 허블을 구하는 데 도움이 될 수 있기를 희망합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+        "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+        "source": "TechCrunch",
+        "date": "2026-11-01 20:57",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI는 기술 CEO의 삶을 더 쉽게 만들 수 있습니다. 다른 사람들은 어떻습니까?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Batteries Beat Norway’s Hydrogen Bulk Carriers on Cost in Two Modeled Routes",
+        "url": "https://cleantechnica.com/2026/11/01/norway-hydrogen-bulk-carriers-battery-cost-test/",
+        "source": "CleanTechnica",
+        "date": "2026-11-01 20:52",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "배터리는 노르웨이의 수소 벌크 캐리어를 두 가지 모델 경로로 비용 절감",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Apple’s HomeView could add security camera features",
+        "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+        "source": "The Verge",
+        "date": "2026-11-01 17:16",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Apple의 HomeView는 보안 카메라 기능을 추가할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Westward Ho! First Trip Cross Country with Our New 2026 Tesla Model Y & Full Self Driving V14",
         "url": "https://cleantechnica.com/2026/11/01/westward-ho-first-trip-cross-country-with-our-new-2026-tesla-model-y-full-self-driving-v14/",
@@ -573,75 +621,41 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "I built an AI Tamagotchi before Meta could",
-        "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-        "source": "The Verge",
-        "date": "2026-10-31 16:09",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "메타가 나오기 전에 인공지능 다마고치를 만들었어요",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Unusual robotic animals can prove their utility",
-        "url": "https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/",
-        "source": "The Robot Report",
-        "date": "2026-10-31 12:30",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "특이한 로봇 동물은 그 유용성을 증명할 수 있습니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-        "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-        "source": "The Hacker News",
-        "date": "2026-10-31 05:33",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "공유 채팅GPT 링크는 세션에서 공격자 코드를 실행하고 비공개 채팅을 읽을 수 있습니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
-        "url": "https://arxiv.org/abs/2610.37731",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-31 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "해양 난류 폐쇄에 적용하여 모델 보정을 위한 상각된 국소 후방 추론",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "It wasn't AI that flipped Proton's charge",
+        "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+        "source": "Hacker News",
+        "date": "2026-11-01 18:53",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "양성자의 전하를 뒤집은 것은 AI가 아니었다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+        "source": "Hacker News",
+        "date": "2026-11-01 13:47",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "마인크래프트의 AI 요원 무리는 문명을 건설하는 데 실패하고, 관료주의에 익사합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "The AI cost of JavaScript frameworks",
         "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
@@ -708,46 +722,110 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "HackerTube: YouTube built from videos recommended by HN",
-        "url": "https://karpathy.bearblog.dev/hacker-tube/",
-        "source": "Hacker News",
-        "date": "2026-10-31 19:56",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "HackerTube: HN이 추천한 동영상으로 제작된 YouTube",
-        "type": "뉴스·분석",
-        "themes": [
-          "영상"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Anthropic blocks users for anything touching training larger models",
-        "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-        "source": "Hacker News",
-        "date": "2026-10-31 19:39",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 사용자에게 감동적인 모든 것을 차단하여 더 큰 모델을 교육합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "NASA hopes the commercial space industry can help save Hubble",
+      "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
+      "source": "The Verge",
+      "date": "2026-11-01 21:09",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "NASA는 상업용 우주 산업이 허블을 구하는 데 도움이 될 수 있기를 희망합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "source": "TechCrunch",
+      "date": "2026-11-01 20:57",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI는 기술 CEO의 삶을 더 쉽게 만들 수 있습니다. 다른 사람들은 어떻습니까?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v3.42.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.42.1",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-11-01 20:56",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.42.1",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Batteries Beat Norway’s Hydrogen Bulk Carriers on Cost in Two Modeled Routes",
+      "url": "https://cleantechnica.com/2026/11/01/norway-hydrogen-bulk-carriers-battery-cost-test/",
+      "source": "CleanTechnica",
+      "date": "2026-11-01 20:52",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "배터리는 노르웨이의 수소 벌크 캐리어를 두 가지 모델 경로로 비용 절감",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "It wasn't AI that flipped Proton's charge",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "source": "Hacker News",
+      "date": "2026-11-01 18:53",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "양성자의 전하를 뒤집은 것은 AI가 아니었다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Apple’s HomeView could add security camera features",
+      "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+      "source": "The Verge",
+      "date": "2026-11-01 17:16",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Apple의 HomeView는 보안 카메라 기능을 추가할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Westward Ho! First Trip Cross Country with Our New 2026 Tesla Model Y & Full Self Driving V14",
       "url": "https://cleantechnica.com/2026/11/01/westward-ho-first-trip-cross-country-with-our-new-2026-tesla-model-y-full-self-driving-v14/",
@@ -797,6 +875,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "source": "Hacker News",
+      "date": "2026-11-01 13:47",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "마인크래프트의 AI 요원 무리는 문명을 건설하는 데 실패하고, 관료주의에 익사합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Why physical AI is the next lucrative frontier",
@@ -958,42 +1052,6 @@
       "themes": [
         "주요 기업",
         "영상"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "url": "https://karpathy.bearblog.dev/hacker-tube/",
-      "source": "Hacker News",
-      "date": "2026-10-31 19:56",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "HackerTube: HN이 추천한 동영상으로 제작된 YouTube",
-      "type": "뉴스·분석",
-      "themes": [
-        "영상"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Anthropic blocks users for anything touching training larger models",
-      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-      "source": "Hacker News",
-      "date": "2026-10-31 19:39",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Anthropic은 사용자에게 감동적인 모든 것을 차단하여 더 큰 모델을 교육합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
       ],
       "official": false,
       "sourceLayer": "community",
@@ -1365,22 +1423,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Cracks are emerging in the AI spending boom",
-      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-      "source": "TechCrunch",
-      "date": "2026-10-30 21:17",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 지출 붐에 균열이 나타나고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
       "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
       "source": "Ars Technica",
@@ -1615,22 +1657,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
-      "source": "The Verge",
-      "date": "2026-10-30 17:38",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Starbucks는 AI를 사용하여 드라이브 스루에서 ‘맞춤형 디지털 메뉴’ 를 보여주고자 합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "We’ve received our first response from the Project Suncatcher prototype satellite. - blog.google",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM1ZQekFiMzV2eHlIU3lBa0lZOFI4VXVVbHFXTXFMQkNYQVRyQTRDbzUyWmcwYUNWRFhrYVJldGEyWXlmVFdaTU9HR0dyR0tjQnRYTnByMjQtYjNiTXZFa2ttQlhqVjB5V0dORmFxeVRSVVJPNF8xeWxScllLcG5sYkV1T1prTWJkaVRNNTZTTC1CbGxnYmxKMVhwbHNQY05MRjJIdW5IaG83VEhxTUROOGNn?oc=5",
       "source": "blog.google",
@@ -1674,22 +1700,6 @@
       "stream": "news",
       "category": "에너지·기후기술",
       "titleKo": "전기 하이드로포일은 에너지를 절약하지만 가격을 벌 수 있습니까?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
-      "url": "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x",
-      "source": "The Verge",
-      "date": "2026-10-30 16:44",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "Waymo의 다음 로봇 택시는 특별히 제작된 Toyota bZ4X입니다.",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -2041,46 +2051,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Eugene Becomes 5th Oregon City to Adopt Home Energy Score Requirement",
-      "url": "https://cleantechnica.com/2026/10/29/eugene-becomes-5th-oregon-city-to-adopt-home-energy-score-requirement/",
-      "source": "CleanTechnica",
-      "date": "2026-10-30 03:22",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "유진, 오리건주 5번째로 주택 에너지 점수 요건 채택",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v0.43.2",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-10-30 01:24",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.43.2",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
     "successful": 37,
     "total": 41,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 11. 2. 오전 2:09",
+    "officialSources": 8,
+    "checkedAt": "2026. 11. 2. 오전 6:14",
     "mode": "매시간 공식 레이더"
   }
 }
