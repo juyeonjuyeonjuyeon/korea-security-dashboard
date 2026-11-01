@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 2. 오전 12:42",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 2. 오전 2:09",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "APOD: 2026년 11월 1일 – 달의 색깔",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 16,
+    "recentCount": 15,
     "sourceCount": 24,
-    "officialCount": 22,
+    "officialCount": 21,
     "opportunityCount": 1
   },
   "summary": [
@@ -25,7 +25,7 @@
       "summary": "자바스크립트 프레임워크의 AI 비용",
       "latest": "2026-11-01 06:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T15:42:31.885Z",
+      "lastRefreshed": "2026-11-01T17:09:29.057Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -40,7 +40,7 @@
       "summary": "최악의 날을 맞아 인텔이 글로벌 칩 라우트를 트리거합니다 - 로이터",
       "latest": "2026-10-30 20:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T15:42:31.885Z",
+      "lastRefreshed": "2026-11-01T17:09:29.057Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "28 이틀 이내의 제로 데이 조사 결과: AI 속도 발견이 로봇 공학에 미치는 의미",
       "latest": "2026-11-01 14:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T15:42:31.885Z",
+      "lastRefreshed": "2026-11-01T17:09:29.057Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "공유 채팅GPT 링크는 세션에서 공격자 코드를 실행하고 비공개 채팅을 읽을 수 있습니다",
       "latest": "2026-10-31 05:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T15:42:31.885Z",
+      "lastRefreshed": "2026-11-01T17:09:29.057Z",
       "themes": []
     },
     {
@@ -75,7 +75,7 @@
       "summary": "APOD: 2026년 11월 1일 – 달의 색깔",
       "latest": "2026-11-01 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T15:42:31.885Z",
+      "lastRefreshed": "2026-11-01T17:09:29.057Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -85,12 +85,13 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
-      "summary": "중국의 AI 풍선, 5조 달러 규모로 위축되다",
-      "latest": "2026-11-01 14:01",
+      "count": 6,
+      "summary": "웨스트워드 호! 새로운 2026 테슬라 모델 Y와 풀 셀프 드라이빙 V14로 첫 크로스 컨트리 여행",
+      "latest": "2026-11-01 17:02",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-01T15:42:31.885Z",
+      "lastRefreshed": "2026-11-01T17:09:29.057Z",
       "themes": [
+        "주요 기업",
         "기회"
       ]
     },
@@ -98,11 +99,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 12,
+      "count": 11,
       "summary": "v16.5.0-canary.36",
       "latest": "2026-10-31 23:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-01T15:42:31.885Z",
+      "lastRefreshed": "2026-11-01T17:09:29.057Z",
       "themes": [
         "주요 기업"
       ]
@@ -440,6 +441,24 @@
     ],
     "analysis": [
       {
+        "title": "Westward Ho! First Trip Cross Country with Our New 2026 Tesla Model Y & Full Self Driving V14",
+        "url": "https://cleantechnica.com/2026/11/01/westward-ho-first-trip-cross-country-with-our-new-2026-tesla-model-y-full-self-driving-v14/",
+        "source": "CleanTechnica",
+        "date": "2026-11-01 17:02",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "웨스트워드 호! 새로운 2026 테슬라 모델 Y와 풀 셀프 드라이빙 V14로 첫 크로스 컨트리 여행",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "AI Balloon in China Deflates by Half a Trillion Dollars",
         "url": "https://cleantechnica.com/2026/11/01/ai-balloon-in-china-deflates-by-half-a-trillion-dollars/",
         "source": "CleanTechnica",
@@ -620,22 +639,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
-        "url": "https://arxiv.org/abs/2610.37786",
-        "source": "arXiv cs.AI",
-        "date": "2026-10-31 04:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "WebAnything: 와일드 웹에서 확장 가능한 에이전트 환경까지",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -745,6 +748,24 @@
     ]
   },
   "news": [
+    {
+      "title": "Westward Ho! First Trip Cross Country with Our New 2026 Tesla Model Y & Full Self Driving V14",
+      "url": "https://cleantechnica.com/2026/11/01/westward-ho-first-trip-cross-country-with-our-new-2026-tesla-model-y-full-self-driving-v14/",
+      "source": "CleanTechnica",
+      "date": "2026-11-01 17:02",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "웨스트워드 호! 새로운 2026 테슬라 모델 Y와 풀 셀프 드라이빙 V14로 첫 크로스 컨트리 여행",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "AI Balloon in China Deflates by Half a Trillion Dollars",
       "url": "https://cleantechnica.com/2026/11/01/ai-balloon-in-china-deflates-by-half-a-trillion-dollars/",
@@ -2052,30 +2073,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Vercel Daemons can now call services with bindings",
-      "url": "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
-      "source": "Vercel Changelog",
-      "date": "2026-10-30 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Vercel Daemons can now call services with bindings",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 2. 오전 12:42",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 2. 오전 2:09",
+    "mode": "매시간 공식 레이더"
   }
 }
