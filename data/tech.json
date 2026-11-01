@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 1. 오전 8:57",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 1. 오전 11:18",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.36",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 25,
+    "recentCount": 23,
     "sourceCount": 24,
     "officialCount": 25,
     "opportunityCount": 1
   },
   "summary": [
     "새 출시: v16.5.0-canary.36",
-    "창작 기술: HackerTube: HN이 추천한 동영상으로 제작된 YouTube",
+    "창작 기술: Anthropic은 Claude가 비디오 게임을 리버스 엔지니어링하는 것을 차단하기 위한 조치를 취합니다",
     "행사·무료: NASA, 미디어, 참가자를 위한 최대 전력 주요 이벤트 발표",
     "인물 발언: Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg.com"
   ],
@@ -25,7 +25,7 @@
       "summary": "애플 CEO는 회사가 ‘AI를 위해 AI를 배송하고 싶지 않다’ 고 말합니다.",
       "latest": "2026-10-31 21:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T23:57:59.869Z",
+      "lastRefreshed": "2026-11-01T02:18:17.572Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -36,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 3,
+      "count": 4,
       "summary": "최악의 날을 맞아 인텔이 글로벌 칩 라우트를 트리거합니다 - 로이터",
       "latest": "2026-10-30 20:50",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T23:57:59.869Z",
+      "lastRefreshed": "2026-11-01T02:18:17.572Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
+      "count": 5,
       "summary": "특이한 로봇 동물은 그 유용성을 증명할 수 있습니다",
       "latest": "2026-10-31 12:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T23:57:59.869Z",
+      "lastRefreshed": "2026-11-01T02:18:17.572Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "공유 채팅GPT 링크는 세션에서 공격자 코드를 실행하고 비공개 채팅을 읽을 수 있습니다",
       "latest": "2026-10-31 05:33",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T23:57:59.869Z",
+      "lastRefreshed": "2026-11-01T02:18:17.572Z",
       "themes": []
     },
     {
@@ -75,7 +75,7 @@
       "summary": "APOD: 2026년 10월 31일 – 으스스한 행성의 밤",
       "latest": "2026-10-31 04:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T23:57:59.869Z",
+      "lastRefreshed": "2026-11-01T02:18:17.572Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -89,7 +89,7 @@
       "summary": "더 안전한 거리와 모두를 위한 이동의 자유를 위한 토요타 & 웨이모 어드밴스드 자율주행 협업",
       "latest": "2026-10-31 03:08",
       "cadence": "격주",
-      "lastRefreshed": "2026-10-31T23:57:59.869Z",
+      "lastRefreshed": "2026-11-01T02:18:17.572Z",
       "themes": [
         "기회"
       ]
@@ -102,7 +102,7 @@
       "summary": "v16.5.0-canary.36",
       "latest": "2026-10-31 23:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-10-31T23:57:59.869Z",
+      "lastRefreshed": "2026-11-01T02:18:17.572Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -310,6 +310,25 @@
     ],
     "creative": [
       {
+        "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+        "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+        "source": "Hacker News",
+        "date": "2026-10-31 21:07",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Anthropic은 Claude가 비디오 게임을 리버스 엔지니어링하는 것을 차단하기 위한 조치를 취합니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "HackerTube: YouTube built from videos recommended by HN",
         "url": "https://karpathy.bearblog.dev/hacker-tube/",
         "source": "Hacker News",
@@ -369,7 +388,7 @@
     "voices": [
       {
         "title": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2tGSGdNbnJ2NXMyZkYweVRkOXhVa3ZUejhqOXdGdnNTZXF6ZHh2ZnVzLXk5Q3ZHX01tVXg5UVM1TmhEaU9rZlNTSE40NXVIU1BZelJYY0VvZmpZYWNYa3BpMzc5azEtcmhNcnhobG5NUWZiRnp4cnRRUzN1Q21hY3FTZ3NDSGQ1blR5OVJHOG9RMGd6SzI1cFlyM0R4cTNKbERpTFpLLTVCMC10YXVFZS02anZZUkctWklqdzhmU05DYTJKQ0lvdkx2TQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWE5jdWc5ZVRoeTA3TlJmN0FZTjNhZG9FU3d1S0hLRlVKcG1iaWNEYmdpcWRwUFFIVTk3NkpuZENzOUpRajUzaVdsM0RqM0RUb2k4a29qVWRGb1ctcTJSQzVSV3dOb1BsT0JiQmppbDdSYUN3VVhrN01nRHJMcHBFZHFqNWcyMnVZdDZUbGwzWm1MSXk0cFE1b21TXzd3clg5ZTVmVWVtZlAxSGxTZXJOenRRcnNYb0J6Wng4?oc=5",
         "source": "Bloomberg.com",
         "date": "2026-10-30 11:02",
         "categoryId": "ai",
@@ -379,6 +398,24 @@
         "titleKo": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg.com",
         "type": "인물 발언",
         "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc3VKTXloUlU1N0RqSjNHVnNRUEp2NldSVnlLVGNlenNDWTlqdy1Kc0VieWJmaUNTTElnaGJQRnpmX29oYmhnQTdxWmZuTG9RS1QwREhGVVp5djVRUVhBX2cwRnlYY21peFg2NDhaTE9uVFNTLVdpNXRIakhUT3Bnc0haYzNkVjJad2puMEMxclZGWm82QVFNZw?oc=5",
+        "source": "Bloomberg.com",
+        "date": "2026-10-30 07:41",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "people",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg.com",
+        "type": "인물 발언",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -604,6 +641,25 @@
     ],
     "community": [
       {
+        "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+        "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+        "source": "Hacker News",
+        "date": "2026-10-31 21:07",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Anthropic은 Claude가 비디오 게임을 리버스 엔지니어링하는 것을 차단하기 위한 조치를 취합니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "HackerTube: YouTube built from videos recommended by HN",
         "url": "https://karpathy.bearblog.dev/hacker-tube/",
         "source": "Hacker News",
@@ -688,22 +744,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Linode Security Incident",
-        "url": "https://status.linode.com/incidents/nt58zhx3pmgm",
-        "source": "Hacker News",
-        "date": "2026-10-30 21:57",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Linode 보안 사고",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -757,6 +797,25 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "source": "Hacker News",
+      "date": "2026-10-31 21:07",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Anthropic은 Claude가 비디오 게임을 리버스 엔지니어링하는 것을 차단하기 위한 조치를 취합니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업",
+        "영상"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "HackerTube: YouTube built from videos recommended by HN",
@@ -1173,22 +1232,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Linode Security Incident",
-      "url": "https://status.linode.com/incidents/nt58zhx3pmgm",
-      "source": "Hacker News",
-      "date": "2026-10-30 21:57",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Linode 보안 사고",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
@@ -1707,7 +1750,7 @@
     },
     {
       "title": "Hon Hai Chairman Says AI Demand Is Real After Meeting Sam Altman - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2tGSGdNbnJ2NXMyZkYweVRkOXhVa3ZUejhqOXdGdnNTZXF6ZHh2ZnVzLXk5Q3ZHX01tVXg5UVM1TmhEaU9rZlNTSE40NXVIU1BZelJYY0VvZmpZYWNYa3BpMzc5azEtcmhNcnhobG5NUWZiRnp4cnRRUzN1Q21hY3FTZ3NDSGQ1blR5OVJHOG9RMGd6SzI1cFlyM0R4cTNKbERpTFpLLTVCMC10YXVFZS02anZZUkctWklqdzhmU05DYTJKQ0lvdkx2TQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWE5jdWc5ZVRoeTA3TlJmN0FZTjNhZG9FU3d1S0hLRlVKcG1iaWNEYmdpcWRwUFFIVTk3NkpuZENzOUpRajUzaVdsM0RqM0RUb2k4a29qVWRGb1ctcTJSQzVSV3dOb1BsT0JiQmppbDdSYUN3VVhrN01nRHJMcHBFZHFqNWcyMnVZdDZUbGwzWm1MSXk0cFE1b21TXzd3clg5ZTVmVWVtZlAxSGxTZXJOenRRcnNYb0J6Wng4?oc=5",
       "source": "Bloomberg.com",
       "date": "2026-10-30 11:02",
       "categoryId": "ai",
@@ -1781,6 +1824,24 @@
       "titleKo": "지속적인 SSH 백도어로 트로이 목마 처리된 커서 마켓플레이스의 공식 Claude 코드 확장",
       "type": "뉴스·분석",
       "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc3VKTXloUlU1N0RqSjNHVnNRUEp2NldSVnlLVGNlenNDWTlqdy1Kc0VieWJmaUNTTElnaGJQRnpmX29oYmhnQTdxWmZuTG9RS1QwREhGVVp5djVRUVhBX2cwRnlYY21peFg2NDhaTE9uVFNTLVdpNXRIakhUT3Bnc0haYzNkVjJad2puMEMxclZGWm82QVFNZw?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-10-30 07:41",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "people",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’ - Bloomberg.com",
+      "type": "인물 발언",
+      "themes": [
+        "주요 기업"
+      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2014,30 +2075,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "White House makes Section 232 determination regarding foreign-made robots",
-      "url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
-      "source": "The Robot Report",
-      "date": "2026-10-29 20:46",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "백악관은 외국산 로봇에 관한 섹션 232 결정을 내립니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 1. 오전 8:57",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 1. 오전 11:18",
+    "mode": "매시간 공식 레이더"
   }
 }
