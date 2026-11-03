@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 3. 오전 10:39",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 11. 3. 오전 11:47",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v16.5.0-canary.37",
   "metrics": {
     "articleCount": 80,
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 28,
-      "summary": "Y Combinator의 Garry Tan은 AI 에이전트를 너무 많이 사용하여 토큰에 연간 최대 $ 200,000를 지출합니다.",
-      "latest": "2026-11-03 00:35",
+      "summary": "Apple은 타사 AI 앱으로… 무언가를 수행하여 수익을 늘리려고 할 수 있습니다.",
+      "latest": "2026-11-03 01:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T01:39:09.951Z",
+      "lastRefreshed": "2026-11-03T02:47:15.438Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -38,7 +38,7 @@
       "summary": "메모리 칩 비용이 상승함에 따라 Apple의 재고는 154% 급증했습니다.",
       "latest": "2026-11-02 23:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T01:39:09.951Z",
+      "lastRefreshed": "2026-11-03T02:47:15.438Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "처칠 캐피털 XI 주주, $ 2.5B 민첩성 로봇 휴머노이드 SPAC 승인",
       "latest": "2026-11-03 00:15",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T01:39:09.951Z",
+      "lastRefreshed": "2026-11-03T02:47:15.438Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -61,22 +61,22 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
-      "summary": "귀사의 SOC는 AI 상담원을 지원할 준비가 되었습니까? 배포하기 전에 성숙도 검사",
-      "latest": "2026-11-02 11:30",
+      "count": 5,
+      "summary": "자영업자? 독신자? NIST는 귀하만을 위한 사이버 보안 가이드를 제공합니다",
+      "latest": "2026-11-02 17:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T01:39:09.951Z",
+      "lastRefreshed": "2026-11-03T02:47:15.438Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 14,
+      "count": 13,
       "summary": "'홈 인 스페이스' 오픈, 캡스 항공우주박물관 리노베이션",
       "latest": "2026-11-02 23:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T01:39:09.951Z",
+      "lastRefreshed": "2026-11-03T02:47:15.438Z",
       "themes": [
         "주요 기업"
       ]
@@ -89,7 +89,7 @@
       "summary": "TEP 및 APS 2026 에너지 계획에서 화석 연료에 대한 동일한 비싼 의존도",
       "latest": "2026-11-03 00:52",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-03T01:39:09.951Z",
+      "lastRefreshed": "2026-11-03T02:47:15.438Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -103,7 +103,7 @@
       "summary": "v16.5.0-canary.37",
       "latest": "2026-11-02 23:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T01:39:09.951Z",
+      "lastRefreshed": "2026-11-03T02:47:15.438Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -391,6 +391,24 @@
     ],
     "analysis": [
       {
+        "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+        "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+        "source": "TechCrunch",
+        "date": "2026-11-03 01:49",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Apple은 타사 AI 앱으로… 무언가를 수행하여 수익을 늘리려고 할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "More of the Same Expensive Dependence on Fossil Fuels in TEP and APS 2026 Energy Plans",
         "url": "https://cleantechnica.com/2026/11/02/more-of-the-same-expensive-dependence-on-fossil-fuels-in-tep-and-aps-2026-energy-plans/",
         "source": "CleanTechnica",
@@ -574,22 +592,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
-        "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-        "source": "The Verge",
-        "date": "2026-11-02 19:03",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "The New York Times, AI 스크래핑 및 페이월 우회 혐의로 Brave 웹 브라우저 고소",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -662,6 +664,22 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
+        "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+        "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+        "source": "Hacker News",
+        "date": "2026-11-02 17:47",
+        "categoryId": "cyber",
+        "confidence": "D",
+        "stream": "community",
+        "category": "사이버보안",
+        "titleKo": "자영업자? 독신자? NIST는 귀하만을 위한 사이버 보안 가이드를 제공합니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
         "url": "https://momentic.ai/",
         "source": "Hacker News",
@@ -676,28 +694,28 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-        "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-        "source": "Hacker News",
-        "date": "2026-11-02 16:40",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "소매 가격으로 Anthropic의 내부 AI 사용이 이제 직원 급여를 초과합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "source": "TechCrunch",
+      "date": "2026-11-03 01:49",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Apple은 타사 AI 앱으로… 무언가를 수행하여 수익을 늘리려고 할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "More of the Same Expensive Dependence on Fossil Fuels in TEP and APS 2026 Energy Plans",
       "url": "https://cleantechnica.com/2026/11/02/more-of-the-same-expensive-dependence-on-fossil-fuels-in-tep-and-aps-2026-energy-plans/",
@@ -1186,6 +1204,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "source": "Hacker News",
+      "date": "2026-11-02 17:47",
+      "categoryId": "cyber",
+      "confidence": "D",
+      "stream": "community",
+      "category": "사이버보안",
+      "titleKo": "자영업자? 독신자? NIST는 귀하만을 위한 사이버 보안 가이드를 제공합니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
       "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
       "source": "NASA",
@@ -1302,24 +1336,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "SpaceX reportedly wants to buy Boost Mobile to compete with AT&T, T-Mobile, and Verizon",
-      "url": "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon/",
-      "source": "TechCrunch",
-      "date": "2026-11-02 16:44",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "SpaceX는 AT&T, T-Mobile 및 Verizon과 경쟁하기 위해 Boost Mobile을 구매하려고 합니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v16.4.4",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.4",
       "source": "GitHub · Next.js",
@@ -1334,24 +1350,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-      "source": "Hacker News",
-      "date": "2026-11-02 16:40",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "소매 가격으로 Anthropic의 내부 AI 사용이 이제 직원 급여를 초과합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Vercel Sandbox with Drives now starts up to 2.4x faster",
@@ -2027,11 +2025,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 7,
-    "checkedAt": "2026. 11. 3. 오전 10:39",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 11. 3. 오전 11:47",
+    "mode": "하루 2회 전체 수집"
   }
 }

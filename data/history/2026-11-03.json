@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026. 11. 3. 오전 4:04",
+  "updatedAt": "2026. 11. 3. 오전 11:47",
   "risk": {
     "score": 0,
     "level": "평상시",
@@ -26,7 +26,7 @@
     "cleared": 0,
     "statusChange": "동일",
     "items": [
-      "새로운 미사일 시험 확인 없음",
+      "미사일 관련 보도 확인 · 교차검증 기준 적용",
       "대사관·주한미군 변화는 공식 확인 시에만 반영"
     ]
   },
@@ -70,7 +70,7 @@
   "officialAlert": {
     "status": "현재 공식 긴급 경보 없음",
     "level": "normal",
-    "checkedAt": "2026. 11. 3. 오전 4:04"
+    "checkedAt": "2026. 11. 3. 오전 11:47"
   },
   "signals": [
     {
@@ -78,25 +78,36 @@
       "label": "미사일 시험",
       "weight": 5,
       "verified": false,
-      "partiallyVerified": false,
-      "status": "공개자료상 미탐지",
-      "independentSourceCount": 0,
+      "partiallyVerified": true,
+      "status": "일부 확인",
+      "independentSourceCount": 1,
       "directObservationCount": 0,
       "partyClaimCount": 0,
-      "judgmentConfidence": "중간",
+      "judgmentConfidence": "낮음",
       "detectability": "높음",
       "informationGap": "공개 공식자료 범위 밖의 정보는 확인할 수 없습니다.",
-      "opposingEvidence": [
-        "공개 검색 범위에서 신규 근거가 발견되지 않음"
+      "opposingEvidence": [],
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "sources": [
+        {
+          "label": "KCNA는 북한이 분산 탄두를 이용한 전략적 순항 미사일 시험을 실시한다고 밝혔습니다. - 로이터",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYWVmc205S3NUUjduWmR4TDE0U3ZtVUo0NThjS2xEMzFyUEtCRlB0RjR1S0YycEwwcjRFUlZBNTl5VVhQWVpkT01uRmJQZVR6Mm82RnZZaDZGVW9XRzZEaE55ci1nVUpORzc5M2Q3d0ZHYU9SdjVfU0h1ZFVOM0Y4TjY3VWltMXJjTnV6Z3EySFNZRHRraDhRNy1ScjhUNldaZnlnWWx2YUNtZEZsWDIxcl94cG02MGt4SERJQ1FGWEhmdkFxRnM2bHg2ZU1TX25maXlxU0NFREw?oc=5",
+          "grade": "B",
+          "source": "Reuters",
+          "sourceType": "주요 통신사 취재",
+          "originKey": "kcna",
+          "publishedAt": "2026-11-03 02:19",
+          "checkedAt": "2026. 11. 3. 오전 11:47",
+          "claim": "미사일 시험 관련 근거",
+          "directReport": true
+        }
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "sources": [],
-      "change": "이전 상태 유지",
-      "collectionStatus": "이전 상태 유지",
-      "lastNewInformation": "확인된 신규 정보 없음",
+      "change": "공개자료상 미탐지 → 일부 확인",
+      "collectionStatus": "신규 확인",
+      "lastNewInformation": "2026-11-03 02:19",
       "lastDirectObservation": "직접 관측 부족",
-      "sourceReliability": "확인 가능한 원정보 없음",
-      "stateReason": "확인 가능한 신규 원정보가 없으며 탐지 가능성을 함께 고려함"
+      "sourceReliability": "주요 통신사 취재",
+      "stateReason": "관련 공개자료는 있으나 독립 교차검증 기준 미충족"
     },
     {
       "id": "troop_movement",
@@ -114,7 +125,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -139,7 +150,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -164,7 +175,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -189,7 +200,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -214,7 +225,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -239,7 +250,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -264,7 +275,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -289,7 +300,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -314,7 +325,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -339,7 +350,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -364,7 +375,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -389,7 +400,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -414,7 +425,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -439,7 +450,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -464,7 +475,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -489,7 +500,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -625,7 +636,7 @@
     ],
     [
       "북한 군사활동",
-      "미확인",
+      "검토중",
       "unknown"
     ],
     [
@@ -636,56 +647,216 @@
   ],
   "news": [
     {
-      "title": "한일 외교차관 \"한반도 비핵화·평화·안정 공조 지속\"",
-      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261102223924hJn",
-      "source": "연합뉴스TV",
-      "date": "2026-11-02 13:39",
-      "titleKo": "한일 외교차관 \"한반도 비핵화·평화·안정 공조 지속\"",
+      "title": "North Korea conducts strategic cruise missile test with dispersal warhead, KCNA says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYWVmc205S3NUUjduWmR4TDE0U3ZtVUo0NThjS2xEMzFyUEtCRlB0RjR1S0YycEwwcjRFUlZBNTl5VVhQWVpkT01uRmJQZVR6Mm82RnZZaDZGVW9XRzZEaE55ci1nVUpORzc5M2Q3d0ZHYU9SdjVfU0h1ZFVOM0Y4TjY3VWltMXJjTnV6Z3EySFNZRHRraDhRNy1ScjhUNldaZnlnWWx2YUNtZEZsWDIxcl94cG02MGt4SERJQ1FGWEhmdkFxRnM2bHg2ZU1TX25maXlxU0NFREw?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-03 02:19",
+      "titleKo": "KCNA는 북한이 분산 탄두를 이용한 전략적 순항 미사일 시험을 실시한다고 밝혔습니다. - 로이터",
       "confidence": "B",
       "sourceType": "주요 통신사 취재",
-      "originKey": "연합뉴스tv",
+      "originKey": "kcna",
       "claimNature": "직접 발표·관측",
-      "originalSource": "연합뉴스tv",
+      "originalSource": "kcna",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
     },
     {
-      "title": "'5·18 북한 개입설' 유포 혐의 전한길 공소청 송치",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827176&plink=RSSLINK&cooper=RSSREADER",
+      "title": "North Korea Applied Two Years Ago... Will South Korea's Bid Fall Through? \"It Has Become Difficult\" - SBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xOTNXbFpzcGNBUHBGSV96djZ1XzhpR1I3SEI0XzFXWGFqLUtLRF9VN3prZGJ1VTBRREVETkQtNFFzaklNOURPQ0VwSHJYUTBrYTZETXltWUU4WDVfYlhLSDJxUl9WNWdBMGFxcjVB0gFmQVVfeXFMTzIza1NqQV9MakJqR0NZZ2dna1dmbjFUVmtXQVBiUFNjSXRIekFLMm9SVElFeHVoOTktWHZvZ2R1aTgzZXZMVFdsR3UzMHN1V29ncVNqeVZuNTl4QzBzSXRwUGRNMWxR?oc=5",
       "source": "SBS 뉴스",
-      "date": "2026-11-02 13:28",
-      "titleKo": "'5·18 북한 개입설' 유포 혐의 전한길 공소청 송치",
+      "date": "2026-11-03 01:33",
+      "titleKo": "North Korea Applied Two Years Ago... Will South Korea's Bid Fall Through? \"It Has Become Difficult\" - SBS 뉴스",
       "confidence": "B",
       "sourceType": "언론·전문보도",
       "originKey": "sbs-뉴스",
       "claimNature": "직접 발표·관측",
       "originalSource": "sbs-뉴스",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
     {
-      "title": "'성장' 36번 강조한 이 대통령…'주택' 넣고 '북한'은 뺐다",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827037&plink=RSSLINK&cooper=RSSREADER",
+      "title": "North Korea denies being behind record $6.3bn Binance hack - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10dXNzM0pMSVpsb283elB0VkotaEZVbW9QVWpwZGM1VHVkaV9VWmY2dUpKNS1ITkgyZEQ1YVBzM2x3RzVpRm5BR0F2M1hXVV9ydEhsMm9ZZldSdk0?oc=5",
+      "source": "BBC",
+      "date": "2026-11-03 00:56",
+      "titleKo": "북한, $ 63억 달러 규모의 바이낸스 해킹 기록 배후 부인 - BBC",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "bbc",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "bbc",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "Kang Geon-jak: \"Front-Page Coverage of North Korean Threats Regrettable... North's Cluster Bombs? We Developed Ours 20 Years Ago\" - SBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91dGhBOUxNeGhmYU8tcDFQR09aTEtGaE9qbzlwbEVQSFNIT3YyRS1vcGNuTk5NdzRXSXcyeUFreGY2RDNubzlTYTR5QkxnenpZeTlmelcxTXdlZWR1NUcwZEtoX1p6X2xESmlLRF9R0gFmQVVfeXFMUDB1bC1HdDdwdjNMeVphQm5pMG9ia01nVlpIYjY4SGhjWW1EdWlRM0xsbDJINUZCTFI2djhKSFNIWHJ6a0tuNmJwUHh0Uk5INWJVUzdXXzZwOXByOGhIUGhjOE1zTEZ3?oc=5",
       "source": "SBS 뉴스",
-      "date": "2026-11-02 11:55",
-      "titleKo": "'성장' 36번 강조한 이 대통령…'주택' 넣고 '북한'은 뺐다",
+      "date": "2026-11-03 00:50",
+      "titleKo": "Kang Geon-jak: \"Front-Page Coverage of North Korean Threats Regrettable... North's Cluster Bombs? We Developed Ours 20 Years Ago\" - SBS 뉴스",
       "confidence": "B",
       "sourceType": "언론·전문보도",
       "originKey": "sbs-뉴스",
       "claimNature": "직접 발표·관측",
       "originalSource": "sbs-뉴스",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "[정치쇼] 강건작 \"북한 위협 1면 보도 아쉬워…북한 집속탄? 우린 20년 전 개발\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827517&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-11-03 00:47",
+      "titleKo": "[정치쇼] 강건작 \"북한 위협 1면 보도 아쉬워…북한 집속탄? 우린 20년 전 개발\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "Pyongyang Protests Claims That N. Korean Hackers behind Binance Heist - KBS WORLD Radio",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VNjFvMlFHYUZjZkc0ek4tcTFGWU55NURVNGVzMDd6TjNXN3I3X0NTWDZIS0hKN2VOWDExb2tjZ2N3eTZKV1pHc2VpTHhtektNMkdVMHQxNGlibE1kU0FuLWREV216YXhydXBaOVdUWmN3QUt1TWJzY1J0YU1neWc?oc=5",
+      "source": "KBS WORLD Radio",
+      "date": "2026-11-02 23:58",
+      "titleKo": "평양 시위, 바이낸스 강탈의 배후에 있는 북한 해커들의 주장 - KBS WORLD Radio",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "kbs-world-radio",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "kbs-world-radio",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "Pyongyang Protests US Claims N. Korean Hackers Behind Binance Heist - KBS WORLD Radio",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14bXNkbU9INk1GZ2RSZjBCcXQtcWZYQnZrMFBVU19Ddy12c291d2RPVkZaa09sNGgwWkQwSzdPY1dZNEtrTWlLU1VNQXU2aDVUSjZIQVF3LWhyQ0pTeVVhcmhfc3kxb21FNW1xNjNPazhObE9OMmc?oc=5",
+      "source": "KBS WORLD Radio",
+      "date": "2026-11-02 23:58",
+      "titleKo": "평양, 미국 주장에 항의 바이낸스 강탈의 배후에 있는 한국 해커들 - KBS WORLD Radio",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "kbs-world-radio",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "kbs-world-radio",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "North Korea denies involvement in Binance hack and criticizes FBI probe as 'a trite provocation' - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd01qenNHeE1ZZXNRUl9yYTdyNzh0VU0wVWJEcUJZRElxXzJud05CeUhJb1o2MjNvTVQ4bTVjOXFySGlqRnRqWU1pT3Vwdmx6MFhqSlV6OVBXSU5rNEtkWWRIdTBfVU1tUHhKYmduU2U0U3RxVTBGSHJTT00zM19td3FiYzk1VzdjWnpzZmVPVENBcGZjdzZKU3NwaDBiUnNxelE?oc=5",
+      "source": "AP News",
+      "date": "2026-11-02 23:57",
+      "titleKo": "북한은 바이낸스 해킹 개입을 부인하고 FBI 수사를 '진부한 도발' 이라고 비판하고 있다. - AP 뉴스",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "ap-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "ap-news",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "North Korea says US allegations linking it to Binance heist are 'absurd rhetoric,' KCNA says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPamY3Mk11cHc4Sm1FcjFUaGxnMzJsVlBTQ29SZHBfLW5OZEk4b01IT2xmMExvYkV3cjlrNFBiNC1LV0NYSVk5WG5FejRtVXoydlF1SVVfN0g3bndRRHhBdjNPOUFUZUdyQWpERGJIVHBwSXJveFB3NXl5Yl8tcDdZTnZWZk5HVXZvZEo0bUhGZVl6dmh4TS1wT19XRlB0YVl1MmhwY0JzUHg4UmJMb3ZRZnQwclJySG5SemdSZkpuZkNWck45ZlMyWW1oMkIwUQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-02 23:33",
+      "titleKo": "북한은 바이낸스 강탈과 관련된 미국의 주장은 '터무니없는 수사' 라고 KCNA는 말합니다. - Reuters",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "kcna",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "kcna",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "North Korea claims first test of smaller cluster warheads on cruise missiles - NK News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMmR6Y3dKQ05OYTJta1dUS0Z6WENfY2ZUMW93ZUlDWHZYcmRlVl9JYXhwY3lJWTJWMWZMcVdOX0Fad2dCWXJBQzBGMUtnODBjaGJmWXpDblZYMnI4cm9GTVg2V0VRTFFuSGVsa09lNUlCMFV5Y01iR1d1aVZFSWh4U1lRR0xTa0d2ZXdWcFJ0TG51MkdSa0NKV3lxVlZhTllITmljanFOck5lTXBo?oc=5",
+      "source": "NK News",
+      "date": "2026-11-02 22:52",
+      "titleKo": "북한, 순항 미사일에서 소형 클러스터 탄두 첫 시험 주장 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "전문·단일 확인",
+      "riskRelevant": true
+    },
+    {
+      "title": "'드론 본부' 띄웠지만…북한 따라잡을까",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827397&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-11-02 22:36",
+      "titleKo": "'드론 본부' 띄웠지만…북한 따라잡을까",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false
+    },
+    {
+      "title": "Kim Yo Jong denies North Korean involvement in $6B Binance crypto theft - NK News",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9mVkpXSUxlcV96eFdfMWNYQzRvOUlSN3JmX3ppVUdRNXZheHFUMVhFMVE5SkhRYXdudmo4bHNoU0gzN0w2UlFR?oc=5",
+      "source": "NK News",
+      "date": "2026-11-02 22:12",
+      "titleKo": "김요종, 북한이 $ 6B Binance 암호화폐 절도에 개입하지 않았다고 부인 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false
+    },
+    {
+      "title": "\"북한, 의대 갈 애들을 최정예 해커로 양성\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827314&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-11-02 21:40",
+      "titleKo": "\"북한, 의대 갈 애들을 최정예 해커로 양성\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
     {
       "title": "How North Korea turned its tech talent into a global money-making machine - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkc4WERGVzU0UU16SmhvMElxVTVlMkRCRWdEdFNTV1FSYkxFM2U1anhGMndZRGR5NWRiWHctT0phOXZoX2YzOUE3T1o0ZEZJUEdPS19ha1paVmtZRktPMDJDMHpxUHVyajA5M3d2bm1LcGJpR3czbmRtYkYyWEtiTUx0WjAzVTlFWFlPa2hqM0ZuTzgwY3U2dWhsZXV6LWh3Z1Fn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TNndwczB3QkNCM2F2MmFicUJ1MGlJbjV6Z0drMHFTWmFCSklrYnQzT0N2VjNFeThtc2RFd3FmUF9ybVhPSEc2ejk5bVd5QQ?oc=5",
       "source": "NK News",
       "date": "2026-11-02 09:30",
       "titleKo": "북한이 기술 인재를 글로벌 돈 버는 기계로 전환한 방법 - NK News",
@@ -695,7 +866,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -711,13 +882,13 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": true
     },
     {
       "title": "North Korean coal officials tour Chinese mining firm amid modernization drive - NK News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc0xJbGZSUi1hN1N1dXNYdjBaNXdsYzVjS1p0N0RyWGc0TWJ5V1lrb2o4RUJ1TkFtRUVuV1M3QkFVN2t2SmlORUdfekpRWHFYUUt5LTNLTnlsUmppUnludUhkOEh1V3dfMWh6bExKWWhZNlpNcE41WnhIZU5SN1NRZXM1OUlfaVVoTkRlb2pHa0pIWVZPaFJVQVhwdmRVMF9vUDZQZHdkc0dVM2t4TVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE04UVlsWXhwQ3U3YjZxNGdWSmNqekxFS1JmUTlVSG93UlR1SEZWUldOaVFFYUl5YWZlMXM0ZjZGVkZ5MjdaVzgw?oc=5",
       "source": "NK News",
       "date": "2026-11-02 08:30",
       "titleKo": "북한 석탄 관리들이 현대화 추진 속에서 중국 광산 회사를 둘러보고 있다. - NK News",
@@ -727,23 +898,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korean cluster warheads could threaten targets as far as Busan: Experts - NK News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ05YTzJaSXh2MktwcFhId0Z3VzZZQnZtSW5fb0VNWVozb0dJWUljNkNUN0hTME8zM2w0RVFDUmxtZnJIV09tT2hXclNjMzhnQ25TMDNOZ0czblpVV3J2OUVTVV9fcWk0YW1YdGszdzhncU5oa2cycml3LVptX2lKZE9qcjFRSE1sOEZWTlpodlFPMzRyd2NoUC1PRktTckNwaVZ5YW9ScWM5UVBI?oc=5",
-      "source": "NK News",
-      "date": "2026-11-02 08:30",
-      "titleKo": "북한 군집탄두가 부산까지 표적을 위협할 수 있다: 전문가 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -759,24 +914,8 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false
-    },
-    {
-      "title": "FBI confirms North Korea behind record $6.36B Binance crypto heist - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RMS1ReXVmdmNkMGY3YmJxSVBEZ2lDZ0I5TFFNN2twRWFzZ1dOYzJhYlZ5bmdONmcxYXlvTzJyTTdlMUtRUVVKMnZsTzNJQQ?oc=5",
-      "source": "NK News",
-      "date": "2026-11-02 06:24",
-      "titleKo": "FBI, 북한에 $ 6.36 Binance 암호화폐 강탈 기록 확인 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
       "riskRelevant": false
     },
     {
@@ -791,7 +930,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
     },
@@ -807,7 +946,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -823,7 +962,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -839,23 +978,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false
-    },
-    {
-      "title": "\"North Korea Behind It\"... Over 8 Trillion Won Drained While Left Helpless - SBS 뉴스",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PXzFwZ3M0MXR2djdjTHRKaU1HRmRyenpUZXVBWmFvZkxsU3FrRU5SczVhZGxHV0VjR21hSzQ4M0YtV1E2QVhuV1FHdmNoY2RYbVd3cTU1UnA2S2pPU292bFYwZ2pBWmQxQkJFSDhB0gFmQVVfeXFMUC1mLXFiUWdwdzEwYnkzS3Q5Y3R1YUxhRGtvTnNpcE91R1NRdDMyQndZcWFmeXlZNTU5RER4cWxOMmx4ci04RXZ4Uy13MEpZOVJndERvZk43dFJWQkRhM3ZuSllkLVNn?oc=5",
-      "source": "SBS 뉴스",
-      "date": "2026-11-01 11:18",
-      "titleKo": "\"North Korea Behind It\"... Over 8 Trillion Won Drained While Left Helpless - SBS 뉴스",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "sbs-뉴스",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "sbs-뉴스",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -871,23 +994,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false
-    },
-    {
-      "title": "Foreign Minister Urges Inter-Korean Dialogue While Addressing DMZ Landmine Blasts at G20 - KBS WORLD Radio",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE43eXFTeWt5YlZuME05V2RtM2tQTTRoQzJaaldvTEFyclNaZlhTUkpfTUVOTVR4MVlVa1B5WC16OTlqcUJtTURQZUpEaHJrR2ZIU254SHR3MUhwa3ltdDF6dzc0N082Z1JzM1U3d3B3cjZQNDJpX1JR?oc=5",
-      "source": "KBS WORLD Radio",
-      "date": "2026-11-01 05:03",
-      "titleKo": "외무장관, G20에서 DMZ 지뢰 폭발에 대처하면서 남북 대화 촉구 - KBS WORLD Radio",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "kbs-world-radio",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "kbs-world-radio",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -903,39 +1010,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "ap-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korea says defence research institutes tested major weapon system - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2szXzlwbFhuTl8xcVFPLU9JTTFnUTYtT1pYWGxTbEFhUmxWV1E5NkxvbTZvOEtETEp4YjdMaEhDbG1MSzIweE5kYXpSM3FWVEpUWEFFNUZTUFdaNzN2UldqMHlVdDZsT3NaNm9PQl9xSFpfMm1FR3JCUTA0Z2hiQ0EtUXpKZ3MwLThwQmZ3R0JxZ2lRZ2hjcEpkWjI0R2FyUGdIQ3VZZUVwRl96UVByZklTSm1KY1RVRExaSlptRUtLbHRld0FVN2lEYUcwbUU?oc=5",
-      "source": "Reuters",
-      "date": "2026-10-31 21:48",
-      "titleKo": "북한은 국방연구기관이 주요 무기체계를 시험했다고 밝혔습니다. - 로이터",
-      "confidence": "B",
-      "sourceType": "주요 통신사 취재",
-      "originKey": "reuters",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "reuters",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": true
-    },
-    {
-      "title": "FBI links North Korea to theft of $6 billion from Binance - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0F3bEEtREZiMG5WVnJMQlVHUDdaaHJQTno1VUJJRENOT2MySEZDcmpCYm41YnpkMS1Ub1l1ZThqSUJSa214ay1Gb3E3NFFNNWRZZDJtVjZSWU91M1NFVkRWZjJPdG9nN2ZCTm12RnhFVWFTTkhpMnBnRU5XZDhmRTRYNFZ0V1lKSkc3N1htMnRLbHhFWlo0?oc=5",
-      "source": "Reuters",
-      "date": "2026-10-31 21:44",
-      "titleKo": "FBI, 북한을 바이낸스로부터 60억 달러 ($) 절도로 연결 - 로이터",
-      "confidence": "B",
-      "sourceType": "주요 통신사 취재",
-      "originKey": "reuters",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "reuters",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -951,7 +1026,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "financial-times",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -967,7 +1042,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "ap-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -983,7 +1058,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "bbc",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -999,7 +1074,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "bbc",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false
     },
@@ -1015,7 +1090,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "the-guardian",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": true
     },
@@ -1031,7 +1106,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "financial-times",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": false
     },
@@ -1047,96 +1122,32 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "ap-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": true
-    },
-    {
-      "title": "Foreign Ministers of South Korea, US, and Japan to Meet in US on Oct. 30, Eyes on Korean Peninsula - news.sbs.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBORFpLTGQtR2MtQU03ZkstNWRhVS1pOG5DeDVCT2VhVTU0cUJEMUJVdGdWYTFubzBmZFBlZHJ1R01EOXgxWVUxRExJdGF3U21xRE1LUUw3aTVwaEFrYjRETkxDWURzV213OHB2U0Z3?oc=5",
-      "source": "news.sbs.co.kr",
-      "date": "2026-10-30 01:25",
-      "titleKo": "한국, 미국, 일본 외무장관, 10월 30일 미국 방문, 한반도 정세 전망 - news.sbs.co.kr",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "news-sbs-co-kr",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "news-sbs-co-kr",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false
-    },
-    {
-      "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’ - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWN2c3ZkZWFYdzZaTS0tZTFQTDJVQVZTazhTakl5LXRZalQ5WjRUVkZXWGxXR2VCcEJGV3E4N3JkNjlPOTRBZUJKMHY3TC1tRElPTHItaEprTDFHMDlOYlcwblB0cVlCZkJFSVoxLW9aVWZRclRQRFVCWkpBRnA3RHRFRQ?oc=5",
-      "source": "The Guardian",
-      "date": "2026-10-30 00:02",
-      "titleKo": "북한은 '역사상 최대의 강도‘ 인 $ 6.3bn 암호화폐 해킹의 주범일 가능성이 높습니다 - The Guardian",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "the-guardian",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "the-guardian",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
-    },
-    {
-      "title": "Saying It With Pictures: North Korea Flashes Its Latest ICBM, Old “New” SLBMs, and “Tactical Nuclear Attack” Sub - 38 North",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLXlCSS16MklTcFMwX0FxVzRWYmRqV3N0M2FoNTJkRFFTbXozNVAwUnAyX2VSbDQ1WXZvQUxqdDRpLXk0Rld1UnNWcUc5MFdsdlRLSjNwdmdoa3BlOU5HQlBxRmJQUWM0Vi04dzhxUjFGNzN6RldLTkw0ekRzWXZRRFJjYWpiUW15d1EyUTVrakNteWxkV0xzeVpCMmhsYm02QTk3eUxvdmRpcVd2b3hrT1RIN3BwY1VHLXIyYVlvZUJuc25VYUxOQXFtUXd5d09kSnVZMw?oc=5",
-      "source": "38 North",
-      "date": "2026-10-29 17:11",
-      "titleKo": "사진으로 말하기: 북한, 최신 대륙간탄도미사일 (ICBM), 구형 “신형” SLBM, “전술핵공격” 서브 - 38노스",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
-      "riskRelevant": true
-    },
-    {
-      "title": "Korean Peninsula Update, October 28, 2026 - Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2lKV1NWa1dtVzdZYXl0MVRUV0hjdUgtMGJDUEhTN3BtamxuSnVNMXlaUkdzbFFhOXBSWk9oSTlfeGxQZUVuMkVLVXV2SjFTeUpoU3N2RVppYmZXZlBYMGg3RVFFc2dBUVBFeThoeDFkb21XcnhYRFM0ZWs2S1M3UEU4ekpmOGwzMmhFdUVVemZMMUdPVmc?oc=5",
-      "source": "Institute for the Study of War",
-      "date": "2026-10-29 04:47",
-      "titleKo": "한반도 업데이트, 2026년 10월 28일 - 전쟁 연구소",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "institute-for-the-study-of-war",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "institute-for-the-study-of-war",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false
     }
   ],
   "sourceHealth": {
     "successful": 27,
     "total": 28,
-    "directSuccessful": 4,
+    "directSuccessful": 6,
     "directTotal": 14,
     "directSources": [
       {
         "name": "합동참모본부",
         "url": "https://www.jcs.mil.kr/",
         "kind": "공식 발표 원문",
-        "ok": false,
+        "ok": true,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "대한민국 국방부",
         "url": "https://www.mnd.go.kr/mnd/167/subview.do",
         "kind": "공식 발표 원문",
-        "ok": false,
+        "ok": true,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "IAEA DPRK",
@@ -1144,7 +1155,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "미 국방부",
@@ -1152,7 +1163,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "미 국무부",
@@ -1160,7 +1171,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 4,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "미 인도태평양사령부",
@@ -1168,7 +1179,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "주한미군",
@@ -1176,7 +1187,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "유엔군사령부",
@@ -1184,7 +1195,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "일본 방위성",
@@ -1192,7 +1203,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "영국 FCDO",
@@ -1200,7 +1211,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "ICAO",
@@ -1208,7 +1219,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "IMO",
@@ -1216,7 +1227,7 @@
         "kind": "공식 발표 원문",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "CTBTO",
@@ -1224,7 +1235,7 @@
         "kind": "공식 발표 원문",
         "ok": false,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "USGS 지진 관측",
@@ -1232,7 +1243,7 @@
         "kind": "지진 관측 데이터",
         "ok": true,
         "records": 0,
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       }
     ],
     "embassyMonitors": [
@@ -1243,7 +1254,7 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "영국 FCDO 한국 여행안내",
@@ -1252,7 +1263,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:03"
+        "checkedAt": "2026. 11. 3. 오전 11:46"
       },
       {
         "name": "일본 외무성 한국 안전정보",
@@ -1261,7 +1272,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:03"
+        "checkedAt": "2026. 11. 3. 오전 11:46"
       },
       {
         "name": "프랑스 외교부 한국 안전정보",
@@ -1270,7 +1281,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:03"
+        "checkedAt": "2026. 11. 3. 오전 11:46"
       },
       {
         "name": "독일 외무부 한국 안전정보",
@@ -1279,7 +1290,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:03"
+        "checkedAt": "2026. 11. 3. 오전 11:46"
       },
       {
         "name": "호주 Smartraveller 한국 여행안내",
@@ -1288,7 +1299,7 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       },
       {
         "name": "캐나다 한국 여행안내",
@@ -1297,7 +1308,7 @@
         "ok": true,
         "state": "normal",
         "status": "공식 대피 문구 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:03"
+        "checkedAt": "2026. 11. 3. 오전 11:46"
       },
       {
         "name": "주한미군 공식 발표",
@@ -1306,18 +1317,16 @@
         "ok": false,
         "state": "unknown",
         "status": "연결 실패",
-        "checkedAt": "2026. 11. 3. 오전 4:04"
+        "checkedAt": "2026. 11. 3. 오전 11:47"
       }
     ],
-    "uniqueSources": 12,
-    "topSource": "NK News",
+    "uniqueSources": 8,
+    "topSource": "Reuters",
     "topSourceShare": 17,
     "concentrationWarning": false,
     "articleCount": 30,
-    "checkedAt": "2026. 11. 3. 오전 4:04",
+    "checkedAt": "2026. 11. 3. 오전 11:47",
     "failedSources": [
-      "합동참모본부",
-      "대한민국 국방부",
       "IAEA DPRK",
       "미 국방부",
       "미 인도태평양사령부",
@@ -1330,36 +1339,198 @@
   },
   "relatedInfo": [
     {
-      "title": "'5·18 북한 개입설' 유포 혐의 전한길 공소청 송치",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827176&plink=RSSLINK&cooper=RSSREADER",
+      "title": "North Korea Applied Two Years Ago... Will South Korea's Bid Fall Through? \"It Has Become Difficult\" - SBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xOTNXbFpzcGNBUHBGSV96djZ1XzhpR1I3SEI0XzFXWGFqLUtLRF9VN3prZGJ1VTBRREVETkQtNFFzaklNOURPQ0VwSHJYUTBrYTZETXltWUU4WDVfYlhLSDJxUl9WNWdBMGFxcjVB0gFmQVVfeXFMTzIza1NqQV9MakJqR0NZZ2dna1dmbjFUVmtXQVBiUFNjSXRIekFLMm9SVElFeHVoOTktWHZvZ2R1aTgzZXZMVFdsR3UzMHN1V29ncVNqeVZuNTl4QzBzSXRwUGRNMWxR?oc=5",
       "source": "SBS 뉴스",
-      "date": "2026-11-02 13:28",
-      "titleKo": "'5·18 북한 개입설' 유포 혐의 전한길 공소청 송치",
+      "date": "2026-11-03 01:33",
+      "titleKo": "North Korea Applied Two Years Ago... Will South Korea's Bid Fall Through? \"It Has Become Difficult\" - SBS 뉴스",
       "confidence": "B",
       "sourceType": "언론·전문보도",
       "originKey": "sbs-뉴스",
       "claimNature": "직접 발표·관측",
       "originalSource": "sbs-뉴스",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
     },
     {
-      "title": "'성장' 36번 강조한 이 대통령…'주택' 넣고 '북한'은 뺐다",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827037&plink=RSSLINK&cooper=RSSREADER",
+      "title": "North Korea denies being behind record $6.3bn Binance hack - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10dXNzM0pMSVpsb283elB0VkotaEZVbW9QVWpwZGM1VHVkaV9VWmY2dUpKNS1ITkgyZEQ1YVBzM2x3RzVpRm5BR0F2M1hXVV9ydEhsMm9ZZldSdk0?oc=5",
+      "source": "BBC",
+      "date": "2026-11-03 00:56",
+      "titleKo": "북한, $ 63억 달러 규모의 바이낸스 해킹 기록 배후 부인 - BBC",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "bbc",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "bbc",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Kang Geon-jak: \"Front-Page Coverage of North Korean Threats Regrettable... North's Cluster Bombs? We Developed Ours 20 Years Ago\" - SBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91dGhBOUxNeGhmYU8tcDFQR09aTEtGaE9qbzlwbEVQSFNIT3YyRS1vcGNuTk5NdzRXSXcyeUFreGY2RDNubzlTYTR5QkxnenpZeTlmelcxTXdlZWR1NUcwZEtoX1p6X2xESmlLRF9R0gFmQVVfeXFMUDB1bC1HdDdwdjNMeVphQm5pMG9ia01nVlpIYjY4SGhjWW1EdWlRM0xsbDJINUZCTFI2djhKSFNIWHJ6a0tuNmJwUHh0Uk5INWJVUzdXXzZwOXByOGhIUGhjOE1zTEZ3?oc=5",
       "source": "SBS 뉴스",
-      "date": "2026-11-02 11:55",
-      "titleKo": "'성장' 36번 강조한 이 대통령…'주택' 넣고 '북한'은 뺐다",
+      "date": "2026-11-03 00:50",
+      "titleKo": "Kang Geon-jak: \"Front-Page Coverage of North Korean Threats Regrettable... North's Cluster Bombs? We Developed Ours 20 Years Ago\" - SBS 뉴스",
       "confidence": "B",
       "sourceType": "언론·전문보도",
       "originKey": "sbs-뉴스",
       "claimNature": "직접 발표·관측",
       "originalSource": "sbs-뉴스",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "[정치쇼] 강건작 \"북한 위협 1면 보도 아쉬워…북한 집속탄? 우린 20년 전 개발\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827517&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-11-03 00:47",
+      "titleKo": "[정치쇼] 강건작 \"북한 위협 1면 보도 아쉬워…북한 집속탄? 우린 20년 전 개발\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 정치",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Pyongyang Protests Claims That N. Korean Hackers behind Binance Heist - KBS WORLD Radio",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VNjFvMlFHYUZjZkc0ek4tcTFGWU55NURVNGVzMDd6TjNXN3I3X0NTWDZIS0hKN2VOWDExb2tjZ2N3eTZKV1pHc2VpTHhtektNMkdVMHQxNGlibE1kU0FuLWREV216YXhydXBaOVdUWmN3QUt1TWJzY1J0YU1neWc?oc=5",
+      "source": "KBS WORLD Radio",
+      "date": "2026-11-02 23:58",
+      "titleKo": "평양 시위, 바이낸스 강탈의 배후에 있는 북한 해커들의 주장 - KBS WORLD Radio",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "kbs-world-radio",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "kbs-world-radio",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Pyongyang Protests US Claims N. Korean Hackers Behind Binance Heist - KBS WORLD Radio",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14bXNkbU9INk1GZ2RSZjBCcXQtcWZYQnZrMFBVU19Ddy12c291d2RPVkZaa09sNGgwWkQwSzdPY1dZNEtrTWlLU1VNQXU2aDVUSjZIQVF3LWhyQ0pTeVVhcmhfc3kxb21FNW1xNjNPazhObE9OMmc?oc=5",
+      "source": "KBS WORLD Radio",
+      "date": "2026-11-02 23:58",
+      "titleKo": "평양, 미국 주장에 항의 바이낸스 강탈의 배후에 있는 한국 해커들 - KBS WORLD Radio",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "kbs-world-radio",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "kbs-world-radio",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "North Korea denies involvement in Binance hack and criticizes FBI probe as 'a trite provocation' - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd01qenNHeE1ZZXNRUl9yYTdyNzh0VU0wVWJEcUJZRElxXzJud05CeUhJb1o2MjNvTVQ4bTVjOXFySGlqRnRqWU1pT3Vwdmx6MFhqSlV6OVBXSU5rNEtkWWRIdTBfVU1tUHhKYmduU2U0U3RxVTBGSHJTT00zM19td3FiYzk1VzdjWnpzZmVPVENBcGZjdzZKU3NwaDBiUnNxelE?oc=5",
+      "source": "AP News",
+      "date": "2026-11-02 23:57",
+      "titleKo": "북한은 바이낸스 해킹 개입을 부인하고 FBI 수사를 '진부한 도발' 이라고 비판하고 있다. - AP 뉴스",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "ap-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "ap-news",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "North Korea says US allegations linking it to Binance heist are 'absurd rhetoric,' KCNA says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPamY3Mk11cHc4Sm1FcjFUaGxnMzJsVlBTQ29SZHBfLW5OZEk4b01IT2xmMExvYkV3cjlrNFBiNC1LV0NYSVk5WG5FejRtVXoydlF1SVVfN0g3bndRRHhBdjNPOUFUZUdyQWpERGJIVHBwSXJveFB3NXl5Yl8tcDdZTnZWZk5HVXZvZEo0bUhGZVl6dmh4TS1wT19XRlB0YVl1MmhwY0JzUHg4UmJMb3ZRZnQwclJySG5SemdSZkpuZkNWck45ZlMyWW1oMkIwUQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-02 23:33",
+      "titleKo": "북한은 바이낸스 강탈과 관련된 미국의 주장은 '터무니없는 수사' 라고 KCNA는 말합니다. - Reuters",
+      "confidence": "B",
+      "sourceType": "주요 통신사 취재",
+      "originKey": "kcna",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "kcna",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관영 발표",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "'드론 본부' 띄웠지만…북한 따라잡을까",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827397&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-11-02 22:36",
+      "titleKo": "'드론 본부' 띄웠지만…북한 따라잡을까",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "주요보도·원출처 확인 필요",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "Kim Yo Jong denies North Korean involvement in $6B Binance crypto theft - NK News",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9mVkpXSUxlcV96eFdfMWNYQzRvOUlSN3JmX3ppVUdRNXZheHFUMVhFMVE5SkhRYXdudmo4bHNoU0gzN0w2UlFR?oc=5",
+      "source": "NK News",
+      "date": "2026-11-02 22:12",
+      "titleKo": "김요종, 북한이 $ 6B Binance 암호화폐 절도에 개입하지 않았다고 부인 - NK News",
+      "confidence": "C",
+      "sourceType": "언론·전문보도",
+      "originKey": "nk-news",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "nk-news",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "verification": "전문·단일 확인",
+      "riskRelevant": false,
+      "topic": "북한 관련",
+      "scoreImpact": "위험도 미반영"
+    },
+    {
+      "title": "\"북한, 의대 갈 애들을 최정예 해커로 양성\"",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827314&plink=RSSLINK&cooper=RSSREADER",
+      "source": "SBS 뉴스",
+      "date": "2026-11-02 21:40",
+      "titleKo": "\"북한, 의대 갈 애들을 최정예 해커로 양성\"",
+      "confidence": "B",
+      "sourceType": "언론·전문보도",
+      "originKey": "sbs-뉴스",
+      "claimNature": "직접 발표·관측",
+      "originalSource": "sbs-뉴스",
+      "directReport": true,
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1367,7 +1538,7 @@
     },
     {
       "title": "How North Korea turned its tech talent into a global money-making machine - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkc4WERGVzU0UU16SmhvMElxVTVlMkRCRWdEdFNTV1FSYkxFM2U1anhGMndZRGR5NWRiWHctT0phOXZoX2YzOUE3T1o0ZEZJUEdPS19ha1paVmtZRktPMDJDMHpxUHVyajA5M3d2bm1LcGJpR3czbmRtYkYyWEtiTUx0WjAzVTlFWFlPa2hqM0ZuTzgwY3U2dWhsZXV6LWh3Z1Fn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TNndwczB3QkNCM2F2MmFicUJ1MGlJbjV6Z0drMHFTWmFCSklrYnQzT0N2VjNFeThtc2RFd3FmUF9ybVhPSEc2ejk5bVd5QQ?oc=5",
       "source": "NK News",
       "date": "2026-11-02 09:30",
       "titleKo": "북한이 기술 인재를 글로벌 돈 버는 기계로 전환한 방법 - NK News",
@@ -1377,7 +1548,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1385,7 +1556,7 @@
     },
     {
       "title": "North Korean coal officials tour Chinese mining firm amid modernization drive - NK News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc0xJbGZSUi1hN1N1dXNYdjBaNXdsYzVjS1p0N0RyWGc0TWJ5V1lrb2o4RUJ1TkFtRUVuV1M3QkFVN2t2SmlORUdfekpRWHFYUUt5LTNLTnlsUmppUnludUhkOEh1V3dfMWh6bExKWWhZNlpNcE41WnhIZU5SN1NRZXM1OUlfaVVoTkRlb2pHa0pIWVZPaFJVQVhwdmRVMF9vUDZQZHdkc0dVM2t4TVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE04UVlsWXhwQ3U3YjZxNGdWSmNqekxFS1JmUTlVSG93UlR1SEZWUldOaVFFYUl5YWZlMXM0ZjZGVkZ5MjdaVzgw?oc=5",
       "source": "NK News",
       "date": "2026-11-02 08:30",
       "titleKo": "북한 석탄 관리들이 현대화 추진 속에서 중국 광산 회사를 둘러보고 있다. - NK News",
@@ -1395,28 +1566,10 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "nk-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "대외관계",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "North Korean cluster warheads could threaten targets as far as Busan: Experts - NK News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ05YTzJaSXh2MktwcFhId0Z3VzZZQnZtSW5fb0VNWVozb0dJWUljNkNUN0hTME8zM2w0RVFDUmxtZnJIV09tT2hXclNjMzhnQ25TMDNOZ0czblpVV3J2OUVTVV9fcWk0YW1YdGszdzhncU5oa2cycml3LVptX2lKZE9qcjFRSE1sOEZWTlpodlFPMzRyd2NoUC1PRktTckNwaVZ5YW9ScWM5UVBI?oc=5",
-      "source": "NK News",
-      "date": "2026-11-02 08:30",
-      "titleKo": "북한 군집탄두가 부산까지 표적을 위협할 수 있다: 전문가 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
     },
     {
@@ -1431,26 +1584,8 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "FBI confirms North Korea behind record $6.36B Binance crypto heist - NK News",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RMS1ReXVmdmNkMGY3YmJxSVBEZ2lDZ0I5TFFNN2twRWFzZ1dOYzJhYlZ5bmdONmcxYXlvTzJyTTdlMUtRUVVKMnZsTzNJQQ?oc=5",
-      "source": "NK News",
-      "date": "2026-11-02 06:24",
-      "titleKo": "FBI, 북한에 $ 6.36 Binance 암호화폐 강탈 기록 확인 - NK News",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "nk-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "nk-news",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
@@ -1467,7 +1602,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "대외관계",
@@ -1485,7 +1620,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "reuters",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1503,28 +1638,10 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "대외관계",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "\"North Korea Behind It\"... Over 8 Trillion Won Drained While Left Helpless - SBS 뉴스",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PXzFwZ3M0MXR2djdjTHRKaU1HRmRyenpUZXVBWmFvZkxsU3FrRU5SczVhZGxHV0VjR21hSzQ4M0YtV1E2QVhuV1FHdmNoY2RYbVd3cTU1UnA2S2pPU292bFYwZ2pBWmQxQkJFSDhB0gFmQVVfeXFMUC1mLXFiUWdwdzEwYnkzS3Q5Y3R1YUxhRGtvTnNpcE91R1NRdDMyQndZcWFmeXlZNTU5RER4cWxOMmx4ci04RXZ4Uy13MEpZOVJndERvZk43dFJWQkRhM3ZuSllkLVNn?oc=5",
-      "source": "SBS 뉴스",
-      "date": "2026-11-01 11:18",
-      "titleKo": "\"North Korea Behind It\"... Over 8 Trillion Won Drained While Left Helpless - SBS 뉴스",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "sbs-뉴스",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "sbs-뉴스",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "북한 관련",
       "scoreImpact": "위험도 미반영"
     },
     {
@@ -1539,25 +1656,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "kbs-world-radio",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "접경·생활안전",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Foreign Minister Urges Inter-Korean Dialogue While Addressing DMZ Landmine Blasts at G20 - KBS WORLD Radio",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE43eXFTeWt5YlZuME05V2RtM2tQTTRoQzJaaldvTEFyclNaZlhTUkpfTUVOTVR4MVlVa1B5WC16OTlqcUJtTURQZUpEaHJrR2ZIU254SHR3MUhwa3ltdDF6dzc0N082Z1JzM1U3d3B3cjZQNDJpX1JR?oc=5",
-      "source": "KBS WORLD Radio",
-      "date": "2026-11-01 05:03",
-      "titleKo": "외무장관, G20에서 DMZ 지뢰 폭발에 대처하면서 남북 대화 촉구 - KBS WORLD Radio",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "kbs-world-radio",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "kbs-world-radio",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "접경·생활안전",
@@ -1575,25 +1674,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "ap-news",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "FBI links North Korea to theft of $6 billion from Binance - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0F3bEEtREZiMG5WVnJMQlVHUDdaaHJQTno1VUJJRENOT2MySEZDcmpCYm41YnpkMS1Ub1l1ZThqSUJSa214ay1Gb3E3NFFNNWRZZDJtVjZSWU91M1NFVkRWZjJPdG9nN2ZCTm12RnhFVWFTTkhpMnBnRU5XZDhmRTRYNFZ0V1lKSkc3N1htMnRLbHhFWlo0?oc=5",
-      "source": "Reuters",
-      "date": "2026-10-31 21:44",
-      "titleKo": "FBI, 북한을 바이낸스로부터 60억 달러 ($) 절도로 연결 - 로이터",
-      "confidence": "B",
-      "sourceType": "주요 통신사 취재",
-      "originKey": "reuters",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "reuters",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "주요보도·원출처 확인 필요",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1611,79 +1692,7 @@
       "claimNature": "직접 발표·관측",
       "originalSource": "financial-times",
       "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Kim Jong Un attends a North Korean drone exhibition and calls for boosting the technology - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNk0xRU9zT1dQelRNUEJOeDVEVmZYdjl4SVp5akIxRUlyRDFtNXdhSXVkcndWVHJnQm5EaTlBRlZiTnY5dkFCcGp4NWFFQV9IbmgtT2s5bzdMMzhFLURkMVJrczdLYUdBRHQ5eFR6NHZGUUN6MTU4dVk5UmprT2p2Z3M3TDVMU2gxM193OHdpWUlNU0pYb0Q2cXJVdWZTNnc?oc=5",
-      "source": "AP News",
-      "date": "2026-10-31 03:24",
-      "titleKo": "김정은, 북한 드론 전시회 참석해 기술력 강화 촉구 - AP 연합뉴스",
-      "confidence": "B",
-      "sourceType": "주요 통신사 취재",
-      "originKey": "ap-news",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "ap-news",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "접경·생활안전",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QRnRScmRRaTN0MWFnWHppc2FzSVA4YW1Fc3g0SGp3NDhJdUpBVUg1WnlaWGo4MWVVNWtHc1pyZGYxSmhBQVo3aEVaQUVsQThtazJGLWhoT1QtZkE?oc=5",
-      "source": "BBC",
-      "date": "2026-10-31 02:12",
-      "titleKo": "북한의 '엘리트' 해커가 주요 바이낸스 해킹의 주요 용의자인 이유 - BBC",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "bbc",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "bbc",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MSW11NmJSaGhSd0N4TEQ2SW1jbTh4MFZEY1AtOHp5WXA3N192UU9FSkhpTmROSklyTU4wakRfYWlUSzRVVG1jSUZBM3JQSWc0M0FvN3dTSWJzNU0?oc=5",
-      "source": "BBC",
-      "date": "2026-10-30 21:13",
-      "titleKo": "북한과 연계된 해킹으로 도난당한 $ 6.3bn을 복구하려는 암호화폐 거대 바이낸스 - BBC",
-      "confidence": "B",
-      "sourceType": "언론·전문보도",
-      "originKey": "bbc",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "bbc",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "주요보도·원출처 확인 필요",
-      "riskRelevant": false,
-      "topic": "북한 관련",
-      "scoreImpact": "위험도 미반영"
-    },
-    {
-      "title": "How North Korea became a hacking superpower - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWXIyeGlGTkdpLUZWaTVjQXIyZkh1QWRHQ3JjbjBlVlZYWjl1WkkxMG94VDFQcVVKcmpkWnAwQ1IzenphQlV3TTlFWEZsOFJJby1wN1pYWEpBeGNBVmpiM3ZaZ3dOVFZCUFBQd19nMkpmemkwX05EWm9oNDNiQk5aYlJCdGU?oc=5",
-      "source": "Financial Times",
-      "date": "2026-10-30 11:20",
-      "titleKo": "북한이 해킹 초강대국이 된 방법 - 파이낸셜 타임스",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "financial-times",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "financial-times",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "verification": "전문·단일 확인",
       "riskRelevant": false,
       "topic": "북한 관련",
@@ -1697,7 +1706,7 @@
         "titleKo": "미국: 연결 실패",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
         "source": "미국 국무부 한국 여행경보",
-        "date": "2026. 11. 3. 오전 4:04",
+        "date": "2026. 11. 3. 오전 11:47",
         "confidence": "D"
       },
       {
@@ -1705,7 +1714,7 @@
         "titleKo": "영국: 공식 대피 문구 없음",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
         "source": "영국 FCDO 한국 여행안내",
-        "date": "2026. 11. 3. 오전 4:03",
+        "date": "2026. 11. 3. 오전 11:46",
         "confidence": "A"
       },
       {
@@ -1713,7 +1722,7 @@
         "titleKo": "일본: 공식 대피 문구 없음",
         "url": "https://www.anzen.mofa.go.jp/m/mbtravelspecificinfo_003.html",
         "source": "일본 외무성 한국 안전정보",
-        "date": "2026. 11. 3. 오전 4:03",
+        "date": "2026. 11. 3. 오전 11:46",
         "confidence": "A"
       },
       {
@@ -1721,7 +1730,7 @@
         "titleKo": "프랑스: 공식 대피 문구 없음",
         "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-sud/conseils-aux-voyageurs-securite",
         "source": "프랑스 외교부 한국 안전정보",
-        "date": "2026. 11. 3. 오전 4:03",
+        "date": "2026. 11. 3. 오전 11:46",
         "confidence": "A"
       },
       {
@@ -1729,7 +1738,7 @@
         "titleKo": "독일: 공식 대피 문구 없음",
         "url": "https://www.auswaertiges-amt.de/de/service/laender/korearepublik-node/korearepubliksicherheit-216132",
         "source": "독일 외무부 한국 안전정보",
-        "date": "2026. 11. 3. 오전 4:03",
+        "date": "2026. 11. 3. 오전 11:46",
         "confidence": "A"
       },
       {
@@ -1737,7 +1746,7 @@
         "titleKo": "호주: 연결 실패",
         "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
         "source": "호주 Smartraveller 한국 여행안내",
-        "date": "2026. 11. 3. 오전 4:04",
+        "date": "2026. 11. 3. 오전 11:47",
         "confidence": "D"
       },
       {
@@ -1745,7 +1754,7 @@
         "titleKo": "캐나다: 공식 대피 문구 없음",
         "url": "https://travel.gc.ca/destinations/south-korea",
         "source": "캐나다 한국 여행안내",
-        "date": "2026. 11. 3. 오전 4:03",
+        "date": "2026. 11. 3. 오전 11:46",
         "confidence": "A"
       },
       {
@@ -1753,13 +1762,13 @@
         "titleKo": "주한미군: 연결 실패",
         "url": "https://www.usfk.mil/Media/Press-Products/Press-Releases/",
         "source": "주한미군 공식 발표",
-        "date": "2026. 11. 3. 오전 4:04",
+        "date": "2026. 11. 3. 오전 11:47",
         "confidence": "D"
       }
     ]
   },
   "anomalyIndex": {
-    "score": 0,
+    "score": 1,
     "maximum": 10,
     "level": "안정",
     "categories": [
@@ -1768,7 +1777,7 @@
         "label": "군사 이동",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:04",
+        "checkedAt": "2026. 11. 3. 오전 11:47",
         "evidence": []
       },
       {
@@ -1776,7 +1785,7 @@
         "label": "외교·대피",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:04",
+        "checkedAt": "2026. 11. 3. 오전 11:47",
         "evidence": []
       },
       {
@@ -1784,7 +1793,7 @@
         "label": "국경·교통",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:04",
+        "checkedAt": "2026. 11. 3. 오전 11:47",
         "evidence": []
       },
       {
@@ -1792,22 +1801,37 @@
         "label": "지휘·주민",
         "score": 0,
         "status": "변화 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:04",
+        "checkedAt": "2026. 11. 3. 오전 11:47",
         "evidence": []
       },
       {
         "id": "strategic",
         "label": "전략 활동",
-        "score": 0,
-        "status": "변화 없음",
-        "checkedAt": "2026. 11. 3. 오전 4:04",
-        "evidence": []
+        "score": 1,
+        "status": "관찰",
+        "checkedAt": "2026. 11. 3. 오전 11:47",
+        "evidence": [
+          {
+            "label": "KCNA는 북한이 분산 탄두를 이용한 전략적 순항 미사일 시험을 실시한다고 밝혔습니다. - 로이터",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYWVmc205S3NUUjduWmR4TDE0U3ZtVUo0NThjS2xEMzFyUEtCRlB0RjR1S0YycEwwcjRFUlZBNTl5VVhQWVpkT01uRmJQZVR6Mm82RnZZaDZGVW9XRzZEaE55ci1nVUpORzc5M2Q3d0ZHYU9SdjVfU0h1ZFVOM0Y4TjY3VWltMXJjTnV6Z3EySFNZRHRraDhRNy1ScjhUNldaZnlnWWx2YUNtZEZsWDIxcl94cG02MGt4SERJQ1FGWEhmdkFxRnM2bHg2ZU1TX25maXlxU0NFREw?oc=5",
+            "grade": "B",
+            "source": "Reuters",
+            "sourceType": "주요 통신사 취재",
+            "originKey": "kcna",
+            "publishedAt": "2026-11-03 02:19",
+            "checkedAt": "2026. 11. 3. 오전 11:47",
+            "claim": "미사일 시험 관련 근거",
+            "directReport": true
+          }
+        ]
       }
     ],
     "change": {
-      "added": [],
+      "added": [
+        "전략 활동"
+      ],
       "cleared": [],
-      "delta": 0
+      "delta": 1
     },
     "trend": [
       {
@@ -2168,54 +2192,17 @@
       },
       {
         "date": "2026-11-03",
-        "score": 0
+        "score": 1
       }
     ],
-    "checkedAt": "2026. 11. 3. 오전 4:04",
+    "checkedAt": "2026. 11. 3. 오전 11:47",
     "note": "공개자료의 이상 패턴을 보여주는 보조 지수이며 종합 위험점수에는 반영하지 않습니다."
   },
-  "osintWatch": [
-    {
-      "title": "Saying It With Pictures: North Korea Flashes Its Latest ICBM, Old “New” SLBMs, and “Tactical Nuclear Attack” Sub - 38 North",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLXlCSS16MklTcFMwX0FxVzRWYmRqV3N0M2FoNTJkRFFTbXozNVAwUnAyX2VSbDQ1WXZvQUxqdDRpLXk0Rld1UnNWcUc5MFdsdlRLSjNwdmdoa3BlOU5HQlBxRmJQUWM0Vi04dzhxUjFGNzN6RldLTkw0ekRzWXZRRFJjYWpiUW15d1EyUTVrakNteWxkV0xzeVpCMmhsYm02QTk3eUxvdmRpcVd2b3hrT1RIN3BwY1VHLXIyYVlvZUJuc25VYUxOQXFtUXd5d09kSnVZMw?oc=5",
-      "source": "38 North",
-      "date": "2026-10-29 17:11",
-      "titleKo": "사진으로 말하기: 북한, 최신 대륙간탄도미사일 (ICBM), 구형 “신형” SLBM, “전술핵공격” 서브 - 38노스",
-      "confidence": "C",
-      "sourceType": "전문기관 분석",
-      "originKey": "38-north",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "38-north",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
-      "riskRelevant": true,
-      "topic": "전문 분석·OSINT",
-      "scoreImpact": "종합 위험점수 미반영"
-    },
-    {
-      "title": "Korean Peninsula Update, October 28, 2026 - Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2lKV1NWa1dtVzdZYXl0MVRUV0hjdUgtMGJDUEhTN3BtamxuSnVNMXlaUkdzbFFhOXBSWk9oSTlfeGxQZUVuMkVLVXV2SjFTeUpoU3N2RVppYmZXZlBYMGg3RVFFc2dBUVBFeThoeDFkb21XcnhYRFM0ZWs2S1M3UEU4ekpmOGwzMmhFdUVVemZMMUdPVmc?oc=5",
-      "source": "Institute for the Study of War",
-      "date": "2026-10-29 04:47",
-      "titleKo": "한반도 업데이트, 2026년 10월 28일 - 전쟁 연구소",
-      "confidence": "C",
-      "sourceType": "언론·전문보도",
-      "originKey": "institute-for-the-study-of-war",
-      "claimNature": "직접 발표·관측",
-      "originalSource": "institute-for-the-study-of-war",
-      "directReport": true,
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "verification": "전문·단일 확인",
-      "riskRelevant": false,
-      "topic": "전문 분석·OSINT",
-      "scoreImpact": "종합 위험점수 미반영"
-    }
-  ],
-  "generatedAt": "2026-11-02T19:04:20.177Z",
+  "osintWatch": [],
+  "generatedAt": "2026-11-03T02:47:11.716Z",
   "judgment": {
     "confidence": "낮음",
-    "completeness": 18,
+    "completeness": 22,
     "largestGaps": [
       "대규모 병력 이동은 공개정보로 직접 탐지하기 어렵습니다.",
       "포병·미사일 부대 이동은 공개정보로 직접 탐지하기 어렵습니다.",
@@ -2247,17 +2234,17 @@
     "disclaimer": "이 평가는 공개적으로 검증 가능한 자료를 기반으로 한다. 공개자료에서 확인되지 않았다는 것이 실제로 존재하지 않는다는 의미는 아니다. 공식 재난경보나 정부 지시가 발령되면 대시보드 판단보다 해당 지시를 우선한다."
   },
   "dataQuality": {
-    "completeness": 18,
+    "completeness": 22,
     "successfulIndicators": 7,
-    "retainedIndicators": 17,
-    "failedIndicators": 13,
-    "staleIndicators": 17,
+    "retainedIndicators": 16,
+    "failedIndicators": 11,
+    "staleIndicators": 16,
     "latestDirectObservation": "최신 직접 관측자료 없음",
-    "checkedAt": "2026. 11. 3. 오전 4:04",
+    "checkedAt": "2026. 11. 3. 오전 11:47",
     "collectionScope": {
       "targets": 50,
       "period": "최근 7일",
-      "lastSearch": "2026. 11. 3. 오전 4:04",
+      "lastSearch": "2026. 11. 3. 오전 11:47",
       "inaccessible": [
         "북한 내부 비공개 군사통신",
         "유료 상업위성 전체 영상",
@@ -2267,12 +2254,12 @@
     }
   },
   "ingestion": {
-    "collected": 585,
+    "collected": 605,
     "retained": 30,
-    "duplicatesAndReprints": 537,
-    "commentaryExcluded": 23,
-    "riskRelevant": 7,
-    "newIndependentInformation": 0
+    "duplicatesAndReprints": 557,
+    "commentaryExcluded": 24,
+    "riskRelevant": 6,
+    "newIndependentInformation": 1
   },
   "scoreModel": {
     "baseScore": 0,
@@ -2310,25 +2297,36 @@
       "label": "미사일 시험",
       "weight": 5,
       "verified": false,
-      "partiallyVerified": false,
-      "status": "공개자료상 미탐지",
-      "independentSourceCount": 0,
+      "partiallyVerified": true,
+      "status": "일부 확인",
+      "independentSourceCount": 1,
       "directObservationCount": 0,
       "partyClaimCount": 0,
-      "judgmentConfidence": "중간",
+      "judgmentConfidence": "낮음",
       "detectability": "높음",
       "informationGap": "공개 공식자료 범위 밖의 정보는 확인할 수 없습니다.",
-      "opposingEvidence": [
-        "공개 검색 범위에서 신규 근거가 발견되지 않음"
+      "opposingEvidence": [],
+      "checkedAt": "2026. 11. 3. 오전 11:47",
+      "sources": [
+        {
+          "label": "KCNA는 북한이 분산 탄두를 이용한 전략적 순항 미사일 시험을 실시한다고 밝혔습니다. - 로이터",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYWVmc205S3NUUjduWmR4TDE0U3ZtVUo0NThjS2xEMzFyUEtCRlB0RjR1S0YycEwwcjRFUlZBNTl5VVhQWVpkT01uRmJQZVR6Mm82RnZZaDZGVW9XRzZEaE55ci1nVUpORzc5M2Q3d0ZHYU9SdjVfU0h1ZFVOM0Y4TjY3VWltMXJjTnV6Z3EySFNZRHRraDhRNy1ScjhUNldaZnlnWWx2YUNtZEZsWDIxcl94cG02MGt4SERJQ1FGWEhmdkFxRnM2bHg2ZU1TX25maXlxU0NFREw?oc=5",
+          "grade": "B",
+          "source": "Reuters",
+          "sourceType": "주요 통신사 취재",
+          "originKey": "kcna",
+          "publishedAt": "2026-11-03 02:19",
+          "checkedAt": "2026. 11. 3. 오전 11:47",
+          "claim": "미사일 시험 관련 근거",
+          "directReport": true
+        }
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
-      "sources": [],
-      "change": "이전 상태 유지",
-      "collectionStatus": "이전 상태 유지",
-      "lastNewInformation": "확인된 신규 정보 없음",
+      "change": "공개자료상 미탐지 → 일부 확인",
+      "collectionStatus": "신규 확인",
+      "lastNewInformation": "2026-11-03 02:19",
       "lastDirectObservation": "직접 관측 부족",
-      "sourceReliability": "확인 가능한 원정보 없음",
-      "stateReason": "확인 가능한 신규 원정보가 없으며 탐지 가능성을 함께 고려함"
+      "sourceReliability": "주요 통신사 취재",
+      "stateReason": "관련 공개자료는 있으나 독립 교차검증 기준 미충족"
     },
     {
       "id": "troop_movement",
@@ -2346,7 +2344,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2371,7 +2369,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2396,7 +2394,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2421,7 +2419,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2446,7 +2444,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2471,7 +2469,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2496,7 +2494,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2521,7 +2519,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2546,7 +2544,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2571,7 +2569,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "직접 관측 부족",
@@ -2596,7 +2594,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2621,7 +2619,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2646,7 +2644,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2671,7 +2669,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2696,7 +2694,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2721,7 +2719,7 @@
       "opposingEvidence": [
         "공개 검색 범위에서 신규 근거가 발견되지 않음"
       ],
-      "checkedAt": "2026. 11. 3. 오전 4:04",
+      "checkedAt": "2026. 11. 3. 오전 11:47",
       "sources": [],
       "change": "이전 상태 유지",
       "collectionStatus": "이전 상태 유지",
@@ -2741,7 +2739,7 @@
     "officialGuidance": {
       "name": "국민안전24 비상시 국민행동요령",
       "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?actsHeaderTitle=%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&category=stateOfEmergency&menuSn=4",
-      "checkedAt": "2026. 11. 3. 오전 4:04"
+      "checkedAt": "2026. 11. 3. 오전 11:47"
     }
   }
 }
