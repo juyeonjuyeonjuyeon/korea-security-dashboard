@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 4. 오전 8:28",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v16.5.0-canary.40",
+  "updatedAt": "2026. 11. 4. 오전 10:04",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "Copilot 사용 API의 BYOK 및 엔터프라이즈 사용자 정의 모델",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 75,
+    "recentCount": 68,
     "sourceCount": 25,
     "officialCount": 35,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v16.5.0-canary.40",
+    "새 출시: Copilot 사용 API의 BYOK 및 엔터프라이즈 사용자 정의 모델",
     "창작 기술: Apple Watch에서 오디오 인텔리전스를 사용하는 방법은 다음과 같습니다.",
     "행사·무료: 공개 베타 버전인 Vercel 보안 검토",
     "인물 발언: 엔비디아는 개방형 모델을 사용하든 폐쇄형 모델을 사용하든 상관없이 기꺼이 돈을 가져갈 것이라고 Jensen Huang은 말합니다. - The Register"
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 32,
-      "summary": "바이낸스 (Binance) 는 해커들이 가짜 취업 면접과 내부 AI 도구를 사용하여 $ 6.3 billion 강도를 끌어 냈다고 말합니다.",
-      "latest": "2026-11-03 23:02",
+      "count": 34,
+      "summary": "인공지능 거품이 언제 터질지 묻지 말아주세요",
+      "latest": "2026-11-03 23:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T23:28:53.655Z",
+      "lastRefreshed": "2026-11-04T01:04:41.301Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -40,7 +40,7 @@
       "summary": "AI는 반도체 팹의 작동 방식을 변화시키고 있으며, 그로 인해 엔지니어들은 더 빠르게 움직이고 있습니다.",
       "latest": "2026-11-03 16:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T23:28:53.655Z",
+      "lastRefreshed": "2026-11-04T01:04:41.301Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 6,
+      "count": 5,
       "summary": "Stringman, 오픈 소스 룸 스케일 그리퍼 로봇 $ 800",
       "latest": "2026-11-03 16:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T23:28:53.655Z",
+      "lastRefreshed": "2026-11-04T01:04:41.301Z",
       "themes": [
         "주요 기업"
       ]
@@ -66,18 +66,18 @@
       "summary": "바이낸스, 가짜 취업 면접 및 AI 도구 남용으로 인해 $ 64억 3천만 달러의 절도 사건 발생",
       "latest": "2026-11-03 16:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T23:28:53.655Z",
+      "lastRefreshed": "2026-11-04T01:04:41.301Z",
       "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 11,
+      "count": 10,
       "summary": "Orbital Matter는 공간의 진공에서 최초의 강성 빔을 3D 프린팅했습니다.",
       "latest": "2026-11-03 20:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T23:28:53.655Z",
+      "lastRefreshed": "2026-11-04T01:04:41.301Z",
       "themes": [
         "미술·디자인"
       ]
@@ -90,7 +90,7 @@
       "summary": "iPhone 18 소문에 따르면 내년에 더 큰 배터리, 더 높은 가격이 제안됩니다.",
       "latest": "2026-11-03 22:18",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-03T23:28:53.655Z",
+      "lastRefreshed": "2026-11-04T01:04:41.301Z",
       "themes": [
         "주요 기업"
       ]
@@ -100,10 +100,10 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 23,
-      "summary": "v16.5.0-canary.40",
-      "latest": "2026-11-03 23:17",
+      "summary": "Copilot 사용 API의 BYOK 및 엔터프라이즈 사용자 정의 모델",
+      "latest": "2026-11-04 00:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-03T23:28:53.655Z",
+      "lastRefreshed": "2026-11-04T01:04:41.301Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -113,10 +113,26 @@
   "radar": {
     "releases": [
       {
+        "title": "BYOK and enterprise custom models in the Copilot usage API",
+        "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+        "source": "GitHub Changelog",
+        "date": "2026-11-04 00:32",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Copilot 사용 API의 BYOK 및 엔터프라이즈 사용자 정의 모델",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v16.5.0-canary.40",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.40",
         "source": "GitHub · Next.js",
-        "date": "2026-11-03 23:17",
+        "date": "2026-11-03 23:44",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -291,22 +307,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Stringman, an $800 open-source room scale gripper robot",
-        "url": "https://neufangled.com/",
-        "source": "Hacker News",
-        "date": "2026-11-03 16:47",
-        "categoryId": "robotics",
-        "confidence": "D",
-        "stream": "community",
-        "category": "로봇·모빌리티",
-        "titleKo": "Stringman, 오픈 소스 룸 스케일 그리퍼 로봇 $ 800",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ],
     "creative": [
@@ -462,6 +462,22 @@
       }
     ],
     "analysis": [
+      {
+        "title": "Please stop asking me when the AI bubble will pop",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+        "source": "The Verge",
+        "date": "2026-11-03 23:37",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "인공지능 거품이 언제 터질지 묻지 말아주세요",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
         "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
@@ -651,22 +667,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
-        "url": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
-        "source": "Ars Technica",
-        "date": "2026-11-03 18:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "NYT, AI 기업과의 페이월 차단 및 거래 종료를 용감하게 요구",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -680,6 +680,22 @@
         "stream": "community",
         "category": "인공지능",
         "titleKo": "The Little Book of Generative AI Foundations: 직관적인 수학 입문서",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+        "source": "Hacker News",
+        "date": "2026-11-03 21:26",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "미국 기술 대기업의 숨겨진 AI 부채가 6 개월 만에 $ 3.2T로 90% 증가",
         "type": "뉴스·분석",
         "themes": [],
         "official": false,
@@ -751,33 +767,31 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
-        "url": "https://news.ycombinator.com/item?id=50352757",
-        "source": "Hacker News",
-        "date": "2026-11-03 14:53",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "OpenAI가 코덱스 채팅에 대한 모델 교육을 자동으로 다시 활성화하는 것 같습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
     {
+      "title": "BYOK and enterprise custom models in the Copilot usage API",
+      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+      "source": "GitHub Changelog",
+      "date": "2026-11-04 00:32",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Copilot 사용 API의 BYOK 및 엔터프라이즈 사용자 정의 모델",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "v16.5.0-canary.40",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.40",
       "source": "GitHub · Next.js",
-      "date": "2026-11-03 23:17",
+      "date": "2026-11-03 23:44",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -788,6 +802,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Please stop asking me when the AI bubble will pop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "source": "The Verge",
+      "date": "2026-11-03 23:37",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "인공지능 거품이 언제 터질지 묻지 말아주세요",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
@@ -903,6 +933,22 @@
       "stream": "community",
       "category": "인공지능",
       "titleKo": "The Little Book of Generative AI Foundations: 직관적인 수학 입문서",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "source": "Hacker News",
+      "date": "2026-11-03 21:26",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "미국 기술 대기업의 숨겨진 AI 부채가 6 개월 만에 $ 3.2T로 90% 증가",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1196,22 +1242,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "GTA VI’s download will need up to 212GB of hard drive space",
-      "url": "https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games",
-      "source": "The Verge",
-      "date": "2026-11-03 17:43",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "GTA VI의 다운로드에는 최대 212GB의 하드 드라이브 공간이 필요합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
       "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
       "source": "Hacker News",
@@ -1458,6 +1488,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "NTT to help Japanese companies update at-risk aging IT with AI - Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSUUzeDZ3OXBmOGtmek1NUzQ1Ny1CY182SGdXZjVnYTg4aHVyMU1mVDRrdEUwZW90NzZwSzN3SkdPYkgza3BwcmR6MkpSSHgtT1dxTndlV05xcmVydlp0aU85WWQ4eVdlX3JBbXE2MlNwTU1tWWhZdWFwTnBSVnFMSnRaS3gxQ2lhYlltLUV4SDI0cFVNNUR4cU9iZTNEVWE3S0JnOUROLTJtM3FvRGVR?oc=5",
+      "source": "Nikkei Asia",
+      "date": "2026-11-03 15:12",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "NTT, 일본 기업이 AI로 위험에 처한 고령화 IT를 업데이트할 수 있도록 지원 - Nikkei Asia",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "NTT to help Japanese companies update aging IT with AI - Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLW5kQVpEOWRreTZ1X2ZQb1FvV1lsRWQ1ZFctX3dBSUF2OUFmWFVkQkFPLThpYjBOM2d5OGFhWUR0VFJUQm1ONkJRNDV3V0h0dGdSQkxEQzRkV1drOUwtY19fSUowZk1Jcm1CcnFYSWt2RVdXOEcxVGZyeWwtcWlHaE11R1dhbExXUXAxVjdfTFoxTmpwb0NHaEtsTXZrUENhR3JndQ?oc=5",
       "source": "Nikkei Asia",
@@ -1522,24 +1568,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
-      "url": "https://news.ycombinator.com/item?id=50352757",
-      "source": "Hacker News",
-      "date": "2026-11-03 14:53",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "OpenAI가 코덱스 채팅에 대한 모델 교육을 자동으로 다시 활성화하는 것 같습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "New ISO interoperability standard covers collaboration among mobile robots from multiple vendors",
@@ -1674,22 +1702,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "GitHub Desktop adds short-lived authentication tokens",
-      "url": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
-      "source": "GitHub Changelog",
-      "date": "2026-11-03 07:55",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "GitHub Desktop은 수명이 짧은 인증 토큰을 추가합니다",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
@@ -2084,32 +2096,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
-      "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
-      "source": "Ars Technica",
-      "date": "2026-11-02 18:32",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "2027년 출시: FaceTime 및 조명 켜기를 위한 Apple의 $ 1,000 가정용 로봇",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 11. 4. 오전 8:28",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 11. 4. 오전 10:04",
+    "mode": "하루 2회 전체 수집"
   }
 }
