@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 6. 오전 9:22",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 11. 6. 오전 10:24",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "이제 토큰 패스 크레딧이 AI 게이트웨이 전체에 자동으로 적용됩니다",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 67,
-    "sourceCount": 22,
-    "officialCount": 29,
+    "recentCount": 68,
+    "sourceCount": 23,
+    "officialCount": 31,
     "opportunityCount": 1
   },
   "summary": [
@@ -20,15 +20,15 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "에어비앤비는 AI 여행사를 담당하고 있습니다.",
-      "latest": "2026-11-06 00:06",
+      "count": 34,
+      "summary": "OpenAI가 데이터 센터 프로젝트에 대한 NDA에서 물러나고 있습니다",
+      "latest": "2026-11-06 00:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-06T00:22:57.735Z",
+      "lastRefreshed": "2026-11-06T01:24:21.090Z",
       "themes": [
+        "주요 기업",
         "미술·디자인",
-        "음악·음성",
-        "주요 기업"
+        "음악·음성"
       ]
     },
     {
@@ -39,7 +39,7 @@
       "summary": "VERA는 최고의 처리량과 가장 빠른 에이전트를 제공합니다.",
       "latest": "2026-11-05 20:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-06T00:22:57.735Z",
+      "lastRefreshed": "2026-11-06T01:24:21.090Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -53,7 +53,7 @@
       "summary": "Agility Robotics는 주식 시장에서 첫날 어떻게 성과를 거두었습니까?",
       "latest": "2026-11-05 22:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-06T00:22:57.735Z",
+      "lastRefreshed": "2026-11-06T01:24:21.090Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "미국 정부, 산업용 소매 및 군용 냉동고의 대량 해킹으로 ‘지속적인 사이버 위협’ 경고",
       "latest": "2026-11-05 18:48",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-06T00:22:57.735Z",
+      "lastRefreshed": "2026-11-06T01:24:21.090Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 8,
+      "count": 9,
       "summary": "CesiumAstro, $ 45억 이상의 가치로 Janus Henderson-Led 시리즈 D에서 7억 3천만 $ 확보; 완전히 성공한 요소-1 미션에 이어 동시성 위성 별자리 공개",
       "latest": "2026-11-05 21:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-06T00:22:57.735Z",
+      "lastRefreshed": "2026-11-06T01:24:21.090Z",
       "themes": [
         "미술·디자인"
       ]
@@ -87,11 +87,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 4,
+      "count": 2,
       "summary": "BMW는 더 나은 배터리를 제공합니다: 2027 i7 60 xDrive, 구동",
       "latest": "2026-11-05 20:45",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-06T00:22:57.735Z",
+      "lastRefreshed": "2026-11-06T01:24:21.090Z",
       "themes": []
     },
     {
@@ -102,11 +102,10 @@
       "summary": "이제 토큰 패스 크레딧이 AI 게이트웨이 전체에 자동으로 적용됩니다",
       "latest": "2026-11-06 01:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-06T00:22:57.735Z",
+      "lastRefreshed": "2026-11-06T01:24:21.090Z",
       "themes": [
         "기회",
-        "주요 기업",
-        "미술·디자인"
+        "주요 기업"
       ]
     }
   ],
@@ -126,6 +125,38 @@
         "themes": [
           "기회"
         ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Usage metrics API adds code review details and addressed rate",
+        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+        "source": "GitHub Changelog",
+        "date": "2026-11-06 00:19",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "사용 지표 API는 코드 검토 세부 정보와 해결된 요금을 추가합니다",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Usage metrics API flags telemetry and version gaps",
+        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+        "source": "GitHub Changelog",
+        "date": "2026-11-06 00:08",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "사용량 메트릭 API 플래그 원격 분석 및 버전 격차",
+        "type": "출시·업데이트",
+        "themes": [],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -279,42 +310,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "v2.6.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.6.0",
-        "source": "GitHub · Anthropic SDK",
-        "date": "2026-11-05 18:58",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v2.6.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.47.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.47.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-11-05 18:04",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.47.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -368,24 +363,6 @@
         "themes": [
           "주요 기업",
           "영상"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Xbox overhauls its PC, web, and cloud apps with a faster design",
-        "url": "https://www.theverge.com/news/1027353/microsoft-new-xbox-pc-app-redesign",
-        "source": "The Verge",
-        "date": "2026-11-05 17:20",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "Xbox는 더 빠른 디자인으로 PC, 웹 및 클라우드 앱을 정밀 검사합니다",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
@@ -469,6 +446,24 @@
     ],
     "voices": [],
     "analysis": [
+      {
+        "title": "OpenAI is stepping back from NDAs for data center projects",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+        "source": "The Verge",
+        "date": "2026-11-06 00:37",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "OpenAI가 데이터 센터 프로젝트에 대한 NDA에서 물러나고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Airbnb is working on an AI travel agent",
         "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
@@ -650,22 +645,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Software squeezes more data out of Webb Telescope for imaging exoplanets",
-        "url": "https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/",
-        "source": "Ars Technica",
-        "date": "2026-11-05 19:59",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "소프트웨어는 외계 행성을 이미징하기 위해 Webb 망원경에서 더 많은 데이터를 추출합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -786,6 +765,56 @@
       "themes": [
         "기회"
       ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "source": "The Verge",
+      "date": "2026-11-06 00:37",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI가 데이터 센터 프로젝트에 대한 NDA에서 물러나고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Usage metrics API adds code review details and addressed rate",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+      "source": "GitHub Changelog",
+      "date": "2026-11-06 00:19",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "사용 지표 API는 코드 검토 세부 정보와 해결된 요금을 추가합니다",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Usage metrics API flags telemetry and version gaps",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "source": "GitHub Changelog",
+      "date": "2026-11-06 00:08",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "사용량 메트릭 API 플래그 원격 분석 및 버전 격차",
+      "type": "출시·업데이트",
+      "themes": [],
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
@@ -1128,6 +1157,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "AWS launches Kiro bots to help devs coordinate AI coding agents - InfoWorld",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYnYySW9feGVLXzNLLTB6b0k1YTlhYzZiaFgzQ2F2bkdfTGdWZXNBOHpXeHNoWjEyYUg3el9sRHpiankwbUhmbEt5RUN2VFUzd0RscnB2dTlCQmpfZzZ6c1R0eTl0ai14S0d3dVQ1SFRRTHpGZExQekFTOVF5VTY0bzY0OFIyaTE3Y0hTYnVPMG5Oa09tQmlZcjY3c0E4QXFVZUgxdGhhOFR2a2hpazQw?oc=5",
+      "source": "InfoWorld",
+      "date": "2026-11-05 19:01",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AWS, 개발자가 AI 코딩 에이전트를 조정하는 데 도움이 되는 Kiro 봇 출시 - InfoWorld",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v2.6.0",
       "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.6.0",
       "source": "GitHub · Anthropic SDK",
@@ -1242,24 +1287,6 @@
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Xbox overhauls its PC, web, and cloud apps with a faster design",
-      "url": "https://www.theverge.com/news/1027353/microsoft-new-xbox-pc-app-redesign",
-      "source": "The Verge",
-      "date": "2026-11-05 17:20",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "Xbox는 더 빠른 디자인으로 PC, 웹 및 클라우드 앱을 정밀 검사합니다",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
       ],
       "official": false,
       "sourceLayer": "analysis",
@@ -1851,24 +1878,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Exclusive: OpenAI targets Microsoft's GitHub with deal for startup - Axios",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OaUdITlV1WEtmam1aNDlWMG4yd1hMZXBSc19qTExTVkdOeTgtbkt0VGtzWklpUlg0VENqOXBmUjlZUjEtNmNPdDdBak01dmRZTlAtd0kyTlA4WFlQdFVVUHluVFpKNjZPQS1CRWRHcw?oc=5",
-      "source": "Axios",
-      "date": "2026-11-05 02:04",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "news",
-      "category": "소프트웨어·개발",
-      "titleKo": "독점: OpenAI는 Microsoft의 GitHub를 대상으로 스타트업 거래를 진행합니다 - Axios",
-      "type": "오픈소스",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
       "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
       "source": "NASA",
@@ -1949,6 +1958,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "NASA's 22-year-old Swift satellite telescope falls from orbit in fiery finale - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUG9OVmM2ZmxVb0dKYUFDTmw0QXpVakp5SmdOVGg5QmF0Zy1fdzdLSFkwYVJLWk9rWjV2akVCX1pLTDFfQWxkVkk4eENGTUZqVGlldjZsT0U1VHh0TWd1c3c2Ymg2RlBmVmhCSkdGWHJ0R05kNmdKRXduelFLMGZ2dXNsMnlqMVFhUzdINDJfdWFzeTRCbXc5RTRnM0dtVnRCZUxsTTVJaERxSEN0eU03TVFn?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-04 23:27",
+      "categoryId": "space",
+      "confidence": "B",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "NASA's 22-year-old Swift satellite telescope falls from orbit in fiery finale - Reuters",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "v2.5.0",
@@ -2067,62 +2092,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "“War” Secretary Pete Hegseth Endorses 15 Minute City Model",
-      "url": "https://cleantechnica.com/2026/11/04/15-minute-city-model-us-defense-department-hesgeth/",
-      "source": "CleanTechnica",
-      "date": "2026-11-04 17:29",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Pete Hegseth '전쟁' 장관, 15분 도시 모델 승인",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Blue Wave Not Climate Related, But Critical To Clean Energy & Electric Vehicles",
-      "url": "https://cleantechnica.com/2026/11/04/blue-wave-not-climate-related-but-critical-to-clean-energy-electric-vehicles/",
-      "source": "CleanTechnica",
-      "date": "2026-11-04 17:25",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "블루 웨이브는 기후와 관련이 없지만 청정 에너지 및 전기 자동차에 중요합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "What’s next for US energy policy after the midterm elections?",
-      "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
-      "source": "MIT Technology Review",
-      "date": "2026-11-04 17:08",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "중간선거 이후 미국 에너지 정책의 다음 단계는 무엇인가요?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 42,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 6. 오전 9:22",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 11. 6. 오전 10:24",
+    "mode": "하루 2회 전체 수집"
   }
 }
