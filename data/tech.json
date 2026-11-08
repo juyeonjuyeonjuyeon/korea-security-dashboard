@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 9. 오전 3:52",
+  "updatedAt": "2026. 11. 9. 오전 7:56",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "NASA, 달 기지 챌린지를 위해 학생들에게 $ 1 백만 발표",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 16,
+    "recentCount": 17,
     "sourceCount": 23,
     "officialCount": 28,
     "opportunityCount": 0
@@ -19,25 +19,25 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 27,
-      "summary": "엘비스와 에미넴 권리 보유자들이 수노를 고소하고 있습니다",
-      "latest": "2026-11-08 17:23",
+      "count": 24,
+      "summary": "인공지능 뇌 튀김과 싸우는 방법",
+      "latest": "2026-11-08 19:37",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T18:52:09.910Z",
+      "lastRefreshed": "2026-11-08T22:56:21.565Z",
       "themes": [
-        "음악·음성",
-        "주요 기업"
+        "주요 기업",
+        "음악·음성"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 6,
-      "summary": "Llama-modchip: 64GB RAM에서 284B DeepSeek, GPU 없음",
-      "latest": "2026-11-08 10:22",
+      "count": 9,
+      "summary": "엔비디아는 CEO 젠슨 황 (Jensen Huang) 과 중국 스파이와의 관계를 조사할 예정이다.",
+      "latest": "2026-11-08 21:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T18:52:09.910Z",
+      "lastRefreshed": "2026-11-08T22:56:21.565Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "TechCrunch Mobility: Cybertruck 실험이 끝났습니다",
       "latest": "2026-11-08 17:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T18:52:09.910Z",
+      "lastRefreshed": "2026-11-08T22:56:21.565Z",
       "themes": []
     },
     {
@@ -61,7 +61,7 @@
       "summary": "그는 해커를 체포한 후 18개월 동안 자신의 이름을 지웠습니다. 이제 그는 사이버 보안 VC입니다.",
       "latest": "2026-11-08 17:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T18:52:09.910Z",
+      "lastRefreshed": "2026-11-08T22:56:21.565Z",
       "themes": [
         "주요 기업"
       ]
@@ -70,12 +70,13 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 10,
-      "summary": "NASA, 달 기지 챌린지를 위해 학생들에게 $ 1 백만 발표",
-      "latest": "2026-11-08 15:26",
+      "count": 11,
+      "summary": "Roelof Botha가 SpaceX 보드에 합류했을 때 Sequoia 파트너가 실명했다고합니다.",
+      "latest": "2026-11-08 19:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T18:52:09.910Z",
+      "lastRefreshed": "2026-11-08T22:56:21.565Z",
       "themes": [
+        "주요 기업",
         "미술·디자인"
       ]
     },
@@ -87,7 +88,7 @@
       "summary": "REDD — 새로운 테슬라 모델 Y 픽업",
       "latest": "2026-11-07 20:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-08T18:52:09.910Z",
+      "lastRefreshed": "2026-11-08T22:56:21.565Z",
       "themes": [
         "주요 기업"
       ]
@@ -96,11 +97,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
+      "count": 18,
       "summary": "GitHub가 다시 다운되었나요?",
       "latest": "2026-11-08 09:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T18:52:09.910Z",
+      "lastRefreshed": "2026-11-08T22:56:21.565Z",
       "themes": [
         "기회"
       ]
@@ -171,22 +172,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "GitHub New pull request overview page in public preview",
-        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-        "source": "Hacker News",
-        "date": "2026-11-07 23:09",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub 공개 미리 보기의 새로운 끌어오기 요청 개요 페이지",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
@@ -299,6 +284,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v16.5.0-canary.43",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.43",
+        "source": "GitHub · Next.js",
+        "date": "2026-11-06 23:41",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.43",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -342,6 +343,78 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+        "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+        "source": "TechCrunch",
+        "date": "2026-11-08 21:00",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "엔비디아는 CEO 젠슨 황 (Jensen Huang) 과 중국 스파이와의 관계를 조사할 예정이다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+        "source": "The Verge",
+        "date": "2026-11-08 20:55",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "엔비디아는 젠슨 황 (Jensen Huang) 과 중국 스파이의 관계를 조사하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
+        "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
+        "source": "TechCrunch",
+        "date": "2026-11-08 19:51",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "Roelof Botha가 SpaceX 보드에 합류했을 때 Sequoia 파트너가 실명했다고합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Apple is racing to make Siri more agentic",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+        "source": "The Verge",
+        "date": "2026-11-08 19:18",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Apple은 Siri를 보다 에이전트적으로 만들기 위해 경쟁하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
         "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
@@ -477,73 +550,59 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "UK Military Satellite Titania Launch: UK Armed Forces Gain New ‘Eyes in Space’ as Military Satellite Titania Enters Orbit Amid £3bn Defence Push - The Sunday Guardian",
-        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQbzJTa0d2R0p2eXMzQ2ExVEhIVTU4cUNKd3V6UDVBZ2pOR3dWSDZpbW5YbTZDMDJtTzFtYjFuR181OEJKNTdjTmNBSGozVG13OVEtbU5RN1RobzJ3VktVclpKS0Zob2RQZFh0ZWpuUUhsVWpMbmlHTmV3UVhnYUlFR2dURWw2eFlRRFpubncyWUY2NlZ6SkJhVTh1Z0NiU1JYTzJWUTBtZ0lQNmNsdGFxVklqajdjZ0lFYlVSUTFtdnJmQkU3Z1FjMEtHRlpMcWl6cWdlUjVaRENSQlk2SFJZNlZJdjhyYmJlM1Q2bVB3Sl9NLVQ1OFVHZGpmWXN4ejRrSUJTWHlRM25yUldMZGZScmxUY9IBmAJBVV95cUxON2VGeDhhU1YyTE9wcDY3MzJPQTNVaF96X2lHUlhLb0gwVS0tdVlhaEZnSnNYNHRCMjNEOGNBTFZ3aHdYUWxNOUlzcnZsbmFWN0xjNEJMTExydkRiZUJmeHA5YThyMmpWTkU1S282NXhnYUduZ0ltT2dydWtPaE5zb1NSY3FkeGk5UWV4WXlBa1NsOGJweVlYd0dhcl9BcTJGQ2ltSVFDVEsyMzZfOGVxUmZ1bXlHYUxGdXdWdV9ZY1pXQkNOamtxVDBhVzdSSjVzZTZPRWZoc3ZNRUZORkJUd213Y1FVVWo1aGtKazcyY3M4bmd1VWpuWWoySHZzY2M3RkgwY2VId2k3S1JtcHNLUVloZlQycVRh?oc=5",
-        "source": "The Sunday Guardian",
-        "date": "2026-11-07 15:02",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "영국 군사 위성 타이타니아 발사: 영국 군대가 군사 위성 타이타니아가 £ 30억 달러의 방어 압박 속에서 궤도에 진입함에 따라 새로운 ‘우주의 눈' 을 얻습니다 - 선데이 가디언",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "America's newest small business owners with no employees are off to a hot start in AI era - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSGNocEIzalpzdHNFNndLV3NDTllNUkhza1N0VGVHZ2ROdDVLenotQldUWEhjUFN0Vmg4UUZGOE5WMXQtZ3YxRjNFdWExYVdJdmJMU1VzX2hESFJHUVFyR0RnR1RwcFc4UXloekpzY010bVhUcnFhd3Z4blhwZEZsR2VHZ0c2WHFsRnhiTU9qRU1HbnFwd1BNa3B3RE9iTTFIV1RjU253?oc=5",
-        "source": "CNBC",
-        "date": "2026-11-07 14:45",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "직원이 없는 미국의 최신 중소기업 소유주가 AI 시대를 뜨겁게 달구고 있습니다 - CNBC",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Good riddance, Cybertruck!",
-        "url": "https://www.theverge.com/transportation/1029460/elon-musk-cybertruck-death-election-backlash",
-        "source": "The Verge",
-        "date": "2026-11-07 14:40",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "잘했어, 사이버트럭!",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Robot integration brings high-precision production to midmarket manufacturers",
-        "url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
-        "source": "The Robot Report",
-        "date": "2026-11-07 13:32",
-        "categoryId": "robotics",
-        "confidence": "C",
-        "stream": "news",
-        "category": "로봇·모빌리티",
-        "titleKo": "로봇 통합으로 미드마켓 제조업체에 고정밀 생산 제공",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+        "source": "Hacker News",
+        "date": "2026-11-08 20:26",
+        "categoryId": "chips",
+        "confidence": "D",
+        "stream": "community",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "엔비디아 이사회가 젠슨 황 (Jensen Huang) 에 대해 조사 중입니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "How I Fight AI Brain Fry",
+        "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+        "source": "Hacker News",
+        "date": "2026-11-08 19:37",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "인공지능 뇌 튀김과 싸우는 방법",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+        "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+        "source": "Hacker News",
+        "date": "2026-11-08 18:16",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Goldman Sachs는 은행가와 거래자로부터 Claude Code를 끌어오고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "OpenAI raises $11B at a $1.25T valuation",
         "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
@@ -593,58 +652,132 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Agent memory needs its OpenTelemetry moment",
-        "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-        "source": "Hacker News",
-        "date": "2026-11-08 08:40",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "상담원 메모리는 OpenTelemetry 순간을 필요로 합니다",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Goodbye Claude, hello Pi",
-        "url": "https://caleb.software/posts/claude-to-pi.html",
-        "source": "Hacker News",
-        "date": "2026-11-08 03:11",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "굿바이 클로드, 헬로 파이",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "GitHub New pull request overview page in public preview",
-        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-        "source": "Hacker News",
-        "date": "2026-11-07 23:09",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub 공개 미리 보기의 새로운 끌어오기 요청 개요 페이지",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch",
+      "date": "2026-11-08 21:00",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "엔비디아는 CEO 젠슨 황 (Jensen Huang) 과 중국 스파이와의 관계를 조사할 예정이다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source": "The Verge",
+      "date": "2026-11-08 20:55",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "엔비디아는 젠슨 황 (Jensen Huang) 과 중국 스파이의 관계를 조사하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "source": "Hacker News",
+      "date": "2026-11-08 20:26",
+      "categoryId": "chips",
+      "confidence": "D",
+      "stream": "community",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "엔비디아 이사회가 젠슨 황 (Jensen Huang) 에 대해 조사 중입니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
+      "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
+      "source": "TechCrunch",
+      "date": "2026-11-08 19:51",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "Roelof Botha가 SpaceX 보드에 합류했을 때 Sequoia 파트너가 실명했다고합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "source": "Hacker News",
+      "date": "2026-11-08 19:37",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "인공지능 뇌 튀김과 싸우는 방법",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "source": "The Verge",
+      "date": "2026-11-08 19:18",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Apple은 Siri를 보다 에이전트적으로 만들기 위해 경쟁하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source": "Hacker News",
+      "date": "2026-11-08 18:16",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Goldman Sachs는 은행가와 거래자로부터 Claude Code를 끌어오고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
       "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
@@ -778,22 +911,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Agent memory needs its OpenTelemetry moment",
-      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-      "source": "Hacker News",
-      "date": "2026-11-08 08:40",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "상담원 메모리는 OpenTelemetry 순간을 필요로 합니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "APOD: 2026 November 8 – Major Fireball Meteor",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
       "source": "NASA",
@@ -810,22 +927,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Goodbye Claude, hello Pi",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "source": "Hacker News",
-      "date": "2026-11-08 03:11",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "굿바이 클로드, 헬로 파이",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v16.5.0-canary.44",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.44",
       "source": "GitHub · Next.js",
@@ -840,22 +941,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "GitHub New pull request overview page in public preview",
-      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-      "source": "Hacker News",
-      "date": "2026-11-07 23:09",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "GitHub 공개 미리 보기의 새로운 끌어오기 요청 개요 페이지",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
@@ -1024,24 +1109,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Why a new report on Anthropic automating AI development is alarming researchers - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLUNwUWpsbVpwenM2Y3NvU2MzWU01UUptX2psb0NBbHhKWlpVQkgzSTJJNktuakkweXlpYjhLYjhETjJHRko4eC1UX2x4UW9LTlFSZmJnTVE3Q1RZR0kwSGoyQWdXYW9qMnlmcVdJY2JOTFMwZkt0TDJTbXhrZTBZbEdGWHEzMjBDX1R2aXBZUTVOTnB4Y2YzU0tTUGdJbS02ZXJGM0ppdWZkNDhRenc?oc=5",
-      "source": "The Verge",
-      "date": "2026-11-07 12:30",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic automating AI development에 대한 새로운 보고서가 연구자들을 놀라게 하는 이유 - The Verge",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
       "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
       "source": "The Hacker News",
@@ -1052,22 +1119,6 @@
       "category": "사이버보안",
       "titleKo": "Claude Code의 \"Don 't Ask Again\" 파일은 GitHub의 1,122개 공개 사본에 암호와 키를 노출합니다.",
       "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "AI broke the cybersecurity world. What’s next?",
-      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-      "source": "The Verge",
-      "date": "2026-11-07 05:43",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "인공지능이 사이버 보안 세계를 무너뜨렸습니다. 다음 단계 안내",
-      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1361,40 +1412,6 @@
       "titleKo": "Fox가 Roku를 구입했기 때문에 개발자는 Roku와의 수익성 있는 스크린세이버 거래를 종료합니다.",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "source": "TechCrunch",
-      "date": "2026-11-06 18:44",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "웹에 공개적으로 노출된 수백 개의 Artex AI 해킹 도구",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch",
-      "date": "2026-11-06 18:44",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Meta가 Muse 에이전트와 협업할 수 있는 새로운 방법인 Spaces를 소개합니다.",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1965,7 +1982,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 9. 오전 3:52",
+    "checkedAt": "2026. 11. 9. 오전 7:56",
     "mode": "매시간 공식 레이더"
   }
 }
