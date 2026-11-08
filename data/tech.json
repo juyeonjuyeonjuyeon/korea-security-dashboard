@@ -1,30 +1,31 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 9. 오전 12:43",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 9. 오전 3:52",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "NASA, 달 기지 챌린지를 위해 학생들에게 $ 1 백만 발표",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 15,
+    "recentCount": 16,
     "sourceCount": 23,
     "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
     "새 출시: NASA, 달 기지 챌린지를 위해 학생들에게 $ 1 백만 발표",
-    "창작 기술: Firefly, 새로운 AST SpaceMobile 'Blacklift' 로켓용 엔진 공급을 위해 13억 $ 규모의 계약 체결 - Reuters"
+    "창작 기술: 엘비스와 에미넴 권리 보유자들이 수노를 고소하고 있습니다"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 28,
-      "summary": "최근 인공지능 에이전트 실험은 기업 내부의 기계 '팀워크' 의 위험한 미래를 보여줍니다 - CNBC",
-      "latest": "2026-11-08 14:14",
+      "count": 27,
+      "summary": "엘비스와 에미넴 권리 보유자들이 수노를 고소하고 있습니다",
+      "latest": "2026-11-08 17:23",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T15:43:52.242Z",
+      "lastRefreshed": "2026-11-08T18:52:09.910Z",
       "themes": [
+        "음악·음성",
         "주요 기업"
       ]
     },
@@ -36,7 +37,7 @@
       "summary": "Llama-modchip: 64GB RAM에서 284B DeepSeek, GPU 없음",
       "latest": "2026-11-08 10:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T15:43:52.242Z",
+      "lastRefreshed": "2026-11-08T18:52:09.910Z",
       "themes": [
         "주요 기업"
       ]
@@ -45,22 +46,22 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 5,
-      "summary": "로봇 통합으로 미드마켓 제조업체에 고정밀 생산 제공",
-      "latest": "2026-11-07 13:32",
+      "count": 6,
+      "summary": "TechCrunch Mobility: Cybertruck 실험이 끝났습니다",
+      "latest": "2026-11-08 17:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T15:43:52.242Z",
+      "lastRefreshed": "2026-11-08T18:52:09.910Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 6,
-      "summary": "잘했어, 사이버트럭!",
-      "latest": "2026-11-07 14:40",
+      "count": 7,
+      "summary": "그는 해커를 체포한 후 18개월 동안 자신의 이름을 지웠습니다. 이제 그는 사이버 보안 VC입니다.",
+      "latest": "2026-11-08 17:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T15:43:52.242Z",
+      "lastRefreshed": "2026-11-08T18:52:09.910Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,7 +74,7 @@
       "summary": "NASA, 달 기지 챌린지를 위해 학생들에게 $ 1 백만 발표",
       "latest": "2026-11-08 15:26",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T15:43:52.242Z",
+      "lastRefreshed": "2026-11-08T18:52:09.910Z",
       "themes": [
         "미술·디자인"
       ]
@@ -82,11 +83,11 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 6,
+      "count": 5,
       "summary": "REDD — 새로운 테슬라 모델 Y 픽업",
       "latest": "2026-11-07 20:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-08T15:43:52.242Z",
+      "lastRefreshed": "2026-11-08T18:52:09.910Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,7 +100,7 @@
       "summary": "GitHub가 다시 다운되었나요?",
       "latest": "2026-11-08 09:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T15:43:52.242Z",
+      "lastRefreshed": "2026-11-08T18:52:09.910Z",
       "themes": [
         "기회"
       ]
@@ -204,22 +205,6 @@
         "layerLabel": "공식 발표·제품 원문"
       },
       {
-        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-        "source": "Hacker News",
-        "date": "2026-11-07 20:45",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
         "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
         "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
         "source": "NASA",
@@ -298,9 +283,43 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway",
+        "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
+        "source": "Vercel Changelog",
+        "date": "2026-11-07 00:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "이제 AI 게이트웨이에서 DeepSeek V4.1 Flash 1017 Ultrafast를 사용할 수 있습니다.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
+      {
+        "title": "Elvis and Eminem rights holders are suing Suno",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+        "source": "The Verge",
+        "date": "2026-11-08 17:23",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "엘비스와 에미넴 권리 보유자들이 수노를 고소하고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Firefly inks $1.3 billion deal to supply engines for new AST SpaceMobile 'Blacklift' rocket - Reuters",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdER6SncwY2FDQ0otWEhWbTQzNDJvTU00QTFOWUtEaXBMRjJpY3JuX0YtVkg5d1RuRWtidmxkQ1NaZVNvaXd4TkRIc0xvUHBaX3A4MFlPdlM4WXRoWk11YWQ0U3FXcDgtb3VBTGR1ZW1lQ2l3Tm1zXzRPQmtDemNNejZWdHhIZHdUZFF1dG1GVFd0akhRMXByZW5FdWJiTWFVQ2JBNUxSamh6SlE3ZUk0QjQzaURoZFJiaDBSV0JXbkxfMXpMYzJSX0ZIT09YQWJfT1F5dU53?oc=5",
@@ -323,6 +342,56 @@
     "opportunities": [],
     "voices": [],
     "analysis": [
+      {
+        "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
+        "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
+        "source": "TechCrunch",
+        "date": "2026-11-08 17:30",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "그는 해커를 체포한 후 18개월 동안 자신의 이름을 지웠습니다. 이제 그는 사이버 보안 VC입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Elvis and Eminem rights holders are suing Suno",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+        "source": "The Verge",
+        "date": "2026-11-08 17:23",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "엘비스와 에미넴 권리 보유자들이 수노를 고소하고 있습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "TechCrunch Mobility: The Cybertruck experiment is over",
+        "url": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
+        "source": "TechCrunch",
+        "date": "2026-11-08 17:02",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "TechCrunch Mobility: Cybertruck 실험이 끝났습니다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations - CNBC",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RZG5rV1RvYWVvM1lzN1ZTVkd1RVhXSW5GbGc1WERLUzdyRUk3WUczLTVwdUNNdnVRWmpYSTdhWkViRl9SRS1pandpUUJocDQ0eDlwSi1tQV80dEJQcWlDMXZn?oc=5",
@@ -472,59 +541,27 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
+      }
+    ],
+    "community": [
       {
-        "title": "Why a new report on Anthropic automating AI development is alarming researchers - The Verge",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLUNwUWpsbVpwenM2Y3NvU2MzWU01UUptX2psb0NBbHhKWlpVQkgzSTJJNktuakkweXlpYjhLYjhETjJHRko4eC1UX2x4UW9LTlFSZmJnTVE3Q1RZR0kwSGoyQWdXYW9qMnlmcVdJY2JOTFMwZkt0TDJTbXhrZTBZbEdGWHEzMjBDX1R2aXBZUTVOTnB4Y2YzU0tTUGdJbS02ZXJGM0ppdWZkNDhRenc?oc=5",
-        "source": "The Verge",
-        "date": "2026-11-07 12:30",
+        "title": "OpenAI raises $11B at a $1.25T valuation",
+        "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+        "source": "Hacker News",
+        "date": "2026-11-08 14:49",
         "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
+        "confidence": "D",
+        "stream": "community",
         "category": "인공지능",
-        "titleKo": "Anthropic automating AI development에 대한 새로운 보고서가 연구자들을 놀라게 하는 이유 - The Verge",
+        "titleKo": "OpenAI는 $ 1.25 T 평가에서 $ 11B를 올립니다",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
         ],
         "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
-      {
-        "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-        "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-        "source": "The Hacker News",
-        "date": "2026-11-07 06:44",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "Claude Code의 \"Don 't Ask Again\" 파일은 GitHub의 1,122개 공개 사본에 암호와 키를 노출합니다.",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI broke the cybersecurity world. What’s next?",
-        "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-        "source": "The Verge",
-        "date": "2026-11-07 05:43",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "인공지능이 사이버 보안 세계를 무너뜨렸습니다. 다음 단계 안내",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "community": [
       {
         "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
         "url": "https://github.com/synchopate/llama-modchip",
@@ -574,7 +611,7 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "Goodbye Claude, Hello Pi",
+        "title": "Goodbye Claude, hello Pi",
         "url": "https://caleb.software/posts/claude-to-pi.html",
         "source": "Hacker News",
         "date": "2026-11-08 03:11",
@@ -604,26 +641,60 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-        "source": "Hacker News",
-        "date": "2026-11-07 20:45",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
+      "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
+      "source": "TechCrunch",
+      "date": "2026-11-08 17:30",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "그는 해커를 체포한 후 18개월 동안 자신의 이름을 지웠습니다. 이제 그는 사이버 보안 VC입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge",
+      "date": "2026-11-08 17:23",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "엘비스와 에미넴 권리 보유자들이 수노를 고소하고 있습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "TechCrunch Mobility: The Cybertruck experiment is over",
+      "url": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
+      "source": "TechCrunch",
+      "date": "2026-11-08 17:02",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "TechCrunch Mobility: Cybertruck 실험이 끝났습니다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
       "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
@@ -639,6 +710,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "source": "Hacker News",
+      "date": "2026-11-08 14:49",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "OpenAI는 $ 1.25 T 평가에서 $ 11B를 올립니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations - CNBC",
@@ -721,7 +810,7 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Goodbye Claude, Hello Pi",
+      "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
       "source": "Hacker News",
       "date": "2026-11-08 03:11",
@@ -801,22 +890,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "source": "Hacker News",
-      "date": "2026-11-07 20:45",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "REDD — Picking Up Our New Tesla Model Y",
@@ -1063,24 +1136,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "source": "The Verge",
-      "date": "2026-11-06 23:46",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "경쟁사인 Anthropic이 IPO에 근접함에 따라 OpenAI의 가치는 $ 1.25 조로 평가되었습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v16.5.0-canary.43",
@@ -1429,22 +1484,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "source": "TechCrunch",
-      "date": "2026-11-06 17:23",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "중간고사 이후, 인공지능 산업은 약 2년 동안 지속될 것인가?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Vercel Tracing is now generally available",
       "url": "https://vercel.com/changelog/vercel-tracing-is-now-generally-available",
       "source": "Vercel Changelog",
@@ -1459,22 +1498,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
-      "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
-      "source": "TechCrunch",
-      "date": "2026-11-06 16:50",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "펜타곤, 미국 공장 건설을 위해 배터리 스타트업 6천 $ 2억 5천만 달러 대출 제공",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "M30’s Sparkling Stars",
@@ -1938,11 +1961,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 9. 오전 12:43",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 9. 오전 3:52",
+    "mode": "매시간 공식 레이더"
   }
 }
