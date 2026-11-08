@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 8. 오후 3:14",
+  "updatedAt": "2026. 11. 8. 오후 10:37",
   "updateMode": "공식 채널 매시간 점검",
-  "headline": "APOD: 2026 11월 8일 – 메이저 파이어볼 유성",
+  "headline": "GitHub가 다시 다운되었나요?",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 18,
+    "recentCount": 16,
     "sourceCount": 23,
     "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: APOD: 2026 11월 8일 – 메이저 파이어볼 유성",
+    "새 출시: GitHub가 다시 다운되었나요?",
     "창작 기술: Firefly, 새로운 AST SpaceMobile 'Blacklift' 로켓용 엔진 공급을 위해 13억 $ 규모의 계약 체결 - Reuters"
   ],
   "categories": [
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 29,
-      "summary": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
-      "latest": "2026-11-07 20:45",
+      "count": 28,
+      "summary": "굿바이 클로드, 헬로 파이",
+      "latest": "2026-11-08 03:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T06:14:02.472Z",
+      "lastRefreshed": "2026-11-08T13:37:27.617Z",
       "themes": [
         "주요 기업"
       ]
@@ -36,7 +36,7 @@
       "summary": "미국 정보 메모에 따르면 엔비디아 CEO를 감시하기 위해 Megaspeed EXEC을 모집했다고 합니다.",
       "latest": "2026-11-07 21:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T06:14:02.472Z",
+      "lastRefreshed": "2026-11-08T13:37:27.617Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,7 +49,7 @@
       "summary": "로봇 통합으로 미드마켓 제조업체에 고정밀 생산 제공",
       "latest": "2026-11-07 13:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T06:14:02.472Z",
+      "lastRefreshed": "2026-11-08T13:37:27.617Z",
       "themes": []
     },
     {
@@ -60,7 +60,7 @@
       "summary": "잘했어, 사이버트럭!",
       "latest": "2026-11-07 14:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T06:14:02.472Z",
+      "lastRefreshed": "2026-11-08T13:37:27.617Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,7 +73,7 @@
       "summary": "APOD: 2026 11월 8일 – 메이저 파이어볼 유성",
       "latest": "2026-11-08 05:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T06:14:02.472Z",
+      "lastRefreshed": "2026-11-08T13:37:27.617Z",
       "themes": [
         "미술·디자인"
       ]
@@ -86,7 +86,7 @@
       "summary": "REDD — 새로운 테슬라 모델 Y 픽업",
       "latest": "2026-11-07 20:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-08T06:14:02.472Z",
+      "lastRefreshed": "2026-11-08T13:37:27.617Z",
       "themes": [
         "주요 기업"
       ]
@@ -95,11 +95,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
-      "summary": "v16.5.0-canary.44",
-      "latest": "2026-11-07 23:41",
+      "count": 20,
+      "summary": "GitHub가 다시 다운되었나요?",
+      "latest": "2026-11-08 09:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T06:14:02.472Z",
+      "lastRefreshed": "2026-11-08T13:37:27.617Z",
       "themes": [
         "기회"
       ]
@@ -107,6 +107,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "GitHub Down Again?",
+        "url": "https://github.com/torvalds/linux",
+        "source": "Hacker News",
+        "date": "2026-11-08 09:56",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub가 다시 다운되었나요?",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "APOD: 2026 November 8 – Major Fireball Meteor",
         "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
@@ -277,22 +293,6 @@
         "stream": "release",
         "category": "소프트웨어·개발",
         "titleKo": "이제 AI 게이트웨이에서 DeepSeek V4.1 Flash 1017 Ultrafast를 사용할 수 있습니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.5.0-canary.43",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.43",
-        "source": "GitHub · Next.js",
-        "date": "2026-11-06 23:41",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.5.0-canary.43",
         "type": "출시·업데이트",
         "themes": [],
         "official": true,
@@ -526,6 +526,38 @@
     ],
     "community": [
       {
+        "title": "GitHub Down Again?",
+        "url": "https://github.com/torvalds/linux",
+        "source": "Hacker News",
+        "date": "2026-11-08 09:56",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub가 다시 다운되었나요?",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Goodbye Claude, Hello Pi",
+        "url": "https://caleb.software/posts/claude-to-pi.html",
+        "source": "Hacker News",
+        "date": "2026-11-08 03:11",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "굿바이 클로드, 헬로 파이",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "GitHub New pull request overview page in public preview",
         "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
         "source": "Hacker News",
@@ -592,42 +624,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "The Components of Agent Memory",
-        "url": "https://www.anthropic.com/research/components-of-agent-memory",
-        "source": "Hacker News",
-        "date": "2026-11-07 06:39",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "상담원 메모리의 구성 요소",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "AI is dramatically accelerating AI research",
-        "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-        "source": "Hacker News",
-        "date": "2026-11-06 20:27",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "AI는 AI 연구를 획기적으로 가속화하고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "GitHub Down Again?",
+      "url": "https://github.com/torvalds/linux",
+      "source": "Hacker News",
+      "date": "2026-11-08 09:56",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub가 다시 다운되었나요?",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "APOD: 2026 November 8 – Major Fireball Meteor",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
@@ -643,6 +659,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "source": "Hacker News",
+      "date": "2026-11-08 03:11",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "굿바이 클로드, 헬로 파이",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v16.5.0-canary.44",
@@ -909,22 +941,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The Components of Agent Memory",
-      "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "source": "Hacker News",
-      "date": "2026-11-07 06:39",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "상담원 메모리의 구성 요소",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "AI broke the cybersecurity world. What’s next?",
@@ -1217,22 +1233,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "AI is dramatically accelerating AI research",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "source": "Hacker News",
-      "date": "2026-11-06 20:27",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI는 AI 연구를 획기적으로 가속화하고 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
@@ -1948,7 +1948,7 @@
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 8. 오후 3:14",
+    "checkedAt": "2026. 11. 8. 오후 10:37",
     "mode": "매시간 공식 레이더"
   }
 }
