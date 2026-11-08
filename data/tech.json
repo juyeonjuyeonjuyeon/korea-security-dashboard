@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 8. 오전 9:13",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v16.5.0-canary.44",
+  "updatedAt": "2026. 11. 8. 오후 3:14",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "APOD: 2026 11월 8일 – 메이저 파이어볼 유성",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 20,
+    "recentCount": 18,
     "sourceCount": 23,
     "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: v16.5.0-canary.44",
+    "새 출시: APOD: 2026 11월 8일 – 메이저 파이어볼 유성",
     "창작 기술: Firefly, 새로운 AST SpaceMobile 'Blacklift' 로켓용 엔진 공급을 위해 13억 $ 규모의 계약 체결 - Reuters"
   ],
   "categories": [
@@ -23,7 +23,7 @@
       "summary": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
       "latest": "2026-11-07 20:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T00:13:49.430Z",
+      "lastRefreshed": "2026-11-08T06:14:02.472Z",
       "themes": [
         "주요 기업"
       ]
@@ -36,7 +36,7 @@
       "summary": "미국 정보 메모에 따르면 엔비디아 CEO를 감시하기 위해 Megaspeed EXEC을 모집했다고 합니다.",
       "latest": "2026-11-07 21:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T00:13:49.430Z",
+      "lastRefreshed": "2026-11-08T06:14:02.472Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,7 +49,7 @@
       "summary": "로봇 통합으로 미드마켓 제조업체에 고정밀 생산 제공",
       "latest": "2026-11-07 13:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T00:13:49.430Z",
+      "lastRefreshed": "2026-11-08T06:14:02.472Z",
       "themes": []
     },
     {
@@ -60,7 +60,7 @@
       "summary": "잘했어, 사이버트럭!",
       "latest": "2026-11-07 14:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T00:13:49.430Z",
+      "lastRefreshed": "2026-11-08T06:14:02.472Z",
       "themes": [
         "주요 기업"
       ]
@@ -69,13 +69,12 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 11,
-      "summary": "NASA 시상식 달 기지 운송, 기술, 과학 프로젝트",
-      "latest": "2026-11-07 22:47",
+      "count": 10,
+      "summary": "APOD: 2026 11월 8일 – 메이저 파이어볼 유성",
+      "latest": "2026-11-08 05:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T00:13:49.430Z",
+      "lastRefreshed": "2026-11-08T06:14:02.472Z",
       "themes": [
-        "주요 기업",
         "미술·디자인"
       ]
     },
@@ -87,7 +86,7 @@
       "summary": "REDD — 새로운 테슬라 모델 Y 픽업",
       "latest": "2026-11-07 20:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-08T00:13:49.430Z",
+      "lastRefreshed": "2026-11-08T06:14:02.472Z",
       "themes": [
         "주요 기업"
       ]
@@ -96,11 +95,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 18,
+      "count": 19,
       "summary": "v16.5.0-canary.44",
       "latest": "2026-11-07 23:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-08T00:13:49.430Z",
+      "lastRefreshed": "2026-11-08T06:14:02.472Z",
       "themes": [
         "기회"
       ]
@@ -108,6 +107,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "APOD: 2026 November 8 – Major Fireball Meteor",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+        "source": "NASA",
+        "date": "2026-11-08 05:05",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "APOD: 2026 11월 8일 – 메이저 파이어볼 유성",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.5.0-canary.44",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.44",
@@ -123,6 +138,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "GitHub New pull request overview page in public preview",
+        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+        "source": "Hacker News",
+        "date": "2026-11-07 23:09",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub 공개 미리 보기의 새로운 끌어오기 요청 개요 페이지",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
@@ -263,38 +294,6 @@
         "category": "소프트웨어·개발",
         "titleKo": "v16.5.0-canary.43",
         "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-        "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-        "source": "GitHub Changelog",
-        "date": "2026-11-06 22:17",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Copilot Impact 대시보드에 채팅 및 VS Code 상담원 사용 추가",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "GitHub Copilot weekly releases — November 2",
-        "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-        "source": "GitHub Changelog",
-        "date": "2026-11-06 21:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub Copilot 주간 릴리스 — 11월 2일",
-        "type": "오픈소스",
         "themes": [],
         "official": true,
         "sourceLayer": "official",
@@ -527,6 +526,22 @@
     ],
     "community": [
       {
+        "title": "GitHub New pull request overview page in public preview",
+        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+        "source": "Hacker News",
+        "date": "2026-11-07 23:09",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub 공개 미리 보기의 새로운 끌어오기 요청 개요 페이지",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
         "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
         "source": "Hacker News",
@@ -609,28 +624,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Democrats launching congressional investigations into SpaceXAI, META and Apple",
-        "url": "https://www.washingtonpost.com/technology/2026/11/06/after-courting-trump-corporate-america-faces-democratic-reckoning/",
-        "source": "Hacker News",
-        "date": "2026-11-06 19:24",
-        "categoryId": "space",
-        "confidence": "D",
-        "stream": "community",
-        "category": "우주·통신",
-        "titleKo": "SpaceXAI, META 및 Apple에 대한 의회 조사를 시작하는 민주당원",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "APOD: 2026 November 8 – Major Fireball Meteor",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+      "source": "NASA",
+      "date": "2026-11-08 05:05",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "APOD: 2026 11월 8일 – 메이저 파이어볼 유성",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "v16.5.0-canary.44",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.44",
@@ -646,6 +659,22 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "GitHub New pull request overview page in public preview",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "source": "Hacker News",
+      "date": "2026-11-07 23:09",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub 공개 미리 보기의 새로운 끌어오기 요청 개요 페이지",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
@@ -1256,24 +1285,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Democrats launching congressional investigations into SpaceXAI, META and Apple",
-      "url": "https://www.washingtonpost.com/technology/2026/11/06/after-courting-trump-corporate-america-faces-democratic-reckoning/",
-      "source": "Hacker News",
-      "date": "2026-11-06 19:24",
-      "categoryId": "space",
-      "confidence": "D",
-      "stream": "community",
-      "category": "우주·통신",
-      "titleKo": "SpaceXAI, META 및 Apple에 대한 의회 조사를 시작하는 민주당원",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
       "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
       "source": "TechCrunch",
@@ -1674,22 +1685,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "APOD: 2026 November 6 – A Farewell to Swift",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
-      "source": "NASA",
-      "date": "2026-11-06 05:05",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "APOD: 2026년 11월 6일 – Swift와의 작별",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
       "url": "https://arxiv.org/abs/2611.06962",
       "source": "arXiv cs.AI",
@@ -1949,11 +1944,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 8. 오전 9:13",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 8. 오후 3:14",
+    "mode": "매시간 공식 레이더"
   }
 }
