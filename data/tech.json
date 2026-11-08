@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 8. 오전 8:42",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 11. 8. 오전 9:13",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "v16.5.0-canary.44",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 21,
+    "recentCount": 20,
     "sourceCount": 23,
     "officialCount": 28,
     "opportunityCount": 0
@@ -19,11 +19,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 28,
-      "summary": "Microsoft Research의 AI Frontiers 그룹의 끝",
-      "latest": "2026-11-07 18:02",
+      "count": 29,
+      "summary": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
+      "latest": "2026-11-07 20:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-07T23:42:14.142Z",
+      "lastRefreshed": "2026-11-08T00:13:49.430Z",
       "themes": [
         "주요 기업"
       ]
@@ -36,7 +36,7 @@
       "summary": "미국 정보 메모에 따르면 엔비디아 CEO를 감시하기 위해 Megaspeed EXEC을 모집했다고 합니다.",
       "latest": "2026-11-07 21:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-07T23:42:14.142Z",
+      "lastRefreshed": "2026-11-08T00:13:49.430Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,7 +49,7 @@
       "summary": "로봇 통합으로 미드마켓 제조업체에 고정밀 생산 제공",
       "latest": "2026-11-07 13:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-07T23:42:14.142Z",
+      "lastRefreshed": "2026-11-08T00:13:49.430Z",
       "themes": []
     },
     {
@@ -60,7 +60,7 @@
       "summary": "잘했어, 사이버트럭!",
       "latest": "2026-11-07 14:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-07T23:42:14.142Z",
+      "lastRefreshed": "2026-11-08T00:13:49.430Z",
       "themes": [
         "주요 기업"
       ]
@@ -73,7 +73,7 @@
       "summary": "NASA 시상식 달 기지 운송, 기술, 과학 프로젝트",
       "latest": "2026-11-07 22:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-07T23:42:14.142Z",
+      "lastRefreshed": "2026-11-08T00:13:49.430Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -87,7 +87,7 @@
       "summary": "REDD — 새로운 테슬라 모델 Y 픽업",
       "latest": "2026-11-07 20:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-07T23:42:14.142Z",
+      "lastRefreshed": "2026-11-08T00:13:49.430Z",
       "themes": [
         "주요 기업"
       ]
@@ -96,11 +96,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 19,
+      "count": 18,
       "summary": "v16.5.0-canary.44",
       "latest": "2026-11-07 23:41",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-07T23:42:14.142Z",
+      "lastRefreshed": "2026-11-08T00:13:49.430Z",
       "themes": [
         "기회"
       ]
@@ -139,6 +139,22 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+        "source": "Hacker News",
+        "date": "2026-11-07 20:45",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
@@ -279,22 +295,6 @@
         "category": "소프트웨어·개발",
         "titleKo": "GitHub Copilot 주간 릴리스 — 11월 2일",
         "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Chat SDK agents can now stream generative UI with json-render",
-        "url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents",
-        "source": "Vercel Changelog",
-        "date": "2026-11-06 21:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "Chat SDK 상담원은 이제 json-render를 사용하여 생성 UI를 스트리밍할 수 있습니다.",
-        "type": "출시·업데이트",
         "themes": [],
         "official": true,
         "sourceLayer": "official",
@@ -527,6 +527,22 @@
     ],
     "community": [
       {
+        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+        "source": "Hacker News",
+        "date": "2026-11-07 20:45",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
+        "type": "오픈소스",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "The end of Microsoft Research's AI Frontiers group",
         "url": "https://hunch.net/?p=13764006",
         "source": "Hacker News",
@@ -611,22 +627,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "GitHub's new Git storage architecture",
-        "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-        "source": "Hacker News",
-        "date": "2026-11-06 19:24",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub의 새로운 Git 스토리지 아키텍처",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -680,6 +680,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "source": "Hacker News",
+      "date": "2026-11-07 20:45",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Claude Code의 \"Don 't Ask Again\" 은 1,122개의 공개 GitHub 파일에 암호를 노출합니다.",
+      "type": "오픈소스",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "REDD — Picking Up Our New Tesla Model Y",
@@ -1253,22 +1269,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "GitHub's new Git storage architecture",
-      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-      "source": "Hacker News",
-      "date": "2026-11-06 19:24",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "GitHub의 새로운 Git 스토리지 아키텍처",
-      "type": "오픈소스",
-      "themes": [],
       "official": false,
       "sourceLayer": "community",
       "layerLabel": "커뮤니티 신호"
@@ -1933,7 +1933,7 @@
     },
     {
       "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now' - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONG85QmJuZGVEWUIxSW4ybHJPVmN2RmR2VjBTdnkydmZSOGV6YllsWEUtbVpYclRTSWhQS09EZGxJSllyY0otS1QtQVdVY3BhY0ZqMWxfR25WeWo3Q3d5LUg5dVZrUGRneGh2LTRBQjY3SERxNTdLaXNkaU9VaHVPb0lKQW10WmvSAYwBQVVfeXFMTWdsc2pjdEpUS1NXdWRzcld3SFp2eVBhWkU2NWNOTXRsUS1WbTNRVlg3S0ZRalhiYnR5WTNKQUxiR1JXNkI3b3ItbnBsZkdoZE9lbWJkVFB1eTFwMFluVFNobUtfLU1sTUJPSlRVSU1IUnRhYXFPVzNEc0NRempsZGM3MTFTVFZSUGUzS0Y?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONG85QmJuZGVEWUIxSW4ybHJPVmN2RmR2VjBTdnkydmZSOGV6YllsWEUtbVpYclRTSWhQS09EZGxJSllyY0otS1QtQVdVY3BhY0ZqMWxfR25WeWo3Q3d5LUg5dVZrUGRneGh2LTRBQjY3SERxNTdLaXNkaU9VaHVPb0lKQW10Wms?oc=5",
       "source": "CNBC",
       "date": "2026-11-05 20:16",
       "categoryId": "ai",
@@ -1949,11 +1949,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 8. 오전 8:42",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 11. 8. 오전 9:13",
+    "mode": "하루 2회 전체 수집"
   }
 }
