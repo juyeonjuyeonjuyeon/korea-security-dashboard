@@ -1,30 +1,31 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 9. 오전 9:36",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 9. 오전 11:42",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.45",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 18,
+    "recentCount": 19,
     "sourceCount": 22,
     "officialCount": 29,
     "opportunityCount": 0
   },
   "summary": [
     "새 출시: v16.5.0-canary.45",
-    "창작 기술: 엘비스와 에미넴 권리 보유자들이 수노를 고소하고 있습니다"
+    "창작 기술: 미디어의 피벗-투-비디오 2.0 속도를 저하시킬 필요가 없습니다"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 25,
-      "summary": "KetchUp – Rust 및 WebGPU로 빌드된 오픈 소스 SketchUp 대안",
-      "latest": "2026-11-08 22:35",
+      "count": 26,
+      "summary": "미디어의 피벗-투-비디오 2.0 속도를 저하시킬 필요가 없습니다",
+      "latest": "2026-11-09 02:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-09T00:36:17.859Z",
+      "lastRefreshed": "2026-11-09T02:42:58.794Z",
       "themes": [
+        "영상",
         "주요 기업",
         "음악·음성"
       ]
@@ -33,11 +34,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 10,
-      "summary": "다음은 엔비디아에 보낸 Jensen Huang의 메모 전문입니다.",
-      "latest": "2026-11-08 22:54",
+      "count": 9,
+      "summary": "엔비디아는 젠슨 황 (Jensen Huang) 과 중국 스파이의 관계를 조사하고 있습니다.",
+      "latest": "2026-11-09 02:24",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-09T00:36:17.859Z",
+      "lastRefreshed": "2026-11-09T02:42:58.794Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +51,7 @@
       "summary": "TechCrunch Mobility: Cybertruck 실험이 끝났습니다",
       "latest": "2026-11-08 17:02",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-09T00:36:17.859Z",
+      "lastRefreshed": "2026-11-09T02:42:58.794Z",
       "themes": []
     },
     {
@@ -61,7 +62,7 @@
       "summary": "그는 해커를 체포한 후 18개월 동안 자신의 이름을 지웠습니다. 이제 그는 사이버 보안 VC입니다.",
       "latest": "2026-11-08 17:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-09T00:36:17.859Z",
+      "lastRefreshed": "2026-11-09T02:42:58.794Z",
       "themes": [
         "주요 기업"
       ]
@@ -74,7 +75,7 @@
       "summary": "Roelof Botha가 SpaceX 보드에 합류했을 때 Sequoia 파트너가 실명했다고합니다.",
       "latest": "2026-11-08 19:51",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-09T00:36:17.859Z",
+      "lastRefreshed": "2026-11-09T02:42:58.794Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -88,7 +89,7 @@
       "summary": "REDD — 새로운 테슬라 모델 Y 픽업",
       "latest": "2026-11-07 20:42",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-09T00:36:17.859Z",
+      "lastRefreshed": "2026-11-09T02:42:58.794Z",
       "themes": [
         "주요 기업"
       ]
@@ -101,7 +102,7 @@
       "summary": "v16.5.0-canary.45",
       "latest": "2026-11-08 23:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-09T00:36:17.859Z",
+      "lastRefreshed": "2026-11-09T02:42:58.794Z",
       "themes": [
         "기회"
       ]
@@ -304,6 +305,24 @@
     ],
     "creative": [
       {
+        "title": "There’s no slowing down media’s pivot-to-video 2.0",
+        "url": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
+        "source": "The Verge",
+        "date": "2026-11-09 02:24",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "미디어의 피벗-투-비디오 2.0 속도를 저하시킬 필요가 없습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Elvis and Eminem rights holders are suing Suno",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
         "source": "The Verge",
@@ -344,6 +363,42 @@
     "voices": [],
     "analysis": [
       {
+        "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+        "source": "The Verge",
+        "date": "2026-11-09 02:24",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "엔비디아는 젠슨 황 (Jensen Huang) 과 중국 스파이의 관계를 조사하고 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "There’s no slowing down media’s pivot-to-video 2.0",
+        "url": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
+        "source": "The Verge",
+        "date": "2026-11-09 02:24",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "미디어의 피벗-투-비디오 2.0 속도를 저하시킬 필요가 없습니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "영상"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
         "source": "The Verge",
@@ -371,24 +426,6 @@
         "stream": "news",
         "category": "반도체·컴퓨팅",
         "titleKo": "엔비디아는 CEO 젠슨 황 (Jensen Huang) 과 중국 스파이와의 관계를 조사할 예정이다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-        "source": "The Verge",
-        "date": "2026-11-08 20:55",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아는 젠슨 황 (Jensen Huang) 과 중국 스파이의 관계를 조사하고 있습니다.",
         "type": "뉴스·분석",
         "themes": [
           "주요 기업"
@@ -534,22 +571,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-        "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-        "source": "The Verge",
-        "date": "2026-11-07 15:47",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "NYT Cooking의 AI 비서가 주중 치킨을 구해줬지만 케이크를 망칠 뻔 했어요",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -659,6 +680,42 @@
   },
   "news": [
     {
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source": "The Verge",
+      "date": "2026-11-09 02:24",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "엔비디아는 젠슨 황 (Jensen Huang) 과 중국 스파이의 관계를 조사하고 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "There’s no slowing down media’s pivot-to-video 2.0",
+      "url": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
+      "source": "The Verge",
+      "date": "2026-11-09 02:24",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "미디어의 피벗-투-비디오 2.0 속도를 저하시킬 필요가 없습니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "영상"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.5.0-canary.45",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.45",
       "source": "GitHub · Next.js",
@@ -736,24 +793,6 @@
       "stream": "news",
       "category": "반도체·컴퓨팅",
       "titleKo": "엔비디아는 CEO 젠슨 황 (Jensen Huang) 과 중국 스파이와의 관계를 조사할 예정이다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-      "source": "The Verge",
-      "date": "2026-11-08 20:55",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "엔비디아는 젠슨 황 (Jensen Huang) 과 중국 스파이의 관계를 조사하고 있습니다.",
       "type": "뉴스·분석",
       "themes": [
         "주요 기업"
@@ -1060,24 +1099,6 @@
       "titleKo": "NYT Cooking의 AI 비서가 주중 치킨을 구해줬지만 케이크를 망칠 뻔 했어요",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "source": "The Verge",
-      "date": "2026-11-07 15:43",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "미국은 Nvidia가 중국의 빈 사무실에 칩을 판매하도록 허용했습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1984,11 +2005,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 9. 오전 9:36",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 9. 오전 11:42",
+    "mode": "매시간 공식 레이더"
   }
 }
