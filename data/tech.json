@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 16. 오전 1:01",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "모든 AI 생성 코드는 오픈 소스여야 합니다.",
+  "updatedAt": "2026. 11. 16. 오전 2:48",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v0.45.4",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 23,
+    "recentCount": 20,
     "sourceCount": 29,
-    "officialCount": 19,
+    "officialCount": 20,
     "opportunityCount": 0
   },
   "summary": [
-    "새 출시: 모든 AI 생성 코드는 오픈 소스여야 합니다.",
+    "새 출시: v0.45.4",
     "창작 기술: FBI, 북한 해커들이 딥페이크 화상 통화를 이용해 4억 달러 이상의 암호화폐를 탈취했다고 밝혀",
     "인물 발언: 머스크, \"젠슨 황이 없으면 엔비디아는 '중요한' 거래를 잃을 것\" - 로이터"
   ],
@@ -21,10 +21,10 @@
       "code": "AI",
       "label": "인공지능",
       "count": 22,
-      "summary": "모든 AI 생성 코드는 오픈 소스여야 합니다.",
-      "latest": "2026-11-15 14:46",
+      "summary": "v0.45.4",
+      "latest": "2026-11-15 17:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T16:01:45.645Z",
+      "lastRefreshed": "2026-11-15T17:48:30.890Z",
       "themes": [
         "주요 기업"
       ]
@@ -34,10 +34,10 @@
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
       "count": 12,
-      "summary": "럿닉, 자신의 가족 사업과 겹치는 반도체 규제 완화에 힘쓰다",
-      "latest": "2026-11-15 11:40",
+      "summary": "TechCrunch Mobility: 중국 자율주행 산업을 위한 엔비디아의 백업 플랜",
+      "latest": "2026-11-15 17:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T16:01:45.645Z",
+      "lastRefreshed": "2026-11-15T17:48:30.890Z",
       "themes": [
         "주요 기업"
       ]
@@ -50,7 +50,7 @@
       "summary": "소니 아이보는 개처럼 생긴 로봇 혁명이었죠.",
       "latest": "2026-11-15 13:57",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T16:01:45.645Z",
+      "lastRefreshed": "2026-11-15T17:48:30.890Z",
       "themes": [
         "영상"
       ]
@@ -63,7 +63,7 @@
       "summary": "커서, 도난당한 Fireworks AI 키가 트로이목마에 감염된 Claude Code 확장 프로그램 사건으로 이어졌다고 밝혀",
       "latest": "2026-11-15 08:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T16:01:45.645Z",
+      "lastRefreshed": "2026-11-15T17:48:30.890Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -77,7 +77,7 @@
       "summary": "스페이스X, 토요일에 스타십 로켓 귀환... 하지만 문제가 있음",
       "latest": "2026-11-15 00:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T16:01:45.645Z",
+      "lastRefreshed": "2026-11-15T17:48:30.890Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +90,7 @@
       "summary": "Sonnen, SOLRITE, ADAPT Energy, VPP 차단기를 통합하여 가정용 부하를 유연한 그리드 자산으로 전환",
       "latest": "2026-11-15 04:39",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-15T16:01:45.645Z",
+      "lastRefreshed": "2026-11-15T17:48:30.890Z",
       "themes": [
         "주요 기업"
       ]
@@ -103,7 +103,7 @@
       "summary": "v16.5.0-canary.51",
       "latest": "2026-11-14 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T16:01:45.645Z",
+      "lastRefreshed": "2026-11-15T17:48:30.890Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -112,6 +112,22 @@
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.45.4",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.4",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-11-15 17:00",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.45.4",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "All AI-generated code should be Open Source",
         "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
@@ -293,22 +309,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Token Pass now includes $150 in tokens for $30/month",
-        "url": "https://vercel.com/changelog/vercel-token-pass-now-includes-one-hundred-fifty-dollars-of-monthly-tokens",
-        "source": "Vercel Changelog",
-        "date": "2026-11-13 18:42",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "이제 토큰 패스에 월 $30에 $150 상당의 토큰이 포함됩니다.",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -386,27 +386,27 @@
         "official": false,
         "sourceLayer": "verified",
         "layerLabel": "주요 언론 확인"
-      },
+      }
+    ],
+    "analysis": [
       {
-        "title": "Trump Says Jensen Huang Is 'Going Through Hell' After Nvidia Exit—Touts Tim Cook As Replacement Again - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNOHhxYzN1NTVhUU9FY1UtY0xaY2h0RWcxUVBKLUs5LWxlYVpLemJzTmNxYXVYUm5yT2N5ZUtWZW9SNjBxU1c4MGkwQTBzd2RHUVFDcjJZRkVYLWs3U240V0hxLURZZE1PeXpIanFnZ3JlQXZacFFqMWtxZjNlMVA5aHBWVFJEcUI1a2hvczJSX2tuUXdZZTBWNjJlNDc2ekVlVjNfT2M2X2dXT0VIeGh6RlFYVUw0LWNTSGVKQ1FfekFHMllkbW5MTElyVXlRa1VGVXJOakhDaDFud2RaNlVKVk9MQnhPcnpn?oc=5",
-        "source": "Forbes",
-        "date": "2026-11-13 06:41",
+        "title": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
+        "url": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+        "source": "TechCrunch",
+        "date": "2026-11-15 17:05",
         "categoryId": "chips",
         "confidence": "C",
-        "stream": "people",
+        "stream": "news",
         "category": "반도체·컴퓨팅",
-        "titleKo": "Trump Says Jensen Huang Is 'Going Through Hell' After Nvidia Exit—Touts Tim Cook As Replacement Again - Forbes",
-        "type": "인물 발언",
+        "titleKo": "TechCrunch Mobility: 중국 자율주행 산업을 위한 엔비디아의 백업 플랜",
+        "type": "뉴스·분석",
         "themes": [
           "주요 기업"
         ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "analysis": [
+      },
       {
         "title": "The Sony Aibo was a robot revolution dressed like a dog",
         "url": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
@@ -596,22 +596,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "AI Businesses Still Bleeding Billions",
-        "url": "https://cleantechnica.com/2026/11/14/ai-businesses-still-bleeding-billions/",
-        "source": "CleanTechnica",
-        "date": "2026-11-14 19:08",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "AI 기업들은 여전히 수십억 달러의 손실을 보고 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -720,6 +704,40 @@
     ]
   },
   "news": [
+    {
+      "title": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
+      "url": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+      "source": "TechCrunch",
+      "date": "2026-11-15 17:05",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "TechCrunch Mobility: 중국 자율주행 산업을 위한 엔비디아의 백업 플랜",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.45.4",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.4",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-11-15 17:00",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.45.4",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "All AI-generated code should be Open Source",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
@@ -1358,22 +1376,6 @@
       "themes": [
         "주요 기업"
       ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "source": "TechCrunch",
-      "date": "2026-11-13 22:43",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "벤처캐피털과 창업자들은 젠슨 황의 퇴장이 AI 스타트업 자금 조달에 큰 구멍을 냈다고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2051,32 +2053,14 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "Trump Says Jensen Huang Is 'Going Through Hell' After Nvidia Exit—Touts Tim Cook As Replacement Again - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNOHhxYzN1NTVhUU9FY1UtY0xaY2h0RWcxUVBKLUs5LWxlYVpLemJzTmNxYXVYUm5yT2N5ZUtWZW9SNjBxU1c4MGkwQTBzd2RHUVFDcjJZRkVYLWs3U240V0hxLURZZE1PeXpIanFnZ3JlQXZacFFqMWtxZjNlMVA5aHBWVFJEcUI1a2hvczJSX2tuUXdZZTBWNjJlNDc2ekVlVjNfT2M2X2dXT0VIeGh6RlFYVUw0LWNTSGVKQ1FfekFHMllkbW5MTElyVXlRa1VGVXJOakhDaDFud2RaNlVKVk9MQnhPcnpn?oc=5",
-      "source": "Forbes",
-      "date": "2026-11-13 06:41",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "people",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Trump Says Jensen Huang Is 'Going Through Hell' After Nvidia Exit—Touts Tim Cook As Replacement Again - Forbes",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 11. 16. 오전 1:01",
-    "mode": "하루 2회 전체 수집"
+    "officialSources": 10,
+    "checkedAt": "2026. 11. 16. 오전 2:48",
+    "mode": "매시간 공식 레이더"
   }
 }
