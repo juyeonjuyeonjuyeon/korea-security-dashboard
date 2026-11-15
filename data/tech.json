@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 15. 오전 9:49",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 15. 오전 11:46",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.51",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 29,
+    "recentCount": 31,
     "sourceCount": 28,
-    "officialCount": 22,
+    "officialCount": 21,
     "opportunityCount": 0
   },
   "summary": [
@@ -24,7 +24,7 @@
       "summary": "AI 묘지: 실패한 프로젝트와 스타트업 목록",
       "latest": "2026-11-14 17:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T00:49:47.840Z",
+      "lastRefreshed": "2026-11-15T02:46:10.122Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -38,7 +38,7 @@
       "summary": "Nvidia의 보안팀은 어디에 있었습니까?",
       "latest": "2026-11-15 00:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T00:49:47.840Z",
+      "lastRefreshed": "2026-11-15T02:46:10.122Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "AGIBOT G2 로봇 6대가 24시간 상하이 편의점 시범 운영에서 1,730건의 작업을 완료했습니다.",
       "latest": "2026-11-13 16:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T00:49:47.840Z",
+      "lastRefreshed": "2026-11-15T02:46:10.122Z",
       "themes": [
         "영상"
       ]
@@ -64,7 +64,7 @@
       "summary": "테슬라, 지리적 제한 및 월 299달러의 수수료가 적용되는 '개인용' 사이버캡 사전 주문 개시",
       "latest": "2026-11-14 20:04",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T00:49:47.840Z",
+      "lastRefreshed": "2026-11-15T02:46:10.122Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -74,11 +74,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 16,
-      "summary": "스타십 포착으로 SpaceX는 여전히 세상을 놀라게 할 수 있음을 보여줍니다.",
+      "count": 17,
+      "summary": "스페이스X, 토요일에 스타십 로켓 귀환... 하지만 문제가 있음",
       "latest": "2026-11-15 00:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T00:49:47.840Z",
+      "lastRefreshed": "2026-11-15T02:46:10.122Z",
       "themes": [
         "주요 기업"
       ]
@@ -88,24 +88,23 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 6,
-      "summary": "34억 달러 — Anthropic의 가스 발전소 주문!",
-      "latest": "2026-11-15 00:33",
+      "summary": "버지니아 초등학교의 313kW 옥상 태양광 발전 시스템으로 에너지 비용 581,000달러 절감",
+      "latest": "2026-11-15 02:22",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-15T00:49:47.840Z",
+      "lastRefreshed": "2026-11-15T02:46:10.122Z",
       "themes": [
-        "주요 기업",
-        "음악·음성"
+        "주요 기업"
       ]
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 16,
+      "count": 15,
       "summary": "v16.5.0-canary.51",
       "latest": "2026-11-14 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T00:49:47.840Z",
+      "lastRefreshed": "2026-11-15T02:46:10.122Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -333,24 +332,6 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "Ask a Scientist: Who Has a Voice in Clean Air Protections?",
-        "url": "https://cleantechnica.com/2026/11/13/ask-a-scientist-who-has-a-voice-in-clean-air-protections/",
-        "source": "CleanTechnica",
-        "date": "2026-11-13 22:38",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "과학자에게 물어보세요: 대기 오염 방지 정책에 대한 발언권은 누구에게 있나요?",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
         "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
         "source": "The Hacker News",
@@ -445,6 +426,40 @@
       }
     ],
     "analysis": [
+      {
+        "title": "313 kW Rooftop Solar System at Virginia Elementary Will Save $581,000 in Energy Costs",
+        "url": "https://cleantechnica.com/2026/11/14/313-kw-solar-power-system-rooftop-system-at-virginia-elementary-will-save-581000-in-energy-costs/",
+        "source": "CleanTechnica",
+        "date": "2026-11-15 02:22",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "버지니아 초등학교의 313kW 옥상 태양광 발전 시스템으로 에너지 비용 581,000달러 절감",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+        "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+        "source": "Ars Technica",
+        "date": "2026-11-15 00:40",
+        "categoryId": "space",
+        "confidence": "C",
+        "stream": "news",
+        "category": "우주·통신",
+        "titleKo": "스페이스X, 토요일에 스타십 로켓 귀환... 하지만 문제가 있음",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "With Starship catch, SpaceX still shows it can dazzle the world",
         "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
@@ -618,40 +633,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
-        "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
-        "source": "The Verge",
-        "date": "2026-11-14 15:22",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "테슬라가 일부 사람들에게 '개인 용도'로 사이버캡을 구매하도록 초대하고 있습니다. 하지만 작은 글씨로 된 내용을 읽어보세요.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
-        "url": "https://arxiv.org/abs/2611.14654",
-        "source": "arXiv cs.AI",
-        "date": "2026-11-14 05:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -764,6 +745,40 @@
     ]
   },
   "news": [
+    {
+      "title": "313 kW Rooftop Solar System at Virginia Elementary Will Save $581,000 in Energy Costs",
+      "url": "https://cleantechnica.com/2026/11/14/313-kw-solar-power-system-rooftop-system-at-virginia-elementary-will-save-581000-in-energy-costs/",
+      "source": "CleanTechnica",
+      "date": "2026-11-15 02:22",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "버지니아 초등학교의 313kW 옥상 태양광 발전 시스템으로 에너지 비용 581,000달러 절감",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+      "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+      "source": "Ars Technica",
+      "date": "2026-11-15 00:40",
+      "categoryId": "space",
+      "confidence": "C",
+      "stream": "news",
+      "category": "우주·통신",
+      "titleKo": "스페이스X, 토요일에 스타십 로켓 귀환... 하지만 문제가 있음",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "With Starship catch, SpaceX still shows it can dazzle the world",
       "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
@@ -1324,24 +1339,6 @@
       "titleKo": "벤처캐피털과 창업자들은 젠슨 황의 퇴장이 AI 스타트업 자금 조달에 큰 구멍을 냈다고 말합니다.",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Ask a Scientist: Who Has a Voice in Clean Air Protections?",
-      "url": "https://cleantechnica.com/2026/11/13/ask-a-scientist-who-has-a-voice-in-clean-air-protections/",
-      "source": "CleanTechnica",
-      "date": "2026-11-13 22:38",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "과학자에게 물어보세요: 대기 오염 방지 정책에 대한 발언권은 누구에게 있나요?",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2101,30 +2098,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Vercel Security Review no longer requires a linked Vercel project",
-      "url": "https://vercel.com/changelog/vercel-security-review-no-longer-requires-a-linked-vercel-project",
-      "source": "Vercel Changelog",
-      "date": "2026-11-13 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Vercel Security Review no longer requires a linked Vercel project",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 33,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 15. 오전 9:49",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 15. 오전 11:46",
+    "mode": "매시간 공식 레이더"
   }
 }
