@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 15. 오전 11:46",
+  "updatedAt": "2026. 11. 15. 오후 8:08",
   "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.51",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 31,
+    "recentCount": 24,
     "sourceCount": 28,
     "officialCount": 21,
     "opportunityCount": 0
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 22,
+      "count": 21,
       "summary": "AI 묘지: 실패한 프로젝트와 스타트업 목록",
       "latest": "2026-11-14 17:30",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T02:46:10.122Z",
+      "lastRefreshed": "2026-11-15T11:08:02.069Z",
       "themes": [
         "미술·디자인",
         "주요 기업"
@@ -38,7 +38,7 @@
       "summary": "Nvidia의 보안팀은 어디에 있었습니까?",
       "latest": "2026-11-15 00:08",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T02:46:10.122Z",
+      "lastRefreshed": "2026-11-15T11:08:02.069Z",
       "themes": [
         "주요 기업"
       ]
@@ -51,7 +51,7 @@
       "summary": "AGIBOT G2 로봇 6대가 24시간 상하이 편의점 시범 운영에서 1,730건의 작업을 완료했습니다.",
       "latest": "2026-11-13 16:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T02:46:10.122Z",
+      "lastRefreshed": "2026-11-15T11:08:02.069Z",
       "themes": [
         "영상"
       ]
@@ -60,11 +60,11 @@
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
-      "summary": "테슬라, 지리적 제한 및 월 299달러의 수수료가 적용되는 '개인용' 사이버캡 사전 주문 개시",
-      "latest": "2026-11-14 20:04",
+      "count": 5,
+      "summary": "커서, 도난당한 Fireworks AI 키가 트로이목마에 감염된 Claude Code 확장 프로그램 사건으로 이어졌다고 밝혀",
+      "latest": "2026-11-15 08:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T02:46:10.122Z",
+      "lastRefreshed": "2026-11-15T11:08:02.069Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -78,7 +78,7 @@
       "summary": "스페이스X, 토요일에 스타십 로켓 귀환... 하지만 문제가 있음",
       "latest": "2026-11-15 00:40",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T02:46:10.122Z",
+      "lastRefreshed": "2026-11-15T11:08:02.069Z",
       "themes": [
         "주요 기업"
       ]
@@ -88,10 +88,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 6,
-      "summary": "버지니아 초등학교의 313kW 옥상 태양광 발전 시스템으로 에너지 비용 581,000달러 절감",
-      "latest": "2026-11-15 02:22",
+      "summary": "Sonnen, SOLRITE, ADAPT Energy, VPP 차단기를 통합하여 가정용 부하를 유연한 그리드 자산으로 전환",
+      "latest": "2026-11-15 04:39",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-15T02:46:10.122Z",
+      "lastRefreshed": "2026-11-15T11:08:02.069Z",
       "themes": [
         "주요 기업"
       ]
@@ -104,7 +104,7 @@
       "summary": "v16.5.0-canary.51",
       "latest": "2026-11-14 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-15T02:46:10.122Z",
+      "lastRefreshed": "2026-11-15T11:08:02.069Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -427,6 +427,38 @@
     ],
     "analysis": [
       {
+        "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+        "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+        "source": "The Hacker News",
+        "date": "2026-11-15 08:22",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "커서, 도난당한 Fireworks AI 키가 트로이목마에 감염된 Claude Code 확장 프로그램 사건으로 이어졌다고 밝혀",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Sonnen, SOLRITE, & ADAPT Energy, Integrating VPP Breakers to Turn Home Loads into Flexible Grid Assets",
+        "url": "https://cleantechnica.com/2026/11/14/sonnen-solrite-adapt-energy-integrating-vpp-breakers-to-turn-home-loads-into-flexible-grid-assets/",
+        "source": "CleanTechnica",
+        "date": "2026-11-15 04:39",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Sonnen, SOLRITE, ADAPT Energy, VPP 차단기를 통합하여 가정용 부하를 유연한 그리드 자산으로 전환",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "313 kW Rooftop Solar System at Virginia Elementary Will Save $581,000 in Energy Costs",
         "url": "https://cleantechnica.com/2026/11/14/313-kw-solar-power-system-rooftop-system-at-virginia-elementary-will-save-581000-in-energy-costs/",
         "source": "CleanTechnica",
@@ -599,40 +631,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-        "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-        "source": "TechCrunch",
-        "date": "2026-11-14 17:30",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "AI 묘지: 실패한 프로젝트와 스타트업 목록",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-        "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-        "source": "TechCrunch",
-        "date": "2026-11-14 16:34",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "엔비디아 CEO 젠슨 황의 퇴임에 대한 아시아 정부의 반응",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -745,6 +743,38 @@
     ]
   },
   "news": [
+    {
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "date": "2026-11-15 08:22",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "커서, 도난당한 Fireworks AI 키가 트로이목마에 감염된 Claude Code 확장 프로그램 사건으로 이어졌다고 밝혀",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Sonnen, SOLRITE, & ADAPT Energy, Integrating VPP Breakers to Turn Home Loads into Flexible Grid Assets",
+      "url": "https://cleantechnica.com/2026/11/14/sonnen-solrite-adapt-energy-integrating-vpp-breakers-to-turn-home-loads-into-flexible-grid-assets/",
+      "source": "CleanTechnica",
+      "date": "2026-11-15 04:39",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Sonnen, SOLRITE, ADAPT Energy, VPP 차단기를 통합하여 가정용 부하를 유연한 그리드 자산으로 전환",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "313 kW Rooftop Solar System at Virginia Elementary Will Save $581,000 in Energy Costs",
       "url": "https://cleantechnica.com/2026/11/14/313-kw-solar-power-system-rooftop-system-at-virginia-elementary-will-save-581000-in-energy-costs/",
@@ -1253,24 +1283,6 @@
       "titleKo": "Zoox, 라스베이거스에서 로보택시 서비스 확대",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Tesla Starts Selling Cybercab — $30,000*",
-      "url": "https://cleantechnica.com/2026/11/13/tesla-starts-selling-cybercab-30000/",
-      "source": "CleanTechnica",
-      "date": "2026-11-14 04:57",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Tesla Starts Selling Cybercab — $30,000*",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2082,30 +2094,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "source": "The Verge",
-      "date": "2026-11-13 00:23",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Claude의 Duet 에이전트는 다소 신경질적이지만 놀랍게도 도움이 됩니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 33,
+    "successful": 37,
     "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 15. 오전 11:46",
+    "checkedAt": "2026. 11. 15. 오후 8:08",
     "mode": "매시간 공식 레이더"
   }
 }
