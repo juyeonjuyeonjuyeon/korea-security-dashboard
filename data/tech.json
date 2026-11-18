@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 18. 오전 7:58",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.45.6",
+  "updatedAt": "2026. 11. 18. 오전 11:45",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.5.0-canary.54",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 80,
-    "sourceCount": 30,
-    "officialCount": 25,
+    "recentCount": 79,
+    "sourceCount": 33,
+    "officialCount": 23,
     "opportunityCount": 3
   },
   "summary": [
-    "새 출시: v0.45.6",
+    "새 출시: v16.5.0-canary.54",
     "창작 기술: 인스타그램, 크리에이터가 표절 동영상을 단속할 수 있도록 지원",
     "행사·무료: NASA Space Apps Challenge, 글로벌 해커톤 기록 경신",
     "인물 발언: Nvidia 실적 발표 컨퍼런스 콜: 이사회 의장, 젠슨 황의 복직은 고려 대상이 아니라고 밝혀 - 포브스"
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 20,
-      "summary": "v0.45.6",
-      "latest": "2026-11-17 22:47",
+      "count": 18,
+      "summary": "Google의 AI 답변으로 인해 검색 트래픽이 40% 감소",
+      "latest": "2026-11-18 00:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-17T22:58:02.206Z",
+      "lastRefreshed": "2026-11-18T02:45:38.330Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -36,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 20,
-      "summary": "Nvidia 이사회 의장이 Jensen Huang에 대해 전한 모든 내용 읽기",
-      "latest": "2026-11-17 22:57",
+      "count": 23,
+      "summary": "Nvidia의 스타트업 지분은 650억 달러로 급증했지만, 황씨의 퇴장은 향후 거래에 의문을 제기합니다.",
+      "latest": "2026-11-18 01:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-17T22:58:02.206Z",
+      "lastRefreshed": "2026-11-18T02:45:38.330Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 2,
+      "count": 1,
       "summary": "AI가 공급망 로봇 공학을 어떻게 변화시키고 있는지 알아보세요.",
       "latest": "2026-11-17 19:58",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-17T22:58:02.206Z",
+      "lastRefreshed": "2026-11-18T02:45:38.330Z",
       "themes": []
     },
     {
@@ -64,7 +64,7 @@
       "summary": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
       "latest": "2026-11-17 15:17",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-17T22:58:02.206Z",
+      "lastRefreshed": "2026-11-18T02:45:38.330Z",
       "themes": [
         "기회",
         "음악·음성",
@@ -79,7 +79,7 @@
       "summary": "또 다른 위성 회사가 로켓을 놓고 경쟁하고 있지만, 이번에는 타당성이 있습니다.",
       "latest": "2026-11-17 22:44",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-17T22:58:02.206Z",
+      "lastRefreshed": "2026-11-18T02:45:38.330Z",
       "themes": [
         "기회",
         "주요 기업",
@@ -91,10 +91,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 3,
-      "summary": "분산형 에너지 자원의 부상",
-      "latest": "2026-11-17 22:05",
+      "summary": "보고서: 미국, 현재까지 설치된 에너지 저장 용량이 200GWh를 초과",
+      "latest": "2026-11-18 02:19",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-17T22:58:02.206Z",
+      "lastRefreshed": "2026-11-18T02:45:38.330Z",
       "themes": []
     },
     {
@@ -102,18 +102,69 @@
       "code": "DEV",
       "label": "소프트웨어·개발",
       "count": 19,
-      "summary": "코딩 에이전트를 위한 외부 샌드박스",
-      "latest": "2026-11-17 22:52",
+      "summary": "v16.5.0-canary.54",
+      "latest": "2026-11-17 23:46",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-17T22:58:02.206Z",
+      "lastRefreshed": "2026-11-18T02:45:38.330Z",
       "themes": [
-        "주요 기업",
-        "음악·음성"
+        "주요 기업"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v16.5.0-canary.54",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.54",
+        "source": "GitHub · Next.js",
+        "date": "2026-11-17 23:46",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.54",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "source": "Hacker News",
+        "date": "2026-11-17 23:18",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "Microsoft의 ONNX Runtime이 GitHub에서 사라졌습니다.",
+        "type": "오픈소스",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+        "source": "TechCrunch",
+        "date": "2026-11-17 23:04",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Nvidia, 젠슨 황의 퇴임 후에도 오픈 소스 AI 전략은 변함없다고 밝혀",
+        "type": "오픈소스",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "v0.45.6",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.6",
@@ -263,58 +314,6 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.53.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.53.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-11-17 18:40",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.53.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v2.10.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.10.0",
-        "source": "GitHub · Anthropic SDK",
-        "date": "2026-11-17 18:28",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v2.10.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NICER Status Updates",
-        "url": "https://www.nasa.gov/missions/station/nicer-status-updates/",
-        "source": "NASA",
-        "date": "2026-11-17 18:18",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NICER 상태 업데이트",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
       }
     ],
     "creative": [
@@ -348,25 +347,6 @@
         "titleKo": "시빌리제이션 스튜디오 Firaxis Games, 직원 3분의 1을 해고",
         "type": "뉴스·분석",
         "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
-        "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
-        "source": "TechCrunch",
-        "date": "2026-11-17 18:55",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "iCloud, App Store, Apple Music 등을 포함한 Apple 서비스가 중단되었습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업",
           "음악·음성"
         ],
         "official": false,
@@ -540,24 +520,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Jensen Huang says he'd be \"honored\" to return as Nvidia CEO - Axios",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0Q3Jkdkd2QkFxOWpOUk5kcDIzb1lVRHQyS3NOcjFmNjBaek8zeEFwZS1TNEZjNWtSa3lJNkVSXzc0SkJLVFp4RnVfejZ3UEctOUtIbVIyNml1Mno5T1BwZGhIeG5hZ3Bob1BEQXdrSFJYSl85bDN3TXlYTkg?oc=5",
-        "source": "Axios",
-        "date": "2026-11-17 20:13",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "젠슨 황, \"Nvidia CEO로 복귀한다면 영광\"이라고 밝혀 - Axios",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him - BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHWFY0aVN0S3V4bnVMR0lKMmM5aXdTcmJUVExJcTRlYXpHTlU1NHJBcXdvTlhKZVotNlFJV01tUi1IV3E0OTVRVWp6Yi1LNHpNWkF0cm5XTVBLWW8?oc=5",
         "source": "BBC",
@@ -603,6 +565,24 @@
         "stream": "people",
         "category": "반도체·컴퓨팅",
         "titleKo": "젠슨 황, \"Nvidia CEO로 복귀한다면 영광\"이라고 밝혀—그의 성명서 전문 읽기 - 포브스",
+        "type": "인물 발언",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Jensen Huang says he'd be \"honored\" to return as Nvidia CEO - Axios",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0Q3Jkdkd2QkFxOWpOUk5kcDIzb1lVRHQyS3NOcjFmNjBaek8zeEFwZS1TNEZjNWtSa3lJNkVSXzc0SkJLVFp4RnVfejZ3UEctOUtIbVIyNml1Mno5T1BwZGhIeG5hZ3Bob1BEQXdrSFJYSl85bDN3TXlYTkg?oc=5",
+        "source": "Axios",
+        "date": "2026-11-17 17:04",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "people",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "젠슨 황, \"Nvidia CEO로 복귀한다면 영광\"이라고 밝혀 - Axios",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -667,7 +647,7 @@
       },
       {
         "title": "Former Nvidia CEO Jensen Huang says he’s open to returning in first statement since resignation - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00X1l4ajFNU1dZYW1jQ2hLNFpqTnZDVlRKTUIwMDhLcTUxaHlOMW1ocmVmak9lMGVfVS1BODhITXZkR2YzYy1wOUM0eHp5OVY3TDBKRTdhZHpYWFFGTWhXNjBSX3RFOVpBMlkxVEE4VWVneHNV?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00X1l4ajFNU1dZYW1jQ2hLNFpqTnZDVlRKTUIwMDhLcTUxaHlOMW1ocmVmak9lMGVfVS1BODhITXZkR2YzYy1wOUM0eHp5OVY3TDBKRTdhZHpYWFFGTWhXNjBSX3RFOVpBMlkxVEE4VWVneHNV0gF6QVVfeXFMT3ltYllINzFFS0NrMm1xdTVYS2pRU0ZpWnNaS2UzREhaZW15aEh5dm5HOU13a0l4TWlDOEZaU0Q1ZFJ0VXZVSzFNb1JJWl9EMXkwQjJMMWdsbnV4U0RCU3ZBWmNkT0x4RmZyT21nU3ZDMlU0NzU4S0V4ckE?oc=5",
         "source": "CNBC",
         "date": "2026-11-17 15:58",
         "categoryId": "chips",
@@ -682,32 +662,134 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
+      }
+    ],
+    "analysis": [
+      {
+        "title": "REPORT: U.S. Exceeds 200 GWh of Energy Storage Capacity Installed to Date",
+        "url": "https://cleantechnica.com/2026/11/17/report-u-s-exceeds-200-gwh-of-energy-storage-capacity-installed-to-date/",
+        "source": "CleanTechnica",
+        "date": "2026-11-18 02:19",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "보고서: 미국, 현재까지 설치된 에너지 저장 용량이 200GWh를 초과",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Jensen Huang's return to Nvidia is a 'fantasy', says NYU professor - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVHRSd1JrLWxVc2d3d3ZVTjZ4aGlVcGZnN2M0aDEyXzlWcEdPN2JGT3hxZEVxVW8wdUtsUV92cVB6RnU0Tk56Wm16OE5heW0zWnJOUGE2Z3AtTG11X0VzdVliYlFvZE9zUzJaalNPeDZLLW5MRk5ScHdUT0twdTZ6TTRCSi1XTHBieW80LUQzVkUySHhKTGlObkd6djM?oc=5",
-        "source": "CNBC",
-        "date": "2026-11-17 00:52",
+        "title": "Zoox Partnering with Uber to Bring Autonomous Mobility to More Riders",
+        "url": "https://cleantechnica.com/2026/11/17/zoox-partnering-with-uber-to-bring-autonomous-mobility-to-more-riders/",
+        "source": "CleanTechnica",
+        "date": "2026-11-18 02:07",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "Zoox, 더 많은 승객에게 자율주행 모빌리티 서비스를 제공하기 위해 Uber와 파트너십 체결",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+        "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+        "source": "TechCrunch",
+        "date": "2026-11-18 01:44",
         "categoryId": "chips",
         "confidence": "C",
-        "stream": "people",
+        "stream": "news",
         "category": "반도체·컴퓨팅",
-        "titleKo": "뉴욕대학교 교수가 말하는 젠슨 황의 엔비디아 복귀는 '환상' - CNBC",
-        "type": "인물 발언",
+        "titleKo": "Nvidia의 스타트업 지분은 650억 달러로 급증했지만, 황씨의 퇴장은 향후 거래에 의문을 제기합니다.",
+        "type": "뉴스·분석",
         "themes": [
           "주요 기업"
         ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      }
-    ],
-    "analysis": [
+      },
+      {
+        "title": "Nvidia promises that revenue will keep soaring — for now",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+        "source": "TechCrunch",
+        "date": "2026-11-18 00:16",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "Nvidia, 당분간 매출이 계속 급증할 것이라고 약속",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+        "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+        "source": "The Verge",
+        "date": "2026-11-17 23:52",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "샘 알트먼(Sam Altman)조차도 인스타그램에서 AI 딥페이크로부터 안전하지 않습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+        "source": "TechCrunch",
+        "date": "2026-11-17 23:37",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "젠슨 황의 퇴진 후 엔비디아, 중국 시장 철수",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+        "source": "TechCrunch",
+        "date": "2026-11-17 23:04",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Nvidia, 젠슨 황의 퇴임 후에도 오픈 소스 AI 전략은 변함없다고 밝혀",
+        "type": "오픈소스",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
         "url": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
         "source": "The Verge",
-        "date": "2026-11-17 22:57",
+        "date": "2026-11-17 22:58",
         "categoryId": "chips",
         "confidence": "C",
         "stream": "news",
@@ -788,133 +870,63 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-        "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-        "source": "TechCrunch",
-        "date": "2026-11-17 22:29",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "아마존과 구글은 IPO 이후 안트로픽의 지분 약 30%를 함께 보유하게 됩니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia Earnings Call: Board Chair Says Jensen Huang Reinstatement Not Under Consideration - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTmYzejRZNHFmci1tZG90Z1pvYXR2TnprcmF5b0ttVGNFcEJkbUVEX3BoVm5MX2NqMzFoUzNRejVmWE1mV29hQ2kxWERLdHcxTFRKdjZmMFluTnlrUVgtZmxNYnNLZmJWTUZfSGZ2c1h6VHpkZUxfS05OVjYwTmFiRE5Rb1VVMkF4dUpVTUdQR19RVnoxUUVjRjk2MS0tY2YyU0ZSOFNCbUpDOENMaW5sT2kxcmluTHZlR2Qwb2RXMW53dw?oc=5",
-        "source": "Forbes",
-        "date": "2026-11-17 22:28",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Nvidia 실적 발표 컨퍼런스 콜: 이사회 의장, 젠슨 황의 복직은 고려 대상이 아니라고 밝혀 - 포브스",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia says it does not intend to reinstate Jensen Huang as CEO",
-        "url": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
-        "source": "The Verge",
-        "date": "2026-11-17 22:17",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Nvidia, 젠슨 황 CEO 복귀 의사 없음",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO - AppleValleyNewsNow.com",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTkNHSmFXR1BrTERyc2doRHZCVXItVWJZUjlYcThKMlhqb1d1NWRxUUVuUVZ4VVV2Ykh3QmF3T0d6bThyQzhrc0FTTlNQOTJkZHkzZTc4WUlsOG1EWDlfZnRWRmdScjBJbmQ5Z05LdFFpSjRXbk1LOUpYckJETlZyb2NtNFlXQmpUVFUxNWVTNkg4NHA5aDlwVm1DeFhYS2lQLWcyVE56R1RvYVJPWmpMZGNrWURXWHZQZEQ3c3J6b2k1Ri01am42LUF0TEN3Z1I5TUQxQi1CR3VaOWtYSjlDS3o4OGphQzVlV2dPYXg0OHRLdXJPYWV4UQ?oc=5",
-        "source": "AppleValleyNewsNow.com",
-        "date": "2026-11-17 22:17",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Nvidia 회장, 이사회가 젠슨 황을 CEO로 복직시킬 의사가 없다고 밝힘 - AppleValleyNewsNow.com",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Rising Tide Of Distributed Energy Resources",
-        "url": "https://cleantechnica.com/2026/11/17/distributed-energy-resources-solar-storage-batteries-compute/",
-        "source": "CleanTechnica",
-        "date": "2026-11-17 22:05",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "분산형 에너지 자원의 부상",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia board will likely stick to decision regarding Jensen Huang, says StoneX's Cody Acree - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTWF2cTNSTlRRMnpDVXRvSVFsSXBvTVpEZjh4Q0tMNzdCbzdpTEthR0o3ajBOanktVlpoazFYazltamptUjR3T09WMUJjZXVtcEp1ajBGVEhvZWd4aTdxLWNRZkNfQkpDcDRRQnRiUEdDZ1FSZTZQbTNtaENfT2k3RGkwellWYjBjUDBqOHhSNEJtdWpHUlBta0hJQU1CUTRrVFZzNVdGRktBNktnYmNFVjNseUFkWGNhWGgwQjBoTUo5bW9MSlpQVEpKdkY?oc=5",
-        "source": "CNBC",
-        "date": "2026-11-17 21:56",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Nvidia 이사회는 젠슨 황 CEO에 대한 결정에 계속 따를 가능성이 높다고 StoneX의 코디 아크리가 말함 - CNBC",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "SEC reportedly investigating Nvidia amid Huang exit",
-        "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
-        "source": "TechCrunch",
-        "date": "2026-11-17 21:48",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "SEC, 황 회장 사임 속 엔비디아 조사 중인 것으로 알려짐",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Google's AI answers reducing search traffic by 40%",
+        "url": "https://revscope.co/blog/search-seo-geo-2026/",
+        "source": "Hacker News",
+        "date": "2026-11-18 00:17",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Google의 AI 답변으로 인해 검색 트래픽이 40% 감소",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "source": "Hacker News",
+        "date": "2026-11-17 23:18",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "Microsoft의 ONNX Runtime이 GitHub에서 사라졌습니다.",
+        "type": "오픈소스",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+        "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+        "source": "Hacker News",
+        "date": "2026-11-17 17:12",
+        "categoryId": "chips",
+        "confidence": "D",
+        "stream": "community",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Highly classified US national security communications network goes down",
         "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
@@ -962,65 +974,187 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-        "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-        "source": "Hacker News",
-        "date": "2026-11-17 14:19",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "바이두, 샤오미 CEO, AI 과대 광고와 수익 간 격차 확대 경고",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Regulatory Capture by Anthropic Through METR",
-        "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
-        "source": "Hacker News",
-        "date": "2026-11-17 12:21",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "METR을 통한 Anthropic의 규제 포획",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "How the Claude Code team thinks about verification",
-        "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-        "source": "Hacker News",
-        "date": "2026-11-17 10:20",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Claude Code 팀의 검증에 대한 생각",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
     {
+      "title": "REPORT: U.S. Exceeds 200 GWh of Energy Storage Capacity Installed to Date",
+      "url": "https://cleantechnica.com/2026/11/17/report-u-s-exceeds-200-gwh-of-energy-storage-capacity-installed-to-date/",
+      "source": "CleanTechnica",
+      "date": "2026-11-18 02:19",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "보고서: 미국, 현재까지 설치된 에너지 저장 용량이 200GWh를 초과",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Zoox Partnering with Uber to Bring Autonomous Mobility to More Riders",
+      "url": "https://cleantechnica.com/2026/11/17/zoox-partnering-with-uber-to-bring-autonomous-mobility-to-more-riders/",
+      "source": "CleanTechnica",
+      "date": "2026-11-18 02:07",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "Zoox, 더 많은 승객에게 자율주행 모빌리티 서비스를 제공하기 위해 Uber와 파트너십 체결",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch",
+      "date": "2026-11-18 01:44",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Nvidia의 스타트업 지분은 650억 달러로 급증했지만, 황씨의 퇴장은 향후 거래에 의문을 제기합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "source": "Hacker News",
+      "date": "2026-11-18 00:17",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Google의 AI 답변으로 인해 검색 트래픽이 40% 감소",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source": "TechCrunch",
+      "date": "2026-11-18 00:16",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Nvidia, 당분간 매출이 계속 급증할 것이라고 약속",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "source": "The Verge",
+      "date": "2026-11-17 23:52",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "샘 알트먼(Sam Altman)조차도 인스타그램에서 AI 딥페이크로부터 안전하지 않습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.5.0-canary.54",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.54",
+      "source": "GitHub · Next.js",
+      "date": "2026-11-17 23:46",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.5.0-canary.54",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch",
+      "date": "2026-11-17 23:37",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "젠슨 황의 퇴진 후 엔비디아, 중국 시장 철수",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "source": "Hacker News",
+      "date": "2026-11-17 23:18",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "Microsoft의 ONNX Runtime이 GitHub에서 사라졌습니다.",
+      "type": "오픈소스",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "source": "TechCrunch",
+      "date": "2026-11-17 23:04",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Nvidia, 젠슨 황의 퇴임 후에도 오픈 소스 AI 전략은 변함없다고 밝혀",
+      "type": "오픈소스",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
       "url": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
       "source": "The Verge",
-      "date": "2026-11-17 22:57",
+      "date": "2026-11-17 22:58",
       "categoryId": "chips",
       "confidence": "C",
       "stream": "news",
@@ -1277,40 +1411,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "SEC reportedly investigating Nvidia amid Huang exit",
-      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
-      "source": "TechCrunch",
-      "date": "2026-11-17 21:48",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "SEC, 황 회장 사임 속 엔비디아 조사 중인 것으로 알려짐",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
-      "source": "The Verge",
-      "date": "2026-11-17 21:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "샘 알트먼(Sam Altman)조차도 인스타그램에서 AI 딥페이크로부터 안전하지 않습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Instagram is helping creators crack down on copycat videos",
       "url": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
       "source": "The Verge",
@@ -1413,24 +1513,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Jensen Huang says he'd be \"honored\" to return as Nvidia CEO - Axios",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0Q3Jkdkd2QkFxOWpOUk5kcDIzb1lVRHQyS3NOcjFmNjBaek8zeEFwZS1TNEZjNWtSa3lJNkVSXzc0SkJLVFp4RnVfejZ3UEctOUtIbVIyNml1Mno5T1BwZGhIeG5hZ3Bob1BEQXdrSFJYSl85bDN3TXlYTkg?oc=5",
-      "source": "Axios",
-      "date": "2026-11-17 20:13",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "people",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "젠슨 황, \"Nvidia CEO로 복귀한다면 영광\"이라고 밝혀 - Axios",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Standard builds move to usage-based billing for new teams",
       "url": "https://vercel.com/changelog/standard-build-billing-new-teams",
       "source": "Vercel Changelog",
@@ -1481,22 +1563,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Model ML raises $250M to automate investment banking grunt work",
-      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
-      "source": "TechCrunch",
-      "date": "2026-11-17 19:32",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Model ML, 투자 은행의 단순 반복 업무를 자동화하기 위해 2억 5천만 달러 조달",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
       "url": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
       "source": "NASA",
@@ -1515,24 +1581,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-      "source": "TechCrunch",
-      "date": "2026-11-17 19:02",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google, 통화 및 구매에 도움을 줄 수 있는 Gemini Tasks에 대한 액세스 확대",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
       "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
       "source": "IEEE Spectrum",
@@ -1549,20 +1597,17 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
-      "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
-      "source": "TechCrunch",
-      "date": "2026-11-17 18:55",
+      "title": "GitHub Octoverse 2026: TypeScript Leads as Rust Growth Hits 162% - TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZlpaVDBDTjJWYWFIaDRUWlhxaDVNbkRtRE1Rc2pvekhjY0ZEQ0JvYjhQWE5ZT0YzcVlQalFyalA5T1J5NUZHcXFJeEJnblhXOEVlQTE4WGpoYkNzLUhmV0toQWE2RXlOTExJWi1ISjBDU3c3Zlc5NE5vdENCSUZNZFFjYTR5RDg?oc=5",
+      "source": "TechRepublic",
+      "date": "2026-11-17 18:45",
       "categoryId": "software",
       "confidence": "C",
       "stream": "news",
       "category": "소프트웨어·개발",
-      "titleKo": "iCloud, App Store, Apple Music 등을 포함한 Apple 서비스가 중단되었습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업",
-        "음악·음성"
-      ],
+      "titleKo": "GitHub Octoverse 2026: Rust 성장률 162%를 기록하며 TypeScript가 선두를 달림 - TechRepublic",
+      "type": "오픈소스",
+      "themes": [],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1754,6 +1799,42 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
+      "title": "Astra for Law leads in legal intelligence - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxZ1AtdGh5bUdSU1VpTEhQWFVncDNieWRxSkhQUTJVVjhGbl9ycXZTaWs5bGtZUktmUndCRTFtS2pubXJvOE5kY25qQ0s3NlRG?oc=5",
+      "source": "OpenAI",
+      "date": "2026-11-17 17:49",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Astra for Law leads in legal intelligence - OpenAI",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "OpenAI Unveils New Astra AI Model After Scrapping Prior Release - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMDZRbHhnZ2VCVnRmSk1mcDlBeDBocDdRV0xmX2JtT3BleW9JNExid3ZuVlpFXzRWVlFTaVRqb3pIWWJONi02cXlLREN3a3h2eUdIZ3VVLU52OGhiN2FoaEhYRnVVdFg4NnpsMHRTSW5nb0w1TlJUaFhKbVM2cEZLa2FDTksxd2R2ZGlfWXU4b09ibUtjWjZBczFUQUlrVTNFY1o4UTI2WVVWdUlST0Z5NlhHR3Q?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-11-17 17:45",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "OpenAI Unveils New Astra AI Model After Scrapping Prior Release - Bloomberg.com",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "Jensen Huang Says He's ‘Open’ to Coming Back to Nvidia - WIRED",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONU1WRE5iN1c0X0Q3Rk9BT3owQmFvdXZhdmpBNkdHYzZ2aG9JMk9NYWZpV3RBRURYcXRtNEZBTG4wTzY5Y25TaFVfLS1XajRrZUptS2ZHWDNtdHRhUFZvd0RYMzN4QmItNWVMUHBPWFN3eFZDa29GNFUxQm51a2paVjVXYTJ3Tm8?oc=5",
       "source": "WIRED",
@@ -1781,6 +1862,42 @@
       "stream": "people",
       "category": "반도체·컴퓨팅",
       "titleKo": "젠슨 황, \"Nvidia CEO로 복귀한다면 영광\"이라고 밝혀—그의 성명서 전문 읽기 - 포브스",
+      "type": "인물 발언",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "source": "Hacker News",
+      "date": "2026-11-17 17:12",
+      "categoryId": "chips",
+      "confidence": "D",
+      "stream": "community",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Jensen Huang says he'd be \"honored\" to return as Nvidia CEO - Axios",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0Q3Jkdkd2QkFxOWpOUk5kcDIzb1lVRHQyS3NOcjFmNjBaek8zeEFwZS1TNEZjNWtSa3lJNkVSXzc0SkJLVFp4RnVfejZ3UEctOUtIbVIyNml1Mno5T1BwZGhIeG5hZ3Bob1BEQXdrSFJYSl85bDN3TXlYTkg?oc=5",
+      "source": "Axios",
+      "date": "2026-11-17 17:04",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "people",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "젠슨 황, \"Nvidia CEO로 복귀한다면 영광\"이라고 밝혀 - Axios",
       "type": "인물 발언",
       "themes": [
         "주요 기업"
@@ -1897,7 +2014,7 @@
     },
     {
       "title": "Former Nvidia CEO Jensen Huang says he’s open to returning in first statement since resignation - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00X1l4ajFNU1dZYW1jQ2hLNFpqTnZDVlRKTUIwMDhLcTUxaHlOMW1ocmVmak9lMGVfVS1BODhITXZkR2YzYy1wOUM0eHp5OVY3TDBKRTdhZHpYWFFGTWhXNjBSX3RFOVpBMlkxVEE4VWVneHNV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00X1l4ajFNU1dZYW1jQ2hLNFpqTnZDVlRKTUIwMDhLcTUxaHlOMW1ocmVmak9lMGVfVS1BODhITXZkR2YzYy1wOUM0eHp5OVY3TDBKRTdhZHpYWFFGTWhXNjBSX3RFOVpBMlkxVEE4VWVneHNV0gF6QVVfeXFMT3ltYllINzFFS0NrMm1xdTVYS2pRU0ZpWnNaS2UzREhaZW15aEh5dm5HOU13a0l4TWlDOEZaU0Q1ZFJ0VXZVSzFNb1JJWl9EMXkwQjJMMWdsbnV4U0RCU3ZBWmNkT0x4RmZyT21nU3ZDMlU0NzU4S0V4ckE?oc=5",
       "source": "CNBC",
       "date": "2026-11-17 15:58",
       "categoryId": "chips",
@@ -2012,20 +2129,20 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-      "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-      "source": "Hacker News",
-      "date": "2026-11-17 14:19",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "바이두, 샤오미 CEO, AI 과대 광고와 수익 간 격차 확대 경고",
+      "title": "How new US chip restrictions on South East Asia will hit China - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kZVJSX3o4UWtJT05KV0VUY1dPV3F3YUhYVHo5MkpQS0YzdUNDM2JmbXdERGRoTFduT3NlWWxaMUNYRkZxV1VyaUJRZ2dQVTVVekVvel85N2Zpa3c?oc=5",
+      "source": "BBC",
+      "date": "2026-11-17 14:25",
+      "categoryId": "chips",
+      "confidence": "B",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "How new US chip restrictions on South East Asia will hit China - BBC",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
@@ -2094,24 +2211,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Regulatory Capture by Anthropic Through METR",
-      "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
-      "source": "Hacker News",
-      "date": "2026-11-17 12:21",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "METR을 통한 Anthropic의 규제 포획",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Artist brings old Space Shuttle tank back to life",
@@ -2218,22 +2317,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "How the Claude Code team thinks about verification",
-      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-      "source": "Hacker News",
-      "date": "2026-11-17 10:20",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Claude Code 팀의 검증에 대한 생각",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "EXCLUSIVE: China taps US AI models to train homegrown rivals as chip curbs bite - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQemJ2WmtQZV96U0x6Z1FzanV3YlQwT2k5ZXk3Wnc3RzI2cVFsNDdjaHk5TTJJU0FiNnVPYllVYnRVcjZkTEMwYVZ6bU01SE54THNuRl9NdUVrekhxdXlwaVBubmhJTEt6Z1V4R2kwTGpjdmVkdkxxVl9vVkZXYWFuR1lEdjRWUnVPVG4tQVRLdVp4bXJvaVhSM1pXN25keDRrNXA4S0dvWWZoX3FfSE93?oc=5",
       "source": "Reuters",
@@ -2264,128 +2347,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v0.45.5",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.5",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-11-17 02:07",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.45.5",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "NAED Energy Holding Inc. Details the Rating of Its PV-1 Tandem Cell Line: 16,000 Wafers per Hour per Line, 4.6 GW from Six Lines",
-      "url": "https://cleantechnica.com/2026/11/16/naed-energy-holding-inc-details-the-rating-of-its-pv-1-tandem-cell-line-16000-wafers-per-hour-per-line-4-6-gw-from-six-lines/",
-      "source": "CleanTechnica",
-      "date": "2026-11-17 01:57",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "NAED Energy Holding Inc., PV-1 탠덤 셀 라인의 등급 상세 정보 공개: 라인당 시간당 웨이퍼 1,6000장, 6개 라인에서 4.6GW 생산",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Minister O’Brien Announces Completion of Over 300,000 Home Energy Upgrades with Government Support Since 2019",
-      "url": "https://cleantechnica.com/2026/11/16/minister-obrien-announces-completion-of-over-300000-home-energy-upgrades-with-government-support-since-2019/",
-      "source": "CleanTechnica",
-      "date": "2026-11-17 01:47",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "오브라이언 장관, 2019년 이후 정부 지원을 받아 30만 가구 이상의 주택 에너지 개선 공사 완료 발표",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Jensen Huang's return to Nvidia is a 'fantasy', says NYU professor - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVHRSd1JrLWxVc2d3d3ZVTjZ4aGlVcGZnN2M0aDEyXzlWcEdPN2JGT3hxZEVxVW8wdUtsUV92cVB6RnU0Tk56Wm16OE5heW0zWnJOUGE2Z3AtTG11X0VzdVliYlFvZE9zUzJaalNPeDZLLW5MRk5ScHdUT0twdTZ6TTRCSi1XTHBieW80LUQzVkUySHhKTGlObkd6djM?oc=5",
-      "source": "CNBC",
-      "date": "2026-11-17 00:52",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "people",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "뉴욕대학교 교수가 말하는 젠슨 황의 엔비디아 복귀는 '환상' - CNBC",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Introducing eve 1.0",
-      "url": "https://vercel.com/blog/eve-is-now-generally-available",
-      "source": "Vercel Changelog",
-      "date": "2026-11-17 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Introducing eve 1.0",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Decision-1.1 now available on AI Gateway",
-      "url": "https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway",
-      "source": "Vercel Changelog",
-      "date": "2026-11-17 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Decision-1.1 now available on AI Gateway",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The hidden reason most robots fail on the factory floor",
-      "url": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/",
-      "source": "The Robot Report",
-      "date": "2026-11-16 23:49",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "대부분의 로봇이 공장 현장에서 실패하는 숨겨진 이유",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 36,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
-    "officialSources": 8,
-    "checkedAt": "2026. 11. 18. 오전 7:58",
-    "mode": "매시간 공식 레이더"
+    "officialSources": 9,
+    "checkedAt": "2026. 11. 18. 오전 11:45",
+    "mode": "하루 2회 전체 수집"
   }
 }
