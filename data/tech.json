@@ -1,18 +1,19 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 19. 오전 7:03",
-  "updateMode": "공식 채널 매시간 점검",
-  "headline": "v0.46.0",
+  "updatedAt": "2026. 11. 19. 오전 11:19",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "headline": "v16.5.0-canary.55",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 80,
+    "recentCount": 77,
     "sourceCount": 26,
     "officialCount": 24,
-    "opportunityCount": 0
+    "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v0.46.0",
+    "새 출시: v16.5.0-canary.55",
     "창작 기술: 앱솔루트 배트맨이 DC 스튜디오를 구할 수 있습니다.",
+    "행사·무료: GitHub CLI로 풀 리퀘스트 이벤트 대기",
     "인물 발언: 빌 액먼, 엔비디아 이사회가 젠슨 황에 대해 '섣부른 판단'을 내렸다고 말해 - 포브스"
   ],
   "categories": [
@@ -20,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
-      "summary": "트럼프의 최근 토지 강탈은 필리핀의 AI 허브입니다.",
-      "latest": "2026-11-18 21:44",
+      "count": 30,
+      "summary": "AI 사이버 공격에 대한 우려 속에서 사티아 나델라는 많은 핵심 인프라가 ‘패치 불가능’하다고 말합니다.",
+      "latest": "2026-11-18 23:45",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-18T22:03:59.478Z",
+      "lastRefreshed": "2026-11-19T02:19:36.275Z",
       "themes": [
         "음악·음성",
         "주요 기업",
@@ -35,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 12,
-      "summary": "Nvidia가 정기적인 SEC 보고서를 제출하지 않아 다소 의아한 상황이 발생했습니다.",
-      "latest": "2026-11-18 21:57",
+      "count": 13,
+      "summary": "소프트웨어 회사들이 가정용 컴퓨터를 없애려고 하나요?",
+      "latest": "2026-11-18 23:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-18T22:03:59.478Z",
+      "lastRefreshed": "2026-11-19T02:19:36.275Z",
       "themes": [
         "주요 기업"
       ]
@@ -48,11 +49,11 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 3,
-      "summary": "상업적 규모에서 구현된 지능으로: 로봇공학의 다음 과제",
-      "latest": "2026-11-18 18:00",
+      "count": 4,
+      "summary": "Humyn Labs, 로봇 공학을 위한 실제 데이터 수집에 4,700만 달러 조달",
+      "latest": "2026-11-18 22:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-18T22:03:59.478Z",
+      "lastRefreshed": "2026-11-19T02:19:36.275Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -66,7 +67,7 @@
       "summary": "정부 기관을 공격하는 새로운 EggStreme 악성 코드 변종이 보안 도구를 회피하기 위해 침묵 모드로 전환",
       "latest": "2026-11-18 14:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-18T22:03:59.478Z",
+      "lastRefreshed": "2026-11-19T02:19:36.275Z",
       "themes": [
         "주요 기업"
       ]
@@ -75,11 +76,11 @@
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
-      "count": 11,
-      "summary": "Flexell Space와 ALATYR, 궤도 데이터 센터를 위한 태양광 발전 솔루션 탐색을 위한 양해각서 체결",
-      "latest": "2026-11-18 22:02",
+      "count": 10,
+      "summary": "NASA, 노스롭 그루먼 CRS-25 발사 및 발사 전 준비 과정 중계 예정",
+      "latest": "2026-11-18 22:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-18T22:03:59.478Z",
+      "lastRefreshed": "2026-11-19T02:19:36.275Z",
       "themes": []
     },
     {
@@ -90,31 +91,47 @@
       "summary": "Solar Insure, 20년 상업용 배터리 보증 출시로 태양광 및 에너지 저장 프로젝트에 대한 보호 확대",
       "latest": "2026-11-18 14:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-18T22:03:59.478Z",
+      "lastRefreshed": "2026-11-19T02:19:36.275Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 11,
-      "summary": "GitHub Team에서 보안 위험 평가가 자동으로 실행됩니다.",
-      "latest": "2026-11-18 16:54",
+      "count": 13,
+      "summary": "GitHub CLI로 풀 리퀘스트 이벤트 대기",
+      "latest": "2026-11-19 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-18T22:03:59.478Z",
+      "lastRefreshed": "2026-11-19T02:19:36.275Z",
       "themes": [
-        "주요 기업",
-        "기회"
+        "기회",
+        "주요 기업"
       ]
     }
   ],
   "radar": {
     "releases": [
       {
+        "title": "v16.5.0-canary.55",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.55",
+        "source": "GitHub · Next.js",
+        "date": "2026-11-18 23:45",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v16.5.0-canary.55",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
         "title": "v0.46.0",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0",
         "source": "GitHub · ComfyUI",
-        "date": "2026-11-18 21:41",
+        "date": "2026-11-18 22:55",
         "categoryId": "ai",
         "confidence": "A",
         "stream": "release",
@@ -125,6 +142,90 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+        "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+        "source": "NASA",
+        "date": "2026-11-18 22:19",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "NASA, 노스롭 그루먼 CRS-25 발사 및 발사 전 준비 과정 중계 예정",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+        "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+        "source": "GitHub Changelog",
+        "date": "2026-11-18 22:04",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Supabase, Box, Calendly 등을 Copilot에 연결",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+        "url": "https://blog.cloudflare.com/open-clairic/",
+        "source": "Cloudflare Blog",
+        "date": "2026-11-18 22:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "새로운 Workers AI 슈퍼지능 팀에서 제공하는 업데이트된 Clairic 및 Clairic-flash가 이제 오픈 웨이트로 제공됩니다.",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Gemini 4 Neon in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+        "source": "GitHub Changelog",
+        "date": "2026-11-18 21:49",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub Copilot의 Gemini 4 Neon",
+        "type": "오픈소스",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Introducing Gemini 4 Neon - blog.google",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNemJ2dmlaaUw0Vm9IWnV2N3JiaXg4a3BNcVVqZjEtNnlVTnExYzk0d2tzcEZ4SGhqY1MyQ0c5LVpYN2ZKdGJ6d1FTMmhWZ0J0VVJkcGhqOHk1eHB1SFA3M3NLNEdRZEhhbnNzekhRb2E1RnRVSjJFQmNRWC05ckI1NjlybWpvVzJUeWdwaURROFhOcmoySS03UllmRWJJMUk?oc=5",
+        "source": "blog.google",
+        "date": "2026-11-18 21:35",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Gemini 4 Neon 소개 - blog.google",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
       },
       {
         "title": "All Points Logistics Announces Partnership with Expeditors for Space Prep Logistics Center at Kennedy Space Center",
@@ -207,102 +308,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-        "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
-        "source": "NASA",
-        "date": "2026-11-18 18:12",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA, 미국 기업을 대상으로 한 중형 전동 로켓 챌린지 발표",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Empire State Building Goes Gold for Voyager",
-        "url": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
-        "source": "NASA",
-        "date": "2026-11-18 17:50",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "엠파이어 스테이트 빌딩이 Voyager를 위해 황금빛으로 물들다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "What Is the Moon Base?",
-        "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/",
-        "source": "NASA",
-        "date": "2026-11-18 17:36",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "달 기지란 무엇인가요?",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Thank You for Doing NASA Science!",
-        "url": "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/",
-        "source": "NASA",
-        "date": "2026-11-18 17:32",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA 과학 활동에 참여해 주셔서 감사합니다!",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Security risk assessments run automatically on GitHub Team",
-        "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
-        "source": "GitHub Changelog",
-        "date": "2026-11-18 16:54",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub Team에서 보안 위험 평가가 자동으로 실행됩니다.",
-        "type": "오픈소스",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Seven new models at scalable price-performance",
-        "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-        "source": "Hacker News",
-        "date": "2026-11-18 16:08",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "확장 가능한 가격 대비 성능을 갖춘 7가지 신규 모델",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ],
     "creative": [
@@ -310,7 +315,7 @@
         "title": "Absolute Batman can save DC Studios",
         "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
         "source": "The Verge",
-        "date": "2026-11-18 21:22",
+        "date": "2026-11-18 22:27",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
@@ -344,7 +349,26 @@
         "layerLabel": "커뮤니티 신호"
       }
     ],
-    "opportunities": [],
+    "opportunities": [
+      {
+        "title": "Wait for pull request events with GitHub CLI",
+        "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+        "source": "GitHub Changelog",
+        "date": "2026-11-19 00:00",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "GitHub CLI로 풀 리퀘스트 이벤트 대기",
+        "type": "행사",
+        "themes": [
+          "기회"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      }
+    ],
     "voices": [
       {
         "title": "Bill Ackman Says Nvidia Board ‘Rushed To Judgment’ On Jensen Huang - Forbes",
@@ -457,6 +481,126 @@
     ],
     "analysis": [
       {
+        "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+        "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+        "source": "TechCrunch",
+        "date": "2026-11-18 23:45",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "AI 사이버 공격에 대한 우려 속에서 사티아 나델라는 많은 핵심 인프라가 ‘패치 불가능’하다고 말합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+        "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+        "source": "TechCrunch",
+        "date": "2026-11-18 23:17",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "마이크로소프트 CEO 사티아 나델라, 황 회장의 퇴임 후에도 엔비디아에 대한 신뢰 유지",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+        "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+        "source": "TechCrunch",
+        "date": "2026-11-18 22:58",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "사티아 나델라, AI 에이전트가 웹 경제를 재편할 것이라고 예측",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Humyn Labs raises $47M to collect real-world data for robotics",
+        "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
+        "source": "The Robot Report",
+        "date": "2026-11-18 22:43",
+        "categoryId": "robotics",
+        "confidence": "C",
+        "stream": "news",
+        "category": "로봇·모빌리티",
+        "titleKo": "Humyn Labs, 로봇 공학을 위한 실제 데이터 수집에 4,700만 달러 조달",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Absolute Batman can save DC Studios",
+        "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
+        "source": "The Verge",
+        "date": "2026-11-18 22:27",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "앱솔루트 배트맨이 DC 스튜디오를 구할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "음악·음성"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Nvidia’s rise, visualized",
+        "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+        "source": "The Verge",
+        "date": "2026-11-18 22:18",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "시각화된 엔비디아의 성장",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+        "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+        "source": "TechCrunch",
+        "date": "2026-11-18 22:11",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "앤트로픽, 예상 범위를 웃도는 주당 83달러에 IPO 가격 책정",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Flexell Space and ALATYR Sign MoU to Explore Solar Power Solutions for Orbital Data Centers",
         "url": "https://spacenews.com/flexell-space-and-alatyr-sign-mou-to-explore-solar-power-solutions-for-orbital-data-centers/",
         "source": "SpaceNews",
@@ -507,6 +651,24 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Introducing Gemini 4 Neon - blog.google",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNemJ2dmlaaUw0Vm9IWnV2N3JiaXg4a3BNcVVqZjEtNnlVTnExYzk0d2tzcEZ4SGhqY1MyQ0c5LVpYN2ZKdGJ6d1FTMmhWZ0J0VVJkcGhqOHk1eHB1SFA3M3NLNEdRZEhhbnNzekhRb2E1RnRVSjJFQmNRWC05ckI1NjlybWpvVzJUeWdwaURROFhOcmoySS03UllmRWJJMUk?oc=5",
+        "source": "blog.google",
+        "date": "2026-11-18 21:35",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Gemini 4 Neon 소개 - blog.google",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
         "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
         "source": "TechCrunch",
@@ -521,147 +683,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-        "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-        "source": "TechCrunch",
-        "date": "2026-11-18 21:31",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "팔머 럭키, 중국이 '젠슨이 물러나서 기뻐한다'고 생각하며 젠슨 황 엔비디아 CEO의 복귀를 원한다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Absolute Batman can save DC Studios",
-        "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
-        "source": "The Verge",
-        "date": "2026-11-18 21:22",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "앱솔루트 배트맨이 DC 스튜디오를 구할 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
-        "url": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
-        "source": "Ars Technica",
-        "date": "2026-11-18 20:41",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Windows Server 2028은 호환성을 포기하고 즉시 사용 가능한 보안 기능을 제공합니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "All Points Logistics Announces Partnership with Expeditors for Space Prep Logistics Center at Kennedy Space Center",
-        "url": "https://spacenews.com/all-points-logistics-announces-partnership-with-expeditors-for-space-prep-logistics-center-at-kennedy-space-center/",
-        "source": "SpaceNews",
-        "date": "2026-11-18 20:31",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "All Points Logistics, 케네디 우주 센터의 Space Prep Logistics Center를 위한 Expeditors와의 파트너십 체결 발표",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-        "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-        "source": "TechCrunch",
-        "date": "2026-11-18 19:56",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Snapchat, 이제 개발자가 Claude Code 및 Cursor와 같은 AI 어시스턴트를 사용하여 AR 렌즈를 구축할 수 있도록 지원",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
-        "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-        "source": "The Verge",
-        "date": "2026-11-18 19:29",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Nvidia의 다음 행보는 무엇일까요? 상상을 초월할 정도로 수익성이 높은 사업에 지장을 주지 않는 모든 것",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Bill Ackman Says Nvidia Board ‘Rushed To Judgment’ On Jensen Huang - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdWZG13dUUxb2VOYjRTRmxIT3hPa2hIb0FnRk1nMGxFSV9CV3FnREJMRWd0NUNaUUpHNUdnS2JCV0pVNFAzRF9qVTNQUklFemxyTlVkTXhSNWxHQ0h3cW1WV25jakdGWDFQZmVsNzZ5bEg4Wll4eDBTRnkxSUI1QjdoWFdFQVZUclN1YXpqbW5DNVhIOEREdy1lSEhYQWlDME4xS19MTnFEUTVlaklRQU8zOFc3SUtDQVBJcHNKSQ?oc=5",
-        "source": "Forbes",
-        "date": "2026-11-18 19:04",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "빌 액먼, 엔비디아 이사회가 젠슨 황에 대해 '섣부른 판단'을 내렸다고 말해 - 포브스",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The first Nvidia RTX Spark mini PCs launch today from Asus, Dell, and MSI",
-        "url": "https://www.theverge.com/tech/1036880/nvidia-rtx-spark-ai-mini-pc-desktops",
-        "source": "The Verge",
-        "date": "2026-11-18 18:34",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "오늘 Asus, Dell, MSI에서 첫 번째 Nvidia RTX Spark 미니 PC를 출시합니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Software companies are trying to kill home computing?",
+        "url": "https://lateblt.livejournal.com/526188.html",
+        "source": "Hacker News",
+        "date": "2026-11-18 23:49",
+        "categoryId": "chips",
+        "confidence": "D",
+        "stream": "community",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "소프트웨어 회사들이 가정용 컴퓨터를 없애려고 하나요?",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Gemini 4 Neon",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
@@ -746,28 +786,228 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
-        "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-        "source": "Hacker News",
-        "date": "2026-11-18 16:08",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Microsoft AI: 확장 가능한 가격 대비 성능을 갖춘 7가지 새로운 세계적 수준의 모델",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Wait for pull request events with GitHub CLI",
+      "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+      "source": "GitHub Changelog",
+      "date": "2026-11-19 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub CLI로 풀 리퀘스트 이벤트 대기",
+      "type": "행사",
+      "themes": [
+        "기회"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Software companies are trying to kill home computing?",
+      "url": "https://lateblt.livejournal.com/526188.html",
+      "source": "Hacker News",
+      "date": "2026-11-18 23:49",
+      "categoryId": "chips",
+      "confidence": "D",
+      "stream": "community",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "소프트웨어 회사들이 가정용 컴퓨터를 없애려고 하나요?",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "source": "TechCrunch",
+      "date": "2026-11-18 23:45",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "AI 사이버 공격에 대한 우려 속에서 사티아 나델라는 많은 핵심 인프라가 ‘패치 불가능’하다고 말합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v16.5.0-canary.55",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.55",
+      "source": "GitHub · Next.js",
+      "date": "2026-11-18 23:45",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v16.5.0-canary.55",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "source": "TechCrunch",
+      "date": "2026-11-18 23:17",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "마이크로소프트 CEO 사티아 나델라, 황 회장의 퇴임 후에도 엔비디아에 대한 신뢰 유지",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "source": "TechCrunch",
+      "date": "2026-11-18 22:58",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "사티아 나델라, AI 에이전트가 웹 경제를 재편할 것이라고 예측",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.46.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-11-18 22:55",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.46.0",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Humyn Labs raises $47M to collect real-world data for robotics",
+      "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
+      "source": "The Robot Report",
+      "date": "2026-11-18 22:43",
+      "categoryId": "robotics",
+      "confidence": "C",
+      "stream": "news",
+      "category": "로봇·모빌리티",
+      "titleKo": "Humyn Labs, 로봇 공학을 위한 실제 데이터 수집에 4,700만 달러 조달",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Absolute Batman can save DC Studios",
+      "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
+      "source": "The Verge",
+      "date": "2026-11-18 22:27",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "앱솔루트 배트맨이 DC 스튜디오를 구할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "음악·음성"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+      "source": "NASA",
+      "date": "2026-11-18 22:19",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "NASA, 노스롭 그루먼 CRS-25 발사 및 발사 전 준비 과정 중계 예정",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Nvidia’s rise, visualized",
+      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+      "source": "The Verge",
+      "date": "2026-11-18 22:18",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "시각화된 엔비디아의 성장",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "source": "TechCrunch",
+      "date": "2026-11-18 22:11",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "앤트로픽, 예상 범위를 웃도는 주당 83달러에 IPO 가격 책정",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+      "source": "GitHub Changelog",
+      "date": "2026-11-18 22:04",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Supabase, Box, Calendly 등을 Copilot에 연결",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
     {
       "title": "Flexell Space and ALATYR Sign MoU to Explore Solar Power Solutions for Orbital Data Centers",
       "url": "https://spacenews.com/flexell-space-and-alatyr-sign-mou-to-explore-solar-power-solutions-for-orbital-data-centers/",
@@ -783,6 +1023,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "url": "https://blog.cloudflare.com/open-clairic/",
+      "source": "Cloudflare Blog",
+      "date": "2026-11-18 22:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "새로운 Workers AI 슈퍼지능 팀에서 제공하는 업데이트된 Clairic 및 Clairic-flash가 이제 오픈 웨이트로 제공됩니다.",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
     },
     {
       "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
@@ -803,6 +1061,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "source": "GitHub Changelog",
+      "date": "2026-11-18 21:49",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "GitHub Copilot의 Gemini 4 Neon",
+      "type": "오픈소스",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Trump’s latest land grab is an AI hub in the Philippines",
       "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
       "source": "The Verge",
@@ -819,20 +1093,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "v0.46.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-11-18 21:41",
+      "title": "Introducing Gemini 4 Neon - blog.google",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNemJ2dmlaaUw0Vm9IWnV2N3JiaXg4a3BNcVVqZjEtNnlVTnExYzk0d2tzcEZ4SGhqY1MyQ0c5LVpYN2ZKdGJ6d1FTMmhWZ0J0VVJkcGhqOHk1eHB1SFA3M3NLNEdRZEhhbnNzekhRb2E1RnRVSjJFQmNRWC05ckI1NjlybWpvVzJUeWdwaURROFhOcmoySS03UllmRWJJMUk?oc=5",
+      "source": "blog.google",
+      "date": "2026-11-18 21:35",
       "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
+      "confidence": "C",
+      "stream": "news",
       "category": "인공지능",
-      "titleKo": "v0.46.0",
+      "titleKo": "Gemini 4 Neon 소개 - blog.google",
       "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
@@ -867,42 +1143,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "source": "TechCrunch",
-      "date": "2026-11-18 21:31",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "팔머 럭키, 중국이 '젠슨이 물러나서 기뻐한다'고 생각하며 젠슨 황 엔비디아 CEO의 복귀를 원한다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Absolute Batman can save DC Studios",
-      "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
-      "source": "The Verge",
-      "date": "2026-11-18 21:22",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "앱솔루트 배트맨이 DC 스튜디오를 구할 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
       "url": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
       "source": "Ars Technica",
@@ -929,22 +1169,6 @@
       "category": "우주·통신",
       "titleKo": "All Points Logistics, 케네디 우주 센터의 Space Prep Logistics Center를 위한 Expeditors와의 파트너십 체결 발표",
       "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-      "source": "TechCrunch",
-      "date": "2026-11-18 19:56",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Snapchat, 이제 개발자가 Claude Code 및 Cursor와 같은 AI 어시스턴트를 사용하여 AR 렌즈를 구축할 수 있도록 지원",
-      "type": "뉴스·분석",
       "themes": [],
       "official": false,
       "sourceLayer": "analysis",
@@ -1103,24 +1327,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Google’s AI feature in Search gets its own incognito mode",
-      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "source": "TechCrunch",
-      "date": "2026-11-18 18:04",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Google 검색의 AI 기능에 전용 시크릿 모드가 도입됩니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
       "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
       "source": "The Robot Report",
@@ -1188,22 +1394,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "source": "TechCrunch",
-      "date": "2026-11-18 17:32",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "더 많은 은행이 AI 에이전트를 사용하는 고객은 해킹을 당하더라도 본인 책임이라고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Thank You for Doing NASA Science!",
@@ -1290,22 +1480,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Will Wright’s next game uses AI to map your memories",
-      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-      "source": "The Verge",
-      "date": "2026-11-18 16:27",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "윌 라이트(Will Wright)의 차기작은 AI를 활용해 사용자의 기억을 매핑합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Waymo has stopped its robotaxis from driving on the freeway—here’s why",
       "url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint/",
       "source": "Ars Technica",
@@ -1356,24 +1530,6 @@
       "layerLabel": "커뮤니티 신호"
     },
     {
-      "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-      "source": "Hacker News",
-      "date": "2026-11-18 16:08",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Microsoft AI: 확장 가능한 가격 대비 성능을 갖춘 7가지 새로운 세계적 수준의 모델",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v3.55.1",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.55.1",
       "source": "GitHub · OpenAI Python",
@@ -1408,20 +1564,22 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "NASA Data Clinches First-of-Its-Kind Stellar Merger",
-      "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
-      "source": "NASA",
-      "date": "2026-11-18 16:00",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA 데이터, 최초의 항성 합병을 확정하다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
+      "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fN2ZOWVZ6YkV0emdTaWU3MGlkTzhwcFNGRl9pYXN2d2kwcnRoZW9HS0luWlp4clhWSXk3eExTeEljd1N4SklrZ3lTVkdRUzRCZE9sUFpOaDFyYTNYa19kTHNZSzVKaEV0RXl5YmJwQk9NRnRxR08w0gF8QVVfeXFMTlZsNHk0MjhxNTE4MVdnY1M5clBUYkJkX1ZONlRRZExmbF9LeU5JN3JSWk83Zkc1QUVUNlZCRDVFeExRQW1ZUUlWeVE0NVVvVGJ1MEtUYWFhSVNXX2I5bGlfb0lCSzlkaExmeXNnSVpFLTdpU0ozN0VpTmdXNA?oc=5",
+      "source": "CNBC",
+      "date": "2026-11-18 15:15",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX - CNBC",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
@@ -1672,6 +1830,22 @@
       "layerLabel": "주요 언론 확인"
     },
     {
+      "title": "Introducing Vercel Board",
+      "url": "https://vercel.com/blog/introducing-vercel-board",
+      "source": "Vercel Changelog",
+      "date": "2026-11-18 08:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Introducing Vercel Board",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "PLD Space signs first commercial launch deal with Mitsubishi Electric - Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdDFFM0JZZFBCYUpTMFVzeG5OOWRUMlc5VVhSdXhJUjMwUmttTG1CS002NkRId3FyTEN2SVRBTjBVS3RGNlBCeUE1bWtGQ0xJZ2xqTDhadGpuQk1kQnhJaDYya192ZV9GVTFuWE9WS08zTTNYMk0zcGYzWFIzVlZVMF9oRkpUbkp2eTRmSlNCcnYxS1NIdkN5NzVGemo3NVFzQmltMUxLbk5KUGxPS1JJNjdVLXpIclNsUHBXTkZ1N0pSZlk3aGxaSWlyNW8?oc=5",
       "source": "Reuters",
@@ -1755,6 +1929,22 @@
       "themes": [
         "주요 기업"
       ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Vercel Board is now available",
+      "url": "https://vercel.com/changelog/vercel-board-is-now-available",
+      "source": "Vercel Changelog",
+      "date": "2026-11-18 05:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Vercel Board is now available",
+      "type": "출시·업데이트",
+      "themes": [],
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
@@ -1940,174 +2130,14 @@
       "official": false,
       "sourceLayer": "verified",
       "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "url": "https://huggingface.co/blog/moe-expert-streaming",
-      "source": "Hugging Face Blog",
-      "date": "2026-11-18 00:00",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "url": "https://huggingface.co/blog/rumble-2-flash",
-      "source": "Hugging Face Blog",
-      "date": "2026-11-18 00:00",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Introducing Vercel X",
-      "url": "https://vercel.com/blog/vercel-x",
-      "source": "Vercel Changelog",
-      "date": "2026-11-18 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Introducing Vercel X",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Vercel Drives now reads files up to 6x faster",
-      "url": "https://vercel.com/changelog/vercel-drives-now-reads-files-up-to-6x-faster",
-      "source": "Vercel Changelog",
-      "date": "2026-11-18 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Vercel Drives now reads files up to 6x faster",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Single-second static deployments now support more assets",
-      "url": "https://vercel.com/changelog/single-second-static-deployments-now-support-more-assets",
-      "source": "Vercel Changelog",
-      "date": "2026-11-18 00:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Single-second static deployments now support more assets",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Europe plans to catch the next computer chip wave - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MaWZiX0RLSmZ4OENlMkM3UmZsRW5KVm9Pc0QxbjhjZzZhSVlmdEt2d2xJWTRBalJhajZMT2sxNlNnSlBqdWVPcUYySDJmODJFRG8xaDc5dHprNkE?oc=5",
-      "source": "BBC",
-      "date": "2026-11-18 00:00",
-      "categoryId": "chips",
-      "confidence": "B",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Europe plans to catch the next computer chip wave - BBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
-    },
-    {
-      "title": "v16.5.0-canary.54",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.54",
-      "source": "GitHub · Next.js",
-      "date": "2026-11-17 23:46",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v16.5.0-canary.54",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "External sandboxes for coding agents",
-      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
-      "source": "Simon Willison",
-      "date": "2026-11-17 22:52",
-      "categoryId": "software",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "소프트웨어·개발",
-      "titleKo": "코딩 에이전트를 위한 외부 샌드박스",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v0.45.6",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.6",
-      "source": "GitHub · ComfyUI",
-      "date": "2026-11-17 22:47",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "v0.45.6",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Yet another satellite company is jockeying for a rocket—but this one makes sense",
-      "url": "https://arstechnica.com/space/2026/11/yet-another-satellite-company-is-jockeying-for-a-rocket-but-this-one-makes-sense/",
-      "source": "Ars Technica",
-      "date": "2026-11-17 22:44",
-      "categoryId": "space",
-      "confidence": "C",
-      "stream": "news",
-      "category": "우주·통신",
-      "titleKo": "또 다른 위성 회사가 로켓을 놓고 경쟁하고 있지만, 이번에는 타당성이 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 37,
-    "total": 41,
+    "successful": 43,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 19. 오전 7:03",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 11. 19. 오전 11:19",
+    "mode": "하루 2회 전체 수집"
   }
 }
