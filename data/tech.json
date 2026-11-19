@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 19. 오전 11:19",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 19. 오후 12:37",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.55",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 77,
+    "recentCount": 76,
     "sourceCount": 26,
     "officialCount": 24,
     "opportunityCount": 1
@@ -21,14 +21,14 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
-      "summary": "AI 사이버 공격에 대한 우려 속에서 사티아 나델라는 많은 핵심 인프라가 ‘패치 불가능’하다고 말합니다.",
-      "latest": "2026-11-18 23:45",
+      "count": 31,
+      "summary": "Gemini 4 Neon은 Opus 5.5의 경쟁 제품처럼 보입니다.",
+      "latest": "2026-11-19 00:29",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T02:19:36.275Z",
+      "lastRefreshed": "2026-11-19T03:37:22.929Z",
       "themes": [
-        "음악·음성",
         "주요 기업",
+        "음악·음성",
         "미술·디자인"
       ]
     },
@@ -36,11 +36,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 13,
+      "count": 12,
       "summary": "소프트웨어 회사들이 가정용 컴퓨터를 없애려고 하나요?",
       "latest": "2026-11-18 23:49",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T02:19:36.275Z",
+      "lastRefreshed": "2026-11-19T03:37:22.929Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,7 +53,7 @@
       "summary": "Humyn Labs, 로봇 공학을 위한 실제 데이터 수집에 4,700만 달러 조달",
       "latest": "2026-11-18 22:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T02:19:36.275Z",
+      "lastRefreshed": "2026-11-19T03:37:22.929Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -67,7 +67,7 @@
       "summary": "정부 기관을 공격하는 새로운 EggStreme 악성 코드 변종이 보안 도구를 회피하기 위해 침묵 모드로 전환",
       "latest": "2026-11-18 14:11",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T02:19:36.275Z",
+      "lastRefreshed": "2026-11-19T03:37:22.929Z",
       "themes": [
         "주요 기업"
       ]
@@ -80,7 +80,7 @@
       "summary": "NASA, 노스롭 그루먼 CRS-25 발사 및 발사 전 준비 과정 중계 예정",
       "latest": "2026-11-18 22:19",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T02:19:36.275Z",
+      "lastRefreshed": "2026-11-19T03:37:22.929Z",
       "themes": []
     },
     {
@@ -91,7 +91,7 @@
       "summary": "Solar Insure, 20년 상업용 배터리 보증 출시로 태양광 및 에너지 저장 프로젝트에 대한 보호 확대",
       "latest": "2026-11-18 14:32",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-19T02:19:36.275Z",
+      "lastRefreshed": "2026-11-19T03:37:22.929Z",
       "themes": []
     },
     {
@@ -102,7 +102,7 @@
       "summary": "GitHub CLI로 풀 리퀘스트 이벤트 대기",
       "latest": "2026-11-19 00:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T02:19:36.275Z",
+      "lastRefreshed": "2026-11-19T03:37:22.929Z",
       "themes": [
         "기회",
         "주요 기업"
@@ -687,6 +687,22 @@
     ],
     "community": [
       {
+        "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+        "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+        "source": "Hacker News",
+        "date": "2026-11-19 00:29",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Gemini 4 Neon은 Opus 5.5의 경쟁 제품처럼 보입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
         "title": "Software companies are trying to kill home computing?",
         "url": "https://lateblt.livejournal.com/526188.html",
         "source": "Hacker News",
@@ -698,6 +714,24 @@
         "titleKo": "소프트웨어 회사들이 가정용 컴퓨터를 없애려고 하나요?",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Anthropic prices initial public offering",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "source": "Hacker News",
+        "date": "2026-11-18 23:30",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Anthropic 기업공개(IPO) 가격 책정",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -754,42 +788,26 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
-        "url": "https://rshekhar.com/voyager/",
-        "source": "Hacker News",
-        "date": "2026-11-18 16:18",
-        "categoryId": "chips",
-        "confidence": "D",
-        "stream": "community",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Show HN: 보이저 1호를 분해하여 단일 메모리 칩까지 살펴보기",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Seven new models at scalable price-performance",
-        "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-        "source": "Hacker News",
-        "date": "2026-11-18 16:08",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "확장 가능한 가격 대비 성능을 갖춘 7가지 신규 모델",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
+    {
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "source": "Hacker News",
+      "date": "2026-11-19 00:29",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Gemini 4 Neon은 Opus 5.5의 경쟁 제품처럼 보입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
     {
       "title": "Wait for pull request events with GitHub CLI",
       "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
@@ -855,6 +873,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anthropic prices initial public offering",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "source": "Hacker News",
+      "date": "2026-11-18 23:30",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Anthropic 기업공개(IPO) 가격 책정",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
@@ -1498,38 +1534,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
-      "url": "https://rshekhar.com/voyager/",
-      "source": "Hacker News",
-      "date": "2026-11-18 16:18",
-      "categoryId": "chips",
-      "confidence": "D",
-      "stream": "community",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Show HN: 보이저 1호를 분해하여 단일 메모리 칩까지 살펴보기",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Seven new models at scalable price-performance",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-      "source": "Hacker News",
-      "date": "2026-11-18 16:08",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "확장 가능한 가격 대비 성능을 갖춘 7가지 신규 모델",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "v3.55.1",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.55.1",
       "source": "GitHub · OpenAI Python",
@@ -2133,11 +2137,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 9,
-    "checkedAt": "2026. 11. 19. 오전 11:19",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 19. 오후 12:37",
+    "mode": "매시간 공식 레이더"
   }
 }
