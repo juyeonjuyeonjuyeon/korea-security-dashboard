@@ -1,46 +1,46 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 20. 오전 2:56",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
-  "headline": "v16.5.0-canary.56",
+  "updatedAt": "2026. 11. 20. 오전 7:13",
+  "updateMode": "공식 채널 매시간 점검",
+  "headline": "v0.46.1",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 68,
-    "sourceCount": 27,
-    "officialCount": 24,
+    "recentCount": 66,
+    "sourceCount": 29,
+    "officialCount": 27,
     "opportunityCount": 1
   },
   "summary": [
-    "새 출시: v16.5.0-canary.56",
-    "창작 기술: 로컬 AI, 오픈 모델, 음성 인터페이스, 하드웨어의 미래에 대한 Pete Warden의 의견",
+    "새 출시: v0.46.1",
+    "창작 기술: Meta, 이제 Quest VR 헤드셋에서 3D 영화 판매",
     "행사·무료: GitHub CLI로 풀 리퀘스트 이벤트 대기",
-    "인물 발언: Anthropic의 CEO 다리오 아모데이는 SpaceX와의 협업을 '즐기고' 있다고 말합니다 - CNBC"
+    "인물 발언: 앤트로픽 CEO 다리오 아모데이, 9,000억 달러 규모의 투자 약정은 '그렇게 큰 금액이 아닌 것 같다'고 말해 - CNBC"
   ],
   "categories": [
     {
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 38,
-      "summary": "메타의 AI 에이전트 Muse가 대화를 혼합하고 개인 데이터를 노출하고 있다는 보고가 나왔습니다.",
-      "latest": "2026-11-19 17:38",
+      "count": 39,
+      "summary": "이러한 기술 중단은 Y2K, AI 에이전트 스타일을 제공합니다.",
+      "latest": "2026-11-19 21:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T17:56:48.953Z",
+      "lastRefreshed": "2026-11-19T22:13:58.402Z",
       "themes": [
         "주요 기업",
-        "음악·음성",
-        "미술·디자인"
+        "미술·디자인",
+        "음악·음성"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 4,
-      "summary": "연말연시 스트리밍 및 할인: 블랙프라이데이 특가 상품이 GeForce NOW에 찾아옵니다",
-      "latest": "2026-11-19 14:00",
+      "count": 5,
+      "summary": "Nvidia의 최근 주가 변동에 대한 간략한 역사",
+      "latest": "2026-11-19 21:59",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T17:56:48.953Z",
+      "lastRefreshed": "2026-11-19T22:13:58.402Z",
       "themes": [
         "주요 기업"
       ]
@@ -49,25 +49,24 @@
       "id": "robotics",
       "code": "ROBOT",
       "label": "로봇·모빌리티",
-      "count": 4,
+      "count": 3,
       "summary": "Humyn Labs, 로봇 공학을 위한 실제 데이터 수집에 4,700만 달러 조달",
       "latest": "2026-11-18 22:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T17:56:48.953Z",
+      "lastRefreshed": "2026-11-19T22:13:58.402Z",
       "themes": [
-        "주요 기업",
-        "기회"
+        "주요 기업"
       ]
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 4,
+      "count": 3,
       "summary": "사이버 공격과 단순한 서비스 중단을 구별하는 방법",
       "latest": "2026-11-19 11:13",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T17:56:48.953Z",
+      "lastRefreshed": "2026-11-19T22:13:58.402Z",
       "themes": []
     },
     {
@@ -75,10 +74,10 @@
       "code": "SPACE",
       "label": "우주·통신",
       "count": 10,
-      "summary": "NASA 과학 데이터, 찾기 어려운 펄서를 발견하는 새로운 방법의 기반이 되다",
-      "latest": "2026-11-19 15:33",
+      "summary": "챌린지: 2075년의 삶과 세계에 대한 대중의 의견",
+      "latest": "2026-11-19 19:34",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T17:56:48.953Z",
+      "lastRefreshed": "2026-11-19T22:13:58.402Z",
       "themes": [
         "주요 기업",
         "미술·디자인"
@@ -88,30 +87,169 @@
       "id": "energy",
       "code": "ENERGY",
       "label": "에너지·기후기술",
-      "count": 5,
+      "count": 4,
       "summary": "올바른 방향으로 나아갈 마지막 기회: 산업 가속화법이 유럽 배터리 산업의 성패를 가를 것",
       "latest": "2026-11-19 14:53",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-19T17:56:48.953Z",
+      "lastRefreshed": "2026-11-19T22:13:58.402Z",
       "themes": []
     },
     {
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 15,
-      "summary": "v16.5.0-canary.56",
-      "latest": "2026-11-19 16:14",
+      "count": 16,
+      "summary": "v3.56.0",
+      "latest": "2026-11-19 20:56",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-19T17:56:48.953Z",
+      "lastRefreshed": "2026-11-19T22:13:58.402Z",
       "themes": [
         "주요 기업",
+        "미술·디자인",
         "기회"
       ]
     }
   ],
   "radar": {
     "releases": [
+      {
+        "title": "v0.46.1",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+        "source": "GitHub · ComfyUI",
+        "date": "2026-11-19 21:33",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "v0.46.1",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v3.56.0",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.56.0",
+        "source": "GitHub · OpenAI Python",
+        "date": "2026-11-19 20:56",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v3.56.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+        "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+        "source": "NVIDIA Blog",
+        "date": "2026-11-19 20:00",
+        "categoryId": "chips",
+        "confidence": "A",
+        "stream": "release",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "NVIDIA와 Microsoft, Azure에서 Windows PC로 가속 컴퓨팅 확대",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Challenge: Public Input on Life and the World in 2075",
+        "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
+        "source": "NASA",
+        "date": "2026-11-19 19:34",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "챌린지: 2075년의 삶과 세계에 대한 대중의 의견",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "v2.11.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
+        "source": "GitHub · Anthropic SDK",
+        "date": "2026-11-19 19:14",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "v2.11.0",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Enterprise Live Migrations from Azure DevOps generally available",
+        "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+        "source": "GitHub Changelog",
+        "date": "2026-11-19 18:50",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Azure DevOps의 엔터프라이즈 라이브 마이그레이션이 일반적으로 제공됩니다.",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Red Hat Enterprise Linux runner images now generally available",
+        "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
+        "source": "GitHub Changelog",
+        "date": "2026-11-19 18:48",
+        "categoryId": "software",
+        "confidence": "A",
+        "stream": "release",
+        "category": "소프트웨어·개발",
+        "titleKo": "Red Hat Enterprise Linux 러너 이미지가 이제 일반적으로 제공됩니다.",
+        "type": "출시·업데이트",
+        "themes": [
+          "미술·디자인"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+        "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+        "source": "NVIDIA Blog",
+        "date": "2026-11-19 17:00",
+        "categoryId": "chips",
+        "confidence": "A",
+        "stream": "release",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "옴니버스 속으로: 개발자들이 Frontier AI 에이전트를 통해 아이디어를 시뮬레이션으로 전환하는 방법",
+        "type": "출시·업데이트",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
       {
         "title": "v16.5.0-canary.56",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.56",
@@ -177,143 +315,46 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
+      }
+    ],
+    "creative": [
       {
-        "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
-        "url": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
-        "source": "NASA",
-        "date": "2026-11-19 14:44",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA, 향후 아르테미스 임무 지원을 위한 최신 RS-25 엔진 테스트 실시",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-        "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-        "source": "NASA",
-        "date": "2026-11-19 14:31",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "NASA의 보이저 1호, 지구에서 1광일에 도달하며 역사에 한 획을 긋다",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Google picks Bezos' Blue Origin to launch AI computing satellites in 2029 - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3VqbnV1MzJhUTVfQzlfY2kyX2gzdk1FU0lyNU15dWhzVk40ZGNtRFlPaUFlS0hYeEhZQ0trUkdMUV9OQmIwZTE5aWliLVVYX0Faa2cxUUpjdWw2TFE5OTBCSnh6d3BqWnA0Znc1MV82SnpMdGZVQzRPXzVXcDV5X0hrckZ0TklGQlJmTTdiOFdob19wajZDT2dnUnlhNEZtVkhKMllQZ3R0U3VhOHdOQTl6WU5kRTNieHZqWVIyQlRERms?oc=5",
-        "source": "Reuters",
-        "date": "2026-11-19 14:22",
-        "categoryId": "space",
-        "confidence": "B",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "Google, 2029년 AI 컴퓨팅 위성 발사를 위해 베조스의 블루 오리진을 선택 - 로이터",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "verified",
-        "layerLabel": "주요 언론 확인"
-      },
-      {
-        "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
-        "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
-        "source": "NVIDIA Blog",
-        "date": "2026-11-19 14:00",
-        "categoryId": "chips",
-        "confidence": "A",
-        "stream": "release",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "연말연시 스트리밍 및 할인: 블랙프라이데이 특가 상품이 GeForce NOW에 찾아옵니다",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
-        "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
-        "source": "Cloudflare Blog",
-        "date": "2026-11-19 14:00",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "2026년 미국 중간선거 기간 중 인터넷 트래픽 및 공격",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "2026 - Google Open Source Blog",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jcFRjVmp4Rkl6ak1xWEptMUd5X2tFWjZ1R21mWUVPUkpyeFR5ZTMwU2lTR19ISmhZQTBuOEl5WlM5V2NzYkRnR3Y5NUlGVW5n?oc=5",
-        "source": "Google Open Source Blog",
-        "date": "2026-11-19 11:56",
-        "categoryId": "software",
+        "title": "Meta now sells 3D movies on Quest VR headsets",
+        "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+        "source": "The Verge",
+        "date": "2026-11-19 21:14",
+        "categoryId": "ai",
         "confidence": "C",
         "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "2026 - Google 오픈소스 블로그",
-        "type": "오픈소스",
+        "category": "인공지능",
+        "titleKo": "Meta, 이제 Quest VR 헤드셋에서 3D 영화 판매",
+        "type": "뉴스·분석",
         "themes": [
-          "주요 기업"
+          "주요 기업",
+          "미술·디자인"
         ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
-        "url": "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
+        "title": "Red Hat Enterprise Linux runner images now generally available",
+        "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
         "source": "GitHub Changelog",
-        "date": "2026-11-19 08:27",
+        "date": "2026-11-19 18:48",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
         "category": "소프트웨어·개발",
-        "titleKo": "OpenID Connect를 통한 S3 감사 로그 스트리밍이 GHE.com으로 확장됩니다.",
+        "titleKo": "Red Hat Enterprise Linux 러너 이미지가 이제 일반적으로 제공됩니다.",
         "type": "출시·업데이트",
-        "themes": [],
+        "themes": [
+          "미술·디자인"
+        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
       },
-      {
-        "title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
-        "url": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
-        "source": "NASA",
-        "date": "2026-11-19 05:05",
-        "categoryId": "space",
-        "confidence": "A",
-        "stream": "release",
-        "category": "우주·통신",
-        "titleKo": "APOD: 2026년 11월 19일 – 말머리 성운과 불꽃 성운",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      }
-    ],
-    "creative": [
       {
         "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
         "url": "https://thedataexchange.media/pete-warden-moonshine/",
@@ -367,42 +408,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Canva adds an AI ‘off’ button",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
-        "source": "The Verge",
-        "date": "2026-11-19 13:08",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Canva, AI '끄기' 버튼 추가",
-        "type": "뉴스·분석",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Absolute Batman can save DC Studios",
-        "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
-        "source": "The Verge",
-        "date": "2026-11-19 10:31",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "앱솔루트 배트맨이 DC 스튜디오를 구할 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "음악·음성"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "opportunities": [
@@ -427,15 +432,15 @@
     ],
     "voices": [
       {
-        "title": "Anthropic is ‘enjoying’ working with SpaceX, says CEO Dario Amodei - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT2ltd25WYnhQSjB2RnNhbE10RXVxX3lIODJkeDBhYTBwdVJNSmQ5MnA3NHk4OGhWTUp2ZXVMdWpNclJYMGhGTWdtWWtTV2FwMjlXR0V2dVZpdExsd2dWT1JRajh2b1pYZEtYbzZlMGdJNEtwTmphcVhaOEtEY0hhZjREU2JXYUhkMlpQT0pDNGVmUTV6TzlDWUFB?oc=5",
+        "title": "Anthropic CEO Dario Amodei says $900 billion commitments don’t ‘seem so large’ - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTNlbFdLQ3RmSEZtM0YwRkl3c2VNQWpuTG1FcFZxOU1QbGx2c0tES2E5WUl2cHl0Rm00X2dxVC1KQUdMVktXcXkxc3hPRVdBS1BDVFR1Q1Z1X253SV9KeUtjUDBBdGZ3dUlxVVRZdW9MQnZRV09MMHR3UllfY2VUTWRlSl9NNGhQQUJ4b2JxUXlOMDBGWGhUQTM0WWFZQ0E0MzNTdEQ3Yw?oc=5",
         "source": "CNBC",
-        "date": "2026-11-19 16:08",
+        "date": "2026-11-19 16:30",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
         "category": "인공지능",
-        "titleKo": "Anthropic의 CEO 다리오 아모데이는 SpaceX와의 협업을 '즐기고' 있다고 말합니다 - CNBC",
+        "titleKo": "앤트로픽 CEO 다리오 아모데이, 9,000억 달러 규모의 투자 약정은 '그렇게 큰 금액이 아닌 것 같다'고 말해 - CNBC",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -445,15 +450,15 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Anthropic CEO Dario Amodei says $900 billion commitments don’t ‘seem so large’ - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTNlbFdLQ3RmSEZtM0YwRkl3c2VNQWpuTG1FcFZxOU1QbGx2c0tES2E5WUl2cHl0Rm00X2dxVC1KQUdMVktXcXkxc3hPRVdBS1BDVFR1Q1Z1X253SV9KeUtjUDBBdGZ3dUlxVVRZdW9MQnZRV09MMHR3UllfY2VUTWRlSl9NNGhQQUJ4b2JxUXlOMDBGWGhUQTM0WWFZQ0E0MzNTdEQ3Yw?oc=5",
+        "title": "Anthropic is ‘enjoying’ working with SpaceX, says CEO Dario Amodei - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT2ltd25WYnhQSjB2RnNhbE10RXVxX3lIODJkeDBhYTBwdVJNSmQ5MnA3NHk4OGhWTUp2ZXVMdWpNclJYMGhGTWdtWWtTV2FwMjlXR0V2dVZpdExsd2dWT1JRajh2b1pYZEtYbzZlMGdJNEtwTmphcVhaOEtEY0hhZjREU2JXYUhkMlpQT0pDNGVmUTV6TzlDWUFB?oc=5",
         "source": "CNBC",
-        "date": "2026-11-19 16:02",
+        "date": "2026-11-19 16:20",
         "categoryId": "ai",
         "confidence": "C",
         "stream": "people",
         "category": "인공지능",
-        "titleKo": "앤트로픽 CEO 다리오 아모데이, 9,000억 달러 규모의 투자 약정은 '그렇게 큰 금액이 아닌 것 같다'고 말해 - CNBC",
+        "titleKo": "Anthropic의 CEO 다리오 아모데이는 SpaceX와의 협업을 '즐기고' 있다고 말합니다 - CNBC",
         "type": "인물 발언",
         "themes": [
           "주요 기업"
@@ -538,6 +543,179 @@
     ],
     "analysis": [
       {
+        "title": "A brief history of Nvidia’s recent stock fluctuations",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+        "source": "The Verge",
+        "date": "2026-11-19 21:59",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "Nvidia의 최근 주가 변동에 대한 간략한 역사",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "These tech outages are giving Y2K, AI agent style",
+        "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+        "source": "TechCrunch",
+        "date": "2026-11-19 21:42",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "이러한 기술 중단은 Y2K, AI 에이전트 스타일을 제공합니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Meta now sells 3D movies on Quest VR headsets",
+        "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+        "source": "The Verge",
+        "date": "2026-11-19 21:14",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Meta, 이제 Quest VR 헤드셋에서 3D 영화 판매",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업",
+          "미술·디자인"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+        "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+        "source": "Ars Technica",
+        "date": "2026-11-19 20:19",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "도리토스 봉투가 AI 총기 경보를 유발한 후 트라우마를 겪은 청소년들이 학교와 경찰을 고소하다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Google is putting AI chats right on the homepage",
+        "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+        "source": "The Verge",
+        "date": "2026-11-19 20:14",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Google이 홈페이지에 AI 채팅을 도입합니다",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Anthropic’s IPO could deliver $156B to charity",
+        "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+        "source": "TechCrunch",
+        "date": "2026-11-19 19:10",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "앤트로픽의 IPO, 자선 단체에 1,560억 달러를 기부할 수 있음",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Gemini on Mac can now use your computer",
+        "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+        "source": "The Verge",
+        "date": "2026-11-19 19:07",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "이제 Mac에서 Gemini를 사용하여 컴퓨터를 이용할 수 있습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+        "url": "https://spectrum.ieee.org/ai-tools-for-rural-communities",
+        "source": "IEEE Spectrum",
+        "date": "2026-11-19 19:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "지역사회에 중점을 둔 학자가 콜로라도주 농부들에게 AI 도구를 제공하다",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Google gives Gemini the ability to use your Mac for you",
+        "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "source": "TechCrunch",
+        "date": "2026-11-19 18:09",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "Google은 Gemini에게 사용자를 대신해 Mac을 사용할 수 있는 기능을 제공합니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+        "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "source": "TechCrunch",
+        "date": "2026-11-19 17:38",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "메타의 AI 에이전트 Muse가 대화를 혼동하고 개인 데이터를 노출할 수 있다는 보고가 나왔습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
         "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
         "source": "TechCrunch",
@@ -572,186 +750,75 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-        "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-        "source": "TechCrunch",
-        "date": "2026-11-19 16:59",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "앤트로픽, 나스닥 상장 시 주가 111달러로 IPO 가격보다 33% 상승",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-        "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-        "source": "TechCrunch",
-        "date": "2026-11-19 16:19",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "나스닥 개장 벨이 울리자, 안트로픽 CEO가 AI 개발 속도 조절에 다시 한번 전념을 다짐하다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic is ‘enjoying’ working with SpaceX, says CEO Dario Amodei - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT2ltd25WYnhQSjB2RnNhbE10RXVxX3lIODJkeDBhYTBwdVJNSmQ5MnA3NHk4OGhWTUp2ZXVMdWpNclJYMGhGTWdtWWtTV2FwMjlXR0V2dVZpdExsd2dWT1JRajh2b1pYZEtYbzZlMGdJNEtwTmphcVhaOEtEY0hhZjREU2JXYUhkMlpQT0pDNGVmUTV6TzlDWUFB?oc=5",
-        "source": "CNBC",
-        "date": "2026-11-19 16:08",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "Anthropic의 CEO 다리오 아모데이는 SpaceX와의 협업을 '즐기고' 있다고 말합니다 - CNBC",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic CEO Dario Amodei says $900 billion commitments don’t ‘seem so large’ - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTNlbFdLQ3RmSEZtM0YwRkl3c2VNQWpuTG1FcFZxOU1QbGx2c0tES2E5WUl2cHl0Rm00X2dxVC1KQUdMVktXcXkxc3hPRVdBS1BDVFR1Q1Z1X253SV9KeUtjUDBBdGZ3dUlxVVRZdW9MQnZRV09MMHR3UllfY2VUTWRlSl9NNGhQQUJ4b2JxUXlOMDBGWGhUQTM0WWFZQ0E0MzNTdEQ3Yw?oc=5",
-        "source": "CNBC",
-        "date": "2026-11-19 16:02",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "앤트로픽 CEO 다리오 아모데이, 9,000억 달러 규모의 투자 약정은 '그렇게 큰 금액이 아닌 것 같다'고 말해 - CNBC",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Analogue 3D can now update itself over Wi-Fi",
-        "url": "https://www.theverge.com/tech/1037552/analogue-3d-nintendo-64-console-wi-fi-activated-automatic-updates",
-        "source": "The Verge",
-        "date": "2026-11-19 15:28",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "이제 Analogue 3D가 Wi-Fi를 통해 자체 업데이트를 수행할 수 있습니다.",
-        "type": "출시·업데이트",
-        "themes": [
-          "미술·디자인"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic hopes to secure investment-grade credit rating in future, says CEO Dario Amodei - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdUNTaU1Sc1ZMMXVNdFZNanNDQlNmOXRPTFViQzJrVlo1NWJqbmVwaWt2aFFlOHFwODZRYnVMeGlSX0lvQjlfc3ZFdHdzSnhKVlp2ZEpLejVsdHNQTHlrRDYwRlVTaEN3ZW9ienJDTXZ5YU5vWk1Za0RLMjRNUi1hVzVLdEswMXNyOU54eVRmWnJOUlpmakwxY0FJQ2VUYjZXNFQxd2xOQkY?oc=5",
-        "source": "CNBC",
-        "date": "2026-11-19 15:26",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "people",
-        "category": "인공지능",
-        "titleKo": "Anthropic의 CEO 다리오 아모데이가 향후 투자등급 신용등급을 확보하기를 희망한다고 밝힘 - CNBC",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업",
-          "기회"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-        "source": "The Verge",
-        "date": "2026-11-19 15:16",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "ChatGPT는 이제 실시간 받아쓰기를 통해 사용자가 말하는 내용을 받아쓸 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-        "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-        "source": "TechCrunch",
-        "date": "2026-11-19 14:54",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic의 IPO, AI의 순환 금융 붐을 시험대에 올리다",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Last Chance to Get It Right: The Industrial Accelerator Act Will Make or Break Europe’s Battery Industry",
-        "url": "https://cleantechnica.com/2026/11/19/last-chance-to-get-it-right-the-industrial-accelerator-act-will-make-or-break-europes-battery-industry/",
-        "source": "CleanTechnica",
-        "date": "2026-11-19 14:53",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "올바른 방향으로 나아갈 마지막 기회: 산업 가속화법이 유럽 배터리 산업의 성패를 가를 것",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-        "source": "The Verge",
-        "date": "2026-11-19 14:26",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "사상 최대의 IPO를 앞두고, 앤트로픽의 ‘착한 기업’이라는 평판이 위태롭습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Claude solves two open problems in the physics of black holes",
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+        "source": "Hacker News",
+        "date": "2026-11-19 17:30",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Claude가 블랙홀 물리학의 두 가지 미해결 문제를 해결했습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Anthropic hits $2T in Nasdaq debut",
+        "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+        "source": "Hacker News",
+        "date": "2026-11-19 17:02",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "앤트로픽, 나스닥 상장 첫날 시가총액 2조 달러 기록",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Chrome AI features wasting much bandwidth",
+        "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+        "source": "Hacker News",
+        "date": "2026-11-19 16:54",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "많은 대역폭을 낭비하는 Chrome AI 기능",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Fuck Your AI Safeguards",
+        "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+        "source": "Hacker News",
+        "date": "2026-11-19 16:30",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "AI 안전 장치 따위는 집어치워",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
         "url": "https://thedataexchange.media/pete-warden-moonshine/",
@@ -771,83 +838,17 @@
         "layerLabel": "커뮤니티 신호"
       },
       {
-        "title": "AI will not make you rich (2025)",
-        "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+        "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+        "url": "https://maccus.fr/en/cooling-overtaking-heating/",
         "source": "Hacker News",
-        "date": "2026-11-19 01:51",
+        "date": "2026-11-19 14:57",
         "categoryId": "ai",
         "confidence": "D",
         "stream": "community",
         "category": "인공지능",
-        "titleKo": "AI는 여러분을 부자로 만들어주지 않을 것입니다(2025년)",
+        "titleKo": "IEA, 건물 냉방이 난방을 제치고 에너지 수요 1위로 부상했다고 밝혀",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Black high school students sue after AI mistakes Doritos bag for gun",
-        "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
-        "source": "Hacker News",
-        "date": "2026-11-19 00:57",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "인공지능이 도리토스 봉지를 총으로 오인한 후 흑인 고등학생들이 소송을 제기했습니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-        "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-        "source": "Hacker News",
-        "date": "2026-11-19 00:29",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Gemini 4 Neon은 Opus 5.5의 경쟁 제품처럼 보입니다.",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Software companies are trying to kill home computing?",
-        "url": "https://lateblt.livejournal.com/526188.html",
-        "source": "Hacker News",
-        "date": "2026-11-18 23:49",
-        "categoryId": "chips",
-        "confidence": "D",
-        "stream": "community",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "소프트웨어 회사들이 가정용 컴퓨터를 없애려고 하나요?",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Anthropic prices initial public offering",
-        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-        "source": "Hacker News",
-        "date": "2026-11-18 23:30",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Anthropic 기업공개(IPO) 가격 책정",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -855,6 +856,299 @@
     ]
   },
   "news": [
+    {
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "source": "The Verge",
+      "date": "2026-11-19 21:59",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Nvidia의 최근 주가 변동에 대한 간략한 역사",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "source": "TechCrunch",
+      "date": "2026-11-19 21:42",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "이러한 기술 중단은 Y2K, AI 에이전트 스타일을 제공합니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v0.46.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+      "source": "GitHub · ComfyUI",
+      "date": "2026-11-19 21:33",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "v0.46.1",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Meta now sells 3D movies on Quest VR headsets",
+      "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+      "source": "The Verge",
+      "date": "2026-11-19 21:14",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Meta, 이제 Quest VR 헤드셋에서 3D 영화 판매",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업",
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "v3.56.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.56.0",
+      "source": "GitHub · OpenAI Python",
+      "date": "2026-11-19 20:56",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v3.56.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "source": "Ars Technica",
+      "date": "2026-11-19 20:19",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "도리토스 봉투가 AI 총기 경보를 유발한 후 트라우마를 겪은 청소년들이 학교와 경찰을 고소하다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google is putting AI chats right on the homepage",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "source": "The Verge",
+      "date": "2026-11-19 20:14",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google이 홈페이지에 AI 채팅을 도입합니다",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "source": "NVIDIA Blog",
+      "date": "2026-11-19 20:00",
+      "categoryId": "chips",
+      "confidence": "A",
+      "stream": "release",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "NVIDIA와 Microsoft, Azure에서 Windows PC로 가속 컴퓨팅 확대",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Challenge: Public Input on Life and the World in 2075",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
+      "source": "NASA",
+      "date": "2026-11-19 19:34",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "챌린지: 2075년의 삶과 세계에 대한 대중의 의견",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "v2.11.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
+      "source": "GitHub · Anthropic SDK",
+      "date": "2026-11-19 19:14",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "v2.11.0",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "source": "TechCrunch",
+      "date": "2026-11-19 19:10",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "앤트로픽의 IPO, 자선 단체에 1,560억 달러를 기부할 수 있음",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Gemini on Mac can now use your computer",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "source": "The Verge",
+      "date": "2026-11-19 19:07",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "이제 Mac에서 Gemini를 사용하여 컴퓨터를 이용할 수 있습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+      "url": "https://spectrum.ieee.org/ai-tools-for-rural-communities",
+      "source": "IEEE Spectrum",
+      "date": "2026-11-19 19:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "지역사회에 중점을 둔 학자가 콜로라도주 농부들에게 AI 도구를 제공하다",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Enterprise Live Migrations from Azure DevOps generally available",
+      "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+      "source": "GitHub Changelog",
+      "date": "2026-11-19 18:50",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Azure DevOps의 엔터프라이즈 라이브 마이그레이션이 일반적으로 제공됩니다.",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Red Hat Enterprise Linux runner images now generally available",
+      "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
+      "source": "GitHub Changelog",
+      "date": "2026-11-19 18:48",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Red Hat Enterprise Linux 러너 이미지가 이제 일반적으로 제공됩니다.",
+      "type": "출시·업데이트",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "source": "TechCrunch",
+      "date": "2026-11-19 18:09",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "Google은 Gemini에게 사용자를 대신해 Mac을 사용할 수 있는 기능을 제공합니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch",
+      "date": "2026-11-19 17:38",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "메타의 AI 에이전트 Muse가 대화를 혼동하고 개인 데이터를 노출할 수 있다는 보고가 나왔습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
       "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
@@ -872,6 +1166,40 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "source": "Hacker News",
+      "date": "2026-11-19 17:30",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Claude가 블랙홀 물리학의 두 가지 미해결 문제를 해결했습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Anthropic hits $2T in Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "source": "Hacker News",
+      "date": "2026-11-19 17:02",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "앤트로픽, 나스닥 상장 첫날 시가총액 2조 달러 기록",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Anthropic starts trading on Wall Street",
@@ -892,6 +1220,24 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "source": "NVIDIA Blog",
+      "date": "2026-11-19 17:00",
+      "categoryId": "chips",
+      "confidence": "A",
+      "stream": "release",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "옴니버스 속으로: 개발자들이 Frontier AI 에이전트를 통해 아이디어를 시뮬레이션으로 전환하는 방법",
+      "type": "출시·업데이트",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
       "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
       "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
       "source": "TechCrunch",
@@ -910,16 +1256,66 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-      "source": "TechCrunch",
-      "date": "2026-11-19 16:19",
+      "title": "Chrome AI features wasting much bandwidth",
+      "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+      "source": "Hacker News",
+      "date": "2026-11-19 16:54",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "많은 대역폭을 낭비하는 Chrome AI 기능",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Fuck Your AI Safeguards",
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "source": "Hacker News",
+      "date": "2026-11-19 16:30",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "AI 안전 장치 따위는 집어치워",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Anthropic CEO Dario Amodei says $900 billion commitments don’t ‘seem so large’ - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTNlbFdLQ3RmSEZtM0YwRkl3c2VNQWpuTG1FcFZxOU1QbGx2c0tES2E5WUl2cHl0Rm00X2dxVC1KQUdMVktXcXkxc3hPRVdBS1BDVFR1Q1Z1X253SV9KeUtjUDBBdGZ3dUlxVVRZdW9MQnZRV09MMHR3UllfY2VUTWRlSl9NNGhQQUJ4b2JxUXlOMDBGWGhUQTM0WWFZQ0E0MzNTdEQ3Yw?oc=5",
+      "source": "CNBC",
+      "date": "2026-11-19 16:30",
       "categoryId": "ai",
       "confidence": "C",
-      "stream": "news",
+      "stream": "people",
       "category": "인공지능",
-      "titleKo": "나스닥 개장 벨이 울리자, 안트로픽 CEO가 AI 개발 속도 조절에 다시 한번 전념을 다짐하다",
-      "type": "뉴스·분석",
+      "titleKo": "앤트로픽 CEO 다리오 아모데이, 9,000억 달러 규모의 투자 약정은 '그렇게 큰 금액이 아닌 것 같다'고 말해 - CNBC",
+      "type": "인물 발언",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Anthropic is ‘enjoying’ working with SpaceX, says CEO Dario Amodei - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT2ltd25WYnhQSjB2RnNhbE10RXVxX3lIODJkeDBhYTBwdVJNSmQ5MnA3NHk4OGhWTUp2ZXVMdWpNclJYMGhGTWdtWWtTV2FwMjlXR0V2dVZpdExsd2dWT1JRajh2b1pYZEtYbzZlMGdJNEtwTmphcVhaOEtEY0hhZjREU2JXYUhkMlpQT0pDNGVmUTV6TzlDWUFB?oc=5",
+      "source": "CNBC",
+      "date": "2026-11-19 16:20",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "people",
+      "category": "인공지능",
+      "titleKo": "Anthropic의 CEO 다리오 아모데이는 SpaceX와의 협업을 '즐기고' 있다고 말합니다 - CNBC",
+      "type": "인물 발언",
       "themes": [
         "주요 기업"
       ],
@@ -942,42 +1338,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Anthropic is ‘enjoying’ working with SpaceX, says CEO Dario Amodei - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT2ltd25WYnhQSjB2RnNhbE10RXVxX3lIODJkeDBhYTBwdVJNSmQ5MnA3NHk4OGhWTUp2ZXVMdWpNclJYMGhGTWdtWWtTV2FwMjlXR0V2dVZpdExsd2dWT1JRajh2b1pYZEtYbzZlMGdJNEtwTmphcVhaOEtEY0hhZjREU2JXYUhkMlpQT0pDNGVmUTV6TzlDWUFB?oc=5",
-      "source": "CNBC",
-      "date": "2026-11-19 16:08",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "Anthropic의 CEO 다리오 아모데이는 SpaceX와의 협업을 '즐기고' 있다고 말합니다 - CNBC",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic CEO Dario Amodei says $900 billion commitments don’t ‘seem so large’ - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTNlbFdLQ3RmSEZtM0YwRkl3c2VNQWpuTG1FcFZxOU1QbGx2c0tES2E5WUl2cHl0Rm00X2dxVC1KQUdMVktXcXkxc3hPRVdBS1BDVFR1Q1Z1X253SV9KeUtjUDBBdGZ3dUlxVVRZdW9MQnZRV09MMHR3UllfY2VUTWRlSl9NNGhQQUJ4b2JxUXlOMDBGWGhUQTM0WWFZQ0E0MzNTdEQ3Yw?oc=5",
-      "source": "CNBC",
-      "date": "2026-11-19 16:02",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "people",
-      "category": "인공지능",
-      "titleKo": "앤트로픽 CEO 다리오 아모데이, 9,000억 달러 규모의 투자 약정은 '그렇게 큰 금액이 아닌 것 같다'고 말해 - CNBC",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Anthropic raises $81bn in record-breaking stock market debut - BBC",
@@ -1085,38 +1445,20 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-      "source": "The Verge",
-      "date": "2026-11-19 15:16",
+      "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+      "url": "https://maccus.fr/en/cooling-overtaking-heating/",
+      "source": "Hacker News",
+      "date": "2026-11-19 14:57",
       "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
+      "confidence": "D",
+      "stream": "community",
       "category": "인공지능",
-      "titleKo": "ChatGPT는 이제 실시간 받아쓰기를 통해 사용자가 말하는 내용을 받아쓸 수 있습니다.",
+      "titleKo": "IEA, 건물 냉방이 난방을 제치고 에너지 수요 1위로 부상했다고 밝혀",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "source": "TechCrunch",
-      "date": "2026-11-19 14:54",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic의 IPO, AI의 순환 금융 붐을 시험대에 올리다",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Last Chance to Get It Right: The Industrial Accelerator Act Will Make or Break Europe’s Battery Industry",
@@ -1165,24 +1507,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-      "source": "The Verge",
-      "date": "2026-11-19 14:26",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "사상 최대의 IPO를 앞두고, 앤트로픽의 ‘착한 기업’이라는 평판이 위태롭습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "Google picks Bezos' Blue Origin to launch AI computing satellites in 2029 - Reuters",
@@ -1271,24 +1595,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Canva adds an AI ‘off’ button",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
-      "source": "The Verge",
-      "date": "2026-11-19 13:08",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Canva, AI '끄기' 버튼 추가",
-      "type": "뉴스·분석",
-      "themes": [
-        "미술·디자인"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "2026 - Google Open Source Blog",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jcFRjVmp4Rkl6ak1xWEptMUd5X2tFWjZ1R21mWUVPUkpyeFR5ZTMwU2lTR19ISmhZQTBuOEl5WlM5V2NzYkRnR3Y5NUlGVW5n?oc=5",
       "source": "Google Open Source Blog",
@@ -1334,24 +1640,6 @@
       "titleKo": "10억 달러 규모의 거래가 미국 배터리 시장에 대해 말해주는 것",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Absolute Batman can save DC Studios",
-      "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
-      "source": "The Verge",
-      "date": "2026-11-19 10:31",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "앱솔루트 배트맨이 DC 스튜디오를 구할 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "음악·음성"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -1517,22 +1805,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "El Niño Rains Paint the Atacama",
-      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/",
-      "source": "NASA",
-      "date": "2026-11-19 05:00",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "엘니뇨 강우로 물든 아타카마 사막",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Almost 90% of Europe’s Battery Production at Risk from Franco-German Car Deal",
       "url": "https://cleantechnica.com/2026/11/18/almost-90-of-europes-battery-production-at-risk-from-franco-german-car-deal/",
       "source": "CleanTechnica",
@@ -1581,54 +1853,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "AI will not make you rich (2025)",
-      "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
-      "source": "Hacker News",
-      "date": "2026-11-19 01:51",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "AI는 여러분을 부자로 만들어주지 않을 것입니다(2025년)",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Black high school students sue after AI mistakes Doritos bag for gun",
-      "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
-      "source": "Hacker News",
-      "date": "2026-11-19 00:57",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "인공지능이 도리토스 봉지를 총으로 오인한 후 흑인 고등학생들이 소송을 제기했습니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-      "source": "Hacker News",
-      "date": "2026-11-19 00:29",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Gemini 4 Neon은 Opus 5.5의 경쟁 제품처럼 보입니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Wait for pull request events with GitHub CLI",
       "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
       "source": "GitHub Changelog",
@@ -1642,6 +1866,22 @@
       "themes": [
         "기회"
       ],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway",
+      "url": "https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway",
+      "source": "Vercel Changelog",
+      "date": "2026-11-19 00:00",
+      "categoryId": "software",
+      "confidence": "A",
+      "stream": "release",
+      "category": "소프트웨어·개발",
+      "titleKo": "Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway",
+      "type": "출시·업데이트",
+      "themes": [],
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
@@ -1681,38 +1921,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Software companies are trying to kill home computing?",
-      "url": "https://lateblt.livejournal.com/526188.html",
-      "source": "Hacker News",
-      "date": "2026-11-18 23:49",
-      "categoryId": "chips",
-      "confidence": "D",
-      "stream": "community",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "소프트웨어 회사들이 가정용 컴퓨터를 없애려고 하나요?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "source": "TechCrunch",
-      "date": "2026-11-18 23:45",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 사이버 공격에 대한 우려 속에서 사티아 나델라는 많은 핵심 인프라가 ‘패치 불가능’하다고 말합니다.",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "v16.5.0-canary.55",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.55",
       "source": "GitHub · Next.js",
@@ -1727,42 +1935,6 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Anthropic prices initial public offering",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-      "source": "Hacker News",
-      "date": "2026-11-18 23:30",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Anthropic 기업공개(IPO) 가격 책정",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "source": "TechCrunch",
-      "date": "2026-11-18 23:17",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "마이크로소프트 CEO 사티아 나델라, 황 회장의 퇴임 후에도 엔비디아에 대한 신뢰 유지",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     },
     {
       "title": "v0.46.0",
@@ -1997,22 +2169,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Security risk assessments run automatically on GitHub Team",
-      "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
-      "source": "GitHub Changelog",
-      "date": "2026-11-18 16:54",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "GitHub Team에서 보안 위험 평가가 자동으로 실행됩니다.",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Rockwell Automation acquiring mobile robot maker AGILOX",
       "url": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
       "source": "The Robot Report",
@@ -2045,164 +2201,14 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Waymo has stopped its robotaxis from driving on the freeway—here’s why",
-      "url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint/",
-      "source": "Ars Technica",
-      "date": "2026-11-18 16:24",
-      "categoryId": "robotics",
-      "confidence": "C",
-      "stream": "news",
-      "category": "로봇·모빌리티",
-      "titleKo": "웨이모가 고속도로에서 로봇택시 운행을 중단한 이유",
-      "type": "뉴스·분석",
-      "themes": [
-        "기회"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "v3.55.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.55.1",
-      "source": "GitHub · OpenAI Python",
-      "date": "2026-11-18 16:04",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v3.55.1",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Customize GitHub Copilot for your team",
-      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-      "source": "GitHub Changelog",
-      "date": "2026-11-18 16:00",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "팀에 맞게 GitHub Copilot 사용자 지정",
-      "type": "오픈소스",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fN2ZOWVZ6YkV0emdTaWU3MGlkTzhwcFNGRl9pYXN2d2kwcnRoZW9HS0luWlp4clhWSXk3eExTeEljd1N4SklrZ3lTVkdRUzRCZE9sUFpOaDFyYTNYa19kTHNZSzVKaEV0RXl5YmJwQk9NRnRxR08w0gF8QVVfeXFMTlZsNHk0MjhxNTE4MVdnY1M5clBUYkJkX1ZONlRRZExmbF9LeU5JN3JSWk83Zkc1QUVUNlZCRDVFeExRQW1ZUUlWeVE0NVVvVGJ1MEtUYWFhSVNXX2I5bGlfb0lCSzlkaExmeXNnSVpFLTdpU0ozN0VpTmdXNA?oc=5",
-      "source": "CNBC",
-      "date": "2026-11-18 15:15",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX - CNBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "source": "Hugging Face Blog",
-      "date": "2026-11-18 15:00",
-      "categoryId": "ai",
-      "confidence": "A",
-      "stream": "release",
-      "category": "인공지능",
-      "titleKo": "Streamhouse의 시계열 모델: 새로운 영역 및 사용 사례",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
-      "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
-      "source": "Cloudflare Blog",
-      "date": "2026-11-18 14:52",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "Cloudflare WAF가 Java4Shell(CVE-2026-114938)로부터 보호하는 방법",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "The AI Hype Index: AI is everywhere",
-      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "source": "MIT Technology Review",
-      "date": "2026-11-18 14:42",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "AI 과대 광고 지수: AI는 어디에나 있습니다",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Solar Insure Launches 20-Year Commercial Battery Warranty, Expanding Protection for Solar & Storage Projects",
-      "url": "https://cleantechnica.com/2026/11/18/solar-insure-launches-20-year-commercial-battery-warranty-expanding-protection-for-solar-storage-projects/",
-      "source": "CleanTechnica",
-      "date": "2026-11-18 14:32",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "Solar Insure, 20년 상업용 배터리 보증 출시로 태양광 및 에너지 저장 프로젝트에 대한 보호 확대",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "source": "The Hacker News",
-      "date": "2026-11-18 14:11",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "정부 기관을 공격하는 새로운 EggStreme 악성 코드 변종이 보안 도구를 회피하기 위해 침묵 모드로 전환",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 43,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
-    "officialSources": 9,
-    "checkedAt": "2026. 11. 20. 오전 2:56",
-    "mode": "하루 2회 전체 수집"
+    "officialSources": 10,
+    "checkedAt": "2026. 11. 20. 오전 7:13",
+    "mode": "매시간 공식 레이더"
   }
 }
