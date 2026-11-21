@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 22. 오전 1:34",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 22. 오전 4:24",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v5.24.0 릴리스",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 43,
-    "sourceCount": 24,
-    "officialCount": 29,
+    "recentCount": 35,
+    "sourceCount": 25,
+    "officialCount": 28,
     "opportunityCount": 0
   },
   "summary": [
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 30,
-      "summary": "이 마이크로드라마 스타트업에 내 얼굴의 AI 버전을 판매하는 것이 할리우드의 미래일까요?",
-      "latest": "2026-11-21 16:00",
+      "count": 31,
+      "summary": "다음은 문자 메시지에 포함될 수 있는 주요 AI 에이전트입니다.",
+      "latest": "2026-11-21 17:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-21T16:34:05.944Z",
+      "lastRefreshed": "2026-11-21T19:24:50.744Z",
       "themes": [
         "주요 기업",
         "음악·음성",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 6,
+      "count": 5,
       "summary": "미국 증권거래위원회(SEC)의 엔비디아 조사, 잠재적 회계 문제 검토 중 – 소식통",
       "latest": "2026-11-20 20:22",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-21T16:34:05.944Z",
+      "lastRefreshed": "2026-11-21T19:24:50.744Z",
       "themes": [
         "주요 기업"
       ]
@@ -52,7 +52,7 @@
       "summary": "메드트로닉의 휴고(Hugo) 수술 로봇, 더 큰 수술에 대비",
       "latest": "2026-11-21 00:55",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-21T16:34:05.944Z",
+      "lastRefreshed": "2026-11-21T19:24:50.744Z",
       "themes": []
     },
     {
@@ -63,7 +63,7 @@
       "summary": "공격자의 AI 에이전트가 의료 영상 소프트웨어에서 제로 데이를 발견하고 루트 액세스 권한을 획득했습니다.",
       "latest": "2026-11-21 11:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-21T16:34:05.944Z",
+      "lastRefreshed": "2026-11-21T19:24:50.744Z",
       "themes": []
     },
     {
@@ -74,7 +74,7 @@
       "summary": "APOD: 11월 21일 – 보이저가 촬영한 해왕성",
       "latest": "2026-11-21 05:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-21T16:34:05.944Z",
+      "lastRefreshed": "2026-11-21T19:24:50.744Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -85,10 +85,10 @@
       "code": "ENERGY",
       "label": "에너지·기후기술",
       "count": 6,
-      "summary": "Jackery와 Every Electric, 플러그인 VPP로 도시 에너지 저장 방식 혁신",
-      "latest": "2026-11-21 14:27",
+      "summary": "유럽의 모델링된 수소 가격 €5.70/kg은 훨씬 낮은 가격을 감당할 수 있는 산업 구매자들과 대립",
+      "latest": "2026-11-21 16:49",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-21T16:34:05.944Z",
+      "lastRefreshed": "2026-11-21T19:24:50.744Z",
       "themes": []
     },
     {
@@ -99,7 +99,7 @@
       "summary": "v16.5.0-canary.59",
       "latest": "2026-11-20 23:42",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-21T16:34:05.944Z",
+      "lastRefreshed": "2026-11-21T19:24:50.744Z",
       "themes": [
         "주요 기업"
       ]
@@ -415,6 +415,38 @@
     ],
     "analysis": [
       {
+        "title": "Here are the top AI agents that can live in your text messages",
+        "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "source": "TechCrunch",
+        "date": "2026-11-21 17:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "다음은 문자 메시지에 포함될 수 있는 주요 AI 에이전트입니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Europe’s Modelled €5.70/kg Hydrogen Faces Industrial Buyers Who Can Afford Far Less",
+        "url": "https://cleantechnica.com/2026/11/21/europe-hydrogen-cost-industrial-buyers-price-ceilings/",
+        "source": "CleanTechnica",
+        "date": "2026-11-21 16:49",
+        "categoryId": "energy",
+        "confidence": "C",
+        "stream": "news",
+        "category": "에너지·기후기술",
+        "titleKo": "유럽의 모델링된 수소 가격 €5.70/kg은 훨씬 낮은 가격을 감당할 수 있는 산업 구매자들과 대립",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
         "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
         "source": "TechCrunch",
@@ -561,22 +593,6 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
-        "title": "Is the Energy Crisis Accelerating the Clean Energy Transition? 4 Takeaways from the IEA’s World Energy Outlook 2026",
-        "url": "https://cleantechnica.com/2026/11/20/is-the-energy-crisis-accelerating-the-clean-energy-transition-4-takeaways-from-the-ieas-world-energy-outlook-2026/",
-        "source": "CleanTechnica",
-        "date": "2026-11-21 01:13",
-        "categoryId": "energy",
-        "confidence": "C",
-        "stream": "news",
-        "category": "에너지·기후기술",
-        "titleKo": "에너지 위기가 청정 에너지 전환을 가속화하고 있나요? IEA의 2026년 세계 에너지 전망에서 얻은 4가지 시사점",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
         "title": "Medtronic’s Hugo surgical robot ready for bigger operation",
         "url": "https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/",
         "source": "The Robot Report",
@@ -588,24 +604,6 @@
         "titleKo": "메드트로닉의 휴고(Hugo) 수술 로봇, 더 큰 수술에 대비",
         "type": "뉴스·분석",
         "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
-        "url": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
-        "source": "Ars Technica",
-        "date": "2026-11-20 22:16",
-        "categoryId": "space",
-        "confidence": "C",
-        "stream": "news",
-        "category": "우주·통신",
-        "titleKo": "우크라이나에서 발생한 SpaceX의 Starshield 문제로 인해 더 광범위한 군사 사업이 위협받을 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
@@ -713,6 +711,38 @@
     ]
   },
   "news": [
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch",
+      "date": "2026-11-21 17:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "다음은 문자 메시지에 포함될 수 있는 주요 AI 에이전트입니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Europe’s Modelled €5.70/kg Hydrogen Faces Industrial Buyers Who Can Afford Far Less",
+      "url": "https://cleantechnica.com/2026/11/21/europe-hydrogen-cost-industrial-buyers-price-ceilings/",
+      "source": "CleanTechnica",
+      "date": "2026-11-21 16:49",
+      "categoryId": "energy",
+      "confidence": "C",
+      "stream": "news",
+      "category": "에너지·기후기술",
+      "titleKo": "유럽의 모델링된 수소 가격 €5.70/kg은 훨씬 낮은 가격을 감당할 수 있는 산업 구매자들과 대립",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
     {
       "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
       "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
@@ -901,22 +931,6 @@
       "stream": "news",
       "category": "에너지·기후기술",
       "titleKo": "에너지는 어떻게 삶을 개선할 수 있을까요? 연결 수를 세는 것만으로는 충분하지 않은 이유",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Is the Energy Crisis Accelerating the Clean Energy Transition? 4 Takeaways from the IEA’s World Energy Outlook 2026",
-      "url": "https://cleantechnica.com/2026/11/20/is-the-energy-crisis-accelerating-the-clean-energy-transition-4-takeaways-from-the-ieas-world-energy-outlook-2026/",
-      "source": "CleanTechnica",
-      "date": "2026-11-21 01:13",
-      "categoryId": "energy",
-      "confidence": "C",
-      "stream": "news",
-      "category": "에너지·기후기술",
-      "titleKo": "에너지 위기가 청정 에너지 전환을 가속화하고 있나요? IEA의 2026년 세계 에너지 전망에서 얻은 4가지 시사점",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1366,22 +1380,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Chips can survive the space environment — can their financing?",
-      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-      "source": "TechCrunch",
-      "date": "2026-11-20 17:40",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "news",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "칩은 우주 환경에서 생존할 수 있습니다. 그렇다면 칩 관련 자금 조달은 어떨까요?",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "MassRobotics launching marine robotics facility on Boston Harbor",
       "url": "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/",
       "source": "The Robot Report",
@@ -1796,6 +1794,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+      "source": "Simon Willison",
+      "date": "2026-11-20 03:01",
+      "categoryId": "software",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "소프트웨어·개발",
+      "titleKo": "llm-gemini 0.38.1",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "GitHub Desktop now supports multiple accounts per host",
       "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
       "source": "GitHub Changelog",
@@ -2012,32 +2026,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "v2.11.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
-      "source": "GitHub · Anthropic SDK",
-      "date": "2026-11-19 19:14",
-      "categoryId": "software",
-      "confidence": "A",
-      "stream": "release",
-      "category": "소프트웨어·개발",
-      "titleKo": "v2.11.0",
-      "type": "출시·업데이트",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
     }
   ],
   "sourceHealth": {
-    "successful": 44,
-    "total": 47,
+    "successful": 37,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 11,
-    "checkedAt": "2026. 11. 22. 오전 1:34",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 22. 오전 4:24",
+    "mode": "매시간 공식 레이더"
   }
 }
