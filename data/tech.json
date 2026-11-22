@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 23. 오전 1:21",
-  "updateMode": "공식 채널 매시간 점검",
+  "updatedAt": "2026. 11. 23. 오전 1:51",
+  "updateMode": "전체 오전 6시·오후 6시 점검",
   "headline": "APOD: 2026년 11월 22일 – 주노가 포착한 목성의 소용돌이와 색상",
   "metrics": {
     "articleCount": 80,
@@ -21,11 +21,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 33,
+      "count": 34,
       "summary": "‘판단에 심각한 오류’: 베를린 예술 단지에서 열린 군사 AI 행사에 대한 분노 - 가디언",
       "latest": "2026-11-22 15:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-22T16:21:24.577Z",
+      "lastRefreshed": "2026-11-22T16:51:33.835Z",
       "themes": [
         "기회",
         "주요 기업",
@@ -40,7 +40,7 @@
       "summary": "두 개의 엔비디아 이야기",
       "latest": "2026-11-21 21:07",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-22T16:21:24.577Z",
+      "lastRefreshed": "2026-11-22T16:51:33.836Z",
       "themes": [
         "주요 기업"
       ]
@@ -53,18 +53,18 @@
       "summary": "물리적 AI 발전을 저해하는 제조 데이터 격차",
       "latest": "2026-11-21 22:25",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-22T16:21:24.577Z",
+      "lastRefreshed": "2026-11-22T16:51:33.836Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 7,
+      "count": 6,
       "summary": "연구자들이 AI 호스팅 기업에서 수개월간의 프롬프트 도용을 적발하자 OpenRouter가 3개 제공업체를 제외",
       "latest": "2026-11-22 05:06",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-22T16:21:24.577Z",
+      "lastRefreshed": "2026-11-22T16:51:33.836Z",
       "themes": []
     },
     {
@@ -75,7 +75,7 @@
       "summary": "APOD: 2026년 11월 22일 – 주노가 포착한 목성의 소용돌이와 색상",
       "latest": "2026-11-22 05:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-22T16:21:24.577Z",
+      "lastRefreshed": "2026-11-22T16:51:33.836Z",
       "themes": [
         "주요 기업",
         "영상"
@@ -89,7 +89,7 @@
       "summary": "유럽의 모델링된 수소 가격 €5.70/kg은 훨씬 낮은 가격을 감당할 수 있는 산업 구매자들과 대립",
       "latest": "2026-11-21 16:49",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-22T16:21:24.577Z",
+      "lastRefreshed": "2026-11-22T16:51:33.836Z",
       "themes": []
     },
     {
@@ -100,7 +100,7 @@
       "summary": "v16.5.0-canary.60",
       "latest": "2026-11-21 23:43",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-22T16:21:24.577Z",
+      "lastRefreshed": "2026-11-22T16:51:33.836Z",
       "themes": [
         "주요 기업"
       ]
@@ -605,6 +605,22 @@
         "layerLabel": "전문가·기술 분석"
       },
       {
+        "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZjl5ODZTYXRNU2pfRmhEdnR0ckVzdE9iVVhrX3ZmZzZTMl9acTJENHAyUUFJazdRNGw1a2pES2pjWEpuTG1qTmtfNjBCd1NTQkxXb0c0X2pwSzZtNDJpWS1HbUR6aU5PUC1Gc1N0cXNEZEV5cTd2ZnYtWk9oWU95d3lERkRUOHdSQXRFSTY2OUllVktJenpTODQzU2g?oc=5",
+        "source": "The Guardian",
+        "date": "2026-11-21 16:39",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "news",
+        "category": "인공지능",
+        "titleKo": "두 그룹이 Claude가 수학 문제를 증명하는 데 도움을 주었다는 수학자의 주장을 검증하다 - 가디언",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
         "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
         "source": "TechCrunch",
@@ -635,27 +651,25 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Can Anthropic afford to put safety first?",
-        "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-        "source": "The Verge",
-        "date": "2026-11-21 13:29",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic은 안전을 최우선으로 할 여유가 있을까요?",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Show HN: I built a game where you are an LLM's subagent",
+        "url": "https://github.com/gulivan/worker755",
+        "source": "Hacker News",
+        "date": "2026-11-22 13:56",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Show HN: LLM의 서브 에이전트가 되는 게임을 만들었습니다.",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
         "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
@@ -737,22 +751,6 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Serious cyberattack thought backed by wealthy operators",
-        "url": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
-        "source": "Hacker News",
-        "date": "2026-11-20 23:29",
-        "categoryId": "cyber",
-        "confidence": "D",
-        "stream": "community",
-        "category": "사이버보안",
-        "titleKo": "부유한 조직의 지원을 받는 것으로 추정되는 심각한 사이버 공격",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
@@ -774,6 +772,22 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "source": "Hacker News",
+      "date": "2026-11-22 13:56",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Show HN: LLM의 서브 에이전트가 되는 게임을 만들었습니다.",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Your questions about Apple HomeView’s audio, answered",
@@ -984,6 +998,22 @@
       "stream": "news",
       "category": "에너지·기후기술",
       "titleKo": "유럽의 모델링된 수소 가격 €5.70/kg은 훨씬 낮은 가격을 감당할 수 있는 산업 구매자들과 대립",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZjl5ODZTYXRNU2pfRmhEdnR0ckVzdE9iVVhrX3ZmZzZTMl9acTJENHAyUUFJazdRNGw1a2pES2pjWEpuTG1qTmtfNjBCd1NTQkxXb0c0X2pwSzZtNDJpWS1HbUR6aU5PUC1Gc1N0cXNEZEV5cTd2ZnYtWk9oWU95d3lERkRUOHdSQXRFSTY2OUllVktJenpTODQzU2g?oc=5",
+      "source": "The Guardian",
+      "date": "2026-11-21 16:39",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "두 그룹이 Claude가 수학 문제를 증명하는 데 도움을 주었다는 수학자의 주장을 검증하다 - 가디언",
       "type": "뉴스·분석",
       "themes": [],
       "official": false,
@@ -1233,22 +1263,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Serious cyberattack thought backed by wealthy operators",
-      "url": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
-      "source": "Hacker News",
-      "date": "2026-11-20 23:29",
-      "categoryId": "cyber",
-      "confidence": "D",
-      "stream": "community",
-      "category": "사이버보안",
-      "titleKo": "부유한 조직의 지원을 받는 것으로 추정되는 심각한 사이버 공격",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "Curiosity Spots Drifting Twilight Clouds",
       "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
       "source": "NASA",
@@ -1383,6 +1397,22 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
+      "title": "Trump threatens ban on US firms building AI data centres overseas - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LazU5dmNQT2FtWmdoMTJVYWdnNWJHUm9OdmxOSk5DVG96VXMtdGMwelB1eWtiZzU1Zk1sNXE2NURBNS1lcTBaRXlMY2hkXzhLWnB4ZHl2aTJKelk?oc=5",
+      "source": "BBC",
+      "date": "2026-11-20 20:54",
+      "categoryId": "ai",
+      "confidence": "B",
+      "stream": "news",
+      "category": "인공지능",
+      "titleKo": "트럼프, 해외에 AI 데이터 센터를 건설하는 미국 기업에 금지 조치 위협 - BBC",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "verified",
+      "layerLabel": "주요 언론 확인"
+    },
+    {
       "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
       "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
       "source": "NASA",
@@ -1461,22 +1491,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Trump threatens ban on US firms building AI data centres overseas - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FN1czMHRKVUtSTm5GaHkwOExlem5uSU53SnYzT3V2RE1vYnIyeDFvOFNwaV9DU1p4VHRocU9BM1Uwc1lENGdpal9hYm5uMEZEMU5YVG1tYVlUX0dNSUE?oc=5",
-      "source": "BBC",
-      "date": "2026-11-20 19:51",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "트럼프, 해외에 AI 데이터 센터를 건설하는 미국 기업에 금지 조치 위협 - BBC",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     },
     {
       "title": "Trump Says Huang Should Return to Nvidia After ‘Big Apology’ - Bloomberg.com",
@@ -2057,32 +2071,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Anthropic becomes one of world's most valuable public companies in first-of-its kind IPO - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zckUxSEg1ZjlDTjU5cUN3cW5Sd1NqaktmSm84eU4ybDRrSHNKbU42SEI0dUZVZmEyVXlVOWVFSGJXMzhCTkRhTHZLME16UEhmbHNkWHVoUEF6U0E?oc=5",
-      "source": "BBC",
-      "date": "2026-11-19 23:33",
-      "categoryId": "ai",
-      "confidence": "B",
-      "stream": "news",
-      "category": "인공지능",
-      "titleKo": "Anthropic becomes one of world's most valuable public companies in first-of-its kind IPO - BBC",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "verified",
-      "layerLabel": "주요 언론 확인"
     }
   ],
   "sourceHealth": {
-    "successful": 38,
-    "total": 41,
+    "successful": 44,
+    "total": 47,
     "configuredTotal": 37,
     "officialSources": 10,
-    "checkedAt": "2026. 11. 23. 오전 1:21",
-    "mode": "매시간 공식 레이더"
+    "checkedAt": "2026. 11. 23. 오전 1:51",
+    "mode": "하루 2회 전체 수집"
   }
 }
