@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 27. 오전 3:47",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 27. 오전 5:13",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.69",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 50,
+    "recentCount": 48,
     "sourceCount": 29,
     "officialCount": 23,
     "opportunityCount": 0
@@ -20,11 +20,11 @@
       "id": "ai",
       "code": "AI",
       "label": "인공지능",
-      "count": 29,
+      "count": 30,
       "summary": "AI로 치료된 질병 추적",
       "latest": "2026-11-26 17:16",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-26T18:47:52.264Z",
+      "lastRefreshed": "2026-11-26T20:13:27.344Z",
       "themes": [
         "주요 기업",
         "영상",
@@ -35,11 +35,11 @@
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 10,
-      "summary": "소식통에 따르면, 엔비디아 칩 구매자들에게 중국 임차인의 GPU 구매를 배제하라고 지시했다고 합니다 - CNBC",
-      "latest": "2026-11-26 15:34",
+      "count": 11,
+      "summary": "Nvidia, 동남아시아로의 칩 출하 일시 중단",
+      "latest": "2026-11-26 20:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-26T18:47:52.264Z",
+      "lastRefreshed": "2026-11-26T20:13:27.344Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -53,18 +53,18 @@
       "summary": "FCC는 원산지가 아닌 로봇 보안에 중점을 두어야 합니다.",
       "latest": "2026-11-25 17:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-26T18:47:52.264Z",
+      "lastRefreshed": "2026-11-26T20:13:27.344Z",
       "themes": []
     },
     {
       "id": "cyber",
       "code": "CYBER",
       "label": "사이버보안",
-      "count": 7,
-      "summary": "북한과 연계된 PolinRider, 악성 소프트웨어를 유포하기 위해 7,600개 이상의 GitHub 저장소를 감염시킴",
-      "latest": "2026-11-26 15:13",
+      "count": 6,
+      "summary": "ThreatsDay: 1,000만 개의 NGINX 서비스 위험에 처함, 250개 이상의 악성 확장 프로그램, AI 서버 하이재킹 + 17가지 이상의 기타 소식",
+      "latest": "2026-11-26 19:39",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-26T18:47:52.264Z",
+      "lastRefreshed": "2026-11-26T20:13:27.344Z",
       "themes": [
         "주요 기업"
       ]
@@ -77,7 +77,7 @@
       "summary": "팀 마셜과 함께하는 우주 생활의 '맨손' 미래",
       "latest": "2026-11-26 17:53",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-26T18:47:52.264Z",
+      "lastRefreshed": "2026-11-26T20:13:27.344Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +90,7 @@
       "summary": "DTE Energy, 일자리 창출 및 고객의 연료 비용 절감을 위한 미시간주 신규 태양광 프로젝트 추진",
       "latest": "2026-11-26 00:03",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-26T18:47:52.264Z",
+      "lastRefreshed": "2026-11-26T20:13:27.344Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,11 +99,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 17,
+      "count": 16,
       "summary": "v16.5.0-canary.69",
-      "latest": "2026-11-26 18:39",
+      "latest": "2026-11-26 19:20",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-26T18:47:52.264Z",
+      "lastRefreshed": "2026-11-26T20:13:27.344Z",
       "themes": [
         "주요 기업"
       ]
@@ -115,7 +115,7 @@
         "title": "v16.5.0-canary.69",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.69",
         "source": "GitHub · Next.js",
-        "date": "2026-11-26 18:39",
+        "date": "2026-11-26 19:20",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -445,6 +445,40 @@
     ],
     "analysis": [
       {
+        "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+        "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "source": "TechCrunch",
+        "date": "2026-11-26 20:03",
+        "categoryId": "chips",
+        "confidence": "C",
+        "stream": "news",
+        "category": "반도체·컴퓨팅",
+        "titleKo": "Nvidia, 동남아시아로의 칩 출하 일시 중단",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+        "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+        "source": "The Hacker News",
+        "date": "2026-11-26 19:39",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "ThreatsDay: 1,000만 개의 NGINX 서비스 위험에 처함, 250개 이상의 악성 확장 프로그램, AI 서버 하이재킹 + 17가지 이상의 기타 소식",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
         "title": "Android app developers will soon have to share their address publicly",
         "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
         "source": "The Verge",
@@ -607,38 +641,6 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The New York Times warns photographers not to update Photoshop over AI features",
-        "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-        "source": "Simon Willison",
-        "date": "2026-11-26 05:08",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "뉴욕타임스, 사진작가들에게 AI 기능이 포함된 포토샵 업데이트하지 말라고 경고",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-        "url": "https://arxiv.org/abs/2611.31284",
-        "source": "arXiv cs.AI",
-        "date": "2026-11-26 05:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "인공지능",
-        "titleKo": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
@@ -654,6 +656,24 @@
         "titleKo": "AI로 치료된 질병 추적",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+        "source": "Hacker News",
+        "date": "2026-11-26 09:44",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Google, AI 에이전트가 MCP 서버를 사용하도록 할 예정. Gmail One은 이메일을 보낼 수 없습니다.",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -725,31 +745,49 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Investigating degraded experiences across GitHub products",
-        "url": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
-        "source": "Hacker News",
-        "date": "2026-11-25 15:59",
-        "categoryId": "software",
-        "confidence": "D",
-        "stream": "community",
-        "category": "소프트웨어·개발",
-        "titleKo": "GitHub 제품 전반에 걸친 품질 저하 경험 조사",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
     {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "date": "2026-11-26 20:03",
+      "categoryId": "chips",
+      "confidence": "C",
+      "stream": "news",
+      "category": "반도체·컴퓨팅",
+      "titleKo": "Nvidia, 동남아시아로의 칩 출하 일시 중단",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "source": "The Hacker News",
+      "date": "2026-11-26 19:39",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "ThreatsDay: 1,000만 개의 NGINX 서비스 위험에 처함, 250개 이상의 악성 확장 프로그램, AI 서버 하이재킹 + 17가지 이상의 기타 소식",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
       "title": "v16.5.0-canary.69",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.69",
       "source": "GitHub · Next.js",
-      "date": "2026-11-26 18:39",
+      "date": "2026-11-26 19:20",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -1056,6 +1094,24 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "source": "Hacker News",
+      "date": "2026-11-26 09:44",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Google, AI 에이전트가 MCP 서버를 사용하도록 할 예정. Gmail One은 이메일을 보낼 수 없습니다.",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "v3.60.0",
@@ -1537,24 +1593,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "The canceled Tesla Cybertruck is the fastest-selling used truck in America",
-      "url": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
-      "source": "TechCrunch",
-      "date": "2026-11-25 19:54",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "단종된 테슬라 사이버트럭이 미국에서 가장 빠르게 판매되는 중고 트럭입니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
       "url": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
       "source": "NASA",
@@ -1803,22 +1841,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Investigating degraded experiences across GitHub products",
-      "url": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
-      "source": "Hacker News",
-      "date": "2026-11-25 15:59",
-      "categoryId": "software",
-      "confidence": "D",
-      "stream": "community",
-      "category": "소프트웨어·개발",
-      "titleKo": "GitHub 제품 전반에 걸친 품질 저하 경험 조사",
-      "type": "오픈소스",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "No one would've run Nvidia like Jensen Huang in his absence, says Cypress Semiconductor's TJ Rodgers - CNBC",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTkNMdGZVNFR6SWxqSEI3YmdaRERyMXVrb1BYYmJPUlNFbGVQQXQ1dHpCSjNOVUVjbjNwSC1JT29PRWJtRzY1cXdONzEwSXBRMHo3YUtQYzcyTG5sZHdHYVIwUW9EQnhvUmd5X1ZaNko2eDY1cDZvaEgwdG1aYjFYQXI4RVBfYVp6UnBVeDl2OU50TUhCdW0tZFF3NmptM0FGZTl4MWtVdTlNRFJKRWprZk4xbVZsS0YzWndJWHBPa3RINzZjZzhyS3FRWmRfYzhsV2N0aWI5cw?oc=5",
       "source": "CNBC",
@@ -2037,22 +2059,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-      "source": "The Hacker News",
-      "date": "2026-11-25 06:50",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "해커들이 AI 기반 공격 캠페인으로 의심되는 공격을 통해 24대의 Check Point 관리 서버를 침해함",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Trump Says He’s Open To Pardoning Nvidia CEO Jensen Huang—Who Reportedly Still Holds Security Clearance - Forbes",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTUtJeEpfeE9fd0ZaREJhazAyZkQ1dDNxWTZxWE1sQ2dVUnV5NjhnbTh3NGFUTG1oZm1fVXZZQnotRzBCTkdWSEVoZWFNN3pqeGlla29GS0hCZEQ5UWlJeG9QaHE5TkRnbHZ6MGU4Ym9mWkc2bE9uU3pCZF96LWo0STdrQlNtNE1YRkliWEhnTUZDVUVqUUxoZ2RHYTJzOElWQXRRWXBzamtvZGlVeHNGeDFEemNaRHk2THFYdk0xQWtqb04wVV9YZGtaRDdEY3NiRjJqSk5RT0tsVnRiY25fWUUzODVvQTZsN2M5ZA?oc=5",
       "source": "Forbes",
@@ -2088,11 +2094,11 @@
     }
   ],
   "sourceHealth": {
-    "successful": 44,
-    "total": 47,
+    "successful": 38,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 11. 27. 오전 3:47",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 27. 오전 5:13",
+    "mode": "매시간 공식 레이더"
   }
 }
