@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026. 11. 27. 오후 12:31",
-  "updateMode": "전체 오전 6시·오후 6시 점검",
+  "updatedAt": "2026. 11. 27. 오후 9:40",
+  "updateMode": "공식 채널 매시간 점검",
   "headline": "v16.5.0-canary.70",
   "metrics": {
     "articleCount": 80,
-    "recentCount": 38,
-    "sourceCount": 28,
-    "officialCount": 22,
+    "recentCount": 30,
+    "sourceCount": 27,
+    "officialCount": 23,
     "opportunityCount": 0
   },
   "summary": [
     "새 출시: v16.5.0-canary.70",
-    "창작 기술: MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+    "창작 기술: Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
     "인물 발언: 밴스, 워싱턴에서 엔비디아 스캔들에 대한 조사가 강화되는 가운데 젠슨 황에게 사면이 필요하지 않을 것이라고 말해 - AP 뉴스"
   ],
   "categories": [
@@ -21,25 +21,25 @@
       "code": "AI",
       "label": "인공지능",
       "count": 30,
-      "summary": "AI 덕분에 다시 즐겁게 호스팅할 수 있게 되었습니다.",
-      "latest": "2026-11-26 21:47",
+      "summary": "Claude sabotaging SOTA ML research tasks",
+      "latest": "2026-11-27 08:28",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-27T03:31:17.994Z",
+      "lastRefreshed": "2026-11-27T12:40:16.140Z",
       "themes": [
-        "주요 기업",
         "영상",
-        "음악·음성"
+        "미술·디자인",
+        "주요 기업"
       ]
     },
     {
       "id": "chips",
       "code": "CHIP",
       "label": "반도체·컴퓨팅",
-      "count": 12,
+      "count": 11,
       "summary": "Nvidia, 동남아시아로의 칩 출하 일시 중단",
       "latest": "2026-11-26 20:03",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-27T03:31:17.994Z",
+      "lastRefreshed": "2026-11-27T12:40:16.140Z",
       "themes": [
         "주요 기업",
         "기회"
@@ -53,7 +53,7 @@
       "summary": "FCC는 원산지가 아닌 로봇 보안에 중점을 두어야 합니다.",
       "latest": "2026-11-25 17:00",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-27T03:31:17.994Z",
+      "lastRefreshed": "2026-11-27T12:40:16.140Z",
       "themes": []
     },
     {
@@ -61,23 +61,21 @@
       "code": "CYBER",
       "label": "사이버보안",
       "count": 6,
-      "summary": "ThreatsDay: 1,000만 개의 NGINX 서비스 위험에 처함, 250개 이상의 악성 확장 프로그램, AI 서버 하이재킹 + 17가지 이상의 기타 소식",
-      "latest": "2026-11-26 19:39",
+      "summary": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "latest": "2026-11-27 10:32",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-27T03:31:17.994Z",
-      "themes": [
-        "주요 기업"
-      ]
+      "lastRefreshed": "2026-11-27T12:40:16.140Z",
+      "themes": []
     },
     {
       "id": "space",
       "code": "SPACE",
       "label": "우주·통신",
       "count": 11,
-      "summary": "팀 마셜과 함께하는 우주 생활의 '맨손' 미래",
-      "latest": "2026-11-26 17:53",
+      "summary": "APOD: 2026 November 27 – The Moon Watchers",
+      "latest": "2026-11-27 05:05",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-27T03:31:17.994Z",
+      "lastRefreshed": "2026-11-27T12:40:16.140Z",
       "themes": [
         "주요 기업"
       ]
@@ -90,7 +88,7 @@
       "summary": "DTE Energy, 일자리 창출 및 고객의 연료 비용 절감을 위한 미시간주 신규 태양광 프로젝트 추진",
       "latest": "2026-11-26 00:03",
       "cadence": "격주",
-      "lastRefreshed": "2026-11-27T03:31:17.994Z",
+      "lastRefreshed": "2026-11-27T12:40:16.140Z",
       "themes": [
         "주요 기업"
       ]
@@ -99,11 +97,11 @@
       "id": "software",
       "code": "DEV",
       "label": "소프트웨어·개발",
-      "count": 15,
+      "count": 16,
       "summary": "v16.5.0-canary.70",
-      "latest": "2026-11-26 23:17",
+      "latest": "2026-11-27 07:47",
       "cadence": "매일",
-      "lastRefreshed": "2026-11-27T03:31:17.994Z",
+      "lastRefreshed": "2026-11-27T12:40:16.140Z",
       "themes": [
         "주요 기업"
       ]
@@ -115,7 +113,7 @@
         "title": "v16.5.0-canary.70",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.70",
         "source": "GitHub · Next.js",
-        "date": "2026-11-26 23:17",
+        "date": "2026-11-27 07:47",
         "categoryId": "software",
         "confidence": "A",
         "stream": "release",
@@ -123,6 +121,56 @@
         "titleKo": "v16.5.0-canary.70",
         "type": "출시·업데이트",
         "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "APOD: 2026 November 27 – The Moon Watchers",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+        "source": "NASA",
+        "date": "2026-11-27 05:05",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "APOD: 2026 November 27 – The Moon Watchers",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Shivelyuch Socked In",
+        "url": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+        "source": "NASA",
+        "date": "2026-11-27 05:01",
+        "categoryId": "space",
+        "confidence": "A",
+        "stream": "release",
+        "category": "우주·통신",
+        "titleKo": "Shivelyuch Socked In",
+        "type": "출시·업데이트",
+        "themes": [],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+        "url": "https://huggingface.co/blog/video-trainium3",
+        "source": "Hugging Face Blog",
+        "date": "2026-11-27 00:00",
+        "categoryId": "ai",
+        "confidence": "A",
+        "stream": "release",
+        "category": "인공지능",
+        "titleKo": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+        "type": "출시·업데이트",
+        "themes": [
+          "영상"
+        ],
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
@@ -258,77 +306,44 @@
         "official": true,
         "sourceLayer": "official",
         "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v16.5.0-canary.66",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.66",
-        "source": "GitHub · Next.js",
-        "date": "2026-11-26 10:26",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v16.5.0-canary.66",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "v3.60.0",
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.60.0",
-        "source": "GitHub · OpenAI Python",
-        "date": "2026-11-26 07:09",
-        "categoryId": "software",
-        "confidence": "A",
-        "stream": "release",
-        "category": "소프트웨어·개발",
-        "titleKo": "v3.60.0",
-        "type": "출시·업데이트",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": true,
-        "sourceLayer": "official",
-        "layerLabel": "공식 발표·제품 원문"
-      },
-      {
-        "title": "The New York Times warns photographers not to update Photoshop over AI features",
-        "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-        "source": "Simon Willison",
-        "date": "2026-11-26 05:08",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "analysis",
-        "category": "소프트웨어·개발",
-        "titleKo": "뉴욕타임스, 사진작가들에게 AI 기능이 포함된 포토샵 업데이트하지 말라고 경고",
-        "type": "출시·업데이트",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "creative": [
       {
-        "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
-        "url": "https://arxiv.org/abs/2611.31301",
-        "source": "arXiv cs.AI",
-        "date": "2026-11-26 05:00",
+        "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+        "url": "https://huggingface.co/blog/video-trainium3",
+        "source": "Hugging Face Blog",
+        "date": "2026-11-27 00:00",
         "categoryId": "ai",
-        "confidence": "C",
-        "stream": "analysis",
+        "confidence": "A",
+        "stream": "release",
         "category": "인공지능",
-        "titleKo": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+        "titleKo": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+        "type": "출시·업데이트",
+        "themes": [
+          "영상"
+        ],
+        "official": true,
+        "sourceLayer": "official",
+        "layerLabel": "공식 발표·제품 원문"
+      },
+      {
+        "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+        "url": "https://bui.preetham.top/charts/",
+        "source": "Hacker News",
+        "date": "2026-11-26 18:37",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Largest 2D Chart library in the world using BUI: BlenderUI",
         "type": "뉴스·분석",
         "themes": [
-          "영상",
-          "음악·음성"
+          "미술·디자인"
         ],
         "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
       },
       {
         "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
@@ -423,27 +438,137 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia CEO Jensen Huang Apologizes to Staff, Says He’s in Daily Therapy - Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0kwRlRpQWRTZDRNZDhDNnM5NE91ODZCSkpRMzZqOWhjVHFoYVJmWFN1SkR3bHB2Y0tGUlY5QkRqeE1sSndObmIyOUEzcVRSaTJGM2FlUTFZSnc0V252ZXRLRVFqdTlvTE13UGpmVEdET1YtODZqN21FSjNCOVljQWU4bGN0TWtGVU1DcktZbTZ5WVpaaWx2Zm92dEZyNmxNYkN3TWxzVHgxN25QUmFCLTRiellMOUhh?oc=5",
-        "source": "Bloomberg",
-        "date": "2026-11-25 07:26",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "people",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "Nvidia CEO Jensen Huang Apologizes to Staff, Says He’s in Daily Therapy - Bloomberg",
-        "type": "인물 발언",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "analysis": [
+      {
+        "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+        "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+        "source": "The Hacker News",
+        "date": "2026-11-27 10:32",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+        "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+        "source": "The Hacker News",
+        "date": "2026-11-27 06:04",
+        "categoryId": "cyber",
+        "confidence": "C",
+        "stream": "news",
+        "category": "사이버보안",
+        "titleKo": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Context Scaling: A New Frontier of AI Scaling",
+        "url": "https://arxiv.org/abs/2611.33160",
+        "source": "arXiv cs.AI",
+        "date": "2026-11-27 05:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "Context Scaling: A New Frontier of AI Scaling",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "General-Purpose Decision Models for AI Configuration Tuning",
+        "url": "https://arxiv.org/abs/2611.33190",
+        "source": "arXiv cs.AI",
+        "date": "2026-11-27 05:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "General-Purpose Decision Models for AI Configuration Tuning",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+        "url": "https://arxiv.org/abs/2611.33304",
+        "source": "arXiv cs.AI",
+        "date": "2026-11-27 05:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+        "url": "https://arxiv.org/abs/2611.33322",
+        "source": "arXiv cs.AI",
+        "date": "2026-11-27 05:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Confidence scores for gated automation of large language models",
+        "url": "https://arxiv.org/abs/2611.33394",
+        "source": "arXiv cs.AI",
+        "date": "2026-11-27 05:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "Confidence scores for gated automation of large language models",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
+      {
+        "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+        "url": "https://arxiv.org/abs/2611.33402",
+        "source": "arXiv cs.AI",
+        "date": "2026-11-27 05:00",
+        "categoryId": "ai",
+        "confidence": "C",
+        "stream": "analysis",
+        "category": "인공지능",
+        "titleKo": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "analysis",
+        "layerLabel": "전문가·기술 분석"
+      },
       {
         "title": "Nvidia hits pause on chip shipments to Southeast Asia",
         "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
@@ -509,141 +634,59 @@
         "official": false,
         "sourceLayer": "analysis",
         "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
-        "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-        "source": "TechCrunch",
-        "date": "2026-11-26 16:00",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "Anthropic IPO와 마찬가지로, Grand Theft Auto VI는 효율성이 미덕이 아닌 이유를 입증합니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "GTA VI developers vote against unionization",
-        "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
-        "source": "The Verge",
-        "date": "2026-11-26 15:55",
-        "categoryId": "software",
-        "confidence": "C",
-        "stream": "news",
-        "category": "소프트웨어·개발",
-        "titleKo": "GTA VI 개발자, 노조 결성에 반대 투표",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ydHdQWUpYRU16SjgyRXBibzZ6UFN4RThEMUV3VkRJV0NCNmk1Nm1wTFlvTnpsLS1VVHdmczlIQjZRN0RKZnlBdm5oSmFUY0lCaWV5dTY2bDBiRHcyV0lfMjk3ZS1TQW1oM3F0TTJFRdIBdEFVX3lxTE1hb0dnX1V6U3RzcVduQUhNcHBONFFMMVVaaThOcEc5dy1EOVMwUXBVM1lSMWljNm12aTJXT0FvMWdkaUdyTEZyZGY0dHJ0R3kxQllKQ2RaMl9MYmxIY2pHcTh6TWVDRkhCSkVqUVUtbVFOam81?oc=5",
-        "source": "CNBC",
-        "date": "2026-11-26 15:34",
-        "categoryId": "chips",
-        "confidence": "C",
-        "stream": "news",
-        "category": "반도체·컴퓨팅",
-        "titleKo": "소식통에 따르면, 엔비디아 칩 구매자들에게 중국 임차인의 GPU 구매를 배제하라고 지시했다고 합니다 - CNBC",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-        "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-        "source": "The Hacker News",
-        "date": "2026-11-26 15:13",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "북한과 연계된 PolinRider, 악성 소프트웨어를 유포하기 위해 7,600개 이상의 GitHub 저장소를 감염시킴",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "The Download: Better bionic hands and AI’s natural-gas boom",
-        "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
-        "source": "MIT Technology Review",
-        "date": "2026-11-26 13:10",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "다운로드: 더 나은 생체공학 손과 AI의 천연가스 붐",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-        "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
-        "source": "The Hacker News",
-        "date": "2026-11-26 10:57",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "가장 많이 찾는 항목: 보안 제어를 우회하는 피싱 키트 및 기법",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-        "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-        "source": "The Hacker News",
-        "date": "2026-11-26 10:57",
-        "categoryId": "cyber",
-        "confidence": "C",
-        "stream": "news",
-        "category": "사이버보안",
-        "titleKo": "1Password 해킹, GitHub 계정 침해로 고객 데이터 및 소스 코드 도난당함",
-        "type": "오픈소스",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
-      },
-      {
-        "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
-        "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
-        "source": "The Verge",
-        "date": "2026-11-26 09:54",
-        "categoryId": "ai",
-        "confidence": "C",
-        "stream": "news",
-        "category": "인공지능",
-        "titleKo": "42개 주 법무장관이 Character.AI의 사용자 채팅 판매를 막으려 노력 중",
-        "type": "뉴스·분석",
-        "themes": [],
-        "official": false,
-        "sourceLayer": "analysis",
-        "layerLabel": "전문가·기술 분석"
       }
     ],
     "community": [
+      {
+        "title": "Claude sabotaging SOTA ML research tasks",
+        "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+        "source": "Hacker News",
+        "date": "2026-11-27 08:28",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Claude sabotaging SOTA ML research tasks",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "The group chat where your AI talks behind your back",
+        "url": "https://construct22.com/",
+        "source": "Hacker News",
+        "date": "2026-11-27 06:44",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "The group chat where your AI talks behind your back",
+        "type": "뉴스·분석",
+        "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Google will show solo Android developers' phone numbers and addresses",
+        "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+        "source": "Hacker News",
+        "date": "2026-11-27 03:11",
+        "categoryId": "software",
+        "confidence": "D",
+        "stream": "community",
+        "category": "소프트웨어·개발",
+        "titleKo": "Google will show solo Android developers' phone numbers and addresses",
+        "type": "뉴스·분석",
+        "themes": [
+          "주요 기업"
+        ],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
       {
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
@@ -656,6 +699,24 @@
         "titleKo": "AI 덕분에 다시 즐겁게 호스팅할 수 있게 되었습니다.",
         "type": "뉴스·분석",
         "themes": [],
+        "official": false,
+        "sourceLayer": "community",
+        "layerLabel": "커뮤니티 신호"
+      },
+      {
+        "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+        "url": "https://bui.preetham.top/charts/",
+        "source": "Hacker News",
+        "date": "2026-11-26 18:37",
+        "categoryId": "ai",
+        "confidence": "D",
+        "stream": "community",
+        "category": "인공지능",
+        "titleKo": "Largest 2D Chart library in the world using BUI: BlenderUI",
+        "type": "뉴스·분석",
+        "themes": [
+          "미술·디자인"
+        ],
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
@@ -675,87 +736,47 @@
         "official": false,
         "sourceLayer": "community",
         "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-        "source": "Hacker News",
-        "date": "2026-11-26 09:44",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Google, AI 에이전트가 MCP 서버를 사용하도록 할 예정. Gmail One은 이메일을 보낼 수 없습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "OpenAI may be in cost control mode",
-        "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-        "source": "Hacker News",
-        "date": "2026-11-26 07:33",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "OpenAI가 비용 관리 모드일 수 있습니다.",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-        "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-        "source": "Hacker News",
-        "date": "2026-11-26 03:36",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "OpenAI, GPT-6.2 사용량 축소: Astra는 40% 더 빠르게, Sol은 25% 더 빠르게 한도에 도달",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
-      },
-      {
-        "title": "Much shorter version of GRH Lean verification from Anthropic",
-        "url": "https://github.com/lsernau/grh-lean",
-        "source": "Hacker News",
-        "date": "2026-11-25 21:48",
-        "categoryId": "ai",
-        "confidence": "D",
-        "stream": "community",
-        "category": "인공지능",
-        "titleKo": "Anthropic의 GRH Lean 검증의 훨씬 짧은 버전",
-        "type": "뉴스·분석",
-        "themes": [
-          "주요 기업"
-        ],
-        "official": false,
-        "sourceLayer": "community",
-        "layerLabel": "커뮤니티 신호"
       }
     ]
   },
   "news": [
     {
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "source": "The Hacker News",
+      "date": "2026-11-27 10:32",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Claude sabotaging SOTA ML research tasks",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "source": "Hacker News",
+      "date": "2026-11-27 08:28",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Claude sabotaging SOTA ML research tasks",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
       "title": "v16.5.0-canary.70",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.70",
       "source": "GitHub · Next.js",
-      "date": "2026-11-26 23:17",
+      "date": "2026-11-27 07:47",
       "categoryId": "software",
       "confidence": "A",
       "stream": "release",
@@ -763,6 +784,202 @@
       "titleKo": "v16.5.0-canary.70",
       "type": "출시·업데이트",
       "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "source": "Hacker News",
+      "date": "2026-11-27 06:44",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "The group chat where your AI talks behind your back",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "source": "The Hacker News",
+      "date": "2026-11-27 06:04",
+      "categoryId": "cyber",
+      "confidence": "C",
+      "stream": "news",
+      "category": "사이버보안",
+      "titleKo": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "APOD: 2026 November 27 – The Moon Watchers",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+      "source": "NASA",
+      "date": "2026-11-27 05:05",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "APOD: 2026 November 27 – The Moon Watchers",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Shivelyuch Socked In",
+      "url": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+      "source": "NASA",
+      "date": "2026-11-27 05:01",
+      "categoryId": "space",
+      "confidence": "A",
+      "stream": "release",
+      "category": "우주·통신",
+      "titleKo": "Shivelyuch Socked In",
+      "type": "출시·업데이트",
+      "themes": [],
+      "official": true,
+      "sourceLayer": "official",
+      "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "source": "arXiv cs.AI",
+      "date": "2026-11-27 05:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "Context Scaling: A New Frontier of AI Scaling",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "url": "https://arxiv.org/abs/2611.33190",
+      "source": "arXiv cs.AI",
+      "date": "2026-11-27 05:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "General-Purpose Decision Models for AI Configuration Tuning",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+      "url": "https://arxiv.org/abs/2611.33304",
+      "source": "arXiv cs.AI",
+      "date": "2026-11-27 05:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+      "url": "https://arxiv.org/abs/2611.33322",
+      "source": "arXiv cs.AI",
+      "date": "2026-11-27 05:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Confidence scores for gated automation of large language models",
+      "url": "https://arxiv.org/abs/2611.33394",
+      "source": "arXiv cs.AI",
+      "date": "2026-11-27 05:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "Confidence scores for gated automation of large language models",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+      "url": "https://arxiv.org/abs/2611.33402",
+      "source": "arXiv cs.AI",
+      "date": "2026-11-27 05:00",
+      "categoryId": "ai",
+      "confidence": "C",
+      "stream": "analysis",
+      "category": "인공지능",
+      "titleKo": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+      "type": "뉴스·분석",
+      "themes": [],
+      "official": false,
+      "sourceLayer": "analysis",
+      "layerLabel": "전문가·기술 분석"
+    },
+    {
+      "title": "Google will show solo Android developers' phone numbers and addresses",
+      "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+      "source": "Hacker News",
+      "date": "2026-11-27 03:11",
+      "categoryId": "software",
+      "confidence": "D",
+      "stream": "community",
+      "category": "소프트웨어·개발",
+      "titleKo": "Google will show solo Android developers' phone numbers and addresses",
+      "type": "뉴스·분석",
+      "themes": [
+        "주요 기업"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
+    },
+    {
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "source": "Hugging Face Blog",
+      "date": "2026-11-27 00:00",
+      "categoryId": "ai",
+      "confidence": "A",
+      "stream": "release",
+      "category": "인공지능",
+      "titleKo": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "type": "출시·업데이트",
+      "themes": [
+        "영상"
+      ],
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
@@ -832,6 +1049,24 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
+    },
+    {
+      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "url": "https://bui.preetham.top/charts/",
+      "source": "Hacker News",
+      "date": "2026-11-26 18:37",
+      "categoryId": "ai",
+      "confidence": "D",
+      "stream": "community",
+      "category": "인공지능",
+      "titleKo": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "type": "뉴스·분석",
+      "themes": [
+        "미술·디자인"
+      ],
+      "official": false,
+      "sourceLayer": "community",
+      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Android app developers will soon have to share their address publicly",
@@ -1114,42 +1349,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-      "source": "Hacker News",
-      "date": "2026-11-26 09:44",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Google, AI 에이전트가 MCP 서버를 사용하도록 할 예정. Gmail One은 이메일을 보낼 수 없습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
-      "title": "OpenAI may be in cost control mode",
-      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-      "source": "Hacker News",
-      "date": "2026-11-26 07:33",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "OpenAI가 비용 관리 모드일 수 있습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
-    },
-    {
       "title": "EXCLUSIVE: US chip curbs, distillation crackdown threaten Chinese AI model development, sources say - Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCSmFGNUd6WVlZNXlwZXl6Yk5oYUFnTm9ISC1ZSWdmbi1aZ3R1b1Q3bXhpaXVoSXRaNy1hcWdSWHdCd2RFVGx6WlhYN25pZXI4Q2xHWGpQVkJYN2MwTk1ma2NERnBKTHhBUXpHSElLeFdwdEpVZFZZcWhxMm1QUEVpeHRYSXczYXNJelJTUWtHdEkxSGpud2NxeV90R0VjTXVkTmE4U0JRZWVRM1RFUmt3UGhIbw?oc=5",
       "source": "Reuters",
@@ -1248,107 +1447,6 @@
       "layerLabel": "공식 발표·제품 원문"
     },
     {
-      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-      "url": "https://arxiv.org/abs/2611.31284",
-      "source": "arXiv cs.AI",
-      "date": "2026-11-26 05:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
-      "url": "https://arxiv.org/abs/2611.31301",
-      "source": "arXiv cs.AI",
-      "date": "2026-11-26 05:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
-      "type": "뉴스·분석",
-      "themes": [
-        "영상",
-        "음악·음성"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
-      "url": "https://arxiv.org/abs/2611.31427",
-      "source": "arXiv cs.AI",
-      "date": "2026-11-26 05:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Taxi: Analyzing Agents at (Real) Scale",
-      "url": "https://arxiv.org/abs/2611.31457",
-      "source": "arXiv cs.AI",
-      "date": "2026-11-26 05:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "Taxi: Analyzing Agents at (Real) Scale",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
-      "url": "https://arxiv.org/abs/2611.31475",
-      "source": "arXiv cs.AI",
-      "date": "2026-11-26 05:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Evaluating Frontier-Model Agent Skills with Open-Weight Models in a Science Gateway",
-      "url": "https://arxiv.org/abs/2611.31480",
-      "source": "arXiv cs.AI",
-      "date": "2026-11-26 05:00",
-      "categoryId": "ai",
-      "confidence": "C",
-      "stream": "analysis",
-      "category": "인공지능",
-      "titleKo": "Evaluating Frontier-Model Agent Skills with Open-Weight Models in a Science Gateway",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Nvidia halts chip shipments to south-east Asia - Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbDFtRGxaSmJxdndYb1VMbTBjLWJGOExCdUdULWNlRXF6RG90SDQzQkdYb29GbmI3Q1J5UHp2Yk80N3R1Wkl4UXlfWFdFd0VmQ2FEYUZXdnFpbnR3SndRWkh6dVJYQlY1cHhQMWVkTEpJaV9lbHJteGc1ai0tS0ppYWxuWVI?oc=5",
       "source": "Financial Times",
@@ -1365,24 +1463,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-      "source": "Hacker News",
-      "date": "2026-11-26 03:36",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "OpenAI, GPT-6.2 사용량 축소: Astra는 40% 더 빠르게, Sol은 25% 더 빠르게 한도에 도달",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
@@ -1555,24 +1635,6 @@
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Much shorter version of GRH Lean verification from Anthropic",
-      "url": "https://github.com/lsernau/grh-lean",
-      "source": "Hacker News",
-      "date": "2026-11-25 21:48",
-      "categoryId": "ai",
-      "confidence": "D",
-      "stream": "community",
-      "category": "인공지능",
-      "titleKo": "Anthropic의 GRH Lean 검증의 훨씬 짧은 버전",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "community",
-      "layerLabel": "커뮤니티 신호"
     },
     {
       "title": "FCC approves SpaceX plan to put AI data centers in space",
@@ -1831,38 +1893,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
-      "url": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
-      "source": "NASA",
-      "date": "2026-11-25 16:47",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "NASA 고다드 우주비행센터의 예산 분석가가 어린 시절의 꿈을 이루고 커리어의 정점에 서다",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Eye of the Sahara",
-      "url": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
-      "source": "NASA",
-      "date": "2026-11-25 16:21",
-      "categoryId": "space",
-      "confidence": "A",
-      "stream": "release",
-      "category": "우주·통신",
-      "titleKo": "사하라의 눈",
-      "type": "출시·업데이트",
-      "themes": [],
-      "official": true,
-      "sourceLayer": "official",
-      "layerLabel": "공식 발표·제품 원문"
-    },
-    {
       "title": "Claude Code settings.local.json Secrets Hit Docker Hub - GitGuardian Blog",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40Qkk1c0cxQ1llaUhBaGNaQzhycVdBSk1PY1JCZWcxbVVBXzlSQXlla2hjT0VmSFVrV3E5SUJxcDRfYnlkQWdpQ2lLLWhwbW5ZZ3ZsbXRCd2VtekJsMzlST180VFpGdlZjRTZnX0tpTDdvSllK?oc=5",
       "source": "GitGuardian Blog",
@@ -1963,22 +1993,6 @@
       "layerLabel": "전문가·기술 분석"
     },
     {
-      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-      "source": "The Hacker News",
-      "date": "2026-11-25 12:30",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "미국 재무부 금융범죄국, 사이버 침입 후 일부 시스템 오프라인 전환",
-      "type": "뉴스·분석",
-      "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
       "title": "Would AI lie to you? Research finds China’s AI agents can deceive users - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBuYlJ2NXFLM2ZVcVZLM1dxbnpjNFV5eHVIdk9lZ1YzcHp3WVFrT2dOS3BnLXBPcTExS2hxYXhpeXdrZU1nVzFKaHBCWmM5UTJtdFBFWGF1MVdaSy0xcHBfM2lrczI5VkU?oc=5",
       "source": "Reuters",
@@ -2006,24 +2020,6 @@
       "titleKo": "AI는 곧 이론 물리학자의 의미를 바꿀 수 있습니다.",
       "type": "뉴스·분석",
       "themes": [],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
-    },
-    {
-      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-      "source": "The Hacker News",
-      "date": "2026-11-25 10:43",
-      "categoryId": "cyber",
-      "confidence": "C",
-      "stream": "news",
-      "category": "사이버보안",
-      "titleKo": "OpenAI 전직 직원이 회사 사무실 도청 혐의로 1백만 달러의 보석금을 받았습니다.",
-      "type": "뉴스·분석",
-      "themes": [
-        "주요 기업"
-      ],
       "official": false,
       "sourceLayer": "analysis",
       "layerLabel": "전문가·기술 분석"
@@ -2077,32 +2073,14 @@
       "official": true,
       "sourceLayer": "official",
       "layerLabel": "공식 발표·제품 원문"
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang Apologizes to Staff, Says He’s in Daily Therapy - Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0kwRlRpQWRTZDRNZDhDNnM5NE91ODZCSkpRMzZqOWhjVHFoYVJmWFN1SkR3bHB2Y0tGUlY5QkRqeE1sSndObmIyOUEzcVRSaTJGM2FlUTFZSnc0V252ZXRLRVFqdTlvTE13UGpmVEdET1YtODZqN21FSjNCOVljQWU4bGN0TWtGVU1DcktZbTZ5WVpaaWx2Zm92dEZyNmxNYkN3TWxzVHgxN25QUmFCLTRiellMOUhh?oc=5",
-      "source": "Bloomberg",
-      "date": "2026-11-25 07:26",
-      "categoryId": "chips",
-      "confidence": "C",
-      "stream": "people",
-      "category": "반도체·컴퓨팅",
-      "titleKo": "Nvidia CEO Jensen Huang Apologizes to Staff, Says He’s in Daily Therapy - Bloomberg",
-      "type": "인물 발언",
-      "themes": [
-        "주요 기업"
-      ],
-      "official": false,
-      "sourceLayer": "analysis",
-      "layerLabel": "전문가·기술 분석"
     }
   ],
   "sourceHealth": {
-    "successful": 41,
-    "total": 47,
+    "successful": 38,
+    "total": 41,
     "configuredTotal": 37,
     "officialSources": 8,
-    "checkedAt": "2026. 11. 27. 오후 12:31",
-    "mode": "하루 2회 전체 수집"
+    "checkedAt": "2026. 11. 27. 오후 9:40",
+    "mode": "매시간 공식 레이더"
   }
 }
